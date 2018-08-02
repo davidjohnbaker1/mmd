@@ -1,0 +1,13 @@
+ names(essen)
+ ggplot(essen[glob.duration < 50], aes(glob.duration)) + geom_density()
+ # Set Seconds
+ timeSubset <- essen[glob.duration > 7 & glob.duration < 9]
+ ggplot(timeSubset, aes(glob.duration)) + geom_density()
+ timeSubset
+ ggplot(timeSubset, aes(x = note.dens, y = step.cont.loc.var)) + geom_point()
+ 
+ 
+ # step.cont.loc.var
+ 
+ timeSubset[step.cont.loc.var > 2  ]
+ 
