@@ -1,6 +1,79 @@
-# Introduction {#intro}
+# Theoretical Background and Rationale {#intro}
 
-## Prospectus Inclusion
+## Significance of the Study 
+
+All students pursing a Bachelor's degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation [@NASM201718HandbookPdf2018] VIII.6.B.2.A. 
+This skill is a demanding process that requires students to listen to a melody, retain it in memory, and then use their knowledge of Western musical notation in order to recreate teh mental image of the melody on paper in a limited time frame.
+Some researchers have estimated that XX amount of processes are needed to sucessfully execute this task FIND CITATION. 
+
++ People are not good at this 
+  + Wennerstronm (1989) said people at IU are not good at aural skills and sight singing p.163 (k7)
+  + Julliard (1953,p. 48) incoming students have untrained ear (k7)
+  
++ nice quote from chittum 1967 "the da is past when teachers can say, you either have it or you don't" (p.73)
++ Start of a big Journey back then, even more now (almost 2 decades since Karpinski, 2000)
+ 
++++++++++++++
+Pitch in Karpinki 
+
++ Pitch Matching (Work being done with Seatle, Pfordresher)
++ Pitch Memory (See Snyder)
++ Pitch Collection and Chunking 
++ Infereing Tonic
++ Melodic Contour 
++ Scale Degrees 
++ Identification of Intervals
++ Identifcaiton of Scale Types 
++ Solimization Systems 
++ AP
+
++++++++++++++++++++
+Melodic Dictation 
+
+Kraft 1999 -- First part of book is for melodic dictation
+Benward and Lolosick 1996a -- Melodic Dictation
+
+Karpinski 1990 Has its own model for melodic perception?? 
+
+Page 66 of K -- Relevant Melodic Contour Information 
+page 68 of K -- Deutsch -- Familiar systems are better (now we have IDyOM)
+Dowling and Harwood 1986 124-44 Melodic expectancy (probably better for Pearce)
+READ Sloboda and Parker 1985
+
+THURSDAY FOLLOW UP!
+Follow Ups of Note Max 
+  + Tallarico 1974
+  + Long 1977
+  + Pembrook 1983
+  
+7-11 Notes? 
+Marple ND reports that most things land in 7 +/-2, But not mention of IC! 
+Found that if you make it rhythmic, goes up to 6-10, rhythm helps, but maybe it's just shorter time
+
+Potter 1980 -- most people chunk (obvs question of segmentation)
+Deutsch 1980 rhtym alines with pich, people do better than non-hierarchy 
+Oura 1991 -- MODEL OF HOW MANY PITCHES PEOPLE REMEMBER, use for corpus question on pattern matching
+
+Hofsetter 1981 -- people do better in bottom 4 time than 8 (again maybe confounded by IC)
+
+Page 98 in Karpinksi has lenght and number of playings, 
+
+Effect of tempo in  Unks, Bowers, and Eagle 1993
+
+figure 3.1 is Karpinski method to understand dictation process
+
+
+
++++++++++++++++
+Define the rationale and significance for this study
+talk about what the processes are that go into this 
+What are the implicit transfer claims of this? 
+    + discussed in chapter 2 (history and rationale, Karpinski)
+    + transfer literature also dicussed in chapter 2
+Is there literature specifically on this? Yes, but scant.
+
+
+what contributes to this whole process?
 
 Note that there are two fields, both of which's literature can help out.
 
@@ -21,3 +94,7 @@ Note that there are two fields, both of which's literature can help out.
 This section will list factors that are believed to be important to modeling melodic dictation.
 Need to have both individual and musical parameters.
 Ends with polymorphic view of musicianship.
+
+
+===================
+63 words at start 
