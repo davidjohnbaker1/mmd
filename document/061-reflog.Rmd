@@ -1,0 +1,13 @@
+# Reference Log 
+
+## To Incorporate
+
+* [@margulisModelMelodicExpectation2005] -- Margulis Model 
+* [@nicholsScoreOneJazz2018] -- Specialty jazz background helps in tasks, WMC
+* [@NASM201718HandbookPdf2018] -- Fix intext
+* [@schumann1860musikalische] -- Quote about why people should do ear training
+* [@smith1934solfege] -- Quote from K2001 about why people should do ear training
+* [@longRelationshipsPitchMemory1977] -- Musical Characteristics predict memory
+* [@taylorStrategiesMemoryShort1983] -- Great citation that lots of things change memory, even structural! 
+* [@tallaricoStudyThreePhase] -- Long boring talk on STM, LTM
+* [@ouraConstructingRepresentationMelody1991a] -- Awful experimental design that says people use structual tones

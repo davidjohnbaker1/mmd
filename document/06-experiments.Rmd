@@ -4,6 +4,13 @@
 
 ## Selection of Melodies
 
+* Tonalness, Countour, Number of Pitches - Long 1997 Tonalness good predictor
+* Tonalness better than atonal (Frances 1958) Zenatti 1969 -- from Long 1997
+* Taylor 1977 -- IC predicts when contour and lenght constant 
+* Long 1997 -- IC affects information 
+
+
+
 ## Experiment I and II
 
 ## Experiment III?

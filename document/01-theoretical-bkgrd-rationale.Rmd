@@ -79,6 +79,8 @@ Note that there are two fields, both of which's literature can help out.
 
 ### Theoretical Background
 
+Lots of older studies looking at this listed on page 2 of Taylor and Pembrook 1983 (List here)
+
 #### Computational Musicology 
 
 #### Music Psychology and Memory for Melody
@@ -94,6 +96,9 @@ Note that there are two fields, both of which's literature can help out.
 This section will list factors that are believed to be important to modeling melodic dictation.
 Need to have both individual and musical parameters.
 Ends with polymorphic view of musicianship.
+  + Nichols, Wolner, Halpern 2018
+  + Niels paper on Jazz similarity
+  + My paper on Wagner 
 
 
 ===================
