@@ -1,0 +1,23 @@
+# Introduction {#intro}
+
+## Prospectus Inclusion
+
+Note that there are two fields, both of which's literature can help out.
+
+### Theoretical Background
+
+#### Computational Musicology 
+
+#### Music Psychology and Memory for Melody
+
+### Rationale 
+
+#### Computational Musicology
+
+#### Music Psychology 
+
+### Factors
+
+This section will list factors that are believed to be important to modeling melodic dictation.
+Need to have both individual and musical parameters.
+Ends with polymorphic view of musicianship.

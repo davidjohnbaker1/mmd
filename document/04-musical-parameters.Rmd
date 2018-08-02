@@ -1,0 +1,14 @@
+# Musical Parameters
+
+## Inspiration from Computational Linguistics 
+
+## Feature Extraction in Music 
+
+### Symbolic Approaches (Static)
+
+### Symbolic Appoaches (Dynamic)
+
+### Behavioral Results 
+
+## Point is that these features can stand in for intuition
+

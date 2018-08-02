@@ -1,0 +1,20 @@
+# Corpus
+
+## Why need new data 
+
+## History of Corpus Studies 
+
+## Current State in Music
+
+## Limitations
+
+## Boring Corpus Stuff
+
+### Encoding Process
+
+### Sampling Criteria
+
+### Situation of Corpus Methods
+
+## Descriptives of the Corpus compared to Essen/Dutch/Whatever
+
