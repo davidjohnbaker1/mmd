@@ -1,10 +1,35 @@
 # Theoretical Background and Rationale {#intro}
 
-## Significance of the Study 
+## Significance of the Study (Why Important)
 
 All students pursing a Bachelor's degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation [@NASM201718HandbookPdf2018] VIII.6.B.2.A. 
 This skill is a demanding process that requires students to listen to a melody, retain it in memory, and then use their knowledge of Western musical notation in order to recreate teh mental image of the melody on paper in a limited time frame.
 Some researchers have estimated that XX amount of processes are needed to sucessfully execute this task FIND CITATION. 
+
+## Order of Chapter 1
+
+* Hook on why this is important
+* What is melodic dictation?
+  + Process (reasons of why factors)
+  + Who has talked about it before?
+  + Why is it important -- training ear and transfer
+* Most of the people who are talking about this are pedagogical, really it's perceptual 
+* Here is huge list of literature of things that might contribute
+  + Pedagogical factors
+  + Cognitive Factors
+  + Musical Factors 
+  + All of these are moving parts, need better tools to describe
+* While this is the narrative, does not conform to updated view of polymorphism of musicianship
+
+## Order of Chapter 2
+
+* Most of this literature comes from pedagogy
+* All quotes about people should be able to do this
+* Long history of Aural Skills 
+  + Older people
+  + Current Methods
+  + Their goals 
+  + Their assumptions 
 
 + People are not good at this 
   + Wennerstronm (1989) said people at IU are not good at aural skills and sight singing p.163 (k7)
@@ -13,6 +38,31 @@ Some researchers have estimated that XX amount of processes are needed to sucess
 + nice quote from chittum 1967 "the da is past when teachers can say, you either have it or you don't" (p.73)
 + Start of a big Journey back then, even more now (almost 2 decades since Karpinski, 2000)
  
+ 
+### Theoretical Background
+
+Lots of older studies looking at this listed on page 2 of Taylor and Pembrook 1983 (List here)
+
+#### Computational Musicology 
+
+#### Music Psychology and Memory for Melody
+
+### Rationale 
+
+#### Computational Musicology
+
+#### Music Psychology 
+
+### Factors
+
+This section will list factors that are believed to be important to modeling melodic dictation.
+Need to have both individual and musical parameters.
+Ends with polymorphic view of musicianship.
+  + Nichols, Wolner, Halpern 2018
+  + Niels paper on Jazz similarity
+  + My paper on Wagner 
+
+
 +++++++++++++
 Pitch in Karpinki 
 
@@ -76,29 +126,6 @@ Is there literature specifically on this? Yes, but scant.
 what contributes to this whole process?
 
 Note that there are two fields, both of which's literature can help out.
-
-### Theoretical Background
-
-Lots of older studies looking at this listed on page 2 of Taylor and Pembrook 1983 (List here)
-
-#### Computational Musicology 
-
-#### Music Psychology and Memory for Melody
-
-### Rationale 
-
-#### Computational Musicology
-
-#### Music Psychology 
-
-### Factors
-
-This section will list factors that are believed to be important to modeling melodic dictation.
-Need to have both individual and musical parameters.
-Ends with polymorphic view of musicianship.
-  + Nichols, Wolner, Halpern 2018
-  + Niels paper on Jazz similarity
-  + My paper on Wagner 
 
 
 ===================

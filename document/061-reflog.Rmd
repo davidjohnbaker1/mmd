@@ -9,5 +9,11 @@
 * [@smith1934solfege] -- Quote from K2001 about why people should do ear training
 * [@longRelationshipsPitchMemory1977] -- Musical Characteristics predict memory
 * [@taylorStrategiesMemoryShort1983] -- Great citation that lots of things change memory, even structural! 
-* [@tallaricoStudyThreePhase] -- Long boring talk on STM, LTM
+* [@tallaricoStudyThreePhase1974] -- Long boring talk on STM, LTM
 * [@ouraConstructingRepresentationMelody1991a] -- Awful experimental design that says people use structual tones
+* [@buonviriExplorationUndergraduateMusic2014] -- Call for experimental, suggestions as to what factors might contribute, use of deductive reasoning, qualitative
+* [@buonviriEffectsPreparatorySinging2015] -- People need to focus right away, not establish, distractors
+* [@buonviriEffectsMusicNotation2015] -- Showing people visual music does not help much.
+* [@buonviriEffectsTwoListening2017] -- Listening helps with other things, no best strategy in terms of writing
+* [@buonviriMelodicDictationInstruction2015] -- Literature to say people are bad at teaching melodic dictation and we don't know a lot about it, also interesting stuff about what solfege systems people use
+* [@pembrookInterferenceTranscriptionProcess24] -- Great study that needs longer read from me that lays out what controlled music cognition experiment might look like, also good stuff about features
