@@ -5,8 +5,10 @@ Repo for my PhD Dissertation: Modeling Melodic Dictation
 
 ## Tasks for David 
 
+* [ ] Clean up citations at start 
 * [ ] Get biblio listings of all features studies on page 2 of Taylor and Pembrook 1983
-* [ ] Long Read of Pembrook 1986 for rationale 
+* [X] Long Read of Pembrook 1986 for rationale 
+
 
 
 ## Work Log 

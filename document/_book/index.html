@@ -25,7 +25,7 @@
 <meta name="author" content="David John Baker">
 
 
-<meta name="date" content="2018-08-06">
+<meta name="date" content="2018-08-08">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -131,14 +131,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">A Minimal Book Example</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Significance of the Study</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#chapter-overview"><i class="fa fa-check"></i><b>1.1</b> Chapter Overview</a></li>
+</ul></li>
 <li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Theoretical Background and Rationale</a><ul>
-<li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#significance-of-the-study"><i class="fa fa-check"></i><b>2.1</b> Significance of the Study</a></li>
-<li class="chapter" data-level="2.2" data-path="intro.html"><a href="intro.html#order-of-chapter-1"><i class="fa fa-check"></i><b>2.2</b> Order of Chapter 1</a></li>
-<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#order-of-chapter-2"><i class="fa fa-check"></i><b>2.3</b> Order of Chapter 2</a><ul>
-<li class="chapter" data-level="2.3.1" data-path="intro.html"><a href="intro.html#theoretical-background"><i class="fa fa-check"></i><b>2.3.1</b> Theoretical Background</a></li>
-<li class="chapter" data-level="2.3.2" data-path="intro.html"><a href="intro.html#rationale"><i class="fa fa-check"></i><b>2.3.2</b> Rationale</a></li>
-<li class="chapter" data-level="2.3.3" data-path="intro.html"><a href="intro.html#factors"><i class="fa fa-check"></i><b>2.3.3</b> Factors</a></li>
+<li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#theoretical-background-and-rationale"><i class="fa fa-check"></i><b>2.1</b> Theoretical Background and Rationale</a></li>
+<li class="chapter" data-level="2.2" data-path="intro.html"><a href="intro.html#section"><i class="fa fa-check"></i><b>2.2</b> </a></li>
+<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#order-of-chapter-1"><i class="fa fa-check"></i><b>2.3</b> Order of Chapter 1</a></li>
+<li class="chapter" data-level="2.4" data-path="intro.html"><a href="intro.html#order-of-chapter-2"><i class="fa fa-check"></i><b>2.4</b> Order of Chapter 2</a><ul>
+<li class="chapter" data-level="2.4.1" data-path="intro.html"><a href="intro.html#theoretical-background"><i class="fa fa-check"></i><b>2.4.1</b> Theoretical Background</a></li>
+<li class="chapter" data-level="2.4.2" data-path="intro.html"><a href="intro.html#rationale"><i class="fa fa-check"></i><b>2.4.2</b> Rationale</a></li>
+<li class="chapter" data-level="2.4.3" data-path="intro.html"><a href="intro.html#factors"><i class="fa fa-check"></i><b>2.4.3</b> Factors</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="history-of-aural-skills.html"><a href="history-of-aural-skills.html"><i class="fa fa-check"></i><b>3</b> History of Aural Skills</a><ul>
@@ -203,6 +206,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="9" data-path="reference-log.html"><a href="reference-log.html"><i class="fa fa-check"></i><b>9</b> Reference Log</a><ul>
 <li class="chapter" data-level="9.1" data-path="reference-log.html"><a href="reference-log.html#to-incorporate"><i class="fa fa-check"></i><b>9.1</b> To Incorporate</a></li>
+<li class="chapter" data-level="9.2" data-path="reference-log.html"><a href="reference-log.html#chapter-3"><i class="fa fa-check"></i><b>9.2</b> Chapter 3</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
@@ -228,24 +232,73 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="header">
 <h1 class="title">Modeling Melodic Dictation</h1>
 <h4 class="author"><em>David John Baker</em></h4>
-<h4 class="date"><em>2018-08-06</em></h4>
+<h4 class="date"><em>2018-08-08</em></h4>
 </div>
-<div id="prerequisites" class="section level1">
-<h1><span class="header-section-number">Chapter 1</span> Prerequisites</h1>
-<p>This is a <em>sample</em> book written in <strong>Markdown</strong>. You can use anything that Pandoc’s Markdown supports, e.g., a math equation <span class="math inline">\(a^2 + b^2 = c^2\)</span>.</p>
-<p>My first reference <span class="citation">(Margulis <a href="#ref-margulisModelMelodicExpectation2005">2005</a>)</span></p>
-<p>The <strong>bookdown</strong> package can be installed from CRAN or Github:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">install.packages</span>(<span class="st">&quot;bookdown&quot;</span>)</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="co"># or the development version</span></a>
-<a class="sourceLine" id="cb1-3" data-line-number="3"><span class="co"># devtools::install_github(&quot;rstudio/bookdown&quot;)</span></a></code></pre></div>
-<p>Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading <code>#</code>.</p>
-<p>To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <a href="https://yihui.name/tinytex/" class="uri">https://yihui.name/tinytex/</a>.</p>
+<div id="significance-of-the-study" class="section level1">
+<h1><span class="header-section-number">Chapter 1</span> Significance of the Study</h1>
+<p>All students pursing a Bachelor’s degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation <span class="citation">(“National Association of Schools of Music Handbook” <a href="#ref-NationalAssociationSchools2018">2018</a> Section VIII.6.B.2.A)</span>.
+Melodic dictation is a cognitively demanding process that requires students to listen to a melody, retain it in memory, and then use their knowledge of Western musical notation in order to recreate the mental image of the melody on paper in a limited time frame.
+As of 2018 there are 647 Schools of Music belonging to National Association of Schools of Music (NASM) CITE WEBSITE, meaning that hundereds of students every year will be expected to learn this challenging task as part of their Aural Skills education.
+The logic being that as one improves in their abiliy to take melodic dictation, this practice of critical and active listening develops as a means to improve one’s ability to “think in music” and thus become a more compotent musician.
+While learning Aural Skills has been a hallmark of being educated within the Western conservatory tradition, the rationale behind both the how and why of aural skills is often thought of as being esoteric.
+Throughout the past century, people have disagreed on exactly how one does go about learning a melody with different areas of research each attacking the problem from a different angle.</p>
+<p>Despite its ubiqiquity in curricula within School of Music settings, research on topics pertain to how aural skills are acquired is limited at best.
+The fields of music theory and cognitive psychology are best positioned to make progress on this question, but often the skills required to be well versed ein ither of these subjects are disparate, published in other journals, and the research with overlap is scarce.
+This problem is not new and there have been repeated attempts to bridge the gap between practioners of aural skills and people in cognitive psycholgy CITES.
+Literature from music theory has establisehd conceptual frameworks regarding aural skills <span class="citation">Karpinski (<a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span> and the relavint cognitive psychology literature has explored factors that might contribute to melodic perception (SCHMUKLER SYNERR 2016 2016), and there exists applied literature from the world of music education (CITES).</p>
+<p>However, despite these siloed areas of research, we as music researchers do not have an a concrete understanding of exaclty what contributes to HOW individuals learn melodies (HALPERNBARLETT2010).
+This is peculiar since “how does one learn a melody” seems to be one of the fundamental questions to the fields of music theory, music psychology, as well as music education.
+Given this lack of understanding, it becomes even more peculiar that this lack of convergence of evidence is then unable to provide a solid baseline as to what student in their aural skills classrooms can be expected to do. (Also something about we should really know this if we are going to grade people on this ability).
+While no single dissertation can solve any problem completely, this dissertation aims to fill the gap in the literature between aural skills practitioners (theorists and educators) and music psychologists in order to reach conclusion that can be applied systematically in pedagogical contexts.
+In order to do this I draw both literatures (music and science) in order to demonstrate how tools from both cognitive psychology as well as computational musicology can help move both fields forward.
+Some line here about if we really want to understand what is happening we need to know about causal factors going on here and have experimental manipulation and things like making models of the whole thing.
+Great to rely on some sort of anecdoatal evidence, but if we are going to put things on the line with our education then we need to be able to make some sort of falsifiable claims about what we are doing.
+Can only do that through the lens of science.</p>
+<div id="chapter-overview" class="section level2">
+<h2><span class="header-section-number">1.1</span> Chapter Overview</h2>
+<p>In this first chapter, I introduce the process of melodic dictation and discuss factors that would presumably could play a role in taking melodic dictation.
+The chapter introduces both a theoretical backgorund and rationale for using method form both computational musicology and congitive psychology in order ot answr quesitona bout how individuals learn melodies.
+I argue that tools for understanding this best because as we currently understand it, I see us operating in a Kuhnian normal science where much can be learned by just using the tools in front of us.
+This chapter will clearly outline the factors hypothesized to contribute to an individual’s abilit to learn melodies, incorporating both individual and musical parameters.
+The chapter ends with a discussion some of the philosophical/theoretical problems with attempting to measure thigns like this (is it just a party trick?) and establishes that I will be taking a more polymorphic view of musicianship in order to answer this question.</p>
+<p>The second chapter of my dissertation focuses on the history and current state of aural skills pedagogy.</p>
+<p>Tracing back its origins to the practical need to teach musical skills back with Guido d’Arezzo, I compare
+and contrast the different methodological approaches that have been used, along with their goals.</p>
+<p>The third chapter discusses previous work that examines individual factors thought to contribute to one’s
+ability to perform an aural skills task, and it will discuss results from an experiment contributing to a discussion of how individual differences could contribute to how a person learns melodies.</p>
+<p>Turning away from individual differences and focusing on musical features, in the fourth chapter I plan to
+discuss how music researchers can use tools from computational musicology as predictive features of
+melodies.
+Inspired by work from computational linguistics and information theory, recent work in
+computational musicology has developed software capable of abstracting features thought to be
+important to learning melodies, such as note density and ‘tonalness’ (Müllensiefen, 2009).
+Talk a bit about how this has been also looked at before in the music education community.</p>
+<p>While these features have been used in large scale, exploratory studies, work in this chapter will discuss how these features could be used in controlled, experimental studies as a stand-in for the intuition many music pedagogues have when determining difficulty of a melody in a classroom setting.</p>
+<p>In my fifth chapter, I introduce a novel corpus of over 600 digitized melodies encoded in a queryable
+format.
+This dataset will also serve as a valuable resource for future researchers in music, psychology,
+and the digital humanities.
+This chapter begins with a discussion of the history of corpus studies, noting their origin outside of music, their current state in music, and their limitations.
+This chapter, encapsulating the encoding process, the sampling criteria, and the situation of corpus methodologies within the broader research area, will go over summary data and also talk about how it could be used to generate hypotheses for future experiemnts (n-gram stuff based on patterns) .</p>
+<p>Lastly, in the final chapter, I will synthesize the previous research in a series of melodic dictation
+experiments.
+Stimuli for the experiments are selected based on the abstracted features of the melodies
+and are manipulated as independent variables based on the previous theoretical literature.
+I then model responses from the experiments using both individual factors and musical features in order to predict how well an individual performs in behavioral tasks similar to some of my previously published research (Baker &amp; Müllensiefen, 2017).
+Here I also note important caveats in scoring melodic dictation, referencing some other of my own work on using metrics, such as edit distance (Baker &amp; Shanahan, 2018), to discuss similarities between the correct answer and an individual’s attempts at dictation.
+Results from the final chapter will be discussed with reference to how findings are applicable to
+pedagoges in aural skills settings.
+Recommendations will be made building on current conceptual frameworks (Karpinski, 2000).</p>
 
+</div>
 </div>
 <h3>References</h3>
 <div id="refs" class="references">
-<div id="ref-margulisModelMelodicExpectation2005">
-<p>Margulis, Elizabeth Hellmuth. 2005. “A Model of Melodic Expectation.” <em>Music Perception: An Interdisciplinary Journal</em> 22 (4): 663–714. <a href="https://doi.org/10.1525/mp.2005.22.4.663" class="uri">https://doi.org/10.1525/mp.2005.22.4.663</a>.</p>
+<div id="ref-NationalAssociationSchools2018">
+<p>“National Association of Schools of Music Handbook.” 2018. Reston, Virginia: National Association of Schools of Music.</p>
+</div>
+<div id="ref-karpinskiAuralSkillsAcquisition2000">
+<p>Karpinski, Gary Steven. 2000. <em>Aural Skills Acquisition: The Development of Listening, Reading, and Performing Skills in College-Level Musicians</em>. Oxford University Press.</p>
 </div>
 </div>
             </section>
@@ -295,19 +348,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:" && /^https?:/.test(src))
-      src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>

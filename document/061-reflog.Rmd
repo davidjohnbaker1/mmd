@@ -16,4 +16,13 @@
 * [@buonviriEffectsMusicNotation2015] -- Showing people visual music does not help much.
 * [@buonviriEffectsTwoListening2017] -- Listening helps with other things, no best strategy in terms of writing
 * [@buonviriMelodicDictationInstruction2015] -- Literature to say people are bad at teaching melodic dictation and we don't know a lot about it, also interesting stuff about what solfege systems people use
-* [@pembrookInterferenceTranscriptionProcess24] -- Great study that needs longer read from me that lays out what controlled music cognition experiment might look like, also good stuff about features
+* [@davidbutlerWhyGulfMusic1997a] -- Call for music educators to do aural skills research, notes problem with aural skills pedagogy in lack of direction, also nice Nicholas Cook quotes on point of theory
+* [@furbyEffectsPeerTutoring2016] -- music ed study with weird stats, has references to follow up on with advantages of pitch systems and people who reccomend things for sight singing
+* [@pembrookInterferenceTranscriptionProcess1986] -- Effects of melodies, also how people do it. Interesting that they too effect of melodies, but talka bout things in terms of notes and not in terms of information content. Thought ot have an experiment where the n-grams that are more common are easier to write down. Lots of good charts too. 
+* [@paneyEffectDirectingAttention2016] -- It's not good if you tell people what to do when they are dictating, article has a lot of good review for dictation materials to add to the 'toRead' folder.
+* [@fournierCognitiveStrategiesSightsinging2017a] -- Good references that people are awful at Aural Skills, Also suggestions that people are not that great at transfer, and some stuff to suggest academic abililty is intertwined in all of this. Good reference for when starting to talk about untangling the mess that is aural skills. 
+
+## Chapter 3
+
+* [@ockelfordMusicModuleWorking2007] -- uses case of savant to argue bits of Berz WM Music Model
+

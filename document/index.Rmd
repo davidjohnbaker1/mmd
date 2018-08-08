@@ -12,27 +12,68 @@ github-repo: rstudio/bookdown-demo
 description: "This dissertation explores both individual and musical features that might contribute to processes involved in melodic dictation."
 ---
 
-# Prerequisites
+# Significance of the Study
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+All students pursing a Bachelor's degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation [@NationalAssociationSchools2018 Section VIII.6.B.2.A]. 
+Melodic dictation is a cognitively demanding process that requires students to listen to a melody, retain it in memory, and then use their knowledge of Western musical notation in order to recreate the mental image of the melody on paper in a limited time frame.
+As of 2018 there are 647 Schools of Music belonging to National Association of Schools of Music (NASM) CITE WEBSITE, meaning that hundereds of students every year will be expected to learn this challenging task as part of their Aural Skills education.
+The logic being that as one improves in their abiliy to take melodic dictation, this practice of critical and active listening develops as a means to improve one's ability to "think in music" and thus become a more compotent musician.
+While learning Aural Skills has been a hallmark of being educated within the Western conservatory tradition, the rationale behind both the how and why of aural skills is often thought of as being esoteric.
+Throughout the past century, people have disagreed on exactly how one does go about learning a melody with different areas of research each attacking the problem from a different angle.
 
-My first reference [@margulisModelMelodicExpectation2005]
+Despite its ubiqiquity in curricula within School of Music settings, research on topics pertain to how aural skills are acquired is limited at best.
+The fields of music theory and cognitive psychology are best positioned to make progress on this question, but often the skills required to be well versed ein ither of these subjects are disparate, published in other journals, and the research with overlap is scarce.
+This problem is not new and there have been repeated attempts to bridge the gap between practioners of aural skills and people in cognitive psycholgy CITES.
+Literature from music theory has establisehd conceptual frameworks regarding aural skills @karpinskiAuralSkillsAcquisition2000 and the relavint cognitive psychology literature has explored factors that might contribute to melodic perception (SCHMUKLER SYNERR 2016 2016), and there exists applied literature from the world of music education (CITES).
 
-The **bookdown** package can be installed from CRAN or Github:
+However, despite these siloed areas of research, we as music researchers do not have an a concrete understanding of exaclty what contributes to HOW individuals learn melodies (HALPERNBARLETT2010).
+This is peculiar since "how does one learn a melody" seems to be one of the fundamental questions to the fields of music theory, music psychology, as well as music education. 
+Given this lack of understanding, it becomes even more peculiar that this lack of convergence of evidence is then unable to provide a solid baseline as to what student in their aural skills classrooms can be expected to do. (Also something about we should really know this if we are going to grade people on this ability).
+While no single dissertation can solve any problem completely, this dissertation aims to fill the gap in the literature between aural skills practitioners (theorists and educators) and music psychologists in order to reach conclusion that can be applied systematically in pedagogical contexts.
+In order to do this I draw both literatures (music and science) in order to demonstrate how tools from both cognitive psychology as well as computational musicology can help move both fields forward.
+Some line here about if we really want to understand what is happening we need to know about causal factors going on here and have experimental manipulation and things like making models of the whole thing.
+Great to rely on some sort of anecdoatal evidence, but if we are going to put things on the line with our education then we need to be able to make some sort of falsifiable claims about what we are doing.
+Can only do that through the lens of science. 
 
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
+## Chapter Overview 
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+In this first chapter, I introduce the process of melodic dictation and discuss factors that would presumably could play a role in taking melodic dictation.
+The chapter introduces both a theoretical backgorund and rationale for using method form both computational musicology and congitive psychology in order ot answr quesitona bout how individuals learn melodies. 
+I argue that tools for understanding this best because as we currently understand it, I see us operating in a Kuhnian normal science where much can be learned by just using the tools in front of us.
+This chapter will clearly outline the factors hypothesized to contribute to an individual's abilit to learn melodies, incorporating both individual and musical parameters.
+The chapter ends with a discussion some of the philosophical/theoretical problems with attempting to measure thigns like this (is it just a party trick?) and establishes that I will be taking a more polymorphic view of musicianship in order to answer this question.
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
+The second chapter of my dissertation focuses on the history and current state of aural skills pedagogy.
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+Tracing back its origins to the practical need to teach musical skills back with Guido d’Arezzo, I compare
+and contrast the different methodological approaches that have been used, along with their goals.
+
+The third chapter discusses previous work that examines individual factors thought to contribute to one’s
+ability to perform an aural skills task, and it will discuss results from an experiment contributing to a discussion of how individual differences could contribute to how a person learns melodies. 
+
+Turning away from individual differences and focusing on musical features, in the fourth chapter I plan to
+discuss how music researchers can use tools from computational musicology as predictive features of
+melodies. 
+Inspired by work from computational linguistics and information theory, recent work in
+computational musicology has developed software capable of abstracting features thought to be
+important to learning melodies, such as note density and ‘tonalness’ (Müllensiefen, 2009). 
+Talk a bit about how this has been also looked at before in the music education community.
+
+While these features have been used in large scale, exploratory studies, work in this chapter will discuss how these features could be used in controlled, experimental studies as a stand-in for the intuition many music pedagogues have when determining difficulty of a melody in a classroom setting. 
+
+In my fifth chapter, I introduce a novel corpus of over 600 digitized melodies encoded in a queryable
+format. 
+This dataset will also serve as a valuable resource for future researchers in music, psychology,
+and the digital humanities. 
+This chapter begins with a discussion of the history of corpus studies, noting their origin outside of music, their current state in music, and their limitations. 
+This chapter, encapsulating the encoding process, the sampling criteria, and the situation of corpus methodologies within the broader research area, will go over summary data and also talk about how it could be used to generate hypotheses for future experiemnts (n-gram stuff based on patterns) .
+
+Lastly, in the final chapter, I will synthesize the previous research in a series of melodic dictation
+experiments. 
+Stimuli for the experiments are selected based on the abstracted features of the melodies
+and are manipulated as independent variables based on the previous theoretical literature. 
+I then model responses from the experiments using both individual factors and musical features in order to predict how well an individual performs in behavioral tasks similar to some of my previously published research (Baker & Müllensiefen, 2017). 
+Here I also note important caveats in scoring melodic dictation, referencing some other of my own work on using metrics, such as edit distance (Baker & Shanahan, 2018), to discuss similarities between the correct answer and an individual’s attempts at dictation.
+Results from the final chapter will be discussed with reference to how findings are applicable to
+pedagoges in aural skills settings. 
+Recommendations will be made building on current conceptual frameworks (Karpinski, 2000). 

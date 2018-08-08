@@ -1,10 +1,41 @@
 # Theoretical Background and Rationale {#intro}
 
-## Significance of the Study (Why Important)
 
-All students pursing a Bachelor's degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation [@NASM201718HandbookPdf2018] VIII.6.B.2.A. 
-This skill is a demanding process that requires students to listen to a melody, retain it in memory, and then use their knowledge of Western musical notation in order to recreate teh mental image of the melody on paper in a limited time frame.
+## Theoretical Background and Rationale
+
+As stated above, melodic dictation is a hugely complex process.
+
+
+What am I going to do in this chapter?
+  + Intro to aural skills and melodic dictation 
+  + Talk about the factors that go into it (basically real time suduko)
+    + Cognitive
+    + Musical 
+  + Note that reserach is messy, need to think of it polymorphically
+ 
+
+Even anecdoatal evidence suggests that people who are good at this tend to stay good and people who are bad at it tend to stay bad
+
+Other things that I might not want to bring up right now is that a lot of this could just be thought of as relating to a big thought experiemnt where you could imagine that there are many musicians from lots of different muscial cultures (bring in the ethnos!) that could imagine being sucessful at what they do without having this ability to take melodic dicatation.
+Is it just a party trick? 
+Also here would be a good place to jump off of and talk about the lack of transfer.
+
+Where do people learn it? -- Music school
+Part of large thing of aural skills 
+Absoulte ubiquity, but for the amount that it is done, relatively understudied
+
+   
+
+Not only is this process intenstive, but also ubiquitous 
+
+## 
+
+@karpinskiAuralSkillsAcquisition2000 schematizes this ability into a four step process of hear, remember, understand, notate (See Figure 1?).
+
+While 
 Some researchers have estimated that XX amount of processes are needed to sucessfully execute this task FIND CITATION. 
+
+-- Should be drawing here from ICMPC paper?
 
 ## Order of Chapter 1
 
