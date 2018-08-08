@@ -21,6 +21,7 @@
 * [@pembrookInterferenceTranscriptionProcess1986] -- Effects of melodies, also how people do it. Interesting that they too effect of melodies, but talka bout things in terms of notes and not in terms of information content. Thought ot have an experiment where the n-grams that are more common are easier to write down. Lots of good charts too. 
 * [@paneyEffectDirectingAttention2016] -- It's not good if you tell people what to do when they are dictating, article has a lot of good review for dictation materials to add to the 'toRead' folder.
 * [@fournierCognitiveStrategiesSightsinging2017a] -- Good references that people are awful at Aural Skills, Also suggestions that people are not that great at transfer, and some stuff to suggest academic abililty is intertwined in all of this. Good reference for when starting to talk about untangling the mess that is aural skills. 
+* [@berzWorkingMemoryMusic 1995] -- Add on a new module to the WMC model of baddel with music, presents some evidence for why this theoretically should be included, but actually takes examples of dictation. A lot of this article felt like things that i was reinventing...not  good.
 
 ## Chapter 3
 
