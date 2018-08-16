@@ -14,3 +14,53 @@
 
 ## Gf 
 
+
+## Outline Notes
+
+* Melodic Dictation is clearly something that uses WM
+* Also dependent on WMC
+* Problem is that there is not a direct comparison
+* WMC tasks, simple and complex are with novel stimuli
+* Even in cases of WMC, need to control for word frequency
+* This allows us to know that exposure effects this ability
+* Huge amount of work on statistical exposure (Saffran, Huron, Margulis, Pearce)
+
+* Could take theories of WMC but capacitity limits and WMC task do not medoel the sequential and hierarchical nature of melodies
+* Obvious alternative to this is to look at n-grams in melodies
+* Image chart where overlay of n-gram is reflected in frequency distribution of chart
+* Clealry we have task where complex entertaining of information and working
+
+* What is emlodic equivlient to the word length effect?
+* Is there such a thing with decay and melodies (Lewandasky + Corey's work)
+* Hard to model idea of repeating things bc of rhythm problem and temporal properties
+
+* STOP IT WIHT THE MILLER (Articles that reference Miller but get it wrong list)
+
+* Question of how is music represented, is there some sort of pholoogical representation (is then the point to split the intervals with each phonological rep with the episodic buffer playing a role?)
+* Do students need to know what their WMC maximum is
+
+## Baker Model of Melodic Dictation (Over Karpinski)
+
+* Divert attention to maximum n-gram 
+  * Open n-gram/attn to LTM matching
+  * When LTM match maxed, put n-gram in phological loop 
+  * Transcribe all matched n-gram with LTM match ups (effecient processing? sd)
+  
+  - {Warning if beyond capacity limit} (tho how does this relate to LTM)
+  * IF {Chunk is understandable => Transcribe}
+  * IF {Chunk is not understandable --> Segment to smaller unit }
+    * LTM as first option (contextualized)
+    * Rhythmic and Contour framework 
+      -- SD options first on contour
+      -- Avoid Interval (last resort) requires LTM single interval pattern match with n-gram of loop
+      -- Also avoid interval because it disgards maximum of n-gram
+  * Only patterns with LTM match will be transcribed (aka do sight singing)
+  * If not LTM match, then need recursive process to figure out new schema for looped n-gram
+      
+* Theoretical reasons for stopping atomistic sight singing
+  - It's only small block of more fluid and complex process
+  - Could AP mapping be brought in here? 
+
+* Span speed correlation and doing some sort of melody thing wiht an experiment 
+
+* Eventually do POT and Music for this 
