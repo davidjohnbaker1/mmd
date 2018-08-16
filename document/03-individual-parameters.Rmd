@@ -56,6 +56,8 @@
       -- Also avoid interval because it disgards maximum of n-gram
   * Only patterns with LTM match will be transcribed (aka do sight singing)
   * If not LTM match, then need recursive process to figure out new schema for looped n-gram
+  
+* Also, model that took n-gram funcitonality into the description would also account for weird atonal melodies where they have no function, but rather are built upon diatonic sequencs that are linked together with atonal gestures
       
 * Theoretical reasons for stopping atomistic sight singing
   - It's only small block of more fluid and complex process
