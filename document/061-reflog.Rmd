@@ -22,8 +22,12 @@
 * [@paneyEffectDirectingAttention2016] -- It's not good if you tell people what to do when they are dictating, article has a lot of good review for dictation materials to add to the 'toRead' folder.
 * [@fournierCognitiveStrategiesSightsinging2017a] -- Good references that people are awful at Aural Skills, Also suggestions that people are not that great at transfer, and some stuff to suggest academic abililty is intertwined in all of this. Good reference for when starting to talk about untangling the mess that is aural skills. 
 * [@berzWorkingMemoryMusic 1995] -- Add on a new module to the WMC model of baddel with music, presents some evidence for why this theoretically should be included, but actually takes examples of dictation. A lot of this article felt like things that i was reinventing...not  good.
+* [@atkinsonSomeThoughtsOnTrying] -- Proof some other people are starting to think in terms of pedagogical schemas
+*
 
 ## Chapter 3
+
+* [@cowanWorkingMemoryCapacity2005] -- This book will probably serve as cornerstone of chapter in terms of creating relevant literature in addition to EE course readings on WMC. Provides history of WMC models and notes how attention based model as opposed to Baddely loop might actually be better theoretical model for talking about fact that WMC could just be something related to attention if not that. Provides extensive listing on problems with chunking that are all relevant to music, but then also supports it. Shows that Miller 1956 is a generally bad citation, own author even says that in Miller 1989 (check and add) and says limit is probably about 4 (use Cowan 2001 for ctation find that). Lots of good ideas like how music is always serial recall, examples of how to model the process, great discussions on zooming out and categorical nature of music within span of WMC ideas.
 
 * [@ockelfordMusicModuleWorking2007] -- uses case of savant to argue bits of Berz WM Music Model
 

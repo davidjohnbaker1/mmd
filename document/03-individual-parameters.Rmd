@@ -39,6 +39,23 @@
 * Question of how is music represented, is there some sort of pholoogical representation (is then the point to split the intervals with each phonological rep with the episodic buffer playing a role?)
 * Do students need to know what their WMC maximum is
 
+## Cowan Reading Notes
+
+* It's helpful to assume there are constants in psychology 
+* Why prefer Cowan over Baddeley, boat example 
+* Stop with the miller 7 quotes, should be listing of these
+* WMC as form of attention
+* History of WMC models (Process Model Attkinson, Baddely, Berz, Cowan)
+* Rapid formation of new episodic buffer
+* Is solfege assigment automatic? Transferred to new realm of representation
+* Need to get away from idea of chunking for MMD
+* Melodies are always in serial order 
+* Aka from above need to look at n-gram representation
+* could imagine making some sort of sensory memory experiemnt ala page 114
+* More options to write down, more error on recall, clearly not free recall situation, pattern matching
+
+- I want examples of frequency distribution confounding memory experiemnts
+
 ## Baker Model of Melodic Dictation (Over Karpinski)
 
 * Divert attention to maximum n-gram 
