@@ -1,20 +1,41 @@
-# Corpus
+# Hello, Corpus
 
-## Why need new data 
-
-## History of Corpus Studies 
-
-## Current State in Music
-
-## Limitations
-
-## Boring Corpus Stuff
-
-### Encoding Process
-
-### Sampling Criteria
-
-### Situation of Corpus Methods
-
-## Descriptives of the Corpus compared to Essen/Dutch/Whatever
+## Brief review of Chapter 4 on corpus (Language to reflect journal submission)
+### Corpus outside of music
+### Corpus in Music
+### The point is that it implicitly represents humand knowledge
+### IDyOM 1
+### IDyOM 2
+### IDyOM 3
+### Huron suggestions that starts of melodies relate to mental rotaiton 
+### Other Huron claims
+## Note problem with using corpus is making corpus
+### Many are used on Essen
+### Brinkman says Essen Sucks
+### If going to make generlizable claims, need to always have new data 
+## Solem duty to encode and report on corpus
+### Justin London Article on what makes it into a corpsu
+### Though I just encoded the whole thing because in my heart of hearts I'm a Bayesian
+## The Corpus
+### History of Sight Singign books
+### Assumed to be where long term store comes from (adumbrate computational model)
+### Lots of melodies in ascending order of difficulty, grouped appropriately though? Utah guy
+### Why I encoded it in XML  
+### Is it legal?
+## Descriptive Stats of Corpus
+### Why?
+#### For pedagogical purposes
+#### For experimental purposes
+#### For computational idexing (get me melody with x tonal score)
+#### Could serve as representation of implicitly learned expectations for future modeling
+### Feature Level
+#### What features are normally distributed
+#### Correlated feature problem
+#### big ~facet wrap of the whole thing
+#### Could do dimensonality reduction (Baker, Harrison, others) but then loose understanding
+### n-gram
+#### Big solfege n-gram table
+#### Dependent on representation (notes, solfege, mint)
+#### Shiny app of n-gram heatmap with Peter
+#### Idea would be that hotter n-grams lend them selves to better chunking (but need better word than chunking)
 

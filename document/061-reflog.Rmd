@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 # Reference Log 
 
 ## To Incorporate
@@ -23,7 +28,11 @@
 * [@fournierCognitiveStrategiesSightsinging2017a] -- Good references that people are awful at Aural Skills, Also suggestions that people are not that great at transfer, and some stuff to suggest academic abililty is intertwined in all of this. Good reference for when starting to talk about untangling the mess that is aural skills. 
 * [@berzWorkingMemoryMusic 1995] -- Add on a new module to the WMC model of baddel with music, presents some evidence for why this theoretically should be included, but actually takes examples of dictation. A lot of this article felt like things that i was reinventing...not  good.
 * [@atkinsonSomeThoughtsOnTrying] -- Proof some other people are starting to think in terms of pedagogical schemas
-*
+* [@klonoskiPerceptualLearningHierarchy2000] -- Music cognition needs to talk to aural skills more, also need to unbind theory routine with aural skills and think of things more as in a perceptual learning hierarchy 
+* [@klonoskiImprovingDictationAuralSkills2006] -- great quotes that when people get something wrong with aural skills, what does that even mean, lack of transfer effects, article ends with ways to get better at things
+* [@pembrookSendHelpAural1990] -- Survey of what people in the late 1980s were doing in terms of aural skills pedagogy
+* [@karpinskiModelMelodicPerception1990] -- addresses why Gary Karpinski thinks we should teach melodic dictation
+* [@potterIdentifyingSucessfulDictation1990] -- dictation teacher surprised that people don't keep up their dictaiton skills quote
 
 ## Chapter 3
 

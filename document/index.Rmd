@@ -22,6 +22,7 @@ While learning Aural Skills has been a hallmark of being educated within the Wes
 Throughout the past century, people have disagreed on exactly how one does go about learning a melody with different areas of research each attacking the problem from a different angle.
 
 Despite its ubiqiquity in curricula within School of Music settings, research on topics pertain to how aural skills are acquired is limited at best.
+[Citations here about the cosntant calls butler, klondoski, pembrook]
 The fields of music theory and cognitive psychology are best positioned to make progress on this question, but often the skills required to be well versed ein ither of these subjects are disparate, published in other journals, and the research with overlap is scarce.
 This problem is not new and there have been repeated attempts to bridge the gap between practioners of aural skills and people in cognitive psycholgy CITES.
 Literature from music theory has establisehd conceptual frameworks regarding aural skills @karpinskiAuralSkillsAcquisition2000 and the relavint cognitive psychology literature has explored factors that might contribute to melodic perception (SCHMUKLER SYNERR 2016 2016), and there exists applied literature from the world of music education (CITES).
@@ -31,7 +32,7 @@ This is peculiar since "how does one learn a melody" seems to be one of the fund
 Given this lack of understanding, it becomes even more peculiar that this lack of convergence of evidence is then unable to provide a solid baseline as to what student in their aural skills classrooms can be expected to do. (Also something about we should really know this if we are going to grade people on this ability).
 While no single dissertation can solve any problem completely, this dissertation aims to fill the gap in the literature between aural skills practitioners (theorists and educators) and music psychologists in order to reach conclusion that can be applied systematically in pedagogical contexts.
 In order to do this I draw both literatures (music and science) in order to demonstrate how tools from both cognitive psychology as well as computational musicology can help move both fields forward.
-Some line here about if we really want to understand what is happening we need to know about causal factors going on here and have experimental manipulation and things like making models of the whole thing.
+Some line here about if we really want to understand what is happening we need to know about causal factors going on here and have experimental manipulation and things like making models of the whole thing or talk about what Judea Pearl thinks about the ability to do some sort of causal modeling with diagrams.
 Great to rely on some sort of anecdoatal evidence, but if we are going to put things on the line with our education then we need to be able to make some sort of falsifiable claims about what we are doing.
 Can only do that through the lens of science. 
 

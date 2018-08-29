@@ -1,85 +1,51 @@
 # Individual Differences
 
-## Cognitive Aparatus
-
-## Training Effects 
-
-## Transfere Literature 
-
-## Memory for Melodies Literature 
-
-## WMC 
-
-* Nichols, Wollner Halpern, 2018
-
-## Gf 
-
-
-## Outline Notes
-
-* Melodic Dictation is clearly something that uses WM
-* Also dependent on WMC
-* Problem is that there is not a direct comparison
-* WMC tasks, simple and complex are with novel stimuli
-* Even in cases of WMC, need to control for word frequency
-* This allows us to know that exposure effects this ability
-* Huge amount of work on statistical exposure (Saffran, Huron, Margulis, Pearce)
-
-* Could take theories of WMC but capacitity limits and WMC task do not medoel the sequential and hierarchical nature of melodies
-* Obvious alternative to this is to look at n-grams in melodies
-* Image chart where overlay of n-gram is reflected in frequency distribution of chart
-* Clealry we have task where complex entertaining of information and working
-
-* What is emlodic equivlient to the word length effect?
-* Is there such a thing with decay and melodies (Lewandasky + Corey's work)
-* Hard to model idea of repeating things bc of rhythm problem and temporal properties
-
-* STOP IT WIHT THE MILLER (Articles that reference Miller but get it wrong list)
-
-* Question of how is music represented, is there some sort of pholoogical representation (is then the point to split the intervals with each phonological rep with the episodic buffer playing a role?)
-* Do students need to know what their WMC maximum is
-
-## Cowan Reading Notes
-
-* It's helpful to assume there are constants in psychology 
-* Why prefer Cowan over Baddeley, boat example 
-* Stop with the miller 7 quotes, should be listing of these
-* WMC as form of attention
-* History of WMC models (Process Model Attkinson, Baddely, Berz, Cowan)
-* Rapid formation of new episodic buffer
-* Is solfege assigment automatic? Transferred to new realm of representation
-* Need to get away from idea of chunking for MMD
-* Melodies are always in serial order 
-* Aka from above need to look at n-gram representation
-* could imagine making some sort of sensory memory experiemnt ala page 114
-* More options to write down, more error on recall, clearly not free recall situation, pattern matching
-
-- I want examples of frequency distribution confounding memory experiemnts
-
-## Baker Model of Melodic Dictation (Over Karpinski)
-
-* Divert attention to maximum n-gram 
-  * Open n-gram/attn to LTM matching
-  * When LTM match maxed, put n-gram in phological loop 
-  * Transcribe all matched n-gram with LTM match ups (effecient processing? sd)
-  
-  - {Warning if beyond capacity limit} (tho how does this relate to LTM)
-  * IF {Chunk is understandable => Transcribe}
-  * IF {Chunk is not understandable --> Segment to smaller unit }
-    * LTM as first option (contextualized)
-    * Rhythmic and Contour framework 
-      -- SD options first on contour
-      -- Avoid Interval (last resort) requires LTM single interval pattern match with n-gram of loop
-      -- Also avoid interval because it disgards maximum of n-gram
-  * Only patterns with LTM match will be transcribed (aka do sight singing)
-  * If not LTM match, then need recursive process to figure out new schema for looped n-gram
-  
-* Also, model that took n-gram funcitonality into the description would also account for weird atonal melodies where they have no function, but rather are built upon diatonic sequencs that are linked together with atonal gestures
-      
-* Theoretical reasons for stopping atomistic sight singing
-  - It's only small block of more fluid and complex process
-  - Could AP mapping be brought in here? 
-
-* Span speed correlation and doing some sort of melody thing wiht an experiment 
-
-* Eventually do POT and Music for this 
+## Why care about cognitive abilities
+### General intelligence and WMC 
+### Defining of terms
+## Have established that cognitive abilities contribute to musical task (for journal article langauge repeat)
+### General Fluid Intelligence, WMC, Training as uni of polymorphic
+## Remind the nature of a musical dictation type task (hear, loop, executive decision)  
+### This is WMC task, gf has problems (Although high level link with gf, problematic, WMC models at level of process of md)
+#### Berz 1994 noticed it first
+#### Williamson Baddely Hitch suggest maybe musical loop
+#### Even Cowan labs wonder how different (Li Cowan Saults )
+## WMC has been misused in music education, theory, pedagogy, aural literature and deserves attention
+### Problems with chunking 
+#### Mistake with Miller 1956, he did not mean 7 items
+#### Broadbent 1956 more of why its more like 3-4
+### Problems with using capacity limit literature
+#### See Cowan 2005 page 80
+#### Musical order is always serial effects
+### Should be using Cowan model because of these things (zooming) or discuss within Baddely Hitch/Atkinson Shriff
+### One Note does not mean one unit in memory!
+### Confounded by corpus distributions
+### Lack of understanding (all aural skills are those that engage WMC, LVH says many students have WMC deficits, "increase memory")
+### Point I am making is that if you're going to do it, do it well. 
+## Know WMC plays a role, sense, pertain, execute, should be able to pick up in experiment close to MD
+## Gold-MSI melodic Memory and beat perception test
+### What is gold MSI 
+### What are issues I want to talk about with psychometrics
+### Describe test in detail and WHY it's what we're after here
+#### not exactly mmd, but most people would say similar skill sets
+#### also before getting dirty,need experimental desing with less response options (Cowan, Saults, Elliott, Moreano 2002)
+## IF we accept these DVs, THEN we should be able to predict them with self reports and measures of WMC and gf
+## Do this with hierarchical LVM ala Elliott paper 
+### Versions of this paper at ICMPC
+### Exploratory in that tried a few different models (high type I error but whatever)
+## Overview of Experiment (cross sectional design)
+### Participants
+### Materials
+### Procedure
+### Results
+#### Descriptive, Correlational
+#### Modeling
+### Discussion
+#### Review of the Goals
+#### What were best model fits
+#### Clear effect of WMC
+#### What if we are just measuring WMC? 
+#### Obvs need this for futre studies
+#### Need to use something to go above and beyond baseline (--transition to corpus as memory and n-gram)
+#### Future verbal theoretical and computational models should involve capacity measures (limits)
+ 

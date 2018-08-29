@@ -1,33 +1,88 @@
 # Experiments
 
-## Rationale for Experiment
+## Rationale 
+### Have done all this and have not actually talked about dictation yet 
+### Clearly many factors contribte to this whole thing and need to be taken into a model 
+### Dictation is basically a within subjects design Experiment
+#### Get very ecological and dirty and run it 
+### Factors
+#### Cognitive
+##### WMC
+##### GF
+#### Training
+##### Goldsmiths MSI 
+#### Musical 
+##### FANTASTIC
+##### IDyOM
+#### Investigate melodies with this context and set scoring 
+#### Mirror design to see if effects of melody are there
 
-## Selection of Melodies
+## Experiments
+### Experiment I
+#### Participants
+#### Procedure
+#### Materials
+#### Scoring 
+#### Results
+#### Modeling
+#### Discussion 
+### Experiment II
+#### Participants (New)
+#### Procedure (Same)
+#### Materials (Swapped but controlled)
+#### Scoring (Same)
+#### Results
+#### Modeling (same)
+### General Discussion 
+#### What happened
+#### Assumption of all of this is that many things are happening linearly in combination with each other
+#### Additionally the mixed effects framework works better with more data? 
+#### Also how we score it is going to mess wiht the DVs
+### Really what is needed is Computational Model 
 
-* Tonalness, Countour, Number of Pitches - Long 1997 Tonalness good predictor
-* Tonalness better than atonal (Frances 1958) Zenatti 1969 -- from Long 1997
-* Taylor 1977 -- IC predicts when contour and lenght constant 
-* Long 1997 -- IC affects information 
-
-
-
-## Experiment I and II
-
-## Experiment III?
-
-## Limitations
-
-### How to Score 
-
-### Reasons for making everything open source
-
-## Summaries
-
-### Applications to Pedagoges
-
-### Conceptual Frameworks 
-
-## Conclusions
-
-### What can we really expect of undergrads?
-
+## Computational Cognitive Model Model (If time permits) [Whole article in itself]
+### Why?
+##### Better than verbal models
+##### Sometimes even mathematically infesable proposed theory
+##### Beyond Karpinski in that it doesn't just schematize, says exactly when each thing is happening when
+##### Lends itself to better discussions that don't just rely on personal anecdotes
+##### Can tweak the parameters 
+##### Can collect different types of data (corpus or experimental) and use the model
+##### This model suggests that atomism approach is actual just subprocess of larger pattern 
+#### Theoretical Justification
+##### Marries literature on LTM and prior knowledge, information theory, WMC, computation, representation
+##### Also can be implemented in computer
+##### represntation of rhythm too?
+##### inspired by people like margulis 2005, albrecht and shanahan key finding, want something to contribute
+##### Really Made me think
+#### The Model (note many parameters can be changed in R package)
+#### Prior
+###### Corpus of music represented in form of n-grams
+###### IDyOM extracts all possible n-gram permutations as learned corpus
+##### Music notation fed into processing window where incoming n-gram is matched based on WMC window OR IT maximum 
+###### Information builds until approaches critical threhold 
+###### Upon maximum, model puts n-gram into focus of attention (Cowan 1988) and note why this is better than Baddely Hitch
+###### Recursive transcribe function looks for LTM matches 
+####### Option 1: Pattern Matched and Pattern Transcribed, success?
+####### Option 2: Pattern not matched in full, truncated and use match option again (should be higher probability of match with corpus)
+####### Option 3: Pattern not matched downsize again until at interval level and relying on 2-gram (atomism)
+####### On sucess of option, reopen gate at nearest long implicit n-gram LTM Match (start or end problem)
+###### Put time contraints on search features 
+###### Transcribe process resets with trace image of melody after each dictation 
+###### Transcribe process ends when all notes accounted for 
+#### Model Output
+##### Based on leanrning, times needed to hear it
+##### Completion percentage
+##### Rank order of easier to transcribe parts based on learning
+#### Model Compared to Data
+##### With Experimental Data 
+### Future Suggestions for Aural Skills Pedagoges and Research
+#### Use model as teaching stepping off point
+#### Should move towards LTM pattern matching
+#### Reason that people learn how to sight sing is to INCREASE the learning of the implict corpus
+#### Circular process here
+#### Is this what it means to then think IN music
+#### Really it's to just know the patterns maybe like model where Justin London suggests we get to know patterns and expect themn
+#### Would also make sense in terms of Leonard Meyer 1956
+#### Use WMC in music theory, cognition, education studies
+ 

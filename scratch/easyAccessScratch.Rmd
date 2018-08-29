@@ -1,0 +1,382 @@
+---
+title: "ScratchMaterial"
+author: "David John Baker"
+date: "August 29, 2018"
+output: html_document
+---
+
+## Chapter 1
+## Old Drafts of Chapter Structure BELOW THIS LINE 
+## Theoretical Background and Rationale
+
+As stated above, melodic dictation is a hugely complex process.
+
+
+What am I going to do in this chapter?
+  + Intro to aural skills and melodic dictation 
+  + Talk about the factors that go into it (basically real time suduko)
+    + Cognitive
+    + Musical 
+  + Note that reserach is messy, need to think of it polymorphically
+ 
+
+Even anecdoatal evidence suggests that people who are good at this tend to stay good and people who are bad at it tend to stay bad
+
+Other things that I might not want to bring up right now is that a lot of this could just be thought of as relating to a big thought experiemnt where you could imagine that there are many musicians from lots of different muscial cultures (bring in the ethnos!) that could imagine being sucessful at what they do without having this ability to take melodic dicatation.
+Is it just a party trick? 
+Also here would be a good place to jump off of and talk about the lack of transfer.
+
+Where do people learn it? -- Music school
+Part of large thing of aural skills 
+Absoulte ubiquity, but for the amount that it is done, relatively understudied
+
+   
+
+Not only is this process intenstive, but also ubiquitous 
+
+## 
+
+@karpinskiAuralSkillsAcquisition2000 schematizes this ability into a four step process of hear, remember, understand, notate (See Figure 1?).
+
+While 
+Some researchers have estimated that XX amount of processes are needed to sucessfully execute this task FIND CITATION. 
+
+-- Should be drawing here from ICMPC paper?
+
+## Order of Chapter 1
+
+* Hook on why this is important
+* What is melodic dictation?
+  + Process (reasons of why factors)
+  + Who has talked about it before?
+  + Why is it important -- training ear and transfer
+* Most of the people who are talking about this are pedagogical, really it's perceptual 
+* Here is huge list of literature of things that might contribute
+  + Pedagogical factors
+  + Cognitive Factors
+  + Musical Factors 
+  + All of these are moving parts, need better tools to describe
+* While this is the narrative, does not conform to updated view of polymorphism of musicianship
+
+## Order of Chapter 2
+
+* Most of this literature comes from pedagogy
+* All quotes about people should be able to do this
+* Long history of Aural Skills 
+  + Older people
+  + Current Methods
+  + Their goals 
+  + Their assumptions 
+
++ People are not good at this 
+  + Wennerstronm (1989) said people at IU are not good at aural skills and sight singing p.163 (k7)
+  + Julliard (1953,p. 48) incoming students have untrained ear (k7)
+  
++ nice quote from chittum 1967 "the da is past when teachers can say, you either have it or you don't" (p.73)
++ Start of a big Journey back then, even more now (almost 2 decades since Karpinski, 2000)
+ 
+ 
+### Theoretical Background
+
+Lots of older studies looking at this listed on page 2 of Taylor and Pembrook 1983 (List here)
+
+#### Computational Musicology 
+
+#### Music Psychology and Memory for Melody
+
+### Rationale 
+
+#### Computational Musicology
+
+#### Music Psychology 
+
+### Factors
+
+This section will list factors that are believed to be important to modeling melodic dictation.
+Need to have both individual and musical parameters.
+Ends with polymorphic view of musicianship.
+  + Nichols, Wolner, Halpern 2018
+  + Niels paper on Jazz similarity
+  + My paper on Wagner 
+
+
++++++++++++++
+Pitch in Karpinki 
+
++ Pitch Matching (Work being done with Seatle, Pfordresher)
++ Pitch Memory (See Snyder)
++ Pitch Collection and Chunking 
++ Infereing Tonic
++ Melodic Contour 
++ Scale Degrees 
++ Identification of Intervals
++ Identifcaiton of Scale Types 
++ Solimization Systems 
++ AP
+
++++++++++++++++++++
+Melodic Dictation 
+
+Kraft 1999 -- First part of book is for melodic dictation
+Benward and Lolosick 1996a -- Melodic Dictation
+
+Karpinski 1990 Has its own model for melodic perception?? 
+
+Page 66 of K -- Relevant Melodic Contour Information 
+page 68 of K -- Deutsch -- Familiar systems are better (now we have IDyOM)
+Dowling and Harwood 1986 124-44 Melodic expectancy (probably better for Pearce)
+READ Sloboda and Parker 1985
+
+THURSDAY FOLLOW UP!
+Follow Ups of Note Max 
+  + Tallarico 1974
+  + Long 1977
+  + Pembrook 1983
+  
+7-11 Notes? 
+Marple ND reports that most things land in 7 +/-2, But not mention of IC! 
+Found that if you make it rhythmic, goes up to 6-10, rhythm helps, but maybe it's just shorter time
+
+Potter 1980 -- most people chunk (obvs question of segmentation)
+Deutsch 1980 rhtym alines with pich, people do better than non-hierarchy 
+Oura 1991 -- MODEL OF HOW MANY PITCHES PEOPLE REMEMBER, use for corpus question on pattern matching
+
+Hofsetter 1981 -- people do better in bottom 4 time than 8 (again maybe confounded by IC)
+
+Page 98 in Karpinksi has lenght and number of playings, 
+
+Effect of tempo in  Unks, Bowers, and Eagle 1993
+
+figure 3.1 is Karpinski method to understand dictation process
+
+
+
++++++++++++++++
+Define the rationale and significance for this study
+talk about what the processes are that go into this 
+What are the implicit transfer claims of this? 
+    + discussed in chapter 2 (history and rationale, Karpinski)
+    + transfer literature also dicussed in chapter 2
+Is there literature specifically on this? Yes, but scant.
+
+
+what contributes to this whole process?
+
+Note that there are two fields, both of which's literature can help out.
+
+
+===================
+63 words at start 
+
+## Chapter 2
+
+## First Establish Others think this is Important 
+
+### Historical Evidence 
+
+### Current Evidence 
+
+## Solimization
+
+### What is Solimization 
+
+### Brief History of it 
+
+## Current State of Aural Skills
+
++ Guy that just wrote that dissertation on it in England 
+
+
+History of Aural Skills a lot from other sources
+  + Karpinski (Schumann, Smith, Benward and Car, Benward and Kolosick, Butler 1997)
+  + Wolf and Colleagues
+  + Best-- thinking 'in' music 1992
+  + Serafine 1988 thinking in or with sound / 
+  + Elliott 1996 thinking about music without 'understanding'
+  === These all really just have to do with mental representation? 
+  
+  Karpinski -- "Music listeners who understaqnd what htey hear are thinking in music" <-- claim page 4
+    + could imagine a thought experiment where understanding implicit and explicit knowledge of this
+
+Karpinski notes that (Butler and Lochstampfor, 1993) no link between pedagogy and music cognition.
+
+
+## Old Farts To Talk About 
+
+- Guido of Arezzo
+- Gioseffo Zarlino 
+- Franchinus Gaffurius
+- C.P.E. Bach
+- Jean-Philippe Rameou
+- Arnold Schoenberg
+- Heinrich Schenker 
+
+- Adriano Banchieri <-- first to fix guido's hexachord 
+- Hubert Walerant (via Calvisius)
+
+- Timothy Johnson's Article on solimization 
+- Gregory Barnett - cambridge guide, 17th Century Organization
+- Lorenzo Penna 
+
+  
+* Compare and contrast goals in terms of pedagogy and teaching. 
+
+## Current State 
+
+* Books and what not. 
+
+## Chapter 3
+### Cognitive Aparatus
+
+### Training Effects 
+
+## Transfere Literature 
+
+### Memory for Melodies Literature 
+
+### WMC 
+
+* Nichols, Wollner Halpern, 2018
+
+### Gf 
+
+
+###Outline Notes
+
+* Melodic Dictation is clearly something that uses WM
+* Also dependent on WMC
+* Problem is that there is not a direct comparison
+* WMC tasks, simple and complex are with novel stimuli
+* Even in cases of WMC, need to control for word frequency
+* This allows us to know that exposure effects this ability
+* Huge amount of work on statistical exposure (Saffran, Huron, Margulis, Pearce)
+
+* Could take theories of WMC but capacitity limits and WMC task do not medoel the sequential and hierarchical nature of melodies
+* Obvious alternative to this is to look at n-grams in melodies
+* Image chart where overlay of n-gram is reflected in frequency distribution of chart
+* Clealry we have task where complex entertaining of information and working
+
+* What is emlodic equivlient to the word length effect?
+* Is there such a thing with decay and melodies (Lewandasky + Corey's work)
+* Hard to model idea of repeating things bc of rhythm problem and temporal properties
+
+* STOP IT WIHT THE MILLER (Articles that reference Miller but get it wrong list)
+
+* Question of how is music represented, is there some sort of pholoogical representation (is then the point to split the intervals with each phonological rep with the episodic buffer playing a role?)
+* Do students need to know what their WMC maximum is
+
+### Cowan Reading Notes
+
+* It's helpful to assume there are constants in psychology 
+* Why prefer Cowan over Baddeley, boat example 
+* Stop with the miller 7 quotes, should be listing of these
+* WMC as form of attention
+* History of WMC models (Process Model Attkinson, Baddely, Berz, Cowan)
+* Rapid formation of new episodic buffer
+* Is solfege assigment automatic? Transferred to new realm of representation
+* Need to get away from idea of chunking for MMD
+* Melodies are always in serial order 
+* Aka from above need to look at n-gram representation
+* could imagine making some sort of sensory memory experiemnt ala page 114
+* More options to write down, more error on recall, clearly not free recall situation, pattern matching
+
+- I want examples of frequency distribution confounding memory experiemnts
+
+## Baker Model of Melodic Dictation (Over Karpinski)
+
+* Divert attention to maximum n-gram 
+  * Open n-gram/attn to LTM matching
+  * When LTM match maxed, put n-gram in phological loop 
+  * Transcribe all matched n-gram with LTM match ups (effecient processing? sd)
+  
+  - {Warning if beyond capacity limit} (tho how does this relate to LTM)
+  * IF {Chunk is understandable => Transcribe}
+  * IF {Chunk is not understandable --> Segment to smaller unit }
+    * LTM as first option (contextualized)
+    * Rhythmic and Contour framework 
+      -- SD options first on contour
+      -- Avoid Interval (last resort) requires LTM single interval pattern match with n-gram of loop
+      -- Also avoid interval because it disgards maximum of n-gram
+  * Only patterns with LTM match will be transcribed (aka do sight singing)
+  * If not LTM match, then need recursive process to figure out new schema for looped n-gram
+  
+* Also, model that took n-gram funcitonality into the description would also account for weird atonal melodies where they have no function, but rather are built upon diatonic sequencs that are linked together with atonal gestures
+      
+* Theoretical reasons for stopping atomistic sight singing
+  - It's only small block of more fluid and complex process
+  - Could AP mapping be brought in here? 
+
+* Span speed correlation and doing some sort of melody thing wiht an experiment 
+
+* Eventually do POT and Music for this 
+
+## Chapter 4
+### Musical Parameters
+
+#### Inspiration from Computational Linguistics 
+
+#### Feature Extraction in Music 
+
+##### Symbolic Approaches (Static)
+
+##### Symbolic Appoaches (Dynamic)
+
+##### Behavioral Results 
+
+#### Point is that these features can stand in for intuition
+
+
+## Chapter 5
+
+### Why need new data 
+
+
+### History of Corpus Studies 
+
+### Current State in Music
+
+### Limitations
+
+### Boring Corpus Stuff
+
+#### Encoding Process
+
+#### Sampling Criteria
+
+#### Situation of Corpus Methods
+
+### Descriptives of the Corpus compared to Essen/Dutch/Whatever
+
+## Chapter 6
+
+### Rationale for Experiment
+
+### Selection of Melodies
+
+* Tonalness, Countour, Number of Pitches - Long 1997 Tonalness good predictor
+* Tonalness better than atonal (Frances 1958) Zenatti 1969 -- from Long 1997
+* Taylor 1977 -- IC predicts when contour and lenght constant 
+* Long 1997 -- IC affects information 
+
+
+
+### Experiment I and II
+
+### Experiment III?
+
+### Limitations
+
+#### How to Score 
+
+#### Reasons for making everything open source
+
+### Summaries
+
+#### Applications to Pedagoges
+
+#### Conceptual Frameworks 
+
+### Conclusions
+
+#### What can we really expect of undergrads?
+

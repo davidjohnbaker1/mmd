@@ -1,14 +1,33 @@
-# Musical Parameters
+# Computation Chapter
 
-## Inspiration from Computational Linguistics 
-
-## Feature Extraction in Music 
-
-### Symbolic Approaches (Static)
-
-### Symbolic Appoaches (Dynamic)
-
-### Behavioral Results 
-
-## Point is that these features can stand in for intuition
-
+## Humans like patterns and are very good at picking them up
+### We learn things implicitly
+### We can represent that implicit knowledge with a corpus 
+## Pre-Musical Corpora
+### Information Theory
+### Computational Linguistics as front runner
+## Musical Corpora
+### History of Musical Corpora 
+#### Fun old computational music papers 
+#### Corpora that are often used
+#### Static vs Dynamic models of feature abstraction (daniel slides?)
+### FANTASTIC 
+#### static 
+#### ML approach gets it right
+#### simple to understand
+#### Can abstract features be percieved? 
+###### Note density
+###### Contour variation
+###### Tonalness
+###### weird computational measures
+### IDyOM as representation of musical materials 
+#### n-gram models
+#### mirrors human behavior
+###### melody
+###### harmony
+## So What?
+#### Other research (Chapt 3) suggest need to move beyond cognitive measures
+#### Can operationalize item level items contextually with a corpus 
+#### IF features are real, they should effect dictation (Chater 6)
+#### Not only important for one off, but then would be incorporated into computational learning models (Chapter 6)
+#### We need new materials 
