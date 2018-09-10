@@ -1,0 +1,60 @@
+---
+title: "Computational Model Scratch"
+author: "David John Baker"
+date: "September 8, 2018"
+output: html_document
+---
+
+This document sketches out the initial ideas for the computatational model of melodic dictation.
+Plan is to take this information and then transfer it over to the end of the dissertation.
+
+## Broad Level Description
+
+On a very high level, this model reflects the cognitive processes engaged with in order for individuals to take melodic dictation.
+The model reflects decisions at each stage of the dictation process.
+The model is dynamic in that before running it you need to set a few different thresholds and a set of prior knowledge.
+The model works largetly in two parts that take inspirtation from the music cognition and working memory capacity literature.
+Partiuclarly Karpinski 2000 and Margulis 2005.
+The first part models how incoming musical information is represented in musical attention.
+The second part of the model transcribes the musical information in the attention buffer using a recursive function that is compared against the piror knowledge the model.
+Each attempt at transcription is tallyed and less attempts equate to easier transcription.
+Additionally, in the second part of the model options are availble that mirror the short hand proto notation as described by Karpinski 2000.
+By making the model an explanatory as opposed to descriptive model, it can be used to help inform pedagogy.
+It also puts assumptions of melodic representation to test and provides evidence that no-AP people should always use moveable do.
+Could it also address how people with AP represent and handel the process.
+
+Technically a baysian model?  
+
+### Model Parts
+
+Below I list out all the moving parts of the model and how things are represented.
+
+#### Prior Knowledge/Corpus
+
+* Let prior be represented by a **corpus**, **M** where each melody in the corpus is represented via a string of *n-grams* of every n length of the melody. For example, if a melody has 15 notes, it should be represetned 
+
+```{r}
+melody.length <- 15
+
+calculate.n.grams.needed <- function(x = melody.length){
+  if(x == 0 ) return(x)
+    else
+      x - 1
+}
+
+
+```
+
+
+#### Melodic Attention 
+
+#### Transcription
+
+
+## Verbal Model 
+
+The prior knowledge is represented by a corpus of **n-gram** transitions in the **mint** humdrum format.
+
+## Psuedo Code
+
+## Implementation
