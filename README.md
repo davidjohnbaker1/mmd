@@ -2,6 +2,7 @@
 
 Repo for my PhD Dissertation: Modeling Melodic Dictation
 
+Book will not build, fix
 
 ## Tasks for David 
 

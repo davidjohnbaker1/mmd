@@ -1,3 +1,92 @@
+--- 
+title: "Modeling Melodic Dictation"
+author: "David John Baker"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This dissertation explores both individual and musical features that might contribute to processes involved in melodic dictation."
+---
+
+# Significance of the Study
+
+All students pursing a Bachelor's degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation [@NationalAssociationSchools2018 Section VIII.6.B.2.A]. 
+Melodic dictation is a cognitively demanding process that requires students to listen to a melody, retain it in memory, and then use their knowledge of Western musical notation in order to recreate the mental image of the melody on paper in a limited time frame.
+As of 2018 there are 647 Schools of Music belonging to National Association of Schools of Music (NASM) CITE WEBSITE, meaning that hundereds of students every year will be expected to learn this challenging task as part of their Aural Skills education.
+The logic being that as one improves in their abiliy to take melodic dictation, this practice of critical and active listening develops as a means to improve one's ability to "think in music" and thus become a more compotent musician.
+While learning Aural Skills has been a hallmark of being educated within the Western conservatory tradition, the rationale behind both the how and why of aural skills is often thought of as being esoteric.
+Throughout the past century, people have disagreed on exactly how one does go about learning a melody with different areas of research each attacking the problem from a different angle.
+
+Despite its ubiqiquity in curricula within School of Music settings, research on topics pertain to how aural skills are acquired is limited at best.
+[Citations here about the cosntant calls butler, klondoski, pembrook]
+The fields of music theory and cognitive psychology are best positioned to make progress on this question, but often the skills required to be well versed ein ither of these subjects are disparate, published in other journals, and the research with overlap is scarce.
+This problem is not new and there have been repeated attempts to bridge the gap between practioners of aural skills and people in cognitive psycholgy CITES.
+Literature from music theory has establisehd conceptual frameworks regarding aural skills @karpinskiAuralSkillsAcquisition2000 and the relavint cognitive psychology literature has explored factors that might contribute to melodic perception (SCHMUKLER SYNERR 2016 2016), and there exists applied literature from the world of music education (CITES).
+
+However, despite these siloed areas of research, we as music researchers do not have an a concrete understanding of exaclty what contributes to HOW individuals learn melodies (HALPERNBARLETT2010).
+This is peculiar since "how does one learn a melody" seems to be one of the fundamental questions to the fields of music theory, music psychology, as well as music education. 
+Given this lack of understanding, it becomes even more peculiar that this lack of convergence of evidence is then unable to provide a solid baseline as to what student in their aural skills classrooms can be expected to do. (Also something about we should really know this if we are going to grade people on this ability).
+While no single dissertation can solve any problem completely, this dissertation aims to fill the gap in the literature between aural skills practitioners (theorists and educators) and music psychologists in order to reach conclusion that can be applied systematically in pedagogical contexts.
+In order to do this I draw both literatures (music and science) in order to demonstrate how tools from both cognitive psychology as well as computational musicology can help move both fields forward.
+Some line here about if we really want to understand what is happening we need to know about causal factors going on here and have experimental manipulation and things like making models of the whole thing or talk about what Judea Pearl thinks about the ability to do some sort of causal modeling with diagrams.
+Great to rely on some sort of anecdoatal evidence, but if we are going to put things on the line with our education then we need to be able to make some sort of falsifiable claims about what we are doing.
+Can only do that through the lens of science. 
+
+## Claims about need to join the worlds of theory and pedagogy 
+
+* [@davidbutlerWhyGulfMusic1997a]
+* [@klonoskiPerceptualLearningHierarchy2000] - perceptual hierarchy, not enough info from aural skills training
+
+
+## Chapter Overview 
+
+In this first chapter, I introduce the process of melodic dictation and discuss factors that would presumably could play a role in taking melodic dictation.
+The chapter introduces both a theoretical backgorund and rationale for using method form both computational musicology and congitive psychology in order ot answr quesitona bout how individuals learn melodies. 
+I argue that tools for understanding this best because as we currently understand it, I see us operating in a Kuhnian normal science where much can be learned by just using the tools in front of us.
+This chapter will clearly outline the factors hypothesized to contribute to an individual's abilit to learn melodies, incorporating both individual and musical parameters.
+The chapter ends with a discussion some of the philosophical/theoretical problems with attempting to measure thigns like this (is it just a party trick?) and establishes that I will be taking a more polymorphic view of musicianship in order to answer this question.
+
+The second chapter of my dissertation focuses on the history and current state of aural skills pedagogy.
+
+Tracing back its origins to the practical need to teach musical skills back with Guido d’Arezzo, I compare
+and contrast the different methodological approaches that have been used, along with their goals.
+
+The third chapter discusses previous work that examines individual factors thought to contribute to one’s
+ability to perform an aural skills task, and it will discuss results from an experiment contributing to a discussion of how individual differences could contribute to how a person learns melodies. 
+
+Turning away from individual differences and focusing on musical features, in the fourth chapter I plan to
+discuss how music researchers can use tools from computational musicology as predictive features of
+melodies. 
+Inspired by work from computational linguistics and information theory, recent work in
+computational musicology has developed software capable of abstracting features thought to be
+important to learning melodies, such as note density and ‘tonalness’ (Müllensiefen, 2009). 
+Talk a bit about how this has been also looked at before in the music education community.
+
+While these features have been used in large scale, exploratory studies, work in this chapter will discuss how these features could be used in controlled, experimental studies as a stand-in for the intuition many music pedagogues have when determining difficulty of a melody in a classroom setting. 
+
+In my fifth chapter, I introduce a novel corpus of over 600 digitized melodies encoded in a queryable
+format. 
+This dataset will also serve as a valuable resource for future researchers in music, psychology,
+and the digital humanities. 
+This chapter begins with a discussion of the history of corpus studies, noting their origin outside of music, their current state in music, and their limitations. 
+This chapter, encapsulating the encoding process, the sampling criteria, and the situation of corpus methodologies within the broader research area, will go over summary data and also talk about how it could be used to generate hypotheses for future experiemnts (n-gram stuff based on patterns) .
+
+Lastly, in the final chapter, I will synthesize the previous research in a series of melodic dictation
+experiments. 
+Stimuli for the experiments are selected based on the abstracted features of the melodies
+and are manipulated as independent variables based on the previous theoretical literature. 
+I then model responses from the experiments using both individual factors and musical features in order to predict how well an individual performs in behavioral tasks similar to some of my previously published research (Baker & Müllensiefen, 2017). 
+Here I also note important caveats in scoring melodic dictation, referencing some other of my own work on using metrics, such as edit distance (Baker & Shanahan, 2018), to discuss similarities between the correct answer and an individual’s attempts at dictation.
+Results from the final chapter will be discussed with reference to how findings are applicable to
+pedagoges in aural skills settings. 
+Recommendations will be made building on current conceptual frameworks (Karpinski, 2000). 
+
+<!--chapter:end:index.Rmd-->
+
 # Theoretical Background and Rationale {#intro}
 
 ## What is melodic dictation? and Why?
@@ -398,3 +487,307 @@ This of course does not nullify any findings on delibreate practice, but goes to
 ## Conclusions
 ### Clearly we have factors that are thought to contribute, need to investigate them in full with each chapter
 ### Not before first looking at why we are doing it in the first place (--transition to Chapter 2)
+
+<!--chapter:end:01-theoretical-bkgrd-rationale.Rmd-->
+
+# History of Aural Skills 
+
+## Thesis: Show that aural skills always has practical end, efficacy of representation of musical pitch
+### for i in star aural people do
+### Who
+### Where
+### When
+### What 
+### How (approach and goals)
+### Why
+### Guido d'Arezzo
+### Walerant (via Calvisius)
+### Banchieri 
+### Cerratto
+### Penna
+### Zarlino 
+## Quotes from Schumann 
+## Carl Seashore thinking in music 
+## Points from Karpinski on pedagogy
+## Points from Royal Paper on pedagogy
+## Solmization System
+## Really this is all question of efficacy of mental representation of musical pitch
+
+<!--chapter:end:02-history-current-aural.Rmd-->
+
+# Individual Differences
+
+## Why care about cognitive abilities
+### General intelligence and WMC 
+### Defining of terms
+## Have established that cognitive abilities contribute to musical task (for journal article langauge repeat)
+### General Fluid Intelligence, WMC, Training as uni of polymorphic
+## Remind the nature of a musical dictation type task (hear, loop, executive decision)  
+### This is WMC task, gf has problems (Although high level link with gf, problematic, WMC models at level of process of md)
+#### Berz 1994 noticed it first
+#### Williamson Baddely Hitch suggest maybe musical loop
+#### Even Cowan labs wonder how different (Li Cowan Saults )
+## WMC has been misused in music education, theory, pedagogy, aural literature and deserves attention
+### Problems with chunking 
+#### Mistake with Miller 1956, he did not mean 7 items
+#### Broadbent 1956 more of why its more like 3-4
+### Problems with using capacity limit literature
+#### See Cowan 2005 page 80
+#### Musical order is always serial effects
+### Should be using Cowan model because of these things (zooming) or discuss within Baddely Hitch/Atkinson Shriff
+### One Note does not mean one unit in memory!
+### Confounded by corpus distributions
+### Lack of understanding (all aural skills are those that engage WMC, LVH says many students have WMC deficits, "increase memory")
+### Point I am making is that if you're going to do it, do it well. 
+## Know WMC plays a role, sense, pertain, execute, should be able to pick up in experiment close to MD
+## Gold-MSI melodic Memory and beat perception test
+### What is gold MSI 
+### What are issues I want to talk about with psychometrics
+### Describe test in detail and WHY it's what we're after here
+#### not exactly mmd, but most people would say similar skill sets
+#### also before getting dirty,need experimental desing with less response options (Cowan, Saults, Elliott, Moreano 2002)
+## IF we accept these DVs, THEN we should be able to predict them with self reports and measures of WMC and gf
+## Do this with hierarchical LVM ala Elliott paper 
+### Versions of this paper at ICMPC
+### Exploratory in that tried a few different models (high type I error but whatever)
+## Overview of Experiment (cross sectional design)
+### Participants
+### Materials
+### Procedure
+### Results
+#### Descriptive, Correlational
+#### Modeling
+### Discussion
+#### Review of the Goals
+#### What were best model fits
+#### Clear effect of WMC
+#### What if we are just measuring WMC? 
+#### Obvs need this for futre studies
+#### Need to use something to go above and beyond baseline (--transition to corpus as memory and n-gram)
+#### Future verbal theoretical and computational models should involve capacity measures (limits)
+ 
+
+<!--chapter:end:03-individual-parameters.Rmd-->
+
+# Computation Chapter
+
+## Humans like patterns and are very good at picking them up
+### We learn things implicitly
+### We can represent that implicit knowledge with a corpus 
+## Pre-Musical Corpora
+### Information Theory
+### Computational Linguistics as front runner
+## Musical Corpora
+### History of Musical Corpora 
+#### Fun old computational music papers 
+#### Corpora that are often used
+#### Static vs Dynamic models of feature abstraction (daniel slides?)
+### FANTASTIC 
+#### static 
+#### ML approach gets it right
+#### simple to understand
+#### Can abstract features be percieved? 
+###### Note density
+###### Contour variation
+###### Tonalness
+###### weird computational measures
+### IDyOM as representation of musical materials 
+#### n-gram models
+#### mirrors human behavior
+###### melody
+###### harmony
+## So What?
+#### Other research (Chapt 3) suggest need to move beyond cognitive measures
+#### Can operationalize item level items contextually with a corpus 
+#### IF features are real, they should effect dictation (Chater 6)
+#### Not only important for one off, but then would be incorporated into computational learning models (Chapter 6)
+#### We need new materials 
+
+<!--chapter:end:04-musical-parameters.Rmd-->
+
+# Hello, Corpus
+
+## Brief review of Chapter 4 on corpus (Language to reflect journal submission)
+### Corpus outside of music
+### Corpus in Music
+### The point is that it implicitly represents humand knowledge
+### IDyOM 1
+### IDyOM 2
+### IDyOM 3
+### Huron suggestions that starts of melodies relate to mental rotaiton 
+### Other Huron claims
+## Note problem with using corpus is making corpus
+### Many are used on Essen
+### Brinkman says Essen Sucks
+### If going to make generlizable claims, need to always have new data 
+## Solem duty to encode and report on corpus
+### Justin London Article on what makes it into a corpsu
+### Though I just encoded the whole thing because in my heart of hearts I'm a Bayesian
+## The Corpus
+### History of Sight Singign books
+### Assumed to be where long term store comes from (adumbrate computational model)
+### Lots of melodies in ascending order of difficulty, grouped appropriately though? Utah guy
+### Why I encoded it in XML  
+### Is it legal?
+## Descriptive Stats of Corpus
+### Why?
+#### For pedagogical purposes
+#### For experimental purposes
+#### For computational idexing (get me melody with x tonal score)
+#### Could serve as representation of implicitly learned expectations for future modeling
+### Feature Level
+#### What features are normally distributed
+#### Correlated feature problem
+#### big ~facet wrap of the whole thing
+#### Could do dimensonality reduction (Baker, Harrison, others) but then loose understanding
+### n-gram
+#### Big solfege n-gram table
+#### Dependent on representation (notes, solfege, mint)
+#### Shiny app of n-gram heatmap with Peter
+#### Idea would be that hotter n-grams lend them selves to better chunking (but need better word than chunking)
+
+
+<!--chapter:end:05-corpus.Rmd-->
+
+# Experiments
+
+## Rationale 
+### Have done all this and have not actually talked about dictation yet 
+### Clearly many factors contribte to this whole thing and need to be taken into a model 
+### Dictation is basically a within subjects design Experiment
+#### Get very ecological and dirty and run it 
+### Factors
+#### Cognitive
+##### WMC
+##### GF
+#### Training
+##### Goldsmiths MSI 
+#### Musical 
+##### FANTASTIC
+##### IDyOM
+#### Investigate melodies with this context and set scoring 
+#### Mirror design to see if effects of melody are there
+
+## Experiments
+### Experiment I
+#### Participants
+#### Procedure
+#### Materials
+#### Scoring 
+#### Results
+#### Modeling
+#### Discussion 
+### Experiment II
+#### Participants (New)
+#### Procedure (Same)
+#### Materials (Swapped but controlled)
+#### Scoring (Same)
+#### Results
+#### Modeling (same)
+### General Discussion 
+#### What happened
+#### Assumption of all of this is that many things are happening linearly in combination with each other
+#### Additionally the mixed effects framework works better with more data? 
+#### Also how we score it is going to mess wiht the DVs
+### Really what is needed is Computational Model 
+
+## Computational Cognitive Model Model (If time permits) [Whole article in itself]
+### Why?
+##### Better than verbal models
+##### Sometimes even mathematically infesable proposed theory
+##### Beyond Karpinski in that it doesn't just schematize, says exactly when each thing is happening when
+##### Lends itself to better discussions that don't just rely on personal anecdotes
+##### Can tweak the parameters 
+##### Can collect different types of data (corpus or experimental) and use the model
+##### This model suggests that atomism approach is actual just subprocess of larger pattern 
+#### Theoretical Justification
+##### Marries literature on LTM and prior knowledge, information theory, WMC, computation, representation
+##### Also can be implemented in computer
+##### represntation of rhythm too?
+##### inspired by people like margulis 2005, albrecht and shanahan key finding, want something to contribute
+##### Really Made me think
+#### The Model (note many parameters can be changed in R package)
+#### Prior
+###### Corpus of music represented in form of n-grams
+###### IDyOM extracts all possible n-gram permutations as learned corpus
+##### Music notation fed into processing window where incoming n-gram is matched based on WMC window OR IT maximum 
+###### Information builds until approaches critical threhold 
+###### Upon maximum, model puts n-gram into focus of attention (Cowan 1988) and note why this is better than Baddely Hitch
+###### Recursive transcribe function looks for LTM matches 
+####### Option 1: Pattern Matched and Pattern Transcribed, success?
+####### Option 2: Pattern not matched in full, truncated and use match option again (should be higher probability of match with corpus)
+####### Option 3: Pattern not matched downsize again until at interval level and relying on 2-gram (atomism)
+####### On sucess of option, reopen gate at nearest long implicit n-gram LTM Match (start or end problem)
+###### Put time contraints on search features 
+###### Transcribe process resets with trace image of melody after each dictation 
+###### Transcribe process ends when all notes accounted for 
+#### Model Output
+##### Based on leanrning, times needed to hear it
+##### Completion percentage
+##### Rank order of easier to transcribe parts based on learning
+#### Model Compared to Data
+##### With Experimental Data 
+### Future Suggestions for Aural Skills Pedagoges and Research
+#### Use model as teaching stepping off point
+#### Should move towards LTM pattern matching
+#### Reason that people learn how to sight sing is to INCREASE the learning of the implict corpus
+#### Circular process here
+#### Is this what it means to then think IN music
+#### Really it's to just know the patterns maybe like model where Justin London suggests we get to know patterns and expect themn
+#### Would also make sense in terms of Leonard Meyer 1956
+#### Use WMC in music theory, cognition, education studies
+ 
+
+<!--chapter:end:06-experiments.Rmd-->
+
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+# Reference Log 
+
+## To Incorporate
+
+* [@margulisModelMelodicExpectation2005] -- Margulis Model 
+* [@nicholsScoreOneJazz2018] -- Specialty jazz background helps in tasks, WMC
+* [@NASM201718HandbookPdf2018] -- Fix intext
+* [@schumann1860musikalische] -- Quote about why people should do ear training
+* [@smith1934solfege] -- Quote from K2001 about why people should do ear training
+* [@longRelationshipsPitchMemory1977] -- Musical Characteristics predict memory
+* [@taylorStrategiesMemoryShort1983] -- Great citation that lots of things change memory, even structural! 
+* [@tallaricoStudyThreePhase1974] -- Long boring talk on STM, LTM
+* [@ouraConstructingRepresentationMelody1991a] -- Awful experimental design that says people use structual tones
+* [@buonviriExplorationUndergraduateMusic2014] -- Call for experimental, suggestions as to what factors might contribute, use of deductive reasoning, qualitative
+* [@buonviriEffectsPreparatorySinging2015] -- People need to focus right away, not establish, distractors
+* [@buonviriEffectsMusicNotation2015] -- Showing people visual music does not help much.
+* [@buonviriEffectsTwoListening2017] -- Listening helps with other things, no best strategy in terms of writing
+* [@buonviriMelodicDictationInstruction2015] -- Literature to say people are bad at teaching melodic dictation and we don't know a lot about it, also interesting stuff about what solfege systems people use
+* [@davidbutlerWhyGulfMusic1997a] -- Call for music educators to do aural skills research, notes problem with aural skills pedagogy in lack of direction, also nice Nicholas Cook quotes on point of theory
+* [@furbyEffectsPeerTutoring2016] -- music ed study with weird stats, has references to follow up on with advantages of pitch systems and people who reccomend things for sight singing
+* [@pembrookInterferenceTranscriptionProcess1986] -- Effects of melodies, also how people do it. Interesting that they too effect of melodies, but talka bout things in terms of notes and not in terms of information content. Thought ot have an experiment where the n-grams that are more common are easier to write down. Lots of good charts too. 
+* [@paneyEffectDirectingAttention2016] -- It's not good if you tell people what to do when they are dictating, article has a lot of good review for dictation materials to add to the 'toRead' folder.
+* [@fournierCognitiveStrategiesSightsinging2017a] -- Good references that people are awful at Aural Skills, Also suggestions that people are not that great at transfer, and some stuff to suggest academic abililty is intertwined in all of this. Good reference for when starting to talk about untangling the mess that is aural skills. 
+* [@berzWorkingMemoryMusic 1995] -- Add on a new module to the WMC model of baddel with music, presents some evidence for why this theoretically should be included, but actually takes examples of dictation. A lot of this article felt like things that i was reinventing...not  good.
+* [@atkinsonSomeThoughtsOnTrying] -- Proof some other people are starting to think in terms of pedagogical schemas
+* [@klonoskiPerceptualLearningHierarchy2000] -- Music cognition needs to talk to aural skills more, also need to unbind theory routine with aural skills and think of things more as in a perceptual learning hierarchy 
+* [@klonoskiImprovingDictationAuralSkills2006] -- great quotes that when people get something wrong with aural skills, what does that even mean, lack of transfer effects, article ends with ways to get better at things
+* [@pembrookSendHelpAural1990] -- Survey of what people in the late 1980s were doing in terms of aural skills pedagogy
+* [@karpinskiModelMelodicPerception1990] -- addresses why Gary Karpinski thinks we should teach melodic dictation
+* [@potterIdentifyingSucessfulDictation1990] -- dictation teacher surprised that people don't keep up their dictaiton skills quote
+
+## Chapter 3
+
+* [@cowanWorkingMemoryCapacity2005] -- This book will probably serve as cornerstone of chapter in terms of creating relevant literature in addition to EE course readings on WMC. Provides history of WMC models and notes how attention based model as opposed to Baddely loop might actually be better theoretical model for talking about fact that WMC could just be something related to attention if not that. Provides extensive listing on problems with chunking that are all relevant to music, but then also supports it. Shows that Miller 1956 is a generally bad citation, own author even says that in Miller 1989 (check and add) and says limit is probably about 4 (use Cowan 2001 for ctation find that). Lots of good ideas like how music is always serial recall, examples of how to model the process, great discussions on zooming out and categorical nature of music within span of WMC ideas.
+
+* [@ockelfordMusicModuleWorking2007] -- uses case of savant to argue bits of Berz WM Music Model
+
+
+<!--chapter:end:061-reflog.Rmd-->
+
+`r if (knitr:::is_html_output()) '
+# References {-}
+'`
+
+<!--chapter:end:07-references.Rmd-->
+
