@@ -6,6 +6,47 @@ output: html_document
 ---
 
 ## Chapter 1
+
+One could even go further and borrow a thought experiment from the world of neuroscience and imagine a double dissociation with melodic dictation ability and musical skill.
+Thinking about one's colleagues 
+
+Even using a simple thought experiment using the old double dissicoation thign that htey love in neuroscience where you could imagine both situations where someone was probably a very good musician, but not that great at melodic dictation, or the converse where someone might be very good at melodic dictation, but is not that good of a musician (whatever that means) would indicate that there is probably not that strong of a casusal link between dictation abilities as measured by grades in an aural skills class and the infinite possiblities of musical activities that are even possible.  
+
+
+
+In her textbook _Practical Ear Training_ Janet McLoud McGaughy notes that
+
+> qualified musicians must develop reading, singing, and notational skills in order to achieve acuity of aural perception and to make effective use of that acuity" (p. i)."
+
+which makes the point that the development of ear training is about developing acuity in aural percepiton which then is then transfered over for other musical activity.
+In his forthcoming article in the Journal of Music Theory Pedgagogy, UTAH MAN SAYS.....
+
+UTAH MAN SAYS IT BEST WHEN HE SAYS 
+
+UTAH MAN QUOTE
+
+#### Verbal model, has problems, OK for pedagogy
+
+As a verbal model, Karpinski's model of dictation makes sense and breaks down a very complicated cognitive process into discrete, sequential steps.
+This model, whether or not Karpinski intented it to be an actual cognitive model, I don't know, assumes serial processing of information and does not specify any of the actual parameters for each of the steps.
+This model serves as a great stepping off point for this dissertation, and its good for me that he didn't actually specificy any of the actual parameters, he just said certain things happen and gave an approximate order of the whole thing.
+He talks about a lot of the parameters leading up to it all,
+Even talks about things like representation and other paramters that are going to influence it all.
+Did not attempt to pin down any of the exact parameters of his model, but this is just me wanting to forshadown Chapter 6 where I take each of these issues and implement them in a computational model. 
+While covering many bases, one of the problems with using a verbal model as opposed to a computational one is that by not specificying exaclty what happens when and how everything is represented, the model can manifest itself in a multiude of different ways.
+
+Take for example the often cited model of working memory by Alan Baddely and Grahm Hitch which posits a modular view of workign memory capcacity [@baddeleyWorkingMemory1974].
+As discussed in CITE, although the model only has X amount of distinctive systems, the fact that they left it to be a verbal model of memory, and did not tack down exactly how each parameter functions, when built as computational model actually ends up yielding 156 different models. 
+While I will reseve discussing how many possible models might exists as derrived from the Karpinski for Chapter 6, it is suffice to say that clearly establishing the degree to which part of the model contributes in concrete way only helps with furthering the literature.
+
+When viewed from a pedagogical stand point, espcielaly given how litle time people have, it would basically be impossible to attend to each of these things in a gradient fashion in the standard 15 week semester that people have. 
+When people teach this, need to rely very much on intuition and basically adjust to the level of your class and syllabus and whatever on the fly in order to convey the most amount of musical materials possible. 
+
+Conversly, when viewed from an experimental standpoint, each of the above mentioned processes is bascially an experimental parameter waiting to be investigated.
+Additionally, the process that is put forth by KARPINSKI 1999 provides a stepping off point for positing some sort of comutational model.
+Going to add substatinally to it in that going to take into account both how difficulty the melodies are, something we have intiutive understanding of, but could be operationalized, and also going to try to model individual differences based on factors that prior literature would suggest are different in individuals and should be considered in any sort of modeling going forward. 
+In addition to these above parameters discussed by Karpinski, now review other factors that could then contribute to this process.
+
 ## Old Drafts of Chapter Structure BELOW THIS LINE 
 ## Theoretical Background and Rationale
 
