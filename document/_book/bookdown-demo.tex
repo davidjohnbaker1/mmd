@@ -31,6 +31,46 @@
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{natbib}
 \bibliographystyle{apalike}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs}
 \usepackage{graphicx,grffile}
 \makeatletter
@@ -84,7 +124,7 @@
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{2018-09-11}
+  \date{2018-09-13}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -183,6 +223,23 @@ our education then we need to be able to make some sort of falsifiable
 claims about what we are doing. Can only do that through the lens of
 science.
 
+\hypertarget{claims-about-need-to-join-the-worlds-of-theory-and-pedagogy}{%
+\section{Claims about need to join the worlds of theory and
+pedagogy}\label{claims-about-need-to-join-the-worlds-of-theory-and-pedagogy}}
+
+\begin{itemize}
+\tightlist
+\item
+  \citep{davidbutlerWhyGulfMusic1997a}
+\item
+  \citep{klonoskiPerceptualLearningHierarchy2000} - perceptual
+  hierarchy, not enough info from aural skills training
+\item
+  \citep{karpinskiAuralSkillsAcquisition2000} - ``There is indeed a gap
+  between the disciples of music cognition and aural skills training'',
+  GK says that one of his goals is to bridge that gap, and he does.
+\end{itemize}
+
 \hypertarget{chapter-overview}{%
 \section{Chapter Overview}\label{chapter-overview}}
 
@@ -269,33 +326,91 @@ Melodic dictation is the process in which an individual is able to hear
 a melody, retain it in memory, and then use their knowledge of Western
 musical notation to recreate the mental image of the melody on paper in
 a limited time frame. For many, becoming profiecent at this task is at
-the core of developing one's aural skills. This link between \emph{ear}
-training and it's implied transfer is tacit knowledge and to question
-the usefulness of this skill might even qualify as heretical. It is this
-ability to think \emph{in} music that h
+the core of developing one's aural skills. Presumably the reason that
+melodic dictation is so highly valued in music pedagogical circles is
+because that time spent learning to do this highly complex set of mental
+gymnastics results in increases in near transfer abilities\footnote{since
+  at no point after being in an Aural Skills setting would some one
+  require one to write down a melody on paper within a limited time
+  frame.} that are of great benefit to the student once they leave the
+classroom. Melodic dictation is only one of many skills that are taught
+and assesed in Schools of Music and this skill is normally taught in the
+context of an Aural Skills class. On a poetic level, the idea of aural
+skills class is to be able to make one's ear better, and this is kind of
+rationale has existed in music circles for at least the past 150 years.
 
-Examples about older people who have talked about it.
+In his highly influenctial book \emph{Aural Skills Acquisition: The
+Development of Listening, Reading, and Performing Skills in
+College-Level Musicians}, Gary
+\citet{karpinskiAuralSkillsAcquisition2000} documents this deeply held
+belief in music pedagogy circles by listing poetic adages from romantic
+composer Robert Schumann in the mid 19th century through music educator
+Charles Elliott in the opening of his text, thus providing concrete
+examples of this belief that perfecting one's aural skills, or
+\emph{ear}, more colloquially, is a highly sought after advanced skill.
+After documenting many of of these, he asserts that the goal of
+improving one's ear is to escape from thinking about music to thinking
+in music.
 
-Despite the century old rhetoric on the importance of developing one's
-ear, exactly how an individual goes about improving one's \emph{ear}, or
-even coming up with a concrete, operationalized definition of what one's
-\emph{ear} actually is has yet to be fully defined. A large part of this
-probably stems from the fact that many of the skills that are generally
-grouped under the curricular umbrella of aural skills are extremely
-complex cognitive processes that are hard to detail at their every step.
-These skills range from being able to identify basic features of the
-acoustical properties of music, to melodic dictation, polyphonic
-dictation, harmonic dication, error identification, hearing large scale
-form, sight singing, sight reading on an individual's primary
-instrument, as well as score reading, and any keyboard skills that aid
-in these tasks. While this assortment of abilities might seem like a
-aural potpourri, \citep{karpinskiAuralSkillsAcquisition2000} has
-taxonimized the aforementioned list into two larger categories of
-Listening Skills and Reading and Performing Skills. In his seminal text,
-he establishes multiple helpful that I will refer to throughout the
-course of this dissertation.
+A lot of the reasons that I think we do this are introspective and
+anecdotal, but the thing is this is ubiquitous. There, as this
+literature review will show, is not a lot of great emperical evidence
+looking directly at melodic dictation, so then to claim that there are
+huge transfers to be gained from learning how to do it would be
+underwhelming. More recently people have noted that the rationale for
+why we teach this probably deserves more critique with researchers like
+Klonoski raising important questions like ``What specific deficiency is
+revelaned with an incorrect reponse in melodic dictaiton settings?''
+\citep{klonoskiImprovingDictationAuralSkills2006} and even earlier
+researchers like Potter being baffled by the fact that many musicians do
+no actually keep up with their melodic dictation abilities after the
+classs ends POTTER QUOTE. Even a simple thought experiment using the old
+double dissicoation thign that htey love in neuroscience where you could
+imagine both situations where someone was probably a very good musician,
+but not that great at melodic dictation, or the converse where someone
+might be very good at melodic dictation, but is not that good of a
+musician (whatever that means) would indicate that there is probably not
+that strong of a casusal link between dictation abilities as measured by
+grades in an aural skills class and the infinite possiblities of musical
+activities that are even possible.
+
+This is a pretty grim introduction, but want to leave no dark elephant
+in the closet. Rationale for learning to do this is often tacit and
+assumed and passed down over time, and despite the above is still good.
+All that said, there have been people who have tried to put the argument
+for melodic dictation into more concerete terms. In her textbook
+\emph{Practical Ear Training} Janet McLoud McGaughy notes that
+
+\begin{quote}
+qualified musicians must develop reading, singing, and notational skills
+in order to achieve acuity of aural perception and to make effective use
+of that acuity" (p.~i)."
+\end{quote}
+
+which makes the point that the development of ear training is about
+developing acuity in aural percepiton which then is then transfered over
+for other musical activity.
+
+UTAH MAN SAYS IT BEST WHEN HE SAYS
+
+UTAH MAN QUOTE
 
 Stuff about the truly aural skills.
+
+At a deeper level, when we are teaching aural skills, we are teaching
+people to be better listeners and given all of the possible things that
+we can look at with aural skills, melodic dictaiton is great because
+there is a lot of great literature from the world of music perception,
+less to worry about than harmonic dictation, and is ubiquitous probably
+because NASM requires people to have to learn how to do this to get a
+music degree from an accredited music school.
+
+Karpinski devotes an entire chapter to melodic dictation in his book,
+note that it's a focal point, addressed in the majority of aural skills
+textbooks, and because of this it starts out with a really good jumping
+off point because he has done a lot of the preliminary work./
+
+OK GOOD NOW I HAVE AT LEAST RATIONALIZED WHY
 
 In addition to his bifurcation of arual skills into Listening and
 Reading/Performing skills, Karpinski devotes an entire chapter to the
@@ -544,74 +659,763 @@ conceptualization of aural skills. This is important because how we talk
 about and model things reflects or values and often it will get in the
 way of stuff.
 
-\hypertarget{cognitive-factors-mt-and-it-selection-bias}{%
-\section{Cognitive Factors (MT and it selection
-bias)}\label{cognitive-factors-mt-and-it-selection-bias}}
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{message}\NormalTok{(}\StringTok{"Diagram"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Diagram
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# library(DiagrammeR)}
+\CommentTok{# }
+\CommentTok{# grViz("}
+\CommentTok{#      digraph boxes_and_circles \{}
+\CommentTok{# }
+\CommentTok{#   # a 'graph' statement}
+\CommentTok{#   graph [overlap = true, fontsize = 10]}
+\CommentTok{# }
+\CommentTok{#   # several 'node' statements}
+\CommentTok{#   node [shape = box,}
+\CommentTok{#         fontname = Helvetica]}
+\CommentTok{#   Individual ; Musical ; Cognitive ; Environmental ; Structural ; Experimental }
+\CommentTok{# }
+\CommentTok{#   node [shape = box] // sets as circles}
+\CommentTok{#   WMC; Gf; CowanList; Musical_Training; Aural_Training; }
+\CommentTok{#   Interval_Structure; Times_Played; Tempo; AuralSkills}
+\CommentTok{# }
+\CommentTok{#   # several 'edge' statements}
+\CommentTok{#   AuralSkills -> Individual}
+\CommentTok{#   AuralSkills -> Musical}
+\CommentTok{#   Individual -> Cognitive}
+\CommentTok{#   Individual -> Environmental}
+\CommentTok{#   Musical -> Structural}
+\CommentTok{#   Musical -> Experimental}
+\CommentTok{#   Cognitive -> WMC}
+\CommentTok{#   Cognitive -> Gf}
+\CommentTok{#   Cognitive -> CowanList}
+\CommentTok{#   Environmental -> Musical_Training}
+\CommentTok{#   Environmental -> Aural_Training}
+\CommentTok{#   Structural -> Interval_Structure }
+\CommentTok{#   Experimental -> Times_Played}
+\CommentTok{#   Experimental -> Tempo}
+\CommentTok{# \} }
+\CommentTok{#       }
+\CommentTok{#       ")}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{individual-factors}{%
+\section{Individual Factors}\label{individual-factors}}
+
+\hypertarget{cognitive}{%
+\subsection{Cognitive}\label{cognitive}}
+
+Research from the cognitive psychology literature suggests that
+individuals differ in their percetual and cognitive abilities in ways
+that are not easily influenced by short term-training (cite) and that
+these abilities, when investigated on a large scale are predictive of a
+wealth of human behavior from RICHIE CITATIONS. If literature exists
+that suggests that cognitive abilites are sucessful predictors of things
+related to something like academic achievement, it worth investigating
+the extent that these abilities might play when modeling melodic
+dictation. This is also important to understand because if we were to
+find out that something as simple as general fluid intelligence was a
+strong predictor in musical tasks that we are grading people on, it
+would be pretty unfair to do since we are then basiclly grading people
+on genetic factors beyond their control, as well as environmental
+factors shown to have some sort of effect on IQ (Richie paper again).
+Recenlty there has been a surge of interest in this area (nancy rogers,
+LVH, utah guy, karinkski icmpc, form at SMT) probably due to the fact
+that educators are picking up on the fact that cognitive abilities are
+powerful predictors and need to be understood since they ineveitably
+will play a role in pedagogical settings.
+
+Before diving into a discussion regarding differences in cognitive
+ability, I should note that sometimes ideas regarding differnces in
+cognitive ability been hostily recieved (citation against people talking
+about IQ) and for good reasons. Research in this area can and has been
+taken advantage to further dangerous ideologies (Bell Curve), but often
+arguments that assert meaningful differences in cognitiev abilites
+between groups are founed on statistical misunderstandings and have been
+debunked in other literature (measure of man). With that cleared out of
+the way, it is very hard to mantain a scientific commitment to the
+theory of evolution (Darwin) and not expect variation in all aspects of
+human behavior, with cognition falling within that umbrella.
+
+Attempting to measure aspects of cognition go back over a century. Even
+before concepts of intelligence were posited by Charles Spearman and his
+conception of \emph{g} (Spearman, 1904), scientists were intersted in
+finding links between an individual's mental abilities and some sort of
+physical manifestation. This area of research was pretty dark and kind
+of implicitly was all about validating preconceutalized ideas that
+people had on the superiority of peoples, with white dudes always comign
+out on top. For example, THIS GUY WHO TRIED TO QUANTIFY GREATNESS Also
+this guy who basically measured people's skull sizes. But of course this
+stuff is not meaningful at all, especially when the dependent variable
+in this was so subjective and constrained by a culture where one ruling
+people (white dudes) had all the power.
+
+I only mention this because this line of thinking was co-opted by the
+American herediterian school of IQ (page 187 in Gould), where people
+that were after the same sort of idea (superiority of white people)
+basically took ideas of Alfred Binet, one of the first people to begin
+to systematically investigate cognitive ability in children at request
+of the french governement so that children who were, what today we would
+call learning disabled, could be identified and given special attention.
+Binet also took a lot of inspiration from Broca, WHO I TALK ABOUT ABOVE
+ON SKULL SIZE.
+
+Bient was the initial developer of the idea of an intelligence quotient
+(divide mental age by chronological age then multiply by 100) and
+provided one of the first ways to attempt to measure something that was
+not capable of being manifested in the phsysical world. Around the same
+time have people like Cyrial Burt and Charles spearmean developing new
+theories of intelligence based on the reification factor analysis and
+calling it g that is based on solving problems without prior knowledge.
+
+sentence here about g and the postive manifold
+
+Of course took this aside to talk about that basiclaly Binet and
+Spearman's ideologies about what can be measusred still represent two of
+the largest schools of thought on ways to meausre cognitive ability. On
+one hand there idea that cognitive abilities are based upon a steady
+growth of incoming information that someone is able to manipulate once
+they retrieve from long term memory, the other hand is that in addition
+to that there is some sort of construct in the mind that differs between
+people that can singularly refelect their intelligence, often referred
+to as g.
+
+Basic assumption is that there is something in the brain here where
+differences will lead to different behaviors. Without detailing entire
+histories of this line of thought, Binet basically turned into an
+argument for general crystalized intelligence, or DEFINITINO HERE
+(citation). The Spearman, Burt strain of thought evolved into the
+\emph{g} school, and recent reserach has suggested that the concept of
+\emph{g} basically is statistcally equnivlient to idea conceptualized as
+general fluid intelligence (cite that in POT). Both of these constructs
+are powerful predictors on a large scale, but they don't explain the
+entire picture.
+
+Another large area in the field of cognitve psychology is the area of
+working memory capacity. As noted in Cowan 2005, what the term refers
+depends on the framework that is being used, but generally refers to the
+amount of information that can be acvtively held in concsionus
+representation, akin to short term memory, but with some important
+caveats discssed below. In additon to concepts of intelligence, be it Gf
+or Gc, the working memory capcity literature has done a lot of the heavy
+theoretical lifting, and after reviewing it we will have a much better
+idea of how once you decide about how you conceptualize it, then it's
+helpful.
+
+Given this brief background on cognitive ability, going to now dive
+deeper into both working memory capcity, as well as general fluid
+intelligence (avoid calling it \emph{g} for good reasons) and review
+literature where these have been discussed as they relate to research on
+music perception, thus being related to melodic dictation, a skill that
+you need to percieve music to be able to do?
 
 \hypertarget{working-memory-capacity}{%
 \subsection{Working Memory Capacity}\label{working-memory-capacity}}
+
+As noted by Berz 1994, tasks of melodic dictation are basically tasks of
+working memory.
+
+\begin{itemize}
+\tightlist
+\item
+  \citep{berzWorkingMemoryMusic1995}
+\end{itemize}
+
+Quoting from him directly
+
+\begin{quote}
+Here is his quote
+\end{quote}
+
+Clearly, would be worth understanding the concept at a deeper level
+since clealry they have done a lot of great work on the topic. Adoptiong
+chrnological take of the history of research the heavy hitters are *
+Attkinson and Shriff * Miller 1956 and why that is a bad idea * Baddely
+and Hitch * Nelson Cowan + need for complex span
+
+For reasons discussed on p 18 of cowan 2005 and page 42 , choose to
+adopot a Cowanian view where WMC is basically the window of attention.
+Additinally it's worth noting initially that you can't directly apply
+these frameworks to memory for musical material because after reading
+page 109 in Cowan, important to note that all melodies appear in serial
+order. To make analogous task based on something like complex span
+tasks, would need to take certain set of notes and then always a finate
+setb be played back in arandom order (see chatper 3)
+
+So while for my purposes, I will refer to it as listed on page 1 of
+Cowan 2005:
+
+\begin{quote}
+\protect\hyperlink{working-memory-capacity}{Working memory capacity}
+refers to the relativly small amount of information that one can hold in
+mind, attend to, or, technically speaking, maintain in a rapidly
+accesible state at one time. The term working is mean to indicate that
+meantal work requres use of such informaiton. (p.1{]})
+\end{quote}
+
+But in the literature below I comment on which definitional framework is
+used if relevant to the reporting of it all.
 
 \hypertarget{papers-that-suggest-wmc-plays-a-role}{%
 \subsubsection{Papers that suggest WMC plays a
 role}\label{papers-that-suggest-wmc-plays-a-role}}
 
-\hypertarget{general-fluid-intelligence}{%
-\subsection{General Fluid
-Intelligence}\label{general-fluid-intelligence}}
+\begin{itemize}
+\tightlist
+\item
+  \citep{nicholsScoreOneJazz2018}
+\item
+  Halpern paper on conductors
+\item
+  Sight reading paper
+\end{itemize}
+
+Summerize
+
+\hypertarget{general-intelligence}{%
+\subsection{General Intelligence}\label{general-intelligence}}
+
+As discussed above gf has a long history, some good some bad. Thing is
+that it can be really predictive of many things and people def do try
+incoproate it into music research.
+
+One of the big problems with this is establishing effects of causality
+looking at music. Could be that factors outside of music play a role
+like persanal views of ability (Daniel paper), socio economic status,
+and personality. And field is even big enough to have null results
+(include that catty comment of glenn schellenberg)
+
+\begin{itemize}
+\tightlist
+\item
+  Stuff on mozart effect
+\item
+  Whole chapter from Schellenberg
+\item
+  Swaminithan papers
+\end{itemize}
 
 \hypertarget{papers-that-suggest-gf-plays-a-role}{%
 \subsubsection{Papers that suggest GF plays a
 role}\label{papers-that-suggest-gf-plays-a-role}}
 
+\hypertarget{environmental}{%
+\subsection{Environmental}\label{environmental}}
+
 \hypertarget{long-term-memory-and-corpus-with-implicit}{%
 \subsection{Long term memory and corpus with
 implicit}\label{long-term-memory-and-corpus-with-implicit}}
 
+Standing in contrast to factors that individuals do not have a much
+control over such as the size of their working memory capapacity or
+factors related to their general fluid intelligence, most of the factors
+we believe contribute to someone's abililty to take melodic dictation
+have to deal with factors related to training and the envirionment. In
+fact, one of the tacit assumptions of getting a music degree revolves
+around the implictly held belief that with delibrate and attentive
+practice, that an individual is able to move from novice to expertise in
+their chosen domain. The idea that time invested results in beneficial
+returns is probably best exemplified by work produced by ANDERS ERICKSON
+1993 that suggests that performance at more elite levels has to do with
+delibreate practice. Below I review literature that supports this
+argument, since it's no doubt that someone has to engage in something to
+be good at it.
+
 \hypertarget{musical-training}{%
 \subsection{Musical Training}\label{musical-training}}
+
+It almost seems redundant to review literature in support of music
+practice leading to better results.
+
+\begin{itemize}
+\tightlist
+\item
+  List of those papers here
+\end{itemize}
 
 \hypertarget{aural-training}{%
 \subsection{Aural Training}\label{aural-training}}
 
+\begin{itemize}
+\tightlist
+\item
+  Dictation has not been that well researched
+  \citep{furbyEffectsPeerTutoring2016}
+\item
+  people try lots of things, not much evidence for peer tutoring
+  \citep{furbyEffectsPeerTutoring2016}
+\item
+  ISOLATION OF RHTYM AND MELODY
+\item
+  Banton 1995
+\item
+  Bland 1984
+\item
+  Root 1931
+\item
+  Wilson 1954
+\item
+  LISTENING BEFORE WRITING
+\item
+  Banton 1995
+\item
+  RECOGNIZING PATTERNS
+\item
+  Banton 1995
+\item
+  Bland 1984
+\item
+  Root 1931
+\item
+  SINGING SILENTLY WHEN DICRTAING
+\item
+  \citep{klonoskiImprovingDictationAuralSkills2006}
+\end{itemize}
+
+\hypertarget{sight-singing}{%
+\subsection{Sight Singing}\label{sight-singing}}
+
+\begin{itemize}
+\tightlist
+\item
+  \citep{fournierCognitiveStrategiesSightsinging2017a} - catalogugig
+  different strategizes used in sight signings
+\item
+  four main categories
+\item
+  14 subcategories
+\end{itemize}
+
+\hypertarget{to-sort}{%
+\subsection{To Sort}\label{to-sort}}
+
+\begin{itemize}
+\item
+  Harrison 1994
+\item
+\end{itemize}
+
 \hypertarget{musical-factors}{%
 \section{Musical Factors}\label{musical-factors}}
+
+\hypertarget{structural}{%
+\section{Structural}\label{structural}}
+
+Clealrly strutures also will play a role in this.
+
+\begin{itemize}
+\item
+  MEYER 1956
+\item
+  HURON 2006
+\item
+  \citep{margulisModelMelodicExpectation2005}
+\item
+  Obviously not an exact match with perception CITE SCHENKER
+\end{itemize}
 
 \hypertarget{not-first-to-model-structure}{%
 \subsection{Not first to model
 structure}\label{not-first-to-model-structure}}
 
+\begin{itemize}
+\tightlist
+\item
+  Long found that lenght, tonal structure, contour, and individual
+  traits all contribute and also found that structure and tonalness (AS
+  COMPUTED HOW) are good predictors
+  \citep{longRelationshipsPitchMemory1977}
+\item
+  Problem with long is that they eliminated people who werre bad singers
+  for the example, this is at odds both with intutiion of representatino
+  not being perfect mapping to singing, and has been DEMONSTRATED BY
+  THESE PAPERS BY PETER PFORDRESHER.
+\end{itemize}
+
 \hypertarget{early-papers-of-ortmann}{%
 \subsection{Early papers of Ortmann}\label{early-papers-of-ortmann}}
 
-\hypertarget{papers-from-1980s}{%
-\subsection{Papers from 1980s}\label{papers-from-1980s}}
+\begin{itemize}
+\tightlist
+\item
+  \citep{ortmannTonalDeterminantsMelodic1933}
+\end{itemize}
+
+\hypertarget{papers-from-mid-20th-century}{%
+\subsection{Papers from Mid 20th
+Century}\label{papers-from-mid-20th-century}}
+
+( got these from paney 2016)
+
+\begin{itemize}
+\item
+  EFFECT OF TEMPO HOFSTETTTER 1981
+\item
+  TONALITY DOWLING 1978
+\item
+  TONALITY LONG 1977 (already mentioned somehere else)
+\item
+  OURA AND HATANO 1988
+\item
+  TONALITY \citep{pembrookInterferenceTranscriptionProcess1986}
+\item
+  SIZE OF INTERVALS \citep{ortmannTonalDeterminantsMelodic1933}
+\item
+  CONJUNCT VS DISJUNCT MVT ORTMAN 1933 PEMBROOK
+\item
+  length of the melody (Gephardt, 1978; Long, 1977; Pembrook, 1986),
+\item
+  number of presentations of the melody (Hofstetter, 1981; Pembrook,
+  1986),
+\item
+  context of the presentations (Schellenberg, 1985)
+\item
+  participants' musical experience (Long, 1977; Oura \& Hatano, 1988;
+  Schellenberg, 1985; Taylor \& Pembrook, 1983),
+\item
+  Familiarity with the style of music (Schellenberg, 1985).
+\item
+  \citep{taylorStrategiesMemoryShort1983} Extensin of Ortmann and looked
+  at more musical skills, shows ways to suggest scoring simple melodies
+\item
+  \citep{ouraConstructingRepresentationMelody1991a} - sampel of 8 but
+  pretty much suggests that there is quick pattern matching that happens
+  as it is drawn from LTM,
+\item
+  \citep{paneyEffectDirectingAttention2016} - if you direct attention,
+  people do better at melodic dictation. said the next four were the
+  only things looking at dictation since 2000
+\item
+  Gillespie 2001 - HOW DO PEOPLE SCORE MELODIES
+\item
+  Norris 2003 achievement and melodic dictation and sight singing
+  CLEARLY A RELATIONSHIP
+\item
+  \citep{pembrookSendHelpAural1990} -
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \citep{paneyTeachingMelodicDictation2014} interviewed HS teachers on
+    how they teach it for APi
+  \end{itemize}
+\item
+  \citep{pembrookInterferenceTranscriptionProcess1986} - discussin here
+  wher used tonality, melodic length, and motion, interesting also
+  restricted melodies to ones you can sing. Found length, tonality and
+  motion to be signficant at 13 3 1 variance. Though seems like with
+  this there is a lot of chance for type I error and IS THERE EVEN
+  ENOUGH INFO HERE IN THE PAPER TO RECREATE IT ALL. Also claims that
+  people can hear about 10--16 notes, tho DJB would add this is
+  obviously dependent on what i refer to as musical experimental factors
+  and would not make sense to carry this logic forwad without more
+  constraints.
+\end{itemize}
 
 \hypertarget{buonviri-papers}{%
 \subsection{Buonviri Papers}\label{buonviri-papers}}
 
-\hypertarget{fantastic-papers-and-findings}{%
-\subsection{FANTASTIC papers and
-findings}\label{fantastic-papers-and-findings}}
+\begin{itemize}
+\tightlist
+\item
+  \citep{buonviriEffectsMusicNotation2015, buonviriEffectsPreparatorySinging2015, buonviriEffectsTwoListening2017, buonviriExplorationUndergraduateMusic2014, buonviriMelodicDictationInstruction2015, paneyTeachingMelodicDictation2014}
+\end{itemize}
 
-\hypertarget{modeling-and-polymorphism-of-ability-end-chapter}{%
-\section{Modeling and Polymorphism of Ability (End
-Chapter)}\label{modeling-and-polymorphism-of-ability-end-chapter}}
+\hypertarget{caveat-about-dilberate-practice-and-talent}{%
+\subsection{Caveat about dilberate practice and
+talent}\label{caveat-about-dilberate-practice-and-talent}}
 
-\hypertarget{draw-from-mmd-icmcp-on-problems-with-lv-model}{%
-\subsection{Draw from MMD ICMCP on problems with LV
-model}\label{draw-from-mmd-icmcp-on-problems-with-lv-model}}
+Also should mention here that clealrly not a perfect one dimensional
+model where effort equals results. Simple thought expeiment that hard
+work does not always equal sucess in that there are sucssfull people who
+have not worked hard and very hard workers who do not experience sucess
+in what they do. Additionally people need to keep up the skills they
+have, insert hilarious quote here from potter not believing that people
+didnt keep up their melodic dictaiton skills and show that they are
+compartmentalized \citep{potterIdentifyingSucessfulDictation1990} This
+of course does not nullify any findings on delibreate practice, but goes
+to show that the whole thing is kind of complicated.
 
-\hypertarget{thought-experiments-on-why-musicianship-is-bad-concept-in-general}{%
-\subsection{Thought experiments on why musicianship is bad concept in
-general}\label{thought-experiments-on-why-musicianship-is-bad-concept-in-general}}
+\hypertarget{recent-computational-musicology-work-papers-and-findings}{%
+\subsection{Recent Computational Musicology Work papers and
+findings}\label{recent-computational-musicology-work-papers-and-findings}}
+
+START HERE FOR WORD COUNT As noted above, in following studies XYZ,
+people have looked at musical features before me. Since then there have
+been a lot futher strides in the world of computational musicology. SAY
+THAT IN CHAPTER 4 YOU ARE GOING TO be discussing history of
+computational musicology.
+
+\hypertarget{static-views-of-computational-features-fantastic}{%
+\subsubsection{Static Views of Computational Features/
+FANTASTIC}\label{static-views-of-computational-features-fantastic}}
+
+\begin{itemize}
+\item
+  Müllensiefen, Halpern \& Wiggins (mullensiefen 2014)
+\item
+  Stewart, Müllensiefen \& Cooper FIND THIS, related ACTUAL MBEA
+\item
+\item
+  Sucessful at predicting court case decisions Müllensiefen \& Pendzich,
+  2009
+\item
+  (Kopiez \& Müllensiefen, 2008) If Beatles songs of revolver can see
+  what gets to the top
+\item
+  M4S Corpus Müllensiefen, Wiggins \& Lewis, 2008
+
+  \begin{itemize}
+  \tightlist
+  \item
+    14 K MIDI recordings
+  \item
+    1950-2006
+  \item
+    Complete compositions
+  \item
+    Some performance timings
+  \end{itemize}
+\item
+  Melodic Contour Müllensiefen, Bonometti, Stewart \& Wiggins, 2009;
+\item
+  Melodic Contour Frieler, Müllensiefen \& Riedemann, in press
+\item
+  Müllensiefen \& Wiggins UNDER REVIEW COUNTOUR
+\item
+  PHRASE SEGMENTATION Pearce, Müllensiefen \& Wiggins, 2008;
+\item
+  Harmonic Content Mauch, Müllensiefen, Dixon \& Wiggins, 2008;
+\item
+  Harmonic Contetn Rhodes, Lewis \& Müllensiefen, 2007
+\item
+  Melodic accent structure Pfleiderer \& Müllensiefen, 2006;
+\item
+  Müllensiefen, Pfleiderer \& Frieler, 2009 MELODIC ACCENT STUCTURE
+\end{itemize}
+
+ENTER FANTASTIC
+
+FROM FANTSTIC
+
+Phrase summary features that summarise the content of a melodic phrase,
+conceptually similar to the features that Steinbeck (1982) proposed but
+incorporating as well recent knowledge and techniques on tonality
+induction and melodic contour. Repetition features that measure the
+repetitiveness of short melodic-rhythmic sequences or motives (called
+m-types) which are the building blocks of melodies. These features are
+mainly inspired by characteristic text constants from computational
+linguistics that describe the frequency distribution of words in written
+text (see Baayen, 2001). Features based on the frequencies and frequency
+densities of phrase summary features in a corpus of pop music. These
+features build on the assumption that the frequency with which melodic
+features appear in real music are very important for music cognition
+(Huron, 2006). Features that are based on the corpus-derived frequencies
+of m-types as building blocks of melodies. These features are motivated
+by the important role that word frequencies play in text information
+retrieval and text categorisation (Landau et al., 2007) and verbal
+memory (Tse and Altarriba, 2007).
+
+\begin{itemize}
+\tightlist
+\item
+  open soure packge for computaitonal anlaysis
+\item
+  XX features
+\item
+  Comes from stats, music thoery, music cognition, computaitonal
+  Linguatstic (GET THAT CITATION), MIR
+\item
+  Summary Features
+\item
+  M-type features
+\item
+  Context medoling via intergration of a orpus for 2nd order features
+\end{itemize}
+
+OTHER PEOPLE WHO HAVE DONE THIS
+
+Folk music
+
+\begin{itemize}
+\item
+  Bartok 1936?
+\item
+  Bartok and Lord 1951
+\item
+  Lomax 1977
+\item
+  Steinbeck 1982
+\item
+  Jesser 1992
+\item
+  Sagrillo 1999
+\item
+  GET AND READ PAT SAVAGE ARTICLE
+\end{itemize}
+
+Popular Music
+
+\begin{itemize}
+\tightlist
+\item
+  Moor 2006
+\item
+  Kramarz 2006
+\item
+  Furnes 2006
+\item
+  Riedemann ????
+\end{itemize}
+
+Computational Musicology
+
+\begin{itemize}
+\tightlist
+\item
+  Eerola eta al 2007 and 2007
+\item
+  McCay 2005
+\item
+  Huron 2006
+\item
+  Frieler 2008
+\item
+  JAZZOMAT PROJECRT OUTPUT
+\end{itemize}
+
+GOOGLE SCHOLAR FANTASTIC CITERS
+
+\begin{itemize}
+\item
+  ROLE OF FEATURE AND CONTEXT IN RECOGNITION OF NEW MELODIES MULLENSIEFN
+  AND HALPERN 2014
+\item
+  EARWORMS FROM THREE ANGELS WILLIAMSON AND MULLSIEFN 2012
+\item
+  CORPUS ANALYS TOOLS FOR COMPUTATIONAL HOOK DISCOVERY VAN PALEN
+  BURGOYNE BOUNTORDIS 2015
+\item
+  DISSECTIN AN EARWORM MELODIC FEATURES PREDICT IMI Jakubowski 2017
+\item
+  MODELING MELODIC DISCRIMINATION TASKS HAARPSION 2016
+\item
+  INTERRRATER AGREEMENT IN MEMORY FOR MELODY AS MESUARE OF SIMILARITY
+  HERFF DEAN OLSEN 2017
+\item
+  MEMORY FOR MELODY INVEASTIAGTING HTE LINK BVETWEEN EPXERIENCE HERFF
+  2017
+\item
+  THE MUSOS TOOLKIT -- COMPUTER ASED OPEN SOURCE RAINSFORD PALER PAINE
+  2018!!!!!
+\item
+  Perception of Leitmotves in Richard Wagner's Dr Ring des -- BAKER 2017
+\item
+  Brown Collins Laney COMPUTAITONAL MODELS OF SYTLISTIC COMPARISON ???
+\end{itemize}
+
+\hypertarget{dynamic}{%
+\subsubsection{Dynamic}\label{dynamic}}
+
+\begin{itemize}
+\tightlist
+\item
+  PEARCE 2005 CITATION
+\item
+  THINGS FORM THAT 2012 REVIEW ARTICLE
+\item
+  PAPERS HERE THAT SHOW HOW IDYOM IS A GOOD MODEL OF THIS
+\item
+  SHANNON CITATION , MAYBE OLDER OTHER PAPERS TOO THAT TALK ABOUT
+  SHANNON ENTOROPY
+\end{itemize}
+
+\hypertarget{experimental}{%
+\section{Experimental}\label{experimental}}
+
+\begin{itemize}
+\tightlist
+\item
+  Could also put things like timbre into here, also relevant to this
+\end{itemize}
+
+\hypertarget{brief-discussion-on-individual-and-envirnoment-interactions}{%
+\subsection{Brief discussion on Individual and Envirnoment
+Interactions}\label{brief-discussion-on-individual-and-envirnoment-interactions}}
+
+Thinking about how all of these parameters contributes makes sense to a
+certain degree Could imagene the extereme case of each of these either
+helping or hindering someone's ability to think. Additionally could be
+the point that things interact with each other. And on top of that we
+have the idea about levels of Explanation - SEE THAT WITH WIGGINS - SEE
+THAT WITH HOW COWAN 2005 ends his book
+
+\hypertarget{modeling-and-polymorphism-of-ability}{%
+\section{Modeling and Polymorphism of
+Ability}\label{modeling-and-polymorphism-of-ability}}
+
+Important here to note that unlike Harrison 1994, not really appropriate
+to conceptualize this as latenta bility. Very easy in statistical terms
+to talk about latent variables and be able to talk about lots of
+variance predictied. But problem with any sort of model like that or
+model of musical sophistcation is that it has same fate as g.
+
+QUOTES HERE FROM MS paper on latent variables
+
+Musicianship as a concept of something ot measure when talking about
+this one little task with relative lack of concrete evidence for it's
+transfer, need to return back to a process model of melodic dictaiton.
 
 \hypertarget{polymophic-component-process-makes-you-think-about-things-in-models}{%
 \subsection{Polymophic, component process makes you think about things
 in
 models}\label{polymophic-component-process-makes-you-think-about-things-in-models}}
 
+Going to say here that LVs are bad and that need to adopt a more
+polymorphic view of musicianship as advocated by
+
+\begin{itemize}
+\tightlist
+\item
+  Levitin XXX
+\item
+  Peretz 2006
+\end{itemize}
+
 \hypertarget{conclusions}{%
 \section{Conclusions}\label{conclusions}}
+
+In this chapter I have first described what is melodic dictation,
+Karpinki's verbal model of it, noted what the things were that were
+missing from this model as a stepping off point, then went on to suggest
+a taxnomy of these based on what already has done. Suggest that there
+are both individual as well as musical features that are at play here.
+Individual features can be either cognitive, sort of fixed, or
+environemental, having do with training. Musical features can be either
+structural, or experimental like how you play the melody. None of these
+are nessecariy hard and fast divisions, and certainly there are going to
+be some interactions between any and all of the levels. Clearly a very
+great question and given how much we look at it, want to know more about
+this complicated network of proccesses. Given this laundry list of
+factors, now going to explore the individual parameters in Chapter 3,
+the musical chapters in 4 and 5, as well as how they would come together
+in chapter 6. Also will then go into more detail about many of the
+papers that I mentioned. Really there should be a chapter 7 where after
+thinking about all of this I put together a computational model that
+succcedes at incorporating a polymorphic view of musical trianing by
+making a proces model inspired by Karpinki that is able to be both a
+research and pedagogical stepping off point for futre reserach on
+modeling melodic dictation.
 
 \hypertarget{clearly-we-have-factors-that-are-thought-to-contribute-need-to-investigate-them-in-full-with-each-chapter}{%
 \subsection{Clearly we have factors that are thought to contribute, need
@@ -1180,8 +1984,8 @@ it}\label{get-very-ecological-and-dirty-and-run-it}}
 \hypertarget{factors}{%
 \subsection{Factors}\label{factors}}
 
-\hypertarget{cognitive}{%
-\subsubsection{Cognitive}\label{cognitive}}
+\hypertarget{cognitive-1}{%
+\subsubsection{Cognitive}\label{cognitive-1}}
 
 \hypertarget{wmc}{%
 \paragraph{WMC}\label{wmc}}
