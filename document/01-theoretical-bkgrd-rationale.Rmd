@@ -55,8 +55,13 @@ The **notation**, and final step of the dictation loop, require the knowledge of
 This last step is ripe for errors as Karpinski notes has been foudn in other areas of research TAYLOR AND PEMBROOK 1983 and its noted that obviously it's very hard to write something down if you don't have the category for it. 
 
 The final parts of the chapter, Karpinski notes that other factors like **tempo**, the **length** and **number of playings**, and the **duration between playings** will also play a role in determining how an individual will perform on a melodic dictation.
-While this framework can help illuminate this cognitive process and help pedagogues understand how to best help their students, the model as it stands is not detialed enough for explanatory purposes and does not exhaust many factors that further research since its publicaiton have demonstrated as relevant making a model of melodic dictation.
+While this framework can help illuminate this cognitive process and help pedagogues understand how to best help their students, the model as it stands is not detialed enough for explanatory purposes and does not exhaust the many factors that further research since its publicaiton have demonstrated as relevant making a model of melodic dictation.
+
+
+
 Again, though Karpinski did not intent to create an exhaustive model of the melodic dictaiton process, by only creating a verbal model, the model is unprepared to handle a few basic things which are just the next logical research step.
+
+
 
 From this point on, need tone to suggest that what Karpinski did is good, but the next step is to get more formal with it and be able to start investigating factors that go into doing melodic dictation.
 Would be good to know how the process works and in order to do that need to look at it as it happens with experimental approaches, and additionally want to try to make a model of it to make sure we include everything.
@@ -205,30 +210,51 @@ Given this brief background on cognitive ability, going to now dive deeper into 
 
 ### Working Memory Capacity
 
-As noted by Berz 1994, tasks of melodic dictation are basically tasks of working memory.
+Working memory is one of the most investigated concepts in the cognitive psychology literature.
+According to Nelson Cowan, the term working memory generally refers to 
+> the relativly small amount of information that one can hold in mind, attend to, or, technically speaking, maintain in a rapidly accesible state at one time. The term working is mean to indicate that mental work requres use of such informaiton. (p.1]) [@cowanWorkingMemoryCapacity2005]
 
-* [@berzWorkingMemoryMusic1995]
+The term, like most concepts in science, does not have an exact operant definition and reserachers throughout the past century have conceptualized differently.
+While there is no universally recognized first use of the term _working memory_, researchers began to postulate that there was some sort of system that mediated the all of the incoming sensory informaiton with the world with the information in long term storage. 
+Summerized in [@cowanWorkingMemoryCapacity2005], one of the first modal models of memory was proposed by BROADBENT 1958 and later expaneded by ATKINSON AND SHIFFREIN 1968.
+As seen in FIGURE X, both models here posit incoming information that is then put into some sort of limited capacity store.
+These modal models were then expanded on by Baddely and Hitch [@baddeleyWorkingMemory1974] in their 1974 chapter with the name _Working Memory_, where they proposed a system with an Central Executive module that was able to carry out active maintance and rehearsal of information that could be stored in either a phonological store for sounds or a visual sketchpad for images.
+Later revisions of their model also incorporated an episodic buffer (BADDELY 2000) where the modules were explicitly depicted as being able to interface with long term memory in the rehearsal processes.
+The model has even been expanded upon by other researchers throughout it's lifeteime
+The most notable and relevant to this study by is by [@berzWorkingMemoryMusic1995], who posutlated adding a musical rehearsal loop to the already established phonological loop and visual spatial sketchpad.
+While Berz is correct in asserting that the nature of storing and processing musical informaiton is probably different to that of words or pictures, it does introduce the theoretical problem of multiple stores which has been addressed by other researcehrs.
 
-Quoting from him directly 
+In addressing the problem of explicitnlgy stating which rehearsal loops do and do not exist, Nelson Cowan have proposed other models (COWAN 1988, COWAN 1999) such as the Embeded Process Model which do not claim the existance of any domain specific module (e.g. positing a phonological loop, visual spatial sketchpad) but propose an exhaustive model that did away with the problem of asserting specific buffers for new types of information. 
 
-> Here is his quote
+In Cowan's own words:
 
-Clearly, would be worth understanding the concept at a deeper level since clealry they have done a lot of great work on the topic. 
-Adoptiong chrnological take of the history of research the heavy hitters are 
-* Attkinson and Shriff 
-* Miller 1956 and why that is a bad idea
-* Baddely and Hitch 
-* Nelson Cowan + need for complex span
+> Could put quote on page 42 here if needed analogy that expains it well.
 
-For reasons discussed on p 18 of cowan 2005 and page 42 , choose to adopot a Cowanian view where WMC is basically the window of attention.
-Additinally it's worth noting initially that you can't directly apply these frameworks to memory for musical material because after reading page 109 in Cowan, important to note that all melodies appear in serial order. 
-To make analogous task based on something like complex span tasks, would need to take certain set of notes and then always a finate setb be played back in arandom order (see chatper 3)
+The system is depicted in the bottom tier of TABLE X, and conceptualizes the limited amount of information that is readily availie as being in the focus of attengion, with activated sesnory and categorical features of what is in the focus of attention to be nearly acccesible.
+Moving further from the locus of attention is long term memory, whose content can be turned to by using the central executive to access non immediatly availible information. 
+In contrast to the modular approaches, Cowan's framework does not require the researhers to specifiy exactly how and where each the incoming information is being storied which makes it advantagous for studying complex stimuli such as music and melodies. 
 
-So while for my purposes, I will refer to it as listed on page 1 of Cowan 2005:
-  
-  > [Working memory capacity] refers to the relativly small amount of information that one can hold in mind, attend to, or, technically speaking, maintain in a rapidly accesible state at one time. The term working is mean to indicate that meantal work requres use of such informaiton. (p.1])
+In addition to having multiple frameworks for studying working memory capacity, there is also the problem of if there are limits to the working memory system, often referred to as the working memory capacity.
+Most popularized by Miller in his famouns 1956 article, he suggests out of jest that the number 7 might be worht investigating, which has been used as a point of reference for many researchers since then that have not critically engaged with the article.
+Miller has even gone on record as noting that using 7 (plus or minus 2) was a rhetorical device used to string together his speech (CITATION) and that "quote from himn on htat".
+Nevertheless, while probably bougus, this number has been since reduced to about 4 (COWAN CITATION) and research around this has been discussed and summerized at lenght (COWAN 2005) and has been arrived at by using complex span tasks. 
 
-But in the literature below I comment on which definitional framework is used if relevant to the reporting of it all.
+Clearly an individual's ability to take in sensory information, maintain it in memory, actively carry out other tasks (like noting that melody) are almost identical to taks of working memory capacity.
+Worht noting here that these are not going to be one to one mappings
+
+* Music is always sequential 
+* Music is processed hierachcially
+* Other things from that cowan table.
+
+Thhis all said, WM liteature has done a lot of the theoretical lifing, and WMC is important thing to consider.
+
+Look how Berz ends his article
+
+Important to note here that still area worht looking at because as Berz notes in the last sentence of his article that
+
+> Individual differences portrayed in some music aptitude tests may [sic] represent not talent or musical intelligence but ability, reflecting differences in working memory capacity. p. 362
+
+Since it's publication, some studies have looked at this.... 
 
 #### Papers that suggest WMC plays a role
 

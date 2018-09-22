@@ -47,6 +47,17 @@ Additionally, the process that is put forth by KARPINSKI 1999 provides a steppin
 Going to add substatinally to it in that going to take into account both how difficulty the melodies are, something we have intiutive understanding of, but could be operationalized, and also going to try to model individual differences based on factors that prior literature would suggest are different in individuals and should be considered in any sort of modeling going forward. 
 In addition to these above parameters discussed by Karpinski, now review other factors that could then contribute to this process.
 
+Clearly, would be worth understanding the concept at a deeper level since clealry they have done a lot of great work on the topic. 
+Adoptiong chrnological take of the history of research the heavy hitters are 
+* Attkinson and Shriff 
+* Miller 1956 and why that is a bad idea
+* Baddely and Hitch 
+* Nelson Cowan + need for complex span
+
+For reasons discussed on p 18 of cowan 2005 and page 42 , choose to adopot a Cowanian view where WMC is basically the window of attention.
+Additinally it's worth noting initially that you can't directly apply these frameworks to memory for musical material because after reading page 109 in Cowan, important to note that all melodies appear in serial order. 
+To make analogous task based on something like complex span tasks, would need to take certain set of notes and then always a finate setb be played back in arandom order (see chatper 3)
+
 ## Old Drafts of Chapter Structure BELOW THIS LINE 
 ## Theoretical Background and Rationale
 
