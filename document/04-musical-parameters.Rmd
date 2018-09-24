@@ -1,5 +1,33 @@
 # Computation Chapter
 
+OTHER PEOPLE WHO HAVE DONE THIS
+
+Folk music
+
+* Bartok 1936?
+* Bartok and Lord 1951
+* Lomax 1977
+* Steinbeck 1982
+* Jesser 1992
+* Sagrillo 1999
+
+* GET AND READ PAT SAVAGE ARTICLE
+
+Popular Music
+
+* Moor 2006
+* Kramarz 2006
+* Furnes 2006
+* Riedemann ????
+
+Computational Musicology
+
+* Eerola eta al 2007  and 2007
+* McCay 2005
+* Huron 2006
+* Frieler 2008
+* JAZZOMAT PROJECRT OUTPUT
+
 ## Humans like patterns and are very good at picking them up
 ### We learn things implicitly
 ### We can represent that implicit knowledge with a corpus 

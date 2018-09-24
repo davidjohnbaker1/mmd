@@ -1,0 +1,79 @@
+---
+title: "MoDiMe Figures"
+author: "David John Baker"
+date: "September 24, 2018"
+output: html_document
+---
+
+## Prior
+
+Let the prior knowledge of the individual, $i$ be represented by a corpus $M$ where each melody, $m$ is a string of symbols represented as ascending or descending intervals with their rhythmic values.
+
+Let there be two sub-corpora $M.interval$ and $M.rhythm$ that also are hold the disassoiated rhythms and pitch strings for each melody $M_m$ in $M$.
+
+Let each $m$ also be represented with each and every linear combination of the _n-grams_ possible from $m$.
+
+Let all _n-grams_, be them exact melodies, interval strings, or rhythms be aggregated in their respective corpora and represent the collective knowledge of the individual $i$.
+
+Using all three sets of symbols, calculate the information content, $IC$, for each n-gram based on the corpus using IDyOM.
+
+Each token should have it's own $IC$ measure which can be used to sum the cumulitive information content or $CIC$.
+
+Deifine $knowledge-explit$ as all _n-grams_ above where X many occur. 
+Define $knowledge-implicit$ as the _n-grams_ where they occur below X. 
+
+## Target Transcription Parameters
+
+Let the target melody, $t$ be the melody to be dictated.
+
+Let $rep$ be the amount of times the target melody, $t$ is heard.
+
+Let $WMC$ be the maximum $IC$ the individual $i$ can take in memory.
+
+Let $T$ serve as the amount of time between sucessive hearings?
+
+When melody $t$ is played, assume that it is played at a constant tempo?
+
+## Transcription
+
+Define $play$ as a function that sequentially outputs each n-gram, summing the $CIC$ with each token. 
+
+Define $proto-pref$ as binary of choice between $t.interval$ and $t.rhythm$ for $transcribe$ function. 
+
+Define $re-entry-pref$ to be binary choice between $re-entry.sequential$ or $re-entry.ngram$ where sequential is next n-gram to be transcribed and ngram is next largest n-gram in what is left of $t$. 
+
+Define $re-entry$ as indexing of $t$ to be 
+
+$Play$ melody $t$ until $WMC$ is less than $CIC$ of $t$, define segment as $Extract$.
+
+Upon $Extract$ run $Transcribe$
+
+Define $Notate$ as the sucessful dicatation of segment $extract$ of target melody $t$, where tokens of the subset $extract$ of $t$ are not returned to. 
+
+Define $Transcribe$ as a recursive function that looks for _n-gram_ matches in $M$ above $knowledge-explicit$.
+
+If sucessful, $notate$.
+
+If no match, eliminate 1 gram from $Extract$ and repeat transcribe.
+If no match on lowest level (2-gram), split $t$ to separate componets strings of $t.interval$ and $t.rhythm$.
+
+Run $Transcribe$ recursively on $t.interval$ / $t.rhythm$ based on $proto-pref$.
+
+On finish, $re-entry$ based on $re-entry-pref$
+
+COUNT each time a transcribe function is run.
+RECORD the Path of each set of n-grams.
+RECORD each re-entry point.
+
+## Add Eventually
+
+* How it deals with tempo (obvs related to WMC)
+* Time out function number of iterations or choices allowed to run for each playing.
+* Function to see if melody actually gets implicitly understood
+* Re-entry point of structural tones 
+
+
+
+
+
+
