@@ -4,25 +4,34 @@
 
 Melodic dictation is the process in which an individual hears a melody, retains it in memory, and then uses their knowledge of Western musical notation to recreate the mental image of it on paper in a limited time frame.
 For many, becoming proficient at this task is at the core of developing one's aural skills [@karpinskiModelMusicPerception1990].
-For over a century, music pedagogues have highly valued melodic dictation^[In his highly influential book _Aural Skills Acquisition: The Development of Listening, Reading, and Performing Skills in College-Level Musicians_, Gary @karpinskiAuralSkillsAcquisition2000 documents this deeply held belief in music pedagogy circles by listing poetic adages from romantic composer Robert Schumann in the mid 19th century through music educator Charles Elliott in the opening of his book,  providing concrete examples of the belief that improving one's aural skills, or _ear_, is a highly sought after advanced skill. ] and most aural skills texts that have sections devoted to honing one's listening skills have material on melodic dictation [@karpinskiAuralSkillsAcquisition2000].
-Additionally, any school accredited by the North American Schools of Music requires learning this skill be part of any accredited curricula.
-Yet despite this tradition and ubiquity, the rationales as to _why_ it is important for students to learn this ability often comes from some sort of appeal to tradition or underwhelming anecdotal evidence that time spent learning to take melodic dictation results in increases in near transfer abilities after they have acquired a certain degree of proficiency. 
-Rationales given for why students should learn melodic dictation has even been described by Gary Karpinski as being based on "comparatively vague aphorisms about mental relationships and intelligent listening" [@karpinskiModelMusicPerception1990, p.192], with the argument for learning to take melodic dictation historically not being well supported with persuasive evidence. 
+For over a century, music pedagogues have valued melodic dictation^[In his highly influential book _Aural Skills Acquisition: The Development of Listening, Reading, and Performing Skills in College-Level Musicians_, Gary @karpinskiAuralSkillsAcquisition2000 documents this deeply held belief in music pedagogy circles by listing poetic adages from romantic composer Robert Schumann in the mid 19th century through music educator Charles Elliott in the opening of his book,  providing concrete examples of the belief that improving one's aural skills, or _ear_, is a highly sought after advanced skill. ] which is evident given that most aural skills texts that have sections devoted to honing one's listening skills have material on melodic dictation [@karpinskiAuralSkillsAcquisition2000].
+Additionally, any school accredited by the National Associatoin of Schools of Music in North American requires learning this skill be part of any accredited curricula as listed under Section VIII.6.B.2.A.
 
-Some researchers have even taken a more skeptical stance and have noted that the rationale for why we teach melodic dictation  deserves more critique.
+### Small Tirade, could put this at end?
+
+Yet despite this tradition and ubiquity, the rationales as to _why_ it is important for students to learn this ability often comes from some sort of appeal to tradition or underwhelming anecdotal evidence.
+The argument tends to go that time spent learning to take melodic dictation results in increases in near transfer abilities after an individual acquires a certain degree of proficiency. 
+Rationales given for why students should learn melodic dictation has even been described by Gary Karpinski as being based on "comparatively vague aphorisms about mental relationships and intelligent listening" [@karpinskiModelMusicPerception1990, p.192], thus leaving the evidence for the argument for learning to take melodic dictation not being well supported. 
+
+Some researchers have even taken a more skeptical stance and have noted that the rationale for why we teach melodic dictation deserves more critique.
 For example, Klonoski in writing about aural skills education aptly questions "What specific deficiency is revelaned with an incorrect response in melodic dictation settings?" [@klonoskiImprovingDictationAuralSkills2006].
-Earlier researchers like Potter, in their own publication, have noted that they have been baffled that many musicians do not actually keep up with their melodic dictation abilities after the class ends [@potterIdentifyingSucessfulDictation1990], but presumably go on to have successful and fulfilling musical lives. 
-Additionally, suggesting that people who can hear music and then are unable to write it down, and thus are unable to think _in_ music, seems somewhat exclusionary to the vast amount of musical cultures out there that do not depend on any sort of written notation. 
+Earlier researchers like Potter, in their own publications, have noted that they have been baffled that many musicians do not actually keep up with their melodic dictation abilities after the class ends [@potterIdentifyingSucessfulDictation1990], but presumably go on to have successful and fulfilling musical lives. 
+Additionally, suggesting that people who can hear music and then are unable to write it down, thus are unable to think _in_ music [@karpinskiAuralSkillsAcquisition2000], seems somewhat exclusionary to musical culturess that do not depend on any sort of written notation. 
 
-Though despite this skepticism towards the topic, melodic dictation remains at the forefront of many aural skills classrooms.
-While the act of becoming better at this skill may or may not lead to large in increases in far transfer of ability, as a pedagogical tool, teaching students to take melodic dictation brings with it the concepts that are hoped to be instilled in music students long term.
-While not there has not been extensive research on melodic dictation research in the past few years, in fact [@paneyEffectDirectingAttention2016] notes that since 2000, only four studies were published that directly examined melodic dictation, this skill set sits on the border between literature on learning, melodic perception, memory, and music theory pedagogy and understanding and modeling exactly how it works remains as a untapped watershed of knowledge for the field of music theory, music education, and music perception and is deserving of much more attention. 
+Though despite this skepticism towards the topic^[Of which I can move to later in the thesis], melodic dictation remains at the forefront of many aural skills classrooms.
+The act of becoming better at this skill may or may not lead to large in increases in far transfer of ability, but used as a pedagogical tool, teaching students to take melodic dictation brings with it  concepts that have often been thought of as being at the core of undergraduate music training.
+While not there has not been extensive research on melodic dictation research in recent years-- in fact [@paneyEffectDirectingAttention2016] notes that since 2000, only four studies were published that directly examined melodic dictation-- this skill set sits on the border between literature on learning, melodic perception, memory, and music theory pedagogy.
+Understanding and modeling exactly how melodic dictation works remains as a untapped watershed of knowledge for the field of music theory, music education, and music perception and is deserving of much more attention. 
 
+Paragraph here about
+  + Describe melodic dictation via Karpinski's model
+  + Say what is wrong with it
+  + fill in the gaps using my own taxonomy 
 
 ### Describing Melodic Dictation 
 
-Much of the foundational work on the topic of melodic dictation comes from the work of Gary Karpinski.
-Summarized most recently in his _Aural Skills Acquisition_ [@karpinskiAuralSkillsAcquisition2000], though first presented in an earlier article [@karpinskiModelMusicPerception1990], Karpinski proposes his own model of melodic dictation that provides a four step framework as how the process of melodic dictation works.^[In Karpinski 1990 he notes two other models of melodic dictation, one from Rogers where he says there are 2 processes, another from Thomas who says there are 15] 
+Much of the foundational theoretical work on the topic of melodic dictation comes from Gary Karpinski.
+Summarized most recently in his _Aural Skills Acquisition_ [@karpinskiAuralSkillsAcquisition2000]-- though first presented in an earlier article [@karpinskiModelMusicPerception1990]-- Karpinski proposes his own model of melodic dictation that posits a four step framework.^[This four stage process sythesizes earlier research where in Karpinski 1990 he notes two other models of melodic dictation, one from Rogers where he says there are 2 processes, another from Thomas who says there are 15] 
 
 His four steps include:
 
@@ -31,45 +40,61 @@ His four steps include:
 3. Musical Understanding 
 4. Notation
 
-and occur as a looping, schematic process that is depicted in Figure 3.1 in his textbook, reproduced below and throughout the chapter Karpinski discusses relevant factors at play at each stage.
-In the case of the table above, the process happens twice, presumably with a melody that can be extracted in two parts, which according to Karpinski and this prescribed formulas would consist of a melody from twelve to twenty notes long for listeners with few or no chunking abilities. 
-Reviewing the Karpinksi four step model will provide both a grounding in the current model that has been used in other literature, and establish a groundwork from which to build. 
+and occur as a looping process that is depicted in Figure X.
+The model is discussed extensively in both this original article [@karpinskiModelMusicPerception1990] and throughout the third chapter in his book [@karpinskiAuralSkillsAcquisition2000].
 
-The **hearing** stage involves the initial perceptions of the sound at a physical level of the tympanic membrane, as well as the listener's _attention_ to the incoming musical information.
-If the listener is not actively engaging in the task because of factors like "boredom, lack of discipline, test anxiety, attention deficit disorder, or any number of other causes" then any further processes down the model will be detrimentally effected. 
-While Karpinski notes that these types of interference are normally "beyond the traditional jurisdiction of aural skills instruction", I will later argue that the concept of willful attention when re-conceptualized as working memory capacity, may actually play a large role in the melodic dictation process. 
+[KARPINSKI FOUR STEP PROCESS]
 
-The **short-term melodic memory** Karpinski relies on empirical qualitative evidence from interview with students to show support for two separate memory encoding mechanisms, one for contour, and one for pitch.
-After citing literature supporting this claim (DOWLING 1978, DeWITT AND CROWDWER 1986, DOWLING 1994) regarding contour, as well as literature suggesting that in order to memorize chunks of melodic material, it helps to have been enculturated (DEUTSCH 1977,Oura and Hatano 1988, Handel 1989, Davies 1978, Dowling 1990) (a field of research that has been explored a lot since this was published PEARCE WORK), Karpinksi explains how ideas like extractive listening and chunking then take part in this process.
-Noting that there is probably some sort of capacity limit to music, citing Miller (1956) and corroborating musical evidence (Marple n.d)^[Should probably do some foot note here saying this is wrong use of miller for reasons in Cowan 2005 and Miller is even on record as saying the magic number 7 was just used to thread his speech together...], Karpinski details the two strategies from above to show how the dictation process is done.
-Karpinski's extractive listening refers to only selectively remembering parts of a melody.
-The chunking bit isa an idea that as musical understanding increases, so does musical memory.
-The idea is that if you can identify certain ideas that you hear in the incoming signal, you can more effectively understand them. 
+Although presumed to be generalizable to howevery many hearings are played, in the case of the table above, the process happens twice. 
+In his text he presumes this process could happen with a melody that can be extracted in two parts, which according to his prescribed formulas^[Detail here what he says] would consist of a melody from twelve to twenty notes long for listeners with few or no chunking abilities. 
+Reviewing the Karpinksi four step model will establish the current state of thinking on melodic dictation and thus create a groundwork from which this study will build. [Better transition here?]
+
+Karpinski's **hearing** stage involves the initial perceptions of the sound at the psychoacoustical  level, as well as the listener's _attention_ to the incoming musical information.
+If the listener is not actively engaging in the task because of factors such as "boredom, lack of discipline, test anxiety, attention deficit disorder, or any number of other causes" then any further processes later down the model will be detrimentally effected. 
+Karpinski notes that these types of interferences are normally "beyond the traditional jurisdiction of aural skills instruction", but I will later argue that the concept of willful attention, when re-conceptualized as working memory capacity, may actually play a large role in the melodic dictation process that is claimed here.  
+
+The **short-term melodic memory** stage in his process is where musical material is held in active memory.
+Karpinski suggests there are two separate memory encoding mechanisms, one for contour, and one for pitch
+He arrives at these two mechanisms by using both empirical qualitative interview evidece as well as noting literature from music perception that supports this claim for contour [@dowlingScaleContourTwo1978], [@dewittRecognitionNovelMelodies1986]. and literature suggesting that memory for melodic material is dependant on enculturation (DEUTSCH 1977, [@ouraMemoryMelodiesSubjects1988], Handel 1989, Davies 1978, [@dowlingExpectancyAttentionMelody1990]) Since its publication in 2000, this area of research has expanded with other reearchers also demonstrating the effects of musical acculturation via exposure (Eerola, Krumhansl, [@pearceAuditoryExpectationInformation2012]).
+
+In describing the short term melodic memory stage, Karpinksi also details two processes that he believes to be nesscary for this part of the process:extractive listening and chunking.
+Noting that there is probably some sort of capacity limit to the perception of musical material, citing Miller [@millerMagicalNumberSeven1956] and corroborating musical evidence (Marple n.d), Karpinski explains how each strategy might be used.
+Extractive listening is the process in which someone dictating the melody will selectivly remember only a small part of the melody in order to ease the load on memory. 
+Chunking is the process in which smaller musical elements can be fused together in order to expand how much information can be actively held in memory and manipulated.
+The concept of chunking is very helpful as a pedagogical tool, but as detailed below, is a very complicated concept to actually pin down how it works.
+
+After some musical material is extracted, then presumably represented in memory, the next step in the process is **musical understanding**.
+At this point in the dictation the dictator needs to take the extracted musical material that is represented in memory and the use their music theoretic knowledge in order to comprehend any sort of hierarchical relationships between notes, common rhythmic groupings, or any sorts of tonal functions.
+This is the point in the process where solimization of either or both pitch and rhythm, and musical material might be understood in terms of relative pitch.
+In the model solimization takes place later (double check david), but it is worth questioning if it is possible to dissioate relative pitch relations from the qualia of the tones themselves [@arthurPerceptualStudyScaledegree2018].
+For Karpinski, the more quickly what is represented in musical memory can be understood, the more quickly it can then be tranlated at the final step of notation.
 
 In order to further explain the idea of **musical understanding** Karpinski says its different ha musical memory. 
 Musical memory for Karpinski is ability to repeat what has been heard, and understanding is about comprehending things like the hierarchical metrical relationships between notes, rhythmic groupings and tonal functions.
-Within this whole idea is the thing of solimization for both rhythm and pitch (the takdimiti system KODALY) and relative pitch.
+Within this whole idea is the thing of solimization for both rhythm and pitch (e.g. the _takdimiti_ system used with Koda'ly methods ) and relative pitch.
 Idea here is that hte two are then going to be linked to one another and as information comes in that can be musically understood, then it can then be moved from perception to notation more quickly.
 
-The **notation**, and final step of the dictation loop, require the knowledge of Western musical notation to be able to write down what is in one's musical short term memory and use their musical understanding to decode that mental representation into written notation. 
-This last step is ripe for errors as Karpinski notes has been found in other areas of research TAYLOR AND PEMBROOK 1983 and its noted that obviously it's very hard to write something down if you don't have the category for it. 
+**Notation**, the final step of the dictation loop, requires that the individual taking the notation have sufficient knowledge of Western musical notation  so that they are able to translate their musical understanding into written notation.  
+This last step is ripe for errors and has proved problematic for researchers attempting to study dictation [@taylorStrategiesMemoryShort1983] [@klonoskiImprovingDictationAuralSkills2006].
+It is also worth pointing out that obviously it's very hard to write something down if you don't have the category for it and knowledge of the sounds will limit an individual's ability to translate what is in their short term melodic memory into notation, even if it is perfectly represented in memory!
 
-The final parts of the chapter, Karpinski notes that other factors like **tempo**, the **length** and **number of playings**, and the **duration between playings** will also play a role in determining how an individual will perform on a melodic dictation.
-While this framework can help illuminate this cognitive process and help pedagogues understand how to best help their students, the model as it stands is not detailed enough for explanatory purposes and does not exhaust the many factors that further research since its publication have demonstrated as relevant making a model of melodic dictation.
-
-Again, though Karpinski did not intent to create an exhaustive model of the melodic dictation process, by only creating a verbal model, the model is unprepared to handle a few basic things which are just the next logical research step.
+The final parts of the chapter, Karpinski notes that other factors like **tempo**, the **length and number of playings**, and the **duration between playings** will also play a role in determining how an individual will perform on a melodic dictation.
+While this framework can help illuminate this cognitive process and help pedagogues understand how to best help their students, presumably there are many more factors that contribute to this process.
+The model as it stands is not detailed enough for explanatory purposes and does not exhaust factors that research since its publication have demonstrated as relevant models of music perception.
+This of course was not the original intention of his model, but elaborating on this type of thinkingis the next logical step for research on melodic dictation.
 
 
 From this point on, need tone to suggest that what Karpinski did is good, but the next step is to get more formal with it and be able to start investigating factors that go into doing melodic dictation beyond just a logical progression of steps.
 From a resarch and education point of view it would would be good to know how the process works and in order to do that need to look at it as it happens with experimental approaches, and additionally want to try to make a model of it to make sure we include everything.
 
-Title of  is modeling melodic dictation, want to have model that describes it and its component parts, and want to have a model that describes the process. 
+Title ofis modeling melodic dictation, want to have model that describes it and its component parts, and want to have a model that describes the process. 
 
 In this literature review, I use the Karpinksi model as a stepping off point by first noting factors that presumably would contribute to this process that ohter people have looked at, organize them in a taxonomy, then review the relevant literature.
 This is all done in hopes of furthering the fields understanding of melodic dictation and getting a hold of terms so that future research can attempt to be exhaustive in investigating this empirically, exntending the methods used to experimental and computtational methodologies. 
 
 Where the Karpinski model lacks, using as a scarecrow argument, is the amount of variablility at both the individual level, as well as at the musical level.
 
+* Dowling 1991 [@dowlingTonalStrengthMelody1991] 
 Primarily, having a single model for melodic dictation assumes that all individuals are likely to engage in this sequential ordering of events.
 This could in fact be the case, but there is research ANDREW GOLDMAN AND STUFF that suggests that experts process and categorize musical information differently. 
 Additionally, different people will probably have different experiences dictating melodies based on their own past listening experience, a note that Karpinski makes earlier when THAT CITATION FROM UP ABOVE. 
@@ -92,7 +117,7 @@ From an **individual stand point**, can bifurcate factors broadly into *cognitiv
 Going to refer to this second set of things as *environmental* factors. 
 Is there a better way to talk about this as nature vs nurture.
 Additionally need to then mention that there are of course epigenitic factors where both of these parameters might interact with one another. 
-For example, might then imagine that someone with higher cognitive ability, lots of training that was put forward by their parents, as well as tons of musical training, and personality traits that are more likely to learn more (daniels paper on that) might be different in terms of results than someone with lower cognitive abilities, no training, low SES, and a general inclination not to even take music lessons. 
+For example, might then imagine that someone with higher cognitive ability, lots of training that was put forward by their parents, as well as tons of musical training, and personality traits that are more likely to learn more [@mullensiefenInvestigatingImportanceSelftheories2015] might be different in terms of results than someone with lower cognitive abilities, no training, low SES, and a general inclination not to even take music lessons. 
 While obvious, what will eventually be of interest is the degree to which each of these things contributes to the final models.
 Also gives us a better idea about pedagogy and what not. 
 
@@ -178,7 +203,10 @@ Summarized in [@cowanWorkingMemoryCapacity2005], one of the first modal models o
 As seen in FIGURE X, both models here posit incoming information that is then put into some sort of limited capacity store.
 These modal models were then expanded on by Baddeley and Hitch [@baddeleyWorkingMemory1974] in their 1974 chapter with the name _Working Memory_, where they proposed a system with an Central Executive module that was able to carry out active maintenance and rehearsal of information that could be stored in either a phonological store for sounds or a visual sketchpad for images.
 
-[INSERT IMAGE FROM COWAN]
+```{r, echo=FALSE, fig.cap="Schematics of Models of Working Memory taken from Cowan, 2005", fig.align='center'}
+knitr::include_graphics("img/wm_models.png")
+```
+
 
 Later revisions of their model also incorporated an episodic buffer [@baddeleyEpisodicBufferNew2000] where the modules were explicitly depicted as being able to interface with long term memory in the rehearsal processes.
 The model has even been expanded upon by other researchers throughout its lifetime.
@@ -208,25 +236,23 @@ Although this parallel is striking, typical tasks looking at working memory capa
 The first is that music is always sequential: a melodic dictation task would never require the student to recall the pitches back in scrambled orders.
 Serial order recall is an important characteristic is the scoring and analyzing of working memory tasks [@conwayWorkingMemorySpan2005], musical tones do not appear in random order and are normally in chunks.
 The use of chunks is pervasive in much of the memory literature, but often is used as more of a heuristic to help explain that information in the environment is often grouped together.
-Of the problems with chunking that are relevant to music is that chunks, especially in music during the melodic dictation process -----are hierarchically organized [@krumhanslCognitiveFoundationsMusical2001; @meyerEmotionMeaningMusic1956].
+Of the problems with chunking, most are related to music and have relevance to melodic dictation.
+Below I review the problems with chunking noted by Cowan [@cowanWorkingMemoryCapacity2005], and any pertitant music psychology literature. 
 
-BELOW HERE IS A LIST OF ALL THE PROBLEMS WITH CHUNKING AND HOW THEY ARE RELATED TO MUSIC AND KARPINKSI'S TAXONOMY FROM COWAN 2005
+[@krumhanslCognitiveFoundationsMusical2001; @meyerEmotionMeaningMusic1956].
+
+1. _Chunks may have a hierarchical organization._ Tonal music has historically been understood to be hierarchical [@krumhanslCognitiveFoundationsMusical2001; @meyerEmotionMeaningMusic1956; @schenkerFreieSatz1935] with the study for memory for tones being confounded by some pitches being undestood by their relation to structurally more important tones. 
+2. _The working memory load may be reduced as working memory shifts between levels in hierarchy._ If an individual understands a chunk to be something like a major triad, the load on working memory would be less since it that information could be understoods as one chunk. 
+3. _Chunks may be the endpoints of a continuum of associations._ Pairing a group of tones together that might be functionally anomolous like... 
+4. _Chunks may include asymmetrical information._ More tonal possibilities are possible from a stable note like tonic or dominant, whereas in a tonal context, a #4 when understood in a functional context would be understood as having less possiblities. 
+5. _There may be a complex network of associations._ If a set of pitches sounds like a similar set of pitches from LTM, the melody sounds familiar, obviously not just chunk for chunk.
+6. _Chunks may increase in size rapidly over time._ Three tones that are seemingly unrelated when incoming like E4, G5, C5 might begin as three different tones, then be fused to be understood as one chunk, a first inverstion major triad. 
+7. _Information in working memory may benefit from rapid storage in long term memory._ Given the amount of patterns that an individual learns and can understand, as soon as something is fused, it could be encoded in LTM, especially if there is some sort of salient feature (immediate recognitionof a mode or cadence or whatever)
+
+Important to acknowledge that a lot of this has been done, not do a direct mapping of WMC concepts to it, and proceeding accordingly with the music percpetion literature that has indicated that we do hear things as statistical learning
 
 
-1. Chunks may have a hierarchical organization
-
-2. The working memory load may be reduced as working memory shifts between levels in hierarchy 
-
-3. Chunks may be the endpoints of a continuum of associations
-
-4. Chunks may include asymmetrical information
-
-5. There may be a complex network of associations
-
-6. Chunks may increase in size rapidly over time
-
-7. Information in working memory may benefit from rapid storage in long term memory 
-
+* FIND SAFFRAN [@saffranStatisticalLearningTone1999]
 
 This all said, WM literature has done a lot of the theoretical lifting, and WMC is important thing to consider.
 
@@ -262,22 +288,17 @@ Since all three of these factors are related to melodic dictation, it would seem
 
 ######  To improve section on next pass 
 
-* Hansen Wallentin Vuust 2012-- pick apart for references
+ADD [@hansenWorkingMemoryMusical2013]
 
 ### General Intelligence
 
 As discussed above gf has a long history, some good some bad.
 Thing is that it can be really predictive of many things and people def do try incorporate it into music research.
-And statistically speaking, terms use IQ, but note that IQ and Gf's correlation tend to be statiscally idential KOVACS AND CONWAY and many measures of IQ are done with Ravens as seen below. 
+And statistically speaking, terms use IQ, but note that IQ and Gf's correlation tend to be statiscally idential [@kovacsProcessOverlapTheory2016] and many measures of IQ are done with Ravens as seen below. 
 
 One of the big problems with this is establishing effects of causality looking at music.
-Could be that factors outside of music play a role like personal views of ability DANIEL PAPER , socio economic status, and personality.
+Could be that factors outside of music play a role like personal views of ability [@mullensiefenInvestigatingImportanceSelftheories2015] , socio economic status, and personality.
 
-And field is even big enough to have null results (include that catty comment of glenn schellenberg)
-
-* Stuff on mozart effect 
-* Whole chapter from Schellenberg
-* Swaminithan papers
 
 #### Papers that suggest GF plays a role
 
@@ -313,24 +334,14 @@ It almost seems redundant to review literature in support of music practice lead
 
 Considering points that I make earlier about polymorphic views of musicality and ability.
 
-* Harrison et al for latent variable approach 
+* Harrison et al for latent variable approach [@harrisonEffectsMusicalAptitude1994] 
 
 * Dictation has not been that well researched [@furbyEffectsPeerTutoring2016] 
 * people try lots of things, not much evidence for peer tutoring [@furbyEffectsPeerTutoring2016]
 
-* ISOLATION OF RHTYM AND MELODY
-- Banton 1995
-- Bland 1984
-- Root 1931
-- Wilson 1954
-* LISTENING BEFORE WRITING
-- Banton 1995
-* RECOGNIZING PATTERNS
-- Banton 1995
-- Bland 1984
-- Root 1931
-* SINGING SILENTLY WHEN DICRTAING
-- [@klonoskiImprovingDictationAuralSkills2006]
+These are things that people have suggested people trying to do : 
+As noted in Furby 2016, researchers in the past have suggested a variety of techniques for improving their abilities in melodic dictation by isolating rhythm and melody [@bantonRoleVisualAuditory1995; @blandSightSingingMelodic1984; @rootMethodicalSightSingingLessons1931; WILSON], listening attentively to the melody before writing [@bantonRoleVisualAuditory1995], recognizing patterns [@bantonRoleVisualAuditory1995; @blandSightSingingMelodic1984; @rootMethodicalSightSingingLessons1931] and silently vocalizing while dictating [@klonoskiImprovingDictationAuralSkills2006]. 
+
 
 ### Sight Singing 
 
@@ -367,11 +378,11 @@ Questions of musical similarity fall have been addressed CAMPAPERBOULIS and are 
 The notion that there is something special about the structural aspects of music can be traced back to Leonard Meyer's _Emotion and Meaning in Music_ [@meyerEmotionMeaningMusic1956] and has spawned a lot of research since then.
 Probably one of Meyer's most prolific students was Eugene Narmour 
 
-* Eugene Narmor 1992, 1990?
+* Eugene Narmor [@narmourAnalysisCognitionBasic1990; @narmourAnalysisCognitionMelodic1992]
 
 Whose work was expaneded upon by David Huron [@huronSweetAnticipation2006] and work using expectational frameworks in melodies was also carried on with work by Marcus Pearce [@pearceAuditoryExpectationInformation2012] and Elizabeth Hellmuth Margulis [@margulisModelMelodicExpectation2005]
 
-* Also schellenberg 1997
+* Also schellenberg 1997 [@schellenbergSimplifyingImplicationRealizationModel1997]
 
 These are general models   about melodic perception, though there is a history of looking at melodic dictaiton specifically.
 Much of this comes from the world of music education, though not exclusivly. 
@@ -503,8 +514,7 @@ Musicianship as a concept of something ot measure when talking about this one li
 
 Going to say here that LVs are bad and that need to adopt a more polymorphic view of musicianship as advocated by
 
-* Levitin XXX
-* Peretz 2006
+* [@levitinWhatDoesIt2012; @peretzModularityMusicProcessing2003]
 
 ## Conclusions
 
