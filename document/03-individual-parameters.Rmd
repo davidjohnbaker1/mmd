@@ -33,7 +33,9 @@
 ## Do this with hierarchical LVM ala Elliott paper 
 ### Versions of this paper at ICMPC
 ### Exploratory in that tried a few different models (high type I error but whatever)
+
 ## Overview of Experiment (cross sectional design)
+
 ### Participants
 ### Materials
 ### Procedure
