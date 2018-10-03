@@ -7,11 +7,16 @@ output: html_document
 
 ## Chapter 1
 
+The sequence of steps occurs for each chunk of music that is extracted during dictation and in the case of TABLE X, happens twice.
+In his text, Karpinski presumes this process could happen with a melody that can be extracted in two parts, which according to his prescribed formulas^[In the third chapter of _Aural Skills Acquisition_, Karpinski suggests that the number of playings should be calculated based on the formula FORMULA, where DEFINE WHAT HE SAYS] would consist of a melody from twelve to twenty notes long for listeners with few or no chunking abilities. 
+As stated above, reviewing the Karpinksi four step model will establish the current state of thinking on melodic dictation and thus create a groundwork from which this current study will build.
+
 One could even go further and borrow a thought experiment from the world of neuroscience and imagine a double dissociation with melodic dictation ability and musical skill.
 Thinking about one's colleagues 
 
 Even using a simple thought experiment using the old double dissicoation thign that htey love in neuroscience where you could imagine both situations where someone was probably a very good musician, but not that great at melodic dictation, or the converse where someone might be very good at melodic dictation, but is not that good of a musician (whatever that means) would indicate that there is probably not that strong of a casusal link between dictation abilities as measured by grades in an aural skills class and the infinite possiblities of musical activities that are even possible.  
 
+This similarity between studies should still be interpreted in light of other research that argued against a need for higher working memory functionality in expert level performances (e.g., HOWE,DAVIDSON, & SLOBODA, 1998). 
 
 
 In her textbook _Practical Ear Training_ Janet McLoud McGaughy notes that

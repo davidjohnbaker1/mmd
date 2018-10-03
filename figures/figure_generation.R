@@ -20,25 +20,13 @@ grViz("
       fontname = Helvetica]
       Individual ; Musical ; Cognitive ; Environmental ; Structural ; Experimental
 
-      node [shape = box] // sets as circles
-      WMC; Gf; CowanList; Musical_Training; Aural_Training;
-      Interval_Structure; Times_Played; Tempo; AuralSkills
-
       # several 'edge' statements
-      AuralSkills -> Individual
-      AuralSkills -> Musical
+      Aural -> Individual
+      Aural -> Musical
       Individual -> Cognitive
       Individual -> Environmental
       Musical -> Structural
       Musical -> Experimental
-      Cognitive -> WMC
-      Cognitive -> Gf
-      Cognitive -> CowanList
-      Environmental -> Musical_Training
-      Environmental -> Aural_Training
-      Structural -> Interval_Structure
-      Experimental -> Times_Played
-      Experimental -> Tempo
       }
 
       ")
