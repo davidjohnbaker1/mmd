@@ -5,6 +5,8 @@ date: "August 29, 2018"
 output: html_document
 ---
 
+Is there soemthing to be said about the change point access for when there is reentry of the transcription function
+
 ## Chapter 1
 
 The sequence of steps occurs for each chunk of music that is extracted during dictation and in the case of TABLE X, happens twice.

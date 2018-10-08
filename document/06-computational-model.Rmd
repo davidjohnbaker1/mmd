@@ -1,47 +1,52 @@
-# Experiments
+# Computational Model 
 
-## Rationale 
-### Have done all this and have not actually talked about dictation yet 
-### Clearly many factors contribte to this whole thing and need to be taken into a model 
-### Dictation is basically a within subjects design Experiment
-#### Get very ecological and dirty and run it 
+## What Is A Model And Why do you need a model 
 
-* Paney 2016 had 30 second timing 
+### Model Can Be Descriptive, or Explantory
 
-### Factors
-#### Cognitive
-##### WMC
-##### GF
-#### Training
-##### Goldsmiths MSI 
-#### Musical 
-##### FANTASTIC
-##### IDyOM
-#### Investigate melodies with this context and set scoring 
-#### Mirror design to see if effects of melody are there
+* Important to say that model is not perfect, that's the point
+* Examples of Models in Music and Music Theory
+* Process Model (Baddely) Box Model , Decsison Model
 
-## Experiments
-### Experiment I
-#### Participants
-#### Procedure
-#### Materials
-#### Scoring 
-#### Results
-#### Modeling
-#### Discussion 
-### Experiment II
-#### Participants (New)
-#### Procedure (Same)
-#### Materials (Swapped but controlled)
-#### Scoring (Same)
-#### Results
-#### Modeling (same)
-### General Discussion 
-#### What happened
-#### Assumption of all of this is that many things are happening linearly in combination with each other
-#### Additionally the mixed effects framework works better with more data? 
-#### Also how we score it is going to mess wiht the DVs
-### Really what is needed is Computational Model 
+
+### Model Is an actual implementation of your theory, what happens when
+### Need to Do this so you are clear about all your terms
+
+* Representation of Musical Pitch
+* How how do people learn shit 
+* What happens when
+* And if you change stuff, how much does variability change certain parameters
+* Are some things impossible? 
+* Benefit is then you have a very clear framework to engage other reserachers
+
+## Contents of Model and Things Needed to be addressed
+
+* Inspired by the Cowen Embeded Process Model 
+* How are melodies represented and how does that affect things
+* Are there WMC constraints 
+* IC and music and whatever
+* The actual transcription 
+* Assumption that if explicit, then NOTATE 
+* What happens at impass (split and proto)
+
+## MoDiMe 
+
+* Formal Model here
+
+## Model Performance on Chapter 5 data
+
+## What is now possilbe
+
+* Talk explicitly about representation
+* Talk about what happens when
+* Link to sight singing
+* Testable hypotheses?
+* Problems with how to define prior
+* Future Directions
+* How this all relates to helping teach 
+* aka explain the model, thus explain learning, perceptoin, process, representation, if one rep performs better than another, atomistic singing 
+
+-------------------------------
 
 ## Computational Cognitive Model Model (If time permits) [Whole article in itself]
 
@@ -151,3 +156,5 @@ What’s deal with AP?
 #### Would also make sense in terms of Leonard Meyer 1956
 #### Use WMC in music theory, cognition, education studies
  
+
+

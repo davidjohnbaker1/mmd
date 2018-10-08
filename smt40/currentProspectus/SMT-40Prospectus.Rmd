@@ -1,0 +1,116 @@
+---
+title: "SMT40-Prospectus"
+author: "David John Baker"
+date: "October 5, 2018"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+## Motivation 
+
+Melodic dictation is the process in which an individual hears a melody, retains it in memory, and then uses their knowledge of Western musical notation to recreate the mental image of the melody on paper in a limited time frame.
+For many, becoming proficient at this task is at the core of developing one's aural skills which is evident from the fact that most aural skills texts with content devoted to honing one's listening skills have sections on melodic dictation [@karpinskiAuralSkillsAcquisition2000].
+Additionally, any school accredited by the National Association of Schools of Music in North America requires students to learn this skill  [@NationalAssociationSchools2018 §VIII.6.B.2.A].
+
+The lack of knowledge regarding aural skills is alarming given the degree to which music theorists are engaged with the teaching and assesing of this ability.
+As a community, a more systematic understanding of _how_ people learn melodies is not only important from an pedagogical point of view, but understanding how people learn and percieve melodies is the locus of research tangential to music theory, music education, as well as music cognition. 
+While there have been repeated calls throughout the past few decades to sythesize these disprate literatures, the literature is sparse in relation to how frequent melodic dictation appears as part of our curricula^[Paney 2016 notes that since 2000 only four studies looking expicitly at melodic dictation have been published in music pedagogy journals].
+Reviewing the current state of reserach on melodic dictation higlights the need for the theory community to have a better understanding as to how this process works.
+
+Much of the fundamental work on melodic dictation was sythensized via the work of Gary Karpinski.
+Originally appearing in an article from 1990, and then later the focus of of the third chapter of _Acquiring Aural Skills_, Karpinski proposes a four step model that describes an idealized process of melodic dictation.
+The four steps include 
+
+1. Hearing
+2. Short Term Melodic Memory
+3. Musical Understanding 
+4. Notation
+
+and are conceptualized as a looping process that is done over each chunk of musical material that the listern focuses on via a process of extractive listening and appear as it was in his text in Figure 1.
+As a pedaogical tool, Karpinki's model distils a complicated and almost esoteric process into a managable system that benefits both students as well as aural skills pedagoges.
+Karpinski's model describes the processe of melodic dictation without asserting _how_ the process happens and lacks robustness in that it is agnostic to both differences at the individual level, as well as the for different melodic materials. 
+
+Sentence here using both of the musical examples of the same note length to make the point that there is more going on here that can be encapsulated by the Karpinski model.
+Figure 3 and 4.
+
+In this dissertation, I use Gary Karpinski's four step model of melodic dictation as a stepping off point to highlight defecienies in the model (don't want to be too harsh here...).
+
+Also in past 20 years we have had seen huge leaps in both ability to understand how individual differences play a role in music perception tasks as well as an ability to quantify and operationalize differences in melodies that reflect something like a theorists' intuitive understanding. 
+In order to organize and then reflect on the vast amount of factors that could contribute to how a person performs in melodic dictaiton I propose a taxonomy of parameters with both individual (e.g. cognitive and evironmental) and musical (e.g. structural and experimental) parameters that have evidence in last twenty years since Karpinski that should be further explored when looking at melodic dictaiton.
+List here that the taxonomy is Figure 4.
+
+Using this taxonomy as a guide, I investigate thought to contribute to tasks of melodic dictation using diverse methodloogical toolbox which borrows techniques ranging from cognitive psychology, to computational musicology, interepreting all along the way with insights from music theory.
+
+## Present Research Question 
+
+This dissertation takes an interdisciplinary approach to answer the question: **_how_ does melodic dictation work**?
+In order to answer this question comprehensively and following in the path of Karpinski I sythesize and utalize work from music theory, music education, and music cognition to answer questions related to this.
+Specifically, I set out to answer
+
+1. To what degree are individual differences in cognitive ability predictive of a person's ability to perform musical memory tasks?
+2. To what degree do abstracted melodic features from FANTASTIC help with determint diffculty of dictaiton melody and line with behavior and teacher intuition?
+4. How can patterns from a corpus of sight singing melodies serve as representations ofw hat people implicitly and explicitly know?
+5. If cast as an experiment, how can we predict how well someone does when you combine both individual and musical features? What problems arise for this kind of research to be pursed with these great new tools we have from computaitonal musicology and psychometrics? 
+5. Is it possible to posit a computational, explatory model of melodic dictation that explains _how_ the process works? THis will have to be intuitively understood by theorists and represent be phenomincallogically passable to the descion making process that people engage in with melodic dictation
+
+With each of these five questions serving as the basis for each of the five chapters of original content, I next detail what I will use for each of these methodlogies in detail. 
+
+## Outline Research Methods
+
+In order to investigate my first research question, I analyze and intepret data from a large scale experiment conducted over the last year in collaboration with the Louisiana State University's cognitive psychology program.
+The experiment uses a large sample of (n = X) students who took part in a multi part experiemnt where we took measures of cognitive ability using multiple measures of for both general fluid intelligence and workign memory capacity, as well as musical background as subjective self report, and then also an object test of musical memory via a melodic memory test.
+Given the comlexity of variables at play, I analyze the data using structural equation modeling-- a statstical technique developed in order to parse out causal relationships within covariance structures-- and find evidence for what Berz 1995 said that things like working memory capacity are huge predictors of musical ability and need to be accounted for when looking at tasks of musical perception. 
+
+For my third chapter (examining question 2) survey history of computational musicology and offer a speculative discussion about how work from computational musicology can be used in order to serve as a proxy for the intuitive degrees of difficulty that instructors do when doing melodies.
+
+Following the third chapter's logic, I then introduce a novel corpus in kern format in the fourth chapter of sight singing melodies.
+Using recent advancements in computational musicology, I show how there are statistical norms present in this corpus and other ones and then suggest that there is a link between using these melodies as an individual's implict knowledge of a musical strcutre MEYER and how that can be used behaviorally in melodic dictation.
+The corpus here also can be then utalized by other reseracher as a resource for research and shit. 
+
+Sythesizing the asssumptions and findings from the previosu three chapters, I combine the fact that individual difference seem to matter and can be measured and what I said about how you can also measure differences in melodies in order to operationalize all aspects here and put them together in an experiment.
+Here I reflect on the many choices that can be made in at this process and talk about implications and limitations of measuring it like this 
+Using these experimental methods allows me to determine what happens when you actually do this in an ecological setting. 
+
+Finally, in summerizing everything, in the last chapter I put forward a computational model of melodic dictation that explicitly detials each step in the decision making proces.
+This Baysian inspired model takes account of a listers prior knowledge, explict understanding of musical material, and then allows a test melody to be computationally dictated in order to result in an difficulty core based on previous knowledge, as well as measures thought to be influential like working memory capacity from above. 
+Putting this down on paper, or more like in code puts it all on the tablble and allows for more detailed discussion of the process.
+
+## Significance of Project to Music Theory
+
+Exploring melodic dictation using interdisciplinary approaches allows the music research community to have more comprehesive understanding of melodic dictation.
+Firstly, and most importantly and as stated above, there is not an explantory model of how melodic dication, something we all do, actually works.
+We should have a theory of melodic dictation.
+By putting forward an explanatory theory in the form of a computational model that is informed by experimental evidence, we are able to dig deeper into each nook and cranny of how it works.
+
+As currently stands, can suggeset that working memory capacity does play a role.
+We have a nwe corpus of melodies that can be used.
+Have written software that anyone can now use and do this exactly to look at other features with no coding experience. 
+And this model gives us langauge.
+Given fact that there are moveable parameters, can also use it to help inform questions about representation of melodies, how important it is of the size of wmc, and establish a clear link between why it is important for students to sight sing in that explict understanding of musical material will for the prior basis of ability to take melodic dictation.
+
+As stated above, given the ubiquity of melodic dictation in schools of music and our responsiblity as music theory pedagoges to be able to explain what we do, it is important to have a theory of melodic dictation that is explanatory since we are grading people on it.
+Important to know the degree to which abilities can be learned, how much of it comes from pre-existing individual differences to cater to the diversity of students that we teach, and it is especially important now with what everyone else is saying about thinking about what should be put in our curicula for schools of music 
+Maybe seomthing about polymorphism here 
+
+Summary end paragraph about how research has a goal in that it both tells us more about melodic perception and help inform work on music and memory and also having a more comprehensive model to describe this 
+
+
+Doing this will also open up a much more specific volcabulary for talkign about things that people complain about like... mental represetnation, if logical to talk about SD qualia as thing or not, best link sight singing to things, how to be most effective teacher, also bring topics of cognition for ride since this is about learning 
+and more ways to look at it that are accessible to tons of people will help out our students in that we can be more effective teachers. 
+
+## Current Progress
+
+As of OCTOBER 25th, three chapters of the dissertation have been completed as drafts.
+The completed chapters include the literature review, the fifth chapter on experimental method, as well as the attached chapter that describes the computational model.
+The second chapter currently exists as a conference proceedings paper from the International Conference on Music Perception and Cognition 15 and I am currently in the process of changing the langauge and expanding on all of the figures and analyses used in the shorter version of the paper.
+I am still in the process of encoding the melodies and have finished XXX out of the goal of 366.
+The chapters on usign computational tools as well as describing the corpus have been outlined, but have not been completed. 
+
+Research that resulted from earlier work investigting problems with measuring and modeling musical ability has been _accepted for publication and is forthcoming in Musica Sciencae_ and work from the fifth chapter on using experimental methdods as a means to understand melodic dictation is set to be published in a chapter for an upcoming _Routledge_ book that has been tenatively titled _Understanding Melodic Dictation via Experimental Methods_.
+Once finished, the computational chapters are set to be submitted to the _International Society for Music Information Retrevial_ and results from the experiments in chapter 6 are set to be submitted for an article that includes both sets of experiments for a music perception journal.
+A review of melodic dictation literature as it relates to _Karpinksi_ as well as the computatonal model as it pertains to music theory pedagogy also should get published
+Current progress of the dissertation is avalible online where all the materials, software, text, and supplmental litertaure cited in the dissertation can also be accessed in able to facilitate more accsible reserach for anyone wanting to join this area of research.
+
+A completed draft of the dissertation will be sent to the committee in early 2019 with plenty of time left for revisions before the official submission date of March 18th.
+The dissertation will be defended in the weeks after at conenent time for everyone involved.

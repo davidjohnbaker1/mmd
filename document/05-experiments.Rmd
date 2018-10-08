@@ -1,0 +1,45 @@
+# Experiments
+
+## Rationale 
+### Have done all this and have not actually talked about dictation yet 
+### Clearly many factors contribte to this whole thing and need to be taken into a model 
+### Dictation is basically a within subjects design Experiment
+#### Get very ecological and dirty and run it 
+
+* Paney 2016 had 30 second timing 
+
+### Factors
+#### Cognitive
+##### WMC
+##### GF
+#### Training
+##### Goldsmiths MSI 
+#### Musical 
+##### FANTASTIC
+##### IDyOM
+#### Investigate melodies with this context and set scoring 
+#### Mirror design to see if effects of melody are there
+
+## Experiments
+### Experiment I
+#### Participants
+#### Procedure
+#### Materials
+#### Scoring 
+#### Results
+#### Modeling
+#### Discussion 
+### Experiment II
+#### Participants (New)
+#### Procedure (Same)
+#### Materials (Swapped but controlled)
+#### Scoring (Same)
+#### Results
+#### Modeling (same)
+### General Discussion 
+#### What happened
+#### Assumption of all of this is that many things are happening linearly in combination with each other
+#### Additionally the mixed effects framework works better with more data? 
+#### Also how we score it is going to mess wiht the DVs
+### Really what is needed is Computational Model 
+
