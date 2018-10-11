@@ -1,30 +1,131 @@
 # Computational Model 
 
-## What Is A Model And Why do you need a model 
+## What Is A Model And Why do you need a model
 
-### Model Can Be Descriptive, or Explantory
+In his 2007 article _Models of music similarity_ [@wigginsModelsMusicalSimilarity2007] Geraint Wiggins makes a distinction between _descriptive_ and _explanatory_ models when describing models that describe human behavior. 
+Descriptive models assert what will happen in response to an event.
+For example, as noted in ________________.
+While the _______ is assumed to drive the rise in _______, merely stating that there is an established relationship between one variable and the other says nothing about the inner workings of this process.
+An explanatory model on the other hand not only describes what will happen, but additionally notes why and how this process occurs.
+For example, much of the work musical expectation demontrates that as exposure to a musical style for an individual increases, so does that persons's ability to to predict specific events with a given musical texture.
+Not only does it predict more accurate responses, but many of these models like HURON, MARGULIS, PEARCE derrive their underlying theory about this behavior from the brain's ability to implicitly track statistical regularities in musical perception SAFFRAN.
+The _how_ derrives from the brain's ability to track statistical regularities musical information in the environment and the _why_ derrives from evolutionary demands in that organisms that are able to make more predictions about their environment are more likely to survive and pass on their genes HURON 2006. 
+Wiggins notes that although there can be both explanatory and descriptive theories, depending on the level of abstraction, a theory may be explanatory at one level, yet descriptive at another.
+Using the mind-brain dichotomy, he notes that something like a theory of implict expectations like PEARCE could be explanatory at the level of behavior as noted above, but says nothing about what is happening at the neuronal level.
+Both descriptive and explanatory theories are needed in that descriptive theories are used to test explanatory theories, and by strinng together different layers of abstraction, we can arrive at a better understanding of how the world works.
 
-* Important to say that model is not perfect, that's the point
-* Examples of Models in Music and Music Theory
-* Process Model (Baddely) Box Model , Decsison Model
+Returning to melodic dictation, under Wiggins' framework, the Karpinki model of melodic dictation [@karpinskiAuralSkillsAcquisition2000; @karpinskiModelMusicPerception1990] would qualify as a decriptive model.
+The model says what happens over the time course of a melodic dictation-- specificying four discrete stages discussed in earlire chapters-- but does not explicitly state _how_ or _why_ this process happens. 
+In order to have a more complete understanding of melodic dictation, an explanatory model is needed. 
 
+In this chapter I introduce an explanatory model of melodic dictation. 
+The model is inspired by work from both computational musicology, as well as cognitive psychology and uses a uniform memory mechanism inspired by Cowan's Embedded Process Model of working memory to explain the process.
+In addition to quantifying each step, the model has points in it where parameters could be tweaked in order to accomodate for individual differences, while still relying on a domain general process. 
+The model consists of three main parts, each with its own set of parameters that 
 
-### Model Is an actual implementation of your theory, what happens when
-### Need to Do this so you are clear about all your terms
+1. Prior knowledge
+2. Selective Attention
+3. Transcription
 
-* Representation of Musical Pitch
-* How how do people learn shit 
-* What happens when
-* And if you change stuff, how much does variability change certain parameters
-* Are some things impossible? 
-* Benefit is then you have a very clear framework to engage other reserachers
+Inspired by Baysian computational modeling, the _Prior Knowledge_ part reflects the previous knowledge an individual brings to the melodic dictation.
+The selective memory-- somewhat akin to Karpinksi's extractive listening^[I use different terms to avoid confusion when comparing models later]-- segments incoming musical information by using the windown of attention/limits of working memory capacity as a sensory bottleneck to constrit the size of musical chunk that an individual were to trascribe.
+Once the focus of attention, the Transcription function recusrively pattern matches against the prior knowledge's corpus of information in order to find a match of explicitly known musical information.
+This process refects, but does not actually mirror the exact process used in melodic dictation, yet seems to be phenomenologically similar to the decision making process used when attempting notate novel melodies.
+Based on both the prior knowledge and individual differences of the indiviual, the model will scale in ability, with the general retrevial mechanisms in place.
+The exact details of the assumptions, free parameters, and complete formula of the model are discussed below.
+
+* Name it here if you want 
+
+It is important to note that this model is not perfect in that it deterministically mirrors the exact cognitive process someone would use to take melodic dictation.
+It instead quantifies each step of the process and provides a detailed account each step of the process in a fully realized and implmentable process.
+The benefits of creating a computational model of melodic dictation are numerous.
+First, as stated above, a computational model acts as an explanatory model that details the inner working of a process.
+Second, by quantifying each step of the process, a computational model forces the researcher to specify key things that could be blown past.
+In this case, we have to deal with the representation of musical material, defintions of working memory, as well as what does it mean for something to have been learned. 
+Thirdly, in creating a computational model you provide theories with a concrete version that can be more easier faslfied.
+The quintessential example of the importance of this comes from an anecodote in evolutionary psychology claiming that in heterosexual populations, men engage in more casual sexual encounters than women due to their promiscous proclivities.
+This theory has appeared in textbooks, but as noted by AUTHOR, while might be good as a verbal model in that it plays to our preconcived notions about male sexuality, implemented as a computational model, is mathematically impossilble.
+Fourthly, creating a computational model rules defines the universe of a possible outcomes that your theory posits.
+As shown in work done on the seemingly simple Baddely and Hitch model of working memory, AUTHOR demonstrated that with XXX parameter values, the YEAR model of working memory actually allows for 15X different permuatations of the model.
+With such vast possibilites, it becomes much harder to speak about_the_ model as a single entity.
+Finally, and most importantly from a pedagogical framework, by detailing the exact steps of the process, it provides a theory of melodic dictation in which each element of the process is able to be discussed and gives exact framework for which it can be criqtiqued.
+Creating a computational model is the next step in furthering research on aural skills pedagogy.
+
+## The Model 
+
+### Model Representational Assumptions
+
+In order to write a computer program that mirrors the melodic dictation process, how the mind "percieves" and "thinks" about musical information must be defined _a priori_.
+Before delving into questions of representation, this model assumes that the musical surface JACKENDOFF as represented by the notes via Western musical notation are salient and can be percieved as distnict perceptual phenomena.
+Although there is work that suggests that different cultures and levels of experience might not categorize melodic information universally MCDERMOTT, other work suggests that things like experiencing pitches as discrete, categorical phenomena is categorized as a statistical human universal SAVAGE.
+For the purposes of this model in that it models something specific to a very WEIRD CITATION demographic, I think it is safe.
+
+Knowing that it is melodic information or melodic data that needs to be represented, the question then becomes what are the best ways in which to represent it.
+Much work has been done on this history of musical representation WIGGINS ET AL 1993 has been exhastive, even though it has only been on for about 30 years but regardless of what exact representation is chosen, it generally can be concived of a symbol string Clifford et al., 2005.
+How a string is represented carries with it important assumptions about a listern's percepetion and also a teacher's pedagogy.
+Take for example the many ways in which someone could represent the ever popular Twinkle, Twinkle Little Star as in Figure 1. 
+
+* TWINNLE IMAGE HERE in C and F#
+
+Representing the string of symbolys as in Figure 2A using THIS NOTATION SYSTEM would suggest that listeners perception and cognition of the notes mirrors that of fixed _do_ solfedge.
+The only symbolys in the string, or tokens, represented carry with it the name of the note along with it's absolute range.
+When compared to string 2B-- the melody transposed a tritone up-- a computer would find no symbol overlap between the two strings and might declare the two as completely dissimilar.
+Additionaly, neither string contains with it any sort of rhythmic information.
+Reproduced Figure 2C and Figure 2D, we see the same two strings now with additionally temporal information.
+
+* FIGURE 2 DIFFERENT TYPES OF REPRESENTATION
+* C4 C4 G4 G4 A4 A4 G4
+* F#4 F#4 C#5 C#5 D#6 D#6 C#6
+
+As stated above, this mapping assumes fixed pitch representation of musical information.
+This is at odds to intuition in that most humans would categorize the informaiton in strings 2A and 2B as containing the same musical content.
+
+In order to capture that of human perception and cognition, one might want to represent this string of musical informationt to the computer as a list of directional intevals (Math citation) which brings with it interval information not present (although maybe impliclty imposed!) in the previous examples.
+
+* C U +P5 U +M2 U -M2
+
+This then captures what might be considered phenomena closer to human perception, but again is devoid of any sort of scale degree functionality or qualia that might be involved in listener's perception.
+Including this assumption the string and durational values as it might be a Humdrum spine might be represented as:
+
+* DO DO ^SOL SOL ^LA LA >SOL (with rhythm)
+
+Each string represnts what might be considered the same perceptual pheneomena, but when quantified, one system needs to be explicitly chosen as how information is represented will change model output.
+For example if it is assumed that an individual's prior musical information can only be encoded as the first _fixed do_ example, then each of the 12 possible ascending major fifths would have to be learned as separate phenomena to be represnted in as prior knowledge in this model.
+This point also brings up the importance of noting that many of these systems could be at play here and just because one representation might not make sense in one implemntation of a model does not make it null and void for other applications in pedagogical settings.
+
+For the purposeses of this model and further examples I will use the absolute interval representation of pitches here, with further directions in this research addressing how it would be possible to implment things like the scale degree and _fixed do_ model.
+Comparisons of this model output will also contribute to conversations regarding pedagogy in that if one form of data represenation mirrors human behavior than the others, it would provide more than anecodotal evidence in support of the pedagogy of one system over another. 
+How the model represents musical information is the first important parameter value that needs be chosen before running the model and this establishes the prior information. 
+
+## Modeling Information Content 
+
+Having established that the models first established parameter to be decided is how strings of melodies are represented, the next important decision that has to be made is how decisions of segmentation for the second stage of attentive memory are decided.
+Although there has been a large amount of work on different ways to segment the musical surface JACKENDOFF DANIEL OTHERS THAT MOZART THING, rely on matching a music theorist's intution with a set of descriptive rules somewhat like the boundary formation rules in _GTTM_.
+While this continues a long tradition of research trying to determin formal boundaries (History of All Music Theory), since melodic dictation is an active memory process, rather than a semi-passive process of listening (tho MARIUS HAS SAID OTHERWISE/EMBODIMENT) this model needs to be able to quantify musical information that is both dependent on prior musical experience and allows a moveable boundary for selective attention so that musical information that is memory can be actively maintained, whilst carring out another cognitive process, that of notating the melody. 
+
+In order to create this metric, want to use IDyOM which uses IC (Shannon) and quantifies the IC of melodies based on a corpus of materials.
+Great thing about it is that IDyOM is machine learning so that can put in lots of different symbolys and get the IC.
+THIS IS THE WAY IT WORKS ON HIGH LEVEL WITH N-GRAMS.
+
+Given that each grouping of n-grams will have its own IC, can then use that and cumIC function to determine.
+Now all you have to do is set a theshold of memory (allow for indivudal differences) and then to also allow only a certain amount into attentional memory. 
+
+Here parameter to consider is the threhold of WM which then allows for differnces at the indiviudal level. 
+
+For example, when trained against a corpus of melodies, THIS MELODY has IC (unitless thing) that is on top of notes.
+Good thing about this is that if you knwo a lot of melodies, cna have bigger chunks at various levels.
+
+* FIGURE HERE
+
+### Setting Limits with Transcribe
+
+### Notating
+
+### Loop Back IN
+
 
 ## Contents of Model and Things Needed to be addressed
 
-* Inspired by the Cowen Embeded Process Model 
-* How are melodies represented and how does that affect things
-* Are there WMC constraints 
-* IC and music and whatever
 * The actual transcription 
 * Assumption that if explicit, then NOTATE 
 * What happens at impass (split and proto)
