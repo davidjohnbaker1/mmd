@@ -84,7 +84,7 @@
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{2018-10-11}
+  \date{2018-10-12}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -2599,9 +2599,11 @@ Here parameter to consider is the threhold of WM which then allows for
 differnces at the indiviudal level.
 
 For example, when trained against a corpus of melodies, THIS MELODY has
-IC (unitless thing) that is on top of notes. Good thing about this is
-that if you knwo a lot of melodies, cna have bigger chunks at various
-levels.
+IC (unitless thing) that is on top of notes. The advantage of
+operationalizing how an individual hears a melody like this is that
+melodies with lower information content, derrived from an understanding
+of having more predictiable patterns from the corpus, will allow for
+larger chunks to be put inside of the attentive memory buffer.
 
 \begin{itemize}
 \tightlist
@@ -2609,29 +2611,159 @@ levels.
   FIGURE HERE
 \end{itemize}
 
+Note that the notes above the melody here are dependent on what is
+current in the prior knowledge. A corpus of prior knowledge with less
+melodies would lead to higher information content measures for each set
+of notes, while a prior knowledge that has extensive tracking of the
+patterns would lead to lower IC.
+
 \hypertarget{setting-limits-with-transcribe}{%
 \subsection{Setting Limits with
 Transcribe}\label{setting-limits-with-transcribe}}
 
-\hypertarget{notating}{%
-\subsection{Notating}\label{notating}}
+With each note then quantified with a measure of information content, it
+then becomes possible to set a limit on the maximum amount of
+information that the individual would be able to hold in memory as
+defined by a an attentional threshold. A higher threshold would allow
+for more musical material to be put in the attentional buffer, and a
+lower threshold would restrict the amount of information held in an
+attentional buffer. By putting a theshold on this value, this serves as
+something akin to a perceptual bottleneck basesd on the assumption that
+there is a capacity limit to that of working memory. Modulating this
+boundary will help provide insights into the degree to which melodic
+material can be retained between high and low working memory span
+individuals.
 
-\hypertarget{loop-back-in}{%
-\subsection{Loop Back IN}\label{loop-back-in}}
+In practice, notes would enter the attentional buffer until the
+information content from the melody is equal to the memory threshold. At
+this point, the notes that are in the attentional buffer are sequestered
+and will be actively maintained in the attentional buffer. In theory,
+the maximum of the attenional buffer should not be reached since the
+indivudal performing the dictation would still need mental resources and
+attention to actively manipulate the information in the attentional
+buffer for the process of notating.
 
-\hypertarget{contents-of-model-and-things-needed-to-be-addressed}{%
-\section{Contents of Model and Things Needed to be
-addressed}\label{contents-of-model-and-things-needed-to-be-addressed}}
+\hypertarget{pattern-matching}{%
+\subsection{Pattern Matching}\label{pattern-matching}}
+
+With subset of notes of the melody now represented in the attentional
+buffer, whether or not the melody becomes notated depends on whether or
+not the melody or string in the buffer can be matched with a string that
+is explictly known in the corpus. * Do I introduce the explict implict
+thing earlier? Mirroring a search pattern akin to Cowan's Embeded
+Process model, the individual would search across their long term memory
+for anything close to or resembling the string pattern in the
+attentional buffer.
 
 \begin{itemize}
 \tightlist
 \item
-  The actual transcription
-\item
-  Assumption that if explicit, then NOTATE
-\item
-  What happens at impass (split and proto)
+  Image of wallpaper search here?
 \end{itemize}
+
+Using this logic, longer pattern strings n-grams would be less likley to
+be recalled exactly. If a pattern is not found in the initial search,
+one token of the n-gram would be dropped off the string and the search
+would happen again. This recursive process would happen until an explict
+long term memory match is made. Like humans taking melodic dictation,
+the computer would have the best luck finding patterns that fall within
+the largest density of a corpus of intervals distribution. Additionally,
+like students performing a dictation, if a student does not explicitly
+know an interval, or a 2-gram, the dictation would not be able to be
+completed. If this happens, both the model and student would have to
+move on to the next segement.
+
+Upon the sucessful explict match of a string, that section of the melody
+would be consiered to be sucessfully dictated. The model here would
+register that one iteration of the funciton has been run and the chunk
+transcribed would then be recorded. After recording this history, the
+process would happen again starting at either the next note from where
+the model left off, the note in the entire string with the lowest
+information content, or n-gram left in the melody with that is most
+represented in the corpus. This parameter is defined before the model is
+run and the question of dictation re-entry certainly warrents further
+research and investigation.
+
+This type of pattern search also dependent on the way that the prior
+knowledge is represented. In the example here, both interval and rhythm
+are represented with each token in the string. Since there is probably a
+very low likelyhood of finding an exact match for every n-gram with both
+pitch and rhythm, this patten search can happen again with both rhythms
+and pitch informaiton queried separatly. If not exact pitch-temporal
+matches are found and the search is run again on either the pitch or
+rhythmic information separatly, this would be computationally akin to
+Karpinki's proto-notation that he suggests students use in learning how
+to take melodic dictaiton (KARPINKSI CHAPTER 3). With this feature of
+the model incorporated, it would be possible to also generate evidence
+in favor or disfavor of attempting to dictate elements of the melody
+separatly such as doing rhythm first, then pitch information or vice
+versa. Either way, having this as a second level default of the model
+seems to match with the intutions strategies that someone dictating a
+melody might use.
+
+\hypertarget{loop-back-in}{%
+\subsection{Loop Back IN}\label{loop-back-in}}
+
+Upon the sucessful pattern match of a string, the attentional buffer and
+transcribe-search function would need too then be run again. As noted
+above, re-entry in the melody could be a highly subjective point of
+discussion. The model could either re-enter at the last note where the
+function sucessfully left off, the note in the melody with the lowest
+information content, or the n-gram most salient in the corpus. Entering
+at the last note not transcribed is logical from a computational
+standpoint, but this linear approach seems to be at odds with anecdotal
+experience. Entering at the note with the lowest information content
+seems to provide a intuitive point of re-entry in that it would then be
+easier to transcribe. Entering at the most represented n-gram seems to
+match the most with intutition in that people would want to tackle the
+easier tasks first, but this rests on the assumption that humans are
+able to reliably detect the sections of a melody that are easist to
+transcribe based on implicitly learned statistcal patterns. For example,
+some people might instead choose to go to the end of a melody after
+sucessful transcription of the start of the melody. This might be
+because this part of hte melody is most active in memory due to a
+recency effect, or it could be that that cadential gestures are more
+common in being represnted in the prior knowledge.
+
+\hypertarget{completion}{%
+\subsection{Completion}\label{completion}}
+
+Given the recursive nature of this process, the model if all 2-grams are
+explicitly represented in the prior knowledge should be transcribed. If
+only represented using such a small chunk, the model will have to loop
+over the melody many times, thus indicating that the transcriber had a
+high degree of difficulty dictating the melody. If there is a gap in
+explict knowledge in the prior knowledge, only patches of the melody
+will be recorded and the melody will not be recorded in its entirety. An
+easier transcritpion will result in less iterations of the model with
+larger chunks. Though the current instatiation of the model does not
+incorporate how multiple hearingings might change how a melody is
+dictated, one could constrain the process to only allow a certain number
+of iterations to reflect this. Of course as a new melody is learned it
+is slowly being introduced into long term memory and could be completly
+be capable of being represented in long term memory without being
+explicitly notated at the end of a dictation with time running out and
+thus not possible to be completed. This of course then would be imposing
+some sort of experimental constraint on the process and since this is
+meant to be a cognitive computational model of melodic dictation, this
+complicates things. Future reserch could be done to optimize the choices
+that the model makes in order to satisfy whatever constraits are imposed
+and could be an interersting avenue of future resarch, but are beyond
+the initial goals of the model.
+
+The model then outputs each n-gram transcribed and can be counted as a
+series with less attempts mapping to an easier transcription. I believe
+that this lines with many intutitions about the process of melodic
+dictaiton. It first creates a linear mapping of attempts to dictate with
+difficulty of the melody. It relies on a distinciton between explict and
+implicit statistical knowledge. It is based on the embeded processs
+model from working memory and attention, so is part of a larger
+generative model, giving it a bit more creditiblity that htis
+\emph{could} be how melodic dictation works.
+
+Having now gone through the model verbally and notating the parameters
+that need to be set and how things are then represnted, I will now
+define the model formally.
 
 \hypertarget{modime}{%
 \section{MoDiMe}\label{modime}}
@@ -2642,12 +2774,74 @@ addressed}\label{contents-of-model-and-things-needed-to-be-addressed}}
   Formal Model here
 \end{itemize}
 
-\hypertarget{model-performance-on-chapter-5-data}{%
-\section{Model Performance on Chapter 5
-data}\label{model-performance-on-chapter-5-data}}
+\hypertarget{example}{%
+\section{Example}\label{example}}
 
-\hypertarget{what-is-now-possilbe}{%
-\section{What is now possilbe}\label{what-is-now-possilbe}}
+Having now both described the model and defined it formally, I now can
+run through a brief example of how the model might work in practice by
+showing a melody to be dictated, a the corpus of melodies that it
+represents, and three iterations of model that exhaust each branch of
+the model.
+
+\hypertarget{example-corpus}{%
+\subsection{Example Corpus}\label{example-corpus}}
+
+\begin{itemize}
+\item
+  12 Melodies on on page and their representation
+\item
+  Also show rhtymic and pitch abstractions
+\item
+  Show their density histograms as a corpus
+\item
+  Target Melody
+\item
+  Define WMC low for example
+\item
+  Linear re-entry
+\item
+  First run through take n- gram chunk, no explict pattern match, drop 1
+  gram, yes match, move on
+\item
+  Next no exact pattern match on linear re-entry, query pitch (yes,
+  proto) query rhythm (yes,rhythm), both transcribed
+\item
+  Third iteration, full pattern match
+\item
+  Not complete, but at this point have X amount of melody transcribed
+  with this history.
+\item
+  Tedious to get the exact thing, go to actual example
+\item
+  CRAZY THAT YOU COULD USE THIS TO WORK BACKWARDS HOLY SHIT BAYES YOU
+  ARE SWEET!!
+\end{itemize}
+
+\hypertarget{actual-data}{%
+\subsection{Actual Data}\label{actual-data}}
+
+\begin{itemize}
+\tightlist
+\item
+  Let's now say that we have set of XYZ melodies as targets, the whole
+  semester 1's melodies the prior knowledge, what does the model then
+  say.
+\item
+  This basically mirrors week 1 of semseter 2 of freshman year
+\item
+  Plot of correlation of model predicts, correlation of actual scores
+\item
+  Can re-do this now with only pitch scores (or run it with just pitch!)
+\item
+  Can re-do this now iwht only rhythm socre
+\end{itemize}
+
+And here is some commentary
+
+\hypertarget{future-directions}{%
+\section{Future Directions}\label{future-directions}}
+
+Now with a formal model of melodic dictation, what is now possible?
 
 \begin{itemize}
 \tightlist
@@ -2807,178 +3001,6 @@ smaller ones Atomistic transcription can happen but is inefficient
 People with higher chunking ability will do better IC is helpful proxy
 for this in line with IDyOM literature Relative pitch is where it's at
 for things like this What's deal with AP?
-
-\hypertarget{why-1}{%
-\subsection{Why?}\label{why-1}}
-
-\hypertarget{better-than-verbal-models}{%
-\paragraph{Better than verbal models}\label{better-than-verbal-models}}
-
-\hypertarget{sometimes-even-mathematically-infesable-proposed-theory}{%
-\paragraph{Sometimes even mathematically infesable proposed
-theory}\label{sometimes-even-mathematically-infesable-proposed-theory}}
-
-\hypertarget{beyond-karpinski-in-that-it-doesnt-just-schematize-says-exactly-when-each-thing-is-happening-when}{%
-\paragraph{Beyond Karpinski in that it doesn't just schematize, says
-exactly when each thing is happening
-when}\label{beyond-karpinski-in-that-it-doesnt-just-schematize-says-exactly-when-each-thing-is-happening-when}}
-
-\hypertarget{lends-itself-to-better-discussions-that-dont-just-rely-on-personal-anecdotes}{%
-\paragraph{Lends itself to better discussions that don't just rely on
-personal
-anecdotes}\label{lends-itself-to-better-discussions-that-dont-just-rely-on-personal-anecdotes}}
-
-\hypertarget{can-tweak-the-parameters}{%
-\paragraph{Can tweak the parameters}\label{can-tweak-the-parameters}}
-
-\hypertarget{can-collect-different-types-of-data-corpus-or-experimental-and-use-the-model}{%
-\paragraph{Can collect different types of data (corpus or experimental)
-and use the
-model}\label{can-collect-different-types-of-data-corpus-or-experimental-and-use-the-model}}
-
-\hypertarget{this-model-suggests-that-atomism-approach-is-actual-just-subprocess-of-larger-pattern}{%
-\paragraph{This model suggests that atomism approach is actual just
-subprocess of larger
-pattern}\label{this-model-suggests-that-atomism-approach-is-actual-just-subprocess-of-larger-pattern}}
-
-\hypertarget{theoretical-justification}{%
-\subsubsection{Theoretical
-Justification}\label{theoretical-justification}}
-
-\hypertarget{marries-literature-on-ltm-and-prior-knowledge-information-theory-wmc-computation-representation}{%
-\paragraph{Marries literature on LTM and prior knowledge, information
-theory, WMC, computation,
-representation}\label{marries-literature-on-ltm-and-prior-knowledge-information-theory-wmc-computation-representation}}
-
-\hypertarget{also-can-be-implemented-in-computer}{%
-\paragraph{Also can be implemented in
-computer}\label{also-can-be-implemented-in-computer}}
-
-\hypertarget{represntation-of-rhythm-too}{%
-\paragraph{represntation of rhythm
-too?}\label{represntation-of-rhythm-too}}
-
-\hypertarget{inspired-by-people-like-margulis-2005-albrecht-and-shanahan-key-finding-want-something-to-contribute}{%
-\paragraph{inspired by people like margulis 2005, albrecht and shanahan
-key finding, want something to
-contribute}\label{inspired-by-people-like-margulis-2005-albrecht-and-shanahan-key-finding-want-something-to-contribute}}
-
-\hypertarget{really-made-me-think}{%
-\paragraph{Really Made me think}\label{really-made-me-think}}
-
-\hypertarget{the-model-note-many-parameters-can-be-changed-in-r-package}{%
-\subsubsection{The Model (note many parameters can be changed in R
-package)}\label{the-model-note-many-parameters-can-be-changed-in-r-package}}
-
-\hypertarget{prior}{%
-\subsubsection{Prior}\label{prior}}
-
-\hypertarget{corpus-of-music-represented-in-form-of-n-grams}{%
-\subparagraph{Corpus of music represented in form of
-n-grams}\label{corpus-of-music-represented-in-form-of-n-grams}}
-
-\hypertarget{idyom-extracts-all-possible-n-gram-permutations-as-learned-corpus}{%
-\subparagraph{IDyOM extracts all possible n-gram permutations as learned
-corpus}\label{idyom-extracts-all-possible-n-gram-permutations-as-learned-corpus}}
-
-\hypertarget{music-notation-fed-into-processing-window-where-incoming-n-gram-is-matched-based-on-wmc-window-or-it-maximum}{%
-\paragraph{Music notation fed into processing window where incoming
-n-gram is matched based on WMC window OR IT
-maximum}\label{music-notation-fed-into-processing-window-where-incoming-n-gram-is-matched-based-on-wmc-window-or-it-maximum}}
-
-\hypertarget{information-builds-until-approaches-critical-threhold}{%
-\subparagraph{Information builds until approaches critical
-threhold}\label{information-builds-until-approaches-critical-threhold}}
-
-\hypertarget{upon-maximum-model-puts-n-gram-into-focus-of-attention-cowan-1988-and-note-why-this-is-better-than-baddely-hitch}{%
-\subparagraph{Upon maximum, model puts n-gram into focus of attention
-(Cowan 1988) and note why this is better than Baddely
-Hitch}\label{upon-maximum-model-puts-n-gram-into-focus-of-attention-cowan-1988-and-note-why-this-is-better-than-baddely-hitch}}
-
-\hypertarget{recursive-transcribe-function-looks-for-ltm-matches}{%
-\subparagraph{Recursive transcribe function looks for LTM
-matches}\label{recursive-transcribe-function-looks-for-ltm-matches}}
-
-Option 1: Pattern Matched and Pattern Transcribed, success?
-
-Option 2: Pattern not matched in full, truncated and use match option
-again (should be higher probability of match with corpus)
-
-Option 3: Pattern not matched downsize again until at interval level and
-relying on 2-gram (atomism)
-
-On sucess of option, reopen gate at nearest long implicit n-gram LTM
-Match (start or end problem)
-
-\hypertarget{put-time-contraints-on-search-features}{%
-\subparagraph{Put time contraints on search
-features}\label{put-time-contraints-on-search-features}}
-
-\hypertarget{transcribe-process-resets-with-trace-image-of-melody-after-each-dictation}{%
-\subparagraph{Transcribe process resets with trace image of melody after
-each
-dictation}\label{transcribe-process-resets-with-trace-image-of-melody-after-each-dictation}}
-
-\hypertarget{transcribe-process-ends-when-all-notes-accounted-for}{%
-\subparagraph{Transcribe process ends when all notes accounted
-for}\label{transcribe-process-ends-when-all-notes-accounted-for}}
-
-\hypertarget{model-output}{%
-\subsubsection{Model Output}\label{model-output}}
-
-\hypertarget{based-on-leanrning-times-needed-to-hear-it}{%
-\paragraph{Based on leanrning, times needed to hear
-it}\label{based-on-leanrning-times-needed-to-hear-it}}
-
-\hypertarget{completion-percentage}{%
-\paragraph{Completion percentage}\label{completion-percentage}}
-
-\hypertarget{rank-order-of-easier-to-transcribe-parts-based-on-learning}{%
-\paragraph{Rank order of easier to transcribe parts based on
-learning}\label{rank-order-of-easier-to-transcribe-parts-based-on-learning}}
-
-\hypertarget{model-compared-to-data}{%
-\subsubsection{Model Compared to Data}\label{model-compared-to-data}}
-
-\hypertarget{with-experimental-data}{%
-\paragraph{With Experimental Data}\label{with-experimental-data}}
-
-\hypertarget{future-suggestions-for-aural-skills-pedagoges-and-research}{%
-\subsection{Future Suggestions for Aural Skills Pedagoges and
-Research}\label{future-suggestions-for-aural-skills-pedagoges-and-research}}
-
-\hypertarget{use-model-as-teaching-stepping-off-point}{%
-\subsubsection{Use model as teaching stepping off
-point}\label{use-model-as-teaching-stepping-off-point}}
-
-\hypertarget{should-move-towards-ltm-pattern-matching}{%
-\subsubsection{Should move towards LTM pattern
-matching}\label{should-move-towards-ltm-pattern-matching}}
-
-\hypertarget{reason-that-people-learn-how-to-sight-sing-is-to-increase-the-learning-of-the-implict-corpus}{%
-\subsubsection{Reason that people learn how to sight sing is to INCREASE
-the learning of the implict
-corpus}\label{reason-that-people-learn-how-to-sight-sing-is-to-increase-the-learning-of-the-implict-corpus}}
-
-\hypertarget{circular-process-here}{%
-\subsubsection{Circular process here}\label{circular-process-here}}
-
-\hypertarget{is-this-what-it-means-to-then-think-in-music}{%
-\subsubsection{Is this what it means to then think IN
-music}\label{is-this-what-it-means-to-then-think-in-music}}
-
-\hypertarget{really-its-to-just-know-the-patterns-maybe-like-model-where-justin-london-suggests-we-get-to-know-patterns-and-expect-themn}{%
-\subsubsection{Really it's to just know the patterns maybe like model
-where Justin London suggests we get to know patterns and expect
-themn}\label{really-its-to-just-know-the-patterns-maybe-like-model-where-justin-london-suggests-we-get-to-know-patterns-and-expect-themn}}
-
-\hypertarget{would-also-make-sense-in-terms-of-leonard-meyer-1956}{%
-\subsubsection{Would also make sense in terms of Leonard Meyer
-1956}\label{would-also-make-sense-in-terms-of-leonard-meyer-1956}}
-
-\hypertarget{use-wmc-in-music-theory-cognition-education-studies}{%
-\subsubsection{Use WMC in music theory, cognition, education
-studies}\label{use-wmc-in-music-theory-cognition-education-studies}}
 
 \hypertarget{reference-log}{%
 \chapter{Reference Log}\label{reference-log}}

@@ -113,93 +113,79 @@ Now all you have to do is set a theshold of memory (allow for indivudal differen
 Here parameter to consider is the threhold of WM which then allows for differnces at the indiviudal level. 
 
 For example, when trained against a corpus of melodies, THIS MELODY has IC (unitless thing) that is on top of notes.
-Good thing about this is that if you knwo a lot of melodies, cna have bigger chunks at various levels.
+The advantage of operationalizing how an individual hears a melody like this is that melodies with lower information content, derrived from an understanding of having more predictiable patterns from the corpus, will allow for larger chunks to be put inside of the attentive memory buffer. 
 
 * FIGURE HERE
 
+Note that the notes above the melody here are dependent on what is current in the prior knowledge.
+A corpus of prior knowledge with less melodies would lead to higher information content measures for each set of notes, while a prior knowledge that has extensive tracking of the patterns would lead to lower IC. 
+
 ### Setting Limits with Transcribe
 
-### Notating
+With each note then quantified with a measure of information content, it then becomes possible to set a limit on the maximum amount of information that the individual would be able to hold in memory as defined by a an attentional threshold.
+A higher threshold would allow for more musical material to be put in the attentional buffer, and a lower threshold would restrict the amount of information held in an attentional buffer.
+By putting a theshold on this value, this serves as something akin to a perceptual bottleneck basesd on the assumption that there is a capacity limit to that of working memory.
+Modulating this boundary will help provide insights into the degree to which melodic material can be retained between high and low working memory span individuals.
+
+In practice, notes would enter the attentional buffer until the information content from the melody is equal to the memory threshold.
+At this point, the notes that are in the attentional buffer are sequestered and will be actively maintained in the attentional buffer.
+In theory, the maximum of the attenional buffer should not be reached since the indivudal performing the dictation would still need mental resources and attention to actively manipulate the information in the attentional buffer for the process of notating.
+
+### Pattern Matching
+
+With subset of notes of the melody now represented in the attentional buffer, whether or not the melody becomes notated depends on whether or not the melody or string in the buffer can be matched with a string that is explictly known in the corpus.
+* Do I introduce the explict implict thing earlier?
+Mirroring a search pattern akin to Cowan's Embeded Process model, the individual would search across their long term memory for anything close to or resembling the string pattern in the attentional buffer.
+
+* Image of wallpaper search here? 
+
+Using this logic, longer pattern strings n-grams would be less likley to be recalled exactly.
+If a pattern is not found in the initial search, one token of the n-gram would be dropped off the string and the search would happen again.
+This recursive process would happen until an explict long term memory match is made.
+Like humans taking melodic dictation, the computer would have the best luck finding patterns that fall within the largest density of a corpus of intervals distribution.
+Additionally, like students performing a dictation, if a student does not explicitly know an interval, or a 2-gram, the dictation would not be able to be completed. 
+If this happens, both the model and student would have to move on to the next segement.
+
+Upon the sucessful explict match of a string, that section of the melody would be consiered to be sucessfully dictated.
+The model here would register that one iteration of the funciton has been run and the chunk transcribed would then be recorded.
+After recording this history, the process would happen again starting at either the next note from where the model left off, the note in the entire string with the lowest information content, or n-gram left in the melody with that is most represented in the corpus.
+This parameter is defined before the model is run and the question of dictation re-entry certainly warrents further research and investigation. 
+
+This type of pattern search also dependent on the way that the prior knowledge is represented.
+In the example here, both interval and rhythm are represented with each token in the string.
+Since there is probably a very low likelyhood of finding an exact match for every n-gram with both pitch and rhythm, this patten search can happen again with both rhythms and pitch informaiton queried separatly.
+If not exact pitch-temporal matches are found and the search is run again on either the pitch or rhythmic information separatly, this would be computationally akin to Karpinki's proto-notation that he suggests students use in learning how to take melodic dictaiton (KARPINKSI CHAPTER 3).
+With this feature of the model incorporated, it would be possible to also generate evidence in favor or disfavor of attempting to dictate elements of the melody separatly such as doing rhythm first, then pitch information or vice versa.
+Either way, having this as a second level default of the model seems to match with the intutions strategies that someone dictating a melody might use.
+
 
 ### Loop Back IN
 
+Upon the sucessful pattern match of a string, the attentional buffer and transcribe-search function would need too then be run again.
+As noted above, re-entry in the melody could be a highly subjective point of discussion.
+The model could either re-enter at the last note where the function sucessfully left off, the note in the melody with the lowest information content, or the n-gram most salient in the corpus.
+Entering at the last note not transcribed is logical from a computational standpoint, but this linear approach seems to be at odds with anecdotal experience.
+Entering at the note with the lowest information content seems to provide a intuitive point of re-entry in that it would then be easier to transcribe.
+Entering at the most represented n-gram seems to match the most with intutition in that people would want to tackle the easier tasks first, but this rests on the assumption that humans are able to reliably detect the sections of a melody that are easist to transcribe based on implicitly learned statistcal patterns.
+For example, some people might instead choose to go to the end of a melody after sucessful transcription of the start of the melody.
+This might be because this part of hte melody is most active in memory due to a recency effect, or it could be that that cadential gestures are more common in being represnted in the prior knowledge.
 
-## Contents of Model and Things Needed to be addressed
+### Completion 
 
-* The actual transcription 
-* Assumption that if explicit, then NOTATE 
-* What happens at impass (split and proto)
+Given the recursive nature of this process, the model if all 2-grams are explicitly represented in the prior knowledge should be transcribed.
+If only represented using such a small chunk, the model will have to loop over the melody many times, thus indicating that the transcriber had a high degree of difficulty dictating the melody.
+If there is a gap in explict knowledge in the prior knowledge, only patches of the melody will be recorded and the melody will not be recorded in its entirety.
+An easier transcritpion will result in less iterations of the model with larger chunks.
+Though the current instatiation of the model does not incorporate how multiple hearingings might change how a melody is dictated, one could constrain the process to only allow a certain number of iterations to reflect this.
+Of course as a new melody is learned it is slowly being introduced into long term memory and could be completly be capable of being represented in long term memory without being explicitly notated at the end of a dictation with time running out and thus not possible to be completed.
+This of course then would be imposing some sort of experimental constraint on the process and since this is meant to be a cognitive computational model of melodic dictation, this complicates things.
+Future reserch could be done to optimize the choices that the model makes in order to satisfy whatever constraits are imposed and could be an interersting avenue of future resarch, but are beyond the initial goals of the model.
 
-## MoDiMe 
-
-* Formal Model here
-
-## Model Performance on Chapter 5 data
-
-## What is now possilbe
-
-* Talk explicitly about representation
-* Talk about what happens when
-* Link to sight singing
-* Testable hypotheses?
-* Problems with how to define prior
-* Future Directions
-* How this all relates to helping teach 
-* aka explain the model, thus explain learning, perceptoin, process, representation, if one rep performs better than another, atomistic singing 
-
--------------------------------
-
-## Computational Cognitive Model Model (If time permits) [Whole article in itself]
-
-COMPUTATIONAL MODEL
-
-
-So thinking all about this, first reviewing the literature and then trying to run experiments to figure it all out, got kind of frustrated because even with a mixed effects model, all it is saying is that as note density goes UP so does difficult, and it interacts with tonality. Def setting myself up for a “I could have told you that” moment from my music theory colleagues. Also figured since I am doing a dissertation called modeling melodic dictation, would be good to actually make an explanatory model of it.
-
-Hopefully by this point, have a good idea of the factors that might contribute, my task here was to then try and operationalize everything and make a computer do it.
-
-Actually really inspired by this Lewandowsky book where they had a quip about how wit the Baddeley model it really has like 150 permutations of it and some famous example of someone saying that men have more one night stands than women, but in a heterosexual population that is mathematically impossible. So it only seemed like it made sense to see if I could write one out.
-
-So this is how I think it would work, currently in the process of coding it.
-
-So essentially it’s a bayesian inspired model that compares a target melody, with a corpus of melodies or the prior, that are meant to represent all “known” musical material in someone’s musical understanding. I got the idea from reading about Cowan’s Embedded process model which does not posit the working memory structure as very distinct from that of everything in long term representation, but rather uses the central executive idea as the limited window of attention that can then be focused on things either in LTM or near categorical features of what is in the purveiw of attention.
-
-Will first go through it on a high level, then make another pass and talk about how everything is getting operationalised. So imagine that we have a prior corpus of all the melodies that are covered for sight singing and dictaiton in the first semester of aural skills (in this case, melodies X--XX). If we let the corpus M represent all prior knowledge, where not only is the melody represented as a string of intervals, but we also get ever n gram permutation of of the melody based on the idea that the more frequent the exposure of an n-gram, the more likely it would be to be understood. 
-
-This is the first big parameter M.
-
-We could imagine and visualize this as a grid of distributions of all possible n-grams and the strings that make them up seen here GGPLOT2. 
-Now although any string of notes is possible, in order to mirror the limited capacity of WMC, there needs to be some sort of threshold that is set that would mirror the limits of the window of WMC.
-
-This threshold is the next big parameter, T. 
-
-Currently conceptualizing this as being reflective of maximum of information content threshold as calculated by IDyOM.
-
-Idea here is that as you hear more notes, more IC, the more your fixed capacity bin of melody is going to be filled up. By making it based on the IC of a melody string represented in the corpus, patterns that are more frequent are going to easier to then dictate, which aligns with intuitions on melodic dictation.
-
-Also need to define a the explicit, implicit threshold. Explicitly known n-grams should have some sort of fixed amount that if it succedes that, you would know it. Like karpinski “knowing” phase, would also assume that every interval class would also be “known” and if not, that is OK too, will lead to people not being able to transcribe it. 
-
-We’ve now defined both the individual knowledge parameters and teh thrshold T of working memory capacity. These consist of WHAT DO YOU CALL THIS. 
-
-With these individual parameters established, we can calculate difficulty of the melody by running what I am going to be determining as the ‘transcribe’ function, which is separate from the individual parameters. 
-
-We then can introduce the target melody , t  which represents the string to be dictated.
-
-Idea here is that this melody is compared to the corpus, M, and you get the IC of each of the n-grams from the prior corpus.
-
-Given the theshold, take the biggest n-gram that fits below the threshold to be put in the buffer. If you had a huge threshold and could take IC of whole melody or you KNEW it, would be reflective here. Could also introduce a function here that just gueses at about the threshold. Once this is filled up, let’s say 4 notes, the notes are then set to the transcription buffer. 
-
-At this point index the n-gram is cross checked against the prior knowledge and look for matches of it that happen above a certain “known” threshold. If it is known, it gets “notated’ and you re-enter the melody.  If not, in this case the 4 gram would get recursively truncated until found a string, even 2 gram where it is known. If it gets to a 2 gram and it’s not explicitly known, basically because you don’t know that interval, what Karpinksi rails againt as atomistic hearing. Also good in that people with bigger chunking will do better.
-
-If there is not an exact match, move to split fuzzy searches (future versions) 
-
-Re-entry function is defined by finding the next part of the melody where either next most common n-gram occurs or where it left off last. This is then to reflect the two different ways of approaching tacking. Seing as some people start at front, others start at end. Could be reflective of primacy and recencey effects of memory, OR maybe it’s due to fact that more prototypical n-grams in habit starts and ends of melodies….?
-
-This process would then re-occur a few times over until either can’t go anymore (intervals are not known) or till completion.
-
-Afterwards have an idea of the path that it took, counts of those, use those as proxies of difficulty. 
-
-I think this covers everything in the decision making process and each step of the process can be automated eventually (post doc anyone?!). More importantly, it reflects ecological phenomonologcial experience of taking melodic dictaiton. 
+The model then outputs each n-gram transcribed and can be counted as a series with less attempts mapping to an easier transcription. 
+I believe that this lines with many intutitions about the process of melodic dictaiton.
+It first creates a linear mapping of attempts to dictate with difficulty of the melody.
+It relies on a distinciton between explict and implicit statistical knowledge.
+It is based on the embeded processs model from working memory and attention, so is part of a larger generative model, giving it a bit more creditiblity that htis _could_ be how melodic dictation works. 
 
 Aligns with intuitions that 
 People who know more melodies will be better (singer phenomena) 
@@ -208,54 +194,69 @@ Atomistic transcription can happen but is inefficient
 People with higher chunking ability will do better
 IC is helpful proxy for this in line with IDyOM literature 
 Relative pitch is where it’s at for things like this
-What’s deal with AP? 
+
+Having now gone through the model verbally and notating the parameters that need to be set and how things are then represnted, I will now define the model formally. 
+
+## MoDiMe 
+
+* Formal Model here
+
+## Example
+
+Having now both described the model and defined it formally, I now can run through a brief example of how the model might work in practice by showing a melody to be dictated, a the corpus of melodies that it represents, and three iterations of model that exhaust each branch of the model.
+
+### Example Corpus
+
+* 12 Melodies on on page and their representation 
+* Also show rhtymic and pitch abstractions
+* Show their density histograms as a corpus 
+
+
+* Target Melody
+
+* Define WMC low for example
+* Linear re-entry 
+
+* First run through take n- gram chunk, no explict pattern match, drop 1 gram, yes match, move on
+* Next no exact pattern match on linear re-entry, query pitch (yes, proto) query rhythm (yes,rhythm), both transcribed
+* Third iteration, full pattern match
+* Not complete, but at this point have X amount of melody transcribed with this history.
+* Tedious to get the exact thing, go to actual example
+
+* CRAZY THAT YOU COULD USE THIS TO WORK BACKWARDS HOLY SHIT BAYES YOU ARE SWEET!! 
+
+### Actual Data
+
+* Let's now say that we have set of XYZ melodies as targets, the whole semester 1's melodies the prior knowledge, what does the model then say.
+* This basically mirrors week 1 of semseter 2 of freshman year
+* Plot of correlation of model predicts, correlation of actual scores
+* Can re-do this now with only pitch scores (or run it with just pitch!)
+* Can re-do this now iwht only rhythm socre 
+
+And here is some commentary 
+
+
+## Future Directions
+
+Now with a formal model of melodic dictation, what is now possible?
+
+* Imporantly have formal model of what might be phenomeonlogilly way people do melodic dictation.
+
+
+* Talk explicitly about representation
+* Talk about what happens when
+* Link to sight singing
+* Testable hypotheses?
+* What's the deal with AP 
+* Problems with how to define prior
+* Future Directions
+* How this all relates to helping teach 
+* aka explain the model, thus explain learning, perceptoin, process, representation, if one rep performs better than another, atomistic singing 
+
+-------------------------------
 
 
 
-### Why?
-##### Better than verbal models
-##### Sometimes even mathematically infesable proposed theory
-##### Beyond Karpinski in that it doesn't just schematize, says exactly when each thing is happening when
-##### Lends itself to better discussions that don't just rely on personal anecdotes
-##### Can tweak the parameters 
-##### Can collect different types of data (corpus or experimental) and use the model
-##### This model suggests that atomism approach is actual just subprocess of larger pattern 
-#### Theoretical Justification
-##### Marries literature on LTM and prior knowledge, information theory, WMC, computation, representation
-##### Also can be implemented in computer
-##### represntation of rhythm too?
-##### inspired by people like margulis 2005, albrecht and shanahan key finding, want something to contribute
-##### Really Made me think
-#### The Model (note many parameters can be changed in R package)
-#### Prior
-###### Corpus of music represented in form of n-grams
-###### IDyOM extracts all possible n-gram permutations as learned corpus
-##### Music notation fed into processing window where incoming n-gram is matched based on WMC window OR IT maximum 
-###### Information builds until approaches critical threhold 
-###### Upon maximum, model puts n-gram into focus of attention (Cowan 1988) and note why this is better than Baddely Hitch
-###### Recursive transcribe function looks for LTM matches 
-####### Option 1: Pattern Matched and Pattern Transcribed, success?
-####### Option 2: Pattern not matched in full, truncated and use match option again (should be higher probability of match with corpus)
-####### Option 3: Pattern not matched downsize again until at interval level and relying on 2-gram (atomism)
-####### On sucess of option, reopen gate at nearest long implicit n-gram LTM Match (start or end problem)
-###### Put time contraints on search features 
-###### Transcribe process resets with trace image of melody after each dictation 
-###### Transcribe process ends when all notes accounted for 
-#### Model Output
-##### Based on leanrning, times needed to hear it
-##### Completion percentage
-##### Rank order of easier to transcribe parts based on learning
-#### Model Compared to Data
-##### With Experimental Data 
-### Future Suggestions for Aural Skills Pedagoges and Research
-#### Use model as teaching stepping off point
-#### Should move towards LTM pattern matching
-#### Reason that people learn how to sight sing is to INCREASE the learning of the implict corpus
-#### Circular process here
-#### Is this what it means to then think IN music
-#### Really it's to just know the patterns maybe like model where Justin London suggests we get to know patterns and expect themn
-#### Would also make sense in terms of Leonard Meyer 1956
-#### Use WMC in music theory, cognition, education studies
  
 
 
