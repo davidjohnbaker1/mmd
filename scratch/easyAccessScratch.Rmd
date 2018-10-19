@@ -119,6 +119,27 @@ Some researchers have estimated that XX amount of processes are needed to sucess
 
 ## Order of Chapter 2
 
+
+Two questions here 
+
+* Was Berz 1995 correct in asserting that there is a musical loop using the modular view of WM? 
+* To address this, need to talk about modular vs domain general models 
+* And music is great to look into this because maybe it would act differently than words
+* Also you can manipulate different kinds of musical material which would help out 
+
+Questiosn to be answered in this chapter 
+* Is, as berz said, WM something very important for music perception literature, are we just measuring that?
+* Can address this by doing a series of structrual equation models that see how things are predictive
+* Also would assume that you could see statistically identical measurments for evidence that they are the same. 
+
+Conclusions to be drawn 
+
+* Yes, WM is important, especially at the higher level
+* Are there span differences responsible for any predictive things?
+* How does this differ from gf intelligence 
+* Can you fit this at all in with process overlap theory? 
+
+
 * Most of this literature comes from pedagogy
 * All quotes about people should be able to do this
 * Long history of Aural Skills 
