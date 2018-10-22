@@ -7,9 +7,9 @@ Descriptive models assert what will happen in response to an event.
 For example, as discussed in the previous chapter, as the note density of a melody increases and the tonalness of a melody decreases, a melody may become harder to dictate.
 While the increase in note density is assumed to drive the decrease in dictation scores, merely stating that there is an established relationship between one variable and the other says nothing about the inner workings of this process.
 An explanatory model on the other hand not only describes what will happen, but additionally notes why and how this process occurs.
-For example, much of the work musical expectation demonstrates that as exposure to a musical style for an individual increases, so does that person's ability to to predict specific events with a given musical texture (PEARCE 2018).
-Not only does more exposure predict more accurate responses, but many of these models like HURON, MARGULIS, PEARCE derive their underlying theory about this behavior from the brain's ability to implicitly track statistical regularities in musical perception SAFFRAN OTHERPEARCE.
-The _how_ derives from the brain's ability to track statistical regularities in musical information in the environment and the _why_ derives from evolutionary demands in that organisms that are able to make more predictions about their environment are more likely to survive and pass on their genes HURON 2006. 
+For example, much of the work musical expectation demonstrates that as exposure to a musical style for an individual increases, so does that person's ability to to predict specific events with a given musical texture [@pearceStatisticalLearningProbabilistic2018].
+Not only does more exposure predict more accurate responses, but many of these models derive their underlying theory about this behavior from the brain's ability to implicitly track statistical regularities in musical perception [@saffranStatisticalLearningTone1999].
+The _how_ derives from the brain's ability to track statistical regularities in musical information in the environment and the _why_ derives from evolutionary demands in that organisms that are able to make more predictions about their environment are more likely to survive and pass on their genes [@huronSweetAnticipation2006]. 
 
 Wiggins writes that although there can be both explanatory and descriptive theories, depending on the level of abstraction, a theory may be explanatory at one level, yet descriptive at another.
 Using the mind-brain dichotomy, he uses the example of a theory of implicit expectations could be explanatory at the level of behavior as noted above, but says nothing about what is happening at the neuronal level.
@@ -20,9 +20,9 @@ The model says what happens over the time course of a melodic dictation-- specif
 In order to have a more complete understanding of melodic dictation, an explanatory model is needed. 
 
 In this chapter I introduce an explanatory model of melodic dictation. 
-The model is inspired by work from both computational musicology drawing on the work of Marcus Pearce's IDyOM CITATION, as well as cognitive psychology using the uniform memory mechanism inspired by Cowan's Embedded Process Model of working memory to explain the perceptual components.
+The model is inspired by work from both computational musicology drawing on the work of Marcus Pearce's IDyOM , as well as cognitive psychology using the uniform memory mechanism inspired by Cowan's Embedded Process Model of working memory to explain the perceptual components.
 In addition to quantifying each step, the model incorporates flexible parameters that could be adjusted in order to accommodate for individual differences, while still relying on a domain general process.
-By relying on cognitive mechanisms based in statistical learning, rather than a rule based system for music analysis (GTTM, NARMOUR, TEMPERLY) this model allows for the heterogeneity of musical experience amongst a diversity of music listeners.
+By relying on cognitive mechanisms based in statistical learning, rather than a rule based system for music analysis GTTM, NARMOUR 2, TEMPERLY this model allows for the heterogeneity of musical experience amongst a diversity of music listeners.
 
 * Name of model?
 
@@ -45,7 +45,7 @@ The exact details of the assumptions, parameters, and complete formula of the mo
 ## The Model 
 
 Below I describe my model's assumptions, parameters, as well as the steps taken when the model is run.
-After detailing the inner workings of each of the assumptions and the modules, described in roughly the order that they occur, I present the model as a formula using the terminonlogy described below.
+After detailing the inner workings of each of the assumptions and the modules, described in roughly the order that they occur, I present the model as a formula using the terminology described below.
 I discuss the issues of assumptions and representations as they arise in describing the model. 
 
 ### Model Representational Assumptions
@@ -53,7 +53,7 @@ I discuss the issues of assumptions and representations as they arise in describ
 In order to write a computer program that mirrors the melodic dictation process, how the mind perceives and thinks about musical information must be defined _a priori_.
 Before delving into questions of representation, this model assumes that the musical surface JACKENDOFF as represented by the notes via Western musical notation are salient and can be perceived as distinct perceptual phenomena.
 Although there is work that suggests that different cultures and levels of experience might not categorize melodic information universally MCDERMOTT, other work suggests that things like experiencing pitches as discrete, categorical phenomena is categorized as a statistical human universal SAVAGE.
-For the purposes of this model I assume that individuals do in fact percive the musical surface similarly to the written score. 
+For the purposes of this model I assume that individuals do in fact perceive the musical surface similarly to the written score. 
 
 Knowing that it is melodic information or melodic data that needs to be represented, the question then becomes what is the best way in which to represent it.
 This issue becomes increasingly complex when considering literature suggesting that the human mind represents musical information in a variety of different forms from PEARCE 2018 CITE THAT YOU HIGHLIGHTED.
@@ -66,32 +66,32 @@ How the model represents musical information is the first important parameter va
 
 ### Contents of the Prior Knowledge
 
-The Prior Knowledge consists of a corpus of digitially represented melodies taken to reflect the implicitly understood structural patterns in a musical style that the listener has been exposed to.
-The logic of representing an individual's prior knowledge follows the asssumptions of both the Statistical Learning Hypothesis (SLH) and the Probabilistic Prediction Hypothesis (PPH), both core theoretical assumptions of the Information Dynamic of Music (IDyOM) model of Marcus Pearce (PEARCE).
+The Prior Knowledge consists of a corpus of digitally represented melodies taken to reflect the implicitly understood structural patterns in a musical style that the listener has been exposed to.
+The logic of representing an individual's prior knowledge follows the assumptions of both the Statistical Learning Hypothesis (SLH) and the Probabilistic Prediction Hypothesis (PPH), both core theoretical assumptions of the Information Dynamic of Music (IDyOM) model of Marcus Pearce (PEARCE).
 Using a corpus of melodies to represent an individual's prior knowledge relies on the Statistical Learning Hypothesis which states:
 
 > musical enculturation is a process of implicit statistical learning in which listeners progressively acquire internal models of the statistical and structural regularities present in the musical styles to which they are exposed, over short (e.g., an individual piece of music) and long time scales (e.g., an entire lifetime of listening). p.2 (Pearce, 2018)
 
-The logic here is that the more an individual is exposed musical material, the more they will implicitly understand it which leads the corroborating probabilitic prediction hypothesis which states: 
+The logic here is that the more an individual is exposed musical material, the more they will implicitly understand it which leads the corroborating probabilistic prediction hypothesis which states: 
 
 > while listening to new music, an enculturated listener applies models learned via the SLH to generate probabilistic predictions that enable them to organize and process their mental representations of the music and generate culturally appropriate responses. p.2 Pearce (2018).
 
 Taken together and then quantified using Shannon information content, it then becomes possible using the IDyOM framework to have a quantifiable measure that reliably predicts the amount of perceived unexpectedness in a musical melody that can change pending on the musical corpus that the model is trained on.
-As a model IDyOM has been sucessful mirorring human behavior in melodies, harmony-- outperforming WHATEVER models of harmony--, and is also being developed to handle polyphonic materials. 
+As a model IDyOM has been successful mirroring human behavior in melodies, harmony-- outperforming WHATEVER models of harmony--, and is also being developed to handle polyphonic materials. 
 
 Stepping beyond the assumptions of IDyOM, the prior knowledge also needs to have a implicit/explicitly known parameter which indicates whether or not an pattern of music (single interval through n-gram pattern) is explicitly learned.
-This theshold can be set relative to the entire distribution of all n-grams in the corpus. 
+This threshold can be set relative to the entire distribution of all n-grams in the corpus. 
 Whether or not an n-gram is explicitly known is used in the _Transcription_ module. 
 
 ### Modeling Information Content 
 
-Having established that the models first established parameters to be decided are the representation of strings and the implicit/explicit threshold, the next important decision that has to be made is how decideds segmentation for the second stage of attentive memory.
+Having established that the models first established parameters to be decided are the representation of strings and the implicit/explicit threshold, the next important decision that has to be made is how decides segmentation for the second stage of selective attention.
 Although there has been a large amount of work on different ways to segment the musical surface using rule based methods JACKENDOFF NARMOUR 2 TEMPERLY MARGULIS, which rely on matching a music theorist's intuition with a set of descriptive rules somewhat like the boundary formation rules in _GTTM_, as, as noted by Pearce (2018) rule based models often fail at when applied to music outside the Western art music canon.
 Additionally, since melodic dictation is an active memory process, rather than a semi-passive process of listening this model needs to be able to quantify musical information that is both dependent on prior musical experience and allows a movable boundary for selective attention so that musical information that is memory can be actively maintained, whilst carrying out another cognitive process, that of notating the melody. 
 
 In order to create this metric, I rely on IDyOM's use of information content (Shannon) which quantifies the information content of melodies based on corpus of materials.
-For example, when trained against a corpus of melodies, THIS MELODY has IC (unitless thing) that is on top of notes.
-The advantage of operationalizing how an individual hears a melody like this is that melodies with lower information content, derived from an understanding of having more predictable patterns from the corpus, will allow for larger chunks to be put inside of the attentive memory buffer. 
+For example, when trained against a corpus of melodies, THIS MELODY has IC (unit-less thing) that is on top of notes.
+The advantage of operationalizing how an individual hears a melody like this is that melodies with lower information content, derived from an understanding of having more predictable patterns from the corpus, will allow for larger chunks to be put inside of the selective attention buffer. 
 
 * FIGURE HERE
 
@@ -128,17 +128,15 @@ The model here would register that one iteration of the function has been run an
 After recording this history, the process would happen again starting at either the next note from where the model left off, the note in the entire string with the lowest information content, or n-gram left in the melody with that is most represented in the corpus.
 This parameter is defined before the model is run and the question of dictation re-entry certainly warrants further research and investigation. 
 
-xxxxxxxxxxxxxxxxxxxxxxxxx
-
-This type of pattern search also dependent on the way that the prior knowledge is represented.
-In the example here, both interval and rhythm are represented with each token in the string.
+This type of pattern search is also dependent on the way that the prior knowledge is represented.
+In the example here, both pitch and rhythmic information are represented in the string.
 Since there is probably a very low likelihood of finding an exact match for every n-gram with both pitch and rhythm, this pattern search can happen again with both rhythms and pitch information queried separately.
-If not exact pitch-temporal matches are found and the search is run again on either the pitch or rhythmic information separately, this would be computationally akin to Karpinski's proto-notation that he suggests students use in learning how to take melodic dictation (KARPINKSI CHAPTER 3).
-With this feature of the model incorporated, it would be possible to also generate evidence in favor or disfavor of attempting to dictate elements of the melody separately such as doing rhythm first, then pitch information or vice versa.
-Either way, having this as a second level default of the model seems to match with the intuitions strategies that someone dictating a melody might use.
+If not found, exact pitch-temporal matches are found and the search is run again on either the pitch or rhythmic information separately; this would be computationally akin to Karpinski's proto-notation that he suggests students use in learning how to take melodic dictation (KARPINKSI CHAPTER 3).
+This feature of the model would predict that more efficient dictations would happen when pitch and interval information is dictated simultaneously.
+Running the model prioritizing the secondary search with either pitch or rhythmic information prioritized would provide new insights into practical applications of dictation strategies. 
+Using this separate search feature as an option of the model seems to match with the intuitions strategies that someone dictating a melody might use.
 
-
-### Loop Back IN
+### Dictation Re-Entry
 
 Upon the successful pattern match of a string, the attentional buffer and transcribe-search function would need too then be run again.
 As noted above, re-entry in the melody could be a highly subjective point of discussion.
@@ -151,13 +149,13 @@ This might be because this part of the melody is most active in memory due to a 
 
 ### Completion 
 
-Given the recursive nature of this process, the model if all 2-grams are explicitly represented in the prior knowledge should be transcribed.
+Given the recursive nature of this process, if all 2-grams are explicitly represented in the prior knowledge then the target melody should be transcribed.
 If only represented using such a small chunk, the model will have to loop over the melody many times, thus indicating that the transcriber had a high degree of difficulty dictating the melody.
 If there is a gap in explicit knowledge in the prior knowledge, only patches of the melody will be recorded and the melody will not be recorded in its entirety.
 An easier transcription will result in less iterations of the model with larger chunks.
 Though the current instantiation of the model does not incorporate how multiple hearings might change how a melody is dictated, one could constrain the process to only allow a certain number of iterations to reflect this.
 Of course as a new melody is learned it is slowly being introduced into long term memory and could be completely be capable of being represented in long term memory without being explicitly notated at the end of a dictation with time running out and thus not possible to be completed.
-This of course then would be imposing some sort of experimental constraint on the process and since this is meant to be a cognitive computational model of melodic dictation, this complicates things.
+This of course then would be imposing some sort of experimental constraint on the process and since this is meant to be a cognitive computational model of melodic dictation this caveat would complicate the model.
 Future research could be done to optimize the choices that the model makes in order to satisfy whatever constraints are imposed and could be an interesting avenue of future research, but are beyond the initial goals of the model.
 
 The model then outputs each n-gram transcribed and can be counted as a series with less attempts mapping to an easier transcription. 
@@ -166,128 +164,47 @@ It first creates a linear mapping of attempts to dictate with difficulty of the 
 It relies on a distinction between explicit and implicit statistical knowledge.
 It is based on the embedded process model from working memory and attention, so is part of a larger generative model, giving it a bit more credibility that this _could_ be how melodic dictation works. 
 
-Aligns with intuitions that 
-People who know more melodies will be better (singer phenomena) 
-People will try for bigger chunks first, then go to smaller ones
-Atomistic transcription can happen but is inefficient 
-People with higher chunking ability will do better
-IC is helpful proxy for this in line with IDyOM literature 
-Relative pitch is where it’s at for things like this
+## Model 
 
-Having now gone through the model verbally and notating the parameters that need to be set and how things are then represented, I will now define the model formally. 
+Below 
 
-## MoDiMe 
+### Definitions 
 
-* Formal Model here
+1. Let the _Prior Knowledge_ be represented by the corpus $M$ where each melody, $m$, is symbolic string representing the all possible n-grams of the melody.
+2. Calculate the information content of each $m$ using IDyOM.
+3. Define $t$ as the threshold set within $M$ as the threshold which an n-gram needs to be represented to be explicitly known.
+4. Let $t$ be a new target melody not represented in $M$.
+5. Let $WMC$ a numeric value representing the maximum information content that can be held in _Selective Attention_.
+6. Define $LISTEN$ as a function that sequentially reads the string $t$
+7. Define $pitch-search$ as pattern matching search of $M$ exclusively on pitch information.
+8. Define $rhythm-search$ as pattern matching search of $M$ exclusively on rhythmic information.
 
+### Listening 
 
-
-## Example
-
-Having now both described the model and defined it formally, I now can run through a brief example of how the model might work in practice by showing a melody to be dictated, a the corpus of melodies that it represents, and three iterations of model that exhaust each branch of the model.
-
-### Example Corpus
-
-* 12 Melodies on on page and their representation 
-* Also show rhythmic and pitch abstractions
-* Show their density histograms as a corpus 
+1. $LISTEN$ to $t$ and calculate the cumulative information content of $t$ until it exceeds $WMC$.
+2. Define truncated string as $exract$. 
+3. Move $extract$ to Selective Attention.
+4. Define $Re-entry$ as function that executes $PLAY$ at pre-defined location in string (i.e. linear, low IC n-gram)
 
 
-* Target Melody
+### Transcribe Function
 
-* Define WMC low for example
-* Linear re-entry 
+1. Define $Transcribe$ as : search $M$ for an exact pattern match of $extract$ against n-grams where $explicit == TRUE$.
+2. If match is found, $extract$ is $Notated$, execute $Re-entry$
+3. If no match is found, truncate 1 token from $extract$ and perform search again. Perform this step recursively.
+4. If no match is found, execute $pitch-search$ OR $rhythm search$.
+5. Upon completion of $pitch-search$ OR $rhythm search$, run other search to complete information.
+6. IF no patterns found with $Transcribe$ OR  $pitch-search$ OR $rhythm search$, execute $Re-entry$.
 
-* First run through take n- gram chunk, no explicit pattern match, drop 1 gram, yes match, move on
-* Next no exact pattern match on linear re-entry, query pitch (yes, proto) query rhythm (yes,rhythm), both transcribed
-* Third iteration, full pattern match
-* Not complete, but at this point have X amount of melody transcribed with this history.
-* Tedious to get the exact thing, go to actual example
+* Will represent it as a flowchart with definitions of terms and functions at top! 
 
-* CRAZY THAT YOU COULD USE THIS TO WORK BACKWARDS HOLY SHIT BAYES YOU ARE SWEET!! 
+## Conclusions
 
-### Actual Data
-
-* Let's now say that we have set of XYZ melodies as targets, the whole semester 1's melodies the prior knowledge, what does the model then say.
-* This basically mirrors week 1 of semester 2 of freshman year
-* Plot of correlation of model predicts, correlation of actual scores
-* Can re-do this now with only pitch scores (or run it with just pitch!)
-* Can re-do this now with only rhythm score 
-
-And here is some commentary 
+In this chapter, I have presented an explanatory, computational model of melodic dictation.
+The model combines work from computational musicology and work from cognitive psychology.
+In addition to being a complete model that explicates every step of the dictation process, the model seems to match phenomenological intuitions as to the process of melodic dictation.
+Given the current state of the model, it makes predictions about the dictation process and can eventually be implemented and tested against human behavioral data to provide evidence in support of its verisimilitude.
+Most importantly from a pedagogical standpoint, the model gives exact language as to how and why melodic dictation works, which can serve as a valuable pedagogical and research contribution. 
 
 
-## Future Directions
 
-Now with a formal model of melodic dictation, what is now possible?
-
-* Importantly have formal model of what might be phenomeonlogilly way people do melodic dictation.
-
-
-* Talk explicitly about representation
-* Talk about what happens when
-* Link to sight singing
-* Testable hypotheses?
-* What's the deal with AP 
-* Problems with how to define prior
-* Future Directions
-* How this all relates to helping teach 
-* aka explain the model, thus explain learning, perception, process, representation, if one rep performs better than another, atomistic singing 
-
--------------------------------
-
-## Advantages Of A Computational Model (Optional)
-
-It is important to note that this model is not perfect in that it deterministically mirrors the exact cognitive process someone would use to take melodic dictation.
-It instead quantifies each step of the process and provides a detailed account each step in a fully realized and implementable model.
-The benefits of creating a computational model of melodic dictation are numerous.
-First, as stated above, a computational model acts as an explanatory model that details the inner working of a process.
-Second, by quantifying each step of the process, a computational model forces the researcher to specify key theoretical issues that need to be addressed and operationalized.
-In this case, there is the issue of representation of musical material, definitions of working memory, as well as what does it mean for something to have been learned. 
-Thirdly, in creating a computational model you provide theories with a concrete version that can be more easier falsified.
-^[The quintessential example of the importance of this comes from an anecdote in evolutionary psychology claiming that in heterosexual populations, men engage in more casual sexual encounters than women due to their promiscuous proclivities.
-This theory has appeared in textbooks, but as noted by AUTHOR, while might be good as a verbal model in that it plays to our preconceived notions about male sexuality, implemented as a computational model, is mathematically impossible.]
-Fourthly, creating a computational model rules defines the universe of a possible outcomes that a theory posits.
-As shown in work done on the seemingly simple Baddeley and Hitch model of working memory, AUTHOR demonstrated that with XXX parameter values, the YEAR model of working memory actually allows for 15X different permutations of the model.
-With such vast possibilities, it becomes much harder to speak about _the_ model as a single entity.
-Finally, and most importantly from a pedagogical framework, by detailing the exact steps of the process, a computational model provides a theory of melodic dictation in which each element of the process is able to be discussed and gives exact framework for which it can be critiqued.
-Creating a computational model is the next step in furthering research on aural skills pedagogy.
-
- 
-
-
-Much work has been done on this history of musical representation WIGGINS ET AL 1993 has been exhaustive, even though it has only been on for about 30 years but regardless of what exact representation is chosen, it generally can be conceived of as some sort of symbol string Clifford et al., 2005.
-How a string is represented carries with it important assumptions about a listener's perception and also a teacher's pedagogy.
-Take for example the many ways in which someone could represent the ever popular Twinkle, Twinkle Little Star as in Figure 1. 
-
-* TWINNLE IMAGE HERE in C and F#
-
-Representing the string of symbols as in Figure 2A using THIS NOTATION SYSTEM would suggest that listeners perception and cognition of the notes mirrors that of fixed _do_ solfege.
-The only symbols in the string, or tokens, represented carry with it the name of the note along with its absolute range.
-When compared to string 2B-- the melody transposed a tritone up-- a computer would find no symbol overlap between the two strings and might declare the two as completely dissimilar.
-Additionally, neither string contains with it any rhythmic information.
-Reproduced Figure 2C and Figure 2D, we see the same two strings now with additionally temporal information.
-
-* FIGURE 2 DIFFERENT TYPES OF REPRESENTATION
-* C4 C4 G4 G4 A4 A4 G4
-* F#4 F#4 C#5 C#5 D#6 D#6 C#6
-
-As stated above, this mapping assumes fixed pitch representation of musical information.
-This is at odds to intuition in that most humans would categorize the information in strings 2A and 2B as containing the same musical content.
-
-In order to capture that aspect of human perception and cognition, one might want to represent this string of musical information to the computer as a list of directional intervals (Math citation) which brings with it interval information not present (although maybe implicitly imposed!) in the previous examples.
-
-* C U +P5 U +M2 U -M2
-
-This representation then captures what might be considered phenomena closer to human perception, but again is devoid of any sort of scale degree functionality or qualia that might be involved in listener's perception.
-Including this assumption the string and duration values as it might be a Humdrum spine might be represented as:
-
-* DO DO ^SOL SOL ^LA LA >SOL (with rhythm)
-
-Each string represents what might be considered the same perceptual phenomena, but when quantified, one system needs to be explicitly chosen as how information is represented will change model output.
-For example if it is assumed that an individual's prior musical information can only be encoded as the first _fixed do_ example, then each of the 12 possible ascending perfect fifths would have to be learned as separate phenomena to be represented in as prior knowledge in this model.
-This point also brings up the importance of noting that many of these systems could be at play here and just because one representation might not make sense in one implementation of a model does not make it null and void for other applications in pedagogical settings.
-
-Given what was stated above, there are many was in which to digitally represent musical information.
-That said, one advantage in using the pre-exisiting IDyOM model as the backbone for this model is that it is capable of representing many types of musical representation simultaneously.
-Not only is pitch information represented, but using different WINDOWS, it then becomes possible to encode these multitude of parameter simultaneously (LIST THEM HERE?) each as their own token, which then can be used to model information content. 

@@ -563,3 +563,131 @@ I think this covers everything in the decision making process and each step of t
 
 
 
+--------------------------------------------------------- 
+
+Aligns with intuitions that 
+People who know more melodies will be better (singer phenomena) 
+People will try for bigger chunks first, then go to smaller ones
+Atomistic transcription can happen but is inefficient 
+People with higher chunking ability will do better
+IC is helpful proxy for this in line with IDyOM literature 
+Relative pitch is where it’s at for things like this
+
+Having now gone through the model verbally and notating the parameters that need to be set and how things are then represented, I will now define the model formally. 
+
+## MoDiMe 
+
+* Formal Model here
+
+
+
+## Example
+
+Having now both described the model and defined it formally, I now can run through a brief example of how the model might work in practice by showing a melody to be dictated, a the corpus of melodies that it represents, and three iterations of model that exhaust each branch of the model.
+
+### Example Corpus
+
+* 12 Melodies on on page and their representation 
+* Also show rhythmic and pitch abstractions
+* Show their density histograms as a corpus 
+
+
+* Target Melody
+
+* Define WMC low for example
+* Linear re-entry 
+
+* First run through take n- gram chunk, no explicit pattern match, drop 1 gram, yes match, move on
+* Next no exact pattern match on linear re-entry, query pitch (yes, proto) query rhythm (yes,rhythm), both transcribed
+* Third iteration, full pattern match
+* Not complete, but at this point have X amount of melody transcribed with this history.
+* Tedious to get the exact thing, go to actual example
+
+* CRAZY THAT YOU COULD USE THIS TO WORK BACKWARDS HOLY SHIT BAYES YOU ARE SWEET!! 
+
+### Actual Data
+
+* Let's now say that we have set of XYZ melodies as targets, the whole semester 1's melodies the prior knowledge, what does the model then say.
+* This basically mirrors week 1 of semester 2 of freshman year
+* Plot of correlation of model predicts, correlation of actual scores
+* Can re-do this now with only pitch scores (or run it with just pitch!)
+* Can re-do this now with only rhythm score 
+
+And here is some commentary 
+
+
+## Future Directions
+
+Now with a formal model of melodic dictation, what is now possible?
+
+* Importantly have formal model of what might be phenomeonlogilly way people do melodic dictation.
+
+
+* Talk explicitly about representation
+* Talk about what happens when
+* Link to sight singing
+* Testable hypotheses?
+* What's the deal with AP 
+* Problems with how to define prior
+* Future Directions
+* How this all relates to helping teach 
+* aka explain the model, thus explain learning, perception, process, representation, if one rep performs better than another, atomistic singing 
+
+-------------------------------
+
+## Advantages Of A Computational Model (Optional)
+
+It is important to note that this model is not perfect in that it deterministically mirrors the exact cognitive process someone would use to take melodic dictation.
+It instead quantifies each step of the process and provides a detailed account each step in a fully realized and implementable model.
+The benefits of creating a computational model of melodic dictation are numerous.
+First, as stated above, a computational model acts as an explanatory model that details the inner working of a process.
+Second, by quantifying each step of the process, a computational model forces the researcher to specify key theoretical issues that need to be addressed and operationalized.
+In this case, there is the issue of representation of musical material, definitions of working memory, as well as what does it mean for something to have been learned. 
+Thirdly, in creating a computational model you provide theories with a concrete version that can be more easier falsified.
+^[The quintessential example of the importance of this comes from an anecdote in evolutionary psychology claiming that in heterosexual populations, men engage in more casual sexual encounters than women due to their promiscuous proclivities.
+This theory has appeared in textbooks, but as noted by AUTHOR, while might be good as a verbal model in that it plays to our preconceived notions about male sexuality, implemented as a computational model, is mathematically impossible.]
+Fourthly, creating a computational model rules defines the universe of a possible outcomes that a theory posits.
+As shown in work done on the seemingly simple Baddeley and Hitch model of working memory, AUTHOR demonstrated that with XXX parameter values, the YEAR model of working memory actually allows for 15X different permutations of the model.
+With such vast possibilities, it becomes much harder to speak about _the_ model as a single entity.
+Finally, and most importantly from a pedagogical framework, by detailing the exact steps of the process, a computational model provides a theory of melodic dictation in which each element of the process is able to be discussed and gives exact framework for which it can be critiqued.
+Creating a computational model is the next step in furthering research on aural skills pedagogy.
+
+ 
+
+
+Much work has been done on this history of musical representation WIGGINS ET AL 1993 has been exhaustive, even though it has only been on for about 30 years but regardless of what exact representation is chosen, it generally can be conceived of as some sort of symbol string Clifford et al., 2005.
+How a string is represented carries with it important assumptions about a listener's perception and also a teacher's pedagogy.
+Take for example the many ways in which someone could represent the ever popular Twinkle, Twinkle Little Star as in Figure 1. 
+
+* TWINNLE IMAGE HERE in C and F#
+
+Representing the string of symbols as in Figure 2A using THIS NOTATION SYSTEM would suggest that listeners perception and cognition of the notes mirrors that of fixed _do_ solfege.
+The only symbols in the string, or tokens, represented carry with it the name of the note along with its absolute range.
+When compared to string 2B-- the melody transposed a tritone up-- a computer would find no symbol overlap between the two strings and might declare the two as completely dissimilar.
+Additionally, neither string contains with it any rhythmic information.
+Reproduced Figure 2C and Figure 2D, we see the same two strings now with additionally temporal information.
+
+* FIGURE 2 DIFFERENT TYPES OF REPRESENTATION
+* C4 C4 G4 G4 A4 A4 G4
+* F#4 F#4 C#5 C#5 D#6 D#6 C#6
+
+As stated above, this mapping assumes fixed pitch representation of musical information.
+This is at odds to intuition in that most humans would categorize the information in strings 2A and 2B as containing the same musical content.
+
+In order to capture that aspect of human perception and cognition, one might want to represent this string of musical information to the computer as a list of directional intervals (Math citation) which brings with it interval information not present (although maybe implicitly imposed!) in the previous examples.
+
+* C U +P5 U +M2 U -M2
+
+This representation then captures what might be considered phenomena closer to human perception, but again is devoid of any sort of scale degree functionality or qualia that might be involved in listener's perception.
+Including this assumption the string and duration values as it might be a Humdrum spine might be represented as:
+
+* DO DO ^SOL SOL ^LA LA >SOL (with rhythm)
+
+Each string represents what might be considered the same perceptual phenomena, but when quantified, one system needs to be explicitly chosen as how information is represented will change model output.
+For example if it is assumed that an individual's prior musical information can only be encoded as the first _fixed do_ example, then each of the 12 possible ascending perfect fifths would have to be learned as separate phenomena to be represented in as prior knowledge in this model.
+This point also brings up the importance of noting that many of these systems could be at play here and just because one representation might not make sense in one implementation of a model does not make it null and void for other applications in pedagogical settings.
+
+Given what was stated above, there are many was in which to digitally represent musical information.
+That said, one advantage in using the pre-exisiting IDyOM model as the backbone for this model is that it is capable of representing many types of musical representation simultaneously.
+Not only is pitch information represented, but using different WINDOWS, it then becomes possible to encode these multitude of parameter simultaneously (LIST THEM HERE?) each as their own token, which then can be used to model information content. 
+

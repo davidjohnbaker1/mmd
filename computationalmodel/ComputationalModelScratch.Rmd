@@ -57,4 +57,92 @@ The prior knowledge is represented by a corpus of **n-gram** transitions in the 
 
 ## Psuedo Code
 
+```{r}
+#======================================================================================================
+# CASIMIR 
+#--------------------------------------------------
+# Computational
+# Algorithm
+# for
+# Systematc
+# Information content
+# Melodic
+# Ictation 
+# R 
+
+
+# Define Inputs 
+
+Corpus <- read.corpus() # Corpus with melodies represented as symbol strings with calculated information content, 
+                        # Contains $complexRepresentation (IDyOM)
+                        # Contains $pitch (exclusive pitch information)
+                        # Contains $rhythm (exclusive rhythm content)
+
+threshold.explicit <- as.integer()# Threshold that determines frequency n-gram needs to be to be considered explicitly known
+wmc.capacity <- as.integer()# Working Memory Capacity limit of Selective Attention measured in information content 
+target.melody <- read.melody() # Melody as string symbol with caculated information content, complex representation 
+answer <- NULL # Empty object where each annotated n-gram will be put 
+
+selective.attention <- 
+
+# Define Functions
+reentry <- function(target.melody){
+  listen(target.melody)==mark 
+  search() 
+}
+  
+search <- function(selective.attention){
+  
+  if(selective.attention[Corpus$complexRepresentation,]==TRUE){
+    answer <- notate(selective.attention) # Melody segment is sucessfully notated, 
+    counter <- add.1.to.counter() # Add on iteration to dictation counter
+    mark <- mark.token.point.melody()
+
+      }
+  else(pop(selective.attention)){
+    search()
+  }
+  else(selective.attention[Corpus$pitch,]==TRUE){
+    answer <- notate(selective.attention)
+    counter <- add.1.to.counter()
+        mark <- mark.token.point.melody()
+
+  }
+  else(pop(selective.attention)){
+    search()
+  }
+  elselse(selective.attention[Corpus$rhythm,]==TRUE){
+    answer <- notate(selective.attention)
+    counter <- add.1.to.counter()
+    mark <- mark.token.point.melody()
+  }
+  else(pop(selective.attention)){
+    search()
+  }
+  else(reentry)
+}
+  
+listen <- function(target.melody){
+  while(target.melody <= wmc.capacity){
+    selective.attention <- read.notes(target.melody)
+  }
+}
+
+
+listen(target.melody)
+
+search 
+extract
+buffer
+reentry 
+
+
+
+
+
+
+
+```
+
+
 ## Implementation
