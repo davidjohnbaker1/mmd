@@ -103,8 +103,8 @@ For example, on page 103, Karpinski suggest that two listenings should be adequa
 This process might generalize to many tonal melodies, but presumably different strategies in recognition would be involved in dictating the two melodies of equal length shown in Figure 2 and 3.
 
 ```{r, echo=FALSE, fig.cap="Melodies of Equal Length",fig.align='center', dpi=50}
-knitr::include_graphics("img/musicalexamples/MMD_Figure2-1.png.png")
-knitr::include_graphics("img/musicalexamples/MMD_Figure3-1.png.png")
+knitr::include_graphics("img/musicalexamples/MMD_Figure2-1.png")
+knitr::include_graphics("img/musicalexamples/MMD_Figure3-1.png")
 
 ```
 

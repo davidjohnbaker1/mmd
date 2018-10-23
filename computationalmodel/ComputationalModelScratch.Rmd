@@ -146,3 +146,33 @@ reentry
 
 
 ## Implementation
+
+
+
+1. Let the _Prior Knowledge_ be represented by the corpus $M$ where each melody, $m$, is symbolic string representing the all possible n-grams of the melody.
+2. Calculate the information content of each $m$ using IDyOM.
+3. Define $t$ as the threshold set within $M$ as the threshold which an n-gram needs to be represented to be explicitly known.
+4. Let $t$ be a new target melody not represented in $M$.
+5. Let $WMC$ a numeric value representing the maximum information content that can be held in _Selective Attention_.
+6. Define $LISTEN$ as a function that sequentially reads the string $t$
+7. Define $pitch-search$ as pattern matching search of $M$ exclusively on pitch information.
+8. Define $rhythm-search$ as pattern matching search of $M$ exclusively on rhythmic information.
+
+### Listening 
+
+1. $LISTEN$ to $t$ and calculate the cumulative information content of $t$ until it exceeds $WMC$.
+2. Define truncated string as $exract$. 
+3. Move $extract$ to Selective Attention.
+4. Define $Re-entry$ as function that executes $PLAY$ at pre-defined location in string (i.e. linear, low IC n-gram)
+
+
+### Transcribe Function
+
+1. Define $Transcribe$ as : search $M$ for an exact pattern match of $extract$ against n-grams where $explicit == TRUE$.
+2. If match is found, $extract$ is $Notated$, execute $Re-entry$
+3. If no match is found, truncate 1 token from $extract$ and perform search again. Perform this step recursively.
+4. If no match is found, execute $pitch-search$ OR $rhythm search$.
+5. Upon completion of $pitch-search$ OR $rhythm search$, run other search to complete information.
+6. IF no patterns found with $Transcribe$ OR  $pitch-search$ OR $rhythm search$, execute $Re-entry$.
+
+* Will represent it as a flowchart with definitions of terms and functions at top! 

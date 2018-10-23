@@ -25,7 +25,7 @@
 <meta name="author" content="David John Baker">
 
 
-<meta name="date" content="2018-10-22">
+<meta name="date" content="2018-10-23">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -170,9 +170,9 @@
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="computational-model.html"><a href="computational-model.html"><i class="fa fa-check"></i><b>7</b> Computational Model</a><ul>
-<li class="chapter" data-level="7.1" data-path="computational-model.html"><a href="computational-model.html#whats-a-model"><i class="fa fa-check"></i><b>7.1</b> What’s a model?</a></li>
-<li class="chapter" data-level="7.2" data-path="computational-model.html"><a href="computational-model.html#model-introduction"><i class="fa fa-check"></i><b>7.2</b> Model Introduction</a></li>
-<li class="chapter" data-level="7.3" data-path="computational-model.html"><a href="computational-model.html#the-model"><i class="fa fa-check"></i><b>7.3</b> The Model</a><ul>
+<li class="chapter" data-level="7.1" data-path="computational-model.html"><a href="computational-model.html#levels-of-abstraction"><i class="fa fa-check"></i><b>7.1</b> Levels of Abstraction</a></li>
+<li class="chapter" data-level="7.2" data-path="computational-model.html"><a href="computational-model.html#model-overview"><i class="fa fa-check"></i><b>7.2</b> Model Overview</a></li>
+<li class="chapter" data-level="7.3" data-path="computational-model.html"><a href="computational-model.html#verbal-model"><i class="fa fa-check"></i><b>7.3</b> Verbal Model</a><ul>
 <li class="chapter" data-level="7.3.1" data-path="computational-model.html"><a href="computational-model.html#model-representational-assumptions"><i class="fa fa-check"></i><b>7.3.1</b> Model Representational Assumptions</a></li>
 <li class="chapter" data-level="7.3.2" data-path="computational-model.html"><a href="computational-model.html#contents-of-the-prior-knowledge"><i class="fa fa-check"></i><b>7.3.2</b> Contents of the Prior Knowledge</a></li>
 <li class="chapter" data-level="7.3.3" data-path="computational-model.html"><a href="computational-model.html#modeling-information-content"><i class="fa fa-check"></i><b>7.3.3</b> Modeling Information Content</a></li>
@@ -180,11 +180,11 @@
 <li class="chapter" data-level="7.3.5" data-path="computational-model.html"><a href="computational-model.html#pattern-matching"><i class="fa fa-check"></i><b>7.3.5</b> Pattern Matching</a></li>
 <li class="chapter" data-level="7.3.6" data-path="computational-model.html"><a href="computational-model.html#dictation-re-entry"><i class="fa fa-check"></i><b>7.3.6</b> Dictation Re-Entry</a></li>
 <li class="chapter" data-level="7.3.7" data-path="computational-model.html"><a href="computational-model.html#completion"><i class="fa fa-check"></i><b>7.3.7</b> Completion</a></li>
+<li class="chapter" data-level="7.3.8" data-path="computational-model.html"><a href="computational-model.html#model-output"><i class="fa fa-check"></i><b>7.3.8</b> Model Output</a></li>
 </ul></li>
-<li class="chapter" data-level="7.4" data-path="computational-model.html"><a href="computational-model.html#model"><i class="fa fa-check"></i><b>7.4</b> Model</a><ul>
-<li class="chapter" data-level="7.4.1" data-path="computational-model.html"><a href="computational-model.html#definitions"><i class="fa fa-check"></i><b>7.4.1</b> Definitions</a></li>
-<li class="chapter" data-level="7.4.2" data-path="computational-model.html"><a href="computational-model.html#listening"><i class="fa fa-check"></i><b>7.4.2</b> Listening</a></li>
-<li class="chapter" data-level="7.4.3" data-path="computational-model.html"><a href="computational-model.html#transcribe-function"><i class="fa fa-check"></i><b>7.4.3</b> Transcribe Function</a></li>
+<li class="chapter" data-level="7.4" data-path="computational-model.html"><a href="computational-model.html#formal-model"><i class="fa fa-check"></i><b>7.4</b> Formal Model</a><ul>
+<li class="chapter" data-level="7.4.1" data-path="computational-model.html"><a href="computational-model.html#computational-model-1"><i class="fa fa-check"></i><b>7.4.1</b> Computational Model</a></li>
+<li class="chapter" data-level="7.4.2" data-path="computational-model.html"><a href="computational-model.html#example"><i class="fa fa-check"></i><b>7.4.2</b> Example</a></li>
 </ul></li>
 <li class="chapter" data-level="7.5" data-path="computational-model.html"><a href="computational-model.html#conclusions-1"><i class="fa fa-check"></i><b>7.5</b> Conclusions</a></li>
 </ul></li>
@@ -215,20 +215,20 @@
             <section class="normal" id="section-">
 <div id="computational-model" class="section level1">
 <h1><span class="header-section-number">Chapter 7</span> Computational Model</h1>
-<div id="whats-a-model" class="section level2">
-<h2><span class="header-section-number">7.1</span> What’s a model?</h2>
-<p>In his 2007 article <em>Models of Music Similarity</em> <span class="citation">(Wiggins <a href="#ref-wigginsModelsMusicalSimilarity2007">2007</a>)</span> Geraint Wiggins distinguishes between <em>descriptive</em> and <em>explanatory</em> models in describing the modeling of human behavior.
+<div id="levels-of-abstraction" class="section level2">
+<h2><span class="header-section-number">7.1</span> Levels of Abstraction</h2>
+<p>In his 2007 article <em>Models of Music Similarity</em>, <span class="citation">(Wiggins <a href="#ref-wigginsModelsMusicalSimilarity2007">2007</a>)</span> Geraint Wiggins distinguishes between <em>descriptive</em> and <em>explanatory</em> models in describing the modeling of human behavior.
 Descriptive models assert what will happen in response to an event.
 For example, as discussed in the previous chapter, as the note density of a melody increases and the tonalness of a melody decreases, a melody may become harder to dictate.
 While the increase in note density is assumed to drive the decrease in dictation scores, merely stating that there is an established relationship between one variable and the other says nothing about the inner workings of this process.
 An explanatory model on the other hand not only describes what will happen, but additionally notes why and how this process occurs.
-For example, much of the work musical expectation demonstrates that as exposure to a musical style for an individual increases, so does that person’s ability to to predict specific events with a given musical texture <span class="citation">(M. T. Pearce <a href="#ref-pearceStatisticalLearningProbabilistic2018">2018</a><a href="#ref-pearceStatisticalLearningProbabilistic2018">a</a>)</span>.
-Not only does more exposure predict more accurate responses, but many of these models derive their underlying theory about this behavior from the brain’s ability to implicitly track statistical regularities in musical perception <span class="citation">(Saffran et al. <a href="#ref-saffranStatisticalLearningTone1999">1999</a>)</span>.
+For example, much of the work musical expectation demonstrates that as exposure to a musical style for an individual increases, so does that person’s ability to to predict specific events with a given musical texture <span class="citation">(<span class="citeproc-not-found" data-reference-id="pearceStatisticalLearningProbabilistic2018"><strong>???</strong></span>)</span>.
+Not only does more exposure predict more accurate responses, but many of these models derive their underlying theory about this behavior from the brain’s ability to implicitly track statistical regularities in musical perception <span class="citation">(Saffran et al. <a href="#ref-saffranStatisticalLearningTone1999">1999</a>; Margulis <a href="#ref-margulisRepeatHowMusic2014">2014</a>)</span>.
 The <em>how</em> derives from the brain’s ability to track statistical regularities in musical information in the environment and the <em>why</em> derives from evolutionary demands in that organisms that are able to make more predictions about their environment are more likely to survive and pass on their genes <span class="citation">(Huron <a href="#ref-huronSweetAnticipation2006">2006</a>)</span>.</p>
 <p>Wiggins writes that although there can be both explanatory and descriptive theories, depending on the level of abstraction, a theory may be explanatory at one level, yet descriptive at another.
-Using the mind-brain dichotomy, he uses the example of a theory of implicit expectations could be explanatory at the level of behavior as noted above, but says nothing about what is happening at the neuronal level.
+Using the mind-brain dichotomy, he asserts that the example of a theory of implicit expectations could be explanatory at the level of behavior as noted above, but says nothing about what is happening at the neuronal level.
 Both descriptive and explanatory theories are needed in that descriptive theories are used to test explanatory theories, and by stringing together different layers of abstraction, we can arrive at a better understanding of how the world works.</p>
-<p>Returning to melodic dictation, under Wiggins’ framework, the Karpinski model of melodic dictation <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>, <a href="#ref-karpinskiModelMusicPerception1990">1990</a>)</span> would qualify as a descriptive model.
+<p>Returning to melodic dictation, under Wiggins’ framework, the Karpinski model of melodic dictation <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>, <a href="#ref-karpinskiModelMusicPerception1990">1990</a>)</span> qualifies as a descriptive model.
 The model says what happens over the time course of a melodic dictation– specifying four discrete stages discussed in earlier chapters– but does not explicitly state <em>how</em> or <em>why</em> this process happens.
 In order to have a more complete understanding of melodic dictation, an explanatory model is needed.</p>
 <p>In this chapter I introduce an explanatory model of melodic dictation.
@@ -236,8 +236,8 @@ The model is inspired by work from both computational musicology drawing on the 
 In addition to quantifying each step, the model incorporates flexible parameters that could be adjusted in order to accommodate for individual differences, while still relying on a domain general process.
 By relying on cognitive mechanisms based in statistical learning, rather than a rule based system for music analysis <span class="citation">(Lerdahl and Jackendoff <a href="#ref-lerdahlGenerativeTheoryTonal1986">1986</a>; Narmour <a href="#ref-narmourAnalysisCognitionBasic1990">1990</a>, <a href="#ref-narmourAnalysisCognitionMelodic1992">1992</a>; Temperley <a href="#ref-temperleyCognitionBasicMusical2004">2004</a>)</span> this model allows for the heterogeneity of musical experience amongst a diversity of music listeners.</p>
 </div>
-<div id="model-introduction" class="section level2">
-<h2><span class="header-section-number">7.2</span> Model Introduction</h2>
+<div id="model-overview" class="section level2">
+<h2><span class="header-section-number">7.2</span> Model Overview</h2>
 <p>The model consists of three main modules, each with its own set of parameters:</p>
 <ol style="list-style-type: decimal">
 <li>Prior Knowledge</li>
@@ -245,68 +245,71 @@ By relying on cognitive mechanisms based in statistical learning, rather than a 
 <li>Transcription</li>
 </ol>
 <p>Inspired by Bayesian computational modeling, the <em>Prior Knowledge</em> module reflects the previous knowledge an individual brings to the melodic dictation.
-The <em>Selective Attention</em>– somewhat akin to Karpinski’s extractive listening<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a>– segments incoming musical information by using the window of attention as conceptualized as the limits of working memory capacity as a sensory bottleneck to constrict the size of musical chunk that an individual were to transcribe.
+The <em>Selective Attention</em>– somewhat akin to Karpinski’s extractive listening– segments incoming musical information by using the window of attention as conceptualized as the limits of working memory capacity as a sensory bottleneck to constrict the size of musical chunk that an individual could to transcribe.
 Once musical material is in the focus of attention, the <em>Transcription</em> function pattern matches against the <em>Prior Knowledge’s</em> corpus of information in order to find a match of explicitly known musical information.
 The <em>Transcription</em> function will recursively truncate what musical information is in <em>Selective Attention</em> if no match is found.
 This process reflects, but does not actually mirror the exact cognitive process used in melodic dictation, yet seems to be phenomenologically similar to the decision making process used when attempting notate novel melodies.
 Based on both the prior knowledge and individual differences of the individual, the model will scale in ability, with the general retrieval mechanisms in place.
 The exact details of the assumptions, parameters, and complete formula of the model are discussed below.</p>
 </div>
-<div id="the-model" class="section level2">
-<h2><span class="header-section-number">7.3</span> The Model</h2>
+<div id="verbal-model" class="section level2">
+<h2><span class="header-section-number">7.3</span> Verbal Model</h2>
 <p>Below I describe my model’s assumptions, parameters, as well as the steps taken when the model is run.
 After detailing the inner workings of each of the assumptions and the modules, described in roughly the order that they occur, I present the model using modular notation with the terminology described below.
 I discuss the issues of assumptions and representations as they arise in describing the model.</p>
 <div id="model-representational-assumptions" class="section level3">
 <h3><span class="header-section-number">7.3.1</span> Model Representational Assumptions</h3>
 <p>In order to write a computer program that mirrors the melodic dictation process, how the mind perceives and thinks about musical information must be defined <em>a priori</em>.
-Before delving into questions of representation, this model assumes that the musical surface <span class="citation">(Lerdahl and Jackendoff <a href="#ref-lerdahlGenerativeTheoryTonal1986">1986</a>)</span> as represented by the notes via Western musical notation are salient and can be perceived as distinct perceptual phenomena.
-Although there is work that suggests that different cultures and levels of experience might not categorize melodic information universally <span class="citation">(McDermott et al. <a href="#ref-mcdermottIndifferenceDissonanceNative2016">2016</a>)</span>, other work suggests that things like experiencing pitches as discrete, categorical phenomena is categorized as a statistical human universal <span class="citation">(Savage et al. <a href="#ref-savageStatisticalUniversalsReveal2015">2015</a>)</span>.
+Before delving into questions of representation, this model assumes that the musical surface<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> as represented by the notes via Western musical notation are salient and can be perceived as distinct perceptual phenomena.
+Although there is work that suggests that different cultures and levels of experience might not categorize melodic information universally <span class="citation">(McDermott et al. <a href="#ref-mcdermottIndifferenceDissonanceNative2016">2016</a>)</span>, other work suggests that experiencing pitches as discrete, categorical phenomena is categorized as a statistical human universal <span class="citation">(Savage et al. <a href="#ref-savageStatisticalUniversalsReveal2015">2015</a>)</span>.
 For the purposes of this model I assume that individuals do in fact perceive the musical surface similarly to the written score.</p>
 <p>Knowing that it is melodic information or melodic data that needs to be represented, the question then becomes what is the best way in which to represent it.
-This issue becomes increasingly complex when considering literature suggesting that the human mind represents musical information in a variety of different forms <span class="citation">(Krumhansl <a href="#ref-krumhanslCognitiveFoundationsMusical2001">2001</a>; Levitin and Tirovolas <a href="#ref-levitinCurrentAdvancesCognitive2009">2009</a>)</span>
-While I will attend to this issue below using the current state of the art, a brief review of how information is represented is warranted.</p>
-<p>For the purposes of this model and further examples I choose to represent musical information using both the pitch (note and scale degree) and timing (rhythm and inter-onset-interval) representation described in <span class="citation">M. T. Pearce (<a href="#ref-pearceStatisticalLearningProbabilistic2018">2018</a><a href="#ref-pearceStatisticalLearningProbabilistic2018">a</a>)</span>.
-Future research comparing this model’s output using different representations will also contribute to conversations regarding pedagogy in that if one form of data representation mirrors human behavior than the others, it would provide more than anecdotal evidence in support of the pedagogy of one system over another.
+This issue becomes increasingly complex when considering literature suggesting that the human mind represents musical information in a variety of different forms <span class="citation">(Krumhansl <a href="#ref-krumhanslCognitiveFoundationsMusical2001">2001</a>; Levitin and Tirovolas <a href="#ref-levitinCurrentAdvancesCognitive2009">2009</a>)</span>.</p>
+<p>For the purposes of this model and further examples I choose to represent musical information using both the pitch (note and scale degree) and timing (rhythm and inter-onset-interval) representation described in <span class="citation">(<span class="citeproc-not-found" data-reference-id="pearceStatisticalLearningProbabilistic2018"><strong>???</strong></span>)</span>.
+Future research comparing this model’s output using different representations will also contribute to conversations regarding pedagogy in that if one form of data representation mirrors human behavior than the others, it would provide more than evidence in support of the pedagogy of one system over another.
 How the model represents musical information is the first important parameter value that needs be chosen before running the model and this establishes the prior information.</p>
 </div>
 <div id="contents-of-the-prior-knowledge" class="section level3">
 <h3><span class="header-section-number">7.3.2</span> Contents of the Prior Knowledge</h3>
-<p>The Prior Knowledge consists of a corpus of digitally represented melodies taken to reflect the implicitly understood structural patterns in a musical style that the listener has been exposed to.
-The logic of representing an individual’s prior knowledge follows the assumptions of both the Statistical Learning Hypothesis (SLH) and the Probabilistic Prediction Hypothesis (PPH), both core theoretical assumptions of the Information Dynamic of Music (IDyOM) model of Marcus Pearce <span class="citation">(Pearce <a href="#ref-pearceConstructionEvaluationStatistical2005">2005</a>; M. T. Pearce <a href="#ref-pearceStatisticalLearningProbabilistic2018a">2018</a><a href="#ref-pearceStatisticalLearningProbabilistic2018a">b</a>)</span>.
+<p>The <em>Prior Knowledge</em> consists of a corpus of digitally represented melodies taken to reflect the implicitly understood structural patterns in a musical style that the listener has been exposed to.
+The logic of representing an individual’s prior knowledge follows the assumptions of both the Statistical Learning Hypothesis (SLH) and the Probabilistic Prediction Hypothesis (PPH), both core theoretical assumptions of the Information Dynamic of Music (IDyOM) model of Marcus Pearce <span class="citation">(Pearce <a href="#ref-pearceConstructionEvaluationStatistical2005">2005</a>; <span class="citeproc-not-found" data-reference-id="pearceStatisticalLearningProbabilistic2018"><strong>???</strong></span>)</span>.
 Using a corpus of melodies to represent an individual’s prior knowledge relies on the Statistical Learning Hypothesis which states:</p>
 <blockquote>
 <p>musical enculturation is a process of implicit statistical learning in which listeners progressively acquire internal models of the statistical and structural regularities present in the musical styles to which they are exposed, over short (e.g., an individual piece of music) and long time scales (e.g., an entire lifetime of listening). p.2 (Pearce, 2018)</p>
 </blockquote>
 <p>The logic here is that the more an individual is exposed musical material, the more they will implicitly understand it which leads the corroborating probabilistic prediction hypothesis which states:</p>
 <blockquote>
-<p>while listening to new music, an enculturated listener applies models learned via the SLH to generate probabilistic predictions that enable them to organize and process their mental representations of the music and generate culturally appropriate responses. p.2 Pearce (2018).</p>
+<p>while listening to new music, an enculturated listener applies models learned via the SLH to generate probabilistic predictions that enable them to organize and process their mental representations of the music and generate culturally appropriate responses. p.2 (Pearce, 2018).</p>
 </blockquote>
-<p>Taken together and then quantified using Shannon information content, it then becomes possible using the IDyOM framework to have a quantifiable measure that reliably predicts the amount of perceived unexpectedness in a musical melody that can change pending on the musical corpus that the model is trained on.
-As a model IDyOM has been successful mirroring human behavior in melodies, harmony– outperforming <span class="citation">(Harrison and Pearce <a href="#ref-harrisonDissociatingSensoryCognitive2018">2018</a>)</span> sensory models of harmony <span class="citation">(Bigand et al. <a href="#ref-bigandEmpiricalEvidenceMusical2014">2014</a>)</span>–, and is also being developed to handle polyphonic materials<span class="citation">(Sauve <a href="#ref-sauvePredictionPolyphonyModelling2017">2017</a>)</span>.</p>
-<p>Stepping beyond the assumptions of IDyOM, the prior knowledge also needs to have a implicit/explicitly known parameter which indicates whether or not an pattern of music (single interval through n-gram pattern) is explicitly learned.
-This threshold can be set relative to the entire distribution of all n-grams in the corpus.
-Whether or not an n-gram is explicitly known is used in the <em>Transcription</em> module.</p>
+<p>Taken together and then quantified using Shannon information content <span class="citation">(Shannon <a href="#ref-shannonMathematicalTheoryCommunication1948">1948</a>)</span>, it then becomes possible using the IDyOM framework to have a quantifiable measure that reliably predicts the amount of perceived unexpectedness in a musical melody that can change pending on the musical corpus that the model is trained on.
+As a model IDyOM has been successful mirroring human behavior in melodies, harmony– outperforming <span class="citation">(Harrison and Pearce <a href="#ref-harrisonDissociatingSensoryCognitive2018">2018</a>)</span> sensory models of harmony <span class="citation">(Bigand et al. <a href="#ref-bigandEmpiricalEvidenceMusical2014">2014</a>)</span>–, and is also being developed to handle polyphonic materials <span class="citation">(Sauve <a href="#ref-sauvePredictionPolyphonyModelling2017">2017</a>)</span>.</p>
+<p>Stepping beyond the assumptions of IDyOM, the prior knowledge also needs to have a implicit/explicitly known parameter which indicates whether or not an pattern of music– or n-gram<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> pattern– is explicitly learned.
+This threshold can be set relative to the entire distribution of all n-grams in the corpus.</p>
 </div>
 <div id="modeling-information-content" class="section level3">
 <h3><span class="header-section-number">7.3.3</span> Modeling Information Content</h3>
 <p>Having established that the models first established parameters to be decided are the representation of strings and the implicit/explicit threshold, the next important decision that has to be made is how decides segmentation for the second stage of selective attention.
-Although there has been a large amount of work on different ways to segment the musical surface using rule based methods JACKENDOFF NARMOUR 2 TEMPERLY MARGULIS, which rely on matching a music theorist’s intuition with a set of descriptive rules somewhat like the boundary formation rules in <em>GTTM</em>, as, as noted by <span class="citation">M. T. Pearce (<a href="#ref-pearceStatisticalLearningProbabilistic2018">2018</a><a href="#ref-pearceStatisticalLearningProbabilistic2018">a</a>)</span> rule based models often fail at when applied to music outside the Western art music canon.
+Although there has been a large amount of work on different ways to segment the musical surface using rule based methods <span class="citation">(Lerdahl and Jackendoff <a href="#ref-lerdahlGenerativeTheoryTonal1986">1986</a>; Margulis <a href="#ref-margulisModelMelodicExpectation2005">2005</a>; Narmour <a href="#ref-narmourAnalysisCognitionBasic1990">1990</a>, <a href="#ref-narmourAnalysisCognitionMelodic1992">1992</a>)</span>, which rely on matching a music theorist’s intuition with a set of descriptive rules somewhat like the boundary formation rules put forward in <em>A Generative Theory of Tonal Music</em>, as noted by Pearce <span class="citation">(<span class="citeproc-not-found" data-reference-id="pearceStatisticalLearningProbabilistic2018"><strong>???</strong></span>)</span>, rule based models often fail at when applied to music outside the Western art music canon.
 Additionally, since melodic dictation is an active memory process, rather than a semi-passive process of listening this model needs to be able to quantify musical information that is both dependent on prior musical experience and allows a movable boundary for selective attention so that musical information that is memory can be actively maintained, whilst carrying out another cognitive process, that of notating the melody.</p>
 <p>In order to create this metric, I rely on IDyOM’s use of information content <span class="citation">(Shannon <a href="#ref-shannonMathematicalTheoryCommunication1948">1948</a>)</span> which quantifies the information content of melodies based on corpus of materials.
-For example, when trained against a corpus of melodies, this excerpt in Figure X from the fourth movement of Schubert’s <em>Octet in F Major</em> (D.803) lists the information content of the excerpt calculated for each note atop the notation<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a>
-Appearing in Figure Y, I plot the cumulative information content of the melody, along with both an arbitrary threshold for the limits of working memory capacity and where the subsequent segmentation boundary for musical material to be put in the <em>Selective Attention</em> buffer would be.
+For example, when trained against a corpus of melodies, this excerpt in Figure 7.1 from the fourth movement of Schubert’s <em>Octet in F Major</em> (D.803) lists the information content of the excerpt calculated for each note atop the notation<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>
+Appearing in Figure 7.2, I plot the cumulative information content of the melody, along with both an arbitrary threshold for the limits of working memory capacity and where the subsequent segmentation boundary for musical material to be put in the <em>Selective Attention</em> buffer would be.
 These values chosen show a small example of how the <em>Selective Attention</em> module works.
 The advantage of operationalizing how an individual hears a melody like this is that melodies with lower information content, derived from an understanding of having more predictable patterns from the corpus, will allow for larger chunks to be put inside of the selective attention buffer.
 Additionally, individuals with higher working memory capacity would be able to take in more musical information.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-4"></span>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-1"></span>
 <img src="img/SchubertF.pdf" alt="Cadential Excerpt from Schubert's Octet in F Major" width="100%" />
 <p class="caption">
 Figure 7.1: Cadential Excerpt from Schubert’s Octet in F Major
 </p>
 </div>
-<p><img src="img/cumSchubert.jpeg" width="100%" style="display: block; margin: auto;" /></p>
-<p>Note that the notes above the melody here are dependent on what is current in the prior knowledge.
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-2"></span>
+<img src="img/cumSchubert.jpeg" alt="Cumulative Information in Schubert Octet Excerpt" width="100%" />
+<p class="caption">
+Figure 7.2: Cumulative Information in Schubert Octet Excerpt
+</p>
+</div>
+<p>Note that the notes above the melody here are dependent on what is current in the <em>Prior Knowledge</em> module.
 A corpus of prior knowledge with less melodies would lead to higher information content measures for each set of notes, while a prior knowledge that has extensive tracking of the patterns would lead to lower information content.</p>
 </div>
 <div id="setting-limits-with-transcribe" class="section level3">
@@ -322,13 +325,13 @@ In theory, the maximum of the attentional buffer should not be reached since the
 <div id="pattern-matching" class="section level3">
 <h3><span class="header-section-number">7.3.5</span> Pattern Matching</h3>
 <p>With subset of notes of the melody represented in the attentional buffer, whether or not the melody becomes notated depends on whether or not the melody or string in the buffer can be matched with a string that is explicitly known in the corpus.
-Mirroring a search pattern akin to Cowan’s Embedded Process model <span class="citation">(Cowan <a href="#ref-cowanEvolvingConceptionsMemory1988">1988</a>, <a href="#ref-cowanMagicalMysteryFour2010">2010</a>)</span>, the individual would search across their long term memory, or <em>Prior Knowledge</em> for anything close to or resembling the string pattern in the attentional buffer.
+Mirroring a search pattern akin to Cowan’s Embedded Process Model <span class="citation">(Cowan <a href="#ref-cowanEvolvingConceptionsMemory1988">1988</a>, <a href="#ref-cowanMagicalMysteryFour2010">2010</a>)</span>, the individual would search across their long term memory, or <em>Prior Knowledge</em> for anything close to or resembling the string pattern in the attentional buffer.
 Cowan’s model differs from other more module based models of working memory like those of <span class="citation">Baddeley and Hitch (<a href="#ref-baddeleyWorkingMemory1974">1974</a>)</span> by positing that working memory should be conceptualized as a small window that is the limit of consious attention.
 As an individual directs their attention to concepts represented in their long term memory, they can only spotlight a finite amount of information where categorical information regarding what is in the window of attention not far.
-Example…?
+An example of this bottlenecking is given after a formal statement of the model.
 Using this logic, longer pattern strings n-grams would be less likely to be recalled exactly since they occur less frequently in the prior knowledge.</p>
 <p>When searching for a pattern match, the <em>Transcription</em> module is at work.
-If a pattern match that has been moved to <em>Selective Attention</em> is immediately found, the contents of <em>Selective Attention</em> would be considered to be transcribed.
+If a pattern match that has been moved to <em>Selective Attention</em> is immediately found, the contents of <em>Selective Attention</em> would be considered to be notated.
 The model would register that a loop had taken place and document what the n-gram match was.
 Of course, finding an immediate pattern match each time is highly unlikely and the model needs to be able to compensate if that happens.
 If a pattern is not found in the initial search that is <em>explicitly</em> known, one token of the n-gram would be dropped off the string and the search would happen again.
@@ -369,6 +372,9 @@ Though the current instantiation of the model does not incorporate how multiple 
 Of course as a new melody is learned it is slowly being introduced into long term memory and could be completely be capable of being represented in long term memory without being explicitly notated at the end of a dictation with time running out and thus not possible to be completed.
 This of course then would be imposing some sort of experimental constraint on the process and since this is meant to be a cognitive computational model of melodic dictation this caveat would complicate the model.
 Future research could be done to optimize the choices that the model makes in order to satisfy whatever constraints are imposed and could be an interesting avenue of future research, but are beyond the initial goals of the model.</p>
+</div>
+<div id="model-output" class="section level3">
+<h3><span class="header-section-number">7.3.8</span> Model Output</h3>
 <p>The model then outputs each n-gram transcribed and can be counted as a series with less attempts mapping to an easier transcription.
 I believe that this lines with many intuitions about the process of melodic dictation.
 It first creates a linear mapping of attempts to dictate with difficulty of the melody.
@@ -376,49 +382,76 @@ It relies on a distinction between explicit and implicit statistical knowledge.
 It is based on the embedded process model from working memory and attention, so is part of a larger generative model, giving it a bit more credibility that this <em>could</em> be how melodic dictation works.</p>
 </div>
 </div>
-<div id="model" class="section level2">
-<h2><span class="header-section-number">7.4</span> Model</h2>
-<p>Below</p>
-<div id="definitions" class="section level3">
-<h3><span class="header-section-number">7.4.1</span> Definitions</h3>
-<ol style="list-style-type: decimal">
-<li>Let the <em>Prior Knowledge</em> be represented by the corpus <span class="math inline">\(M\)</span> where each melody, <span class="math inline">\(m\)</span>, is symbolic string representing the all possible n-grams of the melody.</li>
-<li>Calculate the information content of each <span class="math inline">\(m\)</span> using IDyOM.</li>
-<li>Define <span class="math inline">\(t\)</span> as the threshold set within <span class="math inline">\(M\)</span> as the threshold which an n-gram needs to be represented to be explicitly known.</li>
-<li>Let <span class="math inline">\(t\)</span> be a new target melody not represented in <span class="math inline">\(M\)</span>.</li>
-<li>Let <span class="math inline">\(WMC\)</span> a numeric value representing the maximum information content that can be held in <em>Selective Attention</em>.</li>
-<li>Define <span class="math inline">\(LISTEN\)</span> as a function that sequentially reads the string <span class="math inline">\(t\)</span></li>
-<li>Define <span class="math inline">\(pitch-search\)</span> as pattern matching search of <span class="math inline">\(M\)</span> exclusively on pitch information.</li>
-<li>Define <span class="math inline">\(rhythm-search\)</span> as pattern matching search of <span class="math inline">\(M\)</span> exclusively on rhythmic information.</li>
-</ol>
+<div id="formal-model" class="section level2">
+<h2><span class="header-section-number">7.4</span> Formal Model</h2>
+<p>Below I present the computational model in psudeocode as described above in Figure 7.3.
+First listed are the defined inputs, the functions needed to run the algorithm, and then the sequence the model runs.
+To aid distinguishing between functions and objects, I put functions in italics and objects in bold.
+Below the model in Figure 7.4, I provide a brief walk through of one iteration of the model.</p>
+<div id="computational-model-1" class="section level3">
+<h3><span class="header-section-number">7.4.1</span> Computational Model</h3>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-3"></span>
+<img src="img/Model.pdf" alt="Formal Model" width="100%" />
+<p class="caption">
+Figure 7.3: Formal Model
+</p>
 </div>
-<div id="listening" class="section level3">
-<h3><span class="header-section-number">7.4.2</span> Listening</h3>
-<ol style="list-style-type: decimal">
-<li><span class="math inline">\(LISTEN\)</span> to <span class="math inline">\(t\)</span> and calculate the cumulative information content of <span class="math inline">\(t\)</span> until it exceeds <span class="math inline">\(WMC\)</span>.</li>
-<li>Define truncated string as <span class="math inline">\(exract\)</span>.</li>
-<li>Move <span class="math inline">\(extract\)</span> to Selective Attention.</li>
-<li>Define <span class="math inline">\(Re-entry\)</span> as function that executes <span class="math inline">\(PLAY\)</span> at pre-defined location in string (i.e. linear, low IC n-gram)</li>
-</ol>
 </div>
-<div id="transcribe-function" class="section level3">
-<h3><span class="header-section-number">7.4.3</span> Transcribe Function</h3>
-<ol style="list-style-type: decimal">
-<li>Define <span class="math inline">\(Transcribe\)</span> as : search <span class="math inline">\(M\)</span> for an exact pattern match of <span class="math inline">\(extract\)</span> against n-grams where <span class="math inline">\(explicit == TRUE\)</span>.</li>
-<li>If match is found, <span class="math inline">\(extract\)</span> is <span class="math inline">\(Notated\)</span>, execute <span class="math inline">\(Re-entry\)</span></li>
-<li>If no match is found, truncate 1 token from <span class="math inline">\(extract\)</span> and perform search again. Perform this step recursively.</li>
-<li>If no match is found, execute <span class="math inline">\(pitch-search\)</span> OR <span class="math inline">\(rhythm search\)</span>.</li>
-<li>Upon completion of <span class="math inline">\(pitch-search\)</span> OR <span class="math inline">\(rhythm search\)</span>, run other search to complete information.</li>
-<li>IF no patterns found with <span class="math inline">\(Transcribe\)</span> OR <span class="math inline">\(pitch-search\)</span> OR <span class="math inline">\(rhythm search\)</span>, execute <span class="math inline">\(Re-entry\)</span>.</li>
-</ol>
+<div id="example" class="section level3">
+<h3><span class="header-section-number">7.4.2</span> Example</h3>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-4"></span>
+<img src="img/Model%20Graphic.pdf" alt="Model Example" width="100%" />
+<p class="caption">
+Figure 7.4: Model Example
+</p>
+</div>
+<p>The example above shows one iteration of the model run using the musical example from above using a hypothetical corpus for the pattern matching.
+Using the model above, the following inputs were defined <em>a priori</em>:</p>
 <ul>
-<li>Will represent it as a flowchart with definitions of terms and functions at top!</li>
+<li>The <strong>Prior Knowledge</strong> is a hypothetical corpus of symbolic strings representing all n-grams of melodies</li>
+<li>The <strong>Threshold</strong> is set to <strong>five</strong> exact matches in the <strong>Prior Knowledge</strong></li>
+<li>The <strong>WMC</strong> is set at 17</li>
+<li>The <strong>Target Melody</strong> is the Schubert excerpt from above</li>
+<li><strong>String Position</strong> is used to track the position in the dictation</li>
+<li>The <strong>Difficulty</strong> object starts at 0</li>
+<li>The <strong>Dictation</strong> object is <code>NULL</code> to begin, and each new n-gram sucessfully transcribed is annexed to it</li>
 </ul>
+<p>Figure 7.4 progresses from left to right over the course of time.
+The algorithm begins by first running the <code>listen()</code> function on the <strong>Target Melody</strong>.
+First the model checks that there are notes to transcribe; this being the first loop of the model, this is obviously <code>FALSE</code> so the next step is taken.
+Notes of the <strong>Target Melody</strong> are read in to the <strong>Selective Attention</strong> buffer until the information content of the melody exceedes that of the working memory threshold.
+This is depicted graphically in the leftmost panel of Figure 7.4.
+Each note unfolding over time metaphorically fills up the <strong>Selective Attention</strong> working memory buffer.
+When the amount of information reaches the perceptual bottleneck– as indicated by the dashed line– the <strong>Selective Attention</strong> buffer stops recieving information.
+At this point the model will mark where in the melody it stopped taking in new information for later.
+Here the contents in <strong>Selective Attention</strong> are moved to the <code>transcribe()</code> function.</p>
+<p>With the contents of <strong>Selective Attention</strong> passed to <code>transcribe()</code>, the model adds one to the counter indicating the first search is about to run.
+Moving to the middle panel of Figure 7.4, the symbol string of notes in the first column are indexed against the <strong>Prior Knowledge</strong>.
+Only if a five note pattern has appeared more than or equal to five times, as determined by the <strong>Threshold</strong> input, will the corresponding <code>EXPLICIT</code> column be <code>TRUE</code>.
+In this case, this pattern has occurred over the threshold of 5 and thus a sucessful match is found.
+It is at this step that the search resembles that of Cowan’s model of working memory as active attention.
+The pattern being searched for is compared against a vast amount of information, with cues from the contents of what is in <strong>Selective Attention</strong> grouping similar patterns together.
+At the neural level, this is most likely a much more complex process, but to show this grouping I note that this search is at least organized by the first pitch.
+I assume it would be reasonable that patterns starting on G as <code>SOL</code><a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> might happen together.
+Since this string does have a <code>TRUE</code> match with <code>EXPLICIT</code>, the contents of <strong>Selective Attention</strong> are considered notated.
+At this point the model would record the 5-gram, along with the string that it was matched with.
+the function would then re-run <code>listen</code> at the next point in the melody as tracked by the <strong>String Position</strong> object.</p>
+<p>If there were not to have been an exact match, the model would remove one token from the melody and performed the search again on the knolwedge of all 4-grams and add another tick to the <strong>Difficulty</strong> counter.
+This process would happen recusively until a match is found.
+If no match is found in either the complex representation, or that of the two rhythm and pitch corpora, the fifth step of <code>transcribe</code> would trigger <code>notateReentry</code> to be run without documenting the n-gram currently being dictated.
+This would be akin to a student not being able to identify a difficult interval, thus having to restart the melody at a new position.
+Decisions about re-entry warrent further research and discussion, but this model for the sake of parsimony, assumes linear continuation.
+As notated in 7.3.5, other modes of re-entry could be incorporated into the model.</p>
+<p>This looping process would occur again and again until the entire melody is notated.
+With each iteration of each n-gram notated, the difficulty counter would increase in relation to the representation of that string in the corpus.
+This provides an algorithmic implmentation of a theorist’s intuition that less common n-grams or intervals (2-grams) are going to lead to higher difficulty in dictation.
+Also worth noting is steps 3 and 4 in the <code>transcribe</code> function are akin to Karpinski’s proto-notation.
+Further research might consider advantages in the order of searchinging the <strong>Prior Knowledge</strong> corpora.</p>
 </div>
 </div>
 <div id="conclusions-1" class="section level2">
 <h2><span class="header-section-number">7.5</span> Conclusions</h2>
-<p>In this chapter, I have presented an explanatory, computational model of melodic dictation.
+<p>In this chapter, I presented an explanatory, computational model of melodic dictation.
 The model combines work from computational musicology and work from cognitive psychology.
 In addition to being a complete model that explicates every step of the dictation process, the model seems to match phenomenological intuitions as to the process of melodic dictation.
 Given the current state of the model, it makes predictions about the dictation process and can eventually be implemented and tested against human behavioral data to provide evidence in support of its verisimilitude.
@@ -431,11 +464,11 @@ Most importantly from a pedagogical standpoint, the model gives exact language a
 <div id="ref-wigginsModelsMusicalSimilarity2007">
 <p>Wiggins, Geraint A. 2007. “Models of Musical Similarity.” <em>Musicae Scientiae</em> 11 (1_suppl): 315–38. <a href="https://doi.org/10.1177/102986490701100112" class="uri">https://doi.org/10.1177/102986490701100112</a>.</p>
 </div>
-<div id="ref-pearceStatisticalLearningProbabilistic2018">
-<p>Pearce, Marcus T. 2018a. “Statistical Learning and Probabilistic Prediction in Music Cognition: Mechanisms of Stylistic Enculturation: Enculturation: Statistical Learning and Prediction.” <em>Annals of the New York Academy of Sciences</em> 1423 (1): 378–95. <a href="https://doi.org/10.1111/nyas.13654" class="uri">https://doi.org/10.1111/nyas.13654</a>.</p>
-</div>
 <div id="ref-saffranStatisticalLearningTone1999">
 <p>Saffran, Jenny R, Elizabeth K Johnson, Richard N Aslin, and Elissa L Newport. 1999. “Statistical Learning of Tone Sequences by Human Infants and Adults.” <em>Cognition</em> 70 (1): 27–52. <a href="https://doi.org/10.1016/S0010-0277(98)00075-4" class="uri">https://doi.org/10.1016/S0010-0277(98)00075-4</a>.</p>
+</div>
+<div id="ref-margulisRepeatHowMusic2014">
+<p>Margulis, Elizabeth Hellmuth. 2014. <em>On Repeat: How Music Plays the Mind</em>. Oxford: Oxford University Press.</p>
 </div>
 <div id="ref-huronSweetAnticipation2006">
 <p>Huron, David. 2006. <em>Sweet Anticipation</em>. MIT Press.</p>
@@ -479,8 +512,8 @@ Most importantly from a pedagogical standpoint, the model gives exact language a
 <div id="ref-levitinCurrentAdvancesCognitive2009">
 <p>Levitin, Daniel J., and Anna K. Tirovolas. 2009. “Current Advances in the Cognitive Neuroscience of Music.” <em>Annals of the New York Academy of Sciences</em> 1156 (1): 211–31. <a href="https://doi.org/10.1111/j.1749-6632.2009.04417.x" class="uri">https://doi.org/10.1111/j.1749-6632.2009.04417.x</a>.</p>
 </div>
-<div id="ref-pearceStatisticalLearningProbabilistic2018a">
-<p>Pearce, Marcus T. 2018b. “Statistical Learning and Probabilistic Prediction in Music Cognition: Mechanisms of Stylistic Enculturation: Enculturation: Statistical Learning and Prediction.” <em>Annals of the New York Academy of Sciences</em> 1423 (1): 378–95. <a href="https://doi.org/10.1111/nyas.13654" class="uri">https://doi.org/10.1111/nyas.13654</a>.</p>
+<div id="ref-shannonMathematicalTheoryCommunication1948">
+<p>Shannon, Claude. 1948. “A Mathematical Theory of Communication.” <em>Bell System Technical Journal</em> 27: 379–423.</p>
 </div>
 <div id="ref-harrisonDissociatingSensoryCognitive2018">
 <p>Harrison, Peter M . C., and Marcus Thomas Pearce. 2018. “Dissociating Sensory and Cognitive Theories of Harmony Perception Through Computational Modeling.” <a href="https://doi.org/10.31234/osf.io/wgjyv" class="uri">https://doi.org/10.31234/osf.io/wgjyv</a>.</p>
@@ -491,8 +524,8 @@ Most importantly from a pedagogical standpoint, the model gives exact language a
 <div id="ref-sauvePredictionPolyphonyModelling2017">
 <p>Sauve, Sarah. 2017. “Prediction in Polyphony: Modelling Auditory Scene Analysis.” PhD thesis, Centre for Digital Music: Queen Mary, University of London.</p>
 </div>
-<div id="ref-shannonMathematicalTheoryCommunication1948">
-<p>Shannon, Claude. 1948. “A Mathematical Theory of Communication.” <em>Bell System Technical Journal</em> 27: 379–423.</p>
+<div id="ref-margulisModelMelodicExpectation2005">
+<p>Margulis, Elizabeth Hellmuth. 2005. “A Model of Melodic Expectation.” <em>Music Perception: An Interdisciplinary Journal</em> 22 (4): 663–714. <a href="https://doi.org/10.1525/mp.2005.22.4.663" class="uri">https://doi.org/10.1525/mp.2005.22.4.663</a>.</p>
 </div>
 <div id="ref-baddeleyWorkingMemory1974">
 <p>Baddeley, Alan D., and Graham Hitch. 1974. “Working Memory.” In <em>Psychology of Learning and Motivation</em>, 8:47–89. Elsevier. <a href="https://doi.org/10.1016/S0079-7421(08)60452-1" class="uri">https://doi.org/10.1016/S0079-7421(08)60452-1</a>.</p>
@@ -500,9 +533,11 @@ Most importantly from a pedagogical standpoint, the model gives exact language a
 </div>
 <div class="footnotes">
 <hr />
-<ol start="9">
-<li id="fn9"><p>I use different terms to avoid confusion when comparing models later<a href="computational-model.html#fnref9" class="footnote-back">↩</a></p></li>
-<li id="fn10"><p>The following musical examples is taken from <span class="citation">(M. T. Pearce <a href="#ref-pearceStatisticalLearningProbabilistic2018">2018</a><a href="#ref-pearceStatisticalLearningProbabilistic2018">a</a>)</span> reflects a model where IDyOM was configured to predict pitch with an attribute linking melodic pitch interval and chromatic scale degree (pitch and scale degree) using both the short-term and long-term models, the latter trained on 903 folk songs and chorales (data sets 1, 2, and 9 from table 4.1 in <span class="citation">(Schaffrath <a href="#ref-schaffrathEssenFolkSong1995">1995</a>)</span> comprising 50,867 note.<a href="computational-model.html#fnref10" class="footnote-back">↩</a></p></li>
+<ol start="1">
+<li id="fn1"><p>As conceptualized as either a Schenkerian foreground <span class="citation">(Schenker <a href="#ref-schenkerFreieSatz1935">1935</a>)</span> or defined by <span class="citation">Lerdahl and Jackendoff (<a href="#ref-lerdahlGenerativeTheoryTonal1986">1986</a>)</span><a href="computational-model.html#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>n-grams refer to the amount of musical objects in a string. For example a bi-gram or 2-gram, would be an interval. Tri-grams or 3-grams would consist of two intervals and so on<a href="computational-model.html#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>The following musical examples is taken from <span class="citation">(<span class="citeproc-not-found" data-reference-id="pearceStatisticalLearningProbabilistic2018"><strong>???</strong></span>)</span> reflects a model where IDyOM was configured to predict pitch with an attribute linking melodic pitch interval and chromatic scale degree (pitch and scale degree) using both the short-term and long-term models, the latter trained on 903 folk songs and chorales (data sets 1, 2, and 9 from table 4.1 in <span class="citation">(Schaffrath <a href="#ref-schaffrathEssenFolkSong1995">1995</a>)</span> comprising 50,867 notes.<a href="computational-model.html#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>As determined by being calculated against the corpus with both pitch and scale degree information<a href="computational-model.html#fnref4" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
             </section>
@@ -552,19 +587,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:" && /^https?:/.test(src))
-      src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>

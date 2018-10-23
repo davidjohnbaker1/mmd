@@ -84,7 +84,7 @@
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{2018-10-20}
+  \date{2018-10-23}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -580,7 +580,7 @@ Figure 2 and 3.
 
 \begin{figure}
 
-{\centering \includegraphics{img/musicalexamples/MMD_Figure2-1.png} 
+{\centering \includegraphics[width=51.48in]{img/musicalexamples/MMD_Figure2-1} 
 
 }
 
@@ -588,7 +588,7 @@ Figure 2 and 3.
 \end{figure}
 \begin{figure}
 
-{\centering \includegraphics{img/musicalexamples/MMD_Figure3-1.png} 
+{\centering \includegraphics[width=51.48in]{img/musicalexamples/MMD_Figure3-1} 
 
 }
 
@@ -2661,16 +2661,15 @@ Model}\label{really-what-is-needed-is-computational-model}}
 \hypertarget{computational-model}{%
 \chapter{Computational Model}\label{computational-model}}
 
-\hypertarget{what-is-a-model-and-why-do-you-need-a-model}{%
-\section{What Is A Model And Why do you need a
-model}\label{what-is-a-model-and-why-do-you-need-a-model}}
+\hypertarget{levels-of-abstraction}{%
+\section{Levels of Abstraction}\label{levels-of-abstraction}}
 
 In his 2007 article \emph{Models of Music Similarity}
-\citep{wigginsModelsMusicalSimilarity2007} Geraint Wiggins distinguishes
-between \emph{descriptive} and \emph{explanatory} models in describing
-how human behavior can be modeled. Descriptive models assert what will
-happen in response to an event. For example, as discussed in the
-previous chapter, as the note density of a melody increases and the
+\citep{wigginsModelsMusicalSimilarity2007}, Geraint Wiggins
+distinguishes between \emph{descriptive} and \emph{explanatory} models
+in describing the modeling of human behavior. Descriptive models assert
+what will happen in response to an event. For example, as discussed in
+the previous chapter, as the note density of a melody increases and the
 tonalness of a melody decreases, a melody may become harder to dictate.
 While the increase in note density is assumed to drive the decrease in
 dictation scores, merely stating that there is an established
@@ -2681,58 +2680,57 @@ this process occurs. For example, much of the work musical expectation
 demonstrates that as exposure to a musical style for an individual
 increases, so does that person's ability to to predict specific events
 with a given musical texture
-\citep{pearceStatisticalLearningProbabilistic2018}. Not only does more
+\citep{pearceStatisticalLearningProbabilistic2018a}. Not only does more
 exposure predict more accurate responses, but many of these models
 derive their underlying theory about this behavior from the brain's
 ability to implicitly track statistical regularities in musical
-perception \citep{saffranStatisticalLearningTone1999}. The \emph{how}
-derives from the brain's ability to track statistical regularities in
-musical information in the environment and the \emph{why} derives from
-evolutionary demands in that organisms that are able to make more
-predictions about their environment are more likely to survive and pass
-on their genes \citep{huronSweetAnticipation2006}.
+perception
+\citep{saffranStatisticalLearningTone1999, margulisRepeatHowMusic2014}.
+The \emph{how} derives from the brain's ability to track statistical
+regularities in musical information in the environment and the
+\emph{why} derives from evolutionary demands in that organisms that are
+able to make more predictions about their environment are more likely to
+survive and pass on their genes \citep{huronSweetAnticipation2006}.
 
 Wiggins writes that although there can be both explanatory and
 descriptive theories, depending on the level of abstraction, a theory
 may be explanatory at one level, yet descriptive at another. Using the
-mind-brain dichotomy, he uses the example of a theory of implicit
-expectations could be explanatory at the level of behavior as noted
-above, but says nothing about what is happening at the neuronal level.
-Both descriptive and explanatory theories are needed in that descriptive
-theories are used to test explanatory theories, and by stringing
-together different layers of abstraction, we can arrive at a better
-understanding of how the world works.
+mind-brain dichotomy, he asserts that the example of a theory of
+implicit expectations could be explanatory at the level of behavior as
+noted above, but says nothing about what is happening at the neuronal
+level. Both descriptive and explanatory theories are needed in that
+descriptive theories are used to test explanatory theories, and by
+stringing together different layers of abstraction, we can arrive at a
+better understanding of how the world works.
 
 Returning to melodic dictation, under Wiggins' framework, the Karpinski
 model of melodic dictation
 \citep{karpinskiAuralSkillsAcquisition2000, karpinskiModelMusicPerception1990}
-would qualify as a descriptive model. The model says what happens over
-the time course of a melodic dictation-- specifying four discrete stages
+qualifies as a descriptive model. The model says what happens over the
+time course of a melodic dictation-- specifying four discrete stages
 discussed in earlier chapters-- but does not explicitly state \emph{how}
 or \emph{why} this process happens. In order to have a more complete
 understanding of melodic dictation, an explanatory model is needed.
 
 In this chapter I introduce an explanatory model of melodic dictation.
 The model is inspired by work from both computational musicology drawing
-on the work of Marcus Pearce's IDyOM , as well as cognitive psychology
-using the uniform memory mechanism inspired by Cowan's Embedded Process
-Model of working memory to explain the perceptual components. In
-addition to quantifying each step, the model incorporates flexible
-parameters that could be adjusted in order to accommodate for individual
-differences, while still relying on a domain general process. By relying
-on cognitive mechanisms based in statistical learning, rather than a
-rule based system for music analysis GTTM, NARMOUR 2, TEMPERLY this
-model allows for the heterogeneity of musical experience amongst a
+on the work of Marcus Pearce's IDyOM
+\citep{pearceConstructionEvaluationStatistical2005}, as well as
+cognitive psychology using the uniform memory mechanism inspired by
+Cowan's Embedded Process Model
+\citep{cowanEvolvingConceptionsMemory1988, cowanMagicalMysteryFour2010}
+of working memory to explain the perceptual components. In addition to
+quantifying each step, the model incorporates flexible parameters that
+could be adjusted in order to accommodate for individual differences,
+while still relying on a domain general process. By relying on cognitive
+mechanisms based in statistical learning, rather than a rule based
+system for music analysis
+\citep{lerdahlGenerativeTheoryTonal1986, narmourAnalysisCognitionBasic1990, narmourAnalysisCognitionMelodic1992, temperleyCognitionBasicMusical2004}
+this model allows for the heterogeneity of musical experience amongst a
 diversity of music listeners.
 
-\begin{itemize}
-\tightlist
-\item
-  Name of model?
-\end{itemize}
-
-\hypertarget{model-introduction}{%
-\section{Model Introduction}\label{model-introduction}}
+\hypertarget{model-overview}{%
+\section{Model Overview}\label{model-overview}}
 
 The model consists of three main modules, each with its own set of
 parameters:
@@ -2750,34 +2748,34 @@ parameters:
 
 Inspired by Bayesian computational modeling, the \emph{Prior Knowledge}
 module reflects the previous knowledge an individual brings to the
-melodic dictation. The \emph{Selective Memory}-- somewhat akin to
-Karpinski's extractive listening\footnote{I use different terms to avoid
-  confusion when comparing models later}-- segments incoming musical
-information by using the window of attention as conceptualized as the
-limits of working memory capacity as a sensory bottleneck to constrict
-the size of musical chunk that an individual were to transcribe. Once
-musical material is in the focus of attention, the \emph{Transcription}
-function pattern matches against the \emph{Prior Knowledge's} corpus of
+melodic dictation. The \emph{Selective Attention}-- somewhat akin to
+Karpinski's extractive listening-- segments incoming musical information
+by using the window of attention as conceptualized as the limits of
+working memory capacity as a sensory bottleneck to constrict the size of
+musical chunk that an individual could to transcribe. Once musical
+material is in the focus of attention, the \emph{Transcription} function
+pattern matches against the \emph{Prior Knowledge's} corpus of
 information in order to find a match of explicitly known musical
 information. The \emph{Transcription} function will recursively truncate
-what musical information is in \emph{Selective Memory} if not match is
+what musical information is in \emph{Selective Attention} if no match is
 found. This process reflects, but does not actually mirror the exact
-process used in melodic dictation, yet seems to be phenomenologically
-similar to the decision making process used when attempting notate novel
-melodies. Based on both the prior knowledge and individual differences
-of the individual, the model will scale in ability, with the general
-retrieval mechanisms in place. The exact details of the assumptions,
-parameters, and complete formula of the model are discussed below.
+cognitive process used in melodic dictation, yet seems to be
+phenomenologically similar to the decision making process used when
+attempting notate novel melodies. Based on both the prior knowledge and
+individual differences of the individual, the model will scale in
+ability, with the general retrieval mechanisms in place. The exact
+details of the assumptions, parameters, and complete formula of the
+model are discussed below.
 
-\hypertarget{the-model}{%
-\section{The Model}\label{the-model}}
+\hypertarget{verbal-model}{%
+\section{Verbal Model}\label{verbal-model}}
 
 Below I describe my model's assumptions, parameters, as well as the
 steps taken when the model is run. After detailing the inner workings of
 each of the assumptions and the modules, described in roughly the order
-that they occur, I present the model as a formula using the terminology
-described below. I discuss the issues of assumptions and representations
-as they arise in describing the model.
+that they occur, I present the model using modular notation with the
+terminology described below. I discuss the issues of assumptions and
+representations as they arise in describing the model.
 
 \hypertarget{model-representational-assumptions}{%
 \subsection{Model Representational
@@ -2786,48 +2784,52 @@ Assumptions}\label{model-representational-assumptions}}
 In order to write a computer program that mirrors the melodic dictation
 process, how the mind perceives and thinks about musical information
 must be defined \emph{a priori}. Before delving into questions of
-representation, this model assumes that the musical surface JACKENDOFF
-as represented by the notes via Western musical notation are salient and
-can be perceived as distinct perceptual phenomena. Although there is
-work that suggests that different cultures and levels of experience
-might not categorize melodic information universally MCDERMOTT, other
-work suggests that things like experiencing pitches as discrete,
-categorical phenomena is categorized as a statistical human universal
-SAVAGE. For the purposes of this model I assume that individuals do in
-fact perceive the musical surface similarly to the written score.
+representation, this model assumes that the musical surface\footnote{As
+  conceptualized as either a Schenkerian foreground
+  \citep{schenkerFreieSatz1935} or defined by
+  \citet{lerdahlGenerativeTheoryTonal1986}} as represented by the notes
+via Western musical notation are salient and can be perceived as
+distinct perceptual phenomena. Although there is work that suggests that
+different cultures and levels of experience might not categorize melodic
+information universally
+\citep{mcdermottIndifferenceDissonanceNative2016}, other work suggests
+that experiencing pitches as discrete, categorical phenomena is
+categorized as a statistical human universal
+\citep{savageStatisticalUniversalsReveal2015}. For the purposes of this
+model I assume that individuals do in fact perceive the musical surface
+similarly to the written score.
 
 Knowing that it is melodic information or melodic data that needs to be
 represented, the question then becomes what is the best way in which to
 represent it. This issue becomes increasingly complex when considering
 literature suggesting that the human mind represents musical information
-in a variety of different forms from PEARCE 2018 CITE THAT YOU
-HIGHLIGHTED. While I will attend to this issue below using the current
-state of the art, a brief review of how information is represented is
-warranted.
+in a variety of different forms
+\citep{krumhanslCognitiveFoundationsMusical2001, levitinCurrentAdvancesCognitive2009}.
 
 For the purposes of this model and further examples I choose to
 represent musical information using both the pitch (note and scale
 degree) and timing (rhythm and inter-onset-interval) representation
-described in Pearce (2018). Future research Future research comparing
-this model's output using different representations will also contribute
-to conversations regarding pedagogy in that if one form of data
-representation mirrors human behavior than the others, it would provide
-more than anecdotal evidence in support of the pedagogy of one system
-over another. How the model represents musical information is the first
-important parameter value that needs be chosen before running the model
-and this establishes the prior information.
+described in \citet{pearceStatisticalLearningProbabilistic2018a}. Future
+research comparing this model's output using different representations
+will also contribute to conversations regarding pedagogy in that if one
+form of data representation mirrors human behavior than the others, it
+would provide more than evidence in support of the pedagogy of one
+system over another. How the model represents musical information is the
+first important parameter value that needs be chosen before running the
+model and this establishes the prior information.
 
 \hypertarget{contents-of-the-prior-knowledge}{%
 \subsection{Contents of the Prior
 Knowledge}\label{contents-of-the-prior-knowledge}}
 
-The Prior Knowledge consists of a corpus of digitally represented
+The \emph{Prior Knowledge} consists of a corpus of digitally represented
 melodies taken to reflect the implicitly understood structural patterns
 in a musical style that the listener has been exposed to. The logic of
 representing an individual's prior knowledge follows the assumptions of
 both the Statistical Learning Hypothesis (SLH) and the Probabilistic
 Prediction Hypothesis (PPH), both core theoretical assumptions of the
-Information Dynamic of Music (IDyOM) model of Marcus Pearce (PEARCE).
+Information Dynamic of Music (IDyOM) model of Marcus Pearce
+\citep{pearceConstructionEvaluationStatistical2005, pearceStatisticalLearningProbabilistic2018a}.
 Using a corpus of melodies to represent an individual's prior knowledge
 relies on the Statistical Learning Hypothesis which states:
 
@@ -2847,23 +2849,28 @@ corroborating probabilistic prediction hypothesis which states:
 while listening to new music, an enculturated listener applies models
 learned via the SLH to generate probabilistic predictions that enable
 them to organize and process their mental representations of the music
-and generate culturally appropriate responses. p.2 Pearce (2018).
+and generate culturally appropriate responses. p.2 (Pearce, 2018).
 \end{quote}
 
-Taken together and then quantified using Shannon information content, it
-then becomes possible using the IDyOM framework to have a quantifiable
-measure that reliably predicts the amount of perceived unexpectedness in
-a musical melody that can change pending on the musical corpus that the
-model is trained on. As a model IDyOM has been successful mirroring
-human behavior in melodies, harmony-- outperforming WHATEVER models of
-harmony--, and is also being developed to handle polyphonic materials.
+Taken together and then quantified using Shannon information content
+\citep{shannonMathematicalTheoryCommunication1948}, it then becomes
+possible using the IDyOM framework to have a quantifiable measure that
+reliably predicts the amount of perceived unexpectedness in a musical
+melody that can change pending on the musical corpus that the model is
+trained on. As a model IDyOM has been successful mirroring human
+behavior in melodies, harmony-- outperforming
+\citep{harrisonDissociatingSensoryCognitive2018} sensory models of
+harmony \citep{bigandEmpiricalEvidenceMusical2014}--, and is also being
+developed to handle polyphonic materials
+\citep{sauvePredictionPolyphonyModelling2017}.
 
 Stepping beyond the assumptions of IDyOM, the prior knowledge also needs
 to have a implicit/explicitly known parameter which indicates whether or
-not an pattern of music (single interval through n-gram pattern) is
-explicitly learned. This threshold can be set relative to the entire
-distribution of all n-grams in the corpus. Whether or not an n-gram is
-explicitly known is used in the \emph{Transcription} module.
+not an pattern of music-- or n-gram\footnote{n-grams refer to the amount
+  of musical objects in a string. For example a bi-gram or 2-gram, would
+  be an interval. Tri-grams or 3-grams would consist of two intervals
+  and so on} pattern-- is explicitly learned. This threshold can be set
+relative to the entire distribution of all n-grams in the corpus.
 
 \hypertarget{modeling-information-content}{%
 \subsection{Modeling Information
@@ -2874,10 +2881,12 @@ decided are the representation of strings and the implicit/explicit
 threshold, the next important decision that has to be made is how
 decides segmentation for the second stage of selective attention.
 Although there has been a large amount of work on different ways to
-segment the musical surface using rule based methods JACKENDOFF NARMOUR
-2 TEMPERLY MARGULIS, which rely on matching a music theorist's intuition
-with a set of descriptive rules somewhat like the boundary formation
-rules in \emph{GTTM}, as, as noted by Pearce (2018) rule based models
+segment the musical surface using rule based methods
+\citep{lerdahlGenerativeTheoryTonal1986, margulisModelMelodicExpectation2005, narmourAnalysisCognitionBasic1990, narmourAnalysisCognitionMelodic1992},
+which rely on matching a music theorist's intuition with a set of
+descriptive rules somewhat like the boundary formation rules put forward
+in \emph{A Generative Theory of Tonal Music}, as noted by Pearce
+\citep{pearceStatisticalLearningProbabilistic2018a}, rule based models
 often fail at when applied to music outside the Western art music canon.
 Additionally, since melodic dictation is an active memory process,
 rather than a semi-passive process of listening this model needs to be
@@ -2888,26 +2897,56 @@ whilst carrying out another cognitive process, that of notating the
 melody.
 
 In order to create this metric, I rely on IDyOM's use of information
-content (Shannon) which quantifies the information content of melodies
-based on corpus of materials. For example, when trained against a corpus
-of melodies, THIS MELODY has IC (unit-less thing) that is on top of
-notes. The advantage of operationalizing how an individual hears a
-melody like this is that melodies with lower information content,
-derived from an understanding of having more predictable patterns from
-the corpus, will allow for larger chunks to be put inside of the
-selective attention buffer.
+content \citep{shannonMathematicalTheoryCommunication1948} which
+quantifies the information content of melodies based on corpus of
+materials. For example, when trained against a corpus of melodies, this
+excerpt in Figure 7.1 from the fourth movement of Schubert's \emph{Octet
+in F Major} (D.803) lists the information content of the excerpt
+calculated for each note atop the notation\footnote{The following
+  musical examples is taken from
+  \citep{pearceStatisticalLearningProbabilistic2018} reflects a model
+  where IDyOM was configured to predict pitch with an attribute linking
+  melodic pitch interval and chromatic scale degree (pitch and scale
+  degree) using both the short-term and long-term models, the latter
+  trained on 903 folk songs and chorales (data sets 1, 2, and 9 from
+  table 4.1 in \citep{schaffrathEssenFolkSong1995} comprising 50,867
+  notes.} Appearing in Figure 7.2, I plot the cumulative information
+content of the melody, along with both an arbitrary threshold for the
+limits of working memory capacity and where the subsequent segmentation
+boundary for musical material to be put in the \emph{Selective
+Attention} buffer would be. These values chosen show a small example of
+how the \emph{Selective Attention} module works. The advantage of
+operationalizing how an individual hears a melody like this is that
+melodies with lower information content, derived from an understanding
+of having more predictable patterns from the corpus, will allow for
+larger chunks to be put inside of the selective attention buffer.
+Additionally, individuals with higher working memory capacity would be
+able to take in more musical information.
 
-\begin{itemize}
-\tightlist
-\item
-  FIGURE HERE
-\end{itemize}
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/SchubertF} 
+
+}
+
+\caption{Cadential Excerpt from Schubert's Octet in F Major}\label{fig:unnamed-chunk-4}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/cumSchubert} 
+
+}
+
+\caption{Cumulative Information in Schubert Octet Excerpt}\label{fig:unnamed-chunk-5}
+\end{figure}
 
 Note that the notes above the melody here are dependent on what is
-current in the prior knowledge. A corpus of prior knowledge with less
-melodies would lead to higher information content measures for each set
-of notes, while a prior knowledge that has extensive tracking of the
-patterns would lead to lower IC.
+current in the \emph{Prior Knowledge} module. A corpus of prior
+knowledge with less melodies would lead to higher information content
+measures for each set of notes, while a prior knowledge that has
+extensive tracking of the patterns would lead to lower information
+content.
 
 \hypertarget{setting-limits-with-transcribe}{%
 \subsection{Setting Limits with
@@ -2942,39 +2981,51 @@ With subset of notes of the melody represented in the attentional
 buffer, whether or not the melody becomes notated depends on whether or
 not the melody or string in the buffer can be matched with a string that
 is explicitly known in the corpus. Mirroring a search pattern akin to
-Cowan's Embedded Process model, the individual would search across their
-long term memory, or \emph{Prior Knowledge} for anything close to or
-resembling the string pattern in the attentional buffer.
+Cowan's Embedded Process Model
+\citep{cowanEvolvingConceptionsMemory1988, cowanMagicalMysteryFour2010},
+the individual would search across their long term memory, or
+\emph{Prior Knowledge} for anything close to or resembling the string
+pattern in the attentional buffer. Cowan's model differs from other more
+module based models of working memory like those of
+\citet{baddeleyWorkingMemory1974} by positing that working memory should
+be conceptualized as a small window that is the limit of consious
+attention. As an individual directs their attention to concepts
+represented in their long term memory, they can only spotlight a finite
+amount of information where categorical information regarding what is in
+the window of attention not far. An example of this bottlenecking is
+given after a formal statement of the model. Using this logic, longer
+pattern strings n-grams would be less likely to be recalled exactly
+since they occur less frequently in the prior knowledge.
 
-\begin{itemize}
-\tightlist
-\item
-  Image of wallpaper search here?
-\end{itemize}
+When searching for a pattern match, the \emph{Transcription} module is
+at work. If a pattern match that has been moved to \emph{Selective
+Attention} is immediately found, the contents of \emph{Selective
+Attention} would be considered to be notated. The model would register
+that a loop had taken place and document what the n-gram match was. Of
+course, finding an immediate pattern match each time is highly unlikely
+and the model needs to be able to compensate if that happens. If a
+pattern is not found in the initial search that is \emph{explicitly}
+known, one token of the n-gram would be dropped off the string and the
+search would happen again. This recursive process would happen until an
+explicit long term memory match is made. Like humans taking melodic
+dictation, the computer would have the best luck finding patterns that
+fall within the largest density of a corpus of intervals distribution.
+Additionally, like students performing a dictation, if a student does
+not explicitly know an interval, or a 2-gram, the dictation would not be
+able to be completed. If this happens, both the model and student would
+have to move on to the next segment.
 
-Using this logic, longer pattern strings n-grams would be less likely to
-be recalled exactly. If a pattern is not found in the initial search
-that is \emph{explicitly} known, one token of the n-gram would be
-dropped off the string and the search would happen again. This recursive
-process would happen until an explicit long term memory match is made.
-Like humans taking melodic dictation, the computer would have the best
-luck finding patterns that fall within the largest density of a corpus
-of intervals distribution. Additionally, like students performing a
-dictation, if a student does not explicitly know an interval, or a
-2-gram, the dictation would not be able to be completed. If this
-happens, both the model and student would have to move on to the next
-segment.
-
-Upon the successful explicit match of a string, that section of the
-melody would be considered to be successfully dictated. The model here
-would register that one iteration of the function has been run and the
-chunk transcribed would then be recorded. After recording this history,
-the process would happen again starting at either the next note from
-where the model left off, the note in the entire string with the lowest
-information content, or n-gram left in the melody with that is most
-represented in the corpus. This parameter is defined before the model is
-run and the question of dictation re-entry certainly warrants further
-research and investigation.
+Eventually there would be a successful explicit match of a string in the
+\emph{Transcription} module and that section of the melody would be
+considered to be dictated. The model here would register that one
+iteration of the function has been run and the chunk transcribed would
+then be recorded. After recording this history, the process would happen
+again starting at either the next note from where the model left off,
+the note in the entire string with the lowest information content, or
+n-gram left in the melody with that is most represented in the corpus.
+This parameter is defined before the model is run and the question of
+dictation re-entry certainly warrants further research and
+investigation.
 
 This type of pattern search is also dependent on the way that the prior
 knowledge is represented. In the example here, both pitch and rhythmic
@@ -2985,27 +3036,29 @@ and pitch information queried separately. If not found, exact
 pitch-temporal matches are found and the search is run again on either
 the pitch or rhythmic information separately; this would be
 computationally akin to Karpinski's proto-notation that he suggests
-students use in learning how to take melodic dictation (KARPINKSI
-CHAPTER 3). This feature of the model would predict that more efficient
-dictations would happen when pitch and interval information is dictated
-simultaneously. Running the model prioritizing the secondary search with
-either pitch or rhythmic information prioritized would provide new
-insights into practical applications of dictation strategies. Using this
-separate search feature as an option of the model seems to match with
-the intuitions strategies that someone dictating a melody might use.
+students use in learning how to take melodic dictation \citep[Chapter
+3]{karpinskiAuralSkillsAcquisition2000}. This feature of the model would
+predict that more efficient dictations would happen when pitch and
+interval information is dictated simultaneously. Running the model
+prioritizing the secondary search with either pitch or rhythmic
+information prioritized would provide new insights into practical
+applications of dictation strategies. Using this separate search feature
+as an option of the model seems to match with the intuitions strategies
+that someone dictating a melody might use.
 
 \hypertarget{dictation-re-entry}{%
 \subsection{Dictation Re-Entry}\label{dictation-re-entry}}
 
-Upon the successful pattern match of a string, the attentional buffer
-and transcribe-search function would need too then be run again. As
-noted above, re-entry in the melody could be a highly subjective point
-of discussion. The model could either re-enter at the last note where
-the function successfully left off, the note in the melody with the
-lowest information content, or the n-gram most salient in the corpus.
-Entering at the last note not transcribed is logical from a
-computational standpoint, but this linear approach seems to be at odds
-with anecdotal experience. Entering at the note with the lowest
+Upon the successful pattern match of a string, the \emph{Selective
+Attention} and \emph{Transcription} module would need too then be run
+again. As noted above, re-entry in the melody could be a highly
+subjective point of discussion. The model could either re-enter at the
+last note where the function successfully left off, the note in the
+melody with the lowest information content, the n-gram most salient in
+the corpus, or theoretically any other type of way that could be decided
+by the programmar. Entering at the last note not transcribed is logical
+from a computational standpoint, but this linear approach seems to be at
+odds with anecdotal experience. Entering at the note with the lowest
 information content seems to provide a intuitive point of re-entry in
 that it would then be easier to transcribe. Entering at the most
 represented n-gram seems to match the most with intuition in that people
@@ -3045,6 +3098,9 @@ makes in order to satisfy whatever constraints are imposed and could be
 an interesting avenue of future research, but are beyond the initial
 goals of the model.
 
+\hypertarget{model-output}{%
+\subsection{Model Output}\label{model-output}}
+
 The model then outputs each n-gram transcribed and can be counted as a
 series with less attempts mapping to an easier transcription. I believe
 that this lines with many intuitions about the process of melodic
@@ -3055,93 +3111,137 @@ model from working memory and attention, so is part of a larger
 generative model, giving it a bit more credibility that this
 \emph{could} be how melodic dictation works.
 
-\hypertarget{formula-of-model}{%
-\section{Formula of Model}\label{formula-of-model}}
+\hypertarget{formal-model}{%
+\section{Formal Model}\label{formal-model}}
 
-\hypertarget{definitions}{%
-\subsection{Definitions}\label{definitions}}
+Below I present the computational model in psudeocode as described above
+in Figure 7.3. First listed are the defined inputs, the functions needed
+to run the algorithm, and then the sequence the model runs. To aid
+distinguishing between functions and objects, I put functions in italics
+and objects in bold. Below the model in Figure 7.4, I provide a brief
+walk through of one iteration of the model.
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Let the \emph{Prior Knowledge} be represented by the corpus \(M\)
-  where each melody, \(m\), is symbolic string representing the all
-  possible n-grams of the melody.
-\item
-  Calculate the information content of each \(m\) using IDyOM.
-\item
-  Define \(t\) as the threshold set within \(M\) as the threshold which
-  an n-gram needs to be represented to be explicitly known.
-\item
-  Let \(t\) be a new target melody not represented in \(M\).
-\item
-  Let \(WMC\) a numeric value representing the maximum information
-  content that can be held in \emph{Selective Attention}.
-\item
-  Define \(LISTEN\) as a function that sequentially reads the string
-  \(t\)
-\item
-  Define \(pitch-search\) as pattern matching search of \(M\)
-  exclusively on pitch information.
-\item
-  Define \(rhythm-search\) as pattern matching search of \(M\)
-  exclusively on rhythmic information.
-\end{enumerate}
+\hypertarget{computational-model-1}{%
+\subsection{Computational Model}\label{computational-model-1}}
 
-\hypertarget{listening}{%
-\subsection{Listening}\label{listening}}
+\begin{figure}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  \(LISTEN\) to \(t\) and calculate the cumulative information content
-  of \(t\) until it exceeds \(WMC\).
-\item
-  Define truncated string as \(exract\).
-\item
-  Move \(extract\) to Selective Attention.
-\item
-  Define \(Re-entry\) as function that executes \(PLAY\) at pre-defined
-  location in string (i.e.~linear, low IC n-gram)
-\end{enumerate}
+{\centering \includegraphics[width=1\linewidth]{img/Model} 
 
-\hypertarget{transcribe-function}{%
-\subsection{Transcribe Function}\label{transcribe-function}}
+}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Define \(Transcribe\) as : search \(M\) for an exact pattern match of
-  \(extract\) against n-grams where \(explicit == TRUE\).
-\item
-  If match is found, \(extract\) is \(Notated\), execute \(Re-entry\)
-\item
-  If no match is found, truncate 1 token from \(extract\) and perform
-  search again. Perform this step recursively.
-\item
-  If no match is found, execute \(pitch-search\) OR \(rhythm search\).
-\item
-  Upon completion of \(pitch-search\) OR \(rhythm search\), run other
-  search to complete information.
-\item
-  IF no patterns found with \(Transcribe\) OR \(pitch-search\) OR
-  \(rhythm search\), execute \(Re-entry\).
-\end{enumerate}
+\caption{Formal Model}\label{fig:unnamed-chunk-6}
+\end{figure}
+
+\hypertarget{example}{%
+\subsection{Example}\label{example}}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/Model Graphic} 
+
+}
+
+\caption{Model Example}\label{fig:unnamed-chunk-7}
+\end{figure}
+
+The example above shows one iteration of the model run using the musical
+example from above using a hypothetical corpus for the pattern matching.
+Using the model above, the following inputs were defined \emph{a
+priori}:
 
 \begin{itemize}
 \tightlist
 \item
-  Will represent it as a flowchart with definitions of terms and
-  functions at top!
+  The \textbf{Prior Knowledge} is a hypothetical corpus of symbolic
+  strings representing all n-grams of melodies
+\item
+  The \textbf{Threshold} is set to \textbf{five} exact matches in the
+  \textbf{Prior Knowledge}
+\item
+  The \textbf{WMC} is set at 17
+\item
+  The \textbf{Target Melody} is the Schubert excerpt from above
+\item
+  \textbf{String Position} is used to track the position in the
+  dictation
+\item
+  The \textbf{Difficulty} object starts at 0
+\item
+  The \textbf{Dictation} object is \texttt{NULL} to begin, and each new
+  n-gram sucessfully transcribed is annexed to it
 \end{itemize}
+
+Figure 7.4 progresses from left to right over the course of time. The
+algorithm begins by first running the \texttt{listen()} function on the
+\textbf{Target Melody}. First the model checks that there are notes to
+transcribe; this being the first loop of the model, this is obviously
+\texttt{FALSE} so the next step is taken. Notes of the \textbf{Target
+Melody} are read in to the \textbf{Selective Attention} buffer until the
+information content of the melody exceedes that of the working memory
+threshold. This is depicted graphically in the leftmost panel of Figure
+7.4. Each note unfolding over time metaphorically fills up the
+\textbf{Selective Attention} working memory buffer. When the amount of
+information reaches the perceptual bottleneck-- as indicated by the
+dashed line-- the \textbf{Selective Attention} buffer stops recieving
+information. At this point the model will mark where in the melody it
+stopped taking in new information for later. Here the contents in
+\textbf{Selective Attention} are moved to the \texttt{transcribe()}
+function.
+
+With the contents of \textbf{Selective Attention} passed to
+\texttt{transcribe()}, the model adds one to the counter indicating the
+first search is about to run. Moving to the middle panel of Figure 7.4,
+the symbol string of notes in the first column are indexed against the
+\textbf{Prior Knowledge}. Only if a five note pattern has appeared more
+than or equal to five times, as determined by the \textbf{Threshold}
+input, will the corresponding \texttt{EXPLICIT} column be \texttt{TRUE}.
+In this case, this pattern has occurred over the threshold of 5 and thus
+a sucessful match is found. It is at this step that the search resembles
+that of Cowan's model of working memory as active attention. The pattern
+being searched for is compared against a vast amount of information,
+with cues from the contents of what is in \textbf{Selective Attention}
+grouping similar patterns together. At the neural level, this is most
+likely a much more complex process, but to show this grouping I note
+that this search is at least organized by the first pitch. I assume it
+would be reasonable that patterns starting on G as
+\texttt{SOL}\footnote{As determined by being calculated against the
+  corpus with both pitch and scale degree information} might happen
+together. Since this string does have a \texttt{TRUE} match with
+\texttt{EXPLICIT}, the contents of \textbf{Selective Attention} are
+considered notated. At this point the model would record the 5-gram,
+along with the string that it was matched with. the function would then
+re-run \texttt{listen} at the next point in the melody as tracked by the
+\textbf{String Position} object.
+
+If there were not to have been an exact match, the model would remove
+one token from the melody and performed the search again on the
+knolwedge of all 4-grams and add another tick to the \textbf{Difficulty}
+counter. This process would happen recusively until a match is found. If
+no match is found in either the complex representation, or that of the
+two rhythm and pitch corpora, the fifth step of \texttt{transcribe}
+would trigger \texttt{notateReentry} to be run without documenting the
+n-gram currently being dictated. This would be akin to a student not
+being able to identify a difficult interval, thus having to restart the
+melody at a new position. Decisions about re-entry warrent further
+research and discussion, but this model for the sake of parsimony,
+assumes linear continuation. As notated in 7.3.5, other modes of
+re-entry could be incorporated into the model.
+
+This looping process would occur again and again until the entire melody
+is notated. With each iteration of each n-gram notated, the difficulty
+counter would increase in relation to the representation of that string
+in the corpus. This provides an algorithmic implmentation of a
+theorist's intuition that less common n-grams or intervals (2-grams) are
+going to lead to higher difficulty in dictation. Also worth noting is
+steps 3 and 4 in the \texttt{transcribe} function are akin to
+Karpinski's proto-notation. Further research might consider advantages
+in the order of searchinging the \textbf{Prior Knowledge} corpora.
 
 \hypertarget{conclusions-1}{%
 \section{Conclusions}\label{conclusions-1}}
 
-In this chapter, I have presented an explanatory, computational model of
+In this chapter, I presented an explanatory, computational model of
 melodic dictation. The model combines work from computational musicology
 and work from cognitive psychology. In addition to being a complete
 model that explicates every step of the dictation process, the model
