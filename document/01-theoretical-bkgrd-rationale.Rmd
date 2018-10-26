@@ -202,7 +202,7 @@ In addition to concepts of intelligence, be it _Gf_  or _Gc_, the working memory
 Working memory is one of the most investigated concepts in the cognitive psychology literature.
 According to Nelson Cowan, the term working memory generally refers to 
 
-> the relativly small amount of information that one can hold in mind, attend to, or, technically speaking, maintain in a rapidly accesible state at one time. The term working is mean to indicate that mental work requires the use of such informaiton. (p.1) [@cowanWorkingMemoryCapacity2005]
+> the relatively small amount of information that one can hold in mind, attend to, or, technically speaking, maintain in a rapidly accessible state at one time. The term working is mean to indicate that mental work requires the use of such information. (p.1) [@cowanWorkingMemoryCapacity2005]
 
 The term, like most concepts in science, does not have an exact definition, nor does it have a definitive method of measurement.
 While there is no universally recognized first use of the term, researchers began to postulate that there was some sort of system that mediated incoming sensory information with the world with the information in long term storage using modular models of memory in the mid-twentieth century. 
