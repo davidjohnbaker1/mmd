@@ -38,28 +38,12 @@ The four steps of Karpinski's model include
 3. Musical Understanding 
 4. Notation
 
-and occur as a looping process depicted in Figure 1.
+and occur as a looping process depicted in Figure \@ref(fig:flowchart).
 The model is discussed extensively in both this original article [@karpinskiModelMusicPerception1990] and throughout the third chapter in his book [@karpinskiAuralSkillsAcquisition2000].
 
-[FULL SCAN HERE EVENTUALLY OF FIGURE 1]
-
-##### FIGURE 1 STAND IN 
-
-1. Hear  (along with Portion B)
-2. Remember (Portion A only)
-3. Understand
-  + Temporal
-    * Pulse
-    * Meter
-    * Rhythmic proportions
-  + Pitch
-    * Tonic 
-    * Scale degree of starting pitch
-    * Scale degree of subsequent pitches
-      + Stepwise Groups
-      + Each skip treated as new starting pitch
-4. Notate
-  + What has been heard, remembered, understood
+```{r flowchart, echo=FALSE, fig.cap="Karpinski Idealized Flowchart of Melodic Dictation",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/karpinski31.png")
+```
 
 Karpinski's **hearing** stage involves the initial perceptions of the sound at the psychoacoustical level and the listener's _attention_ to the incoming musical information.
 If the listener is not actively engaging in the task because of factors such as "boredom, lack of discipline, test anxiety, attention deficit disorder, or any number of other causes" then any further processes later down the model will be detrimentally effected. 
@@ -100,12 +84,14 @@ The model does not have any flexibility in terms of individual differences.
 Second, the model presumes the same sequence of events for every melody.
 As a general heurstic for communicating the process, this process is generalizable, but intuition would suggest that treating all melodies the same is not going to lead to having a robust model.
 For example, on page 103, Karpinski suggest that two listenings should be adequate for a listener with few to no chunking skills to listen to be able to dictate a melody of twelve to twenty notes. 
-This process might generalize to many tonal melodies, but presumably different strategies in recognition would be involved in dictating the two melodies of equal length shown in Figure 2 and 3.
+This process might generalize to many tonal melodies, but presumably different strategies in recognition would be involved in dictating the two melodies of equal length shown in Figure \@ref(fig:shortmelody1) and \@ref(fig:shortmelody2).
 
-```{r, echo=FALSE, fig.cap="Melodies of Equal Length",fig.align='center', dpi=50}
+```{r shortmelody1, echo=FALSE, fig.cap="Tonal Melody",fig.align='center', out.width="80%"}
 knitr::include_graphics("img/musicalexamples/MMD_Figure2-1.png")
-knitr::include_graphics("img/musicalexamples/MMD_Figure3-1.png")
+```
 
+```{r shortmelody2, echo=FALSE, fig.cap="Atonal Melody",fig.align='center', out.width="80%"}
+knitr::include_graphics("img/musicalexamples/MMD_Figure2-1.png")
 ```
 
 Presumably different people with different levels of abilities will perform differently on different melodies and while helpful as a pedaogogical tool, this one size-fits-all approach to melodic dictation is not robust.
@@ -118,11 +104,11 @@ At this point, it is worth stepping back and noting that the sheer amount of var
 In order to better understand and organize factors thought to contribute to this process, it would advantagous for future research to taxonomize the multitude of features thought to contribute to melodic dictation.
 In doing this, it wil allow for a clearer picture of what factors might contribute and what literatures to explore in order to learn more about them.
 
-The taxonomy that I propose appears in Figure 4 and bifucates the possible factors thought to affect an individual's ability to take melodic dictation into two categories: **individual** parameters and **musical** parameters.
+The taxonomy that I propose appears in Figure \@ref(fig:taxonomy) and bifucates the possible factors thought to affect an individual's ability to take melodic dictation into two categories: **individual** parameters and **musical** parameters.
 Each of these two categories can then be split again into **cognitive** and **environmental** parameters as well as **structural** and **experimental factors** respectively.
 Below I expand on what these categories entail, then explore each in depth.
 
-```{r, echo=FALSE, fig.cap="Taxonomy of Factors Contributing to Aural Skills",fig.align='center', dpi=30}
+```{r taxonomy, echo=FALSE, fig.cap="Taxonomy of Factors Contributing to Aural Skills",fig.align='center', out.width="80%"}
 knitr::include_graphics("img/taxonomy4.png")
 ```
 
@@ -207,10 +193,10 @@ According to Nelson Cowan, the term working memory generally refers to
 The term, like most concepts in science, does not have an exact definition, nor does it have a definitive method of measurement.
 While there is no universally recognized first use of the term, researchers began to postulate that there was some sort of system that mediated incoming sensory information with the world with the information in long term storage using modular models of memory in the mid-twentieth century. 
 Summarized in [@cowanWorkingMemoryCapacity2005], one of the first modal models of memory was proposed by [@broadbentPerceptionCommunication1958] and later expanded by [@atkinsonHUMANMEMORYPROPOSED1968].
-As seen in FIGURE X, both models here posit incoming information that is then put into some sort of limited capacity store.
+As seen in Figure \@ref(fig:wmmodels), both models here posit incoming information that is then put into some sort of limited capacity store.
 These modal models were then expanded on by Baddeley and Hitch [@baddeleyWorkingMemory1974] in their 1974 chapter with the name _Working Memory_, where they proposed a system with an central executive module that was able to carry out active maintenance and rehearsal of information that could be stored in either a phonological store for sounds or a visual sketchpad for images.
 
-```{r, echo=FALSE, fig.cap="Schematics of Models of Working Memory taken from Cowan, 2005", fig.align='center'}
+```{r wmmodels, echo=FALSE, fig.cap="Schematics of Models of Working Memory taken from Cowan, 2005", fig.align='center'}
 knitr::include_graphics("img/wm_models.png")
 ```
 
@@ -297,6 +283,8 @@ Below I use the term intelligence as a catch all term to avoid the historical co
 Before surveying the literature here it is also worth noting that reserach on music and intelligence is not as developed as some of the larger studies looking at intelligence which provides problems for both establishing causal directionality, as well as controlling for other factors like self theories of ability, socioeconomic status, and personality [@mullensiefenInvestigatingImportanceSelftheories2015]. 
 
 #### Papers that suggest GF plays a role
+
+* Redo this structure 
 
 As reviewed in @schellenbergMusicNonmusicalAbilities2017, both children and adults who engage in musical activity tend to score higher on general measurses of intelligence than their non-musical peers (Gibson, Folley and Park, 2009; Hille et al., 2011; Schellenberg, 2011a; Schellenberg and Mankarious, 2012) with the duration of training sharing a relationship with the extent of the increases in IQ (Degé, Kubicek and Schwarzer, 2011a; Degé, Wehrum, Stark and Schwarzer, 2015; Corrigall and Schellenberg, 2015; Corrigall, Schellenberg and Misura, 2013; Schellenberg, 2006).
 Though many of these studies are correlational, they also have made attempts to control for confounding variables like socio-economic status and parental involvment in out of school activities. (Corrigall et al., 2013; Degé et al., 2011a; Schellenberg, 2006, 2011a, 2011b; Schellenberg and Mankarious, 2012).
