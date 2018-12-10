@@ -1,0 +1,1 @@
+mv *.mid ../midi
