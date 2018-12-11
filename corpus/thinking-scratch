@@ -1,0 +1,23 @@
+Ok thinking out loud here.
+
+One of the claims that I want to make in the computational model is that there are lots of little n-grams and that the ease that people have in learning them initially shares a relationship between their frequency distributions in the corpus and how people hear them.
+
+This in turn would be related to their information content. 
+
+Things I would need to see this.
+
+Import set of all melodies
+
+SELECT what level of n-gram you want to break it into.
+
+make a graph of all possible unique n-grams.
+
+See that if you look at small sample of 2grams not distinct pattern
+As you add in more melodies, becomes more pronounced.
+
+Then swap to 3 grams, see same patterns.
+
+See lumped distribution
+
+Eventually you will get outside of the chunking range. 
+

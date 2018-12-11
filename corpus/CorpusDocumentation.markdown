@@ -20,6 +20,7 @@ I also plan on building a Shiny dashboard for helping visualise the features of 
 ## To Do
 
 * [ ] Encode Corpus
-* [ ] Write Data pipeline for xml to csv
-* [ ] Write script that does FANTASTIC Analysis 
+* [X] Write Data pipeline for xml to csv
+* [X] Write script that does FANTASTIC Analysis 
 * [ ] Write scripts that do IDyOM Analysis
+* [ ] Create script that explores n-grams in corpus 
