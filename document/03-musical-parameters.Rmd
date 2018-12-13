@@ -1,5 +1,20 @@
 # Computation Chapter
 
+The point of this chapter is to show you can use tools from computational musicology as predictive features of melodies in experiments. 
+
+* Comp linguistics and information theory
+* Get featuers from thigns like FANTASTIC
+* How they can be used in experiemnts eventually 
+
+As discussed in literature review, people have found ways to measure melodies with computers.
+Can do this just with the melody itself.
+Can do this with melody and other melodies in context.
+And this too has been done in the music pedagogy world.
+
+I am saying that there's alink between what is on page and perception that we can take advantage of
+
+### Information Content Referencs 
+
 OTHER PEOPLE WHO HAVE DONE THIS
 
 * look into Wiggins et al., 1993, for history of representation 
@@ -8,8 +23,8 @@ Folk music
 
 * Bartok 1936?
 * Bartok and Lord 1951
-* Lomax 1977
-* Steinbeck 1982
+* Lomax 1977 ; Lomax, A. (1977). Universals in song. The World of Music, 19, 117–129.
+* Steinbeck 1982 
 * Jesser 1992
 * Sagrillo 1999
 
