@@ -1,0 +1,5 @@
+(idyom-db:import-data 
+	  :krn
+	  "~/Desktop/projects/mmd/corpus/symbolic/krn/"
+	  "Total corpus" 
+	  1)

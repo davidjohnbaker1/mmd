@@ -1,0 +1,12 @@
+How to IDYOM
+
+Start Emacs
+Alt x slime to start SBCL
+(start-idyom)
+import datasets if you need them
+This will write to the path 
+Import with read.delim() in R 
+BOOM ! 
+
+YOU NEED TO PUT KEY SIGNATURES TO USE CPINTREF
+k
