@@ -15,13 +15,22 @@ View(tenBerk)
 
 names(tenBerk)
 
-tenBerk %>%
+#--------------------------------------------------
+# Get IC for first five notes
+
+hundoBerk %>%
   select(melody.name, note.id, information.content, entropy, dataset.id) %>%
-  filter(melody.name == "Berkowitz7") %>% 
+  filter(note.id <= 5) %>%
+  group_by(melody.name) %>%
   mutate(cumIC = cumsum(information.content)) %>%
-  ggplot(aes(x = note.id, y = cumIC)) + geom_line() +
-  scale_y_continuous(limits = c(0,30)) +
-  geom_point() + labs(title = "Ten Berk Cumulitive IC for Melody")
+  ungroup() %>%
+  filter(note.id == 5) %>%
+  arrange(cumIC)
+
+hundoBerk %>%
+  select(melody.name, note.id, information.content) %>%
+  arrange(information.content) %>%
+  head()
 
 hundoBerk %>%
   select(melody.name, note.id, information.content, entropy, dataset.id) %>%
