@@ -1,12 +1,21 @@
 ## Individual Differences
 
-Needs to be related to melodic dictation.
-Given the universe of possible musical activites, one of the one that tends to come up in perceptual.
+The first two steps of Gary Karpinki's model of melodic dictation [@karpinskiAuralSkillsAcquisition2000; @karpinskiModelMusicPerception1990] rely exclusivly on the mental representation of melodic information.
+Karpinski conceptualizes the first stage of _hearing_ as soley involving the physical motions on the tympanic membrane as well as each lister's attention to the musical stimulus.
+This stage is distinguished from that of _short-term melodic memory_ which refers to the amount of melodic information that can be represented in memory.
+Given that neither stage of the first two steps of Karpinki's model requires any sort of musical expertise, every individual with normal hearing should be able to partake in the first two steps of the process.^[This whole model needs critique under the WMC literature. It's kind of strange to think that the act of something hitting your ear is different than attention (the way that Cowan thinks about WMC and again that you can split up the represenation in memory from that of what the characteritics are of the melody like the meter and scale degrees, which have been argued to be part of intrinsic qualia) also there is a big problem here about stuff being activly rehearsed or not]
+
+
+Karpinski limits the amount of melodic information that can enter _short-term melodic memory_ "somwhere between five and nine notes", citing Miller [@millerMagicalNumberSeven1956] then supports 
+
+Via the process of Extractive Listening and Chunking are individuals then further able to "extend the capacity of short-term melodic memory"
+
+
+
+these are all skills that most people can have 
+
 
 I. establish musical memory is key component in melodic dictation
-- karpinski model 
-- how it works
-- note that this is just act of hearing it
 - not super specific (is it rehearsed, active, baddely vs cowan)
 - logic here is presumed that as people get better at MD then able to do more
 - quote from karinski to support that
