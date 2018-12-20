@@ -119,6 +119,52 @@ Some researchers have estimated that XX amount of processes are needed to sucess
 
 ## Order of Chapter 2
 
+HOLDER 
+
+### General intelligence and WMC 
+
+* His rationale was that he thinks there was a musical loop in the context of modular models of wmc ala baddely 
+* Not nessecarily the case since there are other theoretical frameworks to talk about music 
+* As stated above, looking at music provides a unique insight into contributing to discussions of wmc
+
+### Defining of terms
+
+* Having established this is a good problem, time to talk about what I think these terms mean
+* This is what gf is 
+* These are the people that have studied it and what they have found 
+* This is what wmc is as defined by Cowan 
+* Again, very clear parallels to wmc and if we can answer them w good evidence on large scale, good reason to think otherwise small
+* We see that in this.... literature
+* Could it be that there is a musical loop here ala Berz, Williamson, and would that explain Li Cowan Saults?
+
+* See, it's a great qustion to investigate 
+* Tho one big problem with music is that it's a lot harrier than other stimuli 
+* Every problem with chunking that Cowan 2005 talks about could be applied to music
+* Cant assume one note means one unit of memory and so on 
+* On top of that you have Pearce suggestion that things are encoded differently 
+* Also have problems of corpus distributions similar to words, good evidence for SLR and PPH 
+
+* regardless of this hariness, need to get further into it
+* Okada and slevec show that EF is also really important to make picture clearer
+* tho if you really want to to do working memory capacity, need to do complex span
+* the reason for this is xyz, can continue on from there
+* Again, WMC is underlying a lot of music stuff, we should see it on large scale 
+
+* Start setting up hypotheses 
+* What best predicts someone's ability to do well on a musical memory test? 
+* Not going to go straight to melodic dictation, first look into Berz 
+* If it really is musical training, we should be able to see that using measures of musical survey
+* If it's actually some sort of cognitive process, then that should have more predictive ability 
+* We can figure this out by fitting a series of models to the data and seeing which matches up best and it's measurements
+* Great ensemble of tests is the Gold-MSI bc it has self report and objective, and people have replicated it 
+* Specifically there are two objective tests
+* Describe them here
+* not exactly mmd, but similr skill set 
+* IF we accept these DVs, THEN we should be able to predict them with self reports and measures of WMC and gf
+* Do this with hierarchical LVM ala Elliott paper 
+
+* List hypotheses and predictions
+
 
 Two questions here 
 
