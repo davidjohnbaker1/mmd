@@ -446,9 +446,15 @@ The advantage of using a dynamic approach is that it theoretically reflects real
 
 ### Experimental
 
-* Advantage of vocal melodies paper 
+* Advantage of vocal melodies paper | Weiss 2015
+* Voice is better than instruments Weiss Trehub Schellenberg 2012
+* Engaging, conspecific signal Weiss Peretz 2019 , not due to expressivity. even see this in amusics. 
+- Not affected by musical training or exposure 
 * MIR stuff
 * Stuff out of education stuff that is also experimental 
+
+* WM W LVH, two span tasks and claim it effects langauge tasks
+* WM Halpern 2017 with pearce, LTM stuff , re look this up
 
 ## Modeling and Polymorphism of Ability 
 
