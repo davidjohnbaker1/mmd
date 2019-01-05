@@ -16,15 +16,32 @@ By understanding which, if any, individual factors play a role in this process, 
 ## Individual Differences
 
 As stated above, the first two steps of Karpinski's model of melodic dictation are not exclusive to trained musicians.
-The first two steps involve both the hearing of the melody and the retention of the melody in conscious awareness.
-Presumably individuals differ in their ability at this level to listen to and memorize musical materials.
-And presumably an individual's ability to perform well on this task could be attributed to a number of factors.
-One of the first, and perhaps most obvious factors would be an individual's musical training.
--- Musicial training information
-While the literatre above provides a body of evidence to suggest that musically trained individuals will outperform their non-musical counterparts, musical training is not and cannot be the sole determining factor in how well an individual remembers a melody.
-Presumably people differ in their ability to retain information and there might even be people without musical training who, just due to their innate abilities, are able to outperform people with musical training based on their cognitive ability.
+These steps involve first hearing the melody and then retaining the melody in conscious awareness.
+From a pedagogical and psychological standpoint, it would be safe to assume that individuals differ in their ability to memorize musical material.
+Some individuals perform exceptionally well, while others do not.
+Presumably these differences in performance can be attributed to a number of factors.
+One of the first, and perhaps most obvious, factors that might explain differences in ability would be an individual's musical training.
 
+As noted in the previous chapter, people with some degree of musical training tend to outperform their less musically trained peers on many cognitive tasks.
+A meta-analysis by Talamini and colleagues highlighted that these differences in memory are especially pronouced when the stimuli used in the experiments was tonal.
+This finding suggests some sort of relationship between muscial training and an increase in memory for musical material.
 
+Additionally^[Could drop the stuff on intelligence], musically trained individuals perform better on other tests of cognitive ability.
+Most prominant in many of these studies are findings that link intelligence and musical training.
+As reviewed in @schellenbergMusicNonmusicalAbilities2017, both children and adults who engage in musical activity tend to score higher on general measurses of intelligence than their non-musical peers (Gibson, Folley and Park, 2009; Hille et al., 2011; Schellenberg, 2011a; Schellenberg and Mankarious, 2012).
+The finding importantly comes with it a correlation between duration of musical training and the extent of the increases in intelligence (Degé, Kubicek and Schwarzer, 2011a; Degé, Wehrum, Stark and Schwarzer, 2015; Corrigall and Schellenberg, 2015; Corrigall, Schellenberg and Misura, 2013; Schellenberg, 2006).
+While many of these studies are correlational, other researchers have further investigated this relationship in experimental settings in attempt to control for confounding variables like socio-economic status and parental involvment in out of school activities (Corrigall et al., 2013; Degé et al., 2011a; Schellenberg, 2006, 2011a, 2011b; Schellenberg and Mankarious, 2012), but findings have been mixed.
+
+Schellenberg [@schellenbergMusicNonmusicalAbilities2017] notes that in many of these studies there is a problem of too small of a sample size in his review (Corrigall and Trainor, 2011; Parbery-Clark et al., 2011; Strait, Parbery-Clark, Hittner and Kraus, 2012) in that studies that are typically smaller do not reach statistical significance. 
+Also referenced in Schellenberg's review is evidence that when professional musicians are matched with non-musicians from the general population these associations are NON EXISTANT (CITE). 
+Interpreting the current literature Schellenberg's review suggests researchers might consider the hypothesis that higher functioning kids that take music lessons and they tend to stay in lessons longer which leads to the observed differences in intelligence. 
+Additionally, Schellenberg remains skeptical of any sorts of causal factors regarding increases in IQ (e.g., François et al., 2013; Moreno et al., 2009) noting methodlogical problems like how short exposure times were in studies claiming increases in effects or researchers who not holding pre-exisiting cognitive abilitis constant (Mehr, Schachner, Katz and Spelke, 2013).
+
+--- there is a reverse here
+
+So while the literatre above provides a body of evidence to suggest that musically trained individuals outperform their non-muscial peers-- with the direction of causality yet to be firmly established-- musical training is not and imporantly cannot be the sole determining factor in how well an individual remembers a melody.
+Presumably other factors contribute in people's ability to retain musical information.
+One could consider a simple thought experiment where there might be people without musical training who, just due to their innate abilities, are able to outperform people with musical training based on their cognitive ability.
 
 These are the first steps as well in any melodic dictation task.
 this is cognitive ability, defined as XXXX to do task
@@ -35,46 +52,55 @@ In order to do this, need to look at variables that might be at play.
 
 ### Musical Training
 
-Tacit assumption in pedagogy that people are going to start out about hte same.
-Karpinski limits the amount of melodic information that can enter _short-term melodic memory_ "somewhere between five and nine notes", citing Miller [@millerMagicalNumberSeven1956] then supports 
-Then the ideas is that with training...
-Via the process of Extractive Listening and Chunking are individuals then further able to "extend the capacity of short-term melodic memory"
-Viable theory specifically for melodic dictation on descriptive level.
+Tacit in many pedagogical assumptions is that most people start out roughly with the same ability to remember musical material and that this capacity increases with musical training as noted above.
+Karpinski defines this baseline limit of the amount of melodic information that can enter _short-term melodic memory_ as "somewhere between five and nine notes", referencing Miller's magic number seven^[Should I footnote here saying why this was not meant to be taken literally?] [@millerMagicalNumberSeven1956].
+Karpinski supports this claim with one experimental study by Marple (n.d.!!!) who corroborated Miller's limits (p.78) and additionally noted that the binding of musical features beyond that of pitch extended the range to approximelty six to ten notes.
+Similar findings were reported by Tallarico (XXX), Long (XXXX), and Pembrook (XXXX) who claimed the note limit to be between seven and eleven notes.^[For reasons noted in previous chapters (SECTION), it is important to stress the maximum about of notes able to be memorized should not be direclty interpreted as a one to one mapping of the amount of items that can be held in short term memory.
+Breifly reviewing earlier points, the first reason is that Miller's number 7 was never meant to be taken literally as a number used to investigate the items of memory, but rather a rheatorical device for a keynote address he was asked to give.
+Secondly, lieterature on the capacity limits of memory need to account for chunking mechanisms, most of which are bountiful in the musical domain as noted in SECTION.]
+
+In order to extend the capacity for musical memory, Karpinski puts forward two possible stragegies.
+The first is extractive listening and the other is chunking.
+Extrative listening is a processes described as ...
+Chunking on the other hand is a listener's ability to group certain parts of sensory information together, so that more information can take up less of the finite space in short-term muscial memory.
+According to Karpinkski, chunking increases with increases in musical understanding.
+
 
 This is also backed up with a host of literature showing htat musicians tend to outperform
 Especially when the task in musical 
 -- look at these examples here
 
-May of these studies could be read in such a way where its the effect of training, especially in musical thing.
+Taken as a whole, much of the literature could be interpreted to suggest that listeners begin as a tabula rasa, then as they engage with more musical activity, this activity affords them the ability to in perform better on musical tasks.
+While this might seem like an intuitive explanation for the findings, three large problems exist with this interpretation.
 
-though there are problems
+The first is that how musicianship is measured varies from study to study, thus making interpreation of the data much harder.
+In fact, music psychology in general suffers from having not standardized a way to measure musical enagement.
+Talamini note this problem in the aforementioned meta-analysis saying that 
 
-first is lack of how musicianship is measured.
+> Quote
 
-- Not only that, but field suffers from non-standard way to measure musicality
-- and question of what is your dependant varaible of what is being measured
-- relationshp exists, but depends how you conceptulize it.
-- One way to get aroudn musicality problem is Gold-MSI
-- points on gold msi 
-- gives us standard measure of musicality, ontological problem
-- also gives standard set of objective measrues
-- people establish that there is something here.
+and suggest that music psychology might consider moving towards more "catch all measures" of musicality such as the Goldsmiths Musical Sophistication Index CITE or the MUSEBAQ.
+Both tools use latent variable approaches that attempt to smooth over some of the problems with measuring such a messy construct.
+But one problem with adopting these tools is that it forces some sort of ontological commitment CITE FROM POT that has been critized by other CITE MEEE.
+
+
 - but one problem is that maybe that there more domain general processes accounting for this
 - one way that other people have looked at it os OS
 - They think about it as LV with three separate sets they define as xyz
 - thing is, this is very close to WM (what they call separate)
 
 
-second is causality is probably reversed
-But one thing that we have to keep in mind is that the direction of causality could actually be reversed.
-There is not enough experimentl data to suggest it.
--- mixed experimental data here
--- also lack of good covariates
+The second problem with interpreting the literature as practice driving all these effects is that this might confound the direction of causalitiy.
+As noted above, most of the evidence suggesting a relationship here derrives from cross sectional designs and is limited in its ability to posit causal relationships.
 
+Thirdly, these studies as a whole lack consistent control of covariates that might confound the findings (OS).
+Factors such as ... (Stuff from OS)
 
-And the rest of what we have is cross sectional and correlational 
-Really ways to understand it come from OS 
-they say three main things
+Considering these three confounds, it is only possible then to consider literature in one of three ways according to OS.
+
+1
+2
+3
 
 Thing that makes the mnost sense is probably what GS says that it exacerbates pre-existing differences.
 
@@ -86,9 +112,13 @@ OS looked at this a bit ago with the Gold-MSI and the idea of executive function
 -- paper summary here
 
 Here they break up EF into a few different categories,
--- note here the parallels on WM and melodic dictation
+-- note here the parallels on WM and melodic dictation.
 
-Important to highlight these sets of differences because tasks related to XYZ are very close to what you use on MD.
+One of the three skills of EF is updating.
+Defined as x
+And has been conceptualized by some as WMC.
+And if you think about it is basically MD.
+
 In fact, this parallel is not even that new 
 
 Looking at working memory we are not the first to point this out.
@@ -100,7 +130,6 @@ But this is a problem for a few reasons.
 
 if you define it as complex, need to be doing complex
 
-
 For those reasons, decide instead to adopt the Embedded Process Model by Cowan.
 It works like this.
 And will eventually be more suited for what we are trying to do.
@@ -110,11 +139,23 @@ So the task now is now to investrigate how all of these factors come together.
 First is to get a task that uses the first two steps of the Karpinski model that is accesible to the non-musically trained.
 Then idea is to parse out the data to see which of the variables contributes to this task.
 
+Having established a link between wmc tasks and md, need to now find a task that will mirror this bc it contributes
+Link back to MMD! 
+
 ### Dictation without Dictation
 
-Gold-MSI why here
+One of the most common paradigms used in music perception, specifically the memory for melody literature, is same different tasks HALPERN.
+Tasks like this require...
+Note it is both rentention and manipulation bc you have to compare.
+Can argue that this in some ways mirros MD without  the last two steps.
+Have A and B.
+Becuase the paradigm is set up like this, safte to assume it is a way to look at step 1 and 2 of dictation in general population.
+And then can relate it to other variables of interest.
 
 ### Cognitive Measures of interest
+
+Having established one of EF is WM, need to have way to measure it that is not direclty music and more established.
+
 
 * WMC but do it with complex span tasks
 * take two measures of ravens for good measure
