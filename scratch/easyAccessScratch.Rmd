@@ -119,6 +119,43 @@ Some researchers have estimated that XX amount of processes are needed to sucess
 
 ## Order of Chapter 2
 
+# Individual Differences
+## Literature Review
+
+### Hook
+
+Academic interest in the relationship between musical and cognitive ability dates back over a century.
+In 1904, Charles Spearman [@spearmanGeneralIntelligenceObjectively1904] reported that Carl Seashore's pitch discrimination test (Seashore) correlated with his conception of general intelligence (.70, p.276), yet used an extensive footnote to highlight that there were "many notable instances will easily be found where musical ability is apparently divorced from General Intelligence"(p 275) suggesting that the relationship between music and cognitive ability is perhaps more complex than he originally reports.
+He thought that it could be accounted for with......
+But accounting for the last 100 years of research in this area demonstrates that great progress actually has been made in attempting to understand the relationship between music and cognitive ability. 
+-- straight into polymorphism of ability
+
+People tend to frame the important studying of the link between two as possible way to improve cognition, thus improve quality.
+Note here that this tethering is danger zone IMO bc first devalues music as cultural, second if connection goes based funding so do the arts. 
+
+Audience: Individuals familiar with cognitive science that would think music is good way to talk about cognitive abilites
+
+Eventually i will say that 
+* WMC is really governing a lot of this work and people need to control for this pre-existing difference
+* 
+## Introduction
+
+hile musical ability is perhaps more affected by training than the other measures that were of interest to Spearman (i.e. language and mathematics), the relationship between musical and cognitive ability, and the factors that mediate their relationship still has yet to be fully understood.
+
+* Current state suggests that in some cases, musicians tend to do better than non musical peers
+* Okada and Slevc see this as explained by three possible hypotheses
+
+1. Music makes you smarter
+2. Smarter People take music lessons
+3. Higher functioning people tend to take music lessons and music training amplifys already pre-existing differences.
+
+It's important to get at this issue because if there were any causal elements found, this would have big implications since enhancing cognitive abilities would bring along with it the other benefits like X Y Z
+While this might be a nice side fiding, important to note that even if a causal link were to be established, tethering music engagement to its ability to make someone smarter is a bad idea for numerous reasons probably given by schellenberg. 
+
+Really the interesting reason to look into this relationship is that music, unlike other stimuli, provides a unique insight into looking things like gf and wmc bc no semantic information
+For example, if what is more likley the third hypothesis is true and there are just pre-existing differences that do not change but are mabye amplified with music lessons, this would have serious implications for a lot of the findings in the music psychology literature. 
+
+
 HOLDER 
 
 ### General intelligence and WMC 
