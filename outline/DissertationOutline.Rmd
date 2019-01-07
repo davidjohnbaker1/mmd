@@ -5,6 +5,10 @@ date: "August 27, 2018"
 output: html_document
 ---
 
+Beyond this, however, almost nothing is known about the time course
+of pitch interval encoding as a tune progresses from being completely novel to
+being very well known. p.241 Halpern and Barltett
+
 ## Chapter 1
 
 * Theoretical Background Rationale for Computational Musicology and cognitive psychology
