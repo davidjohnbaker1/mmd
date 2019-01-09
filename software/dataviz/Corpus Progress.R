@@ -28,3 +28,15 @@ print(paste("If Rory encodes",helpmelodycount,"melodies, then you only need to w
 print(paste("You have",handindayuntil,"until your hand in."))
 print(paste("You have",defensedayuntil,"until your defense."))
 
+#======================================================================================================
+# Tweet
+
+library(lubridate)
+why_to_write <- function(){
+  today <- today(tzone = "")
+  defense <- ymd("2019-05-02")
+  until <- defense - today
+  print(paste("You have",until,"days until your PhD defense."))
+}
+
+why_to_write()
