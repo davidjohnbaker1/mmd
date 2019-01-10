@@ -6,6 +6,8 @@ The point of this chapter is to show you can use tools from computational musico
 * Get featuers from thigns like FANTASTIC
 * How they can be used in experiemnts eventually 
 
+Thesis: Measures from computational musicology can be helpful in pedagogical setting. First talk about background and basics before, then add in a section about perceptual fluency via statistical learning and how a corpus and computational model of auditory cognition can help serve that purpose, then if IC is a good measure, how that will lend itself to better ways of student success (and that we only got to this via a computational data drive approach)
+
 As discussed in literature review, people have found ways to measure melodies with computers.
 Can do this just with the melody itself.
 Can do this with melody and other melodies in context.

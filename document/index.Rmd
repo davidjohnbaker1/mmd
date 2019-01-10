@@ -12,6 +12,11 @@ github-repo: rstudio/bookdown-demo
 description: "This dissertation explores both individual and musical features that might contribute to processes involved in melodic dictation."
 ---
 
+```{r}
+library(tidyverse)
+```
+
+
 # Significance of the Study
 
 All students pursing a Bachelor's degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation [@NationalAssociationSchools2018 Section VIII.6.B.2.A]. 

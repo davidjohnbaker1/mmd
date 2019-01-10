@@ -1,6 +1,9 @@
 # Hello, Corpus
 
 -- chapter will basically just be reference manual for corpus?
+NO
+
+
 
 After make argument about two different types of corpora, say we have implicit
 If it is implicit, follows that there should be some sort of overlap
@@ -12,7 +15,7 @@ kind of like a markov chain and leonard meyer.
 * Origin outside music, current state IN music, limitations
 * Describe features of music 
 * Compare it to the features in the Essen Collection
-* 
+*
 
 Corpus work helps inform how we see the world bc it generalizes.
 This was first done in linguistics.
