@@ -2,7 +2,7 @@
 # Dissertation Progress Graphs
 library(tidyverse)
 library(lubridate)
-berkowitz_progress <- read_csv("corpus/symbolic/Berkowitz Progress.csv")
+berkowitz_progress <- read_csv("corpus/symbolic/Berkowitz Progress - Sheet1.csv")
 head(berkowitz_progress)
 
 # Percent Done
