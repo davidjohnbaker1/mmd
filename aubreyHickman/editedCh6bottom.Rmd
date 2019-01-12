@@ -1,0 +1,57 @@
+---
+title: "scratch"
+author: "David John Baker"
+date: "1/11/2019"
+output: html_document
+---
+
+Below the model in Figure 4, I provide a brief walk through of one iteration of the model.
+
+### Computational Model 
+
+
+The example above shows one iteration of the model run using the musical example from above using a hypothetical corpus for the pattern matching.
+Using the model above, the following inputs were defined _a priori_:
+
+* The **Prior Knowledge** is a hypothetical corpus of symbolic strings representing all n-grams of melodies
+* The **Threshold** is set to **five** exact matches in the **Prior Knowledge**
+* The **WMC** is set at 17 
+* The **Target Melody** is the Schubert excerpt from above
+* The **String Position** object is used to track the position in the dictation
+* The **Difficulty** object starts at 0
+* The **Dictation** object is ```NULL``` to begin, and each new n-gram successfully transcribed is annexed to it
+
+Figure 4 progresses from left to right over the course of time.
+The algorithm begins by first running the ```listen()``` function on the **Target Melody**.
+First the model checks that there are notes to transcribe; this being the first loop of the model, this is statement will be ```FALSE``` so the next step is taken.
+Notes of the **Target Melody** are read in to the **Selective Attention** buffer until the information content of the melody exceeds that of the working memory threshold.
+This is depicted graphically in the leftmost panel of Figure 4.
+Each note unfolding over time fills up the **Selective Attention** working memory buffer.
+When the amount of information reaches the perceptual bottleneck-- as indicated by the dashed line-- the **Selective Attention** buffer stops receiving information.
+At this point the model will mark where in the melody it stopped taking in new information for later.
+Here the contents in **Selective Attention** are moved to the ```transcribe()``` function.
+
+With the contents of **Selective Attention** passed to ```transcribe()```, the model adds one to the counter indicating the first search is about to run.
+Moving to the middle panel of Figure 4, the symbol string of notes in the first column are indexed against the **Prior Knowledge**.
+Only if a five note pattern has appeared more than or equal to  five times, as determined by the **Threshold** input, will the corresponding ```EXPLICIT``` column be ```TRUE```.
+In this case, this pattern has occurred over the threshold of 5 and thus a successful match is found.
+It is at this step that the search resembles that of Cowan's model of working memory as active attention.
+The pattern being searched for is compared against a vast amount of information, with cues from the contents of what is in **Selective Attention** grouping similar patterns together.
+At the neural level, this is most likely a much more complex process, but to show this grouping I note that this search is at least organized by the first pitch.
+I assume it would be reasonable that patterns starting on G as $\hat{5}$^[As determined by being calculated against the corpus with both pitch and scale degree information] might happen together.
+Since this string does have a ```TRUE``` match with ```EXPLICIT```, the contents of **Selective Attention** are considered notated.
+At this point the model would record the 5-gram, along with the string that it was matched with.
+the function would then re-run the ```listen``` function via the ```notateReentry()``` function at the next point in the melody as tracked by the **String Position** object.
+
+If there were not to have been an exact match, the model would remove one token from the melody and performed the search again on the knowledge of all 4-grams and add one to the **Difficulty** counter.
+This process would happen recursively until a match is found.
+If no match is found in either the complex representation, or that of the two rhythm and pitch corpora, the fifth step of ```transcribe()``` would trigger ```notateReentry()``` to be run without documenting the n-gram currently being dictated.
+This would be akin to a student not being able to identify a difficult interval, thus having to restart the melody at a new position.
+Decisions about re-entry warrant further research and discussion, but for the sake of parsimony, this model assumes linear continuation. 
+As notated in above, other modes of re-entry could be incorporated into the model. 
+
+This looping process would occur again and again until the entire melody is notated.
+With each iteration of each n-gram notated, the difficulty counter would increase in relation to the representation of that string in the corpus. 
+This provides an algorithmic implementation of a theorist's intuition that less common n-grams or intervals (2-grams) are going to lead to higher difficulty in dictation.
+Also worth noting is steps 3 and 4 in the ```transcribe()``` function are akin to Karpinski's proto-notation.
+Further research might consider advantages in the order of searching the **Prior Knowledge** corpora. 
