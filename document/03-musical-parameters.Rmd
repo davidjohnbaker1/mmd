@@ -14,7 +14,131 @@ Can do this with melody and other melodies in context.
 And this too has been done in the music pedagogy world.
 
 I am saying that there's alink between what is on page and perception that we can take advantage of
+------------------------------------------------
 
+Music theorists use intution to build the correct curricla for their students.
+We see this manifested in texbook layouts from the X to X to X.
+Textbooks are designed to go from the easier to the more difficult.
+If opening to an random page in fact in almost any etude book, bet is that earlier ones are easier.
+But what makes this the case?
+In the case of melodies, seems to be colleciton of many features.
+Note density
+Notes involved
+How many notes to choose from
+more features
+but these pretty much from intution of theorist pedagogy are wrapped up in complexity.
+
+COMPLEXITY
+Looking at the two melodies below, anedcdotal evidence suggests one is much easier to dictate than the other.
+MOre discussuoion below. 
+
+Even see this in terms of behavioral responses.
+
+There is also the anecodtal evidence ot suggest that some students think it gets too hard too fast.
+And imporantly from a pedagogical standpoint, we need to be able know how difficult melodies are for fairness of grading.
+Of course many other variables are at play (if student showed up) and goals of instructor in scope of course, but intution is that there are some benchmarks expected of each semester. 
+
+We see this increase in assumed complexity in what theorists report.
+And though ineffiable, we have tools from computaitonal musicology to approximate compelxity
+IN THIS CHAPTER I EXAME HOW MEAUERE OF COMPLEXITY CAN BE CONSIDERED STAND INS FOR THEORIST INTUTION.
+I do this by first looking at differences between statin an dynamic ways of ocmputaiton modeling.
+I then conclude the chapter by positing that the distribution of patterns in acorpus can be used to create a more lienar path to suces by combing the work in ciomputaitonakl musicology with three theories core to music psycholoyg.
+Show how SLH, PPH, and PF can be used to desmontrate a logic that explains why some musical sequences are easier to remember than others and how we can model this computaitonally.
+
+1. some sequences are easier to process, means they are more expected.
+2. IC measures of expectancy can be used as prox for memory
+3. Given sequence of N lenght melody, ease of dication which is loads on memory is relative to its degree of expectedness in IC and link it back to corpus by saying that it is relative to it's n-gram distribution frequency.
+
+----
+
+Restate theorist need for compelxity and dificulty with anecodtal evidence of 2 melodies.
+Discussion here, NOT ABOVE
+
+Even asked theorist to rate these mleodies
+
+We can move beyond using just anecodate evidence and look at a small study that I ran.
+I asked people to rate a subset of 50 melodies on ten different pedagogical tasks.
+I plot them below in Figure X.
+For each section see that there is a general increase in each Theorist's rating of the parameters as thigns go on.
+See this over the length of the book.
+But also note that I have added in a measure of inter rater reliability and see that it gets lower as melodies go down.
+Not eveyrone agrees what is hard and what is diffucult.
+
+
+both andecodate and quantiative eviden suggest that this even in layout of textbook
+
+BUt problem here is that expert intutions fail (psychologgy)
+And that for other resons mentioned above, don't agree.
+Students quick to bemoan when way too hard.
+One posible rememdy is to seee how computaitonal musicology can help
+
+----
+
+History of Computaitonal Musicology
+
+(history here)
+ends in dynamic vs static.
+
+Static is fantastic or meredith or that collection
+Dnyanic would be soemthing like pearce that gives it for every note.
+
+Now going to demsotrate how comp measures are similar to theorists intutions, then show how evidence from corpus and esequential process can inform pedaoggy
+
+----
+
+Static
+
+Bit more on Fantastic here
+
+As before, use SS corpus to derive X features via fantastic
+As expect corpus, so does features??????
+Algiint with wht theorists say here
+Overlay with Fantastic 
+So what?
+Pedagoies could use of features for selecting melodies ot help make things more linear if shown that there is abehavioral mapping of the features to humans.
+Tho this assumes suspended animation.
+Also another problem with this approach is that its potpourri.
+Comes from everything.
+
+---
+
+Dynamic
+
+What is IDyOM
+How is it related to MD
+SLH PPH
+What is it good at, yes expectations. look at all this literature
+But what about memory!
+accd to Pereceptual fluency hyptthessis which states......
+expose to patterns means better processing
+infact see this with people learning things implicilty (light learning task from reading in On Repaat)
+Rohehimer and margulis citations
+
+If true, repeatitive stimuli are then easier to processly
+Lking aslo follow that IC measures of expctedness (if we assume expct are easier ot procecss) can be used in memory measure
+Floow that n grams proccedss reelative to their frequncy distrituion in a corpus.
+In turn they should also have lower IC.
+To show this I extract out of a corpus of 2 3 5 10 grams form both sides of frequency distribution of a corpus to present side by side show intuitive.
+this is obvious
+
+we can also plot this continously 
+
+If true, can use this logic to reate a new digital IC measure to sort n-grams based on their IC, use it for teaching, and then this will creat a too fast too hard amelioration.
+Can also use it in some apps for learning
+
+I have listed the n-grams in the back.
+
+In this chatper i have shown that theorists agree up to a point.
+We need to be objective
+we then bborrow informaiotn from Comp music.
+Show that we can get similar results from both static and dynamic models.
+And show that you can use digital corpus to represent frequency n-gram disgribuitons.
+These in turn will help our teaching as not to overload.
+Allows students to dictate bigger and bigger IC clips while being somewhat ecologically valid.
+
+
+
+------------------------------------------------
 ### Information Content Referencs 
 
 OTHER PEOPLE WHO HAVE DONE THIS
