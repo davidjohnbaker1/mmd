@@ -18,6 +18,70 @@ In order to obtain a clearer picture of what mechanisms contribute to this proce
 This chapter investigates the first two steps of the Karpinski model with an experiment investigating individual factors that contribute to an individual's musical memory that do not depend on their knowledge of Western musical notation.
 By understanding which, if any, individual factors play a role in this process, it will inform what can be reasonably expected of individuals when other musical variables are introduced.
 
+----
+New Meat??
+
+II. Way MD works 
+  As stated bove, all expect the same baseline
+  Get better with extractive lsitening and chunking
+    Def extractive lsitening, this also would be question of AUDIOTRY DISTRACTION ALA EMILY
+    Def Chunking as well
+  Logic increases the both, get better at melodic dication.
+  But does the literature support that?
+  
+III. Mem 4 melodies
+  M4M says that no musical advantage in this, tho not dictation
+    example 1 2 3
+  But bc m4m is not MD, can't jsut go for it
+    MD is layered
+    m4m is jsut a chocie
+  Looking at other lit, yes, there is an effect of training
+    see this with general ingelligecne (examples)
+    see this with memory (talamin)
+    Mem exp when short an tonal, just like MD! 
+    has been interpreted as fx of traning
+    but probably reversed in direciton
+  Cognition
+    Obvious a link here, assumed to be FX
+    could be some combination of Train, int, wmc
+    expecially imporant to consider effects of WM 
+    see all of bersz
+    really need ot look at all at once to distentangle
+    need paradigm that does xyz
+    Other people have started to do this, okda slevc
+  How
+    first assume that M4M is MD 12 
+    Experiment with individual factors
+    Path analysis 
+    
+IV. Experiment
+V. Results and MODEL discussion
+
+VI. Relavnace to dicatation
+  A. recap looked at MM via m4m SD
+  Assume xyz
+  When looking at results found yes on wmc
+  this means berz was right
+  also corrobrates okda slevc?
+  This should inform further research, esp modling addressed in later chapters
+  Why didnt others do as well?
+    Why gf sucks? wrong skill (pot maybe)
+    not senative to specific at MD
+    looking at large modeling, might not pick that up
+  What does this mean for music theory pedaoggy?
+    WMC improtant
+    note distribution of wmc (not going to have clinical, but obvs important in our modeling)
+    The thing is that capacity can not expand (chennete)
+    Also likely not clincial populations
+    Answer after maybe consider that distractor thing (related to extractive listening, not focus in but tuen out)
+    Want to see if chunking is question of peceptual fluency in dividual
+    coudl be that as PF goes up, better chunk
+    thsu better m4m and performance in these tasks
+    Ran some extra regressions to look at that at individual level and objective perofrmance?
+    Diff coudl just be exccerbated by WMC
+    will investigate question of PF with corpus evdience in next chapter
+---
+
 ## Individual Differences
 
 While explicit musical training is proposed to get people better at this...
