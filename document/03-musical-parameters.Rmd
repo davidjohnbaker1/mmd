@@ -1,76 +1,103 @@
 # Computation Chapter
 
-The point of this chapter is to show you can use tools from computational musicology as predictive features of melodies in experiments. 
+## Rationale
 
-* Comp linguistics and information theory
-* Get featuers from thigns like FANTASTIC
-* How they can be used in experiemnts eventually 
+Music theorists use their pedagogical intutions to build the appropriate curricula for their aural skills pedagogy.
+Teaching aural skills typically starts with simpler exercises, with a limited number of notes and rhythms, and then slowly progresses to more difficult repertoire. 
+Evidence for this progression is evident in aural skills text books.
+Of the major aural skills textbooks such as the Ottmann, the Berkowitz, Kaprinski, Clendenning Marvin, DobreaGrindal Cleland, each is structured in such a way that musical material earlier on in the book is considered easier than that near the end.
+This is true of almost any ETUDE book; open a random page and the difficulty of the study will most likely scale accordingly to it's relative position in the textbook.
+But what makes melodies become more difficult to perform?
 
-Thesis: Measures from computational musicology can be helpful in pedagogical setting. First talk about background and basics before, then add in a section about perceptual fluency via statistical learning and how a corpus and computational model of auditory cognition can help serve that purpose, then if IC is a good measure, how that will lend itself to better ways of student success (and that we only got to this via a computational data drive approach)
+Intuitivily, music theorists have a general understanding of what makes a melody difficult.
+It would be safe to assume that more complex melodies are more difficult to perform.
+Factors that might contribute to this complexity could be attributes such as the melody's note density, the number of notes availble to be chosen from (is it pentatonic, diatnoic, is the entire chromatic aggregate present?), or even more intuitivly understood factors like how tonal the melody sounds or the intricacies of the rhythms involved.
+Given all these factors, there is no definitive combination of features that could always predict how complex a melody is.
+In many ways, questions of melodic complexity are very much like questions of melodic similarity: it depends on both who is aksing the question and for what reasons (CITE SELF).
 
-As discussed in literature review, people have found ways to measure melodies with computers.
-Can do this just with the melody itself.
-Can do this with melody and other melodies in context.
-And this too has been done in the music pedagogy world.
+Looking at the melodies presented in Figures X and Y, a music theorist can sucessfully intuit which melody is more complex, and presumably, more difficulty to dictate.
 
-I am saying that there's alink between what is on page and perception that we can take advantage of
-------------------------------------------------
+FIGURES 1 and 2
 
-Music theorists use intution to build the correct curricla for their students.
-We see this manifested in texbook layouts from the X to X to X.
-Textbooks are designed to go from the easier to the more difficult.
-If opening to an random page in fact in almost any etude book, bet is that earlier ones are easier.
-But what makes this the case?
-In the case of melodies, seems to be colleciton of many features.
-Note density
-Notes involved
-How many notes to choose from
-more features
-but these pretty much from intution of theorist pedagogy are wrapped up in complexity.
+While I reserve and extended discussion of what features might characterize why one melody is more difficult than the other to dictate for below, I find it safe to assume that these melodies do differ in a fundamentally different way when perfored in a similar fashion.
 
-COMPLEXITY
-Looking at the two melodies below, anedcdotal evidence suggests one is much easier to dictate than the other.
-MOre discussuoion below. 
+Additionally, many readers of this dissertaiton can probably draw from anecdotal evidence of their own as to how student's at various stages of their aural training might fair when asked to dictate both melodies.
+For some, melody Y might be overwhelmingly difficult.
+In fact, it might be overwhelmignly difficulty for the vast majority of people.
+Student are quick establish if they belive that a melody they are being tested on is too difficult, and importantly from a pedagogical standpoint, we as educators need to be able to know how difficutly melodies are given our students in order to asses a degree of fariness in our grading of student's performance.
+While of course with each student and grading, there are inveitably many other variables at play ranging from personal abilities to the goals of the instructor in the scope of their course, there are intuitive benchmarks that students are expected to be able to complete throughout their education.
+As students progress, they are expected to be able to dictate more and more complex melodies, yet exactly what makes a melody complex is often left to the expertise and intuition of a theorist.
 
-Even see this in terms of behavioral responses.
+In this chapter I examine how tools from computational musicology can be used to help model an aural skill's notion of complexity in melodies.
+First, I establish that theorists agree on the differences in melodic complexity using results from a small survey of XX theorists.
+Second, explore how both static and dynamic computationally derrived measures can be used to approximate the theorist's intution. 
+Third and finally, I use evidence afforded by research in computational musicology to posit that the distributional patterns in a corpus of muisc can be used to create a more linear path to sucess amongst students.
+I demonstrate how by combining evidence from the statistical learning hypothesis, the proabilistic prediction hypothesis, and the perceptual fluency hypothesis can be used to demonstrate why some musical sequences in a melody of a certain complexity are easier to remember than others, and how this can be modelled computationally.
+Using this logic, I then create a new compendium of short melodies, sorted by their perceptual complexity, that can be used for teaching applications.
 
-There is also the anecodtal evidence ot suggest that some students think it gets too hard too fast.
-And imporantly from a pedagogical standpoint, we need to be able know how difficult melodies are for fairness of grading.
-Of course many other variables are at play (if student showed up) and goals of instructor in scope of course, but intution is that there are some benchmarks expected of each semester. 
+## Agreeing on Complexity
 
-We see this increase in assumed complexity in what theorists report.
-And though ineffiable, we have tools from computaitonal musicology to approximate compelxity
-IN THIS CHAPTER I EXAME HOW MEAUERE OF COMPLEXITY CAN BE CONSIDERED STAND INS FOR THEORIST INTUTION.
-I do this by first looking at differences between statin an dynamic ways of ocmputaiton modeling.
-I then conclude the chapter by positing that the distribution of patterns in acorpus can be used to create a more lienar path to suces by combing the work in ciomputaitonakl musicology with three theories core to music psycholoyg.
-Show how SLH, PPH, and PF can be used to desmontrate a logic that explains why some musical sequences are easier to remember than others and how we can model this computaitonally.
+Returning to melodies X and Y from above, an aural skills pedagogue most likely has some sort of intution of which of the two melodies would be easier to dictate.
+Melody X --- describe melody X.
+On the other hand, Melody Y --- describe melody Y.
+Yet both melodies are same range, same style, have one chromatic note, and use the exact same set of rhythms, just reorganized to be played at different times.
+Considering these differences, it would be safe to assume that melody X is probably easier to dictate than melody, all other features held constant^[I assume that both melodies were to be played].
+
+In fact, aural skills pedagoges tend to agree for the most part on questions of difficulty of dication.
+To demonstrate this, I surveyed XX aural skills pedagogues who have all taught at least two years of aural skills at the University level asking them questions presented in TABLE X on a sample of XX melodies found in the BERKOWITZ.
+Overall, the sample exhibited a _____ degree of interrater reliability as measured by X^[Reference here about what is good and what is bad.]
+Plotting the respondant's answers across the textbook, with the book progressing from less to more difficult, there is a trend of pedagoges to AGREE ON THE SIMPLER ONES THEN HAVE MORE DIAGREEMENT LATER ON? 
+Central to my argument is a VERY LINEAR TREND of rating of complexity that correlate with both PAGE NUMBER from the textbook that it was drawn from, as well as an even better fitting model of THE EXACT NUMBER OF THE MELODY.
+Also intersting is point here about not everyone agreeing on what is hard????
+
+Taken together, both anecdotal and the evidence for this survey suggest that aural skills pedagoges tend to agree on how complex a melody is for use in an aural skills setting.
+This sense of difficutly or complexity tracks as the book progresses, (duh), but to attribute the cause of a melody being difficult as its position in the book would be making a pretty hilarious error. 
+And importnatly, even experts seem not to agree about the appropirateness of the complex melodies.
+And to compound this problem, literature from psychology (Kanneman and Tversky, that medicice doctor study) importantly highlight the fact that it's important to be skeptical of expert opinions.
+Drawing from the medical liteature-- a body of research where getting somethign wrong probably matters more-- have evidence of stuff happenign with heart attcks.
+Undelrying logic being that people think they have the key, but really they do not.
+And what solved this was a computaional problem. 
+The rest of the chapter goes on to investigate if similar computaionally derrived tools can help aural skills pedagogy.
+
+
+
+## Modeling Complexity
+
+### Static
+
+### Dynamic 
+
+## Distributional Frequency Hypothesis
+
+### Distributional Patterns in Corpus
+
+### Perceptual Theories of Implicit Learning
+
+* Implict Reviews 
+* SLH
+* PPH
+* PFH
+* EE Literature?
+
+### Logical Argument
 
 1. some sequences are easier to process, means they are more expected.
 2. IC measures of expectancy can be used as prox for memory
 3. Given sequence of N lenght melody, ease of dication which is loads on memory is relative to its degree of expectedness in IC and link it back to corpus by saying that it is relative to it's n-gram distribution frequency.
 
+Predictions that this would give.
+Maybe small huron-y evidence to suppor this?
+
+### Peagogical applcation
+
+Here is how you would do it pedagoically
+I list the melodies at the back.
+I would predict that if people learned this as supplment, they would do a lot better.
+Also get rid of some sort of performance anxiety in little successes.
+
+
 ----
 
-Restate theorist need for compelxity and dificulty with anecodtal evidence of 2 melodies.
-Discussion here, NOT ABOVE
-
-Even asked theorist to rate these mleodies
-
-We can move beyond using just anecodate evidence and look at a small study that I ran.
-I asked people to rate a subset of 50 melodies on ten different pedagogical tasks.
-I plot them below in Figure X.
-For each section see that there is a general increase in each Theorist's rating of the parameters as thigns go on.
-See this over the length of the book.
-But also note that I have added in a measure of inter rater reliability and see that it gets lower as melodies go down.
-Not eveyrone agrees what is hard and what is diffucult.
-
-
-both andecodate and quantiative eviden suggest that this even in layout of textbook
-
-BUt problem here is that expert intutions fail (psychologgy)
-And that for other resons mentioned above, don't agree.
-Students quick to bemoan when way too hard.
-One posible rememdy is to seee how computaitonal musicology can help
 
 ----
 
@@ -123,10 +150,10 @@ this is obvious
 
 we can also plot this continously 
 
-If true, can use this logic to reate a new digital IC measure to sort n-grams based on their IC, use it for teaching, and then this will creat a too fast too hard amelioration.
-Can also use it in some apps for learning
+go for further psychology experiemnts in this, 
+lays basis for the computational model
+and more direct pedagogical applicaitons are discussed below
 
-I have listed the n-grams in the back.
 
 In this chatper i have shown that theorists agree up to a point.
 We need to be objective
@@ -139,6 +166,25 @@ Allows students to dictate bigger and bigger IC clips while being somewhat ecolo
 
 
 ------------------------------------------------
+
+The point of this chapter is to show you can use tools from computational musicology as predictive features of melodies in experiments. 
+
+* Comp linguistics and information theory
+* Get featuers from thigns like FANTASTIC
+* How they can be used in experiemnts eventually 
+
+Thesis: Measures from computational musicology can be helpful in pedagogical setting. First talk about background and basics before, then add in a section about perceptual fluency via statistical learning and how a corpus and computational model of auditory cognition can help serve that purpose, then if IC is a good measure, how that will lend itself to better ways of student success (and that we only got to this via a computational data drive approach)
+
+As discussed in literature review, people have found ways to measure melodies with computers.
+Can do this just with the melody itself.
+Can do this with melody and other melodies in context.
+And this too has been done in the music pedagogy world.
+
+I am saying that there's alink between what is on page and perception that music theory ped can take advantage of
+
+
+-------------------------------------------------
+
 ### Information Content Referencs 
 
 OTHER PEOPLE WHO HAVE DONE THIS

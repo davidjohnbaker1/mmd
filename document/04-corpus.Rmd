@@ -5,6 +5,10 @@ NO
 
 
 
+
+
+-------------------------------
+
 After make argument about two different types of corpora, say we have implicit
 If it is implicit, follows that there should be some sort of overlap
 kind of like a markov chain and leonard meyer.
@@ -13,9 +17,9 @@ kind of like a markov chain and leonard meyer.
 
 * Point is to introduce corpus 
 * Origin outside music, current state IN music, limitations
-* Describe features of music 
+* Describe features of music in corpus
 * Compare it to the features in the Essen Collection
-*
+* then talk about using IC idea from previosu chapter, how that can be applied pegagoically
 
 Corpus work helps inform how we see the world bc it generalizes.
 This was first done in linguistics.
