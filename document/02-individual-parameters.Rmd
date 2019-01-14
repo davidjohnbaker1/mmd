@@ -1,6 +1,6 @@
 # Individual Differences
 
-### Rationale 
+## Rationale 
 
 The first two steps of Gary Karpinski's model of melodic dictation [@karpinskiAuralSkillsAcquisition2000; @karpinskiModelMusicPerception1990] rely exclusively on the mental representation of melodic information.
 Karpinski conceptualizes the first stage of _hearing_ as solely involving the physical motions on the tympanic membrane, as well as the listener's attention to the musical stimulus.
@@ -18,8 +18,9 @@ In order to obtain a clearer picture of what mechanisms contribute to this proce
 This chapter investigates the first two steps of the Karpinski model with an experiment investigating individual factors that contribute to an individual's musical memory that do not depend on their knowledge of Western musical notation.
 By understanding which, if any, individual factors play a role in this process, it will inform what can be reasonably expected of individuals when other musical variables are introduced.
 
-----
-New Meat??
+## Individual Differences
+
+
 
 II. Way MD works 
   As stated bove, all expect the same baseline
@@ -80,7 +81,6 @@ VI. Relavnace to dicatation
     Ran some extra regressions to look at that at individual level and objective perofrmance?
     Diff coudl just be exccerbated by WMC
     will investigate question of PF with corpus evdience in next chapter
----
 
 ## Individual Differences
 

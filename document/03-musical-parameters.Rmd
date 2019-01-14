@@ -59,13 +59,99 @@ Undelrying logic being that people think they have the key, but really they do n
 And what solved this was a computaional problem. 
 The rest of the chapter goes on to investigate if similar computaionally derrived tools can help aural skills pedagogy.
 
-
-
 ## Modeling Complexity
+
+The ability to quantify what theorists generally agree to be melodic complexity depends on the ability to distill complexity into it component parts.
+Earlier, when comparing melodies X and Y, some of the features put forward that might contribute to this measure were features like note density, range, what scale the melody draws its notes from, how expected the notes are, and the rhthmic scaffordling that the melody hangs on.
+The combination of these smaller features makes up what could be concieved of as complexity.
+
+As with any computionally derrived measures, what is input into the model is very important.
+And just because something is salient, does not mean that it should be entered.
+Attemping to derive features of melodies goes back a long way.
+-- ortmann
+and some actual music ed studies since then.
+It assumes some sort of suspended animation of listening, but close to something. 
+While phenomicaloglcally correct, measures like this are becoming more common in music psychology research.
 
 ### Static
 
+* idea with an abstracted feature is that it is something perceptable to the listener, but possibly hard to quantify given traditional tools of music theory.
+
+Often, these abstracted features come inspired from other domains like computational linguistics.
+Perhaps one of the most popular features in recent decades is the normalized pairwise variability index or nPVI.
+The nPVI is a measure of xxxx in a langauge.
+Shown in FIGURE X, it quantifies the xxx by the yyy in order to proivde some sort of metric that can serve as a stand in of the perception that some langauges sound perceptually different.
+In lingusitics, the nPVI has been used to delinate stress timed langauges from something else...
+Recenlty in the past x years, music science researchers have used the nPVI to attempt to investigate claims about the relationship between speeach and laguage (CITE ALL HERE).
+
+While results are mixed and some people argue against nPVI (Nat), it does serve as a very good example of a static comuputationall derrived measure.
+Just like taking the average weight in a population, the nPVI summerizes a phrase and importantly assumes that this measure is representive of the entire phrase the calcuation was performed upon.
+
+or stuff here of meredith and that chapter. 
+
+Perhaps the most complete set of computational measures as applied to music perception comes from Daniel Mullensiefens' whole name FANTASTIC toolbox CITE.
+According to FANTATIC's techncial report, 
+
+> "FANTASTIC is a program...that analyzes melodies by computing features The aim is to characterise a melody or a melodic phrase by a set of numerical or categorical values reflecting different aspects of musical structure. This feature representation of melodies can then be applied in Music Information Retrieval algorithms or computational
+models of melody cognition." (pp. 4)
+
+Drawing from fields both central and perphircal to music science, FANTASTIC computes a collection of XX features to analyze features of melodies and continues from a tradition of feature extraction in music research FROM  Lomax (1977), Steinbeck (1982), Jesser (1990), Sagrillo (1999), Eerola and Toiviainen (2004) and since it's release has been sucessful at ...... SINCE THEN.
+Addittionally, FANTASATIC also provides a framework for comparing the features of a melody with a parent corpus from which the melody belongs.
+
+Returning to the Aural Skills classroom, many of these features can be used to approximate the intutions of complexity as agreed upon by theorists.
+Below, I SHOW A SERIES OF PLOTS WHERE the continously measured abstracted features of FANTASTIC are plotted against the measures of perceieved complexity and difficulty of expert aural skills pedagoges with their respective correlations in TABLE X.
+
+GIANT FIGURE HERE
+
+GIANT TABLE HERE
+
+From this, it becomes evident that some features like __________ and ________ succede quite well in explaining the variance of the rated complexity measures, while others like __________ and ________ do not.
+I suggest that the reasons that ________ measures are sucessful in explainig is because ___________________.
+
+In modeling this problem univariatly (one v one), it quicly becomes evident that no single static measure from FANTASTIC is able to complete mirror that of the complexity measrues.
+Following past research (HARRISON, ME, OTHER PAPER THAT I CANT THINK OF), I used a PRINCIPAL COMPONENTS ANALYSIS to distill a single measure of complexity from THIS THIS AND THIS, that I then plot against the ratings and show that using this measure in a regression context increases our correlatio/R2 up a bit.
+
+Hopefully at this point, I can make the argument that I am getting quite close at fully explaining the variance in ratings.
+Finally, using the features of FANTASTIC, I can also use a random forrest method (LIKE THESE DANIEL PAPERS) to use some machine learning methods to see what best explains this data.
+
+USING A .... details of Random Forrest here......
+
+And importanly..... Variable imporacne plot which works by running multiple models and seeing how much variance is accounted for when the model is left out.
+
+We see that X Y Z are of highest importance, and this corroborates literature from other FANTASTIC measures that say XYZ.
+
+This is important for pedagogy, this can be used to help provide objective measure of difficulty.
+Can also be a starting point for work on linking these various features with listener response.
+And thus help people desgin curricula and also then better understand human pecerception and role of melody in the aural skills clasroom. 
+
+Though while sucessful at modeling, using various linear combinations of these static abstracted features still assumes that listerns experience melodies in some sort of perceptual suspended animation. 
+In order to have more phenomenologically approriate model that incorporates computainoally derived features, it is important to turn to dynamic models of music perception.
+
 ### Dynamic 
+
+What is IDyOM
+How is it related to MD
+SLH PPH
+What is it good at, yes expectations. look at all this literature
+But what about memory!
+accd to Pereceptual fluency hyptthessis which states......
+expose to patterns means better processing
+infact see this with people learning things implicilty (light learning task from reading in On Repaat)
+Rohehimer and margulis citations
+
+If true, repeatitive stimuli are then easier to processly
+Lking aslo follow that IC measures of expctedness (if we assume expct are easier ot procecss) can be used in memory measure
+Floow that n grams proccedss reelative to their frequncy distrituion in a corpus.
+In turn they should also have lower IC.
+To show this I extract out of a corpus of 2 3 5 10 grams form both sides of frequency distribution of a corpus to present side by side show intuitive.
+this is obvious
+
+we can also plot this continously 
+
+go for further psychology experiemnts in this, 
+lays basis for the computational model
+and more direct pedagogical applicaitons are discussed below
+
 
 ## Distributional Frequency Hypothesis
 
@@ -95,77 +181,18 @@ I list the melodies at the back.
 I would predict that if people learned this as supplment, they would do a lot better.
 Also get rid of some sort of performance anxiety in little successes.
 
+## Chapter Conclusions
 
-----
+In this chapter I have demonstrated how tools from computational musicology can be used as an aide in aural skills pedagogy.
+After first establishing the extent to which aural skills pedagogues on various melody parameters, I then show how two families of computationally derrived features can stand in for a pedaguges intution.
+First, using the FANTASTIC toolbox, I show how different combintations of static abstracted features can help explain theorists agreed upon complexity.
+This first will help with selection of melodies and also provides insights as to which features of the melodies contribute most to percieved difficutly.
+Second, I demonstrated how assumptions derived from the IDyOM framework can serve as a basis for the intutions of why smaller sequences of notes within melodies are more or less difficult to dictate.
+Using the logic that sequences that are easier to process are more expected, and that computed measures of information content can be used as a proxy for memory, I show that it follows that given the sequence of an N lenght melody, the ease of dictaiton that it loads on memory is relative to both its degree of expectednes quantified in terms of informaiton content and link it back to hte corpus by linking THAT to it's n-gram distribbutional freuqency. 
+This chain of thinking then allowed me to put forward a new sequence of melody segments that can be arragned, like other theory textbooks, in terms of their increasing complexiy.
+I argue that using this smaller, snippit approach, will allow students to not be overwhelmed in their learning by taking a more linear path to dictation, before moving on to more more ecologically valid melodies.
+I finish by disucssiong how this might be implemented in the classroom.
 
-
-----
-
-History of Computaitonal Musicology
-
-(history here)
-ends in dynamic vs static.
-
-Static is fantastic or meredith or that collection
-Dnyanic would be soemthing like pearce that gives it for every note.
-
-Now going to demsotrate how comp measures are similar to theorists intutions, then show how evidence from corpus and esequential process can inform pedaoggy
-
-----
-
-Static
-
-Bit more on Fantastic here
-
-As before, use SS corpus to derive X features via fantastic
-As expect corpus, so does features??????
-Algiint with wht theorists say here
-Overlay with Fantastic 
-So what?
-Pedagoies could use of features for selecting melodies ot help make things more linear if shown that there is abehavioral mapping of the features to humans.
-Tho this assumes suspended animation.
-Also another problem with this approach is that its potpourri.
-Comes from everything.
-
----
-
-Dynamic
-
-What is IDyOM
-How is it related to MD
-SLH PPH
-What is it good at, yes expectations. look at all this literature
-But what about memory!
-accd to Pereceptual fluency hyptthessis which states......
-expose to patterns means better processing
-infact see this with people learning things implicilty (light learning task from reading in On Repaat)
-Rohehimer and margulis citations
-
-If true, repeatitive stimuli are then easier to processly
-Lking aslo follow that IC measures of expctedness (if we assume expct are easier ot procecss) can be used in memory measure
-Floow that n grams proccedss reelative to their frequncy distrituion in a corpus.
-In turn they should also have lower IC.
-To show this I extract out of a corpus of 2 3 5 10 grams form both sides of frequency distribution of a corpus to present side by side show intuitive.
-this is obvious
-
-we can also plot this continously 
-
-go for further psychology experiemnts in this, 
-lays basis for the computational model
-and more direct pedagogical applicaitons are discussed below
-
-
-In this chatper i have shown that theorists agree up to a point.
-We need to be objective
-we then bborrow informaiotn from Comp music.
-Show that we can get similar results from both static and dynamic models.
-And show that you can use digital corpus to represent frequency n-gram disgribuitons.
-These in turn will help our teaching as not to overload.
-Allows students to dictate bigger and bigger IC clips while being somewhat ecologically valid.
-
-
-
-------------------------------------------------
 
 The point of this chapter is to show you can use tools from computational musicology as predictive features of melodies in experiments. 
 
@@ -182,10 +209,6 @@ And this too has been done in the music pedagogy world.
 
 I am saying that there's alink between what is on page and perception that music theory ped can take advantage of
 
-
--------------------------------------------------
-
-### Information Content Referencs 
 
 OTHER PEOPLE WHO HAVE DONE THIS
 
@@ -217,34 +240,3 @@ Computational Musicology
 * Frieler 2008
 * JAZZOMAT PROJECRT OUTPUT
 
-## Humans like patterns and are very good at picking them up
-### We learn things implicitly
-### We can represent that implicit knowledge with a corpus 
-## Pre-Musical Corpora
-### Information Theory
-### Computational Linguistics as front runner
-## Musical Corpora
-### History of Musical Corpora 
-#### Fun old computational music papers 
-#### Corpora that are often used
-#### Static vs Dynamic models of feature abstraction (daniel slides?)
-### FANTASTIC 
-#### static 
-#### ML approach gets it right
-#### simple to understand
-#### Can abstract features be percieved? 
-###### Note density
-###### Contour variation
-###### Tonalness
-###### weird computational measures
-### IDyOM as representation of musical materials 
-#### n-gram models
-#### mirrors human behavior
-###### melody
-###### harmony
-## So What?
-#### Other research (Chapt 3) suggest need to move beyond cognitive measures
-#### Can operationalize item level items contextually with a corpus 
-#### IF features are real, they should effect dictation (Chater 6)
-#### Not only important for one off, but then would be incorporated into computational learning models (Chapter 6)
-#### We need new materials 
