@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aural Instructor Survey</title>
+    <script src="jspsych.js"></script>
+    <script src="plugins/jspsych-html-keyboard-response.js"></script>
+    <script src="plugins/jspsych-image-keyboard-response.js"></script>
+    <script src="plugins/jspsych-instructions.js"></script>
+    <link rel="stylesheet" href="jspsych.css"></link>
+  </head>
+  <body></body>
+  <script>
+
+    /* create timeline */
+    var timeline = [];
+
+   /* Welcome and IRB */
+
+    var welcome_block = {
+    type: 'instructions',
+    pages: ["<p>Welcome to this survey on melodic dictation!. </p>" +
+	    "<p> Please click NEXT to start the survey!</p>",
+	
+          "<p>Before collecting any data we are required to obtain a confirmation of consent all for participants.</p>" 
+    	+ "<p>Please read the following statement: </p>" 
+        + "<p>This survey will ask you to self report on your opinions on teaching melodic dictation in the aural skills classroom. You may choose not to participate or to withdraw from the study at any time without penalty or loss of any benefit.  "
+   	+ "All data will be made anonymous and all efforts will be made to keep data private and secure. For questions concerning participant rights, feel free"
+    	+ " to contact Dr. Dennis Landin, chair of the Institutional Review Board at either (225)-578-8692 or irb@lsu.edu.</p>"
+        + "<p> If you are willing to partake in this study, please press NEXT on the keyboard and the survey will begin." ,
+
+      	   '<p>Thank you for choosing to participate in this survey!</p>'  
+    	        + "<p>Please answer the following survey questions about your teaching background.</p>"],
+
+    show_clickable_nav: true
+  }
+
+    timeline.push(welcome_block);
+
+  /* Demographic Informaiton Here */
+
+
+
+  /* Rating of Melodies Visually */
+
+    var visual_melody_instructions_block = {
+    type: 'instructions',
+    pages: ["<p>Thank you for completing the first part of this survey!</p>" +
+	    "<p>Take a second to rest if you need, the NEXT portion of this survey will be asking you to provide your expert opinion on various melodies in the aural skills classroom.</p>",
+	
+          "<p>For this part of the survey, you will see 15 melodies. You will be asked to provide your opinion on a few questions pertaining to using that melody in a melodic dictation.</p>" 
+    	+ "<p>For each melody, you will answer: </p>" 
+        + "<p><ul><li>What semester of aural skills do you think this melody is appropriate for?</li><li>Based on your answer from the previous quesiton, how many times do this melody could be played in order to give students a fair chance of dicatating the melody?</li><li>In the scope of an entire undergradute Aural Skills curricula, how would you rate the difficulty of this melody to dictate given your previous answers?</li></ul></p>"         
+        + "<p>While there are many factors taht could contribute to your answers to the above questions, please know we are just interested in you general opinion. Try not to read too much into the questions..</p>"],
+
+    show_clickable_nav: true
+  }
+
+    timeline.push(visual_melody_instructions_block);
+
+   /* Melodies */
+
+
+  /* Rating of Melodies Aurally */
+
+    var visual_melody_instructions_block = {
+    type: 'instructions',
+    pages: ["<p>Thank you for completing the previous part of this survey!</p>" +
+	    "<p>Take a second to rest if you need, the NEXT portion of this survey will be asking you to provide your expert opinion on various melodies in the aural skills classroom.</p>",
+	
+          "<p>For this part of the survey, you will hear 15 melodies. You will be asked to provide your opinion on a few questions pertaining to using that melody in a melodic dictation.</p>" 
+    	+ "<p>For each melody, you will answer: </p>" 
+        + "<p><ul><li>What semester of aural skills do you think this melody is appropriate for?</li><li>Based on your answer from the previous quesiton, how many times do this melody could be played in order to give students a fair chance of dicatating the melody?</li><li>In the scope of an entire undergradute Aural Skills curricula, how would you rate the difficulty of this melody to dictate given your previous answers?</li></ul></p>"         
+        + "<p>While there are many factors taht could contribute to your answers to the above questions, please know we are just interested in you general opinion. Try not to read too much into the questions.</p>"],
+
+    show_clickable_nav: true
+  }
+
+    timeline.push(visual_melody_instructions_block);
+
+   /* Debrief  */
+
+    var debrief_block = {
+    type: 'instructions',
+    pages: ["<p>THANK YOU for taking part in  this survey on melodic dictation!. </p>" +
+	    "<p> Your answers will be used as a part of David John Baker's dissertation investigating various ways to model melodic dictation.</p>",
+	
+          "<p>The objective of this experiment was to determine what degree aural skills pedagoges agree on their ratings of difficutly of melodies for melodic dictation. I also plan on using your response data as a ground truth to model how computationally abstracted features can and cannot be used as a stand in for pedagogue's intution regarding the appropriateness of certain melodies for melodic dictation.</p>" 
+        + "<p>If you are interested in obtaining your own copy of the data or the results, please email me at davidjohnbaker1 @ gmail . com  (no spaces) and I would be happy to share!</p>"],
+
+    show_clickable_nav: true
+  }
+
+    timeline.push(debrief_block);
+
+
+    /* Experimental Loop */
+
+    jsPsych.init({
+      timeline: timeline,
+      on_finish: function() {
+        jsPsych.data.displayData();
+      }
+    });
+  </script>
+</html>
