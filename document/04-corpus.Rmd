@@ -3,6 +3,14 @@
 -- chapter will basically just be reference manual for corpus?
 NO
 
+* COmputational musicology needs corpora
+* Here is a history of that
+* And it's important for this to be representative
+* What do i think rrepresntaive means
+* In this chapter I introduce new SS corpus.
+
+Give basic summary statistics on the corpus.
+Compare it as a corpus to essen.
 
 
 
