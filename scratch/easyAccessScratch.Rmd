@@ -122,6 +122,41 @@ Some researchers have estimated that XX amount of processes are needed to sucess
 # Individual Differences
 ## Literature Review
 
+
+II. Way MD works 
+  As stated bove, all expect the same baseline
+  Get better with extractive lsitening and chunking
+    Def extractive lsitening, this also would be question of AUDIOTRY DISTRACTION ALA EMILY
+    Def Chunking as well
+  Logic increases the both, get better at melodic dication.
+  But does the literature support that?
+
+III. Mem 4 melodies
+  M4M says that no musical advantage in this, tho not dictation
+    example 1 2 3
+  But bc m4m is not MD, can't jsut go for it
+    MD is layered
+    m4m is jsut a chocie
+  Looking at other lit, yes, there is an effect of training
+    see this with general ingelligecne (examples)
+    see this with memory (talamin)
+    Mem exp when short an tonal, just like MD! 
+    has been interpreted as fx of traning
+    but probably reversed in direciton
+  Cognition
+    Obvious a link here, assumed to be FX
+    could be some combination of Train, int, wmc
+    expecially imporant to consider effects of WM 
+    see all of bersz
+    really need ot look at all at once to distentangle
+    need paradigm that does xyz
+    Other people have started to do this, okda slevc
+  How
+    first assume that M4M is MD 12 
+    Experiment with individual factors
+    Path analysis 
+
+
 ### Hook
 
 Academic interest in the relationship between musical and cognitive ability dates back over a century.

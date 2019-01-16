@@ -11,111 +11,136 @@
 
 ## Rationale
 
-Music theorists use their pedagogical experience and intutions to build the appropriate curricula for their aural skills pedagogy.
+Music theorists use their pedagogical experience and intuitions to build the appropriate curricula for their aural skills pedagogy.
 Teaching aural skills typically starts with providing students with simpler exercises, often employing  a limited number of notes and rhythms, and then slowly progressing to more difficult repertoire. 
 This progression from simpler to more difficult is evident in aural skills text books.
-Of the major aural skills textbooks such as the Ottmann, the Berkowitz, Kaprinski, Clendenning Marvin, DobreaGrindal Cleland, each is structured in such a way that musical material presented earlier on in the book is more managable than that near the end.
+Of the major aural skills textbooks such as the OTTMANN, the BERKOWITZ, KARPINSKI, CLENDENNING MARVIN, DOBREA CLELAND, each is structured in such a way that musical material presented earlier on in the book is more manageable than that near the end.
 In fact, this is true of almost any ETUDE book: open to a random page in a book of musical studies and the difficulty of the study will most likely scale accordingly to its relative position in the textbook.
-But it is not a melody's position in a text book that makes it difficult to perfom: this difficulty comes from the structural elements from the music itself.
+But it is not a melody's position in a text book that makes it difficult to perform: this difficulty comes from the structural elements from the music itself.
 
-Intuitivily, music theorists have a general understanding of what makes a melody difficult to dictate.^[I find it safe to assume that more complex melodies are more difficult to dictate As I will demonstrate in this chapter, a melody's complexity and difficulty to be dictated are closely related. For that reason, I will use the term complexity as a proxy for its abiilty to be  dictated.] 
-Factors that might contribute to this complexity could be attributes such as the melody's note density, the intricacies of the rhythms involved, the scale from which the melody derives, or even more intuitivly understood factors such as how tonal the melody sounds.
+Intuitively, music theorists have a general understanding of what makes a melody difficult to dictate.^[I find it safe to assume that more complex melodies are more difficult to dictate As I will demonstrate in this chapter, a melody's complexity and difficulty to be dictated are closely related. For that reason, I will use the term complexity as a proxy for its ability to be  dictated.] 
+Factors that might contribute to this complexity could be attributes such as the melody's note density, the intricacies of the rhythms involved, the scale from which the melody derives, or even more intuitively understood factors such as how tonal the melody sounds.
 Although given all these factors, there is no definitive combination of features that perfectly predicts the degree to which theorists will agree how complex a melody is.
-In many ways, questions of melodic complexity are very much like questions of melodic similarity: it depends on both who is aksing the question and for what reasons (CITE SELF).
+In many ways, questions of melodic complexity are very much like questions of melodic similarity: it depends on both who is asking the question and for what reasons (CITE SELF).
 
-Looking at the melodies presented in Figures X and Y, most aural skills pedagogues will be able to sucessfully intuit which melody is more complex, and presumably, more difficulty to dictate.
+Looking at the melodies presented in Figures X and Y, most aural skills pedagogues will be able to successfully intuit which melody is more complex, and presumably, more difficulty to dictate.
 
-* FIGURE 1
+* FIGURE 1 -- Melody with 8 Bars, functional accidentals (V/V, V/IV)
 
-* FIGURE 2
+* FIGURE 2 -- Same sets of notes rearranged 
 
 While I reserve an extended discussion of what features might characterize why one melody is more difficult than the other to dictate for below, I assume that these melodies do differ in a fundamentally different way when performed in a similar fashion.
-Additionally, many readers of this dissertaiton can probably draw from anecdotal evidence of their own as to how student's at various stages of their aural training might fair when asked to dictate both melodies.
+Additionally, many readers of this dissertation can probably draw from anecdotal evidence of their own as to how student's at various stages of their aural training might fair when asked to dictate both melodies.
 For some, melody Y might be overwhelmingly difficult.
 
-In fact, it might be overwhelmignly difficulty for the vast majority of people.
-Student are quick establish if they belive that a melody they are being tested on is too difficult, and importantly from a pedagogical standpoint, we as educators need to be able to know how difficutly melodies are given our students in order to asses a degree of fariness in our grading of student's performance.
-While of course with each student there are inveitably many other variables at play ranging from personal abilities to the goals of the instructor in the scope of their course, yet there are intuitive benchmarks that students are expected to be able to complete throughout their education.
+In fact, it might be overwhelmingly difficulty for the vast majority of people.
+Student are quick establish if they belie that a melody they are being tested on is too difficult, and importantly from a pedagogical standpoint, we as educators need to be able to know how difficulty melodies are given our students in order to asses a degree of fairness in our grading of student's performance.
+While of course with each student there are inevitably many other variables at play ranging from personal abilities to the goals of the instructor in the scope of their course, yet there are intuitive benchmarks that students are expected to be able to complete throughout their education.
 As students progress, they are expected to be able to dictate more and more difficult melodies, yet exactly what makes a melody complex is often left to the expertise and intuition of a theorist.
 
 In this chapter I examine how tools from computational musicology can be used to help model an aural skill's notion of complexity in melodies.
 First, I establish that theorists agree on the differences in melodic complexity using results from a small survey of XX theorists.
-Second, explore how both static and dynamic computationally derrived measures can be used to approximate an aural skills pedagogue's intution. 
-Third and finally, I use evidence afforded by research in computational musicology to posit that the distributional patterns in a corpus of muisc can be stragegically employed to create a more linear path to sucess amongst students of aural skills.
-I demonstrate how by combining evidence from the statistical learning hypothesis, the proabilistic prediction hypothesis, and a newly posited distributional frequency hypothesis can explain why some musical sequences in a melody of a certain complexity are easier to dictate than others.
+Second, explore how both static and dynamic computationally derived measures can be used to approximate an aural skills pedagogue's intuition. 
+Third and finally, I use evidence afforded by research in computational musicology to posit that the distributional patterns in a corpus of music can be strategically employed to create a more linear path to success among students of aural skills.
+I demonstrate how by combining evidence from the statistical learning hypothesis, the probabilistic prediction hypothesis, and a newly posited distributional frequency hypothesis can explain why some musical sequences in a melody of a certain complexity are easier to dictate than others.
 Using this logic, I then create a new compendium of short melodies, sorted by their perceptual complexity, that can be used for teaching applications.
 
 ## Agreeing on Complexity
 
 Returning to melodies X and Y from above, an aural skills pedagogue most likely has some sort of intution of which of the two melodies would be easier to dictate.
-Melody X --- describe melody X.
-On the other hand, Melody Y --- describe melody Y.
-Yet both melodies are same range, same style, have one chromatic note, and use the exact same set of rhythms, just reorganized to be played at different times.
-Considering these differences, it would be safe to assume that melody X is probably easier to dictate than melody, all other features held constant^[I assume that both melodies were to be played].
+Melody X exhibits a predictiable melodic synatax and phrase structure, the chromatic notes resovle within the conventions of the Common Practice period, and many of the melodic motives outline and imply a harmony based on tertian harmony.
+On the other hand, Melody Y's syntax does not comform the the conventions of the common practice music and does not imply any sort of underlying harmony.
+The durations of the rhythms appear irregular and the melody implies an uneven phrase structure.
+Yet both melodies X and Y have the exact same set of notes and rhythms.
+Though despite these content similarities, it would be safe to assume that melody X is probably much easier to dictate than melody Y assuming both were to be played at the same tempo and instrumentation. 
 
 In fact, aural skills pedagoges tend to agree for the most part on questions of difficulty of dication.
 To demonstrate this, I surveyed XX aural skills pedagogues who have all taught at least two years of aural skills at the University level asking them questions presented in TABLE X on a sample of XX melodies found in the BERKOWITZ.
-Overall, the sample exhibited a _____ degree of interrater reliability as measured by X^[Reference here about what is good and what is bad.]
+The survey had questions that specficially were designed to gauge their appropriateness for use in a melodic dictation context.
+
+Questions included:
+
+---------------
+Table 
+1. What semester of aural skills do you think this melody is appropriate for?
+2. How many times do you think this melody should be played in reference to your answer from question 1?
+3. Please rate how difficult you believe this melody to be for the average second year undergraduate at your instiution.
+4. How musical do you believe this melody to be?
+5. Where in the melody (please list a measure number) do you think student's will have the most difficulty dictating the melody?
+6. Is this a melody you would feel comfortable using in your own aural skill's class?
+7. Could you dictate this melody now? 
+----------------------
+
+Overall, the sample exhibited a _____ degree of inter-rater reliability as measured by THIS STATISTICX^[Reference here about what is good and what is bad.]
 Plotting the respondant's answers across the textbook, with the book progressing from less to more difficult, there is a trend of pedagoges to AGREE ON THE SIMPLER ONES THEN HAVE MORE DIAGREEMENT LATER ON? 
 Central to my argument is a VERY LINEAR TREND of rating of complexity that correlate with both PAGE NUMBER from the textbook that it was drawn from, as well as an even better fitting model of THE EXACT NUMBER OF THE MELODY.
-Also intersting is point here about not everyone agreeing on what is hard????
+MORE DISCUSSION HERE AFTER LOOKING AT DATA.
 
-Taken together, both anecdotal and the evidence for this survey suggest that aural skills pedagoges tend to agree on how complex a melody is for use in an aural skills setting.
-This sense of difficutly or complexity tracks as the book progresses, (duh), but to attribute the cause of a melody being difficult as its position in the book would be making a pretty hilarious error. 
-And importnatly, even experts seem not to agree about the appropirateness of the complex melodies.
+Taken together, both anecdotal and the evidence for this survey suggest that aural skills pedagoges tend to agree on how difficult a melody is for use in an aural skills setting.
+This sense of difficutly or complexity tracks as the book progresses, but to attribute the cause of a melody being difficult as its position in the book would be making a pretty hilarious error. 
+
+--------- EDIT HERE
+It is important to highlight that despite the level of agreement at lower levels of difficulty, even experts do not seem to agree on the appropriateness of melodies as they become more complex for classroom use.
+Of course perfect levels of agreement are not expected, but due ot the fact that people need to be graded and assessed fairly on melodies, this level of disagreement is cause for alarm.
+This level of disagreement might also help explain student's responses to aural skills pedagogy...
+ 
 And to compound this problem, literature from psychology (Kanneman and Tversky, that medicice doctor study) importantly highlight the fact that it's important to be skeptical of expert opinions.
 Drawing from the medical liteature-- a body of research where getting somethign wrong probably matters more-- have evidence of stuff happenign with heart attcks.
 Undelrying logic being that people think they have the key, but really they do not.
 And what solved this was a computaional problem. 
-The rest of the chapter goes on to investigate if similar computaionally derrived tools can help aural skills pedagogy.
+------------
+
+The rest of this chapter investigates if similar computaionally derrived tools can help inform aural skills pedagogy.
+In order to provide a sense of validity to the measure, I use the expert answers from the survey as the ground truth for the computational models.^[Do I have to explain what ground truth is?]
 
 ## Modeling Complexity
 
-The ability to quantify what theorists generally agree to be melodic complexity depends on the ability to distill complexity into it component parts.
-Earlier, when comparing melodies X and Y, some of the features put forward that might contribute to this measure were features like note density, range, what scale the melody draws its notes from, how expected the notes are, and the rhthmic scaffordling that the melody hangs on.
-The combination of these smaller features makes up what could be concieved of as complexity.
+The ability to quantify what theorists generally agree to be melodic complexity depends on distilling complexity into its component parts.
+Earlier, when comparing melodies X and Y, some of the features put forward that might contribute to this measure were features such as note density, the melody's rhythm, what scale the melody draws its notes from, and how expected the notes are, and how tonal the melody might be percieved. 
+Some combination of these component features presumably make up the construct of complexity.
 
-As with any computionally derrived measures, what is input into the model is very important.
-And just because something is salient, does not mean that it should be entered.
-Attemping to derive features of melodies goes back a long way.
--- ortmann
-and some actual music ed studies since then.
-It assumes some sort of suspended animation of listening, but close to something. 
-While phenomicaloglcally correct, measures like this are becoming more common in music psychology research.
+Attempting to use features of a melody to to predict how well a melody is remembered has a long history.
+In 193X, Ortmann put forward a set of melodic determinants that he asserted predicted how well a melody was remembered.
+These features such as a melody's repeition, pitch-direction, contour (conjunct-disjunct motion), degree, order, and implied harmony (chord structure) were deemed to affect the melody's ability to be remembered.
+
+Pedagoges since Ortmann such as XYZ have expanded on this research and concluded that ________.
+Using some sort of non-musical representation like a melody's contour is an abstracted feature of the melody.
+Abstracted features of melodys assume some sort of suspended animation of listening meaning that what is abstracted has some sort of meaning that is related to the listening experience.
+While if an abstracted measure maps directly to any sort of phenomenological experience in time, might be contested, these types of measures have been becoming more common in music psycholgy research.
+
+* Sentence here about static and dynamic. 
 
 ### Static
 
-* idea with an abstracted feature is that it is something perceptable to the listener, but possibly hard to quantify given traditional tools of music theory.
-
+An abstracted feature can be either a quantitative or qualitiative observable feature of a melody that is assumed to be perceptual to the listener, but often difficult to quantify with the traditional tools of music analysis.
 Often, these abstracted features come inspired from other domains like computational linguistics.
-Perhaps one of the most popular features in recent decades is the normalized pairwise variability index or nPVI.
-The nPVI is a measure of xxxx in a langauge.
-Shown in FIGURE X, it quantifies the xxx by the yyy in order to proivde some sort of metric that can serve as a stand in of the perception that some langauges sound perceptually different.
+To given an example of an abstracted feature, perhaps one of the most popular features in recent decades is the normalized pairwise variability index or nPVI (CITE).
+The nPVI began as a measure of rhythmic variablility in langauge.
+Shown in FIGURE X, the nPVI quantifies the xxx by the yyy in order to provide a metric that can be used as an approximation of the  perception that some langauges sound perceptually different. (GET MORE STUFF FROM ORIGINAL NPVI)
 In lingusitics, the nPVI has been used to delinate stress timed langauges from something else...
 Recenlty in the past x years, music science researchers have used the nPVI to attempt to investigate claims about the relationship between speeach and laguage (CITE ALL HERE).
-
-While results are mixed and some people argue against nPVI (Nat), it does serve as a very good example of a static comuputationall derrived measure.
+While results are mixed regarding the nPVI's predictive ability and some people argue against nPVI (Nat), it does serve as a very good example of a static comuputationall derrived measure.
 Just like taking the average weight in a population, the nPVI summerizes a phrase and importantly assumes that this measure is representive of the entire phrase the calcuation was performed upon.
 
 or stuff here of meredith and that chapter. 
 
-Perhaps the most complete set of computational measures as applied to music perception comes from Daniel Mullensiefens' whole name FANTASTIC toolbox CITE.
+One of the most complete set of computational measures as applied to music perception comes from Daniel Mullensiefens' whole name FANTASTIC toolbox (CITE).
 According to FANTATIC's techncial report, 
 
 > "FANTASTIC is a program...that analyzes melodies by computing features The aim is to characterise a melody or a melodic phrase by a set of numerical or categorical values reflecting different aspects of musical structure. This feature representation of melodies can then be applied in Music Information Retrieval algorithms or computational
 models of melody cognition." (pp. 4)
 
-Drawing from fields both central and perphircal to music science, FANTASTIC computes a collection of XX features to analyze features of melodies and continues from a tradition of feature extraction in music research FROM  Lomax (1977), Steinbeck (1982), Jesser (1990), Sagrillo (1999), Eerola and Toiviainen (2004) and since it's release has been sucessful at ...... SINCE THEN.
+Drawing from fields both central and perphircal to music science, FANTASTIC computes a collection of XX features to analyze features of melodies and continues from a tradition of feature extraction in music research FROM Lomax (1977), Steinbeck (1982), Jesser (1990), Sagrillo (1999), Eerola and Toiviainen (2004) and since its release has been sucessful at ...... SINCE THEN.
 Addittionally, FANTASATIC also provides a framework for comparing the features of a melody with a parent corpus from which the melody belongs.
 
 Returning to the Aural Skills classroom, many of these features can be used to approximate the intutions of complexity as agreed upon by theorists.
 Below, I SHOW A SERIES OF PLOTS WHERE the continously measured abstracted features of FANTASTIC are plotted against the measures of perceieved complexity and difficulty of expert aural skills pedagoges with their respective correlations in TABLE X.
 
-GIANT FIGURE HERE
+* GIANT FIGURE HERE
 
-GIANT TABLE HERE
+* GIANT TABLE HERE
 
-From this, it becomes evident that some features like __________ and ________ succede quite well in explaining the variance of the rated complexity measures, while others like __________ and ________ do not.
+From this, it becomes evident that some features like __________ and ________ succede quite well in approximating the rated complexity measures, while others like __________ and ________ do not.
 I suggest that the reasons that ________ measures are sucessful in explainig is because ___________________.
 
 In modeling this problem univariatly (one v one), it quicly becomes evident that no single static measure from FANTASTIC is able to complete mirror that of the complexity measrues.

@@ -1,3 +1,8 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
 # Individual Differences
 
 ## Rationale 
@@ -20,40 +25,59 @@ By understanding which, if any, individual factors play a role in this process, 
 
 ## Individual Differences
 
+As stated above, most aural skills pedagogy assumes that students begin with approximetly the same baseline.
+This is an important assumption to the Karpinski model, as he notes that while students might vary on their ability to dictate, the most effective ways in which to improve at melodic dictation are via practicing extractive listening and chunking.
+According to Karpinski, "Only one or both or both stratgies can extend teh capacity of short-term musical memory: (1) extractive listening and (2) chunking."
 
+Karpinski defines extractive listening as "a combindation of focused attention and selective memorization (p.70)".
 
-II. Way MD works 
-  As stated bove, all expect the same baseline
-  Get better with extractive lsitening and chunking
-    Def extractive lsitening, this also would be question of AUDIOTRY DISTRACTION ALA EMILY
-    Def Chunking as well
-  Logic increases the both, get better at melodic dication.
-  But does the literature support that?
-  
-III. Mem 4 melodies
-  M4M says that no musical advantage in this, tho not dictation
-    example 1 2 3
-  But bc m4m is not MD, can't jsut go for it
-    MD is layered
-    m4m is jsut a chocie
-  Looking at other lit, yes, there is an effect of training
-    see this with general ingelligecne (examples)
-    see this with memory (talamin)
-    Mem exp when short an tonal, just like MD! 
-    has been interpreted as fx of traning
-    but probably reversed in direciton
-  Cognition
-    Obvious a link here, assumed to be FX
-    could be some combination of Train, int, wmc
-    expecially imporant to consider effects of WM 
-    see all of bersz
-    really need ot look at all at once to distentangle
-    need paradigm that does xyz
-    Other people have started to do this, okda slevc
-  How
-    first assume that M4M is MD 12 
-    Experiment with individual factors
-    Path analysis 
+This definition somewhat reflects the idea of attenion and althought not explicitly discussed, presumably requires the student's ability to "tune out" other auditory distractors (EE LITERATURE).
+After students master the ability to selectivvely hear a portion of a melody, the other way in which they can improve their dictation abilities is via the act of chunking
+
+Chunking is a listener's ability group musical materials into groups.
+The idea of chunking derrives from earlier work from Gestalt psychologists and was one of the initial meachisms proposed by Miller (1956) that he proposed was an able to extend the finite window of memory to be extended.
+The general idea is that if a collection of notes can be identified as it's own discrete entity, such as a descending triad, the listerer will only have to remember that one structure, rather than its component parts.
+As discussed in the previous chapter in §XXX, music's inherently sequential nature make it especially VULNERABLE to the problems associated with chunking.
+While these are problems for the working memory literature, students are expected to use these chunking things to help their pedagogy.
+As students learn to chunk more, they are able to take in more muscial information into their short term musical memory.
+With the increase of both skills, students are presumed to increase their musical memory.
+But does the literature support this claim?
+
+Research findings from the memory for melody literature generally do not support the idea that musicans have an advantage to remembering melodies HALPERN BARTLET 2010.
+This is not to say chunking and extractive memory are not pedagogically helpful, as the studies I am about to list do specifically address melodic dicttion.
+Example 1
+Example 2 
+Example 3.
+So despite evidence suggesting that musical training does not increase an individual's ability to remember melodies, since these studies do not specifically deal with emlodic dictation, this cannot be used as a direct comparsion for a number of reasons.
+The first is that melodic dictation is a much more complicated process that not only involves hearing a melody after a few iterations, but also its notation.
+Seeing as melodic dictators need to notate their melodies, which again is dependant on their knowledge of Western musical notation, melodic dictation is a more connitively demanding process than the previously mentioned studies on memory for melody which only require a choice.
+
+While the above memory for melodies literature does not suggest a musician's advantage, memory research does suggest that musicans do in fact have better cognitive abilities on a more domain general level that is could be interpreted as an effect of their musical training.
+Work investigating the relationship between musical training and general intelligence suggests...
+Additionally, musicians tend to have a better memory than their non-musical counterparts.
+TALAMINI and colleauges found not only a general advantage of musicians, but noted that musicians tended to perform better on memory tasks especially in cases where stimuli were short and tonal.
+This musican advantage could derive from a musician's ability to chunk information more effectively based on past exposure via implicit learning practices (ROH, MARHGULIS).
+WHile many of these findings above might be interepreted as an effect of training, recenlty some researchers OS GS have noted that the more likely explanation for these findings that higher functioning children tend to self select into music training GS PAGE and that differences in congitive ability might pre-exisit and muscial traning might just exacerbate these pre-existing differences.
+
+Regardless of the direction of causality, there is evidence to suggest a relationship between muscial training and cognitive ability.
+Even in studies outside of music, domain gerral cognitve abilities have been shown to be predictive above and beyond domain specific expertise.
+STUFF HERE ON HAMBRICK AND DOMAIN EXPERTISE
+
+Clealry cognitive abbility is at play and presumably would interact with other variables of interst such as musical training.
+One cognitive ability deserving of special attention is that of working memory.
+As noted by BERZ, many tests of memory and those used in music testing require the encoding and active manipulation of musical material.
+In his 19945 article, Berz drew important parallels between working memory systems and music tests and postulated new loop.
+This loop even been used to explain some differences (HALPERN PAPER), but does suffer from the whole multi loop thing.
+
+In order to disentangle the effects of musical traning and cogntiive ability-- all factors where there is litarature to support them-- the variables need to be considered simultanously to see how they interact.
+Recenlty OS did this using a latent variable approach where they investigated executive function in a sample of XXX.
+They found that....
+Though their sample did not have a lot of musicians
+Also could have been bigger.
+
+So given the complex network of variables at play, in order to understand how these individual non training factors affect the first two steps of melodic dictation, need to take a multivariate approach.
+In order to investigate the effects of individual factors on baseline, need to first assume that m4m can stand in for first two steps of melodic dictation.
+Then by investigating how these factors relate using structural equaiton modeling, we will be able to see what, if any factors, contribute to the first tow steps here.
     
 IV. Experiment
 V. Results and MODEL discussion
