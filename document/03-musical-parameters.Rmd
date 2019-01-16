@@ -11,37 +11,38 @@
 
 ## Rationale
 
-Music theorists use their pedagogical intutions to build the appropriate curricula for their aural skills pedagogy.
-Teaching aural skills typically starts with simpler exercises, with a limited number of notes and rhythms, and then slowly progresses to more difficult repertoire. 
-Evidence for this progression is evident in aural skills text books.
-Of the major aural skills textbooks such as the Ottmann, the Berkowitz, Kaprinski, Clendenning Marvin, DobreaGrindal Cleland, each is structured in such a way that musical material earlier on in the book is considered easier than that near the end.
-This is true of almost any ETUDE book; open a random page and the difficulty of the study will most likely scale accordingly to it's relative position in the textbook.
-But what makes melodies become more difficult to perform?
+Music theorists use their pedagogical experience and intutions to build the appropriate curricula for their aural skills pedagogy.
+Teaching aural skills typically starts with providing students with simpler exercises, often employing  a limited number of notes and rhythms, and then slowly progressing to more difficult repertoire. 
+This progression from simpler to more difficult is evident in aural skills text books.
+Of the major aural skills textbooks such as the Ottmann, the Berkowitz, Kaprinski, Clendenning Marvin, DobreaGrindal Cleland, each is structured in such a way that musical material presented earlier on in the book is more managable than that near the end.
+In fact, this is true of almost any ETUDE book: open to a random page in a book of musical studies and the difficulty of the study will most likely scale accordingly to its relative position in the textbook.
+But it is not a melody's position in a text book that makes it difficult to perfom: this difficulty comes from the structural elements from the music itself.
 
-Intuitivily, music theorists have a general understanding of what makes a melody difficult.
-It would be safe to assume that more complex melodies are more difficult to perform.
-Factors that might contribute to this complexity could be attributes such as the melody's note density, the number of notes availble to be chosen from (is it pentatonic, diatnoic, is the entire chromatic aggregate present?), or even more intuitivly understood factors like how tonal the melody sounds or the intricacies of the rhythms involved.
-Given all these factors, there is no definitive combination of features that could always predict how complex a melody is.
+Intuitivily, music theorists have a general understanding of what makes a melody difficult to dictate.^[I find it safe to assume that more complex melodies are more difficult to dictate As I will demonstrate in this chapter, a melody's complexity and difficulty to be dictated are closely related. For that reason, I will use the term complexity as a proxy for its abiilty to be  dictated.] 
+Factors that might contribute to this complexity could be attributes such as the melody's note density, the intricacies of the rhythms involved, the scale from which the melody derives, or even more intuitivly understood factors such as how tonal the melody sounds.
+Although given all these factors, there is no definitive combination of features that perfectly predicts the degree to which theorists will agree how complex a melody is.
 In many ways, questions of melodic complexity are very much like questions of melodic similarity: it depends on both who is aksing the question and for what reasons (CITE SELF).
 
-Looking at the melodies presented in Figures X and Y, a music theorist can sucessfully intuit which melody is more complex, and presumably, more difficulty to dictate.
+Looking at the melodies presented in Figures X and Y, most aural skills pedagogues will be able to sucessfully intuit which melody is more complex, and presumably, more difficulty to dictate.
 
-FIGURES 1 and 2
+* FIGURE 1
 
-While I reserve and extended discussion of what features might characterize why one melody is more difficult than the other to dictate for below, I find it safe to assume that these melodies do differ in a fundamentally different way when perfored in a similar fashion.
+* FIGURE 2
 
+While I reserve an extended discussion of what features might characterize why one melody is more difficult than the other to dictate for below, I assume that these melodies do differ in a fundamentally different way when performed in a similar fashion.
 Additionally, many readers of this dissertaiton can probably draw from anecdotal evidence of their own as to how student's at various stages of their aural training might fair when asked to dictate both melodies.
 For some, melody Y might be overwhelmingly difficult.
+
 In fact, it might be overwhelmignly difficulty for the vast majority of people.
 Student are quick establish if they belive that a melody they are being tested on is too difficult, and importantly from a pedagogical standpoint, we as educators need to be able to know how difficutly melodies are given our students in order to asses a degree of fariness in our grading of student's performance.
-While of course with each student and grading, there are inveitably many other variables at play ranging from personal abilities to the goals of the instructor in the scope of their course, there are intuitive benchmarks that students are expected to be able to complete throughout their education.
-As students progress, they are expected to be able to dictate more and more complex melodies, yet exactly what makes a melody complex is often left to the expertise and intuition of a theorist.
+While of course with each student there are inveitably many other variables at play ranging from personal abilities to the goals of the instructor in the scope of their course, yet there are intuitive benchmarks that students are expected to be able to complete throughout their education.
+As students progress, they are expected to be able to dictate more and more difficult melodies, yet exactly what makes a melody complex is often left to the expertise and intuition of a theorist.
 
 In this chapter I examine how tools from computational musicology can be used to help model an aural skill's notion of complexity in melodies.
 First, I establish that theorists agree on the differences in melodic complexity using results from a small survey of XX theorists.
-Second, explore how both static and dynamic computationally derrived measures can be used to approximate the theorist's intution. 
-Third and finally, I use evidence afforded by research in computational musicology to posit that the distributional patterns in a corpus of muisc can be used to create a more linear path to sucess amongst students.
-I demonstrate how by combining evidence from the statistical learning hypothesis, the proabilistic prediction hypothesis, and the perceptual fluency hypothesis can be used to demonstrate why some musical sequences in a melody of a certain complexity are easier to remember than others, and how this can be modelled computationally.
+Second, explore how both static and dynamic computationally derrived measures can be used to approximate an aural skills pedagogue's intution. 
+Third and finally, I use evidence afforded by research in computational musicology to posit that the distributional patterns in a corpus of muisc can be stragegically employed to create a more linear path to sucess amongst students of aural skills.
+I demonstrate how by combining evidence from the statistical learning hypothesis, the proabilistic prediction hypothesis, and a newly posited distributional frequency hypothesis can explain why some musical sequences in a melody of a certain complexity are easier to dictate than others.
 Using this logic, I then create a new compendium of short melodies, sorted by their perceptual complexity, that can be used for teaching applications.
 
 ## Agreeing on Complexity
