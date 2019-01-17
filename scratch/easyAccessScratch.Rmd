@@ -191,6 +191,146 @@ Really the interesting reason to look into this relationship is that music, unli
 For example, if what is more likley the third hypothesis is true and there are just pre-existing differences that do not change but are mabye amplified with music lessons, this would have serious implications for a lot of the findings in the music psychology literature. 
 
 
+## Individual Differences
+
+While explicit musical training is proposed to get people better at this...
+Literature on individual differences says other things might contribute.
+For example xyz
+So while pedagogically, yes training, a full model of md needs to acknowledge the diversity of listening abilities.
+This is especially relvant bc some literature does not suggest musician advantage
+
+As stated above, the first two steps of Karpinski's model of melodic dictation are not exclusive to trained musicians.
+These steps involve first hearing the melody and then retaining the melody in conscious awareness.
+From a pedagogical and psychological standpoint, it would be safe to assume that individuals differ in their ability to memorize musical material.
+Some individuals perform well, while others do not.
+Presumably these differences in performance can be attributed to a number of factors.
+
+One of the first factors --and perhaps most obvious to consider-- that might explain differences in ability would be an individual's musical training.
+
+Musicans tend to have better memory
+they also do better with other cognitive tasks
+but really this is reversed
+If you look at memory for melodies, musicians do not have an advantage
+Seems to be much more like domain expertise thing
+
+As noted in the previous chapter, people with some degree of musical training tend to outperform their less musically trained peers on many cognitive tasks both in terms of memory and general problem solving [@schellenbergMusicNonmusicalAbilities2017].
+
+A meta-analysis by Talamini and colleagues [@talaminiMusiciansHaveBetter2017] highlighted differences in memory are especially pronouced when the stimuli used in the experiments was tonal.
+This finding suggests a relationship between muscial training and an increase in memory for musical material.
+
+Additionally^[Could drop the stuff on intelligence], musically trained individuals perform better on other tests of cognitive ability.
+Most prominant in many of these studies are findings that link intelligence and musical training.
+
+
+--- there is a reverse here
+
+So while the literatre above provides a body of evidence to suggest that musically trained individuals outperform their non-muscial peers-- with the direction of causality yet to be firmly established-- musical training is not and imporantly cannot be the sole determining factor in how well an individual remembers a melody.
+Presumably other factors contribute in people's ability to retain musical information.
+One could consider a simple thought experiment where there might be people without musical training who, just due to their innate abilities, are able to outperform people with musical training based on their cognitive ability.
+
+These are the first steps as well in any melodic dictation task.
+this is cognitive ability, defined as XXXX to do task
+But in addition to congitive ability, reason to believe that musical training will also affect this
+
+So in order to get a better idea of melodic dictation, need to look at how most people do when having to do short term melody memory and eventually manipulate it.
+In order to do this, need to look at variables that might be at play.
+
+### Musical Training
+
+Tacit in many pedagogical assumptions is that most people start out roughly with the same ability to remember musical material and that this capacity increases with musical training as noted above.
+Karpinski defines this baseline limit of the amount of melodic information that can enter _short-term melodic memory_ as "somewhere between five and nine notes", referencing Miller's magic number seven^[Should I footnote here saying why this was not meant to be taken literally?] [@millerMagicalNumberSeven1956].
+Karpinski supports this claim with one experimental study by Marple (n.d.!!!) who corroborated Miller's limits (p.78) and additionally noted that the binding of musical features beyond that of pitch extended the range to approximelty six to ten notes.
+Similar findings were reported by Tallarico (XXX), Long (XXXX), and Pembrook (XXXX) who claimed the note limit to be between seven and eleven notes.^[For reasons noted in previous chapters (SECTION), it is important to stress the maximum about of notes able to be memorized should not be direclty interpreted as a one to one mapping of the amount of items that can be held in short term memory.
+Breifly reviewing earlier points, the first reason is that Miller's number 7 was never meant to be taken literally as a number used to investigate the items of memory, but rather a rheatorical device for a keynote address he was asked to give.
+Secondly, lieterature on the capacity limits of memory need to account for chunking mechanisms, most of which are bountiful in the musical domain as noted in SECTION.]
+
+In order to extend the capacity for musical memory, Karpinski puts forward two possible stragegies.
+The first is extractive listening and the other is chunking.
+Extrative listening is a processes described as ...
+Chunking on the other hand is a listener's ability to group certain parts of sensory information together, so that more information can take up less of the finite space in short-term muscial memory.
+According to Karpinkski, chunking increases with increases in musical understanding.
+
+
+This is also backed up with a host of literature showing htat musicians tend to outperform
+Especially when the task in musical 
+-- look at these examples here
+
+Taken as a whole, much of the literature could be interpreted to suggest that listeners begin as a tabula rasa, then as they engage with more musical activity, this activity affords them the ability to in perform better on musical tasks.
+While this might seem like an intuitive explanation for the findings, three large problems exist with this interpretation.
+
+The first is that how musicianship is measured varies from study to study, thus making interpreation of the data much harder.
+In fact, music psychology in general suffers from having not standardized a way to measure musical enagement.
+Talamini note this problem in the aforementioned meta-analysis saying that 
+
+> Quote
+
+and suggest that music psychology might consider moving towards more "catch all measures" of musicality such as the Goldsmiths Musical Sophistication Index CITE or the MUSEBAQ.
+Both tools use latent variable approaches that attempt to smooth over some of the problems with measuring such a messy construct.
+But one problem with adopting these tools is that it forces some sort of ontological commitment CITE FROM POT that has been critized by other CITE MEEE.
+
+
+- but one problem is that maybe that there more domain general processes accounting for this
+- one way that other people have looked at it os OS
+- They think about it as LV with three separate sets they define as xyz
+- thing is, this is very close to WM (what they call separate)
+
+
+The second problem with interpreting the literature as practice driving all these effects is that this might confound the direction of causalitiy.
+As noted above, most of the evidence suggesting a relationship here derrives from cross sectional designs and is limited in its ability to posit causal relationships.
+
+Thirdly, these studies as a whole lack consistent control of covariates that might confound the findings (OS).
+Factors such as ... (Stuff from OS)
+
+Considering these three confounds, it is only possible then to consider literature in one of three ways according to OS.
+
+1
+2
+3
+
+Thing that makes the mnost sense is probably what GS says that it exacerbates pre-existing differences.
+
+but note a lot of this is general fluid intelligence, not WM! 
+
+So if this is the case, we need to look into other factors that might then also play a role
+
+OS looked at this a bit ago with the Gold-MSI and the idea of executive functioning
+-- paper summary here
+
+Here they break up EF into a few different categories,
+-- note here the parallels on WM and melodic dictation.
+
+One of the three skills of EF is updating.
+Defined as x
+And has been conceptualized by some as WMC.
+And if you think about it is basically MD.
+
+In fact, this parallel is not even that new 
+
+Whether conceptualzed as the updating component of executive function (MIYAKE) or as working memory capacity (COWAN), working memory tasks share many similarities with tasks used in the music perception literature.
+Berz [@berzWorkingMemoryMusic1995], in his 1995 article pointed this out.
+
+Looking at working memory we are not the first to point this out.
+Berz did it here and noted that could just be wmc.
+Berz contiues in vain of Baddely and Hitch
+They solve the problem with having loops.
+Berz continues in this tradiition by setting up another loop for music
+But this is a problem for a few reasons.
+
+if you define it as complex, need to be doing complex
+
+For those reasons, decide instead to adopt the Embedded Process Model by Cowan.
+It works like this.
+And will eventually be more suited for what we are trying to do.
+Also mention here the problem with Karpinski model that it doesnt say waht is actively rehearsed.
+
+So the task now is now to investrigate how all of these factors come together.
+First is to get a task that uses the first two steps of the Karpinski model that is accesible to the non-musically trained.
+Then idea is to parse out the data to see which of the variables contributes to this task.
+
+Having established a link between wmc tasks and md, need to now find a task that will mirror this bc it contributes
+Link back to MMD! 
+
+
 HOLDER 
 
 ### General intelligence and WMC 
