@@ -35,4 +35,11 @@ ggplot(fivegram[fivegram$Frequency > 100,], aes(x = reorder(`n-gram`,-Frequency)
   coord_flip() +
   labs(title = "5-gram Distribution in Corpus", subtitle = "First 1,000 5-grams", x = "5-grams", y = "Frequency") 
 
+fivegram %>%
+  mutate(zFreq = scale(Frequency)) -> fivegram
+
+fivegram %>%
+  filter(zFreq < 0)
+# Really need the grams cumulative distribution 
+
 qqnorm(fivegram$Frequency)
