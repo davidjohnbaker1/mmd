@@ -1,4 +1,4 @@
-How to IDYOM
+Hw to IDYOM
 
 Start Emacs
 Alt x slime to start SBCL

@@ -5,7 +5,9 @@ library(tidyverse)
 
 tenBerk <- read.delim("symbolic/idyom/tenBerk.dat")
 hundoBerk <- read.delim("symbolic/idyom/108Berk.dat")
+fivehundoBerk <- read.delim("symbolic/idyom/almost500.dat")
 
+table(fivehundoBerk$melody.id)
 View(tenBerk)
 
 #======================================================================================================
@@ -18,15 +20,28 @@ names(tenBerk)
 #--------------------------------------------------
 # Get IC for first five notes
 
-hundoBerk %>%
+fivehundoBerk %>%
   select(melody.name, note.id, information.content, entropy, dataset.id) %>%
   filter(note.id <= 5) %>%
   group_by(melody.name) %>%
   mutate(cumIC = cumsum(information.content)) %>%
   ungroup() %>%
   filter(note.id == 5) %>%
-  arrange(cumIC)
+  arrange(cumIC) %>%
+  mutate(zCumIC = scale(cumIC)) -> fived
 
+fivehundoBerk %>%
+  select(melody.name, note.id, information.content, entropy, dataset.id) %>%
+  filter(note.id <= 3) %>%
+  group_by(melody.name) %>%
+  mutate(cumIC = cumsum(information.content)) %>%
+  ungroup() %>%
+  filter(note.id == 3) %>%
+  arrange(cumIC) 
+
+ggplot(fived, aes(x = zCumIC)) + geom_histogram()
+
+  
 hundoBerk %>%
   select(melody.name, note.id, information.content) %>%
   arrange(information.content) %>%

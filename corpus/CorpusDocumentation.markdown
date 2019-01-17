@@ -24,3 +24,4 @@ I also plan on building a Shiny dashboard for helping visualise the features of 
 * [X] Write script that does FANTASTIC Analysis 
 * [ ] Write scripts that do IDyOM Analysis
 * [ ] Create script that explores n-grams in corpus 
+* [ ] Fix Igor stravisnky liteature 153 rhythm for idyom
