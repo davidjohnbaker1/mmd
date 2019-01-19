@@ -7,6 +7,20 @@ output: html_document
 
 Is there soemthing to be said about the change point access for when there is reentry of the transcription function
 
+## Intro 
+
+
+
+I argue that tools for understanding melodic dictation best because as we currently understand it, I see us operating in a Kuhnian normal science where much can be learned by just using the tools in front of us.
+
+While learning aural skills has been a hallmark of being educated within the Western conservatory tradition, the rationale behind both the how and why of aural skills is often thought of as being esoteric.
+Throughout the past century, people have disagreed on exactly how one does go about learning a melody with different areas of research each attacking the problem from a different angle.
+
+Some line here about if we really want to understand what is happening we need to know about causal factors going on here and have experimental manipulation and things like making models of the whole thing or talk about what Judea Pearl thinks about the ability to do some sort of causal modeling with diagrams.
+Great to rely on some sort of anecdotal evidence, but if we are going to put things on the line with our education then we need to be able to make some sort of falsifiable claims about what we are doing.
+Can only do that through the lens of science. 
+
+
 ## Chapter 1
 
 The sequence of steps occurs for each chunk of music that is extracted during dictation and in the case of TABLE X, happens twice.
