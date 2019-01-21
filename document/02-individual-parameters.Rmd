@@ -11,133 +11,148 @@ The first two steps of Gary Karpinski's model of melodic dictation [@karpinskiAu
 Karpinski conceptualizes the first stage of _hearing_ as involving the physical motions on the tympanic membrane, as well as the listener's attention to the musical stimulus.
 This stage is distinguished from that of _short-term melodic memory_ which refers to the amount of melodic information that can be represented in conscious awareness.
 Given that neither stage of the first two steps of Karpinski's model requires any sort of musical expertise, every individual with normal hearing and cognition should be able to partake in the first two steps of melodic dictation.^[This whole model needs critique under the WMC literature. It's kind of strange to think that the act of something hitting your ear is different than attention (the way that Cowan thinks about WMC and again that you can split up the representation in memory from that of what the characteristics are of the melody like the meter and scale degrees, which have been argued to be part of intrinsic qualia) also there is a big problem here about stuff being actively rehearsed or not]
-The ability to hear, then remember musical information is where all students of melodic dictation are presumed to start.
-From this baseline, students recieve explicit education in music theory and aural skills and to develop the ability to link what is heard to what can then be musically understood and then notated.
+The ability to hear, then remember musical information is where all students of melodic dictation are presumed to begin their aural skills education.
+From this baseline, students recieve explicit education in music theory and aural skills to develop the ability to link what is heard to what can then be musically understood and then notated.
 
 While the majority of beginning students of melodic dictation are assumed to start at the same ability, recent reserach from music psychology suggests that individual differences in musical perception exist and must be accounted for from a psychological and pedagogical standpoint CITATIONS.
-In order to fully capture the diversity of listening abilities amongst students of melodic dictation, a complete account melodic dictation music include individual differences in ability.
-Understanding how differences at the individual level vary also will help pedagoges know what can be reasonably expected of students with different experiences and abilities.
+In order to fully capture the diversity of listening abilities amongst students of melodic dictation, a complete account of melodic dictation music include individual differences in ability.
+Understanding how differences at the individual level vary also will help pedagogues know what can be reasonably expected of students with different experiences and abilities.
 
 Attempting to investigate all four parts of melodic dictation from hearing, to short-term melodic memory, to musical understanding, to notation is cumbersome both from a theoretical perspective and practically unfeasible due to the amount of variables that might contribute to this process.
 In order to obtain a clearer picture of what mechanisms contribute to this process, these steps must be be investigated in turn.
-This chapter investigates the first two steps of the Karpinski model with an experiment investigating individual factors that contribute to an individual's musical memory that do not depend on their knowledge of Western musical notation.
+This chapter investigates the first two steps of the Karpinski model with an experiment examining individual factors that contribute to an individual's musical memory that do not depend on their knowledge of Western musical notation.
 By understanding which, if any, individual factors play a role in this process, it will inform what can be reasonably expected of individuals when other musical variables are introduced.
 
 ## Individual Differences
 
 ### Improving Musical Memory
 
-Most aural skills pedagogy assumes students begin with approximetly the same baseline.
-This is an important assumption to the Karpinski model.
-As noted in the previosu chapter, the Karpinksi model is agnostic as to who is taking the dictation.
-According to Karpinski, students can develop two skills in order to improve their melodic dictation abilities: extractive listening and chunking.
-In Karpinksi's own words:
+Most aural skills pedagogy assumes students begin with approximately the same baseline listening and dictation abilities.
+Assuming this baseline allows teachers to cover requisite information systematically and ensure that students are given the the same tools to enable their success in the classroom.
+This similarity of baseline of abilities is implicit in the Karpinski model of melodic dictation.
+The model provides a framework of mental choreography students are encouraged to build upon that is agnostic to individual differneces.
+As students gain more knowledge in music theory, they build their musical understanding which in turn enables them to recognize more of the auditory scene they are focusing on.
+In addition to learning explicit knowledge to facilitate their musical understanding, Karpinski suggests that there are two other skills that students can develop in order to improve their short-term musical memory: extractive listening and chunking.
+In Karpinski's own words:
 
-> Only one or both or both stratgies can extend the capacity of short-term musical memory: (1) extractive listening and (2) chunking. (pp. 71)"
+> Only one or both stratgies can extend the capacity of short-term musical memory: (1) extractive listening and (2) chunking. (pp. 71)"
 
-Karpinski defines extractive listening as "a combindation of focused attention and selective memorization (p.70)".
-Extractive listening requires students to be able to focus in on the material they will be mentally representing andtune out other sources of stimulation that might distract the student.
-In order to improve this ability, Karpinksi suggests practicing listening to melodies to melodies and having students practice directing their attention to certain sequences of notes and slowly working towards being able to auralize the melody with other musical information still sounding. 
-Karpinski claims that honing one's attention via progrssive practice will not only improve student's ability to dictate melodies, but alo help them with a host of other muscial activity.
-Further, Timothy Chenette has since proposed simlar types of progressive loading aural exercises by co-opting standard cognitive tasks used in working memory paradigms [@chenetteReframingAuralSkills2019] . 
+Karpinski defines extractive listening as "a combination of focused attention and selective memorization (p.70)".
+Extractive listening requires students to be able to focus in on the material they will be mentally representing and tune out other sources of stimulation that might distract the student.
+In order to improve this ability, Karpinski suggests practicing listening to melodies and having students practice directing their attention to pre-determined set sequences of notes.
+Students should slowly work towards being able to auralize the melody with other musical information still sounding. 
+Karpinski claims that honing one's attention via progressive practice will not only improve student's ability to dictate melodies, but also help them with a host of other musical activity.
+Further, Timothy Chenette has since proposed similar types of progressive loading aural exercises by co-opting standard cognitive tasks used in working memory paradigms [@chenetteReframingAuralSkills2019] . 
 
-After students master the ability to selectively hear and retain portion of a melody, the other way in which they can improve their dictation abilities is via the act of chunking.
-Chunking is a listener's ability group musical materials into groups.
-The idea of chunking derrives from earlier work from Gestalt psychologists and was one of the initial meachisms proposed by @millerMagicalNumberSeven1956 that he proposed was an able to extend the finite window of memory.
-The general idea is that if a collection of notes can be identified as its own discrete entity, such as a descending triad, the listerer will only have to remember that one structure, rather than its component parts.
-As discussed in the previous chapter in §XXX, music's inherently sequential nature affords it many oppertunites to find repeated patterns which can be labled, musicaly understood, and thus chunked.
-While stimuli that are inherently sequetional are problems for researchers working in the working memory literature, students are expected to use these chunking to their advantage in order to become better listeners .
-As students learn to chunk more, they are able to take in more muscial information into their short term musical memory.
-With the increase of both skills, students are presumed to increase their musical memory and ultimatly improve their melodic dictation abilites.
-But is there any literature support this claim?
+After students master the ability to selectively hear and retain portion of a melody, the other way in which they can improve their dictation abilities is via chunking.
+Chunking is a listener's ability group smaller units of musical material into a larger group.
+The idea of chunking derives from earlier work from Gestalt psychologists and was one of the initial mechanisms proposed by @millerMagicalNumberSeven1956 able to extend the finite window of memory.
+The general idea is that if a collection of notes can be identified as its own discrete entity, such as a descending triad, the listener will only have to remember that one structure, rather than its component parts.
+As discussed in the previous chapter in §XXX, music's inherently sequential nature affords it many opportunities to find repeated patterns which can be labeled, musically understood, and thus chunked.
+While stimuli that are inherently sequential are problematic for researchers working in the working memory literature, students are expected to use chunking to their advantage in order to become more adept listeners.
+As students learn to chunk more efficiently, they are able to process more musical information into their short-term musical memory.
+With the development of both skills, students are presumed to increase their musical memory and ultimately improve their melodic dictation abilities.
+But what evidence supports the assertion that individuals are able to improve on their ability to remember melodies?
+To help answer this, I first begin by reviewing literature that examines memory for melody that does not depend on an individual's musical training.
+
 
 ### Memory for Melodies
 
-Research findings from the memory for melody literature is mixed when considering the advantage to remembering melodies and musical training [@halpernMemoryMelodies2010].
-This is not to say chunking and extractive memory are not pedagogically helpful, as the studies I am about to list do specifically address melodic dicttion.
-For example, no effect of musicianship was found by @mcauleyPlayItAgain2004 in a paradigm where they presentd both musically trained and non-musically trained individuals melodies over the course of two days.
-In a musical recognition task, [@korenmanRoleFamiliarityEpisodic2004] found no effect of musicianship on memory and using an old-new design, [@munganLevelsofProcessingEffectsRemember2011] found an effect of musical training, but not in correctly identifying melodies, but in correctly identifying songs that they had not heard before.
-As with much of the music psychology literature, one of the reasons that these studies may have not found an effect is that that how musical training is measured varies widly from study to study [@talaminiMusiciansHaveBetter2017].
-When measured continously using paradigms that require immediate recall and jugmenent, musical training does often predict memory for muscial mateirals.
-Using regresion modeling, Harrison et. al reported an $R^2 = 0.459$ when reporting the response variablility in a melodic discrimination task [@harrisonApplyingModernPsychometric2017a] when using the Goldsmith's Musical Sophistication index.
-@bakerPerceptionLeitmotivesRichard2017 found musical training, when measured continously, was able to be a significant predictor using a exposure-recall paradigm using more ecological stimuli.
+Research findings from the memory for melody literature are mixed when considering how people vary in their ability to remember musical material [@halpernMemoryMelodies2010].
+For example, no effect of an individual's musical training was found by @mcauleyPlayItAgain2004 in a paradigm where both musically trained and non-musically trained individuals were presented with melodies using a recognition paradigm task with melodies over the course of two days.
+In a musical recognition task, @korenmanRoleFamiliarityEpisodic2004 found no effect of musicianship on memory and using an old-new design and @munganLevelsofProcessingEffectsRemember2011 found an effect of musical training on melodic memory, but the significant effect reported was not found in correctly identifying melodies, but rather in correctly identifying songs that they had not heard before.
+Additionally, [@mullensiefenRoleFeaturesContext2014] reported no effects of musical training on their recognition paradigm experiement.
+They instead predicted musical performance based on the features of the melodies rather than using individual level variables. 
 
-* Mullensifen halpern 2x
-* new fantastic paradigm
+As with much of the music psychology literature, one of the reasons that these studies may have not found a memory advantage for the more musically trained is that how musical training is measured varies widely from study to study [@talaminiMusiciansHaveBetter2017].
+When measured continuously using paradigms that require immediate recall and judgment, musical training does often predict memory for musical materials.
+Using a stepwise modeling procedure, @harrisonModellingMelodicDiscrimination2016 consitently found evidence that musical training to be a significant predictor of ability to preform well on a melodic discrimintation task when developing an item response theory based test of melodic memory. 
+Using regression modeling, Harrison et. al reported to be able to explain a large amont of the variance ($R^2 = 0.459$) when reporting response variability in a melodic discrimination task [@harrisonApplyingModernPsychometric2017a] when measuring musical training via the Goldsmith's Musical Sophistication Index[@mullensiefenMusicalityNonMusiciansIndex2014].
+@bakerPerceptionLeitmotivesRichard2017 found musical training, when measured continuously, was able to be a significant predictor using a exposure-recall paradigm, and effect which was even further explained by an individual's previous expoure to the genre.
 
-Even despite mixed evidence suggesting different effects that musical training has on an individual's ability to remember melodies, these studies do not specifically deal with melodic dictation, and thus cannot be used as a direct comparsion for a number of reasons.
+Even despite mixed evidence suggesting different effects that musical training has on an individual's ability to remember melodies, these studies do not specifically deal with melodic dictation, and thus cannot be used as a perfect comparison for a number of reasons.
 The first is that melodic dictation is a much more complicated process that not only involves hearing a melody after a few iterations, but also its notation.
-Seeing as melodic dictators need to notate their melodies, which again is dependant on their knowledge of Western musical notation, melodic dictation is secondly a more connitively demanding process than the previously mentioned studies on memory for melody which often only require a simple discrimination.
+Seeing as melodic dictators need to notate their melodies, which again is dependent on their knowledge of Western musical notation, melodic dictation is secondly a more cognitively demanding process than the previously mentioned studies on memory for melody which often only require a simple discrimination.
 
-While the above memory for melodies literature is mixed regarding the musician's advantage, there is research from cognitive psychology to support that musicans do in fact have better cognitive abilities on a more domain general level, which could lead ot better performance.
-Work as reviewed in @schellenbergMusicNonmusicalAbilities2017 investigating the relationship between musical training and general intelligence suggest that both children and adults who engage in musical activity tend to score higher on general measurses of intelligence than their non-musical peers ([@gibsonEnhancedDivergentThinking2009; @hilleAssociationsMusicEducation2011; @schellenbergExaminingAssociationMusic2011; @schellenbergMusicTrainingEmotion2012]).
+### Musician's Cognitive Advantage
+
+While the above memory for melodies literature is mixed regarding the musician's advantage, there is research from cognitive psychology to support that musicians do in fact have better cognitive abilities on a more domain general level, which could lead to better performance.
+Work as reviewed in @schellenbergMusicNonmusicalAbilities2017 investigating the relationship between musical training and general intelligence suggest that both children and adults who engage in musical activity tend to score higher on general measures of intelligence than their non-musical peers [@gibsonEnhancedDivergentThinking2009; @hilleAssociationsMusicEducation2011; @schellenbergExaminingAssociationMusic2011; @schellenbergMusicTrainingEmotion2012].
 The finding importantly comes with it a correlation between duration of musical training and the extent of the increases in intelligence [@corrigallMusicTrainingCognition2013; @corrigallPredictingWhoTakes2015; @degeMusicLessonsIntelligence2011; @schellenbergLongtermPositiveAssociations2006].
-While many of these studies are correlational, other researchers have further investigated this relationship in experimental settings in attempt to control for confounding variables like socio-economic status and parental involvment in out of school activities [@corrigallMusicTrainingCognition2013c; @degeMusicLessonsIntelligence2011; @schellenbergExaminingAssociationMusic2011; @schellenbergLongtermPositiveAssociations2006; @schellenbergMusicTrainingEmotion2012], but findings have been mixed.
+While many of these studies are correlational, other researchers have further investigated this relationship in experimental settings in attempt to control for confounding variables like socio-economic status and parental involvement in out of school activities [@corrigallMusicTrainingCognition2013c; @degeMusicLessonsIntelligence2011; @schellenbergExaminingAssociationMusic2011; @schellenbergLongtermPositiveAssociations2006; @schellenbergMusicTrainingEmotion2012], but findings have been mixed.
 
 Schellenberg [@schellenbergMusicNonmusicalAbilities2017] notes that in many of these studies there is a problem of too small of a sample size in his review [@corrigallAssociationsLengthMusic2011; @parbery-clarkMusicalExperienceAging2011; @straitMusicalTrainingEarly2012] in that studies that are typically smaller do not reach statistical significance. 
-Also referenced in Schellenberg's review is evidence that when professional musicians are matched with non-musicians from the general population these associations are non-existant [@schellenbergMusicTrainingSpeech2015]. 
+Also referenced in Schellenberg's review is evidence that when professional musicians are matched with non-musicians from the general population these associations are non-existent [@schellenbergMusicTrainingSpeech2015]. 
 Interpreting the current literature Schellenberg's puts forward the hypothesis that higher functioning kids self-select into music lessons and they tend to stay in lessons longer which leads to the observed differences in intelligence. 
-Additionally, Schellenberg remains skeptical of any sorts of causal factors regarding increases in IQ [@francoisMusicTrainingDevelopment2013; @morenoMusicalTrainingInfluences2009] noting methodlogical problems like how short exposure times were in studies claiming increases in effects or researchers who not holding pre-exisiting cognitive abilitis constant [@mehrTwoRandomizedTrials2013].
+Additionally, Schellenberg remains skeptical of any sorts of causal factors regarding increases in IQ [@francoisMusicTrainingDevelopment2013; @morenoMusicalTrainingInfluences2009] noting methodological problems like how short exposure times were in studies claiming increases in effects or researchers who not holding pre-existing cognitive abilities constant [@mehrTwoRandomizedTrials2013].
 
 
-Another congitive ability where musicians tend to be superior is that of memory.
-[@talaminiMusiciansHaveBetter2017]'s meta-analysis looking at musica and memory found not only a general advantage of musicians, but noted that musicians tended to perform better on memory tasks especially in cases where stimuli were short and tonal.
-This musican advantage could derive from a musician's ability to chunk information more effectively based on past exposure via implicit learning practices [@ettlingerImplicitMemoryMusic2011; @rohrmeierImplicitLearningAcquisition2012].
-As noted above, much of the research at this point still very much focuses on higher level relationships, which is progressivly being improved upon by agreeing on how to measure music.
+Another cognitive ability where musicians tend to be superior is that of memory.
+@talaminiMusiciansHaveBetter2017's meta-analysis investigating musical training and memory found not only a general advantage of musicians, but noted that musicians tended to perform better on memory tasks especially in cases where stimuli were short and tonal.
+This musician advantage could derive from a musician's ability to chunk information more effectively based on past exposure via implicit learning practices [@ettlingerImplicitMemoryMusic2011; @rohrmeierImplicitLearningAcquisition2012]
+
+* Sarah Creel paper
+
+As noted above, much of the research at this point still very much focuses on higher level relationships, which is progressively being improved upon by agreeing on how to measure music.
 Though until more concrete theories emerge that link specific musical traits to music ability, music psychology will still suffer from less exact models. CITE SELF.
 
 ### Relationship Established
 
-Regardless of the direction of causality, there is evidence to suggest that there is a relationship between muscial training and cognitive ability.
-Clearly cognitive ability is at play in many task of perception and production and presumably these abilities would interact with other variables of interst such as musical training.
-Even in studies outside of music, domain gerral cognitve abilities have been shown to be predictive above and beyond domain specific expertise.
-In reviewing the current literature, [@hambrickDomainGeneralModelsExpertise2019] reiterate that while there is evidence some of the time in many domain specific areas like chess, games, and music, the current state of the literature is not definitve enough to explain exactly how this phenomea works on a global level.
+Regardless of the direction of causality, there is evidence to suggest that there is a relationship between musical training and cognitive ability.
+Clearly cognitive ability is at play in many task of perception and production and presumably these abilities would interact with other variables of interest such as musical training.
+Even in studies outside of music, domain general cognitive abilities have been shown to be predictive above and beyond domain specific expertise.
+In reviewing the current literature, [@hambrickDomainGeneralModelsExpertise2019] reiterate that while there is evidence some of the time in many domain specific areas like chess, games, and music, the current state of the literature is not definitive enough to explain exactly how this phenomena works on a global level.
 
 Though of all the studies mentioned thus far, one cognitive ability deserving of special attention is that of working memory.
 As noted by [@berzWorkingMemoryMusic1995], many tests of memory-- such as the tests above--require the encoding and active manipulation of musical material.
-In his 1994 article, Berz draws important parallels between working memory systems and music tests and postulated new loop.
+In his 1995 article, Berz draws important parallels between working memory systems and music tests and postulated new loop.
 For example [@meinzDeliberatePracticeNecessary2010] found working memory to be predictive of performance in a sight reading task above and beyond that of deliberate practice.
-Work by Kopiez [@kopiezDynamicModelSkills2006; @kopiezGeneralModelSkills2008] has has additoinally linked the importance of working memory to performance on sight reading tasks.
-In multiple studies, Andrea Halpern has also shown measures of working memory to be linked to performance in muscial production tasks [@halpernEffectsTimbreTempo2008; @nicholsScoreOneJazz2018b] and has even interpreted these findings in terms of Berz's memory loop. 
-Additionally, [@okadaIndividualDifferencesMusical2018a] used a a latent variable approach where they investigated executive function in a sample of 161.
-Using Miyake conception of executive function and mixed effects modeling, Okda and Slevc found an effect of musical training as measures withe Goldsmiths Musical Sophisitcation Index on the updating component of the executive functioning model, a construct often interpreted as similar to working memory capacity.
-Okada and Slevc did not howwever link performance on their executive functioning tasks to an objective measure of muscial performance implemented by the Goldsmiths Musical Sophistication Index.
+Work by Kopiez [@kopiezDynamicModelSkills2006; @kopiezGeneralModelSkills2008] has has additionally linked the importance of working memory to performance on sight reading tasks.
+In multiple studies, Andrea Halpern has also shown measures of working memory to be linked to performance in musical production tasks [@halpernEffectsTimbreTempo2008; @nicholsScoreOneJazz2018b] and has even interpreted these findings in terms of Berz's memory loop. 
+Other work by [@harrisonModellingMelodicDiscrimination2016] has also made important links to an individual's ability to rembember and recall musical informaiton and working memory.
+Harrision and colleagues put forward a cognitive model based on research in working memory that predicted which features of a melody-- based on theoretical considerations from working memory-- would be best at predicting behavioral performance.
+They proposed that perceptual encoding, memory retention, similarity comparision, and decision-making could be used to contextualize differences in their memory recogniton paradigm.
+While they did fid evidence to support these notions, they did not take any domain general measures of working memory capacity.
 
-So given the complex network of variables at play, in order to understand how these individual non training factors affect the first two steps of melodic dictation, need to take a multivariate approach.
+Additionally, [@okadaIndividualDifferencesMusical2018a] used a a latent variable approach where they investigated executive function in a sample of 161.
+Using Miyake's conception of executive function and mixed effects modeling, Okada and Slevc found an effect of musical training as measures withe Goldsmiths Musical Sophistication Index on the updating component of the executive functioning model, a construct often interpreted as similar to working memory capacity.
+Okada and Slevc did not however link performance on their executive functioning tasks to an objective measure of musical performance implemented by the Goldsmiths Musical Sophistication Index.
+
+So given the complex network of variables at play, in order to understand how these individual factors affect the first two steps of melodic dictation, a multivariate approach is needed.
 In order to investigate the effects of individual factors on baseline, need to first assume that m4m can stand in for first two steps of melodic dictation.
-Then by investigating how these factors relate using structural equaiton modeling, we will be able to see what, if any factors, contribute to the first tow steps here.
+Then by investigating how these factors relate using structural equation modeling, we will be able to see what, if any factors, contribute to the first tow steps here.
     
 ### Dictation without Dictation
 
 One of the most popular paradigms used in music perception research, specifically the memory for melody literature, are same-different memory tasks [@halpernMemoryMelodies2010].
 These tasks require individuals to hear a melody, retain it in memory, then hear a second melody either at the exact same pitch level, or transposed, and then make a judgment if the two melodies were the same or different.
-It is important to note this type of task requires both rention of musical material and a secondary cognitive task: deciding if the melodies were identical or not.
+It is important to note this type of task requires both retention of musical material and a secondary cognitive task: deciding if the melodies were identical or not.
 In many ways, this type of task mirrors the first two steps of melodic dictation.
-Same-different paradigms require individuals to first hear a finite amount of musical material, then while held in concious representation, perform some sort of mental action on the contents of memory by making a similarity judgment.
-If one were to acknowledge these similariies in mental processes, using same-different paradigms could provide a way to investigate the first two steps of Karpinkski's model of melodic dictation in the general population which may or may not have musical training.
+Same-different paradigms require individuals to first hear a finite amount of musical material, then while held in conscious representation, perform some sort of mental action on the contents of memory by making a similarity judgment.
+If one were to acknowledge these similarities in mental processes, using same-different paradigms could provide a way to investigate the first two steps of Karpinski's model of melodic dictation in the general population which may or may not have musical training.
 
 ### Cognitive Measures of interest
 
 Having previously established that many tests of musical ability and aptitude, may in fact be tests of working memory [@berzWorkingMemoryMusic1995], one factor not yet accounted for in many of the measures of musical memory might be working memory.
-If operationalized as conceptualized as Cowan above [@cowanMagicalMysteryFour2010], one would have ot measure working memory using a task that uses both retention and manipulation of informaiton in memory, or a set of complex span tasks [@unsworthAutomatedVersionOperation2005].
+If operationalized as conceptualized as Cowan above [@cowanMagicalMysteryFour2010], one would have to measure working memory using a task that uses both retention and manipulation of information in memory, or a set of complex span tasks [@unsworthAutomatedVersionOperation2005].
 Additionally, since general intelligence is often predictive of performance on a host of cognitive tasks LIST and has been theoretically related to working memory [@kovacsProcessOverlapTheory2016], this measure should also be accounted for.
 Finally, in response to claims made by [@okadaIndividualDifferencesMusical2018a] having to need to account for specific covariates, it would also be good to keep track of things like socioeconomic status, degree of education, and OTHER VARIABLES.
 
 ### PATH Analysis here
 
-Given the complex nature being investigated and the theoretical concepts at play such as working memory, general fluid intelligence, and musicial sophisticaiton conceputalized as a latent variable, it follows that the most appropriate method of parsing out the variance in this covariance structure would be to use some form of path analysis.
-Path analysis is a type of analysis developed by XXXX which orignally assumed a closed algerbric system which could be used to parse out causal structures amongst covariance relationships WHY.
-The sets of variables presented do not make up a closed system as orignally devided by XXX in his investigation of the heretibility of guinia pig traints PEARL PAGE, path analysis using structural equation modeling does allow insight into the degree that variables of interest contribute to complex causal relationships.
+Given the complex nature being investigated and the theoretical concepts at play such as working memory, general fluid intelligence, and musical sophistication conceptualized as a latent variable, it follows that the most appropriate method of parsing out the variance in this covariance structure would be to use some form of path analysis.
+Path analysis is a type of analysis developed by XXXX which originally assumed a closed algebraic system which could be used to parse out causal structures among covariance relationships WHY.
+The sets of variables presented do not make up a closed system as originally devised by XXX in his investigation of the heritable of Guiana pig traits PEARL PAGE, path analysis using structural equation modeling does allow insight into the degree that variables of interest contribute to complex causal relationships.
 
 ### Hypotheses
 
-If I then assume that a same-different melodic memory paradigm is a stable proxy for the first two steps of Karpinski's model of melodic dictation, then data generated from both objective tests of the Goldsmiths' Musical Sophistication Index  can serve as proxy for this measure of interst.
+If I then assume that a same-different melodic memory paradigm is a stable proxy for the first two steps of Karpinski's model of melodic dictation, then data generated from both objective tests of the Goldsmiths' Musical Sophistication Index  can serve as proxy for this measure of interest.
 In this analyses, I will use a series of structural equation models in order to investigate how various individual factors contribute to an individual's memory for melody.
-Following a stepwise proceedure LIKE EE, these sets of analyses will provide a way what individual factors need to be accounted for in future research. 
+Following a step wise procedure LIKE EE, these sets of analyses will provide a way what individual factors need to be accounted for in future research. 
 
-Given a robust instrument for measuring musciality, and two well established cognive measrues as specifically defined, this study analysis seeks to investigate the degree to which these individual level variables are predictive of a task that is proxy to the first two steps of melodic dictation.
+Given a robust instrument for measuring musicality, and two well established cognitive measures as specifically defined, this study analysis seeks to investigate the degree to which these individual level variables are predictive of a task that is proxy to the first two steps of melodic dictation.
 
-If a large proportion of the variance of musical memory can be attributed to training, then variables related to the Goldsmiths Musical Sophisitication Index should be most predictive with the highest path coeffecients and lead to the best model fit.
+If a large proportion of the variance of musical memory can be attributed to training, then variables related to the Goldsmiths Musical Sophistication Index should be most predictive with the highest path coefficients and lead to the best model fit.
 If instead cognitive factors do play a role, this should be evident in the path loadings.
 Not an either or, more like a both. 
 
@@ -147,7 +162,7 @@ Not an either or, more like a both.
 
 Two hundred fifty-four students enrolled at Louisiana State University completed the study. 
 Students were mainly recruited in the Department of Psychology and the School of Music.
-The criteria for inclusion in the analysis were no self-reported hearing loss, not actively taking medication that would alter cognitive performance, and the removeal of any univariate outliers (defined as individuals whose performance on any task was greater than 3 standard deviations from the mean score of that task). 
+The criteria for inclusion in the analysis were no self-reported hearing loss, not actively taking medication that would alter cognitive performance, and the removal of any univariate outliers (defined as individuals whose performance on any task was greater than 3 standard deviations from the mean score of that task). 
 Using these criteria, eight participants were not eligible due to self reporting hearing loss, one participant was removed for age, and six participants were eliminated as univariate outliers due to performance on one or more of the tasks of working memory capacity.
 Thus, 239 participants met the criteria for inclusion. 
 The eligible participants were between the ages of 17 and 43 (M = 19.72, SD = 2.74; 148 females). 
@@ -173,13 +188,13 @@ The complete survey with all questions used can be found at goo.gl/dqtSaB.
 ##### Tone Span (TSPAN)
 
 Participants completed a two-step math operation and then tried to remember three different tones in an alternating sequence (based upon @unsworthAutomatedVersionOperation2005). 
-We modelled the three tones after @liEstimatingWorkingMemory2013 paper's using frequencies outside of the equal tempered system (200Hz, 375Hz, 702Hz). 
+We modeled the three tones after @liEstimatingWorkingMemory2013 paper's using frequencies outside of the equal tempered system (200Hz, 375Hz, 702Hz). 
 The same math operation procedure as OSPAN was used. 
 The tones was presented aurally for 1000ms after each math operation. 
 During tone recall, participants were presented three different options H M and L (High, Medium, and Low), each with its own check box.
 Tones were recalled in serial order by clicking on each tone’s box in the appropriate order.
 Tone recall was untimed.
-Participants were provided practice trials and similar to OSPAN, the test procedure included three trials of each list length (3-7 tones), totalling 75 letters and 75 math operations.
+Participants were provided practice trials and similar to OSPAN, the test procedure included three trials of each list length (3-7 tones), totaling 75 letters and 75 math operations.
 
 ##### Operation Span (OSPAN)
 
@@ -209,9 +224,9 @@ The test procedure included three trials of each list length (2-5 red squares), 
 Participants were presented 18 excerpts of instrumental music from rock, jazz, and classical genres [@mullensiefenMusicalityNonMusiciansIndex2014]. 
 Each excerpt was presented for 10 to 16s through headphones and had a tempo ranging from 86 to 165 beats per
 minute. 
-A metronomic beep was played over each excerpt either on or off the beat. 
+A metronome beep was played over each excerpt either on or off the beat. 
 Half of the excerpts had a beep on the beat, and the other half had a beep off the beat. 
-After each excerpt was played, participants answered if the metronomic beep was on or off the beat and provided their confidence: “I am sure”, “I am somewhat sure”, or “I am guessing”. 
+After each excerpt was played, participants answered if the metronome beep was on or off the beat and provided their confidence: “I am sure”, “I am somewhat sure”, or “I am guessing”. 
 The final score was the proportion of correct responses on the beat judgment.
 
 ##### Gold-MSI Melodic Memory Test
@@ -271,37 +286,39 @@ Model fits in can be found in Table 3.
 For each model, latent factors were constrained to have a mean of 0 and variance of 1 in order to allow the latent covariances to be interpreted as correlations. 
 Since the objective measures were on different scales, all variables were converted to z scores before running any modeling.
 
-* MODEL HERE 
-
+```{r measurementmodel, echo=FALSE, fig.cap="CFA Measurement Model",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/measurementModel.png")
+```
 
 Variables are listed in the table below: 
 
------------------
-gen| general factor latent variable; 
-wmc| working memory capacity 
-gf| general fluid intelligence 
-zIS| “Identify What is Special” 
-zHO| “Hear Once Sing Back” 
-zSB| “Sing Back After 2-3” 
-zDS| “Don’t Sing In Public”
-zSH| “Sing In Harmony” 
-zJI| ”Join In” 
-zNI| “Number of Instrumetns” 
-zRP| ”Regular Practice” 
-zNCS| “Not Consider Self Musician” 
-zNcV| “Never Complimented” 
-zST| “Self Tonal” 
-zCP| “Compare Performances”
-zAd| “Addiction” 
-zSI| “Search Internet” 
-zWr| “Writing About Music” 
-zFr| “Free Time” 
-zTP| “Tone Span” 
-zMS| “Symmetry Span” 
-zMO| “Operation Span” 
-zRA| “Ravens” 
-zAN| “Number Series”
-------------------
+Abbreviation | Variable 
+---|----------------------------------- 
+gen| General Self-Report Musical Sophistication 
+wmc| Working Memory Capacity 
+gf| General Fluid Intelligence 
+zIS| Identify What is Special 
+zHO| Hear Once Sing Back
+zSB| Sing Back After 2-3 
+zDS| Don’t Sing In Public
+zSH| Sing In Harmony 
+zJI| Join In 
+zNI| Number of Instruments 
+zRP| Regular Practice
+zNCS| Not Consider Self Musician 
+zNcV| Never Complimented 
+zST| Self Tonal 
+zCP| Compare Performances
+zAd| Addiction 
+zSI| Search Internet 
+zWr| Writing About Music 
+zFr| Free Time 
+zTP| Tone Span 
+zMS| Symmetry Span 
+zMO| Operation Span 
+zRA| Ravens
+zAN| Number Series
+
 #### Structural Equation Models
 
 Following the initial measurement model, we then fit a series of SEMs in order to investigate both the degree to which factor loadings changed when variables were removed from the model as well as the model fits. 
@@ -324,19 +341,21 @@ Testing between the two models resulted in a significant improvement in model fi
 Figure 3 displays Model 4, our nested model with the best fit indices.
 
 ```{r, echo=FALSE}
-semModelNames <- c("CFA","Model 1","Model 2","Model 3", "Model 4","Model 5")
+Models <- c("CFA","Model 1","Model 2","Model 3", "Model 4","Model 5")
 df <- c(186,222,181,10,6,130)
 chi <- c(533.60,586.30,462.90,24.11,9.74,358.16)
+p <- c("> .001","> .001","> .001","> .05","> .14","> .001")
+CFI <- c(0.83,0.83,0.86,0.97,0.99,0.83)
+RMSEA <- c(0.09,0.08,0.08,0.08,0.51,0.10)
+TLI <- c(0.81,0.80,0.83,0.94,0.97,0.80)
 
-semDT <- data.frame(semModelNames,df, chi)
+semDT <- data.frame(Models,df, chi,p, CFI, RMSEA, TLI)
 
 knitr::kable(semDT)
 ```
 
 
-```{r measurementmodel, echo=FALSE, fig.cap="CFA Measurement Model",fig.align='center', out.width="100%"}
-knitr::include_graphics("img/measurementModel.png")
-```
+
 
 ```{r model1, echo=FALSE, fig.cap="Full Model, All Variables Included",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/sem1.png")
