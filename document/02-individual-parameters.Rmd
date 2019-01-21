@@ -55,7 +55,6 @@ With the development of both skills, students are presumed to increase their mus
 But what evidence supports the assertion that individuals are able to improve on their ability to remember melodies?
 To help answer this, I first begin by reviewing literature that examines memory for melody that does not depend on an individual's musical training.
 
-
 ### Memory for Melodies
 
 Research findings from the memory for melody literature are mixed when considering how people vary in their ability to remember musical material [@halpernMemoryMelodies2010].
@@ -85,7 +84,6 @@ Schellenberg [@schellenbergMusicNonmusicalAbilities2017] notes that in many of t
 Also referenced in Schellenberg's review is evidence that when professional musicians are matched with non-musicians from the general population these associations are non-existent [@schellenbergMusicTrainingSpeech2015]. 
 Interpreting the current literature Schellenberg's puts forward the hypothesis that higher functioning kids self-select into music lessons and they tend to stay in lessons longer which leads to the observed differences in intelligence. 
 Additionally, Schellenberg remains skeptical of any sorts of causal factors regarding increases in IQ [@francoisMusicTrainingDevelopment2013; @morenoMusicalTrainingInfluences2009] noting methodological problems like how short exposure times were in studies claiming increases in effects or researchers who not holding pre-existing cognitive abilities constant [@mehrTwoRandomizedTrials2013].
-
 
 Another cognitive ability where musicians tend to be superior is that of memory.
 @talaminiMusiciansHaveBetter2017's meta-analysis investigating musical training and memory found not only a general advantage of musicians, but noted that musicians tended to perform better on memory tasks especially in cases where stimuli were short and tonal.
