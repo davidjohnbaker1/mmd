@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Chapter 2 Theoretical Background and Rationale | Modeling Melodic Dictation</title>
+  <meta name="description" content="This dissertation explores both individual and musical features that might contribute to processes involved in melodic dictation.">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="Chapter 2 Theoretical Background and Rationale | Modeling Melodic Dictation" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This dissertation explores both individual and musical features that might contribute to processes involved in melodic dictation." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Theoretical Background and Rationale | Modeling Melodic Dictation" />
+  
+  <meta name="twitter:description" content="This dissertation explores both individual and musical features that might contribute to processes involved in melodic dictation." />
+  
+
+<meta name="author" content="David John Baker">
+
+
+<meta name="date" content="2019-01-23">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="index.html">
+<link rel="next" href="individual-differences.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; position: absolute; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; }
+pre.numberSource a.sourceLine:empty
+  { position: absolute; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Modeling Melodic Dictation</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Significance of the Study</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#rationale"><i class="fa fa-check"></i><b>1.1</b> Rationale</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#chapter-overview"><i class="fa fa-check"></i><b>1.2</b> Chapter Overview</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#dissertation-output"><i class="fa fa-check"></i><b>1.3</b> Dissertation Output</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="index.html"><a href="index.html#reserach-papers"><i class="fa fa-check"></i><b>1.3.1</b> Reserach Papers</a></li>
+<li class="chapter" data-level="1.3.2" data-path="index.html"><a href="index.html#research-presentations"><i class="fa fa-check"></i><b>1.3.2</b> Research Presentations</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Theoretical Background and Rationale</a><ul>
+<li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#what-is-melodic-dictation-and-why"><i class="fa fa-check"></i><b>2.1</b> What is melodic dictation? and Why?</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="intro.html"><a href="intro.html#describing-melodic-dictation"><i class="fa fa-check"></i><b>2.1.1</b> Describing Melodic Dictation</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="intro.html"><a href="intro.html#individual-factors"><i class="fa fa-check"></i><b>2.2</b> Individual Factors</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="intro.html"><a href="intro.html#cognitive"><i class="fa fa-check"></i><b>2.2.1</b> Cognitive</a></li>
+<li class="chapter" data-level="2.2.2" data-path="intro.html"><a href="intro.html#measuring-intelligence"><i class="fa fa-check"></i><b>2.2.2</b> Measuring Intelligence</a></li>
+<li class="chapter" data-level="2.2.3" data-path="intro.html"><a href="intro.html#working-memory-capacity"><i class="fa fa-check"></i><b>2.2.3</b> Working Memory Capacity</a></li>
+<li class="chapter" data-level="2.2.4" data-path="intro.html"><a href="intro.html#general-intelligence"><i class="fa fa-check"></i><b>2.2.4</b> General Intelligence</a></li>
+<li class="chapter" data-level="2.2.5" data-path="intro.html"><a href="intro.html#environmental"><i class="fa fa-check"></i><b>2.2.5</b> Environmental</a></li>
+<li class="chapter" data-level="2.2.6" data-path="intro.html"><a href="intro.html#musical-training"><i class="fa fa-check"></i><b>2.2.6</b> Musical Training</a></li>
+<li class="chapter" data-level="2.2.7" data-path="intro.html"><a href="intro.html#aural-training"><i class="fa fa-check"></i><b>2.2.7</b> Aural Training</a></li>
+<li class="chapter" data-level="2.2.8" data-path="intro.html"><a href="intro.html#sight-singing"><i class="fa fa-check"></i><b>2.2.8</b> Sight Singing</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#musical-parameters"><i class="fa fa-check"></i><b>2.3</b> Musical Parameters</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="intro.html"><a href="intro.html#structural"><i class="fa fa-check"></i><b>2.3.1</b> Structural</a></li>
+<li class="chapter" data-level="2.3.2" data-path="intro.html"><a href="intro.html#experimental"><i class="fa fa-check"></i><b>2.3.2</b> Experimental</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="intro.html"><a href="intro.html#modeling-and-polymorphism-of-ability"><i class="fa fa-check"></i><b>2.4</b> Modeling and Polymorphism of Ability</a></li>
+<li class="chapter" data-level="2.5" data-path="intro.html"><a href="intro.html#conclusions"><i class="fa fa-check"></i><b>2.5</b> Conclusions</a><ul>
+<li class="chapter" data-level="2.5.1" data-path="intro.html"><a href="intro.html#add-in"><i class="fa fa-check"></i><b>2.5.1</b> Add In</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="individual-differences.html"><a href="individual-differences.html"><i class="fa fa-check"></i><b>3</b> Individual Differences</a><ul>
+<li class="chapter" data-level="3.1" data-path="individual-differences.html"><a href="individual-differences.html#rationale-1"><i class="fa fa-check"></i><b>3.1</b> Rationale</a></li>
+<li class="chapter" data-level="3.2" data-path="individual-differences.html"><a href="individual-differences.html#individual-differences-1"><i class="fa fa-check"></i><b>3.2</b> Individual Differences</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="individual-differences.html"><a href="individual-differences.html#improving-musical-memory"><i class="fa fa-check"></i><b>3.2.1</b> Improving Musical Memory</a></li>
+<li class="chapter" data-level="3.2.2" data-path="individual-differences.html"><a href="individual-differences.html#memory-for-melodies"><i class="fa fa-check"></i><b>3.2.2</b> Memory for Melodies</a></li>
+<li class="chapter" data-level="3.2.3" data-path="individual-differences.html"><a href="individual-differences.html#musicians-cognitive-advantage"><i class="fa fa-check"></i><b>3.2.3</b> Musician’s Cognitive Advantage</a></li>
+<li class="chapter" data-level="3.2.4" data-path="individual-differences.html"><a href="individual-differences.html#relationship-established"><i class="fa fa-check"></i><b>3.2.4</b> Relationship Established</a></li>
+<li class="chapter" data-level="3.2.5" data-path="individual-differences.html"><a href="individual-differences.html#dictation-without-dictation"><i class="fa fa-check"></i><b>3.2.5</b> Dictation Without Dictation</a></li>
+<li class="chapter" data-level="3.2.6" data-path="individual-differences.html"><a href="individual-differences.html#cognitive-measures-of-interest"><i class="fa fa-check"></i><b>3.2.6</b> Cognitive Measures of Interest</a></li>
+<li class="chapter" data-level="3.2.7" data-path="individual-differences.html"><a href="individual-differences.html#structural-equation-modeling"><i class="fa fa-check"></i><b>3.2.7</b> Structural Equation Modeling</a></li>
+<li class="chapter" data-level="3.2.8" data-path="individual-differences.html"><a href="individual-differences.html#hypotheses"><i class="fa fa-check"></i><b>3.2.8</b> Hypotheses</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="individual-differences.html"><a href="individual-differences.html#overview-of-experiment"><i class="fa fa-check"></i><b>3.3</b> Overview of Experiment</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="individual-differences.html"><a href="individual-differences.html#participants"><i class="fa fa-check"></i><b>3.3.1</b> Participants</a></li>
+<li class="chapter" data-level="3.3.2" data-path="individual-differences.html"><a href="individual-differences.html#materials"><i class="fa fa-check"></i><b>3.3.2</b> Materials</a></li>
+<li class="chapter" data-level="3.3.3" data-path="individual-differences.html"><a href="individual-differences.html#procedure"><i class="fa fa-check"></i><b>3.3.3</b> Procedure</a></li>
+<li class="chapter" data-level="3.3.4" data-path="individual-differences.html"><a href="individual-differences.html#results"><i class="fa fa-check"></i><b>3.3.4</b> Results</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="individual-differences.html"><a href="individual-differences.html#discussion"><i class="fa fa-check"></i><b>3.4</b> Discussion</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="individual-differences.html"><a href="individual-differences.html#model-fits"><i class="fa fa-check"></i><b>3.4.1</b> Model Fits</a></li>
+<li class="chapter" data-level="3.4.2" data-path="individual-differences.html"><a href="individual-differences.html#relating-to-melodic-dictation"><i class="fa fa-check"></i><b>3.4.2</b> Relating to Melodic Dictation</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="computation-chapter.html"><a href="computation-chapter.html"><i class="fa fa-check"></i><b>4</b> Computation Chapter</a><ul>
+<li class="chapter" data-level="4.1" data-path="computation-chapter.html"><a href="computation-chapter.html#rationale-2"><i class="fa fa-check"></i><b>4.1</b> Rationale</a></li>
+<li class="chapter" data-level="4.2" data-path="computation-chapter.html"><a href="computation-chapter.html#agreeing-on-complexity"><i class="fa fa-check"></i><b>4.2</b> Agreeing on Complexity</a></li>
+<li class="chapter" data-level="4.3" data-path="computation-chapter.html"><a href="computation-chapter.html#modeling-complexity"><i class="fa fa-check"></i><b>4.3</b> Modeling Complexity</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="computation-chapter.html"><a href="computation-chapter.html#static"><i class="fa fa-check"></i><b>4.3.1</b> Static</a></li>
+<li class="chapter" data-level="4.3.2" data-path="computation-chapter.html"><a href="computation-chapter.html#dynamic-1"><i class="fa fa-check"></i><b>4.3.2</b> Dynamic</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="computation-chapter.html"><a href="computation-chapter.html#frequency-facilitation-hypothesis"><i class="fa fa-check"></i><b>4.4</b> Frequency Facilitation Hypothesis</a><ul>
+<li class="chapter" data-level="4.4.1" data-path="computation-chapter.html"><a href="computation-chapter.html#distributional-patterns-in-corpus"><i class="fa fa-check"></i><b>4.4.1</b> Distributional Patterns in Corpus</a></li>
+<li class="chapter" data-level="4.4.2" data-path="computation-chapter.html"><a href="computation-chapter.html#memory-facilitation"><i class="fa fa-check"></i><b>4.4.2</b> Memory Facilitation</a></li>
+<li class="chapter" data-level="4.4.3" data-path="computation-chapter.html"><a href="computation-chapter.html#peagogical-applcation"><i class="fa fa-check"></i><b>4.4.3</b> Peagogical applcation</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="computation-chapter.html"><a href="computation-chapter.html#chapter-conclusions"><i class="fa fa-check"></i><b>4.5</b> Chapter Conclusions</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="hello-corpus.html"><a href="hello-corpus.html"><i class="fa fa-check"></i><b>5</b> Hello, Corpus</a><ul>
+<li class="chapter" data-level="5.0.1" data-path="hello-corpus.html"><a href="hello-corpus.html#why-i-dont-follow-a-random-sampling-method"><i class="fa fa-check"></i><b>5.0.1</b> Why I don’t follow a random sampling method</a></li>
+<li class="chapter" data-level="5.1" data-path="hello-corpus.html"><a href="hello-corpus.html#brief-review-of-chapter-4-on-corpus-language-to-reflect-journal-submission"><i class="fa fa-check"></i><b>5.1</b> Brief review of Chapter 4 on corpus (Language to reflect journal submission)</a><ul>
+<li class="chapter" data-level="5.1.1" data-path="hello-corpus.html"><a href="hello-corpus.html#corpus-outside-of-music"><i class="fa fa-check"></i><b>5.1.1</b> Corpus outside of music</a></li>
+<li class="chapter" data-level="5.1.2" data-path="hello-corpus.html"><a href="hello-corpus.html#corpus-in-music"><i class="fa fa-check"></i><b>5.1.2</b> Corpus in Music</a></li>
+<li class="chapter" data-level="5.1.3" data-path="hello-corpus.html"><a href="hello-corpus.html#the-point-is-that-it-implicitly-represents-humand-knowledge"><i class="fa fa-check"></i><b>5.1.3</b> The point is that it implicitly represents humand knowledge</a></li>
+<li class="chapter" data-level="5.1.4" data-path="hello-corpus.html"><a href="hello-corpus.html#idyom-1"><i class="fa fa-check"></i><b>5.1.4</b> IDyOM 1</a></li>
+<li class="chapter" data-level="5.1.5" data-path="hello-corpus.html"><a href="hello-corpus.html#idyom-2"><i class="fa fa-check"></i><b>5.1.5</b> IDyOM 2</a></li>
+<li class="chapter" data-level="5.1.6" data-path="hello-corpus.html"><a href="hello-corpus.html#idyom-3"><i class="fa fa-check"></i><b>5.1.6</b> IDyOM 3</a></li>
+<li class="chapter" data-level="5.1.7" data-path="hello-corpus.html"><a href="hello-corpus.html#huron-suggestions-that-starts-of-melodies-relate-to-mental-rotaiton"><i class="fa fa-check"></i><b>5.1.7</b> Huron suggestions that starts of melodies relate to mental rotaiton</a></li>
+<li class="chapter" data-level="5.1.8" data-path="hello-corpus.html"><a href="hello-corpus.html#other-huron-claims"><i class="fa fa-check"></i><b>5.1.8</b> Other Huron claims</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="hello-corpus.html"><a href="hello-corpus.html#note-problem-with-using-corpus-is-making-corpus"><i class="fa fa-check"></i><b>5.2</b> Note problem with using corpus is making corpus</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="hello-corpus.html"><a href="hello-corpus.html#many-are-used-on-essen"><i class="fa fa-check"></i><b>5.2.1</b> Many are used on Essen</a></li>
+<li class="chapter" data-level="5.2.2" data-path="hello-corpus.html"><a href="hello-corpus.html#brinkman-says-essen-sucks"><i class="fa fa-check"></i><b>5.2.2</b> Brinkman says Essen Sucks</a></li>
+<li class="chapter" data-level="5.2.3" data-path="hello-corpus.html"><a href="hello-corpus.html#if-going-to-make-generlizable-claims-need-to-always-have-new-data"><i class="fa fa-check"></i><b>5.2.3</b> If going to make generlizable claims, need to always have new data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="hello-corpus.html"><a href="hello-corpus.html#solem-duty-to-encode-and-report-on-corpus"><i class="fa fa-check"></i><b>5.3</b> Solem duty to encode and report on corpus</a><ul>
+<li class="chapter" data-level="5.3.1" data-path="hello-corpus.html"><a href="hello-corpus.html#justin-london-article-on-what-makes-it-into-a-corpsu"><i class="fa fa-check"></i><b>5.3.1</b> Justin London Article on what makes it into a corpsu</a></li>
+<li class="chapter" data-level="5.3.2" data-path="hello-corpus.html"><a href="hello-corpus.html#though-i-just-encoded-the-whole-thing-because-in-my-heart-of-hearts-im-a-bayesian"><i class="fa fa-check"></i><b>5.3.2</b> Though I just encoded the whole thing because in my heart of hearts I’m a Bayesian</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="hello-corpus.html"><a href="hello-corpus.html#the-corpus"><i class="fa fa-check"></i><b>5.4</b> The Corpus</a><ul>
+<li class="chapter" data-level="5.4.1" data-path="hello-corpus.html"><a href="hello-corpus.html#history-of-sight-singign-books"><i class="fa fa-check"></i><b>5.4.1</b> History of Sight Singign books</a></li>
+<li class="chapter" data-level="5.4.2" data-path="hello-corpus.html"><a href="hello-corpus.html#assumed-to-be-where-long-term-store-comes-from-adumbrate-computational-model"><i class="fa fa-check"></i><b>5.4.2</b> Assumed to be where long term store comes from (adumbrate computational model)</a></li>
+<li class="chapter" data-level="5.4.3" data-path="hello-corpus.html"><a href="hello-corpus.html#lots-of-melodies-in-ascending-order-of-difficulty-grouped-appropriately-though-utah-guy"><i class="fa fa-check"></i><b>5.4.3</b> Lots of melodies in ascending order of difficulty, grouped appropriately though? Utah guy</a></li>
+<li class="chapter" data-level="5.4.4" data-path="hello-corpus.html"><a href="hello-corpus.html#why-i-encoded-it-in-xml"><i class="fa fa-check"></i><b>5.4.4</b> Why I encoded it in XML</a></li>
+<li class="chapter" data-level="5.4.5" data-path="hello-corpus.html"><a href="hello-corpus.html#is-it-legal"><i class="fa fa-check"></i><b>5.4.5</b> Is it legal?</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="hello-corpus.html"><a href="hello-corpus.html#descriptive-stats-of-corpus"><i class="fa fa-check"></i><b>5.5</b> Descriptive Stats of Corpus</a><ul>
+<li class="chapter" data-level="5.5.1" data-path="hello-corpus.html"><a href="hello-corpus.html#why"><i class="fa fa-check"></i><b>5.5.1</b> Why?</a></li>
+<li class="chapter" data-level="5.5.2" data-path="hello-corpus.html"><a href="hello-corpus.html#feature-level"><i class="fa fa-check"></i><b>5.5.2</b> Feature Level</a></li>
+<li class="chapter" data-level="5.5.3" data-path="hello-corpus.html"><a href="hello-corpus.html#n-gram"><i class="fa fa-check"></i><b>5.5.3</b> n-gram</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="experiments.html"><a href="experiments.html"><i class="fa fa-check"></i><b>6</b> Experiments</a><ul>
+<li class="chapter" data-level="6.1" data-path="experiments.html"><a href="experiments.html#rationale-3"><i class="fa fa-check"></i><b>6.1</b> Rationale</a><ul>
+<li class="chapter" data-level="6.1.1" data-path="experiments.html"><a href="experiments.html#have-done-all-this-and-have-not-actually-talked-about-dictation-yet"><i class="fa fa-check"></i><b>6.1.1</b> Have done all this and have not actually talked about dictation yet</a></li>
+<li class="chapter" data-level="6.1.2" data-path="experiments.html"><a href="experiments.html#clearly-many-factors-contribte-to-this-whole-thing-and-need-to-be-taken-into-a-model"><i class="fa fa-check"></i><b>6.1.2</b> Clearly many factors contribte to this whole thing and need to be taken into a model</a></li>
+<li class="chapter" data-level="6.1.3" data-path="experiments.html"><a href="experiments.html#dictation-is-basically-a-within-subjects-design-experiment"><i class="fa fa-check"></i><b>6.1.3</b> Dictation is basically a within subjects design Experiment</a></li>
+<li class="chapter" data-level="6.1.4" data-path="experiments.html"><a href="experiments.html#factors"><i class="fa fa-check"></i><b>6.1.4</b> Factors</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="experiments.html"><a href="experiments.html#experiments-1"><i class="fa fa-check"></i><b>6.2</b> Experiments</a><ul>
+<li class="chapter" data-level="6.2.1" data-path="experiments.html"><a href="experiments.html#experiment-i"><i class="fa fa-check"></i><b>6.2.1</b> Experiment I</a></li>
+<li class="chapter" data-level="6.2.2" data-path="experiments.html"><a href="experiments.html#experiment-ii"><i class="fa fa-check"></i><b>6.2.2</b> Experiment II</a></li>
+<li class="chapter" data-level="6.2.3" data-path="experiments.html"><a href="experiments.html#general-discussion"><i class="fa fa-check"></i><b>6.2.3</b> General Discussion</a></li>
+<li class="chapter" data-level="6.2.4" data-path="experiments.html"><a href="experiments.html#really-what-is-needed-is-computational-model"><i class="fa fa-check"></i><b>6.2.4</b> Really what is needed is Computational Model</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="computational-model.html"><a href="computational-model.html"><i class="fa fa-check"></i><b>7</b> Computational Model</a><ul>
+<li class="chapter" data-level="7.1" data-path="computational-model.html"><a href="computational-model.html#levels-of-abstraction"><i class="fa fa-check"></i><b>7.1</b> Levels of Abstraction</a></li>
+<li class="chapter" data-level="7.2" data-path="computational-model.html"><a href="computational-model.html#model-overview"><i class="fa fa-check"></i><b>7.2</b> Model Overview</a></li>
+<li class="chapter" data-level="7.3" data-path="computational-model.html"><a href="computational-model.html#verbal-model"><i class="fa fa-check"></i><b>7.3</b> Verbal Model</a><ul>
+<li class="chapter" data-level="7.3.1" data-path="computational-model.html"><a href="computational-model.html#model-representational-assumptions"><i class="fa fa-check"></i><b>7.3.1</b> Model Representational Assumptions</a></li>
+<li class="chapter" data-level="7.3.2" data-path="computational-model.html"><a href="computational-model.html#contents-of-the-prior-knowledge"><i class="fa fa-check"></i><b>7.3.2</b> Contents of the Prior Knowledge</a></li>
+<li class="chapter" data-level="7.3.3" data-path="computational-model.html"><a href="computational-model.html#modeling-information-content"><i class="fa fa-check"></i><b>7.3.3</b> Modeling Information Content</a></li>
+<li class="chapter" data-level="7.3.4" data-path="computational-model.html"><a href="computational-model.html#setting-limits-with-transcribe"><i class="fa fa-check"></i><b>7.3.4</b> Setting Limits with Transcribe</a></li>
+<li class="chapter" data-level="7.3.5" data-path="computational-model.html"><a href="computational-model.html#pattern-matching"><i class="fa fa-check"></i><b>7.3.5</b> Pattern Matching</a></li>
+<li class="chapter" data-level="7.3.6" data-path="computational-model.html"><a href="computational-model.html#dictation-re-entry"><i class="fa fa-check"></i><b>7.3.6</b> Dictation Re-Entry</a></li>
+<li class="chapter" data-level="7.3.7" data-path="computational-model.html"><a href="computational-model.html#completion"><i class="fa fa-check"></i><b>7.3.7</b> Completion</a></li>
+<li class="chapter" data-level="7.3.8" data-path="computational-model.html"><a href="computational-model.html#model-output"><i class="fa fa-check"></i><b>7.3.8</b> Model Output</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="computational-model.html"><a href="computational-model.html#formal-model"><i class="fa fa-check"></i><b>7.4</b> Formal Model</a><ul>
+<li class="chapter" data-level="7.4.1" data-path="computational-model.html"><a href="computational-model.html#computational-model-1"><i class="fa fa-check"></i><b>7.4.1</b> Computational Model</a></li>
+<li class="chapter" data-level="7.4.2" data-path="computational-model.html"><a href="computational-model.html#example"><i class="fa fa-check"></i><b>7.4.2</b> Example</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="computational-model.html"><a href="computational-model.html#conclusions-1"><i class="fa fa-check"></i><b>7.5</b> Conclusions</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="reference-log.html"><a href="reference-log.html"><i class="fa fa-check"></i><b>8</b> Reference Log</a><ul>
+<li class="chapter" data-level="8.1" data-path="reference-log.html"><a href="reference-log.html#to-incorporate"><i class="fa fa-check"></i><b>8.1</b> To Incorporate</a></li>
+<li class="chapter" data-level="8.2" data-path="reference-log.html"><a href="reference-log.html#chapter-3"><i class="fa fa-check"></i><b>8.2</b> Chapter 3</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Modeling Melodic Dictation</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="intro" class="section level1">
+<h1><span class="header-section-number">Chapter 2</span> Theoretical Background and Rationale</h1>
+<div id="what-is-melodic-dictation-and-why" class="section level2">
+<h2><span class="header-section-number">2.1</span> What is melodic dictation? and Why?</h2>
+<p>Melodic dictation is the process in which an individual hears a melody, retains it in memory, and then uses their knowledge of Western musical notation to recreate the mental image of the melody on paper in a limited time frame.
+For many, becoming proficient at this task is at the core of developing one’s aural skills <span class="citation">(Karpinski <a href="#ref-karpinskiModelMusicPerception1990">1990</a>)</span>.
+For over a century, music pedagogues have valued melodic dictation<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> which is evident from the fact that most aural skills texts with content devoted to honing one’s listening skills have sections on melodic dictation <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span>.
+Additionally, any school accredited by the National Association of Schools of Music in North America requires students to learn this skill <span class="citation">(“National Association of Schools of Music Handbook” <a href="#ref-NationalAssociationSchools2018">2018</a>, sec. VIII.6.B.2.A)</span>.</p>
+<p>Yet despite this tradition and ubiquity, the rationales as to <em>why</em> it is important for students to learn this ability often comes from some sort of appeal to tradition or underwhelming anecdotal evidence.
+The argument tends to go that time spent learning to take melodic dictation results in increases in near transfer abilities after an individual acquires a certain degree of proficiency learning to take melodic dictation.
+Rationales given for why students should learn melodic dictation has even been described by Gary Karpinski as being based on “comparatively vague aphorisms about mental relationships and intelligent listening” <span class="citation">(Karpinski <a href="#ref-karpinskiModelMusicPerception1990">1990</a>, 192)</span>, thus leaving the evidence for the argument for learning to take melodic dictation not being well supported.</p>
+<p>Some researchers have taken a more skeptical stance and asserted that the rationale for why we teach melodic dictation deserves more critique.
+For example, Klonoski in writing about aural skills education aptly questions “What specific deficiency is revealed with an incorrect response in melodic dictation settings?” <span class="citation">(Klonoski <a href="#ref-klonoskiImprovingDictationAuralSkills2006">2006</a>)</span>.
+Earlier researchers like Potter, in their own publications, have noted how they have been baffled that many musicians do not actually keep up with their melodic dictation abilities after the class ends <span class="citation">(Potter <a href="#ref-potterIdentifyingSucessfulDictation1990">1990</a>)</span>, but presumably go on to have successful and fulfilling musical lives.
+Additionally, suggesting that people who can hear music and then are unable to write it down, thus are unable to think <em>in</em> music <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span>, seems somewhat exclusionary to musical cultures that do not depend on any sort of written notation.</p>
+<p>Though despite this skepticism towards the topic, melodic dictation remains at the forefront of many aural skills classrooms.
+The act of becoming better at this skill may or may not lead to large in increases in far transfer of ability, but used as a pedagogical tool, teaching students to take melodic dictation brings with it concepts that have been deemed relevant to the core of undergraduate music training.
+While there has not been extensive research on melodic dictation research in recent years– in fact <span class="citation">Paney (<a href="#ref-paneyEffectDirectingAttention2016">2016</a>)</span> notes that since 2000, only four studies were published that directly examined melodic dictation– this skill set sits on the border between literature on learning, melodic perception, memory, and music theory pedagogy.
+Understanding and modeling exactly how melodic dictation works remains as a untapped watershed of knowledge for the field of music theory, music education, and music perception and is deserving of much more attention.</p>
+<p>In this chapter I examine literature both directly and indirectly related to melodic dictation by first reviewing the prominent four step model put forth by Karpinski in order to establish and describe what melodic dictation is.
+After describing his model, I then critique what this model lacks and clarify what is missing by providing a taxonomy of parameters that presumably would contribute to an individual’s ability to take melodic dictation.
+Using this taxonomy, I then review relevant literature and assert that the next steps forward in understanding how melodic dictation works come from examing the process both experimentally and computationally.
+It has been nearly two decades since <em>Aural Skills Acquistion</em> was first published as the first major step to finally build a bridge between the field of music cognition and music theory pedagogy <span class="citation">(Butler <a href="#ref-davidbutlerWhyGulfMusic1997a">1997</a>; Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>; Klonoski <a href="#ref-klonoskiPerceptualLearningHierarchy2000">2000</a>)</span> and as with all public works, they need to be maintained?<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p>
+<div id="describing-melodic-dictation" class="section level3">
+<h3><span class="header-section-number">2.1.1</span> Describing Melodic Dictation</h3>
+<p>Much of the foundational theoretical work on the topic of melodic dictation comes from Gary Karpinski.
+Summarized most recently in his <em>Aural Skills Acquisition</em> <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span>– though first presented in an earlier article <span class="citation">(Karpinski <a href="#ref-karpinskiModelMusicPerception1990">1990</a>)</span>– Karpinski proposes a four-step model of melodic dictation.<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a></p>
+<p>The four steps of Karpinski’s model include</p>
+<ol style="list-style-type: decimal">
+<li>Hearing</li>
+<li>Short Term Melodic Memory</li>
+<li>Musical Understanding</li>
+<li>Notation</li>
+</ol>
+<p>and occur as a looping process depicted in Figure <a href="intro.html#fig:flowchart">2.1</a>.
+The model is discussed extensively in both this original article <span class="citation">(Karpinski <a href="#ref-karpinskiModelMusicPerception1990">1990</a>)</span> and throughout the third chapter in his book <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span>.</p>
+<div class="figure" style="text-align: center"><span id="fig:flowchart"></span>
+<img src="img/karpinski31.png" alt="Karpinski Idealized Flowchart of Melodic Dictation" width="100%" />
+<p class="caption">
+Figure 2.1: Karpinski Idealized Flowchart of Melodic Dictation
+</p>
+</div>
+<p>Karpinski’s <strong>hearing</strong> stage involves the initial perceptions of the sound at the psychoacoustical level and the listener’s <em>attention</em> to the incoming musical information.
+If the listener is not actively engaging in the task because of factors such as “boredom, lack of discipline, test anxiety, attention deficit disorder, or any number of other causes” then any further processes later down the model will be detrimentally effected.
+Karpinski notes that these types of interferences are normally “beyond the traditional jurisdiction of aural skills instruction”, but I will later argue that the concept of willful attention, when re-conceptualized as working memory, may actually play a larger role in the melodic dictation process than is claimed here.</p>
+<p>The <strong>short-term melodic memory</strong> stage in his process is where musical material is held in active memory.
+From Figure 1 it appears that the stage is not conceptualized as an active process where something like active rehearsal would occur, but rather just consists soley of passive mental representation.
+Though Karpinski does not posit any sort of active process in the short term melodic memory stage, he does suggest there are two separate memory encoding mechanisms, one for contour, and one for pitch.
+He arrives at these two mechanisms by using both empirical qualitative interview evidece as well as noting literature from music perception that supports this claim for contour <span class="citation">(Dowling <a href="#ref-dowlingScaleContourTwo1978">1978</a>; Dewitt and Crowder <a href="#ref-dewittRecognitionNovelMelodies1986">1986</a>)</span> and literature suggesting that memory for melodic material is dependant on enculturation <span class="citation">(Oura and Hatano <a href="#ref-ouraMemoryMelodiesSubjects1988">1988</a>; Handel <a href="#ref-handelListeningIntroductionPerception1989">1989</a>; Dowling <a href="#ref-dowlingExpectancyAttentionMelody1990">1990</a>)</span>.
+Since its publication in 2000, this area of research has expanded with other reearchers also demonstrating the effects of musical acculturation via exposure <span class="citation">(Eerola, Louhivuori, and Lebaka <a href="#ref-eerolaExpectancySamiYoiks2009">2009</a>; Stevens <a href="#ref-stevensMusicPerceptionCognition2012">2012</a>; M. T. Pearce and Wiggins <a href="#ref-pearceAuditoryExpectationInformation2012">2012</a><a href="#ref-pearceAuditoryExpectationInformation2012">a</a>)</span>.</p>
+<p>In describing the short term melodic memory stage, Karpinksi also details two processes that he believes to be nesscary for this part of melodic dictation: extractive listening and chunking.
+Noting that there is probably some sort of capacity limit to the perception of musical material, citing Miller <span class="citation">(<a href="#ref-millerMagicalNumberSeven1956">1956</a>)</span>, Karpinski explains how each strategy might be used.
+Extractive listening is the process in which someone dictating the melody will selectivly remember only a small part of the melody in order to lessen the load on memory.
+Chunking is the process in which smaller musical elements can be fused together in order to expand how much information can be actively held in memory and manipulated.
+The concept of chunking is very helpful as a pedagogical tool, but as detailed below, is a complicated concept to pin down how it works.</p>
+<p>After some musical material is extracted, then represented in memory, the next step in the process is <strong>musical understanding</strong>.
+At this point in the dictation the dictator needs to take the extracted musical material that is represented in memory and the use their music theoretic knowledge in order to comprehend any sort of hierarchical relationships between notes, common rhythmic groupings, or any sorts of tonal functions.
+This is the point in the process where solimization of either or both pitch and rhythm, and musical material might be understood in terms of relative pitch.
+In the model solimization takes place later, but it is worth questioning if it is possible to dissacociate relative pitch relations from the qualia of the tones themselves <span class="citation">(Arthur <a href="#ref-arthurPerceptualStudyScaledegree2018">2018</a>)</span>.
+For Karpinski, the more quickly what is represented in musical memory can be understood, the more quickly it can then be tranlated at the final step of notation.</p>
+<p><strong>Notation</strong>, the final step of the dictation loop, requires that the individual taking the notation have sufficient knowledge of Western musical notation so that they are able to translate their musical understanding into written notation.
+This last step is ripe for errors and has proved problematic for researchers attempting to study dictation <span class="citation">(Taylor and Pembrook <a href="#ref-taylorStrategiesMemoryShort1983">1983</a>; Klonoski <a href="#ref-klonoskiImprovingDictationAuralSkills2006">2006</a>)</span>.
+It is also worth highlighting is that it is difficult to notate musical material if the individual who is dictating does not have the requisite musical category and knowledge for the sounds.
+Lack of this knowledge will limit an individual’s ability to translate what is in their short term melodic memory into notation, even if it is perfectly represented in memory!</p>
+<p>The final parts of the chapter, Karpinski notes that other factors like <strong>tempo</strong>, the <strong>length and number of playings</strong>, and the <strong>duration between playings</strong> will also play a role in determining how an individual will perform on a melodic dictation.
+While this framework can help illuminate this cognitive process and help pedagogues understand how to best help their students, presumably there are many more factors that contribute to this process.
+The model as it stands is not detailed enough for explanatory purposes and lacks in two areas that would need to be expanded if this model were to be explored experimentally and computationally.</p>
+<p>First, having a single model for melodic dictation assumes that all individuals are likely to engage in this sequential ordering of events.
+This could in fact be the case<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>, but there is research from music perception <span class="citation">(Goldman, Jackson, and Sajda <a href="#ref-goldmanImprovisationExperiencePredicts2018a">2018</a>)</span> and other areas of memory psychology such as work on expert chess players <span class="citation">(Lane and Chang <a href="#ref-laneChessKnowledgePredicts2018">2018</a>)</span> that suggests that as individuals gain more expertise, their processing and categorization of information changes.
+Additionally, different individuals will most likely have different experiences dictating melodies based on their own past listening experience, an area that Karpinski refers to when citing literature on musical enculturation based on statistical exposure.
+The model does not have any flexibility in terms of individual differences.</p>
+<p>Second, the model presumes the same sequence of events for every melody.
+As a general heurstic for communicating the process, this process is generalizable, but intuition would suggest that treating all melodies the same is not going to lead to having a robust model.
+For example, on page 103, Karpinski suggest that two listenings should be adequate for a listener with few to no chunking skills to listen to be able to dictate a melody of twelve to twenty notes.
+This process might generalize to many tonal melodies, but presumably different strategies in recognition would be involved in dictating the two melodies of equal length shown in Figure <a href="intro.html#fig:shortmelody1">2.2</a> and <a href="intro.html#fig:shortmelody2">2.3</a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:shortmelody1"></span>
+<img src="img/musicalexamples/MMD_Figure2-1.png" alt="Tonal Melody" width="80%" />
+<p class="caption">
+Figure 2.2: Tonal Melody
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:shortmelody2"></span>
+<img src="img/musicalexamples/MMD_Figure2-1.png" alt="Atonal Melody" width="80%" />
+<p class="caption">
+Figure 2.3: Atonal Melody
+</p>
+</div>
+<p>Presumably different people with different levels of abilities will perform differently on different melodies and while helpful as a pedaogogical tool, this one size-fits-all approach to melodic dictation is not robust.
+This agnosticism for both variability for melodic and individual differences serves as a stepping off point for this study.
+In order to have a more through understanding of melodic dictation, there needs to be a model that is able to accomodate the exhaustive differences at both the individual and musical levels.
+Additionally, the model should be able to be operationalized so that it can be explored in both experimental and computational settings.
+By explicitly stating variables thought to contribute and noting how melodic dictation works, it will give the community a better sense of the melodic dictation process, which will then enable a more through understanding of melodic perception and subsequently allow for better teaching practices in aural skills classrooms.</p>
+<p>At this point, it is worth stepping back and noting that the sheer amount of variables at play here is cumbersome and almost haphazard.
+In order to better understand and organize factors thought to contribute to this process, it would advantagous for future research to taxonomize the multitude of features thought to contribute to melodic dictation.
+In doing this, it wil allow for a clearer picture of what factors might contribute and what literatures to explore in order to learn more about them.</p>
+<p>The taxonomy that I propose appears in Figure <a href="intro.html#fig:taxonomy">2.4</a> and bifucates the possible factors thought to affect an individual’s ability to take melodic dictation into two categories: <strong>individual</strong> parameters and <strong>musical</strong> parameters.
+Each of these two categories can then be split again into <strong>cognitive</strong> and <strong>environmental</strong> parameters as well as <strong>structural</strong> and <strong>experimental factors</strong> respectively.
+Below I expand on what these categories entail, then explore each in depth.</p>
+<div class="figure" style="text-align: center"><span id="fig:taxonomy"></span>
+<img src="img/taxonomy4.png" alt="Taxonomy of Factors Contributing to Aural Skills" width="80%" />
+<p class="caption">
+Figure 2.4: Taxonomy of Factors Contributing to Aural Skills
+</p>
+</div>
+<p>The <strong>individual</strong> parameters split broadly into <strong>cognitive factors</strong>, or factors of people that are relatively consistent with people over time and could be understood as largely being governed by <em>nature</em>.
+The other category of this division consist of factors that change with training and exposure and could be understand as largely being governed by <em>nurture</em>.
+This second set of parameters are the <strong>environmental</strong> factors.
+These categories are not deterministic, nor exclusive, and almost inevitably interact with one another.<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></p>
+<p>For example, it would be possible to imagine an individual with higher cognitive ability, the oppertunity to have a high degree of training early on in their musical career, and personality traits that are associated with higher learning aptitudes.
+This individual’s musical perception abilities might be markedly different than someone with lower cognitive abilities, no opertunity for individualized training, come from a lower socio-economic status, and not have a general inclination to even take music lessons.
+This variability at the individual level might then lead to differences in their ability to take melodic dictation.</p>
+<p>Complementing the individual differences, there would also be differences at the <strong>musical</strong> level which in turn divides into two categories.
+On one hand exists the <strong>structural aspects</strong> of the melody itself.
+These are aspects of the melody that would remain invariant when written down on a score.
+Parameters in this category would include features generated by the interval structure of the pitches over time that allow the melody to be categorically distinct from other melodies.
+These structural features are then complimented by the <strong>experimental features</strong> which are emergent properties of the structrual relation of the pitches over time based on performance pratice choices.
+Examples of these parameters would include, key, tempo, note density, timbral qualities, and the amount of times a melody is played during a melodic dictation or emergent properties like a melody’s tonalness as computed through various metrics.
+This division is not an exhaustive, categorical divide.
+One could imagine exceptions to these rules where a melody is tranformed to the minor key, ornamented, and then played with extenive rubato and experienced as a phenomenologically similiar experience.</p>
+<p>Given all of these parameters that could contribute to the melodic dictation process, the remainder of this chapter will exploring literature using this taxonomy as a guide.
+The chapter conculdes with a reflection on operationalizing each of these factors and problems that can arise in modeling and reminds the reader about the dangers of statistical reification.
+These are important to note since from an empirical standpoint, both the task as well as the process of melodic dictation as depicted by Karpinksi resemble something that could be operationalized as both an experiment, as well as a computational model and if understood this way will be subjectd to the same types of critique.</p>
+</div>
+</div>
+<div id="individual-factors" class="section level2">
+<h2><span class="header-section-number">2.2</span> Individual Factors</h2>
+<div id="cognitive" class="section level3">
+<h3><span class="header-section-number">2.2.1</span> Cognitive</h3>
+<p>Research from cognitive psychology suggests that individuals differ in their perceptual and cognitive abilities in ways that are both stable throughout a lifetime and are not easily influened by short term traning.
+When investigated on a large scale, these abilities– such as general intelligence or working memory capacity– predict a wealth of human behavior on a large scale ranging from longevity, annual income, ability to deal with stressful life events, and even the onset of Alzheimer’s disease <span class="citation">(Ritchie <a href="#ref-ritchieIntelligenceAllThat2015">2015</a>; Unsworth et al. <a href="#ref-unsworthAutomatedVersionOperation2005">2005</a>)</span>.
+Given the strength and generality of these predictors, it is worth investigating the extent that these abilities might contribute when investigating any modeling of melodic dictation.
+It is imporant to understand the degree to which these cognitive factors might influence aural skills abilities in order to ensure that the types of assesments that are given in music schools validly measure abilities that individuals have the ability to improve upon.
+If it is the case that much of the variance in a student’s aural skills grades can be attributed to something the student has little control over, this would call for a serious upheaval of the current model of aural skills teaching and assesment.</p>
+<p>Recently there has been a surge of interest in this area<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a> which could be attributed to the fact that educators are picking up on the fact that cognitive abilities are powerful predictors and need to be understood since they inevitably will play a role in pedagogical settings.</p>
+<p>Before diving into a discussion regarding differences in cognitive ability, I should note that sometimes ideas regarding differences in cognitive ability been hostily received (citation against people talking about IQ) and for good reasons.
+Research in this area can and has been taken advantage to further specious ideologies, but often arguments that assert meaningful differences in cognitive abilities between groups are founded on statistical misunderstandings and have been debunked in other literature <span class="citation">(Gould <a href="#ref-gouldMismeasureMan1996">1996</a>)</span>.
+Considering that, it then becomes very difficult to maintain a scientific commitment to the theory of evolution <span class="citation">(Darwin <a href="#ref-darwinOriginSpecies1859">1859</a>)</span> and not expect variation in all aspects of human behavior, with cognition falling within that umbrella.
+Even given this statement, measuring a theoretical construct such as an aspect of cognition desereves to be examined since the ability to validly and reliably measure an individual’s cognitive ability is a fundmental assumption of this study.</p>
+</div>
+<div id="measuring-intelligence" class="section level3">
+<h3><span class="header-section-number">2.2.2</span> Measuring Intelligence</h3>
+<p>Attempting to measure and quantify aspects of cognition go back over a century.
+Even before concepts of intelligence were posited by Charles Spearman and his conception of <em>g</em> <span class="citation">(Spearman <a href="#ref-spearmanGeneralIntelligenceObjectively1904">1904</a>)</span>, scientists were interested in establishing links between an individual’s mental capacities and some sort of physical manifestation.
+The origins of this area of research have been critiqued on the basis that the early work implicitly tended to validate preconceptualized beliefs on the superiority of certain groups of peoples and used methodlogies that today would be considered risible.</p>
+<ul>
+<li>For example, BROCA thought he could get at intelligence by measuring skulls AND MORTON</li>
+<li>Or Spitzka who post hoc measured eminance and brain size page 127</li>
+</ul>
+<p>While not immediatly relevant to current thinking in cognitive psychology, work from both Broca and XXX was continued by the American herediterian school of IQ (page 187 in Gould) and the early research done by Alfred Binet on IQ took inspiration from Broca.
+This lineage of ideas has often been used to tarnish systematic investigations into differences in cognitive ability, which from their outset were to initially funded by the French governement to identify children struggling in the classroom so that they could be given special attention.</p>
+<p>Bient was the initial developer of the idea of an intelligence quotient or IQ<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> and provided one of the first ways to attempt to quantify a theoretical concept that was not capable of being manifested in the physical world.
+It was also around the same time that researchers like Cyril Burt and Charles Spearmean began developing their new theories of intelligence founded on the reification of factor analysis.
+In developing a battry of tests whose performance on one subtest could often reliabily predict performance on another– a manifestation referred to as the postive manifold– Spearman and Burt put forth a separate conception of intelligence based on the ability to solve problems without any sort of background information and referred to this ability a <em>g</em> for general intellgience.</p>
+<p>Though seemingly unrelated to the current state of thinking about cognitive abilities, Binet’s and Spearman’s ideologies about what intelligence is and how to measure it still represent two of the larger schools on cognitive ability.
+On one hand their idea that cognitive abilities are based upon a steady growth of incoming information that someone is able to manipulate once they retrieve from long term memor; on the other hand there is a school of thought that there is some sort of measureable construct, <em>g</em> that aids in the process of solving problems that do not depend on any sort of contextuxal information.
+Conceptualizing cognitive ability as these two different constructs inevitably leads to different types of measurements and subsequently what these constructs are then able to predict in terms of human behavior.</p>
+<p>Without detailing entire histories of both lines of thought, Binet’s conceptulization manifested into an argument for general crystallized intelligence or <em>Gc</em>, or the ability to solve problems based on previously acquired skills.
+Spearman and Burt’s ideas about <em>g</em> school reflect a belief that individuals have some sort of latent cognitive ability to draw on to perform mental tasks.
+The cognitive psychology literature has noted that <em>g</em> often shares a statistically equivalent relationship to idea conceptualized as general fluid intelligence <em>Gf</em>, or the ability to solve problems in novel situations Cattell, 1971; Horn, 1994).
+This distinction between <em>Gf</em> and <em>Gc</em> is different than that of <em>g</em>, but again it should be noted that <em>Gf</em> and <em>g</em> share a statistically identical relationship Matzke, Dolan, and Molenaar (2010).
+These conceptions of intelligenec and cognitive ability aslo differ from more current theories that sythesize these previous areas of research <span class="citation">(Kovacs and Conway <a href="#ref-kovacsProcessOverlapTheory2016">2016</a>)</span>.</p>
+<p>Even though both of these constructs are powerful predictors on a large scale and do predict things like educational success, income, and even life expectancy <span class="citation">(Ritchie <a href="#ref-ritchieIntelligenceAllThat2015">2015</a>)</span>– even when other variables like socioeconomic status are held constant.
+Yet despite this, only conceptualizing cognitive abilities in terms of intelligence does not fully explain the diversity of human cognition.</p>
+<p>Another large area in the field of cognitive psychology is the area of working memory capacity.
+In addition to concepts of intelligence, be it <em>Gf</em> or <em>Gc</em>, the working memory capacity literature also is directly relevant to work on melodic dictation for reasons discussed below.</p>
+</div>
+<div id="working-memory-capacity" class="section level3">
+<h3><span class="header-section-number">2.2.3</span> Working Memory Capacity</h3>
+<p>Working memory is one of the most investigated concepts in the cognitive psychology literature.
+According to Nelson Cowan, the term working memory generally refers to</p>
+<blockquote>
+<p>the relatively small amount of information that one can hold in mind, attend to, or, technically speaking, maintain in a rapidly accessible state at one time. The term working is mean to indicate that mental work requires the use of such information. (p.1) <span class="citation">(Cowan <a href="#ref-cowanWorkingMemoryCapacity2005">2005</a>)</span></p>
+</blockquote>
+<p>The term, like most concepts in science, does not have an exact definition, nor does it have a definitive method of measurement.
+While there is no universally recognized first use of the term, researchers began to postulate that there was some sort of system that mediated incoming sensory information with the world with the information in long term storage using modular models of memory in the mid-twentieth century.
+Summarized in <span class="citation">(Cowan <a href="#ref-cowanWorkingMemoryCapacity2005">2005</a>)</span>, one of the first modal models of memory was proposed by <span class="citation">(Broadbent <a href="#ref-broadbentPerceptionCommunication1958">1958</a>)</span> and later expanded by <span class="citation">(Atkinson and Shiffrin <a href="#ref-atkinsonHUMANMEMORYPROPOSED1968">1968</a>)</span>.
+As seen in Figure <a href="intro.html#fig:wmmodels">2.5</a>, both models here posit incoming information that is then put into some sort of limited capacity store.
+These modal models were then expanded on by Baddeley and Hitch <span class="citation">(Baddeley and Hitch <a href="#ref-baddeleyWorkingMemory1974">1974</a>)</span> in their 1974 chapter with the name <em>Working Memory</em>, where they proposed a system with an central executive module that was able to carry out active maintenance and rehearsal of information that could be stored in either a phonological store for sounds or a visual sketchpad for images.</p>
+<div class="figure" style="text-align: center"><span id="fig:wmmodels"></span>
+<img src="img/wm_models.png" alt="Schematics of Models of Working Memory taken from Cowan, 2005" width="353" />
+<p class="caption">
+Figure 2.5: Schematics of Models of Working Memory taken from Cowan, 2005
+</p>
+</div>
+<p>Later revisions of their model also incorporated an episodic buffer <span class="citation">(Baddeley <a href="#ref-baddeleyEpisodicBufferNew2000">2000</a>)</span> where the modules were explicitly depicted as being able to interface with long term memory in the rehearsal processes.
+The model has even been expanded upon by other researchers throughout its lifetime.
+The most relevant to this study is by <span class="citation">(Berz <a href="#ref-berzWorkingMemoryMusic1995">1995</a>)</span>, who postulated adding a musical rehearsal loop to the already established phonological loop and visual spatial sketchpad.
+While Berz is most likely correct in asserting that the nature of storing and processing musical information is different to that of words or pictures and there has been experimental evidence to suggest this <span class="citation">(Williamson, Baddeley, and Hitch <a href="#ref-williamsonMusiciansNonmusiciansShortterm2010">2010</a>)</span> that has been interpreted in favor of multiple loops <span class="citation">(Wöllner and Halpern <a href="#ref-wollnerAttentionalFlexibilityMemory2016">2016</a>)</span> , it does introduce the theoretical problem of multiple stores which has been addressed by other researchers.</p>
+<p>In addressing the problem of explicitly stating which rehearsal loops do and do not exist, Nelson Cowan proposed a separate model <span class="citation">(Cowan <a href="#ref-cowanEvolvingConceptionsMemory1988">1988</a>, <a href="#ref-cowanWorkingMemoryCapacity2005">2005</a>)</span> dubbed the Embedded Process Model which do not claim the existence of any domain specific module (e.g. positing a phonological loop, visual spatial sketchpad) but is rather based on an exhaustive model that did away with the problem of asserting specific buffers for new types of information.</p>
+<p>In Cowan’s own words comparing his model from that of Baddeley:</p>
+<blockquote>
+<p>The aim was to see if the description of the processing structure could be exhaustive, even if not complete, in detail. By analogy, consider two descriptions of a house that has not been explored completely. Perhaps it has only been examined from the outside. Baddeley’s (1986) approach to modeling can be compared with hypothesizing that there is a kitchen, a bathroom, two equal-size square bedrooms, and a living room. This is not a bad guess, but it does not rule out the possibllity that there actually are extra bedrooms or bathroom, that the bedroom space is apportioned into two rooms very different in size, or that other rooms exist in the house. Cowan’s (1988) apporach, on the other hand, can be compared with hypothesizing that the house includes food preparating quarters, sleeping quarters, batroom/toilet quarters, and other living quarters. It is meant to be exhaustive in that nothing was left out, even though it is noncommital on the details of some of the rooms. p.42 Cowan, 2005.</p>
+</blockquote>
+<p>The system is depicted in the bottom tier of TABLE X, and conceptualizes the limited amount of information that is readily available as being in the focus of attention, with activated sensory and categorical features of what is in the focus of attention to be accessible nearby.
+Moving further from the locus of attention is long term memory, whose content can be turned to by using the central executive to access non-immediately available information.
+In contrast to the modular approaches, Cowan’s framework does not require the researchers to specify exactly how and where each the incoming information is being stored which makes it advantageous for studying complex stimuli such as music and melodies.</p>
+<p>In addition to having multiple frameworks for studying working memory capacity, there is also the problem of limits to the working memory system, often referred to as the working memory capacity.
+Most popularized by Miller in his famous <span class="citation">(Miller <a href="#ref-millerMagicalNumberSeven1956">1956</a>)</span> speech turned article, Miller suggests out of jest that the number 7 might be worth investigating, which has been used as a point of reference for many researchers since then.
+It is worth nothing that Miller has since gone on record as noting that using 7 (plus or minus 2) was a rhetorical device used to string together his speech <span class="citation">(Miller <a href="#ref-millerHistoryPsychologyAutobiography1989">1989</a>)</span>.
+Nevertheless, while the number seven is most likely a red herring, it did inspire a large amount of research on capacity limits.
+In the decades since the number 7 has been reduced to about 4 <span class="citation">(Cowan <a href="#ref-cowanMagicalMysteryFour2010">2010</a>)</span> and research around capacity limits has been investigated using a variety of novel tasks, most noteable the complex span task CITATION.<br />
+When used as predictors in both higher and lower cognitive tasks, measures of working memory capacity predict performance well and additionally tend to be stable across a lifetime <span class="citation">(Unsworth et al. <a href="#ref-unsworthAutomatedVersionOperation2005">2005</a>)</span>.</p>
+<div id="parallels-between-working-memory-and-melodic-dictation" class="section level4">
+<h4><span class="header-section-number">2.2.3.1</span> Parallels Between Working Memory and Melodic Dictation</h4>
+<p>Given its predictive strength as well as its direct similarity to tasks of melodic dictation, a in depth look at the literature is warranted.<br />
+Clearly an individual’s ability to take in sensory information, maintain it in memory, actively carry out other tasks (like notating said melody) are almost identical to tasks of working memory capacity.
+Before venturing onward from this striking parallel, tasks investigating working memory capacity differ from melodic dictation tasks in a few key ways.
+The first is that musical information is always sequential: a melodic dictation task would never require the student to recall the pitches back in scrambled orders.
+Serial order recall is an important characteristic in the scoring and analyzing of working memory tasks <span class="citation">(Conway et al. <a href="#ref-conwayWorkingMemorySpan2005">2005</a>)</span>, but musical tones do not appear in random order and are normally in discernable chunks as discussed by Karpinski<span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span>.
+The use of chunks is pervasive in much of the memory literature, but often is used as more of a heuristic to help explain that information in the environment and why it is often grouped together.
+Of the problems with chunking, most are related to music and have relevance to melodic dictation.
+Below I review the problems with chunking noted by Cowan <span class="citation">(Cowan <a href="#ref-cowanWorkingMemoryCapacity2005">2005</a>)</span>, and any pertitant music psychology literature.</p>
+<ol style="list-style-type: decimal">
+<li><em>Chunks may have a hierarchical organization.</em> Tonal music has historically been understood to be hierarchical <span class="citation">(Krumhansl <a href="#ref-krumhanslCognitiveFoundationsMusical2001">2001</a>; Meyer <a href="#ref-meyerEmotionMeaningMusic1956">1956</a>; Schenker <a href="#ref-schenkerFreieSatz1935">1935</a>)</span> with the study for memory for tones being confounded by some pitches being undestood by their relation to structurally more important tones.</li>
+<li><em>The working memory load may be reduced as working memory shifts between levels in hierarchy.</em> If an individual understands a chunk to be something such as a major triad, the load on working memory would be less since it that information could be understood as a singular chunk.</li>
+<li><em>Chunks may be the endpoints of a continuum of associations.</em> Pairing a group of tones together that might be functionally anomolous like…</li>
+<li><em>Chunks may include asymmetrical information.</em> More tonal possibilities are possible from a stable note like tonic or dominant, whereas in a tonal context, a raised scale degree #<span class="math inline">\(\hat{4}\)</span> when understood in a functional context would be taken as having stricter transitional probabilities (#<span class="math inline">\(\hat{4} \rightarrow \hat{5}\)</span>).</li>
+<li><em>There may be a complex network of associations.</em> If a set of pitches sounds like a similar set of pitches from long term memory , the information coming in can not be understood as being separate units of working memory.</li>
+<li><em>Chunks may increase in size rapidly over time.</em> Three tones that are seemingly unrelated when incoming like E4, G5, C5 might enter sensory perception as three different tones, but then be fused together when they are understood as one chunk– a first inverstion major triad.</li>
+<li><em>Information in working memory may benefit from rapid storage in long term memory.</em> Given the amount of patterns that an individual learns and can understand, as soon as something is fused, it could be encoded in long term memory, especially if there is a salient feature in the incoming melodic information such as the immediate recognition of a mode or cadence.</li>
+</ol>
+<p>The points by Cowan are important to acknowledge in that it it not possible to directly lift work and paradigms from working memory capcacity to work in music perception.
+That said, the enormous amount of theoretical frameworks put forward by the working memory liteature when understood in conjunction with theories in music psychology such as implicit statistical learning <span class="citation">(Saffran et al. <a href="#ref-saffranStatisticalLearningTone1999">1999</a>)</span> can provide for new, fruitul theories.
+Past reserachers have noted the strength and predictive abilities of literature from the working memory capacity as aiding research in music perception.
+In ending his article positing a musical memory loop to be annexed to the Baddley and Hitch modular model of working memory, Berz <span class="citation">(Berz <a href="#ref-berzWorkingMemoryMusic1995">1995</a>)</span> captures the power of this concept in the last sentence of his article and warns future reserachers that</p>
+<blockquote>
+<p>Individual differences portrayed in some music aptitude tests may [sic] represent not talent or musical intelligence but ability, reflecting differences in working memory capacity. p. 362</p>
+</blockquote>
+<p>Berz’s assertion has not been exhausivly tested since first published in 1995, but the subject of music, memory, and cognitive abilities has been the focus of research of both psychologists and musicologists alike.
+Below I survey literature bordering on both music, as well as cognitive abiltity.</p>
+</div>
+<div id="working-memory-capacity-and-music" class="section level4">
+<h4><span class="header-section-number">2.2.3.2</span> Working Memory Capacity and Music</h4>
+<p>Of the papers in the music science literature that specifically investigates working memory, each uses different measures, though but all tend to converge on two general findings.
+The first is that there are some sort of enhanced memory capabilities in individuals with musical training.
+The second is that working memory capacity, however it is measured, often plays a significant role in musical tasks.
+Evidence for the first point appears most convincingly in a recent meta analyses by Talamini and colleagues <span class="citation">(Talamini et al. <a href="#ref-talaminiMusiciansHaveBetter2017">2017</a>)</span> who demonstrated via three separate meta-analyses that musicians outperform their non-musical counterparts on tasks dealing with long-term memory, short-term memory, as well as working memory.
+The authors also noted that the effects were the strongest in working memory tasks where the stimuli were tonal, which again suggests an advantage of exposure and understanding of the hierarchical organization of musical materials.
+In this meta-analyss and others investigating music and cognitive ability, it is important to be reminded that the direction of causality still from these studies cannot be determined using these statistical methodologies.
+While it might seem that musical training tends to lead to these increases, it is also possible that higher functioning individuals will self select into musical activities.
+Even if there is no seletion bias in engaging with musical activity it also remains a possiblity that of the people that do engage with musical activity, the higher functioning individuals will be less likely to quit over a lifetime.</p>
+<p>In terms of musical performance abilities, working memory capacity has also been shown to be a significant predictor.
+Kopiez and Lee suggested that working memory capacity should to contribute to sight reading tasks based on research where they found measures of working memory capacity, as measured by a matrix span task, to significantly correlated with many of their measures hypothesized to be related to sight reading ability in pianists at lower difficulty grading <span class="citation">(Kopiez and Lee <a href="#ref-kopiezDynamicModelSkills2006">2006</a>, <a href="#ref-kopiezGeneralModelSkills2008">2008</a>)</span>.</p>
+<p>Following up on this work on sight reading, Meinz and Hambrick <span class="citation">(Meinz and Hambrick <a href="#ref-meinzDeliberatePracticeNecessary2010">2010</a>)</span> found that working memory capacity, as measured by an operation span task, a reading span task, rotation span task, and a matrix span task was able to predict a small amount of variance <span class="math inline">\(R^2=.074(0.067)\)</span> above and beyond that of deliberate practice alone <span class="math inline">\(R^2=.451(.441)\)</span> in a sight-reading task.
+More recently, two studies looking at specific sub groups of musicians have shown working memory capacity to significantly contribute to models of performances on musical tasks related to novel stimuli.
+<span class="citation">(Wöllner and Halpern <a href="#ref-wollnerAttentionalFlexibilityMemory2016">2016</a>)</span> found that although no differences were found between pianists and conductors in measures of working memory capacity as measured via a set of span tasks, conductors showed superior performance in their attention flexibility.
+Following up on this line of research <span class="citation">(Nichols, Wöllner, and Halpern <a href="#ref-nicholsScoreOneJazz2018">2018</a><a href="#ref-nicholsScoreOneJazz2018">a</a>)</span> used the same battery of working memory tasks and found that jazz musicians excelled over their classically trained counterparts in a task which required them to hear notes and reproduce them on the piano.
+The authors also noted that of their working memory battery, based on standard operation span methods <span class="citation">(Engle <a href="#ref-engleWorkingMemoryCapacity2002">2002</a>)</span>, that the auditory dictation condition scored surprisingly low and further research might consider further work on dictation abilities.
+Additionally <span class="citation">(Colley, Keller, and Halpern <a href="#ref-colleyWorkingMemoryAuditory2018">2018</a>)</span> found that working memory capacity, as measured by a backwards digit span and operation span, to be successful predictors in a tapping task requiring sensory motor prediction abilities.
+As mentioned above, each of these tasks where working memory was a significant predictor of performance occured where the task involved active enagement with novel musical material.</p>
+<p>The growing evidence in this field suggests that the advantage of working memory capacity to be greatest in both musically trained people, dealing with novel information, using tonal materials.
+Since all three of these factors are related to melodic dictation, it would seem sensible to continue to include these measures in tasks of musical perception and continue Berz’s assertion that research in music percetion could inadvertently be picking up on individual differences in working memory abilities.</p>
+</div>
+</div>
+<div id="general-intelligence" class="section level3">
+<h3><span class="header-section-number">2.2.4</span> General Intelligence</h3>
+<p>As discussed above, the idea of IQ or intelligence has a long history that is bothgood and bad.
+When used as a predictor in models it often serves to predict traits that society values like longevity and general income so given its ability to predict in more domain general settings, surveying literature where it applies to musical activity is a worthy task.
+Below I use the term intelligence as a catch all term to avoid the historical context of IQ and specify where availible which measure was actually used.
+Before surveying the literature here it is also worth noting that reserach on music and intelligence is not as developed as some of the larger studies looking at intelligence which provides problems for both establishing causal directionality, as well as controlling for other factors like self theories of ability, socioeconomic status, and personality <span class="citation">(Müllensiefen et al. <a href="#ref-mullensiefenInvestigatingImportanceSelftheories2015">2015</a>)</span>.</p>
+<div id="papers-that-suggest-gf-plays-a-role" class="section level4">
+<h4><span class="header-section-number">2.2.4.1</span> Papers that suggest GF plays a role</h4>
+<ul>
+<li>Redo this structure</li>
+</ul>
+<p>As reviewed in <span class="citation">Schellenberg (<a href="#ref-schellenbergMusicNonmusicalAbilities2017">2017</a>)</span>, both children and adults who engage in musical activity tend to score higher on general measurses of intelligence than their non-musical peers (Gibson, Folley and Park, 2009; Hille et al., 2011; Schellenberg, 2011a; Schellenberg and Mankarious, 2012) with the duration of training sharing a relationship with the extent of the increases in IQ (Degé, Kubicek and Schwarzer, 2011a; Degé, Wehrum, Stark and Schwarzer, 2015; Corrigall and Schellenberg, 2015; Corrigall, Schellenberg and Misura, 2013; Schellenberg, 2006).
+Though many of these studies are correlational, they also have made attempts to control for confounding variables like socio-economic status and parental involvment in out of school activities. (Corrigall et al., 2013; Degé et al., 2011a; Schellenberg, 2006, 2011a, 2011b; Schellenberg and Mankarious, 2012).
+Schellenberg notes the problem of smaller sample sizes in his review (Corrigall and Trainor, 2011; Parbery-Clark et al., 2011; Strait, Parbery-Clark, Hittner and Kraus, 2012) in that studies that are typically smaller do not reach statistical significance.
+Schellenberg also references evidence that when professional musicians are matched with non-musicians from the general population there do not seem to be these associations (CITE).
+Schellenberg’s review suggests the current state of the literature points to support the hypothesis that higher functioning kids that take music lessons and they tend to stay in lessons longer.
+Additionally, Schellenberg remains skeptical of any sorts of causal factors regarding increases in IQ (e.g., François et al., 2013; Moreno et al., 2009) noting methodlogical problems like how short exposure times were in studies claiming increases in effects or researchers who not holding pre-exisiting cognitive abilitis constant (Mehr, Schachner, Katz and Spelke, 2013).</p>
+<ul>
+<li><span class="citation">(Corrigall, Schellenberg, and Misura <a href="#ref-corrigallMusicTrainingCognition2013">2013</a><a href="#ref-corrigallMusicTrainingCognition2013">a</a>)</span></li>
+<li><span class="citation">(Corrigall, Schellenberg, and Misura <a href="#ref-corrigallMusicTrainingCognition2013a">2013</a><a href="#ref-corrigallMusicTrainingCognition2013a">b</a>)</span></li>
+<li><span class="citation">(Swaminathan, Schellenberg, and Khalil <a href="#ref-swaminathanRevisitingAssociationMusic2017">2017</a>)</span></li>
+</ul>
+</div>
+</div>
+<div id="environmental" class="section level3">
+<h3><span class="header-section-number">2.2.5</span> Environmental</h3>
+<p>Standing in contrast to factors that individuals do not have a much control over such as the size of their working memory capacity or factors related to their general fluid intelligence, most of the factors we believe contribute to someone’s ability to take melodic dictation have to deal with factors related to training and the environment.
+In fact, one of the tacit assumptions of getting a music degree revolves around the belief that with deliberate and attentive practice, that an individual is able to move from novice to expertise in their chosen domain.
+The idea that time invested results in beneficial returns is probably best exemplified by work produced by <span class="citation">Ericsson, Krampe, and Tesch-Romer (<a href="#ref-ericssonRoleDeliberatePractice1993">1993</a>)</span> that suggests that performance at more elite levels results from deliberate practice.
+Below I review literature that supports this argument, since it’s no doubt that someone has to engage in something to be good at it.</p>
+</div>
+<div id="musical-training" class="section level3">
+<h3><span class="header-section-number">2.2.6</span> Musical Training</h3>
+<ul>
+<li><p>Papers that suggest practicing makes you better?</p></li>
+<li><p>It almost seems redundant to review literature in support of music practice leading to better results.</p></li>
+<li><p>List of those papers here</p></li>
+</ul>
+</div>
+<div id="aural-training" class="section level3">
+<h3><span class="header-section-number">2.2.7</span> Aural Training</h3>
+<p>In additon to individuals differeng in their general musical abilities– however they are defined– individuals also differ in their abilities at the level of their aural skills.
+Though not heavily researched in the past few decades <span class="citation">(Furby <a href="#ref-furbyEffectsPeerTutoring2016">2016</a>)</span>, there has been specific research looking at explaining how people do in aural skills examinatons.
+<span class="citation">Harrison, Asmus, and Serpe (<a href="#ref-harrisonEffectsMusicalAptitude1994">1994</a>)</span> examined the effect of aural skills training on undergraduate students by creating a latent variable model investigating musical aptitude, academic ability, musical expertise, and motivation to study music in a sample of 142 undergraduate students and claimed to be able to explain 73% of the variance in aural skills abilities using the variables measured.
+Work from Colin Wright’s dissertation found that … <span class="citation">(Wright <a href="#ref-wrightInvestigatingAuralCase2016">2016</a>)</span></p>
+<p>These are things that people have suggested people trying to do :
+As noted in <span class="citation">Furby (<a href="#ref-furbyEffectsPeerTutoring2016">2016</a>)</span>, researchers in the past have suggested a variety of techniques for improving their abilities in melodic dictation by isolating rhythm and melody [<span class="citation">Banton (<a href="#ref-bantonRoleVisualAuditory1995">1995</a>)</span>; <span class="citation">Bland (<a href="#ref-blandSightSingingMelodic1984">1984</a>)</span>; <span class="citation">Root (<a href="#ref-rootMethodicalSightSingingLessons1931">1931</a>)</span>; WILSON], listening attentively to the melody before writing <span class="citation">(Banton <a href="#ref-bantonRoleVisualAuditory1995">1995</a>)</span>, recognizing patterns <span class="citation">(Banton <a href="#ref-bantonRoleVisualAuditory1995">1995</a>; Bland <a href="#ref-blandSightSingingMelodic1984">1984</a>; Root <a href="#ref-rootMethodicalSightSingingLessons1931">1931</a>)</span> and silently vocalizing while dictating <span class="citation">(Klonoski <a href="#ref-klonoskiImprovingDictationAuralSkills2006">2006</a>)</span>.</p>
+</div>
+<div id="sight-singing" class="section level3">
+<h3><span class="header-section-number">2.2.8</span> Sight Singing</h3>
+<p>Often described as the other side of the same coin of melodic dictation, sight singing is an area of music pedagogy research that has had sparse attention paid to it given its prevelance in school of music curricula.
+Recently <span class="citation">(Fournier et al. <a href="#ref-fournierCognitiveStrategiesSightsinging2017a">2017</a>)</span> catalouged and categorized 14 different sub categories into four larger main cateogories while also providing commenatary on some of the current state of aural skills.
+Of the four large categories, they group them into reading mechanisms, sight singing, readings skills acquiskiton, and learnign support.</p>
+<p>FIX HERE</p>
+<p>The authors note a line of research that has documented that university students are often unprepared to sight-read single lines of music (Asmus, 2004; Davidson, Scripp &amp; Welsh, 1988; Fournier, 2015; Thompson, 2004; Vujović &amp; Bogunović, 2012) even though it is, like dictation, thought of as a means for deeper musical understanding. (DeBellis, 2005; Karpinski, 2000; Ottman, 1956; Rogers, 2004; Scripp, 1995; Scripp &amp; Davidson, 1994)
+The authors of Fournier et. al also note that sight-reading has been an active area of research due to the often reported relationship that performance on sight reading often predicts several studies have shown links between academic success in sight-singing and predictors such as entrance tests (Harrison, 1987, 1990, 1991; Ottman, 1956; Rodeheaver, 1972; Schleuter, 1983), academic ability (Chadwick, 1933; Harrison, 1990, 1991; Harrison, Asmus, &amp; Serpe, 1994; Rodeheaver,1972), and musical experience (Brown, 2001; Dean, 1937; Furby, 2008; Harrison, 1990, 1991; Harrison et al., 1994; Thostenson, 1967).</p>
+<p>Taken as a whole, the research tends to suggesting that learning to be a fluid and compotent sight reader helps musicians hone their skills by bootstrapping other musical skills since the skills needed for sightreading touch on many of the skills used in musical performance like pattern matching and listening for small changes in intonnation.
+Each of these individual factors contributes in a small and significant way and additionally will interact with the other half of the taxonomy: musical parameters.</p>
+</div>
+</div>
+<div id="musical-parameters" class="section level2">
+<h2><span class="header-section-number">2.3</span> Musical Parameters</h2>
+<p>Transitioning to the other half of the taxonomy on figure X, the other main source of variation on any study looking at melodic perception, and consequently studies of melodic dictation, is the effect of the melody itself.
+I find it safe to assume that not all melodies are equally difficult to dictate and assert that variance in the difficulty the melody can partitioned between both <strong>structural</strong> and <strong>experimental</strong> aspects of a melody.
+As noted above, there is not a strict deliniation between these two categories since once could imagine drastic maniuplations in experimental parameters in order to result in a phenomenologically different experience of melody.
+Questions of transformations of melodies and musical similarity fall have been addressed in ohter research <span class="citation">(Cambouropoulos <a href="#ref-cambouropoulosHowSimilarSimilar2009">2009</a>; Wiggins <a href="#ref-wigginsModelsMusicalSimilarity2007">2007</a>)</span> but are beyond the scope of this study.</p>
+<div id="structural" class="section level3">
+<h3><span class="header-section-number">2.3.1</span> Structural</h3>
+<p>The notion that the music as represented by a score is able to provide insights towards understanding aspects about music is not new to music theory and anlaysis.
+Heinrich Schenker argued for an undertanding of tonal music <span class="citation">(Schenker <a href="#ref-schenkerFreieSatz1935">1935</a>)</span> that asserted hierarchical relationships of notes on the musical surface in the early 20th century and has since been expanded upon by theorists over the past century SALTZER, SCHAKTER, ROTHSTEIN.
+Leonard Meyer in his <em>Emotion and Meaning in Music</em> <span class="citation">(Meyer <a href="#ref-meyerEmotionMeaningMusic1956">1956</a>)</span> continued some of these lines of thought and was the first who put forward the idea that tethered the struture that earlier theorists wrote about and suggested that in addition to this struture being fundamental to the perception of the piece that there were also responsible for some aspects of the emotion and meaning listeners found in the piece.</p>
+<p>Meyer’s work since inspired a line of reserach investigating the perception of the structural aspects of music could be understood with the work of Eugene Narmor <span class="citation">(Narmour <a href="#ref-narmourAnalysisCognitionBasic1990">1990</a>, <a href="#ref-narmourAnalysisCognitionMelodic1992">1992</a>)</span>, Glenn Schellenberg <span class="citation">(Schellenberg <a href="#ref-schellenbergSimplifyingImplicationRealizationModel1997">1997</a>)</span>, Elizabeth Hellmuth Margulis <span class="citation">(Margulis <a href="#ref-margulisModelMelodicExpectation2005">2005</a>)</span>, David Huron <span class="citation">(Huron <a href="#ref-huronSweetAnticipation2006">2006</a>)</span> and have inpsired computational, machine learning approaches to expectational frameworks in with work by Marcus Pearce <span class="citation">(M. T. Pearce and Wiggins <a href="#ref-pearceAuditoryExpectationInformation2012">2012</a><a href="#ref-pearceAuditoryExpectationInformation2012">a</a>)</span>.</p>
+<ul>
+<li>WHAT IS THE POINT OF ALL THIS RESERACH SETNECE</li>
+</ul>
+<p>These general models of melodic perception tend suggest that Meyer was correct in his assertion that computational methodologies could be used to better understand question of melodic perception and strucuture and that there are links between the structure of the music and its perception.<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a></p>
+<p>Turning to studies examining melodic dictation with a focus on musical structure, the first study to examine it extensively was Ortmann in 1933 <span class="citation">(Ortmann <a href="#ref-ortmannTonalDeterminantsMelodic1933">1933</a>)</span>.
+Ortamnn used a series of twenty five-note melodies in order to examine the effects of repetition, pitch direction, conjunct-disjunct motion (contour), interval size, order, and chord structure, all of which he deems to be the <em>determinants</em> of an individual’s ability to dictate melodic material.
+Though Ortmann did not use any statistical methods to model his data, he did assert that each of his determinants contributed to an individual’s ability to dictate musical material.
+This work was extended by <span class="citation">(Taylor and Pembrook <a href="#ref-taylorStrategiesMemoryShort1983">1983</a>)</span> which additionally incoporated using musical skill as a predictor and additionally found evidence that these factors contributed to individual dictation abilities in a sample of 122 undergraduate students.</p>
+<p>Although the literature is generally sparce compared to other areas of music cognition, literature exploring the effects of structural characteristics on memory does exist.
+Long found that length, tonal structure, contour, and individual traits all contribute to performance on melodic dictation examinations and found that structure and tonalness to have significant, albeit small predictive powers in modeling <span class="citation">(Long <a href="#ref-longRelationshipsPitchMemory1977">1977</a>)</span>.
+One problem with studies such as <span class="citation">(Long <a href="#ref-longRelationshipsPitchMemory1977">1977</a>)</span> is that they sometimes would make conspicuous methodloogical decisions such as elimnating individuals who were bad singers for the example.
+Not only does this reduce the spectrum of ability levels (assuming that singing ability correlates with dictation ability, a finding since which has been established <span class="citation">(Norris <a href="#ref-norrisRelationshipSightSinging2003">2003</a>)</span>), but is additinally flawed in that it is at odds both with the intuition that an individual’s singing ability cannot be taken as a direct representation of their mental image of the melody and is probably more related to the ability to have motor control over the vocal tract <span class="citation">(Pfordresher and Brown <a href="#ref-pfordresherPoorPitchSingingAbsence2007">2007</a>)</span>.</p>
+<p>Other researchers have also put forward other paramters thought to contribute like tempo <span class="citation">(Hofstetter <a href="#ref-hofstetterComputerBaesedRecognitionPerceptual1981">1981</a>)</span>
+tonality <span class="citation">(Dowling <a href="#ref-dowlingScaleContourTwo1978">1978</a>)</span> <span class="citation">(Long <a href="#ref-longRelationshipsPitchMemory1977">1977</a>)</span> <span class="citation">(Pembrook <a href="#ref-pembrookInterferenceTranscriptionProcess1986">1986</a>)</span> <span class="citation">(Oura and Hatano <a href="#ref-ouraMemoryMelodiesSubjects1988">1988</a>)</span>
+interval motion <span class="citation">(Ortmann <a href="#ref-ortmannTonalDeterminantsMelodic1933">1933</a>; Pembrook <a href="#ref-pembrookInterferenceTranscriptionProcess1986">1986</a>)</span>
+length of melody <span class="citation">(Long <a href="#ref-longRelationshipsPitchMemory1977">1977</a>; Pembrook <a href="#ref-pembrookInterferenceTranscriptionProcess1986">1986</a>)</span>
+number of presentations <span class="citation">(Hofstetter <a href="#ref-hofstetterComputerBaesedRecognitionPerceptual1981">1981</a>)</span> [<span class="citation">(Pembrook <a href="#ref-pembrookInterferenceTranscriptionProcess1986">1986</a>)</span>]
+context of presentation <span class="citation">(Schellenberg and Moore <a href="#ref-schellenbergEffectTonalRhythmicContext1985">1985</a>)</span>
+listener experience <span class="citation">(Long <a href="#ref-longRelationshipsPitchMemory1977">1977</a>; Oura and Hatano <a href="#ref-ouraMemoryMelodiesSubjects1988">1988</a>)</span> <span class="citation">(Schellenberg and Moore <a href="#ref-schellenbergEffectTonalRhythmicContext1985">1985</a>; Taylor and Pembrook <a href="#ref-taylorStrategiesMemoryShort1983">1983</a>)</span>
+familarity of style <span class="citation">(Schellenberg and Moore <a href="#ref-schellenbergEffectTonalRhythmicContext1985">1985</a>)</span></p>
+<p><span class="citation">Pembrook (<a href="#ref-pembrookInterferenceTranscriptionProcess1986">1986</a>)</span> provides an extensive detailing of a systematic study to melodic dictation where they used tonality, melody length, and type of motion as variables in their experiment.
+They additionally also restricted their experimental melodies to those that were singable.
+The authors found all three variables to be significant predictors with tonality explaining 13% of the variance, length explaining 3% of the variance and type of motion explaining 1% of the variance.
+The paper also claims that people on average can hear and remember 10-16 notes, which is worth commenting that these 10–16 notes are dependent on the experimental context of the melodies played with the quarter note set to 90 beats per minute.</p>
+<p>Given the lack of consistent methodlogies in adminstration and scoring of these experiments it becomes difficult to find ways to generalize basic findings like expected effect sizes– especially when the original materials and data have not been recorded– but there is often interesting theoretical insights to be gleaned.
+For example <span class="citation">(Oura <a href="#ref-ouraConstructingRepresentationMelody1991a">1991</a>)</span> used a sample of eight people to suggest that when taking melodic dictation, individuals use a system of pattern matching that interfaces with their long term memory in order to complete dictation tasks.
+While this paper does not bring with it exhaustive evidence supporting this claim, the idea is explored in detail in Chapter 6 the idea of pattern matching is used in conjunction with Cowan’s embeded process model of working memory.</p>
+<p>More recently the music education community has also began to do research around melodic dictation using both qualitative and quantitiatve methdologies.
+<span class="citation">(Paney and Buonviri <a href="#ref-paneyTeachingMelodicDictation2014">2014</a>)</span> interviewed high school teachers on methods they used to teach melodic dictation and <span class="citation">(Gillespie <a href="#ref-gillespieMelodicDictationScoring2001">2001</a>)</span> has done work on investigating methods as to best score melodic dictation.
+Other work by <span class="citation">(Pembrook and Riggins <a href="#ref-pembrookSendHelpAural1990">1990</a>)</span> surveyed various methodlogies used by instructurs in aural skills settings.
+Some of these studies consider aural skills as a totality like
+<span class="citation">(Norris <a href="#ref-norrisRelationshipSightSinging2003">2003</a>)</span> who provided quantiative evidence to suggest most aural skills pedagoge’s intuition that there is some sort of relationship between melodic dictation and sight singing.
+Looking at the notorious subset of students with absolute pitch (AP), <span class="citation">(Dooley and Deutsch <a href="#ref-dooleyAbsolutePitchCorrelates2010">2010</a>)</span> provided evidence demonstrated that students with AP tend to outperform their non-AP colleagues in tests of dication.</p>
+<p>[SOME OF THESE ARE CLEARLY EXPERIMENTAL AND NEED TO BE PUT THERE]</p>
+<p>Continuing exploring the pedagogical liteature, Naton Buonviri and colleagues have also made melodic dictation a central focus of some recent papers.
+<span class="citation">Paney and Buonviri (<a href="#ref-paneyTeachingMelodicDictation2014">2014</a>)</span> interviewed high school teachers on methods that they used to teach melodic dictation.
+<span class="citation">N. Buonviri (<a href="#ref-buonviriEffectsMusicNotation2015">2015</a>)</span> interviewed six sophomore music majors to find sucessful strategies that students enaged with when completing melodic dications.
+<span class="citation">Paney (<a href="#ref-paneyEffectDirectingAttention2016">2016</a>)</span> reported beneficial effects to direct student’s attention and guide them through melodic dictation exercises suggesting that some sort of mental organizaton of the dication process is helpful.
+<span class="citation">Nathan O Buonviri and Paney (<a href="#ref-buonviriMelodicDictationInstruction2015">2015</a>)</span> found that having students sing a preparatory singing pattern after hearing the target melody, essentially a distractor task, hindered performance on melodic dictation.
+<span class="citation">Nathan O. Buonviri (<a href="#ref-buonviriEffectsPreparatorySinging2015">2015</a>)</span>…
+<span class="citation">N. Buonviri (<a href="#ref-buonviriEffectsMusicNotation2015">2015</a>)</span> found no effects of test presentation format (visual versus aural-visual) using a melodic memory paradigm.
+<span class="citation">Buonviri (<a href="#ref-buonviriEffectsTwoListening2017">2017</a>)</span> reported no significant advatage to listening strategies while partaking in a melodic dictation test.</p>
+<div id="recent-computational-musicology-work-papers-and-findings" class="section level4">
+<h4><span class="header-section-number">2.3.1.1</span> Recent Computational Musicology Work papers and findings</h4>
+<p>Using symbolic features of the melodies themselves is not a novel approach as noted in the above literature attempting to predict performance on melodic dictations.
+Much of this work pre-dates recent advances in computational musicology such as the advent of technology like David Huron’s Humdrum <span class="citation">(Huron <a href="#ref-huronHumdrumToolkitReference1994">1994</a>)</span> and Michael Cutberth’s Music21 <span class="citation">(Cuthbert and Ariza <a href="#ref-cuthbertMusic21ToolkitComputerAided2010">2010</a>)</span> which now allows music researchers to systematically digitize symbolic musical material.
+In addition to creating accesible frameworks for encoding, the computational power availble exponentially exceeds that of what was availble in the 20th century and has opened up new possibilities in the computational modeling of music.</p>
+<p>While I reserve a longer discussion on the histories of computational musicology for the fourth chapter, relevant to this study is the additional ways it is now possible to abstract features from symbolic melodies beyond what was capable in studies such as <span class="citation">Ortmann (<a href="#ref-ortmannTonalDeterminantsMelodic1933">1933</a>)</span> and <span class="citation">Taylor and Pembrook (<a href="#ref-taylorStrategiesMemoryShort1983">1983</a>)</span>.</p>
+<p>An abstracted feature of a melody is an emergent property of the melody that results from performing some sort of calculation on the melody?
+This type of feature abstraction is in contrast to much of the work done in the field of music information retrivial which often relies on the recorded audio for feature abstraction and is addressed under Experimental features LINK THAT IN!.
+Abstracted symbolic features of melodies can largely be conceptualized as being <strong>static</strong> or <strong>dynamic</strong>.
+The above papers tended to use more simplisitc methods of figuring out parameters such as counting the notes by hand but with the advent of new encoding systems and more powerful computing power it is now possible to take on much more rigerious computational analyses.</p>
+</div>
+<div id="static-views-of-computational-features-fantastic" class="section level4">
+<h4><span class="header-section-number">2.3.1.2</span> Static Views of Computational Features/ FANTASTIC</h4>
+<p>Static features of melodies work by summerizing some aspect of the melody as if it were to be experience in suspended animation.
+Using static features helps quantify something that might be intuitive about a melody or piece of encoded music.
+For example, something like David Huron’s contour class used in a study investigating melodic arches <span class="citation">(Huron <a href="#ref-huronMelodicArchWestern1996">1996</a>)</span> using the Essen Folk Song Collection <span class="citation">(Schaffrath <a href="#ref-schaffrathEssenFolkSong1995">1995</a>)</span> can only be understood as a feature of the melody itself once the melody has been sounded and is recalled would be a static feature of a melody.
+Other examples include a melody’s global note density, normalized pairwise variability index (CITATION), and a melody’s tonalness as calculated by one of the various key profile algorithms (KRUMHANSL,ALBRECT AND SHANAHAN)
+These measures are useful when describing melodies and are predictive of various behavioral phenomena as detailed below, but at this point it has not been well established to what degree these summary features can be directly related to aspects of human behavior.</p>
+<p>The quintessential and most comprehensive toolbox example of this is Daniel Müllensiefen’s Feature ANalysis Technology Accesing STatistics (In a Corpus) or FANTASTIC <span class="citation">(Mullensiefen <a href="#ref-mullensiefenFantasticFeatureANalysis2009">2009</a>)</span>.
+FANTASTIC is software that is capable summerizing musical material at for monophonic melodies.
+In additon to computing 37 features such as contour variation, tonalnesss, note density, note length, and measures inspired by computational linguistics (THAT BOOK OF GERAINT), FANTASTIC also calculates m-types (melodic-rhyhmic motives) that are based on the frequency distributions of melodic segements found genres of music.
+This is inspired by fact that repeition is key structure of music <span class="citation">(Huron <a href="#ref-huronSweetAnticipation2006">2006</a>)</span></p>
+<p>Work using the FANTASTIC toolboox has been sucessful in predicting court case decisions <span class="citation">(Müllensiefen and Pendzich <a href="#ref-mullensiefenCourtDecisionsMusic2009">2009</a>)</span>, predicting chart sucesses of songs on the Beatles’ <em>Revolver</em> <span class="citation">(Kopiez and Mullensiefen <a href="#ref-kopiezAufSucheNach2011">2011</a>)</span>, memory for old and new melodies in signal detection experiments <span class="citation">(Müllensiefen and Halpern <a href="#ref-mullensiefenRoleFeaturesContext2014">2014</a>)</span>, memory for earworms <span class="citation">(Jakubowski et al. <a href="#ref-jakubowskiDissectingEarwormMelodic2017">2017</a>; Williamson and Müllensiefen <a href="#ref-williamsonEarwormsThreeAngles2012">2012</a>)</span>, memorability of pop music hook <span class="citation">(Balen, Burgoyne, and Bountouridis <a href="#ref-balenCorpusAnalyisTools2015">2015</a>)</span>.
+In experimental studies, FANTASTIC has also been used to determine item difficulty <span class="citation">(Baker and Müllensiefen <a href="#ref-bakerPerceptionLeitmotivesRichard2017">2017</a>; Harrison, Musil, and Müllensiefen <a href="#ref-harrisonModellingMelodicDiscrimination2016">2016</a>)</span> and has even been the basis of the development of a computer assistted platform for studying memory for melodies <span class="citation">(Rainsford, Palmer, and Paine <a href="#ref-rainsfordMUSOSMUsicSOftware2018">2018</a>)</span>.</p>
+</div>
+<div id="dynamic" class="section level4">
+<h4><span class="header-section-number">2.3.1.3</span> Dynamic</h4>
+<p>In addition to using summary based features on melodies, it is also possible to model the perception of musical materials by using a dynamic approach that is dependent on the unfolding of musical material.
+First explored in CONKLIN, and then first published as a dynamic model of expectation in his doctoral dissertation, Marcus Pearce’s Informaton Dynamics Of Melody IDyOM models musical expectancy using various information theoretic concepts inspired by Claude Shannon (SHANNON).
+The model takes an unsupervised machine learning approach and calculates the information content of the amount of DECLARED n-grams in the corpus.
+As a model exploring expection for melody IDyOM has has been applied to a variety of settings LIST THEM HERE.
+The domain general application of IDyOM has given creedence to Meyer’s assertion that the enculturation of musical styles stems from statistical exposure to melodies and be somewhat refelective of the cogitive processes used in muscical perception.
+IDyOM has also been recently extended to look at expectation in multi-part chorales (SAUVE WORK) and expectations of harmony (HARRISON WORK).</p>
+<p><span class="citation">(M. T. Pearce and Wiggins <a href="#ref-pearceAuditoryExpectationInformation2012a">2012</a><a href="#ref-pearceAuditoryExpectationInformation2012a">b</a>; <span class="citeproc-not-found" data-reference-id="pearceStatisticalLearningProbabilistic2018"><strong>???</strong></span>)</span></p>
+<p>The advantage of using a dynamic approach is that it theoretically reflects real time perception of music with the structural characeristics of the music mapping on to real human behavior.</p>
+</div>
+</div>
+<div id="experimental" class="section level3">
+<h3><span class="header-section-number">2.3.2</span> Experimental</h3>
+<ul>
+<li>Advantage of vocal melodies paper | Weiss 2015</li>
+<li>Voice is better than instruments Weiss Trehub Schellenberg 2012</li>
+<li>Engaging, conspecific signal Weiss Peretz 2019 , not due to expressivity. even see this in amusics.</li>
+<li>Not affected by musical training or exposure</li>
+<li>MIR stuff</li>
+<li><p>Stuff out of education stuff that is also experimental</p></li>
+<li>WM W LVH, two span tasks and claim it effects langauge tasks</li>
+<li><p>WM Halpern 2017 with pearce, LTM stuff , re look this up</p></li>
+</ul>
+</div>
+</div>
+<div id="modeling-and-polymorphism-of-ability" class="section level2">
+<h2><span class="header-section-number">2.4</span> Modeling and Polymorphism of Ability</h2>
+<p>Given the current state of cognitive psychology and psychometrics, as well as recent advances in computational musicology, the possibilities for now operationalizing and then modeling aspects of melodic dictation are as advanced as they ever have been.
+Given that we can now assign numbers to basically every factor that is thought to contribute to this process from concepts of musicianship, to features of a melody, to the variable size in an individual’s working memory capacity all of these thigns can be put into some sort of model.
+While this will bring the community closer to formally modeling all of this and lead to a clearer understanding, before going ahead and doing this it is worth pointing out that many of the concepts discussed above are highly complex concepts like musicianship and tonalness and rest on lots of assumptions.
+Musicianship, for example, or any measure of musical training is not something that can be measured directly such as a person’s height or weight, but has to be inferred based on the logical assumptions of the person doing the measurments.
+So while the rest of this study will rely on this, it is important to note that people shouldn’t confuse abstracted concepts with real things.</p>
+<p>The most illustrative example of this comes from a study by HARRISON ET AL who created a latent variable model of aural skills that was able to predict 74% of the variance in aural skills performance.
+This latent trait that the authors created may be helpful in explaining the patterns of covariance in data, but this would be to reifiy a statistical abstraction as an ontologically true idea.
+This idea has been discussed before critqiuing ideas such as <em>g</em> <span class="citation">(Gould <a href="#ref-gouldMismeasureMan1996">1996</a>; Kovacs and Conway <a href="#ref-kovacsProcessOverlapTheory2016">2016</a>)</span> and has recently been the subject of critique in music psychology OUR GOLDMSI PAPER.</p>
+<p>The same arguments put forward in this literature also are relevant here.
+In order to have a complete, causal model of <em>how</em> melodic dictation works, it is important to understand melodic dictation as a set of musical abilities that are related to other musical abilities, though may not be related.
+This idea is not new even in music psychology, the past two decades have seen calls for a more polymorphic definition of musical ability <span class="citation">(Levitin <a href="#ref-levitinWhatDoesIt2012">2012</a>; Peretz and Coltheart <a href="#ref-peretzModularityMusicProcessing2003">2003</a>)</span> which in its modeling will require more concrete ways of defining how it works than just correlating variable together that are helpful at prediction without saying exactly how that process happens.</p>
+</div>
+<div id="conclusions" class="section level2">
+<h2><span class="header-section-number">2.5</span> Conclusions</h2>
+<p>In this chapter I first described what is melodic dictation using Karpinki’s verbal model, noted what the things were that were missing from this model as a stepping off point, then went on to suggest a taxonomy of these based on what already has done.
+I suggest there are both individual as well as musical features that need to be understood in order to have a comprensive understanding of melodic dictation.
+Of the two sets of features, individual features can be either cognitive or environmental and musical features can be either structural or experimental.
+This taxonomy does not consist of exclusive categories and certainly permits interactions between any and all of the levels.</p>
+<p>It would be impossible given the scope of this study to effectively quantify each and every factor and how it interacts at every level, but the degree to which there is the most literature and you can get the most bang for you buck seems like the obvious stepping off point.
+Rest of this dissertation will systehsize these areas and put forth novel research contributing to the modeling and subsequent understanding of melodic dictation.
+Understanding melodic dictation will help with both understanding melodic perception and help our pedagogy.</p>
+<div id="add-in" class="section level3">
+<h3><span class="header-section-number">2.5.1</span> Add In</h3>
+<ul>
+<li><span class="citation">(Hansen, Wallentin, and Vuust <a href="#ref-hansenWorkingMemoryMusical2013">2013</a>)</span></li>
+<li>Dowling 1991 <span class="citation">(Dowling <a href="#ref-dowlingTonalStrengthMelody1991">1991</a>)</span></li>
+</ul>
+
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-karpinskiModelMusicPerception1990">
+<p>Karpinski, Gary. 1990. “A Model for Music Perception and Its Implications in Melodic Dictation.” <em>Journal of Music Theory Pedagogy</em> 4 (1): 191–229.</p>
+</div>
+<div id="ref-karpinskiAuralSkillsAcquisition2000">
+<p>Karpinski, Gary Steven. 2000. <em>Aural Skills Acquisition: The Development of Listening, Reading, and Performing Skills in College-Level Musicians</em>. Oxford University Press.</p>
+</div>
+<div id="ref-NationalAssociationSchools2018">
+<p>“National Association of Schools of Music Handbook.” 2018. Reston, Virginia: National Association of Schools of Music.</p>
+</div>
+<div id="ref-klonoskiImprovingDictationAuralSkills2006">
+<p>Klonoski, Edward. 2006. “Improving Dictation as an Aural-Skills Instructional Tool,” 6.</p>
+</div>
+<div id="ref-potterIdentifyingSucessfulDictation1990">
+<p>Potter, Gary. 1990. “Identifying Sucessful Dictation Strategies.” <em>Journal of Music Theory Pedagogy</em> 4 (1): 63–72.</p>
+</div>
+<div id="ref-paneyEffectDirectingAttention2016">
+<p>Paney, Andrew S. 2016. “The Effect of Directing Attention on Melodic Dictation Testing.” <em>Psychology of Music</em> 44 (1): 15–24. <a href="https://doi.org/10.1177/0305735614547409" class="uri">https://doi.org/10.1177/0305735614547409</a>.</p>
+</div>
+<div id="ref-davidbutlerWhyGulfMusic1997a">
+<p>Butler, David. 1997. “Why the Gulf Between Music Perception Research and Aural Training?” <em>Bulletin of the Council for Research in Music Education</em>, no. 132.</p>
+</div>
+<div id="ref-klonoskiPerceptualLearningHierarchy2000">
+<p>Klonoski, Edward. 2000. “A Perceptual Learning Hierarchy: An Imperative for Aural Skills Pedagogy.” <em>College Music Symposium</em> 4: 168–69.</p>
+</div>
+<div id="ref-dowlingScaleContourTwo1978">
+<p>Dowling, W. Jay. 1978. “Scale and Contour: Two Components of a Theory of Memory for Melodies.” <em>Psychological Review</em> 84 (4): 341–54.</p>
+</div>
+<div id="ref-dewittRecognitionNovelMelodies1986">
+<p>Dewitt, Lucinda A., and Robert G. Crowder. 1986. “Recognition of Novel Melodies After Brief Delays.” <em>Music Perception: An Interdisciplinary Journal</em> 3 (3): 259–74. <a href="https://doi.org/10.2307/40285336" class="uri">https://doi.org/10.2307/40285336</a>.</p>
+</div>
+<div id="ref-ouraMemoryMelodiesSubjects1988">
+<p>Oura, Yoko, and Giyoo Hatano. 1988. “Memory for Melodies Among Subjects Differing in Age and Experience in Music.” <em>Psychology of Music</em> 16: 91–109.</p>
+</div>
+<div id="ref-handelListeningIntroductionPerception1989">
+<p>Handel, Stephen. 1989. <em>Listening: An Introduction to the Perception of Auditory Events</em>. Cambridge: MIT Press.</p>
+</div>
+<div id="ref-dowlingExpectancyAttentionMelody1990">
+<p>Dowling, W. 1990. “Expectancy and Attention in Melody Perception.” <em>Psychomusicology: A Journal of Research in Music Cognition</em> 9 (2): 148–60. <a href="https://doi.org/10.1037/h0094150" class="uri">https://doi.org/10.1037/h0094150</a>.</p>
+</div>
+<div id="ref-eerolaExpectancySamiYoiks2009">
+<p>Eerola, Tuomas, Jukka Louhivuori, and Edward Lebaka. 2009. “Expectancy in Sami Yoiks Revisited: The Role of Data-Driven and Schema-Driven Knowledge in the Formation of Melodic Expectations.” <em>Musicae Scientiae</em> 13 (2): 231–72. <a href="https://doi.org/10.1177/102986490901300203" class="uri">https://doi.org/10.1177/102986490901300203</a>.</p>
+</div>
+<div id="ref-stevensMusicPerceptionCognition2012">
+<p>Stevens, Catherine J. 2012. “Music Perception and Cognition: A Review of Recent Cross-Cultural Research.” <em>Topics in Cognitive Science</em> 4 (4): 653–67. <a href="https://doi.org/10.1111/j.1756-8765.2012.01215.x" class="uri">https://doi.org/10.1111/j.1756-8765.2012.01215.x</a>.</p>
+</div>
+<div id="ref-pearceAuditoryExpectationInformation2012">
+<p>Pearce, Marcus T., and Geraint A. Wiggins. 2012a. “Auditory Expectation: The Information Dynamics of Music Perception and Cognition.” <em>Topics in Cognitive Science</em> 4 (4): 625–52. <a href="https://doi.org/10.1111/j.1756-8765.2012.01214.x" class="uri">https://doi.org/10.1111/j.1756-8765.2012.01214.x</a>.</p>
+</div>
+<div id="ref-millerMagicalNumberSeven1956">
+<p>Miller, George A. 1956. “The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information.”</p>
+</div>
+<div id="ref-arthurPerceptualStudyScaledegree2018">
+<p>Arthur, Claire. 2018. “A Perceptual Study of Scale-Degree Qualia in Context.” <em>Music Perception: An Interdisciplinary Journal</em> 35 (3): 295–314. <a href="https://doi.org/10.1525/mp.2018.35.3.295" class="uri">https://doi.org/10.1525/mp.2018.35.3.295</a>.</p>
+</div>
+<div id="ref-taylorStrategiesMemoryShort1983">
+<p>Taylor, Jack A., and Randall G. Pembrook. 1983. “Strategies in Memory for Short Melodies: An Extension of Otto Ortmann’s 1933 Study.” <em>Psychomusicology: A Journal of Research in Music Cognition</em> 3 (1): 16–35. <a href="https://doi.org/10.1037/h0094258" class="uri">https://doi.org/10.1037/h0094258</a>.</p>
+</div>
+<div id="ref-goldmanImprovisationExperiencePredicts2018a">
+<p>Goldman, Andrew, Tyreek Jackson, and Paul Sajda. 2018. “Improvisation Experience Predicts How Musicians Categorize Musical Structures.” <em>Psychology of Music</em>, June, 030573561877944. <a href="https://doi.org/10.1177/0305735618779444" class="uri">https://doi.org/10.1177/0305735618779444</a>.</p>
+</div>
+<div id="ref-laneChessKnowledgePredicts2018">
+<p>Lane, David M., and Yu-Hsuan A. Chang. 2018. “Chess Knowledge Predicts Chess Memory Even After Controlling for Chess Experience: Evidence for the Role of High-Level Processes.” <em>Memory &amp; Cognition</em> 46 (3): 337–48. <a href="https://doi.org/10.3758/s13421-017-0768-2" class="uri">https://doi.org/10.3758/s13421-017-0768-2</a>.</p>
+</div>
+<div id="ref-ritchieIntelligenceAllThat2015">
+<p>Ritchie, Stuart. 2015. <em>Intelligence: All That Matters</em>. All That Matters. Hodder &amp; Stoughton.</p>
+</div>
+<div id="ref-unsworthAutomatedVersionOperation2005">
+<p>Unsworth, Nash, Richard P. Heitz, Josef C. Schrock, and Randall W. Engle. 2005. “An Automated Version of the Operation Span Task.” <em>Behavior Research Methods</em> 37 (3): 498–505. <a href="https://doi.org/10.3758/BF03192720" class="uri">https://doi.org/10.3758/BF03192720</a>.</p>
+</div>
+<div id="ref-gouldMismeasureMan1996">
+<p>Gould, Stephan Jay. 1996. <em>The Mismeasure of Man</em>. WW Norton &amp; Company.</p>
+</div>
+<div id="ref-darwinOriginSpecies1859">
+<p>Darwin, Charles. 1859. <em>On the Origin of Species</em>. Routledge.</p>
+</div>
+<div id="ref-spearmanGeneralIntelligenceObjectively1904">
+<p>Spearman, Charles. 1904. “&quot;General Intelligence,&quot; Objectively Determined and Measured,” 93.</p>
+</div>
+<div id="ref-kovacsProcessOverlapTheory2016">
+<p>Kovacs, Kristof, and Andrew R. A. Conway. 2016. “Process Overlap Theory: A Unified Account of the General Factor of Intelligence.” <em>Psychological Inquiry</em> 27 (3): 151–77. <a href="https://doi.org/10.1080/1047840X.2016.1153946" class="uri">https://doi.org/10.1080/1047840X.2016.1153946</a>.</p>
+</div>
+<div id="ref-cowanWorkingMemoryCapacity2005">
+<p>Cowan, Nelson. 2005. <em>Working Memory Capacity</em>. Working Memory Capacity. New York, NY, US: Psychology Press. <a href="https://doi.org/10.4324/9780203342398" class="uri">https://doi.org/10.4324/9780203342398</a>.</p>
+</div>
+<div id="ref-broadbentPerceptionCommunication1958">
+<p>Broadbent, Donald E (Donald Eric). 1958. <em>Perception and Communication</em>. Pergamon.</p>
+</div>
+<div id="ref-atkinsonHUMANMEMORYPROPOSED1968">
+<p>Atkinson, R C, and R M Shiffrin. 1968. “HUMAN MEMORY: A PROPOSED SYSTEM AND ITS CONTROL PROCESSES!” <em>Human Memory</em>, 54.</p>
+</div>
+<div id="ref-baddeleyWorkingMemory1974">
+<p>Baddeley, Alan D., and Graham Hitch. 1974. “Working Memory.” In <em>Psychology of Learning and Motivation</em>, 8:47–89. Elsevier. <a href="https://doi.org/10.1016/S0079-7421(08)60452-1" class="uri">https://doi.org/10.1016/S0079-7421(08)60452-1</a>.</p>
+</div>
+<div id="ref-baddeleyEpisodicBufferNew2000">
+<p>Baddeley, Alan. 2000. “The Episodic Buffer: A New Component of Working Memory?” <em>Trends in Cognitive Sciences</em> 4 (11): 417–23. <a href="https://doi.org/10.1016/S1364-6613(00)01538-2" class="uri">https://doi.org/10.1016/S1364-6613(00)01538-2</a>.</p>
+</div>
+<div id="ref-berzWorkingMemoryMusic1995">
+<p>Berz, William L. 1995. “Working Memory in Music: A Theoretical Model.” <em>Music Perception: An Interdisciplinary Journal</em> 12 (3): 353–64. <a href="https://doi.org/10.2307/40286188" class="uri">https://doi.org/10.2307/40286188</a>.</p>
+</div>
+<div id="ref-williamsonMusiciansNonmusiciansShortterm2010">
+<p>Williamson, Victoria J., Alan D. Baddeley, and Gramham J. Hitch. 2010. “Musicians’ and Nonmusicians’ Short-Term Memory for Verbal and Musical Sequences: Comparing Phonological Similarity and Pitch Proximity.” <em>Memory &amp; Cognition</em> 38 (2): 163–75. <a href="https://doi.org/10.3758/MC.38.2.163" class="uri">https://doi.org/10.3758/MC.38.2.163</a>.</p>
+</div>
+<div id="ref-wollnerAttentionalFlexibilityMemory2016">
+<p>Wöllner, Clemens, and Andrea R. Halpern. 2016. “Attentional Flexibility and Memory Capacity in Conductors and Pianists.” <em>Attention, Perception, &amp; Psychophysics</em> 78 (1): 198–208. <a href="https://doi.org/10.3758/s13414-015-0989-z" class="uri">https://doi.org/10.3758/s13414-015-0989-z</a>.</p>
+</div>
+<div id="ref-cowanEvolvingConceptionsMemory1988">
+<p>Cowan, Nelson. 1988. “Evolving Conceptions of Memory Storage, Selective Attention, and Their Mutual Constraints Within the Human Information-Processing System.” <em>Psychological Bulletin</em> 104 (2): 163–91.</p>
+</div>
+<div id="ref-millerHistoryPsychologyAutobiography1989">
+<p>Miller, George A. 1989. <em>A History of Psychology in Autobiography</em>. L. Gardner. Vol. VIII. Stanford, CA: Stanford University Press.</p>
+</div>
+<div id="ref-cowanMagicalMysteryFour2010">
+<p>Cowan, Nelson. 2010. “The Magical Mystery Four: How Is Working Memory Capacity Limited, and Why?” <em>Current Directions in Psychological Science</em> 19 (1): 51–57. <a href="https://doi.org/10.1177/0963721409359277" class="uri">https://doi.org/10.1177/0963721409359277</a>.</p>
+</div>
+<div id="ref-conwayWorkingMemorySpan2005">
+<p>Conway, Andrew R. A., Michael J. Kane, Michael F. Bunting, D. Zach Hambrick, Oliver Wilhelm, and Randall W. Engle. 2005. “Working Memory Span Tasks: A Methodological Review and User’s Guide.” <em>Psychonomic Bulletin &amp; Review</em> 12 (5): 769–86. <a href="https://doi.org/10.3758/BF03196772" class="uri">https://doi.org/10.3758/BF03196772</a>.</p>
+</div>
+<div id="ref-krumhanslCognitiveFoundationsMusical2001">
+<p>Krumhansl, Carol. 2001. <em>Cognitive Foundations of Musical Pitch</em>. Oxford University Press.</p>
+</div>
+<div id="ref-meyerEmotionMeaningMusic1956">
+<p>Meyer, Leonard. 1956. <em>Emotion and Meaning in Music</em>. Chicago: University of Chicago Press.</p>
+</div>
+<div id="ref-schenkerFreieSatz1935">
+<p>Schenker, Heinrich. 1935. <em>Der Freie Satz</em>. Vol. III. Universal Edition.</p>
+</div>
+<div id="ref-saffranStatisticalLearningTone1999">
+<p>Saffran, Jenny R, Elizabeth K Johnson, Richard N Aslin, and Elissa L Newport. 1999. “Statistical Learning of Tone Sequences by Human Infants and Adults.” <em>Cognition</em> 70 (1): 27–52. <a href="https://doi.org/10.1016/S0010-0277(98)00075-4" class="uri">https://doi.org/10.1016/S0010-0277(98)00075-4</a>.</p>
+</div>
+<div id="ref-talaminiMusiciansHaveBetter2017">
+<p>Talamini, Francesca, Gianmarco Altoè, Barbara Carretti, and Massimo Grassi. 2017. “Musicians Have Better Memory Than Nonmusicians: A Meta-Analysis.” Edited by Lutz Jäncke. <em>PLOS ONE</em> 12 (10): e0186773. <a href="https://doi.org/10.1371/journal.pone.0186773" class="uri">https://doi.org/10.1371/journal.pone.0186773</a>.</p>
+</div>
+<div id="ref-kopiezDynamicModelSkills2006">
+<p>Kopiez, Reinhard, and Ji Lee. 2006. “Towards a Dynamic Model of Skills Involved in Sight Reading Music.” <em>Music Education Research</em> 8 (1): 97–120. <a href="https://doi.org/10.1080/14613800600570785" class="uri">https://doi.org/10.1080/14613800600570785</a>.</p>
+</div>
+<div id="ref-kopiezGeneralModelSkills2008">
+<p>Kopiez, Reinhard, and Ji Lee. 2008. “Towards a General Model of Skills Involved in Sight Reading Music.” <em>Music Education Research</em> 10 (1): 41–62. <a href="https://doi.org/10.1080/14613800701871363" class="uri">https://doi.org/10.1080/14613800701871363</a>.</p>
+</div>
+<div id="ref-meinzDeliberatePracticeNecessary2010">
+<p>Meinz, Elizabeth J., and David Z. Hambrick. 2010. “Deliberate Practice Is Necessary but Not Sufficient to Explain Individual Differences in Piano Sight-Reading Skill: The Role of Working Memory Capacity.” <em>Psychological Science</em> 21 (7): 914–19. <a href="https://doi.org/10.1177/0956797610373933" class="uri">https://doi.org/10.1177/0956797610373933</a>.</p>
+</div>
+<div id="ref-nicholsScoreOneJazz2018">
+<p>Nichols, Bryan E., Clemens Wöllner, and Andrea R. Halpern. 2018a. “Score One for Jazz: Working Memory in Jazz and Classical Musicians.” <em>Psychomusicology: Music, Mind, and Brain</em> 28 (2): 101–7. <a href="https://doi.org/10.1037/pmu0000211" class="uri">https://doi.org/10.1037/pmu0000211</a>.</p>
+</div>
+<div id="ref-engleWorkingMemoryCapacity2002">
+<p>Engle, Randall W. 2002. “Working Memory Capacity as Executive Attention.” <em>Current Directions in Psychological Science</em> 11 (1): 19–23. <a href="https://doi.org/10.1111/1467-8721.00160" class="uri">https://doi.org/10.1111/1467-8721.00160</a>.</p>
+</div>
+<div id="ref-colleyWorkingMemoryAuditory2018">
+<p>Colley, Ian D, Peter E Keller, and Andrea R Halpern. 2018. “Working Memory and Auditory Imagery Predict Sensorimotor Synchronisation with Expressively Timed Music.” <em>Quarterly Journal of Experimental Psychology</em> 71 (8): 1781–96. <a href="https://doi.org/10.1080/17470218.2017.1366531" class="uri">https://doi.org/10.1080/17470218.2017.1366531</a>.</p>
+</div>
+<div id="ref-mullensiefenInvestigatingImportanceSelftheories2015">
+<p>Müllensiefen, Daniel, Peter Harrison, Francesco Caprini, and Amy Fancourt. 2015. “Investigating the Importance of Self-Theories of Intelligence and Musicality for Students’ Academic and Musical Achievement.” <em>Frontiers in Psychology</em> 6 (November). <a href="https://doi.org/10.3389/fpsyg.2015.01702" class="uri">https://doi.org/10.3389/fpsyg.2015.01702</a>.</p>
+</div>
+<div id="ref-schellenbergMusicNonmusicalAbilities2017">
+<p>Schellenberg, E Glenn. 2017. “Music and Nonmusical Abilities,” 17.</p>
+</div>
+<div id="ref-corrigallMusicTrainingCognition2013">
+<p>Corrigall, Kathleen A., E. Glenn Schellenberg, and Nicole M. Misura. 2013a. “Music Training, Cognition, and Personality.” <em>Frontiers in Psychology</em> 4. <a href="https://doi.org/10.3389/fpsyg.2013.00222" class="uri">https://doi.org/10.3389/fpsyg.2013.00222</a>.</p>
+</div>
+<div id="ref-corrigallMusicTrainingCognition2013a">
+<p>Corrigall, Kathleen A., E. Glenn Schellenberg, and Nicole M. Misura. 2013a. “Music Training, Cognition, and Personality.” <em>Frontiers in Psychology</em> 4. <a href="https://doi.org/10.3389/fpsyg.2013.00222" class="uri">https://doi.org/10.3389/fpsyg.2013.00222</a>.</p> 2013b. “Music Training, Cognition, and Personality.” <em>Frontiers in Psychology</em> 4. <a href="https://doi.org/10.3389/fpsyg.2013.00222" class="uri">https://doi.org/10.3389/fpsyg.2013.00222</a>.</p>
+</div>
+<div id="ref-swaminathanRevisitingAssociationMusic2017">
+<p>Swaminathan, Swathi, E. Glenn Schellenberg, and Safia Khalil. 2017. “Revisiting the Association Between Music Lessons and Intelligence: Training Effects or Music Aptitude?” <em>Intelligence</em> 62 (May): 119–24. <a href="https://doi.org/10.1016/j.intell.2017.03.005" class="uri">https://doi.org/10.1016/j.intell.2017.03.005</a>.</p>
+</div>
+<div id="ref-ericssonRoleDeliberatePractice1993">
+<p>Ericsson, K Anders, Ralf Th Krampe, and Clemens Tesch-Romer. 1993. “The Role of Deliberate Practice in the Acquisition of Expert Performance.”</p>
+</div>
+<div id="ref-furbyEffectsPeerTutoring2016">
+<p>Furby, Victoria J. 2016. “The Effects of Peer Tutoring on the Aural Skills Performance of Undergraduate Music Majors.” <em>Update: Applications of Research in Music Education</em> 34 (3): 33–39. <a href="https://doi.org/10.1177/8755123314556547" class="uri">https://doi.org/10.1177/8755123314556547</a>.</p>
+</div>
+<div id="ref-harrisonEffectsMusicalAptitude1994">
+<p>Harrison, Carole S., Edward P. Asmus, and Richard T. Serpe. 1994. “Effects of Musical Aptitude, Academic Ability, Music Experience, and Motivation on Aural Skills.” <em>Journal of Research in Music Education</em> 42 (2): 131. <a href="https://doi.org/10.2307/3345497" class="uri">https://doi.org/10.2307/3345497</a>.</p>
+</div>
+<div id="ref-wrightInvestigatingAuralCase2016">
+<p>Wright, Colin Richard. 2016. “Investigating Aural: A Case Study of Its Relationship to Degree Success and Its Understanding by University Music Students.” University of Hull.</p>
+</div>
+<div id="ref-bantonRoleVisualAuditory1995">
+<p>Banton, Louise. 1995. “The Role of Visual and Auditory Feedback During Sight-Reading of Music.” <em>Psychology of Music</em> 23 (1): 3–16.</p>
+</div>
+<div id="ref-blandSightSingingMelodic1984">
+<p>Bland, Leland. 1984. <em>Sight Singing Through Melodic Analysis: A Guide to the Study of Sight Singing and an Aid to Ear Training Instruction</em>. Scarecrow Press.</p>
+</div>
+<div id="ref-rootMethodicalSightSingingLessons1931">
+<p>Root, Frederick. 1931. <em>Methodical Sight-Singing: Lessons in Vocal Culture</em>. Bryn Mawr, Pennsylvania: Theodore Presser Co.</p>
+</div>
+<div id="ref-fournierCognitiveStrategiesSightsinging2017a">
+<p>Fournier, Guillaume, Maria Teresa Moreno Sala, Francis Dubé, and Susan O’Neill. 2017. “Cognitive Strategies in Sight-Singing: The Development of an Inventory for Aural Skills Pedagogy.” <em>Psychology of Music</em>, December, 030573561774514. <a href="https://doi.org/10.1177/0305735617745149" class="uri">https://doi.org/10.1177/0305735617745149</a>.</p>
+</div>
+<div id="ref-cambouropoulosHowSimilarSimilar2009">
+<p>Cambouropoulos, Emilios. 2009. “How Similar Is Similar?” <em>Musicae Scientiae</em> 13 (1_suppl): 7–24. <a href="https://doi.org/10.1177/102986490901300102" class="uri">https://doi.org/10.1177/102986490901300102</a>.</p>
+</div>
+<div id="ref-wigginsModelsMusicalSimilarity2007">
+<p>Wiggins, Geraint A. 2007. “Models of Musical Similarity.” <em>Musicae Scientiae</em> 11 (1_suppl): 315–38. <a href="https://doi.org/10.1177/102986490701100112" class="uri">https://doi.org/10.1177/102986490701100112</a>.</p>
+</div>
+<div id="ref-narmourAnalysisCognitionBasic1990">
+<p>Narmour, Eugene. 1990. <em>The Analysis and Cognition of Basic Melodic Structures: The Implication-Realization Model.</em> Chicago: University of Chicago Press.</p>
+</div>
+<div id="ref-narmourAnalysisCognitionMelodic1992">
+<p>Narmour, Eugene. 1992. <em>The Analysis and Cognition of Melodic Complexity: The Implication-Realization Model</em>. University of Chicago Press.</p>
+</div>
+<div id="ref-schellenbergSimplifyingImplicationRealizationModel1997">
+<p>Schellenberg, E. Glenn. 1997. “Simplifying the Implication-Realization Model of Melodic Expectancy.” <em>Music Perception: An Interdisciplinary Journal</em> 14 (3): 295–318. <a href="https://doi.org/10.2307/40285723" class="uri">https://doi.org/10.2307/40285723</a>.</p>
+</div>
+<div id="ref-margulisModelMelodicExpectation2005">
+<p>Margulis, Elizabeth Hellmuth. 2005. “A Model of Melodic Expectation.” <em>Music Perception: An Interdisciplinary Journal</em> 22 (4): 663–714. <a href="https://doi.org/10.1525/mp.2005.22.4.663" class="uri">https://doi.org/10.1525/mp.2005.22.4.663</a>.</p>
+</div>
+<div id="ref-huronSweetAnticipation2006">
+<p>Huron, David. 2006. <em>Sweet Anticipation</em>. MIT Press.</p>
+</div>
+<div id="ref-ortmannTonalDeterminantsMelodic1933">
+<p>Ortmann, Otto. 1933. “Some Tonal Determinants of Melodic Memory.” <em>Journal of Educational Psychology</em> 24 (6): 454–67. <a href="https://doi.org/10.1037/h0075218" class="uri">https://doi.org/10.1037/h0075218</a>.</p>
+</div>
+<div id="ref-longRelationshipsPitchMemory1977">
+<p>Long, Peggy A. 1977. “Relationships Between Pitch Memory in Short Melodies and Selected Factors.” <em>Journal of Research in Music Education</em> 25 (4): 272–82. <a href="https://doi.org/10.2307/3345268" class="uri">https://doi.org/10.2307/3345268</a>.</p>
+</div>
+<div id="ref-norrisRelationshipSightSinging2003">
+<p>Norris, Charles. 2003. “The Relationship Between Sight Singing Achievement and Melodic Dictation Achievement.” <em>Contributions to Music Education</em> 30 (1): 39–53.</p>
+</div>
+<div id="ref-pfordresherPoorPitchSingingAbsence2007">
+<p>Pfordresher, Peter Q., and Steven Brown. 2007. “Poor-Pitch Singing in the Absence of &quot;Tone Deafness&quot;.” <em>Music Perception: An Interdisciplinary Journal</em> 25 (2): 95–115. <a href="https://doi.org/10.1525/mp.2007.25.2.95" class="uri">https://doi.org/10.1525/mp.2007.25.2.95</a>.</p>
+</div>
+<div id="ref-hofstetterComputerBaesedRecognitionPerceptual1981">
+<p>Hofstetter, Fred T. 1981. “Computer-Baesed Recognition of Perceptual Patterns and Learning Styles in Rhythmic Dictation Exercises.” <em>Journal of Research in Music Education</em> 29 (4): 265–77. <a href="https://doi.org/10.2307/3345003" class="uri">https://doi.org/10.2307/3345003</a>.</p>
+</div>
+<div id="ref-pembrookInterferenceTranscriptionProcess1986">
+<p>Pembrook, Randall G. 1986. “Interference of the Transcription Process and Other Selected Variables on Perception and Memory During Melodic Dictation.” <em>Journal of Research in Music Education</em> 34 (4): 238. <a href="https://doi.org/10.2307/3345259" class="uri">https://doi.org/10.2307/3345259</a>.</p>
+</div>
+<div id="ref-schellenbergEffectTonalRhythmicContext1985">
+<p>Schellenberg, Stephen, and Randall S. Moore. 1985. “The Effect of Tonal-Rhythmic Context on Short-Term Memory of Rhythmic and Melodic Sequences.” <em>Bulletin of the Council for Research in Music Education</em>, no. 85: 207–17.</p>
+</div>
+<div id="ref-ouraConstructingRepresentationMelody1991a">
+<p>Oura, Yoko. 1991. “Constructing a Representation of a Melody: Transforming Melodic Segments into Reduced Pitch Patterns Operated on by Modifiers.” <em>Music Perception: An Interdisciplinary Journal</em> 9 (2): 251–65. <a href="https://doi.org/10.2307/40285531" class="uri">https://doi.org/10.2307/40285531</a>.</p>
+</div>
+<div id="ref-paneyTeachingMelodicDictation2014">
+<p>Paney, Andrew S., and Nathan O. Buonviri. 2014. “Teaching Melodic Dictation in Advanced Placement Music Theory.” <em>Journal of Research in Music Education</em> 61 (4): 396–414. <a href="https://doi.org/10.1177/0022429413508411" class="uri">https://doi.org/10.1177/0022429413508411</a>.</p>
+</div>
+<div id="ref-gillespieMelodicDictationScoring2001">
+<p>Gillespie, Jeffrey L. 2001. “Melodic Dictation Scoring Methods: An Exploratory Study.” <em>Journal for Music Theory Pedagogy</em> 15.</p>
+</div>
+<div id="ref-pembrookSendHelpAural1990">
+<p>Pembrook, Randall G., and H. Lee Riggins. 1990. “&quot;Send Help!&quot;: Aural Skills Instruction in U.S. Colleges and Universities.” <em>Journal of Music Theory Pedagogy</em> 4 (1): 230–41.</p>
+</div>
+<div id="ref-dooleyAbsolutePitchCorrelates2010">
+<p>Dooley, Kevin, and Diana Deutsch. 2010. “Absolute Pitch Correlates with High Performance on Musical Dictation.” <em>The Journal of the Acoustical Society of America</em> 128 (2): 890–93. <a href="https://doi.org/10.1121/1.3458848" class="uri">https://doi.org/10.1121/1.3458848</a>.</p>
+</div>
+<div id="ref-buonviriEffectsMusicNotation2015">
+<p>Buonviri, Nathan. 2015. “Effects of Music Notation Reinforcement on Aural Memory for Melodies.” <em>International Journal of Music Education</em> 33 (4): 442–50. <a href="https://doi.org/10.1177/0255761415582345" class="uri">https://doi.org/10.1177/0255761415582345</a>.</p>
+</div>
+<div id="ref-buonviriMelodicDictationInstruction2015">
+<p>Buonviri, Nathan O, and Andrew S Paney. 2015. “Melodic Dictation Instruction.” <em>Journal of Research in Music Education</em> 62 (2): 224–37.</p>
+</div>
+<div id="ref-buonviriEffectsPreparatorySinging2015">
+<p>Buonviri, Nathan O. 2015. “Effects of a Preparatory Singing Pattern on Melodic Dictation Success.” <em>Journal of Research in Music Education</em> 63 (1): 102–13. <a href="https://doi.org/10.1177/0022429415570754" class="uri">https://doi.org/10.1177/0022429415570754</a>.</p>
+</div>
+<div id="ref-buonviriEffectsTwoListening2017">
+<p>Buonviri, Nathan O. 2017. “Effects of Two Listening Strategies for Melodic Dictation.” <em>Journal of Research in Music Education</em> 65 (3): 347–59. <a href="https://doi.org/10.1177/0022429417728925" class="uri">https://doi.org/10.1177/0022429417728925</a>.</p>
+</div>
+<div id="ref-huronHumdrumToolkitReference1994">
+<p>Huron, David. 1994. “The Humdrum Toolkit: Reference Manual.” Center for Computer Assisted Research in the Humanities.</p>
+</div>
+<div id="ref-cuthbertMusic21ToolkitComputerAided2010">
+<p>Cuthbert, Michael Scott, and Christopher Ariza. 2010. “Music21: A Toolkit for Computer-Aided Musicology and Symbolic Music Data,” 7.</p>
+</div>
+<div id="ref-huronMelodicArchWestern1996">
+<p>Huron, David. 1996. “The Melodic Arch in Western Folk Songs.” <em>Computing in Musicology</em> 10: 3–23.</p>
+</div>
+<div id="ref-schaffrathEssenFolkSong1995">
+<p>Schaffrath, Helmuth. 1995. “The Essen Folk Song Collection, D. Huron.”</p>
+</div>
+<div id="ref-mullensiefenFantasticFeatureANalysis2009">
+<p>Mullensiefen, Daniel. 2009. “Fantastic: Feature ANalysis Technology Accessing STatistics (in a Corpus): Technical Report V1.5.”</p>
+</div>
+<div id="ref-mullensiefenCourtDecisionsMusic2009">
+<p>Müllensiefen, Daniel, and Marc Pendzich. 2009. “Court Decisions on Music Plagiarism and the Predictive Value of Similarity Algorithms.” <em>Musicae Scientiae</em> 48: 257–95.</p>
+</div>
+<div id="ref-kopiezAufSucheNach2011">
+<p>Kopiez, Reinhard, and Daniel Mullensiefen. 2011. “Auf Der Suche Nach Den ‘Popularitätsfaktoren’ in Den Song-Melodien Des Beatles-Albums Revolver: Eine Computergestützte Feature-Analyse [in Search of Features Explaining the Popularity of the Tunes from the Beatles Album Revolver: A Computer-Assisted Feature Analysis].” <em>Musik Und Popularitat. Beitrage Zu Einer Kulturgeschichte Zwischen</em>, 207–25.</p>
+</div>
+<div id="ref-mullensiefenRoleFeaturesContext2014">
+<p>Müllensiefen, Daniel, and Andrea R. Halpern. 2014. “The Role of Features and Context in Recognition of Novel Melodies.” <em>Music Perception: An Interdisciplinary Journal</em> 31 (5): 418–35. <a href="https://doi.org/10.1525/mp.2014.31.5.418" class="uri">https://doi.org/10.1525/mp.2014.31.5.418</a>.</p>
+</div>
+<div id="ref-jakubowskiDissectingEarwormMelodic2017">
+<p>Jakubowski, Kelly, Sebastian Finkel, Lauren Stewart, and Daniel Müllensiefen. 2017. “Dissecting an Earworm: Melodic Features and Song Popularity Predict Involuntary Musical Imagery.” <em>Journal of Aesthetics, Creativity, and the Arts</em> 11 (2): 112–35.</p>
+</div>
+<div id="ref-williamsonEarwormsThreeAngles2012">
+<p>Williamson, Victoria J, and Daniel Müllensiefen. 2012. “Earworms from Three Angles: Situational Antecedents, Personality Predisposition and the Quest for a Musical Formula.” <em>Proceedings from the 12th International Conference on Music Perception and Cognition</em>, 1124–32.</p>
+</div>
+<div id="ref-balenCorpusAnalyisTools2015">
+<p>Balen, Jan Van, John Ashley Burgoyne, and Dimitrios Bountouridis. 2015. “Corpus Analyis Tools for Computational Hook Discovery.” <em>Proceedings of International Society for Music Information Retrevial 15</em>.</p>
+</div>
+<div id="ref-bakerPerceptionLeitmotivesRichard2017">
+<p>Baker, David J., and Daniel Müllensiefen. 2017. “Perception of Leitmotives in Richard Wagner’s Der Ring Des Nibelungen.” <em>Frontiers in Psychology</em> 8 (May). <a href="https://doi.org/10.3389/fpsyg.2017.00662" class="uri">https://doi.org/10.3389/fpsyg.2017.00662</a>.</p>
+</div>
+<div id="ref-harrisonModellingMelodicDiscrimination2016">
+<p>Harrison, Peter M.C., Jason Jiří Musil, and Daniel Müllensiefen. 2016. “Modelling Melodic Discrimination Tests: Descriptive and Explanatory Approaches.” <em>Journal of New Music Research</em> 45 (3): 265–80. <a href="https://doi.org/10.1080/09298215.2016.1197953" class="uri">https://doi.org/10.1080/09298215.2016.1197953</a>.</p>
+</div>
+<div id="ref-rainsfordMUSOSMUsicSOftware2018">
+<p>Rainsford, M., M. A. Palmer, and G. Paine. 2018. “The MUSOS (MUsic SOftware System) Toolkit: A Computer-Based, Open Source Application for Testing Memory for Melodies.” <em>Behavior Research Methods</em> 50 (2): 684–702. <a href="https://doi.org/10.3758/s13428-017-0894-6" class="uri">https://doi.org/10.3758/s13428-017-0894-6</a>.</p>
+</div>
+<div id="ref-pearceAuditoryExpectationInformation2012a">
+<p>Pearce, Marcus T., and Geraint A. Wiggins. 2012a. “Auditory Expectation: The Information Dynamics of Music Perception and Cognition.” <em>Topics in Cognitive Science</em> 4 (4): 625–52. <a href="https://doi.org/10.1111/j.1756-8765.2012.01214.x" class="uri">https://doi.org/10.1111/j.1756-8765.2012.01214.x</a>.</p> 2012b. “Auditory Expectation: The Information Dynamics of Music Perception and Cognition.” <em>Topics in Cognitive Science</em> 4 (4): 625–52. <a href="https://doi.org/10.1111/j.1756-8765.2012.01214.x" class="uri">https://doi.org/10.1111/j.1756-8765.2012.01214.x</a>.</p>
+</div>
+<div id="ref-levitinWhatDoesIt2012">
+<p>Levitin, Daniel J. 2012. “What Does It Mean to Be Musical?” <em>Neuron</em> 73 (4): 633–37. <a href="https://doi.org/10.1016/j.neuron.2012.01.017" class="uri">https://doi.org/10.1016/j.neuron.2012.01.017</a>.</p>
+</div>
+<div id="ref-peretzModularityMusicProcessing2003">
+<p>Peretz, Isabelle, and Max Coltheart. 2003. “Modularity of Music Processing.” <em>Nature Neuroscience</em> 6 (7): 688–91. <a href="https://doi.org/10.1038/nn1083" class="uri">https://doi.org/10.1038/nn1083</a>.</p>
+</div>
+<div id="ref-hansenWorkingMemoryMusical2013">
+<p>Hansen, Mads, Mikkel Wallentin, and Peter Vuust. 2013. “Working Memory and Musical Competence of Musicians and Non-Musicians.” <em>Psychology of Music</em> 41 (6): 779–93. <a href="https://doi.org/10.1177/0305735612452186" class="uri">https://doi.org/10.1177/0305735612452186</a>.</p>
+</div>
+<div id="ref-dowlingTonalStrengthMelody1991">
+<p>Dowling, W. 1991. “Tonal Strength and Melody Recognition After Long and Short Delays.” <em>Perception &amp; Psychophysics</em> 50 (4): 305–13. <a href="https://doi.org/10.3758/BF03212222" class="uri">https://doi.org/10.3758/BF03212222</a>.</p>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="3">
+<li id="fn3"><p>In his highly influential book <em>Aural Skills Acquisition: The Development of Listening, Reading, and Performing Skills in College-Level Musicians</em>, <span class="citation">Karpinski (<a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span> documents this sentiment in music pedagogy circles by highlighting poetic adages from Romantic composer Robert Schumann in the mid 19th century through 21st century music educator Charles Elliott in the opening of his book, thus providing concrete examples of the belief that improving one’s aural skills, or <em>ear</em>, is a highly sought after advanced skill.<a href="intro.html#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>Yes I know this is an awful metaphor and I will change it eventually<a href="intro.html#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn5"><p>This four stage process sythesizes earlier research where in Karpinski 1990 he notes two other models of melodic dictation, one from Rogers where he says there are 2 processes, another from Thomas who says there are 15<a href="intro.html#fnref5" class="footnote-back">↩</a></p></li>
+<li id="fn6"><p>And in his Figure 3.1 he does caption it as an <em>idealized</em> dictation process<a href="intro.html#fnref6" class="footnote-back">↩</a></p></li>
+<li id="fn7"><p>Could footnote this interaction and talk about how AP people generally need to have genetic predisposition, fixed pitch instrumetn in house, and start at early age CITATION FOR THAT?<a href="intro.html#fnref7" class="footnote-back">↩</a></p></li>
+<li id="fn8"><p>DO I CITE THINGS HERE LIKE THAT WORK OF NANCY ROGERS, LEIGH VAN HANDLE, THE UTAH GUY, GARY KARPINSKIS ICMPC, THE FORM AT SMPC<a href="intro.html#fnref8" class="footnote-back">↩</a></p></li>
+<li id="fn9"><p>divide mental age by chronological age then multiply by 100<a href="intro.html#fnref9" class="footnote-back">↩</a></p></li>
+<li id="fn10"><p>This whole section sucks<a href="intro.html#fnref10" class="footnote-back">↩</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="individual-differences.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/01-theoretical-bkgrd-rationale.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["mmd-draft-djb.pdf", "mmd-draft-djb.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

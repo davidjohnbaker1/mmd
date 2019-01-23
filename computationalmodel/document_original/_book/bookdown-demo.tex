@@ -1,0 +1,2400 @@
+\documentclass[]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Modeling Melodic Dictation},
+            pdfauthor={David John Baker},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{Modeling Melodic Dictation}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \author{David John Baker}
+  \preauthor{\centering\large\emph}
+  \postauthor{\par}
+  \predate{\centering\large\emph}
+  \postdate{\par}
+  \date{2018-09-13}
+
+\usepackage{booktabs}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{corollary}{Corollary}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\theoremstyle{definition}
+\newtheorem{example}{Example}[chapter]
+\theoremstyle{definition}
+\newtheorem{exercise}{Exercise}[chapter]
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{solution}{Solution}
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{significance-of-the-study}{%
+\chapter{Significance of the Study}\label{significance-of-the-study}}
+
+All students pursing a Bachelor's degree in Music from universities
+accredited by the National Association of Schools of Music must learn to
+take melodic dictation \citep[ Section
+VIII.6.B.2.A]{NationalAssociationSchools2018}. Melodic dictation is a
+cognitively demanding process that requires students to listen to a
+melody, retain it in memory, and then use their knowledge of Western
+musical notation in order to recreate the mental image of the melody on
+paper in a limited time frame. As of 2018 there are 647 Schools of Music
+belonging to National Association of Schools of Music (NASM) CITE
+WEBSITE, meaning that hundereds of students every year will be expected
+to learn this challenging task as part of their Aural Skills education.
+The logic being that as one improves in their abiliy to take melodic
+dictation, this practice of critical and active listening develops as a
+means to improve one's ability to ``think in music'' and thus become a
+more compotent musician. While learning Aural Skills has been a hallmark
+of being educated within the Western conservatory tradition, the
+rationale behind both the how and why of aural skills is often thought
+of as being esoteric. Throughout the past century, people have disagreed
+on exactly how one does go about learning a melody with different areas
+of research each attacking the problem from a different angle.
+
+Despite its ubiqiquity in curricula within School of Music settings,
+research on topics pertain to how aural skills are acquired is limited
+at best. {[}Citations here about the cosntant calls butler, klondoski,
+pembrook{]} The fields of music theory and cognitive psychology are best
+positioned to make progress on this question, but often the skills
+required to be well versed ein ither of these subjects are disparate,
+published in other journals, and the research with overlap is scarce.
+This problem is not new and there have been repeated attempts to bridge
+the gap between practioners of aural skills and people in cognitive
+psycholgy CITES. Literature from music theory has establisehd conceptual
+frameworks regarding aural skills
+\citet{karpinskiAuralSkillsAcquisition2000} and the relavint cognitive
+psychology literature has explored factors that might contribute to
+melodic perception (SCHMUKLER SYNERR 2016 2016), and there exists
+applied literature from the world of music education (CITES).
+
+However, despite these siloed areas of research, we as music researchers
+do not have an a concrete understanding of exaclty what contributes to
+HOW individuals learn melodies (HALPERNBARLETT2010). This is peculiar
+since ``how does one learn a melody'' seems to be one of the fundamental
+questions to the fields of music theory, music psychology, as well as
+music education. Given this lack of understanding, it becomes even more
+peculiar that this lack of convergence of evidence is then unable to
+provide a solid baseline as to what student in their aural skills
+classrooms can be expected to do. (Also something about we should really
+know this if we are going to grade people on this ability). While no
+single dissertation can solve any problem completely, this dissertation
+aims to fill the gap in the literature between aural skills
+practitioners (theorists and educators) and music psychologists in order
+to reach conclusion that can be applied systematically in pedagogical
+contexts. In order to do this I draw both literatures (music and
+science) in order to demonstrate how tools from both cognitive
+psychology as well as computational musicology can help move both fields
+forward. Some line here about if we really want to understand what is
+happening we need to know about causal factors going on here and have
+experimental manipulation and things like making models of the whole
+thing or talk about what Judea Pearl thinks about the ability to do some
+sort of causal modeling with diagrams. Great to rely on some sort of
+anecdoatal evidence, but if we are going to put things on the line with
+our education then we need to be able to make some sort of falsifiable
+claims about what we are doing. Can only do that through the lens of
+science.
+
+\hypertarget{claims-about-need-to-join-the-worlds-of-theory-and-pedagogy}{%
+\section{Claims about need to join the worlds of theory and
+pedagogy}\label{claims-about-need-to-join-the-worlds-of-theory-and-pedagogy}}
+
+\begin{itemize}
+\tightlist
+\item
+  \citep{davidbutlerWhyGulfMusic1997a}
+\item
+  \citep{klonoskiPerceptualLearningHierarchy2000} - perceptual
+  hierarchy, not enough info from aural skills training
+\item
+  \citep{karpinskiAuralSkillsAcquisition2000} - ``There is indeed a gap
+  between the disciples of music cognition and aural skills training'',
+  GK says that one of his goals is to bridge that gap, and he does.
+\end{itemize}
+
+\hypertarget{chapter-overview}{%
+\section{Chapter Overview}\label{chapter-overview}}
+
+In this first chapter, I introduce the process of melodic dictation and
+discuss factors that would presumably could play a role in taking
+melodic dictation. The chapter introduces both a theoretical backgorund
+and rationale for using method form both computational musicology and
+congitive psychology in order ot answr quesitona bout how individuals
+learn melodies. I argue that tools for understanding this best because
+as we currently understand it, I see us operating in a Kuhnian normal
+science where much can be learned by just using the tools in front of
+us. This chapter will clearly outline the factors hypothesized to
+contribute to an individual's abilit to learn melodies, incorporating
+both individual and musical parameters. The chapter ends with a
+discussion some of the philosophical/theoretical problems with
+attempting to measure thigns like this (is it just a party trick?) and
+establishes that I will be taking a more polymorphic view of
+musicianship in order to answer this question.
+
+The second chapter of my dissertation focuses on the history and current
+state of aural skills pedagogy.
+
+Tracing back its origins to the practical need to teach musical skills
+back with Guido d'Arezzo, I compare and contrast the different
+methodological approaches that have been used, along with their goals.
+
+The third chapter discusses previous work that examines individual
+factors thought to contribute to one's ability to perform an aural
+skills task, and it will discuss results from an experiment contributing
+to a discussion of how individual differences could contribute to how a
+person learns melodies.
+
+Turning away from individual differences and focusing on musical
+features, in the fourth chapter I plan to discuss how music researchers
+can use tools from computational musicology as predictive features of
+melodies. Inspired by work from computational linguistics and
+information theory, recent work in computational musicology has
+developed software capable of abstracting features thought to be
+important to learning melodies, such as note density and `tonalness'
+(Müllensiefen, 2009). Talk a bit about how this has been also looked at
+before in the music education community.
+
+While these features have been used in large scale, exploratory studies,
+work in this chapter will discuss how these features could be used in
+controlled, experimental studies as a stand-in for the intuition many
+music pedagogues have when determining difficulty of a melody in a
+classroom setting.
+
+In my fifth chapter, I introduce a novel corpus of over 600 digitized
+melodies encoded in a queryable format. This dataset will also serve as
+a valuable resource for future researchers in music, psychology, and the
+digital humanities. This chapter begins with a discussion of the history
+of corpus studies, noting their origin outside of music, their current
+state in music, and their limitations. This chapter, encapsulating the
+encoding process, the sampling criteria, and the situation of corpus
+methodologies within the broader research area, will go over summary
+data and also talk about how it could be used to generate hypotheses for
+future experiemnts (n-gram stuff based on patterns) .
+
+Lastly, in the final chapter, I will synthesize the previous research in
+a series of melodic dictation experiments. Stimuli for the experiments
+are selected based on the abstracted features of the melodies and are
+manipulated as independent variables based on the previous theoretical
+literature. I then model responses from the experiments using both
+individual factors and musical features in order to predict how well an
+individual performs in behavioral tasks similar to some of my previously
+published research (Baker \& Müllensiefen, 2017). Here I also note
+important caveats in scoring melodic dictation, referencing some other
+of my own work on using metrics, such as edit distance (Baker \&
+Shanahan, 2018), to discuss similarities between the correct answer and
+an individual's attempts at dictation. Results from the final chapter
+will be discussed with reference to how findings are applicable to
+pedagoges in aural skills settings. Recommendations will be made
+building on current conceptual frameworks (Karpinski, 2000).
+
+\hypertarget{intro}{%
+\chapter{Theoretical Background and Rationale}\label{intro}}
+
+\hypertarget{what-is-melodic-dictation-and-why}{%
+\section{What is melodic dictation? and
+Why?}\label{what-is-melodic-dictation-and-why}}
+
+Melodic dictation is the process in which an individual is able to hear
+a melody, retain it in memory, and then use their knowledge of Western
+musical notation to recreate the mental image of the melody on paper in
+a limited time frame. For many, becoming profiecent at this task is at
+the core of developing one's aural skills. Presumably the reason that
+melodic dictation is so highly valued in music pedagogical circles is
+because that time spent learning to do this highly complex set of mental
+gymnastics results in increases in near transfer abilities\footnote{since
+  at no point after being in an Aural Skills setting would some one
+  require one to write down a melody on paper within a limited time
+  frame.} that are of great benefit to the student once they leave the
+classroom. Melodic dictation is only one of many skills that are taught
+and assesed in Schools of Music and this skill is normally taught in the
+context of an Aural Skills class. On a poetic level, the idea of aural
+skills class is to be able to make one's ear better, and this is kind of
+rationale has existed in music circles for at least the past 150 years.
+
+In his highly influenctial book \emph{Aural Skills Acquisition: The
+Development of Listening, Reading, and Performing Skills in
+College-Level Musicians}, Gary
+\citet{karpinskiAuralSkillsAcquisition2000} documents this deeply held
+belief in music pedagogy circles by listing poetic adages from romantic
+composer Robert Schumann in the mid 19th century through music educator
+Charles Elliott in the opening of his text, thus providing concrete
+examples of this belief that perfecting one's aural skills, or
+\emph{ear}, more colloquially, is a highly sought after advanced skill.
+After documenting many of of these, he asserts that the goal of
+improving one's ear is to escape from thinking about music to thinking
+in music.
+
+A lot of the reasons that I think we do this are introspective and
+anecdotal, but the thing is this is ubiquitous. There, as this
+literature review will show, is not a lot of great emperical evidence
+looking directly at melodic dictation, so then to claim that there are
+huge transfers to be gained from learning how to do it would be
+underwhelming. More recently people have noted that the rationale for
+why we teach this probably deserves more critique with researchers like
+Klonoski raising important questions like ``What specific deficiency is
+revelaned with an incorrect reponse in melodic dictaiton settings?''
+\citep{klonoskiImprovingDictationAuralSkills2006} and even earlier
+researchers like Potter being baffled by the fact that many musicians do
+no actually keep up with their melodic dictation abilities after the
+classs ends POTTER QUOTE. Even a simple thought experiment using the old
+double dissicoation thign that htey love in neuroscience where you could
+imagine both situations where someone was probably a very good musician,
+but not that great at melodic dictation, or the converse where someone
+might be very good at melodic dictation, but is not that good of a
+musician (whatever that means) would indicate that there is probably not
+that strong of a casusal link between dictation abilities as measured by
+grades in an aural skills class and the infinite possiblities of musical
+activities that are even possible.
+
+This is a pretty grim introduction, but want to leave no dark elephant
+in the closet. Rationale for learning to do this is often tacit and
+assumed and passed down over time, and despite the above is still good.
+All that said, there have been people who have tried to put the argument
+for melodic dictation into more concerete terms. In her textbook
+\emph{Practical Ear Training} Janet McLoud McGaughy notes that
+
+\begin{quote}
+qualified musicians must develop reading, singing, and notational skills
+in order to achieve acuity of aural perception and to make effective use
+of that acuity" (p.~i)."
+\end{quote}
+
+which makes the point that the development of ear training is about
+developing acuity in aural percepiton which then is then transfered over
+for other musical activity.
+
+UTAH MAN SAYS IT BEST WHEN HE SAYS
+
+UTAH MAN QUOTE
+
+Stuff about the truly aural skills.
+
+At a deeper level, when we are teaching aural skills, we are teaching
+people to be better listeners and given all of the possible things that
+we can look at with aural skills, melodic dictaiton is great because
+there is a lot of great literature from the world of music perception,
+less to worry about than harmonic dictation, and is ubiquitous probably
+because NASM requires people to have to learn how to do this to get a
+music degree from an accredited music school.
+
+Karpinski devotes an entire chapter to melodic dictation in his book,
+note that it's a focal point, addressed in the majority of aural skills
+textbooks, and because of this it starts out with a really good jumping
+off point because he has done a lot of the preliminary work./
+
+OK GOOD NOW I HAVE AT LEAST RATIONALIZED WHY
+
+In addition to his bifurcation of arual skills into Listening and
+Reading/Performing skills, Karpinski devotes an entire chapter to the
+study of melodic dictation, providing a verbal model for how he
+describes the component parts and process as a whole.
+
+\hypertarget{describe-process}{%
+\subsection{Describe process}\label{describe-process}}
+
+\begin{itemize}
+\tightlist
+\item
+  Need to talk about chunking
+\end{itemize}
+
+Karpinski's chapter on Aural Skills culminates in a flowchart, Figure
+3.1 in his textbook reporduced below, that schematizes how he believes
+the process to work.
+
+Upon listenign to a melody,
+
+\hypertarget{karpinski-schematic-of-it-as-verbal-model-problems}{%
+\subsection{Karpinski schematic of it (as verbal model,
+problems)}\label{karpinski-schematic-of-it-as-verbal-model-problems}}
+
+Karpinski's schmatization of melodic dictation can generally be
+conceptualized as process that consists of the following four steps:
+
+\begin{itemize}
+\tightlist
+\item
+  Hear
+\item
+  Remember
+\item
+  Understand
+\item
+  Notate
+\end{itemize}
+
+For Karpinski, most of the cognitive action happens in the understand
+process, which is the only subprocess that he groups into two differnt
+sub-processes: one foo understanding the temporal aspects of music
+(e.g.~pulse, meter, rhythmic proportions) and another for understand the
+pitch parameters (e.g.~tonci, scale degree of starting pitch, scale
+degree of subsequnt pitches). The process is looped over with every
+hearing, and Karpinski suggests that the listener will use some sort of
+chunking of melodies in order to hear the melody and to then notate it.
+
+\hypertarget{verbal-model-has-problems-ok-for-pedagogy}{%
+\subsubsection{Verbal model, has problems, OK for
+pedagogy}\label{verbal-model-has-problems-ok-for-pedagogy}}
+
+As a verbal model, Karpinski's model of dictation makes sense and breaks
+down a very complicated cognitive process into discrete, sequential
+steps. This model, whether or not Karpinski intented it to be an actual
+cognitive model, I don't know, assumes serial processing of information
+and does not specify any of the actual parameters for each of the steps.
+This model serves as a great stepping off point for this dissertation,
+and its good for me that he didn't actually specificy any of the actual
+parameters, he just said certain things happen and gave an approximate
+order of the whole thing. He talks about a lot of the parameters leading
+up to it all, Even talks about things like representation and other
+paramters that are going to influence it all. Did not attempt to pin
+down any of the exact parameters of his model, but this is just me
+wanting to forshadown Chapter 6 where I take each of these issues and
+implement them in a computational model. While covering many bases, one
+of the problems with using a verbal model as opposed to a computational
+one is that by not specificying exaclty what happens when and how
+everything is represented, the model can manifest itself in a multiude
+of different ways.
+
+Take for example the often cited model of working memory by Alan Baddely
+and Grahm Hitch which posits a modular view of workign memory capcacity
+\citep{baddeleyWorkingMemory1974}. As discussed in CITE, although the
+model only has X amount of distinctive systems, the fact that they left
+it to be a verbal model of memory, and did not tack down exactly how
+each parameter functions, when built as computational model actually
+ends up yielding 156 different models. While I will reseve discussing
+how many possible models might exists as derrived from the Karpinski for
+Chapter 6, it is suffice to say that clearly establishing the degree to
+which part of the model contributes in concrete way only helps with
+furthering the literature.
+
+\hypertarget{verbal-model-no-individual-differnces-tho-literture-to-suggest}{%
+\subsubsection{Verbal model, no individual differnces tho literture to
+suggest}\label{verbal-model-no-individual-differnces-tho-literture-to-suggest}}
+
+One thing that is lacking in the Karpinski model are any sort of
+individual differences. A wealth of literature from music perception and
+cognition suggests that musical training has effects on how people
+perform in musical tasks TRAIN OF CITATIONS HERE. Given the evidence
+that individual differences play a role here, there should be some sort
+of way of incorporating them into a model of melodic dictation.
+
+\hypertarget{computational-model-to-be-introduced}{%
+\subsubsection{Computational model to be
+introduced}\label{computational-model-to-be-introduced}}
+
+From an empirical standpoint, both the task as well as the process of
+melodic dictation as depicted by Karpinksi resemble something that can
+be turned into an experiment, as well as a computational model. This
+dissertation seeks to explore the degree to which methodologies from
+cognitive psychology and computational musicology are able to further
+this literature and take the next logical step in terms of understanding
+aural skills.
+
+\begin{itemize}
+\tightlist
+\item
+  Need to talk about extractive listening in the melodic dictation
+  process
+\item
+  Also need to talk about how if you look at melodic dictation as active
+  process\ldots{} helpfullllllll?
+\end{itemize}
+
+Find Karpinksi 1990 on his model \ldots{}\ldots{}
+
+Given work from Karpinksi, we know that the following factors play a
+role in this extractive listening process
+
+\begin{itemize}
+\item
+  Hearing -- actual playing of melody
+\item
+  Short Term Melodic Memory
+\item
+  Extractive Listening
+\item
+  Chunking
+\item
+  Meter and Rhythm
+\item
+  Rhythm Solimization and Understanding
+\item
+  Pitch -- representation and contour, solimization
+\item
+  Notation -- clealry need to know how it all works
+\item
+  Tempo
+\item
+  Length and Number of Playing
+\item
+  Duration between Playing
+\item
+  he puts forth chunking formula on page 99
+\item
+  is it OK to say that he leaves out difficulty of melody
+\item
+  is it OK to say that he leaves out individual differences
+\item
+  is rhthmic solimization just the same as LTM
+\end{itemize}
+
+\hypertarget{clearly-this-is-psychological-problem-with-different-item-level-difficulty}{%
+\subsection{Clearly this is psychological problem with different item
+level
+difficulty}\label{clearly-this-is-psychological-problem-with-different-item-level-difficulty}}
+
+When viewed from a pedagogical stand point, espcielaly given how litle
+time people have, it would basically be impossible to attend to each of
+these things in a gradient fashion in the standard 15 week semester that
+people have. When people teach this, need to rely very much on intuition
+and basically adjust to the level of your class and syllabus and
+whatever on the fly in order to convey the most amount of musical
+materials possible.
+
+Conversly, when viewed from an experimental standpoint, each of the
+above mentioned processes is bascially an experimental parameter waiting
+to be investigated. Additionally, the process that is put forth by
+KARPINSKI 1999 provides a stepping off point for positing some sort of
+comutational model. Going to add substatinally to it in that going to
+take into account both how difficulty the melodies are, something we
+have intiutive understanding of, but could be operationalized, and also
+going to try to model individual differences based on factors that prior
+literature would suggest are different in individuals and should be
+considered in any sort of modeling going forward. In addition to these
+above parameters discussed by Karpinski, now review other factors that
+could then contribute to this process.
+
+\hypertarget{individual-factors-to-contribute}{%
+\subsubsection{Individual Factors to
+contribute}\label{individual-factors-to-contribute}}
+
+From an individual stand point, can bifurcate factors broadly into
+\emph{cognitive factors}, or factors of people that are relatively
+consistent over people or basically like fixed effects things (use
+definiton of what is a fixed effect); and the other side of this would
+be things that would have to be delt with that change with training and
+exposure. Going to refer to this second set of things as
+\emph{Environmental} factors. Is there a better way to talk about this
+as nature vs nurture. Addiitonally need to then mention that there are
+of course epigenitic factors where both of these parameters might
+interact with one another. For example, might then imagine that someone
+with higher cognitive abilitty, lots of training that was put forward by
+their parents, as well as tons of musical training, and personality
+traits that are more likely to learn more (daniels paper on that) might
+be different in terms of resutls than someone with lower cognitive
+abilities, no training, low SES, and a general inclination not to even
+take music lessons. While obvious, what will eventually be of interest
+is the degree to which each of these things contributes to the final
+models. Also gives us a better idea about pedagogy and what not.
+
+\hypertarget{musical-factors-to-contribute}{%
+\subsubsection{Musical factors to
+contribute}\label{musical-factors-to-contribute}}
+
+In addition to differences at the individual level, there are also
+musical level characteristics. In this category it is also worth
+taxonimizing the musical characterstics into two categories as well. On
+one hand we have the structural aspects of the melody itself. These are
+aspects of the melody that would remain invariant when written down on a
+score. Reading from left to right, would be things like range, key, time
+signature, intervals, amount of notes, contour of the melody, tonal
+properties, standardized note density. Then the other side would be
+musical features that I am going to deem as experiemntal features of the
+melody. These are aspects of the structure of hte melody that you can
+then warp within the context of a melodic dictiation such as tempo,
+which then refelcts note density, timbral qualities, how many times the
+melody is played, the space between hearings. This is not a categorial
+divide, while I put something like range as key of the melody as
+structural, you could imagine that you could have hte same interval
+invariant structure of a melody , perhaps Twinkle, Twinkle little star
+begginging on C2 noteated in bass cleff, but then imagine the the same
+``melody'' being played two and a half octaves up on F\#4, and
+transposed to minor and played quicker leading ot a phenomenologically
+similar experience, but not the same. I taxonimze them early on, but
+again note that a model of this should be able withstand the multitude
+of patterns that exist.
+
+\hypertarget{make-a-model-of-them}{%
+\subsubsection{Make a Model of them}\label{make-a-model-of-them}}
+
+Given all of these factors that then go into the melodic dictaiton
+process, the remainder of this chapter will detail previous reserach
+that has gone into each of these factors. Talking about each one will
+provide rationale for why it should be further investigated if we are to
+better understand melodic dictation. Beginning with \emph{cognitive
+factors} two levels, then go on to talk about \emph{musical features}.
+After discussing both and their two subcompoents as I have taxonimzed
+them, offer a brief discussion on how it's bad to think about these as
+just latent abilities. Instead talk about thinking about modeling
+melodic dictaiton, in terms of ACTUAL MODELING, as polymorphic
+conceptualization of aural skills. This is important because how we talk
+about and model things reflects or values and often it will get in the
+way of stuff.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{message}\NormalTok{(}\StringTok{"Diagram"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Diagram
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# library(DiagrammeR)}
+\CommentTok{# }
+\CommentTok{# grViz("}
+\CommentTok{#      digraph boxes_and_circles \{}
+\CommentTok{# }
+\CommentTok{#   # a 'graph' statement}
+\CommentTok{#   graph [overlap = true, fontsize = 10]}
+\CommentTok{# }
+\CommentTok{#   # several 'node' statements}
+\CommentTok{#   node [shape = box,}
+\CommentTok{#         fontname = Helvetica]}
+\CommentTok{#   Individual ; Musical ; Cognitive ; Environmental ; Structural ; Experimental }
+\CommentTok{# }
+\CommentTok{#   node [shape = box] // sets as circles}
+\CommentTok{#   WMC; Gf; CowanList; Musical_Training; Aural_Training; }
+\CommentTok{#   Interval_Structure; Times_Played; Tempo; AuralSkills}
+\CommentTok{# }
+\CommentTok{#   # several 'edge' statements}
+\CommentTok{#   AuralSkills -> Individual}
+\CommentTok{#   AuralSkills -> Musical}
+\CommentTok{#   Individual -> Cognitive}
+\CommentTok{#   Individual -> Environmental}
+\CommentTok{#   Musical -> Structural}
+\CommentTok{#   Musical -> Experimental}
+\CommentTok{#   Cognitive -> WMC}
+\CommentTok{#   Cognitive -> Gf}
+\CommentTok{#   Cognitive -> CowanList}
+\CommentTok{#   Environmental -> Musical_Training}
+\CommentTok{#   Environmental -> Aural_Training}
+\CommentTok{#   Structural -> Interval_Structure }
+\CommentTok{#   Experimental -> Times_Played}
+\CommentTok{#   Experimental -> Tempo}
+\CommentTok{# \} }
+\CommentTok{#       }
+\CommentTok{#       ")}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{individual-factors}{%
+\section{Individual Factors}\label{individual-factors}}
+
+\hypertarget{cognitive}{%
+\subsection{Cognitive}\label{cognitive}}
+
+Research from the cognitive psychology literature suggests that
+individuals differ in their percetual and cognitive abilities in ways
+that are not easily influenced by short term-training (cite) and that
+these abilities, when investigated on a large scale are predictive of a
+wealth of human behavior from RICHIE CITATIONS. If literature exists
+that suggests that cognitive abilites are sucessful predictors of things
+related to something like academic achievement, it worth investigating
+the extent that these abilities might play when modeling melodic
+dictation. This is also important to understand because if we were to
+find out that something as simple as general fluid intelligence was a
+strong predictor in musical tasks that we are grading people on, it
+would be pretty unfair to do since we are then basiclly grading people
+on genetic factors beyond their control, as well as environmental
+factors shown to have some sort of effect on IQ (Richie paper again).
+Recenlty there has been a surge of interest in this area (nancy rogers,
+LVH, utah guy, karinkski icmpc, form at SMT) probably due to the fact
+that educators are picking up on the fact that cognitive abilities are
+powerful predictors and need to be understood since they ineveitably
+will play a role in pedagogical settings.
+
+Before diving into a discussion regarding differences in cognitive
+ability, I should note that sometimes ideas regarding differnces in
+cognitive ability been hostily recieved (citation against people talking
+about IQ) and for good reasons. Research in this area can and has been
+taken advantage to further dangerous ideologies (Bell Curve), but often
+arguments that assert meaningful differences in cognitiev abilites
+between groups are founed on statistical misunderstandings and have been
+debunked in other literature (measure of man). With that cleared out of
+the way, it is very hard to mantain a scientific commitment to the
+theory of evolution (Darwin) and not expect variation in all aspects of
+human behavior, with cognition falling within that umbrella.
+
+Attempting to measure aspects of cognition go back over a century. Even
+before concepts of intelligence were posited by Charles Spearman and his
+conception of \emph{g} (Spearman, 1904), scientists were intersted in
+finding links between an individual's mental abilities and some sort of
+physical manifestation. This area of research was pretty dark and kind
+of implicitly was all about validating preconceutalized ideas that
+people had on the superiority of peoples, with white dudes always comign
+out on top. For example, THIS GUY WHO TRIED TO QUANTIFY GREATNESS Also
+this guy who basically measured people's skull sizes. But of course this
+stuff is not meaningful at all, especially when the dependent variable
+in this was so subjective and constrained by a culture where one ruling
+people (white dudes) had all the power.
+
+I only mention this because this line of thinking was co-opted by the
+American herediterian school of IQ (page 187 in Gould), where people
+that were after the same sort of idea (superiority of white people)
+basically took ideas of Alfred Binet, one of the first people to begin
+to systematically investigate cognitive ability in children at request
+of the french governement so that children who were, what today we would
+call learning disabled, could be identified and given special attention.
+Binet also took a lot of inspiration from Broca, WHO I TALK ABOUT ABOVE
+ON SKULL SIZE.
+
+Bient was the initial developer of the idea of an intelligence quotient
+(divide mental age by chronological age then multiply by 100) and
+provided one of the first ways to attempt to measure something that was
+not capable of being manifested in the phsysical world. Around the same
+time have people like Cyrial Burt and Charles spearmean developing new
+theories of intelligence based on the reification factor analysis and
+calling it g that is based on solving problems without prior knowledge.
+
+sentence here about g and the postive manifold
+
+Of course took this aside to talk about that basiclaly Binet and
+Spearman's ideologies about what can be measusred still represent two of
+the largest schools of thought on ways to meausre cognitive ability. On
+one hand there idea that cognitive abilities are based upon a steady
+growth of incoming information that someone is able to manipulate once
+they retrieve from long term memory, the other hand is that in addition
+to that there is some sort of construct in the mind that differs between
+people that can singularly refelect their intelligence, often referred
+to as g.
+
+Basic assumption is that there is something in the brain here where
+differences will lead to different behaviors. Without detailing entire
+histories of this line of thought, Binet basically turned into an
+argument for general crystalized intelligence, or DEFINITINO HERE
+(citation). The Spearman, Burt strain of thought evolved into the
+\emph{g} school, and recent reserach has suggested that the concept of
+\emph{g} basically is statistcally equnivlient to idea conceptualized as
+general fluid intelligence (cite that in POT). Both of these constructs
+are powerful predictors on a large scale, but they don't explain the
+entire picture.
+
+Another large area in the field of cognitve psychology is the area of
+working memory capacity. As noted in Cowan 2005, what the term refers
+depends on the framework that is being used, but generally refers to the
+amount of information that can be acvtively held in concsionus
+representation, akin to short term memory, but with some important
+caveats discssed below. In additon to concepts of intelligence, be it Gf
+or Gc, the working memory capcity literature has done a lot of the heavy
+theoretical lifting, and after reviewing it we will have a much better
+idea of how once you decide about how you conceptualize it, then it's
+helpful.
+
+Given this brief background on cognitive ability, going to now dive
+deeper into both working memory capcity, as well as general fluid
+intelligence (avoid calling it \emph{g} for good reasons) and review
+literature where these have been discussed as they relate to research on
+music perception, thus being related to melodic dictation, a skill that
+you need to percieve music to be able to do?
+
+\hypertarget{working-memory-capacity}{%
+\subsection{Working Memory Capacity}\label{working-memory-capacity}}
+
+As noted by Berz 1994, tasks of melodic dictation are basically tasks of
+working memory.
+
+\begin{itemize}
+\tightlist
+\item
+  \citep{berzWorkingMemoryMusic1995}
+\end{itemize}
+
+Quoting from him directly
+
+\begin{quote}
+Here is his quote
+\end{quote}
+
+Clearly, would be worth understanding the concept at a deeper level
+since clealry they have done a lot of great work on the topic. Adoptiong
+chrnological take of the history of research the heavy hitters are *
+Attkinson and Shriff * Miller 1956 and why that is a bad idea * Baddely
+and Hitch * Nelson Cowan + need for complex span
+
+For reasons discussed on p 18 of cowan 2005 and page 42 , choose to
+adopot a Cowanian view where WMC is basically the window of attention.
+Additinally it's worth noting initially that you can't directly apply
+these frameworks to memory for musical material because after reading
+page 109 in Cowan, important to note that all melodies appear in serial
+order. To make analogous task based on something like complex span
+tasks, would need to take certain set of notes and then always a finate
+setb be played back in arandom order (see chatper 3)
+
+So while for my purposes, I will refer to it as listed on page 1 of
+Cowan 2005:
+
+\begin{quote}
+\protect\hyperlink{working-memory-capacity}{Working memory capacity}
+refers to the relativly small amount of information that one can hold in
+mind, attend to, or, technically speaking, maintain in a rapidly
+accesible state at one time. The term working is mean to indicate that
+meantal work requres use of such informaiton. (p.1{]})
+\end{quote}
+
+But in the literature below I comment on which definitional framework is
+used if relevant to the reporting of it all.
+
+\hypertarget{papers-that-suggest-wmc-plays-a-role}{%
+\subsubsection{Papers that suggest WMC plays a
+role}\label{papers-that-suggest-wmc-plays-a-role}}
+
+\begin{itemize}
+\tightlist
+\item
+  \citep{nicholsScoreOneJazz2018}
+\item
+  Halpern paper on conductors
+\item
+  Sight reading paper
+\end{itemize}
+
+Summerize
+
+\hypertarget{general-intelligence}{%
+\subsection{General Intelligence}\label{general-intelligence}}
+
+As discussed above gf has a long history, some good some bad. Thing is
+that it can be really predictive of many things and people def do try
+incoproate it into music research.
+
+One of the big problems with this is establishing effects of causality
+looking at music. Could be that factors outside of music play a role
+like persanal views of ability (Daniel paper), socio economic status,
+and personality. And field is even big enough to have null results
+(include that catty comment of glenn schellenberg)
+
+\begin{itemize}
+\tightlist
+\item
+  Stuff on mozart effect
+\item
+  Whole chapter from Schellenberg
+\item
+  Swaminithan papers
+\end{itemize}
+
+\hypertarget{papers-that-suggest-gf-plays-a-role}{%
+\subsubsection{Papers that suggest GF plays a
+role}\label{papers-that-suggest-gf-plays-a-role}}
+
+\hypertarget{environmental}{%
+\subsection{Environmental}\label{environmental}}
+
+\hypertarget{long-term-memory-and-corpus-with-implicit}{%
+\subsection{Long term memory and corpus with
+implicit}\label{long-term-memory-and-corpus-with-implicit}}
+
+Standing in contrast to factors that individuals do not have a much
+control over such as the size of their working memory capapacity or
+factors related to their general fluid intelligence, most of the factors
+we believe contribute to someone's abililty to take melodic dictation
+have to deal with factors related to training and the envirionment. In
+fact, one of the tacit assumptions of getting a music degree revolves
+around the implictly held belief that with delibrate and attentive
+practice, that an individual is able to move from novice to expertise in
+their chosen domain. The idea that time invested results in beneficial
+returns is probably best exemplified by work produced by ANDERS ERICKSON
+1993 that suggests that performance at more elite levels has to do with
+delibreate practice. Below I review literature that supports this
+argument, since it's no doubt that someone has to engage in something to
+be good at it.
+
+\hypertarget{musical-training}{%
+\subsection{Musical Training}\label{musical-training}}
+
+It almost seems redundant to review literature in support of music
+practice leading to better results.
+
+\begin{itemize}
+\tightlist
+\item
+  List of those papers here
+\end{itemize}
+
+\hypertarget{aural-training}{%
+\subsection{Aural Training}\label{aural-training}}
+
+\begin{itemize}
+\tightlist
+\item
+  Dictation has not been that well researched
+  \citep{furbyEffectsPeerTutoring2016}
+\item
+  people try lots of things, not much evidence for peer tutoring
+  \citep{furbyEffectsPeerTutoring2016}
+\item
+  ISOLATION OF RHTYM AND MELODY
+\item
+  Banton 1995
+\item
+  Bland 1984
+\item
+  Root 1931
+\item
+  Wilson 1954
+\item
+  LISTENING BEFORE WRITING
+\item
+  Banton 1995
+\item
+  RECOGNIZING PATTERNS
+\item
+  Banton 1995
+\item
+  Bland 1984
+\item
+  Root 1931
+\item
+  SINGING SILENTLY WHEN DICRTAING
+\item
+  \citep{klonoskiImprovingDictationAuralSkills2006}
+\end{itemize}
+
+\hypertarget{sight-singing}{%
+\subsection{Sight Singing}\label{sight-singing}}
+
+\begin{itemize}
+\tightlist
+\item
+  \citep{fournierCognitiveStrategiesSightsinging2017a} - catalogugig
+  different strategizes used in sight signings
+\item
+  four main categories
+\item
+  14 subcategories
+\end{itemize}
+
+\hypertarget{to-sort}{%
+\subsection{To Sort}\label{to-sort}}
+
+\begin{itemize}
+\item
+  Harrison 1994
+\item
+\end{itemize}
+
+\hypertarget{musical-factors}{%
+\section{Musical Factors}\label{musical-factors}}
+
+\hypertarget{structural}{%
+\section{Structural}\label{structural}}
+
+Clealrly strutures also will play a role in this.
+
+\begin{itemize}
+\item
+  MEYER 1956
+\item
+  HURON 2006
+\item
+  \citep{margulisModelMelodicExpectation2005}
+\item
+  Obviously not an exact match with perception CITE SCHENKER
+\end{itemize}
+
+\hypertarget{not-first-to-model-structure}{%
+\subsection{Not first to model
+structure}\label{not-first-to-model-structure}}
+
+\begin{itemize}
+\tightlist
+\item
+  Long found that lenght, tonal structure, contour, and individual
+  traits all contribute and also found that structure and tonalness (AS
+  COMPUTED HOW) are good predictors
+  \citep{longRelationshipsPitchMemory1977}
+\item
+  Problem with long is that they eliminated people who werre bad singers
+  for the example, this is at odds both with intutiion of representatino
+  not being perfect mapping to singing, and has been DEMONSTRATED BY
+  THESE PAPERS BY PETER PFORDRESHER.
+\end{itemize}
+
+\hypertarget{early-papers-of-ortmann}{%
+\subsection{Early papers of Ortmann}\label{early-papers-of-ortmann}}
+
+\begin{itemize}
+\tightlist
+\item
+  \citep{ortmannTonalDeterminantsMelodic1933}
+\end{itemize}
+
+\hypertarget{papers-from-mid-20th-century}{%
+\subsection{Papers from Mid 20th
+Century}\label{papers-from-mid-20th-century}}
+
+( got these from paney 2016)
+
+\begin{itemize}
+\item
+  EFFECT OF TEMPO HOFSTETTTER 1981
+\item
+  TONALITY DOWLING 1978
+\item
+  TONALITY LONG 1977 (already mentioned somehere else)
+\item
+  OURA AND HATANO 1988
+\item
+  TONALITY \citep{pembrookInterferenceTranscriptionProcess1986}
+\item
+  SIZE OF INTERVALS \citep{ortmannTonalDeterminantsMelodic1933}
+\item
+  CONJUNCT VS DISJUNCT MVT ORTMAN 1933 PEMBROOK
+\item
+  length of the melody (Gephardt, 1978; Long, 1977; Pembrook, 1986),
+\item
+  number of presentations of the melody (Hofstetter, 1981; Pembrook,
+  1986),
+\item
+  context of the presentations (Schellenberg, 1985)
+\item
+  participants' musical experience (Long, 1977; Oura \& Hatano, 1988;
+  Schellenberg, 1985; Taylor \& Pembrook, 1983),
+\item
+  Familiarity with the style of music (Schellenberg, 1985).
+\item
+  \citep{taylorStrategiesMemoryShort1983} Extensin of Ortmann and looked
+  at more musical skills, shows ways to suggest scoring simple melodies
+\item
+  \citep{ouraConstructingRepresentationMelody1991a} - sampel of 8 but
+  pretty much suggests that there is quick pattern matching that happens
+  as it is drawn from LTM,
+\item
+  \citep{paneyEffectDirectingAttention2016} - if you direct attention,
+  people do better at melodic dictation. said the next four were the
+  only things looking at dictation since 2000
+\item
+  Gillespie 2001 - HOW DO PEOPLE SCORE MELODIES
+\item
+  Norris 2003 achievement and melodic dictation and sight singing
+  CLEARLY A RELATIONSHIP
+\item
+  \citep{pembrookSendHelpAural1990} -
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \citep{paneyTeachingMelodicDictation2014} interviewed HS teachers on
+    how they teach it for APi
+  \end{itemize}
+\item
+  \citep{pembrookInterferenceTranscriptionProcess1986} - discussin here
+  wher used tonality, melodic length, and motion, interesting also
+  restricted melodies to ones you can sing. Found length, tonality and
+  motion to be signficant at 13 3 1 variance. Though seems like with
+  this there is a lot of chance for type I error and IS THERE EVEN
+  ENOUGH INFO HERE IN THE PAPER TO RECREATE IT ALL. Also claims that
+  people can hear about 10--16 notes, tho DJB would add this is
+  obviously dependent on what i refer to as musical experimental factors
+  and would not make sense to carry this logic forwad without more
+  constraints.
+\end{itemize}
+
+\hypertarget{buonviri-papers}{%
+\subsection{Buonviri Papers}\label{buonviri-papers}}
+
+\begin{itemize}
+\tightlist
+\item
+  \citep{buonviriEffectsMusicNotation2015, buonviriEffectsPreparatorySinging2015, buonviriEffectsTwoListening2017, buonviriExplorationUndergraduateMusic2014, buonviriMelodicDictationInstruction2015, paneyTeachingMelodicDictation2014}
+\end{itemize}
+
+\hypertarget{caveat-about-dilberate-practice-and-talent}{%
+\subsection{Caveat about dilberate practice and
+talent}\label{caveat-about-dilberate-practice-and-talent}}
+
+Also should mention here that clealrly not a perfect one dimensional
+model where effort equals results. Simple thought expeiment that hard
+work does not always equal sucess in that there are sucssfull people who
+have not worked hard and very hard workers who do not experience sucess
+in what they do. Additionally people need to keep up the skills they
+have, insert hilarious quote here from potter not believing that people
+didnt keep up their melodic dictaiton skills and show that they are
+compartmentalized \citep{potterIdentifyingSucessfulDictation1990} This
+of course does not nullify any findings on delibreate practice, but goes
+to show that the whole thing is kind of complicated.
+
+\hypertarget{recent-computational-musicology-work-papers-and-findings}{%
+\subsection{Recent Computational Musicology Work papers and
+findings}\label{recent-computational-musicology-work-papers-and-findings}}
+
+START HERE FOR WORD COUNT As noted above, in following studies XYZ,
+people have looked at musical features before me. Since then there have
+been a lot futher strides in the world of computational musicology. SAY
+THAT IN CHAPTER 4 YOU ARE GOING TO be discussing history of
+computational musicology.
+
+\hypertarget{static-views-of-computational-features-fantastic}{%
+\subsubsection{Static Views of Computational Features/
+FANTASTIC}\label{static-views-of-computational-features-fantastic}}
+
+\begin{itemize}
+\item
+  Müllensiefen, Halpern \& Wiggins (mullensiefen 2014)
+\item
+  Stewart, Müllensiefen \& Cooper FIND THIS, related ACTUAL MBEA
+\item
+\item
+  Sucessful at predicting court case decisions Müllensiefen \& Pendzich,
+  2009
+\item
+  (Kopiez \& Müllensiefen, 2008) If Beatles songs of revolver can see
+  what gets to the top
+\item
+  M4S Corpus Müllensiefen, Wiggins \& Lewis, 2008
+
+  \begin{itemize}
+  \tightlist
+  \item
+    14 K MIDI recordings
+  \item
+    1950-2006
+  \item
+    Complete compositions
+  \item
+    Some performance timings
+  \end{itemize}
+\item
+  Melodic Contour Müllensiefen, Bonometti, Stewart \& Wiggins, 2009;
+\item
+  Melodic Contour Frieler, Müllensiefen \& Riedemann, in press
+\item
+  Müllensiefen \& Wiggins UNDER REVIEW COUNTOUR
+\item
+  PHRASE SEGMENTATION Pearce, Müllensiefen \& Wiggins, 2008;
+\item
+  Harmonic Content Mauch, Müllensiefen, Dixon \& Wiggins, 2008;
+\item
+  Harmonic Contetn Rhodes, Lewis \& Müllensiefen, 2007
+\item
+  Melodic accent structure Pfleiderer \& Müllensiefen, 2006;
+\item
+  Müllensiefen, Pfleiderer \& Frieler, 2009 MELODIC ACCENT STUCTURE
+\end{itemize}
+
+ENTER FANTASTIC
+
+FROM FANTSTIC
+
+Phrase summary features that summarise the content of a melodic phrase,
+conceptually similar to the features that Steinbeck (1982) proposed but
+incorporating as well recent knowledge and techniques on tonality
+induction and melodic contour. Repetition features that measure the
+repetitiveness of short melodic-rhythmic sequences or motives (called
+m-types) which are the building blocks of melodies. These features are
+mainly inspired by characteristic text constants from computational
+linguistics that describe the frequency distribution of words in written
+text (see Baayen, 2001). Features based on the frequencies and frequency
+densities of phrase summary features in a corpus of pop music. These
+features build on the assumption that the frequency with which melodic
+features appear in real music are very important for music cognition
+(Huron, 2006). Features that are based on the corpus-derived frequencies
+of m-types as building blocks of melodies. These features are motivated
+by the important role that word frequencies play in text information
+retrieval and text categorisation (Landau et al., 2007) and verbal
+memory (Tse and Altarriba, 2007).
+
+\begin{itemize}
+\tightlist
+\item
+  open soure packge for computaitonal anlaysis
+\item
+  XX features
+\item
+  Comes from stats, music thoery, music cognition, computaitonal
+  Linguatstic (GET THAT CITATION), MIR
+\item
+  Summary Features
+\item
+  M-type features
+\item
+  Context medoling via intergration of a orpus for 2nd order features
+\end{itemize}
+
+OTHER PEOPLE WHO HAVE DONE THIS
+
+Folk music
+
+\begin{itemize}
+\item
+  Bartok 1936?
+\item
+  Bartok and Lord 1951
+\item
+  Lomax 1977
+\item
+  Steinbeck 1982
+\item
+  Jesser 1992
+\item
+  Sagrillo 1999
+\item
+  GET AND READ PAT SAVAGE ARTICLE
+\end{itemize}
+
+Popular Music
+
+\begin{itemize}
+\tightlist
+\item
+  Moor 2006
+\item
+  Kramarz 2006
+\item
+  Furnes 2006
+\item
+  Riedemann ????
+\end{itemize}
+
+Computational Musicology
+
+\begin{itemize}
+\tightlist
+\item
+  Eerola eta al 2007 and 2007
+\item
+  McCay 2005
+\item
+  Huron 2006
+\item
+  Frieler 2008
+\item
+  JAZZOMAT PROJECRT OUTPUT
+\end{itemize}
+
+GOOGLE SCHOLAR FANTASTIC CITERS
+
+\begin{itemize}
+\item
+  ROLE OF FEATURE AND CONTEXT IN RECOGNITION OF NEW MELODIES MULLENSIEFN
+  AND HALPERN 2014
+\item
+  EARWORMS FROM THREE ANGELS WILLIAMSON AND MULLSIEFN 2012
+\item
+  CORPUS ANALYS TOOLS FOR COMPUTATIONAL HOOK DISCOVERY VAN PALEN
+  BURGOYNE BOUNTORDIS 2015
+\item
+  DISSECTIN AN EARWORM MELODIC FEATURES PREDICT IMI Jakubowski 2017
+\item
+  MODELING MELODIC DISCRIMINATION TASKS HAARPSION 2016
+\item
+  INTERRRATER AGREEMENT IN MEMORY FOR MELODY AS MESUARE OF SIMILARITY
+  HERFF DEAN OLSEN 2017
+\item
+  MEMORY FOR MELODY INVEASTIAGTING HTE LINK BVETWEEN EPXERIENCE HERFF
+  2017
+\item
+  THE MUSOS TOOLKIT -- COMPUTER ASED OPEN SOURCE RAINSFORD PALER PAINE
+  2018!!!!!
+\item
+  Perception of Leitmotves in Richard Wagner's Dr Ring des -- BAKER 2017
+\item
+  Brown Collins Laney COMPUTAITONAL MODELS OF SYTLISTIC COMPARISON ???
+\end{itemize}
+
+\hypertarget{dynamic}{%
+\subsubsection{Dynamic}\label{dynamic}}
+
+\begin{itemize}
+\tightlist
+\item
+  PEARCE 2005 CITATION
+\item
+  THINGS FORM THAT 2012 REVIEW ARTICLE
+\item
+  PAPERS HERE THAT SHOW HOW IDYOM IS A GOOD MODEL OF THIS
+\item
+  SHANNON CITATION , MAYBE OLDER OTHER PAPERS TOO THAT TALK ABOUT
+  SHANNON ENTOROPY
+\end{itemize}
+
+\hypertarget{experimental}{%
+\section{Experimental}\label{experimental}}
+
+\begin{itemize}
+\tightlist
+\item
+  Could also put things like timbre into here, also relevant to this
+\end{itemize}
+
+\hypertarget{brief-discussion-on-individual-and-envirnoment-interactions}{%
+\subsection{Brief discussion on Individual and Envirnoment
+Interactions}\label{brief-discussion-on-individual-and-envirnoment-interactions}}
+
+Thinking about how all of these parameters contributes makes sense to a
+certain degree Could imagene the extereme case of each of these either
+helping or hindering someone's ability to think. Additionally could be
+the point that things interact with each other. And on top of that we
+have the idea about levels of Explanation - SEE THAT WITH WIGGINS - SEE
+THAT WITH HOW COWAN 2005 ends his book
+
+\hypertarget{modeling-and-polymorphism-of-ability}{%
+\section{Modeling and Polymorphism of
+Ability}\label{modeling-and-polymorphism-of-ability}}
+
+Important here to note that unlike Harrison 1994, not really appropriate
+to conceptualize this as latenta bility. Very easy in statistical terms
+to talk about latent variables and be able to talk about lots of
+variance predictied. But problem with any sort of model like that or
+model of musical sophistcation is that it has same fate as g.
+
+QUOTES HERE FROM MS paper on latent variables
+
+Musicianship as a concept of something ot measure when talking about
+this one little task with relative lack of concrete evidence for it's
+transfer, need to return back to a process model of melodic dictaiton.
+
+\hypertarget{polymophic-component-process-makes-you-think-about-things-in-models}{%
+\subsection{Polymophic, component process makes you think about things
+in
+models}\label{polymophic-component-process-makes-you-think-about-things-in-models}}
+
+Going to say here that LVs are bad and that need to adopt a more
+polymorphic view of musicianship as advocated by
+
+\begin{itemize}
+\tightlist
+\item
+  Levitin XXX
+\item
+  Peretz 2006
+\end{itemize}
+
+\hypertarget{conclusions}{%
+\section{Conclusions}\label{conclusions}}
+
+In this chapter I have first described what is melodic dictation,
+Karpinki's verbal model of it, noted what the things were that were
+missing from this model as a stepping off point, then went on to suggest
+a taxnomy of these based on what already has done. Suggest that there
+are both individual as well as musical features that are at play here.
+Individual features can be either cognitive, sort of fixed, or
+environemental, having do with training. Musical features can be either
+structural, or experimental like how you play the melody. None of these
+are nessecariy hard and fast divisions, and certainly there are going to
+be some interactions between any and all of the levels. Clearly a very
+great question and given how much we look at it, want to know more about
+this complicated network of proccesses. Given this laundry list of
+factors, now going to explore the individual parameters in Chapter 3,
+the musical chapters in 4 and 5, as well as how they would come together
+in chapter 6. Also will then go into more detail about many of the
+papers that I mentioned. Really there should be a chapter 7 where after
+thinking about all of this I put together a computational model that
+succcedes at incorporating a polymorphic view of musical trianing by
+making a proces model inspired by Karpinki that is able to be both a
+research and pedagogical stepping off point for futre reserach on
+modeling melodic dictation.
+
+\hypertarget{clearly-we-have-factors-that-are-thought-to-contribute-need-to-investigate-them-in-full-with-each-chapter}{%
+\subsection{Clearly we have factors that are thought to contribute, need
+to investigate them in full with each
+chapter}\label{clearly-we-have-factors-that-are-thought-to-contribute-need-to-investigate-them-in-full-with-each-chapter}}
+
+\hypertarget{not-before-first-looking-at-why-we-are-doing-it-in-the-first-place-transition-to-chapter-2}{%
+\subsection{Not before first looking at why we are doing it in the first
+place (--transition to Chapter
+2)}\label{not-before-first-looking-at-why-we-are-doing-it-in-the-first-place-transition-to-chapter-2}}
+
+\hypertarget{history-of-aural-skills}{%
+\chapter{History of Aural Skills}\label{history-of-aural-skills}}
+
+\hypertarget{thesis-show-that-aural-skills-always-has-practical-end-efficacy-of-representation-of-musical-pitch}{%
+\section{Thesis: Show that aural skills always has practical end,
+efficacy of representation of musical
+pitch}\label{thesis-show-that-aural-skills-always-has-practical-end-efficacy-of-representation-of-musical-pitch}}
+
+\hypertarget{for-i-in-star-aural-people-do}{%
+\subsection{for i in star aural people
+do}\label{for-i-in-star-aural-people-do}}
+
+\hypertarget{who}{%
+\subsection{Who}\label{who}}
+
+\hypertarget{where}{%
+\subsection{Where}\label{where}}
+
+\hypertarget{when}{%
+\subsection{When}\label{when}}
+
+\hypertarget{what}{%
+\subsection{What}\label{what}}
+
+\hypertarget{how-approach-and-goals}{%
+\subsection{How (approach and goals)}\label{how-approach-and-goals}}
+
+\hypertarget{why}{%
+\subsection{Why}\label{why}}
+
+\hypertarget{guido-darezzo}{%
+\subsection{Guido d'Arezzo}\label{guido-darezzo}}
+
+\hypertarget{walerant-via-calvisius}{%
+\subsection{Walerant (via Calvisius)}\label{walerant-via-calvisius}}
+
+\hypertarget{banchieri}{%
+\subsection{Banchieri}\label{banchieri}}
+
+\hypertarget{cerratto}{%
+\subsection{Cerratto}\label{cerratto}}
+
+\hypertarget{penna}{%
+\subsection{Penna}\label{penna}}
+
+\hypertarget{zarlino}{%
+\subsection{Zarlino}\label{zarlino}}
+
+\hypertarget{quotes-from-schumann}{%
+\section{Quotes from Schumann}\label{quotes-from-schumann}}
+
+\hypertarget{carl-seashore-thinking-in-music}{%
+\section{Carl Seashore thinking in
+music}\label{carl-seashore-thinking-in-music}}
+
+\hypertarget{points-from-karpinski-on-pedagogy}{%
+\section{Points from Karpinski on
+pedagogy}\label{points-from-karpinski-on-pedagogy}}
+
+\hypertarget{points-from-royal-paper-on-pedagogy}{%
+\section{Points from Royal Paper on
+pedagogy}\label{points-from-royal-paper-on-pedagogy}}
+
+\hypertarget{solmization-system}{%
+\section{Solmization System}\label{solmization-system}}
+
+\hypertarget{really-this-is-all-question-of-efficacy-of-mental-representation-of-musical-pitch}{%
+\section{Really this is all question of efficacy of mental
+representation of musical
+pitch}\label{really-this-is-all-question-of-efficacy-of-mental-representation-of-musical-pitch}}
+
+\hypertarget{individual-differences}{%
+\chapter{Individual Differences}\label{individual-differences}}
+
+\hypertarget{why-care-about-cognitive-abilities}{%
+\section{Why care about cognitive
+abilities}\label{why-care-about-cognitive-abilities}}
+
+\hypertarget{general-intelligence-and-wmc}{%
+\subsection{General intelligence and
+WMC}\label{general-intelligence-and-wmc}}
+
+\hypertarget{defining-of-terms}{%
+\subsection{Defining of terms}\label{defining-of-terms}}
+
+\hypertarget{have-established-that-cognitive-abilities-contribute-to-musical-task-for-journal-article-langauge-repeat}{%
+\section{Have established that cognitive abilities contribute to musical
+task (for journal article langauge
+repeat)}\label{have-established-that-cognitive-abilities-contribute-to-musical-task-for-journal-article-langauge-repeat}}
+
+\hypertarget{general-fluid-intelligence-wmc-training-as-uni-of-polymorphic}{%
+\subsection{General Fluid Intelligence, WMC, Training as uni of
+polymorphic}\label{general-fluid-intelligence-wmc-training-as-uni-of-polymorphic}}
+
+\hypertarget{remind-the-nature-of-a-musical-dictation-type-task-hear-loop-executive-decision}{%
+\section{Remind the nature of a musical dictation type task (hear, loop,
+executive
+decision)}\label{remind-the-nature-of-a-musical-dictation-type-task-hear-loop-executive-decision}}
+
+\hypertarget{this-is-wmc-task-gf-has-problems-although-high-level-link-with-gf-problematic-wmc-models-at-level-of-process-of-md}{%
+\subsection{This is WMC task, gf has problems (Although high level link
+with gf, problematic, WMC models at level of process of
+md)}\label{this-is-wmc-task-gf-has-problems-although-high-level-link-with-gf-problematic-wmc-models-at-level-of-process-of-md}}
+
+\hypertarget{berz-1994-noticed-it-first}{%
+\subsubsection{Berz 1994 noticed it
+first}\label{berz-1994-noticed-it-first}}
+
+\hypertarget{williamson-baddely-hitch-suggest-maybe-musical-loop}{%
+\subsubsection{Williamson Baddely Hitch suggest maybe musical
+loop}\label{williamson-baddely-hitch-suggest-maybe-musical-loop}}
+
+\hypertarget{even-cowan-labs-wonder-how-different-li-cowan-saults}{%
+\subsubsection{Even Cowan labs wonder how different (Li Cowan Saults
+)}\label{even-cowan-labs-wonder-how-different-li-cowan-saults}}
+
+\hypertarget{wmc-has-been-misused-in-music-education-theory-pedagogy-aural-literature-and-deserves-attention}{%
+\section{WMC has been misused in music education, theory, pedagogy,
+aural literature and deserves
+attention}\label{wmc-has-been-misused-in-music-education-theory-pedagogy-aural-literature-and-deserves-attention}}
+
+\hypertarget{problems-with-chunking}{%
+\subsection{Problems with chunking}\label{problems-with-chunking}}
+
+\hypertarget{mistake-with-miller-1956-he-did-not-mean-7-items}{%
+\subsubsection{Mistake with Miller 1956, he did not mean 7
+items}\label{mistake-with-miller-1956-he-did-not-mean-7-items}}
+
+\hypertarget{broadbent-1956-more-of-why-its-more-like-3-4}{%
+\subsubsection{Broadbent 1956 more of why its more like
+3-4}\label{broadbent-1956-more-of-why-its-more-like-3-4}}
+
+\hypertarget{problems-with-using-capacity-limit-literature}{%
+\subsection{Problems with using capacity limit
+literature}\label{problems-with-using-capacity-limit-literature}}
+
+\hypertarget{see-cowan-2005-page-80}{%
+\subsubsection{See Cowan 2005 page 80}\label{see-cowan-2005-page-80}}
+
+\hypertarget{musical-order-is-always-serial-effects}{%
+\subsubsection{Musical order is always serial
+effects}\label{musical-order-is-always-serial-effects}}
+
+\hypertarget{should-be-using-cowan-model-because-of-these-things-zooming-or-discuss-within-baddely-hitchatkinson-shriff}{%
+\subsection{Should be using Cowan model because of these things
+(zooming) or discuss within Baddely Hitch/Atkinson
+Shriff}\label{should-be-using-cowan-model-because-of-these-things-zooming-or-discuss-within-baddely-hitchatkinson-shriff}}
+
+\hypertarget{one-note-does-not-mean-one-unit-in-memory}{%
+\subsection{One Note does not mean one unit in
+memory!}\label{one-note-does-not-mean-one-unit-in-memory}}
+
+\hypertarget{confounded-by-corpus-distributions}{%
+\subsection{Confounded by corpus
+distributions}\label{confounded-by-corpus-distributions}}
+
+\hypertarget{lack-of-understanding-all-aural-skills-are-those-that-engage-wmc-lvh-says-many-students-have-wmc-deficits-increase-memory}{%
+\subsection{Lack of understanding (all aural skills are those that
+engage WMC, LVH says many students have WMC deficits, ``increase
+memory'')}\label{lack-of-understanding-all-aural-skills-are-those-that-engage-wmc-lvh-says-many-students-have-wmc-deficits-increase-memory}}
+
+\hypertarget{point-i-am-making-is-that-if-youre-going-to-do-it-do-it-well.}{%
+\subsection{Point I am making is that if you're going to do it, do it
+well.}\label{point-i-am-making-is-that-if-youre-going-to-do-it-do-it-well.}}
+
+\hypertarget{know-wmc-plays-a-role-sense-pertain-execute-should-be-able-to-pick-up-in-experiment-close-to-md}{%
+\section{Know WMC plays a role, sense, pertain, execute, should be able
+to pick up in experiment close to
+MD}\label{know-wmc-plays-a-role-sense-pertain-execute-should-be-able-to-pick-up-in-experiment-close-to-md}}
+
+\hypertarget{gold-msi-melodic-memory-and-beat-perception-test}{%
+\section{Gold-MSI melodic Memory and beat perception
+test}\label{gold-msi-melodic-memory-and-beat-perception-test}}
+
+\hypertarget{what-is-gold-msi}{%
+\subsection{What is gold MSI}\label{what-is-gold-msi}}
+
+\hypertarget{what-are-issues-i-want-to-talk-about-with-psychometrics}{%
+\subsection{What are issues I want to talk about with
+psychometrics}\label{what-are-issues-i-want-to-talk-about-with-psychometrics}}
+
+\hypertarget{describe-test-in-detail-and-why-its-what-were-after-here}{%
+\subsection{Describe test in detail and WHY it's what we're after
+here}\label{describe-test-in-detail-and-why-its-what-were-after-here}}
+
+\hypertarget{not-exactly-mmd-but-most-people-would-say-similar-skill-sets}{%
+\subsubsection{not exactly mmd, but most people would say similar skill
+sets}\label{not-exactly-mmd-but-most-people-would-say-similar-skill-sets}}
+
+\hypertarget{also-before-getting-dirtyneed-experimental-desing-with-less-response-options-cowan-saults-elliott-moreano-2002}{%
+\subsubsection{also before getting dirty,need experimental desing with
+less response options (Cowan, Saults, Elliott, Moreano
+2002)}\label{also-before-getting-dirtyneed-experimental-desing-with-less-response-options-cowan-saults-elliott-moreano-2002}}
+
+\hypertarget{if-we-accept-these-dvs-then-we-should-be-able-to-predict-them-with-self-reports-and-measures-of-wmc-and-gf}{%
+\section{IF we accept these DVs, THEN we should be able to predict them
+with self reports and measures of WMC and
+gf}\label{if-we-accept-these-dvs-then-we-should-be-able-to-predict-them-with-self-reports-and-measures-of-wmc-and-gf}}
+
+\hypertarget{do-this-with-hierarchical-lvm-ala-elliott-paper}{%
+\section{Do this with hierarchical LVM ala Elliott
+paper}\label{do-this-with-hierarchical-lvm-ala-elliott-paper}}
+
+\hypertarget{versions-of-this-paper-at-icmpc}{%
+\subsection{Versions of this paper at
+ICMPC}\label{versions-of-this-paper-at-icmpc}}
+
+\hypertarget{exploratory-in-that-tried-a-few-different-models-high-type-i-error-but-whatever}{%
+\subsection{Exploratory in that tried a few different models (high type
+I error but
+whatever)}\label{exploratory-in-that-tried-a-few-different-models-high-type-i-error-but-whatever}}
+
+\hypertarget{overview-of-experiment-cross-sectional-design}{%
+\section{Overview of Experiment (cross sectional
+design)}\label{overview-of-experiment-cross-sectional-design}}
+
+\hypertarget{participants}{%
+\subsection{Participants}\label{participants}}
+
+\hypertarget{materials}{%
+\subsection{Materials}\label{materials}}
+
+\hypertarget{procedure}{%
+\subsection{Procedure}\label{procedure}}
+
+\hypertarget{results}{%
+\subsection{Results}\label{results}}
+
+\hypertarget{descriptive-correlational}{%
+\subsubsection{Descriptive,
+Correlational}\label{descriptive-correlational}}
+
+\hypertarget{modeling}{%
+\subsubsection{Modeling}\label{modeling}}
+
+\hypertarget{discussion}{%
+\subsection{Discussion}\label{discussion}}
+
+\hypertarget{review-of-the-goals}{%
+\subsubsection{Review of the Goals}\label{review-of-the-goals}}
+
+\hypertarget{what-were-best-model-fits}{%
+\subsubsection{What were best model
+fits}\label{what-were-best-model-fits}}
+
+\hypertarget{clear-effect-of-wmc}{%
+\subsubsection{Clear effect of WMC}\label{clear-effect-of-wmc}}
+
+\hypertarget{what-if-we-are-just-measuring-wmc}{%
+\subsubsection{What if we are just measuring
+WMC?}\label{what-if-we-are-just-measuring-wmc}}
+
+\hypertarget{obvs-need-this-for-futre-studies}{%
+\subsubsection{Obvs need this for futre
+studies}\label{obvs-need-this-for-futre-studies}}
+
+\hypertarget{need-to-use-something-to-go-above-and-beyond-baseline-transition-to-corpus-as-memory-and-n-gram}{%
+\subsubsection{Need to use something to go above and beyond baseline
+(--transition to corpus as memory and
+n-gram)}\label{need-to-use-something-to-go-above-and-beyond-baseline-transition-to-corpus-as-memory-and-n-gram}}
+
+\hypertarget{future-verbal-theoretical-and-computational-models-should-involve-capacity-measures-limits}{%
+\subsubsection{Future verbal theoretical and computational models should
+involve capacity measures
+(limits)}\label{future-verbal-theoretical-and-computational-models-should-involve-capacity-measures-limits}}
+
+\hypertarget{computation-chapter}{%
+\chapter{Computation Chapter}\label{computation-chapter}}
+
+\hypertarget{humans-like-patterns-and-are-very-good-at-picking-them-up}{%
+\section{Humans like patterns and are very good at picking them
+up}\label{humans-like-patterns-and-are-very-good-at-picking-them-up}}
+
+\hypertarget{we-learn-things-implicitly}{%
+\subsection{We learn things
+implicitly}\label{we-learn-things-implicitly}}
+
+\hypertarget{we-can-represent-that-implicit-knowledge-with-a-corpus}{%
+\subsection{We can represent that implicit knowledge with a
+corpus}\label{we-can-represent-that-implicit-knowledge-with-a-corpus}}
+
+\hypertarget{pre-musical-corpora}{%
+\section{Pre-Musical Corpora}\label{pre-musical-corpora}}
+
+\hypertarget{information-theory}{%
+\subsection{Information Theory}\label{information-theory}}
+
+\hypertarget{computational-linguistics-as-front-runner}{%
+\subsection{Computational Linguistics as front
+runner}\label{computational-linguistics-as-front-runner}}
+
+\hypertarget{musical-corpora}{%
+\section{Musical Corpora}\label{musical-corpora}}
+
+\hypertarget{history-of-musical-corpora}{%
+\subsection{History of Musical
+Corpora}\label{history-of-musical-corpora}}
+
+\hypertarget{fun-old-computational-music-papers}{%
+\subsubsection{Fun old computational music
+papers}\label{fun-old-computational-music-papers}}
+
+\hypertarget{corpora-that-are-often-used}{%
+\subsubsection{Corpora that are often
+used}\label{corpora-that-are-often-used}}
+
+\hypertarget{static-vs-dynamic-models-of-feature-abstraction-daniel-slides}{%
+\subsubsection{Static vs Dynamic models of feature abstraction (daniel
+slides?)}\label{static-vs-dynamic-models-of-feature-abstraction-daniel-slides}}
+
+\hypertarget{fantastic}{%
+\subsection{FANTASTIC}\label{fantastic}}
+
+\hypertarget{static}{%
+\subsubsection{static}\label{static}}
+
+\hypertarget{ml-approach-gets-it-right}{%
+\subsubsection{ML approach gets it
+right}\label{ml-approach-gets-it-right}}
+
+\hypertarget{simple-to-understand}{%
+\subsubsection{simple to understand}\label{simple-to-understand}}
+
+\hypertarget{can-abstract-features-be-percieved}{%
+\subsubsection{Can abstract features be
+percieved?}\label{can-abstract-features-be-percieved}}
+
+\hypertarget{note-density}{%
+\subparagraph{Note density}\label{note-density}}
+
+\hypertarget{contour-variation}{%
+\subparagraph{Contour variation}\label{contour-variation}}
+
+\hypertarget{tonalness}{%
+\subparagraph{Tonalness}\label{tonalness}}
+
+\hypertarget{weird-computational-measures}{%
+\subparagraph{weird computational
+measures}\label{weird-computational-measures}}
+
+\hypertarget{idyom-as-representation-of-musical-materials}{%
+\subsection{IDyOM as representation of musical
+materials}\label{idyom-as-representation-of-musical-materials}}
+
+\hypertarget{n-gram-models}{%
+\subsubsection{n-gram models}\label{n-gram-models}}
+
+\hypertarget{mirrors-human-behavior}{%
+\subsubsection{mirrors human behavior}\label{mirrors-human-behavior}}
+
+\hypertarget{melody}{%
+\subparagraph{melody}\label{melody}}
+
+\hypertarget{harmony}{%
+\subparagraph{harmony}\label{harmony}}
+
+\hypertarget{so-what}{%
+\section{So What?}\label{so-what}}
+
+\hypertarget{other-research-chapt-3-suggest-need-to-move-beyond-cognitive-measures}{%
+\subsubsection{Other research (Chapt 3) suggest need to move beyond
+cognitive
+measures}\label{other-research-chapt-3-suggest-need-to-move-beyond-cognitive-measures}}
+
+\hypertarget{can-operationalize-item-level-items-contextually-with-a-corpus}{%
+\subsubsection{Can operationalize item level items contextually with a
+corpus}\label{can-operationalize-item-level-items-contextually-with-a-corpus}}
+
+\hypertarget{if-features-are-real-they-should-effect-dictation-chater-6}{%
+\subsubsection{IF features are real, they should effect dictation
+(Chater
+6)}\label{if-features-are-real-they-should-effect-dictation-chater-6}}
+
+\hypertarget{not-only-important-for-one-off-but-then-would-be-incorporated-into-computational-learning-models-chapter-6}{%
+\subsubsection{Not only important for one off, but then would be
+incorporated into computational learning models (Chapter
+6)}\label{not-only-important-for-one-off-but-then-would-be-incorporated-into-computational-learning-models-chapter-6}}
+
+\hypertarget{we-need-new-materials}{%
+\subsubsection{We need new materials}\label{we-need-new-materials}}
+
+\hypertarget{hello-corpus}{%
+\chapter{Hello, Corpus}\label{hello-corpus}}
+
+\hypertarget{brief-review-of-chapter-4-on-corpus-language-to-reflect-journal-submission}{%
+\section{Brief review of Chapter 4 on corpus (Language to reflect
+journal
+submission)}\label{brief-review-of-chapter-4-on-corpus-language-to-reflect-journal-submission}}
+
+\hypertarget{corpus-outside-of-music}{%
+\subsection{Corpus outside of music}\label{corpus-outside-of-music}}
+
+\hypertarget{corpus-in-music}{%
+\subsection{Corpus in Music}\label{corpus-in-music}}
+
+\hypertarget{the-point-is-that-it-implicitly-represents-humand-knowledge}{%
+\subsection{The point is that it implicitly represents humand
+knowledge}\label{the-point-is-that-it-implicitly-represents-humand-knowledge}}
+
+\hypertarget{idyom-1}{%
+\subsection{IDyOM 1}\label{idyom-1}}
+
+\hypertarget{idyom-2}{%
+\subsection{IDyOM 2}\label{idyom-2}}
+
+\hypertarget{idyom-3}{%
+\subsection{IDyOM 3}\label{idyom-3}}
+
+\hypertarget{huron-suggestions-that-starts-of-melodies-relate-to-mental-rotaiton}{%
+\subsection{Huron suggestions that starts of melodies relate to mental
+rotaiton}\label{huron-suggestions-that-starts-of-melodies-relate-to-mental-rotaiton}}
+
+\hypertarget{other-huron-claims}{%
+\subsection{Other Huron claims}\label{other-huron-claims}}
+
+\hypertarget{note-problem-with-using-corpus-is-making-corpus}{%
+\section{Note problem with using corpus is making
+corpus}\label{note-problem-with-using-corpus-is-making-corpus}}
+
+\hypertarget{many-are-used-on-essen}{%
+\subsection{Many are used on Essen}\label{many-are-used-on-essen}}
+
+\hypertarget{brinkman-says-essen-sucks}{%
+\subsection{Brinkman says Essen Sucks}\label{brinkman-says-essen-sucks}}
+
+\hypertarget{if-going-to-make-generlizable-claims-need-to-always-have-new-data}{%
+\subsection{If going to make generlizable claims, need to always have
+new
+data}\label{if-going-to-make-generlizable-claims-need-to-always-have-new-data}}
+
+\hypertarget{solem-duty-to-encode-and-report-on-corpus}{%
+\section{Solem duty to encode and report on
+corpus}\label{solem-duty-to-encode-and-report-on-corpus}}
+
+\hypertarget{justin-london-article-on-what-makes-it-into-a-corpsu}{%
+\subsection{Justin London Article on what makes it into a
+corpsu}\label{justin-london-article-on-what-makes-it-into-a-corpsu}}
+
+\hypertarget{though-i-just-encoded-the-whole-thing-because-in-my-heart-of-hearts-im-a-bayesian}{%
+\subsection{Though I just encoded the whole thing because in my heart of
+hearts I'm a
+Bayesian}\label{though-i-just-encoded-the-whole-thing-because-in-my-heart-of-hearts-im-a-bayesian}}
+
+\hypertarget{the-corpus}{%
+\section{The Corpus}\label{the-corpus}}
+
+\hypertarget{history-of-sight-singign-books}{%
+\subsection{History of Sight Singign
+books}\label{history-of-sight-singign-books}}
+
+\hypertarget{assumed-to-be-where-long-term-store-comes-from-adumbrate-computational-model}{%
+\subsection{Assumed to be where long term store comes from (adumbrate
+computational
+model)}\label{assumed-to-be-where-long-term-store-comes-from-adumbrate-computational-model}}
+
+\hypertarget{lots-of-melodies-in-ascending-order-of-difficulty-grouped-appropriately-though-utah-guy}{%
+\subsection{Lots of melodies in ascending order of difficulty, grouped
+appropriately though? Utah
+guy}\label{lots-of-melodies-in-ascending-order-of-difficulty-grouped-appropriately-though-utah-guy}}
+
+\hypertarget{why-i-encoded-it-in-xml}{%
+\subsection{Why I encoded it in XML}\label{why-i-encoded-it-in-xml}}
+
+\hypertarget{is-it-legal}{%
+\subsection{Is it legal?}\label{is-it-legal}}
+
+\hypertarget{descriptive-stats-of-corpus}{%
+\section{Descriptive Stats of
+Corpus}\label{descriptive-stats-of-corpus}}
+
+\hypertarget{why-1}{%
+\subsection{Why?}\label{why-1}}
+
+\hypertarget{for-pedagogical-purposes}{%
+\subsubsection{For pedagogical
+purposes}\label{for-pedagogical-purposes}}
+
+\hypertarget{for-experimental-purposes}{%
+\subsubsection{For experimental
+purposes}\label{for-experimental-purposes}}
+
+\hypertarget{for-computational-idexing-get-me-melody-with-x-tonal-score}{%
+\subsubsection{For computational idexing (get me melody with x tonal
+score)}\label{for-computational-idexing-get-me-melody-with-x-tonal-score}}
+
+\hypertarget{could-serve-as-representation-of-implicitly-learned-expectations-for-future-modeling}{%
+\subsubsection{Could serve as representation of implicitly learned
+expectations for future
+modeling}\label{could-serve-as-representation-of-implicitly-learned-expectations-for-future-modeling}}
+
+\hypertarget{feature-level}{%
+\subsection{Feature Level}\label{feature-level}}
+
+\hypertarget{what-features-are-normally-distributed}{%
+\subsubsection{What features are normally
+distributed}\label{what-features-are-normally-distributed}}
+
+\hypertarget{correlated-feature-problem}{%
+\subsubsection{Correlated feature
+problem}\label{correlated-feature-problem}}
+
+\hypertarget{big-facet-wrap-of-the-whole-thing}{%
+\subsubsection{big \textasciitilde{}facet wrap of the whole
+thing}\label{big-facet-wrap-of-the-whole-thing}}
+
+\hypertarget{could-do-dimensonality-reduction-baker-harrison-others-but-then-loose-understanding}{%
+\subsubsection{Could do dimensonality reduction (Baker, Harrison,
+others) but then loose
+understanding}\label{could-do-dimensonality-reduction-baker-harrison-others-but-then-loose-understanding}}
+
+\hypertarget{n-gram}{%
+\subsection{n-gram}\label{n-gram}}
+
+\hypertarget{big-solfege-n-gram-table}{%
+\subsubsection{Big solfege n-gram
+table}\label{big-solfege-n-gram-table}}
+
+\hypertarget{dependent-on-representation-notes-solfege-mint}{%
+\subsubsection{Dependent on representation (notes, solfege,
+mint)}\label{dependent-on-representation-notes-solfege-mint}}
+
+\hypertarget{shiny-app-of-n-gram-heatmap-with-peter}{%
+\subsubsection{Shiny app of n-gram heatmap with
+Peter}\label{shiny-app-of-n-gram-heatmap-with-peter}}
+
+\hypertarget{idea-would-be-that-hotter-n-grams-lend-them-selves-to-better-chunking-but-need-better-word-than-chunking}{%
+\subsubsection{Idea would be that hotter n-grams lend them selves to
+better chunking (but need better word than
+chunking)}\label{idea-would-be-that-hotter-n-grams-lend-them-selves-to-better-chunking-but-need-better-word-than-chunking}}
+
+\hypertarget{experiments}{%
+\chapter{Experiments}\label{experiments}}
+
+\hypertarget{rationale}{%
+\section{Rationale}\label{rationale}}
+
+\hypertarget{have-done-all-this-and-have-not-actually-talked-about-dictation-yet}{%
+\subsection{Have done all this and have not actually talked about
+dictation
+yet}\label{have-done-all-this-and-have-not-actually-talked-about-dictation-yet}}
+
+\hypertarget{clearly-many-factors-contribte-to-this-whole-thing-and-need-to-be-taken-into-a-model}{%
+\subsection{Clearly many factors contribte to this whole thing and need
+to be taken into a
+model}\label{clearly-many-factors-contribte-to-this-whole-thing-and-need-to-be-taken-into-a-model}}
+
+\hypertarget{dictation-is-basically-a-within-subjects-design-experiment}{%
+\subsection{Dictation is basically a within subjects design
+Experiment}\label{dictation-is-basically-a-within-subjects-design-experiment}}
+
+\hypertarget{get-very-ecological-and-dirty-and-run-it}{%
+\subsubsection{Get very ecological and dirty and run
+it}\label{get-very-ecological-and-dirty-and-run-it}}
+
+\hypertarget{factors}{%
+\subsection{Factors}\label{factors}}
+
+\hypertarget{cognitive-1}{%
+\subsubsection{Cognitive}\label{cognitive-1}}
+
+\hypertarget{wmc}{%
+\paragraph{WMC}\label{wmc}}
+
+\hypertarget{gf}{%
+\paragraph{GF}\label{gf}}
+
+\hypertarget{training}{%
+\subsubsection{Training}\label{training}}
+
+\hypertarget{goldsmiths-msi}{%
+\paragraph{Goldsmiths MSI}\label{goldsmiths-msi}}
+
+\hypertarget{musical}{%
+\subsubsection{Musical}\label{musical}}
+
+\hypertarget{fantastic-1}{%
+\paragraph{FANTASTIC}\label{fantastic-1}}
+
+\hypertarget{idyom}{%
+\paragraph{IDyOM}\label{idyom}}
+
+\hypertarget{investigate-melodies-with-this-context-and-set-scoring}{%
+\subsubsection{Investigate melodies with this context and set
+scoring}\label{investigate-melodies-with-this-context-and-set-scoring}}
+
+\hypertarget{mirror-design-to-see-if-effects-of-melody-are-there}{%
+\subsubsection{Mirror design to see if effects of melody are
+there}\label{mirror-design-to-see-if-effects-of-melody-are-there}}
+
+\hypertarget{experiments-1}{%
+\section{Experiments}\label{experiments-1}}
+
+\hypertarget{experiment-i}{%
+\subsection{Experiment I}\label{experiment-i}}
+
+\hypertarget{participants-1}{%
+\subsubsection{Participants}\label{participants-1}}
+
+\hypertarget{procedure-1}{%
+\subsubsection{Procedure}\label{procedure-1}}
+
+\hypertarget{materials-1}{%
+\subsubsection{Materials}\label{materials-1}}
+
+\hypertarget{scoring}{%
+\subsubsection{Scoring}\label{scoring}}
+
+\hypertarget{results-1}{%
+\subsubsection{Results}\label{results-1}}
+
+\hypertarget{modeling-1}{%
+\subsubsection{Modeling}\label{modeling-1}}
+
+\hypertarget{discussion-1}{%
+\subsubsection{Discussion}\label{discussion-1}}
+
+\hypertarget{experiment-ii}{%
+\subsection{Experiment II}\label{experiment-ii}}
+
+\hypertarget{participants-new}{%
+\subsubsection{Participants (New)}\label{participants-new}}
+
+\hypertarget{procedure-same}{%
+\subsubsection{Procedure (Same)}\label{procedure-same}}
+
+\hypertarget{materials-swapped-but-controlled}{%
+\subsubsection{Materials (Swapped but
+controlled)}\label{materials-swapped-but-controlled}}
+
+\hypertarget{scoring-same}{%
+\subsubsection{Scoring (Same)}\label{scoring-same}}
+
+\hypertarget{results-2}{%
+\subsubsection{Results}\label{results-2}}
+
+\hypertarget{modeling-same}{%
+\subsubsection{Modeling (same)}\label{modeling-same}}
+
+\hypertarget{general-discussion}{%
+\subsection{General Discussion}\label{general-discussion}}
+
+\hypertarget{what-happened}{%
+\subsubsection{What happened}\label{what-happened}}
+
+\hypertarget{assumption-of-all-of-this-is-that-many-things-are-happening-linearly-in-combination-with-each-other}{%
+\subsubsection{Assumption of all of this is that many things are
+happening linearly in combination with each
+other}\label{assumption-of-all-of-this-is-that-many-things-are-happening-linearly-in-combination-with-each-other}}
+
+\hypertarget{additionally-the-mixed-effects-framework-works-better-with-more-data}{%
+\subsubsection{Additionally the mixed effects framework works better
+with more
+data?}\label{additionally-the-mixed-effects-framework-works-better-with-more-data}}
+
+\hypertarget{also-how-we-score-it-is-going-to-mess-wiht-the-dvs}{%
+\subsubsection{Also how we score it is going to mess wiht the
+DVs}\label{also-how-we-score-it-is-going-to-mess-wiht-the-dvs}}
+
+\hypertarget{really-what-is-needed-is-computational-model}{%
+\subsection{Really what is needed is Computational
+Model}\label{really-what-is-needed-is-computational-model}}
+
+\hypertarget{computational-cognitive-model-model-if-time-permits-whole-article-in-itself}{%
+\section{Computational Cognitive Model Model (If time permits) {[}Whole
+article in
+itself{]}}\label{computational-cognitive-model-model-if-time-permits-whole-article-in-itself}}
+
+\hypertarget{why-2}{%
+\subsection{Why?}\label{why-2}}
+
+\hypertarget{better-than-verbal-models}{%
+\paragraph{Better than verbal models}\label{better-than-verbal-models}}
+
+\hypertarget{sometimes-even-mathematically-infesable-proposed-theory}{%
+\paragraph{Sometimes even mathematically infesable proposed
+theory}\label{sometimes-even-mathematically-infesable-proposed-theory}}
+
+\hypertarget{beyond-karpinski-in-that-it-doesnt-just-schematize-says-exactly-when-each-thing-is-happening-when}{%
+\paragraph{Beyond Karpinski in that it doesn't just schematize, says
+exactly when each thing is happening
+when}\label{beyond-karpinski-in-that-it-doesnt-just-schematize-says-exactly-when-each-thing-is-happening-when}}
+
+\hypertarget{lends-itself-to-better-discussions-that-dont-just-rely-on-personal-anecdotes}{%
+\paragraph{Lends itself to better discussions that don't just rely on
+personal
+anecdotes}\label{lends-itself-to-better-discussions-that-dont-just-rely-on-personal-anecdotes}}
+
+\hypertarget{can-tweak-the-parameters}{%
+\paragraph{Can tweak the parameters}\label{can-tweak-the-parameters}}
+
+\hypertarget{can-collect-different-types-of-data-corpus-or-experimental-and-use-the-model}{%
+\paragraph{Can collect different types of data (corpus or experimental)
+and use the
+model}\label{can-collect-different-types-of-data-corpus-or-experimental-and-use-the-model}}
+
+\hypertarget{this-model-suggests-that-atomism-approach-is-actual-just-subprocess-of-larger-pattern}{%
+\paragraph{This model suggests that atomism approach is actual just
+subprocess of larger
+pattern}\label{this-model-suggests-that-atomism-approach-is-actual-just-subprocess-of-larger-pattern}}
+
+\hypertarget{theoretical-justification}{%
+\subsubsection{Theoretical
+Justification}\label{theoretical-justification}}
+
+\hypertarget{marries-literature-on-ltm-and-prior-knowledge-information-theory-wmc-computation-representation}{%
+\paragraph{Marries literature on LTM and prior knowledge, information
+theory, WMC, computation,
+representation}\label{marries-literature-on-ltm-and-prior-knowledge-information-theory-wmc-computation-representation}}
+
+\hypertarget{also-can-be-implemented-in-computer}{%
+\paragraph{Also can be implemented in
+computer}\label{also-can-be-implemented-in-computer}}
+
+\hypertarget{represntation-of-rhythm-too}{%
+\paragraph{represntation of rhythm
+too?}\label{represntation-of-rhythm-too}}
+
+\hypertarget{inspired-by-people-like-margulis-2005-albrecht-and-shanahan-key-finding-want-something-to-contribute}{%
+\paragraph{inspired by people like margulis 2005, albrecht and shanahan
+key finding, want something to
+contribute}\label{inspired-by-people-like-margulis-2005-albrecht-and-shanahan-key-finding-want-something-to-contribute}}
+
+\hypertarget{really-made-me-think}{%
+\paragraph{Really Made me think}\label{really-made-me-think}}
+
+\hypertarget{the-model-note-many-parameters-can-be-changed-in-r-package}{%
+\subsubsection{The Model (note many parameters can be changed in R
+package)}\label{the-model-note-many-parameters-can-be-changed-in-r-package}}
+
+\hypertarget{prior}{%
+\subsubsection{Prior}\label{prior}}
+
+\hypertarget{corpus-of-music-represented-in-form-of-n-grams}{%
+\subparagraph{Corpus of music represented in form of
+n-grams}\label{corpus-of-music-represented-in-form-of-n-grams}}
+
+\hypertarget{idyom-extracts-all-possible-n-gram-permutations-as-learned-corpus}{%
+\subparagraph{IDyOM extracts all possible n-gram permutations as learned
+corpus}\label{idyom-extracts-all-possible-n-gram-permutations-as-learned-corpus}}
+
+\hypertarget{music-notation-fed-into-processing-window-where-incoming-n-gram-is-matched-based-on-wmc-window-or-it-maximum}{%
+\paragraph{Music notation fed into processing window where incoming
+n-gram is matched based on WMC window OR IT
+maximum}\label{music-notation-fed-into-processing-window-where-incoming-n-gram-is-matched-based-on-wmc-window-or-it-maximum}}
+
+\hypertarget{information-builds-until-approaches-critical-threhold}{%
+\subparagraph{Information builds until approaches critical
+threhold}\label{information-builds-until-approaches-critical-threhold}}
+
+\hypertarget{upon-maximum-model-puts-n-gram-into-focus-of-attention-cowan-1988-and-note-why-this-is-better-than-baddely-hitch}{%
+\subparagraph{Upon maximum, model puts n-gram into focus of attention
+(Cowan 1988) and note why this is better than Baddely
+Hitch}\label{upon-maximum-model-puts-n-gram-into-focus-of-attention-cowan-1988-and-note-why-this-is-better-than-baddely-hitch}}
+
+\hypertarget{recursive-transcribe-function-looks-for-ltm-matches}{%
+\subparagraph{Recursive transcribe function looks for LTM
+matches}\label{recursive-transcribe-function-looks-for-ltm-matches}}
+
+Option 1: Pattern Matched and Pattern Transcribed, success?
+
+Option 2: Pattern not matched in full, truncated and use match option
+again (should be higher probability of match with corpus)
+
+Option 3: Pattern not matched downsize again until at interval level and
+relying on 2-gram (atomism)
+
+On sucess of option, reopen gate at nearest long implicit n-gram LTM
+Match (start or end problem)
+
+\hypertarget{put-time-contraints-on-search-features}{%
+\subparagraph{Put time contraints on search
+features}\label{put-time-contraints-on-search-features}}
+
+\hypertarget{transcribe-process-resets-with-trace-image-of-melody-after-each-dictation}{%
+\subparagraph{Transcribe process resets with trace image of melody after
+each
+dictation}\label{transcribe-process-resets-with-trace-image-of-melody-after-each-dictation}}
+
+\hypertarget{transcribe-process-ends-when-all-notes-accounted-for}{%
+\subparagraph{Transcribe process ends when all notes accounted
+for}\label{transcribe-process-ends-when-all-notes-accounted-for}}
+
+\hypertarget{model-output}{%
+\subsubsection{Model Output}\label{model-output}}
+
+\hypertarget{based-on-leanrning-times-needed-to-hear-it}{%
+\paragraph{Based on leanrning, times needed to hear
+it}\label{based-on-leanrning-times-needed-to-hear-it}}
+
+\hypertarget{completion-percentage}{%
+\paragraph{Completion percentage}\label{completion-percentage}}
+
+\hypertarget{rank-order-of-easier-to-transcribe-parts-based-on-learning}{%
+\paragraph{Rank order of easier to transcribe parts based on
+learning}\label{rank-order-of-easier-to-transcribe-parts-based-on-learning}}
+
+\hypertarget{model-compared-to-data}{%
+\subsubsection{Model Compared to Data}\label{model-compared-to-data}}
+
+\hypertarget{with-experimental-data}{%
+\paragraph{With Experimental Data}\label{with-experimental-data}}
+
+\hypertarget{future-suggestions-for-aural-skills-pedagoges-and-research}{%
+\subsection{Future Suggestions for Aural Skills Pedagoges and
+Research}\label{future-suggestions-for-aural-skills-pedagoges-and-research}}
+
+\hypertarget{use-model-as-teaching-stepping-off-point}{%
+\subsubsection{Use model as teaching stepping off
+point}\label{use-model-as-teaching-stepping-off-point}}
+
+\hypertarget{should-move-towards-ltm-pattern-matching}{%
+\subsubsection{Should move towards LTM pattern
+matching}\label{should-move-towards-ltm-pattern-matching}}
+
+\hypertarget{reason-that-people-learn-how-to-sight-sing-is-to-increase-the-learning-of-the-implict-corpus}{%
+\subsubsection{Reason that people learn how to sight sing is to INCREASE
+the learning of the implict
+corpus}\label{reason-that-people-learn-how-to-sight-sing-is-to-increase-the-learning-of-the-implict-corpus}}
+
+\hypertarget{circular-process-here}{%
+\subsubsection{Circular process here}\label{circular-process-here}}
+
+\hypertarget{is-this-what-it-means-to-then-think-in-music}{%
+\subsubsection{Is this what it means to then think IN
+music}\label{is-this-what-it-means-to-then-think-in-music}}
+
+\hypertarget{really-its-to-just-know-the-patterns-maybe-like-model-where-justin-london-suggests-we-get-to-know-patterns-and-expect-themn}{%
+\subsubsection{Really it's to just know the patterns maybe like model
+where Justin London suggests we get to know patterns and expect
+themn}\label{really-its-to-just-know-the-patterns-maybe-like-model-where-justin-london-suggests-we-get-to-know-patterns-and-expect-themn}}
+
+\hypertarget{would-also-make-sense-in-terms-of-leonard-meyer-1956}{%
+\subsubsection{Would also make sense in terms of Leonard Meyer
+1956}\label{would-also-make-sense-in-terms-of-leonard-meyer-1956}}
+
+\hypertarget{use-wmc-in-music-theory-cognition-education-studies}{%
+\subsubsection{Use WMC in music theory, cognition, education
+studies}\label{use-wmc-in-music-theory-cognition-education-studies}}
+
+\hypertarget{reference-log}{%
+\chapter{Reference Log}\label{reference-log}}
+
+\hypertarget{to-incorporate}{%
+\section{To Incorporate}\label{to-incorporate}}
+
+\begin{itemize}
+\tightlist
+\item
+  \citep{margulisModelMelodicExpectation2005} -- Margulis Model
+\item
+  \citep{nicholsScoreOneJazz2018} -- Specialty jazz background helps in
+  tasks, WMC
+\item
+  \citep{NASM201718HandbookPdf2018} -- Fix intext
+\item
+  \citep{schumann1860musikalische} -- Quote about why people should do
+  ear training
+\item
+  \citep{smith1934solfege} -- Quote from K2001 about why people should
+  do ear training
+\item
+  \citep{longRelationshipsPitchMemory1977} -- Musical Characteristics
+  predict memory
+\item
+  \citep{taylorStrategiesMemoryShort1983} -- Great citation that lots of
+  things change memory, even structural!
+\item
+  \citep{tallaricoStudyThreePhase1974} -- Long boring talk on STM, LTM
+\item
+  \citep{ouraConstructingRepresentationMelody1991a} -- Awful
+  experimental design that says people use structual tones
+\item
+  \citep{buonviriExplorationUndergraduateMusic2014} -- Call for
+  experimental, suggestions as to what factors might contribute, use of
+  deductive reasoning, qualitative
+\item
+  \citep{buonviriEffectsPreparatorySinging2015} -- People need to focus
+  right away, not establish, distractors
+\item
+  \citep{buonviriEffectsMusicNotation2015} -- Showing people visual
+  music does not help much.
+\item
+  \citep{buonviriEffectsTwoListening2017} -- Listening helps with other
+  things, no best strategy in terms of writing
+\item
+  \citep{buonviriMelodicDictationInstruction2015} -- Literature to say
+  people are bad at teaching melodic dictation and we don't know a lot
+  about it, also interesting stuff about what solfege systems people use
+\item
+  \citep{davidbutlerWhyGulfMusic1997a} -- Call for music educators to do
+  aural skills research, notes problem with aural skills pedagogy in
+  lack of direction, also nice Nicholas Cook quotes on point of theory
+\item
+  \citep{furbyEffectsPeerTutoring2016} -- music ed study with weird
+  stats, has references to follow up on with advantages of pitch systems
+  and people who reccomend things for sight singing
+\item
+  \citep{pembrookInterferenceTranscriptionProcess1986} -- Effects of
+  melodies, also how people do it. Interesting that they too effect of
+  melodies, but talka bout things in terms of notes and not in terms of
+  information content. Thought ot have an experiment where the n-grams
+  that are more common are easier to write down. Lots of good charts
+  too.
+\item
+  \citep{paneyEffectDirectingAttention2016} -- It's not good if you tell
+  people what to do when they are dictating, article has a lot of good
+  review for dictation materials to add to the `toRead' folder.
+\item
+  \citep{fournierCognitiveStrategiesSightsinging2017a} -- Good
+  references that people are awful at Aural Skills, Also suggestions
+  that people are not that great at transfer, and some stuff to suggest
+  academic abililty is intertwined in all of this. Good reference for
+  when starting to talk about untangling the mess that is aural skills.
+\item
+  \citep[ 1995]{berzWorkingMemoryMusic} -- Add on a new module to the
+  WMC model of baddel with music, presents some evidence for why this
+  theoretically should be included, but actually takes examples of
+  dictation. A lot of this article felt like things that i was
+  reinventing\ldots{}not good.
+\item
+  \citep{atkinsonSomeThoughtsOnTrying} -- Proof some other people are
+  starting to think in terms of pedagogical schemas
+\item
+  \citep{klonoskiPerceptualLearningHierarchy2000} -- Music cognition
+  needs to talk to aural skills more, also need to unbind theory routine
+  with aural skills and think of things more as in a perceptual learning
+  hierarchy
+\item
+  \citep{klonoskiImprovingDictationAuralSkills2006} -- great quotes that
+  when people get something wrong with aural skills, what does that even
+  mean, lack of transfer effects, article ends with ways to get better
+  at things
+\item
+  \citep{pembrookSendHelpAural1990} -- Survey of what people in the late
+  1980s were doing in terms of aural skills pedagogy
+\item
+  \citep{karpinskiModelMelodicPerception1990} -- addresses why Gary
+  Karpinski thinks we should teach melodic dictation
+\item
+  \citep{potterIdentifyingSucessfulDictation1990} -- dictation teacher
+  surprised that people don't keep up their dictaiton skills quote
+\end{itemize}
+
+\hypertarget{chapter-3}{%
+\section{Chapter 3}\label{chapter-3}}
+
+\begin{itemize}
+\item
+  \citep{cowanWorkingMemoryCapacity2005} -- This book will probably
+  serve as cornerstone of chapter in terms of creating relevant
+  literature in addition to EE course readings on WMC. Provides history
+  of WMC models and notes how attention based model as opposed to
+  Baddely loop might actually be better theoretical model for talking
+  about fact that WMC could just be something related to attention if
+  not that. Provides extensive listing on problems with chunking that
+  are all relevant to music, but then also supports it. Shows that
+  Miller 1956 is a generally bad citation, own author even says that in
+  Miller 1989 (check and add) and says limit is probably about 4 (use
+  Cowan 2001 for ctation find that). Lots of good ideas like how music
+  is always serial recall, examples of how to model the process, great
+  discussions on zooming out and categorical nature of music within span
+  of WMC ideas.
+\item
+  \citep{ockelfordMusicModuleWorking2007} -- uses case of savant to
+  argue bits of Berz WM Music Model
+\end{itemize}
+
+\bibliography{book.bib,packages.bib}
+
+
+\end{document}

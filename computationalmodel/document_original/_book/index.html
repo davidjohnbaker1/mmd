@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Modeling Melodic Dictation</title>
+  <meta name="description" content="This dissertation explores both individual and musical features that might contribute to processes involved in melodic dictation.">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="Modeling Melodic Dictation" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This dissertation explores both individual and musical features that might contribute to processes involved in melodic dictation." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Modeling Melodic Dictation" />
+  
+  <meta name="twitter:description" content="This dissertation explores both individual and musical features that might contribute to processes involved in melodic dictation." />
+  
+
+<meta name="author" content="David John Baker">
+
+
+<meta name="date" content="2019-01-23">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+
+<link rel="next" href="intro.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; position: absolute; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; }
+pre.numberSource a.sourceLine:empty
+  { position: absolute; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Modeling Melodic Dictation</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Significance of the Study</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#rationale"><i class="fa fa-check"></i><b>1.1</b> Rationale</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#chapter-overview"><i class="fa fa-check"></i><b>1.2</b> Chapter Overview</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#dissertation-output"><i class="fa fa-check"></i><b>1.3</b> Dissertation Output</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="index.html"><a href="index.html#reserach-papers"><i class="fa fa-check"></i><b>1.3.1</b> Reserach Papers</a></li>
+<li class="chapter" data-level="1.3.2" data-path="index.html"><a href="index.html#research-presentations"><i class="fa fa-check"></i><b>1.3.2</b> Research Presentations</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Theoretical Background and Rationale</a><ul>
+<li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#what-is-melodic-dictation-and-why"><i class="fa fa-check"></i><b>2.1</b> What is melodic dictation? and Why?</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="intro.html"><a href="intro.html#describing-melodic-dictation"><i class="fa fa-check"></i><b>2.1.1</b> Describing Melodic Dictation</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="intro.html"><a href="intro.html#individual-factors"><i class="fa fa-check"></i><b>2.2</b> Individual Factors</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="intro.html"><a href="intro.html#cognitive"><i class="fa fa-check"></i><b>2.2.1</b> Cognitive</a></li>
+<li class="chapter" data-level="2.2.2" data-path="intro.html"><a href="intro.html#measuring-intelligence"><i class="fa fa-check"></i><b>2.2.2</b> Measuring Intelligence</a></li>
+<li class="chapter" data-level="2.2.3" data-path="intro.html"><a href="intro.html#working-memory-capacity"><i class="fa fa-check"></i><b>2.2.3</b> Working Memory Capacity</a></li>
+<li class="chapter" data-level="2.2.4" data-path="intro.html"><a href="intro.html#general-intelligence"><i class="fa fa-check"></i><b>2.2.4</b> General Intelligence</a></li>
+<li class="chapter" data-level="2.2.5" data-path="intro.html"><a href="intro.html#environmental"><i class="fa fa-check"></i><b>2.2.5</b> Environmental</a></li>
+<li class="chapter" data-level="2.2.6" data-path="intro.html"><a href="intro.html#musical-training"><i class="fa fa-check"></i><b>2.2.6</b> Musical Training</a></li>
+<li class="chapter" data-level="2.2.7" data-path="intro.html"><a href="intro.html#aural-training"><i class="fa fa-check"></i><b>2.2.7</b> Aural Training</a></li>
+<li class="chapter" data-level="2.2.8" data-path="intro.html"><a href="intro.html#sight-singing"><i class="fa fa-check"></i><b>2.2.8</b> Sight Singing</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#musical-parameters"><i class="fa fa-check"></i><b>2.3</b> Musical Parameters</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="intro.html"><a href="intro.html#structural"><i class="fa fa-check"></i><b>2.3.1</b> Structural</a></li>
+<li class="chapter" data-level="2.3.2" data-path="intro.html"><a href="intro.html#experimental"><i class="fa fa-check"></i><b>2.3.2</b> Experimental</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="intro.html"><a href="intro.html#modeling-and-polymorphism-of-ability"><i class="fa fa-check"></i><b>2.4</b> Modeling and Polymorphism of Ability</a></li>
+<li class="chapter" data-level="2.5" data-path="intro.html"><a href="intro.html#conclusions"><i class="fa fa-check"></i><b>2.5</b> Conclusions</a><ul>
+<li class="chapter" data-level="2.5.1" data-path="intro.html"><a href="intro.html#add-in"><i class="fa fa-check"></i><b>2.5.1</b> Add In</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="individual-differences.html"><a href="individual-differences.html"><i class="fa fa-check"></i><b>3</b> Individual Differences</a><ul>
+<li class="chapter" data-level="3.1" data-path="individual-differences.html"><a href="individual-differences.html#rationale-1"><i class="fa fa-check"></i><b>3.1</b> Rationale</a></li>
+<li class="chapter" data-level="3.2" data-path="individual-differences.html"><a href="individual-differences.html#individual-differences-1"><i class="fa fa-check"></i><b>3.2</b> Individual Differences</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="individual-differences.html"><a href="individual-differences.html#improving-musical-memory"><i class="fa fa-check"></i><b>3.2.1</b> Improving Musical Memory</a></li>
+<li class="chapter" data-level="3.2.2" data-path="individual-differences.html"><a href="individual-differences.html#memory-for-melodies"><i class="fa fa-check"></i><b>3.2.2</b> Memory for Melodies</a></li>
+<li class="chapter" data-level="3.2.3" data-path="individual-differences.html"><a href="individual-differences.html#musicians-cognitive-advantage"><i class="fa fa-check"></i><b>3.2.3</b> Musician’s Cognitive Advantage</a></li>
+<li class="chapter" data-level="3.2.4" data-path="individual-differences.html"><a href="individual-differences.html#relationship-established"><i class="fa fa-check"></i><b>3.2.4</b> Relationship Established</a></li>
+<li class="chapter" data-level="3.2.5" data-path="individual-differences.html"><a href="individual-differences.html#dictation-without-dictation"><i class="fa fa-check"></i><b>3.2.5</b> Dictation Without Dictation</a></li>
+<li class="chapter" data-level="3.2.6" data-path="individual-differences.html"><a href="individual-differences.html#cognitive-measures-of-interest"><i class="fa fa-check"></i><b>3.2.6</b> Cognitive Measures of Interest</a></li>
+<li class="chapter" data-level="3.2.7" data-path="individual-differences.html"><a href="individual-differences.html#structural-equation-modeling"><i class="fa fa-check"></i><b>3.2.7</b> Structural Equation Modeling</a></li>
+<li class="chapter" data-level="3.2.8" data-path="individual-differences.html"><a href="individual-differences.html#hypotheses"><i class="fa fa-check"></i><b>3.2.8</b> Hypotheses</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="individual-differences.html"><a href="individual-differences.html#overview-of-experiment"><i class="fa fa-check"></i><b>3.3</b> Overview of Experiment</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="individual-differences.html"><a href="individual-differences.html#participants"><i class="fa fa-check"></i><b>3.3.1</b> Participants</a></li>
+<li class="chapter" data-level="3.3.2" data-path="individual-differences.html"><a href="individual-differences.html#materials"><i class="fa fa-check"></i><b>3.3.2</b> Materials</a></li>
+<li class="chapter" data-level="3.3.3" data-path="individual-differences.html"><a href="individual-differences.html#procedure"><i class="fa fa-check"></i><b>3.3.3</b> Procedure</a></li>
+<li class="chapter" data-level="3.3.4" data-path="individual-differences.html"><a href="individual-differences.html#results"><i class="fa fa-check"></i><b>3.3.4</b> Results</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="individual-differences.html"><a href="individual-differences.html#discussion"><i class="fa fa-check"></i><b>3.4</b> Discussion</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="individual-differences.html"><a href="individual-differences.html#model-fits"><i class="fa fa-check"></i><b>3.4.1</b> Model Fits</a></li>
+<li class="chapter" data-level="3.4.2" data-path="individual-differences.html"><a href="individual-differences.html#relating-to-melodic-dictation"><i class="fa fa-check"></i><b>3.4.2</b> Relating to Melodic Dictation</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="computation-chapter.html"><a href="computation-chapter.html"><i class="fa fa-check"></i><b>4</b> Computation Chapter</a><ul>
+<li class="chapter" data-level="4.1" data-path="computation-chapter.html"><a href="computation-chapter.html#rationale-2"><i class="fa fa-check"></i><b>4.1</b> Rationale</a></li>
+<li class="chapter" data-level="4.2" data-path="computation-chapter.html"><a href="computation-chapter.html#agreeing-on-complexity"><i class="fa fa-check"></i><b>4.2</b> Agreeing on Complexity</a></li>
+<li class="chapter" data-level="4.3" data-path="computation-chapter.html"><a href="computation-chapter.html#modeling-complexity"><i class="fa fa-check"></i><b>4.3</b> Modeling Complexity</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="computation-chapter.html"><a href="computation-chapter.html#static"><i class="fa fa-check"></i><b>4.3.1</b> Static</a></li>
+<li class="chapter" data-level="4.3.2" data-path="computation-chapter.html"><a href="computation-chapter.html#dynamic-1"><i class="fa fa-check"></i><b>4.3.2</b> Dynamic</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="computation-chapter.html"><a href="computation-chapter.html#frequency-facilitation-hypothesis"><i class="fa fa-check"></i><b>4.4</b> Frequency Facilitation Hypothesis</a><ul>
+<li class="chapter" data-level="4.4.1" data-path="computation-chapter.html"><a href="computation-chapter.html#distributional-patterns-in-corpus"><i class="fa fa-check"></i><b>4.4.1</b> Distributional Patterns in Corpus</a></li>
+<li class="chapter" data-level="4.4.2" data-path="computation-chapter.html"><a href="computation-chapter.html#memory-facilitation"><i class="fa fa-check"></i><b>4.4.2</b> Memory Facilitation</a></li>
+<li class="chapter" data-level="4.4.3" data-path="computation-chapter.html"><a href="computation-chapter.html#peagogical-applcation"><i class="fa fa-check"></i><b>4.4.3</b> Peagogical applcation</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="computation-chapter.html"><a href="computation-chapter.html#chapter-conclusions"><i class="fa fa-check"></i><b>4.5</b> Chapter Conclusions</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="hello-corpus.html"><a href="hello-corpus.html"><i class="fa fa-check"></i><b>5</b> Hello, Corpus</a><ul>
+<li class="chapter" data-level="5.0.1" data-path="hello-corpus.html"><a href="hello-corpus.html#why-i-dont-follow-a-random-sampling-method"><i class="fa fa-check"></i><b>5.0.1</b> Why I don’t follow a random sampling method</a></li>
+<li class="chapter" data-level="5.1" data-path="hello-corpus.html"><a href="hello-corpus.html#brief-review-of-chapter-4-on-corpus-language-to-reflect-journal-submission"><i class="fa fa-check"></i><b>5.1</b> Brief review of Chapter 4 on corpus (Language to reflect journal submission)</a><ul>
+<li class="chapter" data-level="5.1.1" data-path="hello-corpus.html"><a href="hello-corpus.html#corpus-outside-of-music"><i class="fa fa-check"></i><b>5.1.1</b> Corpus outside of music</a></li>
+<li class="chapter" data-level="5.1.2" data-path="hello-corpus.html"><a href="hello-corpus.html#corpus-in-music"><i class="fa fa-check"></i><b>5.1.2</b> Corpus in Music</a></li>
+<li class="chapter" data-level="5.1.3" data-path="hello-corpus.html"><a href="hello-corpus.html#the-point-is-that-it-implicitly-represents-humand-knowledge"><i class="fa fa-check"></i><b>5.1.3</b> The point is that it implicitly represents humand knowledge</a></li>
+<li class="chapter" data-level="5.1.4" data-path="hello-corpus.html"><a href="hello-corpus.html#idyom-1"><i class="fa fa-check"></i><b>5.1.4</b> IDyOM 1</a></li>
+<li class="chapter" data-level="5.1.5" data-path="hello-corpus.html"><a href="hello-corpus.html#idyom-2"><i class="fa fa-check"></i><b>5.1.5</b> IDyOM 2</a></li>
+<li class="chapter" data-level="5.1.6" data-path="hello-corpus.html"><a href="hello-corpus.html#idyom-3"><i class="fa fa-check"></i><b>5.1.6</b> IDyOM 3</a></li>
+<li class="chapter" data-level="5.1.7" data-path="hello-corpus.html"><a href="hello-corpus.html#huron-suggestions-that-starts-of-melodies-relate-to-mental-rotaiton"><i class="fa fa-check"></i><b>5.1.7</b> Huron suggestions that starts of melodies relate to mental rotaiton</a></li>
+<li class="chapter" data-level="5.1.8" data-path="hello-corpus.html"><a href="hello-corpus.html#other-huron-claims"><i class="fa fa-check"></i><b>5.1.8</b> Other Huron claims</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="hello-corpus.html"><a href="hello-corpus.html#note-problem-with-using-corpus-is-making-corpus"><i class="fa fa-check"></i><b>5.2</b> Note problem with using corpus is making corpus</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="hello-corpus.html"><a href="hello-corpus.html#many-are-used-on-essen"><i class="fa fa-check"></i><b>5.2.1</b> Many are used on Essen</a></li>
+<li class="chapter" data-level="5.2.2" data-path="hello-corpus.html"><a href="hello-corpus.html#brinkman-says-essen-sucks"><i class="fa fa-check"></i><b>5.2.2</b> Brinkman says Essen Sucks</a></li>
+<li class="chapter" data-level="5.2.3" data-path="hello-corpus.html"><a href="hello-corpus.html#if-going-to-make-generlizable-claims-need-to-always-have-new-data"><i class="fa fa-check"></i><b>5.2.3</b> If going to make generlizable claims, need to always have new data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="hello-corpus.html"><a href="hello-corpus.html#solem-duty-to-encode-and-report-on-corpus"><i class="fa fa-check"></i><b>5.3</b> Solem duty to encode and report on corpus</a><ul>
+<li class="chapter" data-level="5.3.1" data-path="hello-corpus.html"><a href="hello-corpus.html#justin-london-article-on-what-makes-it-into-a-corpsu"><i class="fa fa-check"></i><b>5.3.1</b> Justin London Article on what makes it into a corpsu</a></li>
+<li class="chapter" data-level="5.3.2" data-path="hello-corpus.html"><a href="hello-corpus.html#though-i-just-encoded-the-whole-thing-because-in-my-heart-of-hearts-im-a-bayesian"><i class="fa fa-check"></i><b>5.3.2</b> Though I just encoded the whole thing because in my heart of hearts I’m a Bayesian</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="hello-corpus.html"><a href="hello-corpus.html#the-corpus"><i class="fa fa-check"></i><b>5.4</b> The Corpus</a><ul>
+<li class="chapter" data-level="5.4.1" data-path="hello-corpus.html"><a href="hello-corpus.html#history-of-sight-singign-books"><i class="fa fa-check"></i><b>5.4.1</b> History of Sight Singign books</a></li>
+<li class="chapter" data-level="5.4.2" data-path="hello-corpus.html"><a href="hello-corpus.html#assumed-to-be-where-long-term-store-comes-from-adumbrate-computational-model"><i class="fa fa-check"></i><b>5.4.2</b> Assumed to be where long term store comes from (adumbrate computational model)</a></li>
+<li class="chapter" data-level="5.4.3" data-path="hello-corpus.html"><a href="hello-corpus.html#lots-of-melodies-in-ascending-order-of-difficulty-grouped-appropriately-though-utah-guy"><i class="fa fa-check"></i><b>5.4.3</b> Lots of melodies in ascending order of difficulty, grouped appropriately though? Utah guy</a></li>
+<li class="chapter" data-level="5.4.4" data-path="hello-corpus.html"><a href="hello-corpus.html#why-i-encoded-it-in-xml"><i class="fa fa-check"></i><b>5.4.4</b> Why I encoded it in XML</a></li>
+<li class="chapter" data-level="5.4.5" data-path="hello-corpus.html"><a href="hello-corpus.html#is-it-legal"><i class="fa fa-check"></i><b>5.4.5</b> Is it legal?</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="hello-corpus.html"><a href="hello-corpus.html#descriptive-stats-of-corpus"><i class="fa fa-check"></i><b>5.5</b> Descriptive Stats of Corpus</a><ul>
+<li class="chapter" data-level="5.5.1" data-path="hello-corpus.html"><a href="hello-corpus.html#why"><i class="fa fa-check"></i><b>5.5.1</b> Why?</a></li>
+<li class="chapter" data-level="5.5.2" data-path="hello-corpus.html"><a href="hello-corpus.html#feature-level"><i class="fa fa-check"></i><b>5.5.2</b> Feature Level</a></li>
+<li class="chapter" data-level="5.5.3" data-path="hello-corpus.html"><a href="hello-corpus.html#n-gram"><i class="fa fa-check"></i><b>5.5.3</b> n-gram</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="experiments.html"><a href="experiments.html"><i class="fa fa-check"></i><b>6</b> Experiments</a><ul>
+<li class="chapter" data-level="6.1" data-path="experiments.html"><a href="experiments.html#rationale-3"><i class="fa fa-check"></i><b>6.1</b> Rationale</a><ul>
+<li class="chapter" data-level="6.1.1" data-path="experiments.html"><a href="experiments.html#have-done-all-this-and-have-not-actually-talked-about-dictation-yet"><i class="fa fa-check"></i><b>6.1.1</b> Have done all this and have not actually talked about dictation yet</a></li>
+<li class="chapter" data-level="6.1.2" data-path="experiments.html"><a href="experiments.html#clearly-many-factors-contribte-to-this-whole-thing-and-need-to-be-taken-into-a-model"><i class="fa fa-check"></i><b>6.1.2</b> Clearly many factors contribte to this whole thing and need to be taken into a model</a></li>
+<li class="chapter" data-level="6.1.3" data-path="experiments.html"><a href="experiments.html#dictation-is-basically-a-within-subjects-design-experiment"><i class="fa fa-check"></i><b>6.1.3</b> Dictation is basically a within subjects design Experiment</a></li>
+<li class="chapter" data-level="6.1.4" data-path="experiments.html"><a href="experiments.html#factors"><i class="fa fa-check"></i><b>6.1.4</b> Factors</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="experiments.html"><a href="experiments.html#experiments-1"><i class="fa fa-check"></i><b>6.2</b> Experiments</a><ul>
+<li class="chapter" data-level="6.2.1" data-path="experiments.html"><a href="experiments.html#experiment-i"><i class="fa fa-check"></i><b>6.2.1</b> Experiment I</a></li>
+<li class="chapter" data-level="6.2.2" data-path="experiments.html"><a href="experiments.html#experiment-ii"><i class="fa fa-check"></i><b>6.2.2</b> Experiment II</a></li>
+<li class="chapter" data-level="6.2.3" data-path="experiments.html"><a href="experiments.html#general-discussion"><i class="fa fa-check"></i><b>6.2.3</b> General Discussion</a></li>
+<li class="chapter" data-level="6.2.4" data-path="experiments.html"><a href="experiments.html#really-what-is-needed-is-computational-model"><i class="fa fa-check"></i><b>6.2.4</b> Really what is needed is Computational Model</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="computational-model.html"><a href="computational-model.html"><i class="fa fa-check"></i><b>7</b> Computational Model</a><ul>
+<li class="chapter" data-level="7.1" data-path="computational-model.html"><a href="computational-model.html#levels-of-abstraction"><i class="fa fa-check"></i><b>7.1</b> Levels of Abstraction</a></li>
+<li class="chapter" data-level="7.2" data-path="computational-model.html"><a href="computational-model.html#model-overview"><i class="fa fa-check"></i><b>7.2</b> Model Overview</a></li>
+<li class="chapter" data-level="7.3" data-path="computational-model.html"><a href="computational-model.html#verbal-model"><i class="fa fa-check"></i><b>7.3</b> Verbal Model</a><ul>
+<li class="chapter" data-level="7.3.1" data-path="computational-model.html"><a href="computational-model.html#model-representational-assumptions"><i class="fa fa-check"></i><b>7.3.1</b> Model Representational Assumptions</a></li>
+<li class="chapter" data-level="7.3.2" data-path="computational-model.html"><a href="computational-model.html#contents-of-the-prior-knowledge"><i class="fa fa-check"></i><b>7.3.2</b> Contents of the Prior Knowledge</a></li>
+<li class="chapter" data-level="7.3.3" data-path="computational-model.html"><a href="computational-model.html#modeling-information-content"><i class="fa fa-check"></i><b>7.3.3</b> Modeling Information Content</a></li>
+<li class="chapter" data-level="7.3.4" data-path="computational-model.html"><a href="computational-model.html#setting-limits-with-transcribe"><i class="fa fa-check"></i><b>7.3.4</b> Setting Limits with Transcribe</a></li>
+<li class="chapter" data-level="7.3.5" data-path="computational-model.html"><a href="computational-model.html#pattern-matching"><i class="fa fa-check"></i><b>7.3.5</b> Pattern Matching</a></li>
+<li class="chapter" data-level="7.3.6" data-path="computational-model.html"><a href="computational-model.html#dictation-re-entry"><i class="fa fa-check"></i><b>7.3.6</b> Dictation Re-Entry</a></li>
+<li class="chapter" data-level="7.3.7" data-path="computational-model.html"><a href="computational-model.html#completion"><i class="fa fa-check"></i><b>7.3.7</b> Completion</a></li>
+<li class="chapter" data-level="7.3.8" data-path="computational-model.html"><a href="computational-model.html#model-output"><i class="fa fa-check"></i><b>7.3.8</b> Model Output</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="computational-model.html"><a href="computational-model.html#formal-model"><i class="fa fa-check"></i><b>7.4</b> Formal Model</a><ul>
+<li class="chapter" data-level="7.4.1" data-path="computational-model.html"><a href="computational-model.html#computational-model-1"><i class="fa fa-check"></i><b>7.4.1</b> Computational Model</a></li>
+<li class="chapter" data-level="7.4.2" data-path="computational-model.html"><a href="computational-model.html#example"><i class="fa fa-check"></i><b>7.4.2</b> Example</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="computational-model.html"><a href="computational-model.html#conclusions-1"><i class="fa fa-check"></i><b>7.5</b> Conclusions</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="reference-log.html"><a href="reference-log.html"><i class="fa fa-check"></i><b>8</b> Reference Log</a><ul>
+<li class="chapter" data-level="8.1" data-path="reference-log.html"><a href="reference-log.html#to-incorporate"><i class="fa fa-check"></i><b>8.1</b> To Incorporate</a></li>
+<li class="chapter" data-level="8.2" data-path="reference-log.html"><a href="reference-log.html#chapter-3"><i class="fa fa-check"></i><b>8.2</b> Chapter 3</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Modeling Melodic Dictation</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Modeling Melodic Dictation</h1>
+<p class="author"><em>David John Baker</em></p>
+<p class="date"><em>2019-01-23</em></p>
+</div>
+<div id="significance-of-the-study" class="section level1">
+<h1><span class="header-section-number">Chapter 1</span> Significance of the Study</h1>
+<div id="rationale" class="section level2">
+<h2><span class="header-section-number">1.1</span> Rationale</h2>
+<p>All students pursing a Bachelor’s degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation <span class="citation">(“National Association of Schools of Music Handbook” <a href="#ref-NationalAssociationSchools2018">2018</a>, sec. VIII.6.B.2.A)</span>.
+Melodic dictation is a cognitively demanding process that requires students to listen to a melody, retain it in memory, and then use their knowledge of Western musical notation in order to recreate the mental image of the melody on paper in a limited time frame.
+As of 2019 there are 644 Schools of Music belonging to National Association of Schools of Music (NASM)<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, meaning that hundreds of students every year will be expected to learn this challenging task as part of their aural skills education.
+The implicit logic is that as one improves in their ability to take melodic dictation, this practice of critical and active listening develops one’s ability to “think in music” <span class="citation">(Best <a href="#ref-bestMusicCurriculaFuture1992">1992</a>; Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span> and thus become a more competent musician.</p>
+<p>Despite its ubiquity in curricula within School of Music settings, research on topics pertain to how aural skills are acquired is limited at best.
+The fields of music theory and cognitive psychology are best positioned to make progress on this question, but often the skills required to be well versed in their of these subjects are disparate, published in separate journals, and the research with overlap is scarce.
+This problem is not new and there have been repeated attempts to bridge the gap between practitioners of aural skills and people in cognitive psychology <span class="citation">(Butler and Lochstampfor, <a href="#ref-butlerBridgesUnbuiltComparing1993">n.d.</a>; Butler <a href="#ref-davidbutlerWhyGulfMusic1997a">1997</a>; Klonoski <a href="#ref-klonoskiImprovingDictationAuralSkills2006">2006</a>, <a href="#ref-klonoskiPerceptualLearningHierarchy2000">2000</a>; Pembrook and Riggins <a href="#ref-pembrookSendHelpAural1990">1990</a>; Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span>.
+Literature from music theory has established conceptual frameworks regarding aural skills <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span><a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>, cognitive psychology literature has explored factors that might contribute to melodic perception <span class="citation">(Dowling <a href="#ref-dowlingExpectancyAttentionMelody1990">1990</a>, <a href="#ref-dowlingScaleContourTwo1978">1978</a>, <a href="#ref-dowlingTonalStrengthMelody1991">1991</a>; Halpern and Bartlett <a href="#ref-halpernMemoryMelodies2010">2010</a>)</span>, and applied literature from the field of music education <span class="citation">(Buonviri <a href="#ref-buonviriEffectsTwoListening2017">2017</a>; Nathan O Buonviri and Paney <a href="#ref-buonviriMelodicDictationInstruction2015">2015</a>; Paney <a href="#ref-paneyEffectDirectingAttention2016">2016</a>)</span>.</p>
+<p>However, despite these isolated areas of research, we as music researchers, do not have an a concrete understanding of exactly what contributes to the process of how individuals learn melodies <span class="citation">(Halpern and Bartlett <a href="#ref-halpernMemoryMelodies2010">2010</a>)</span>.
+This is peculiar since “how does one learn a melody?” seems to be one of the fundamental questions to the fields of music theory, music psychology, as well as music education.
+This chasm in the literature also raises a disconcerting question among pedagogy:</p>
+<blockquote>
+<p>If we as pedagogues do not have a in-depth understanding of how people learn melodies, how can we fairly assess what students can be expected to do and then grade them fairly on their attempts?</p>
+</blockquote>
+<p>While no single dissertation can solve any problem completely, this dissertation aims to fill the gap in the literature between aural skills practitioners and music psychologists in order to reach conclusions that can be applied systematically in pedagogical contexts.
+I do this by synthesizing literature from both music theory and music cognition in order to demonstrate how tools from both cognitive psychology as well as computational musicology can be used to help inform pedagogical practices.</p>
+</div>
+<div id="chapter-overview" class="section level2">
+<h2><span class="header-section-number">1.2</span> Chapter Overview</h2>
+<p>In this first chapter, I introduce the process of melodic dictation and discuss factors that would presumably could play a role in taking melodic dictation building off of the work of Gary Karpinski <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>, <a href="#ref-karpinskiModelMusicPerception1990">1990</a>)</span>
+The chapter introduces both a theoretical background and rationale for using methods from both computational musicology and cognitive psychology in order to answer questions about how individuals learn melodies.
+In order to organize the disparate literature, I put forward a taxonomy of factors that are assumed to contribute to an individual’s ability to take melodic dictation and discuss each in turn.
+This chapter outlines the factors hypothesized to contribute to an individual’s ability to learn melodies, incorporating both individual and musical parameters.
+I conclude the chapter with a discussion of some philosophical and theoretical problems when attempting to measure issues concerning melodic dictation and argue for the advantages of answering this problem using a polymorphic view of musicianship <span class="citation">(Levitin <a href="#ref-levitinWhatDoesIt2012">2012</a>; Peretz <a href="#ref-peretzNatureMusicBiological2006">2006</a>; Baker et al. <a href="#ref-bakerExaminingMusicalSophistication2018">2018</a>)</span>.</p>
+<p>The second chapter of my dissertation investigates individual factors that are theorized to contribute to melodic dictation.
+I argue that since the first two steps of Karpinski’s model of melodic dictation do not require any musical training, teasing apart the individual factors that contribute to melodic dictation can be done using a memory for melodies paradigm and structural equation modeling.
+I interpret the results of the data and analysis to highlight the importance of working memory processes in melodic dictation.
+The chapter corroborates claims by <span class="citation">Berz (<a href="#ref-berzWorkingMemoryMusic1995">1995</a>)</span> on the importance of understanding differences in working memory capacity and establishes rationale for including it as a variable of interest in future chapters.</p>
+<p>The third chapter of the dissertation discusses how aural skills pedagogy could benefit from using methodologies computational musicology in order to inform their practice.
+The chapter begins by establishing the degree to which aural skills pedagogues agree on the difficulty of melodies for melodic dictation using a small survey.
+I then show how different sets of tools from computational musicology can approximate the intuitions of aural skills pedagogues from the survey.
+The chapter concludes by putting forward a novel theory of musical memory– The Frequency Facilitation Hypothesis– derived from computational methodologies.
+I show how this hypothesis can be applied in pedagogical settings to create a more linear path to success in the aural skills classroom among students.</p>
+<p>In my fourth chapter, I introduce a novel corpus of 783 digitized melodies encoded in the <code>**kern</code>
+format.
+This chapter, encapsulating the encoding process, the sampling criteria, and the situation of corpus methodologies within the broader research area, will go over summary data and also discuss how the corpus could be used to generate hypotheses for future experiments.
+This dataset will serve as a valuable resource for future researchers in music, psychology, and the digital humanities.</p>
+<p>In the fifth chapter, I will synthesize the previous research in a series of melodic dictation experiments.
+Stimuli for the experiments are selected based on the abstracted, computational features of the melodies discussed in earlier chapters and are manipulated as independent variables based on the previous theoretical literature.
+I then model responses from the experiments using both individual factors and musical features using mixed-effects modeling in order to predict how well an individual performs in behavioral tasks.
+In discussing the results, I also note important caveats in scoring melodic dictation to discuss similarities between the correct answer and an individual’s attempts at dictation.
+Results from the final chapter will be discussed with reference to how findings are applicable to
+pedagogues in aural skills settings.</p>
+<p>Finally, in my sixth chapter, I introduce a computational, cognitive model of melodic dictation with the goal of helping explain how students improve at melodic dictation.
+The model is based in research from both cognitive psychology <span class="citation">(Cowan <a href="#ref-cowanMagicalMysteryFour2010">2010</a>)</span> and computational musicology <span class="citation">(Pearce <a href="#ref-pearceStatisticalLearningProbabilistic2018a">2018</a>)</span> and incorporates relevant theoretical aspects such as working memory <span class="citation">(Chenette <a href="#ref-chenetteReframingAuralSkills2019">2019</a>; VanHandel, Wakefield, and Wilkins <a href="#ref-vanhandelRoleWorkingMemory2011">2011</a>)</span> and the structure of the melody itself.
+In this chapter I demonstrate how modeling the cognitive decision process during melodic dictation helps provide a precise framework for pedagogues to understand student’s inner cognition during melodic dictation and can help inform teaching practice.</p>
+</div>
+<div id="dissertation-output" class="section level2">
+<h2><span class="header-section-number">1.3</span> Dissertation Output</h2>
+<div id="reserach-papers" class="section level3">
+<h3><span class="header-section-number">1.3.1</span> Reserach Papers</h3>
+<ul>
+<li>SEM Paper in ICMPC</li>
+<li>Aural Skills Paper ICMPC</li>
+<li>Aural Skills Textbook</li>
+<li>Goldsmiths Replication</li>
+</ul>
+</div>
+<div id="research-presentations" class="section level3">
+<h3><span class="header-section-number">1.3.2</span> Research Presentations</h3>
+<ul>
+<li>SEM Paper at ICMPC</li>
+<li>Aural Skills Poster</li>
+<li>Milton Keynes Talk</li>
+<li>Public Musicology</li>
+<li>Again and Again?</li>
+</ul>
+
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-NationalAssociationSchools2018">
+<p>“National Association of Schools of Music Handbook.” 2018. Reston, Virginia: National Association of Schools of Music.</p>
+</div>
+<div id="ref-bestMusicCurriculaFuture1992">
+<p>Best, Harold M. 1992. “Music Curricula in the Future.” <em>Arts Education Policy Review</em> 94 (2): 2–7. <a href="https://doi.org/10.1080/10632913.1992.9936901" class="uri">https://doi.org/10.1080/10632913.1992.9936901</a>.</p>
+</div>
+<div id="ref-karpinskiAuralSkillsAcquisition2000">
+<p>Karpinski, Gary Steven. 2000. <em>Aural Skills Acquisition: The Development of Listening, Reading, and Performing Skills in College-Level Musicians</em>. Oxford University Press.</p>
+</div>
+<div id="ref-butlerBridgesUnbuiltComparing1993">
+<p>Butler, David, and Mark Lochstampfor. n.d. “Bridges Unbuilt: Comparing the Literatures of Music Cognition and Aural Training.” <em>Indiana Theory Review</em> 14 (2): 1–17.</p>
+</div>
+<div id="ref-davidbutlerWhyGulfMusic1997a">
+<p>Butler, David. 1997. “Why the Gulf Between Music Perception Research and Aural Training?” <em>Bulletin of the Council for Research in Music Education</em>, no. 132.</p>
+</div>
+<div id="ref-klonoskiImprovingDictationAuralSkills2006">
+<p>Klonoski, Edward. 2006. “Improving Dictation as an Aural-Skills Instructional Tool,” 6.</p>
+</div>
+<div id="ref-klonoskiPerceptualLearningHierarchy2000">
+<p>Klonoski, Edward. 2000. “A Perceptual Learning Hierarchy: An Imperative for Aural Skills Pedagogy.” <em>College Music Symposium</em> 4: 168–69.</p>
+</div>
+<div id="ref-pembrookSendHelpAural1990">
+<p>Pembrook, Randall G., and H. Lee Riggins. 1990. “&quot;Send Help!&quot;: Aural Skills Instruction in U.S. Colleges and Universities.” <em>Journal of Music Theory Pedagogy</em> 4 (1): 230–41.</p>
+</div>
+<div id="ref-dowlingExpectancyAttentionMelody1990">
+<p>Dowling, W. 1990. “Expectancy and Attention in Melody Perception.” <em>Psychomusicology: A Journal of Research in Music Cognition</em> 9 (2): 148–60. <a href="https://doi.org/10.1037/h0094150" class="uri">https://doi.org/10.1037/h0094150</a>.</p>
+</div>
+<div id="ref-dowlingScaleContourTwo1978">
+<p>Dowling, W. Jay. 1978. “Scale and Contour: Two Components of a Theory of Memory for Melodies.” <em>Psychological Review</em> 84 (4): 341–54.</p>
+</div>
+<div id="ref-dowlingTonalStrengthMelody1991">
+<p>Dowling, W. 1991. “Tonal Strength and Melody Recognition After Long and Short Delays.” <em>Perception &amp; Psychophysics</em> 50 (4): 305–13. <a href="https://doi.org/10.3758/BF03212222" class="uri">https://doi.org/10.3758/BF03212222</a>.</p>
+</div>
+<div id="ref-halpernMemoryMelodies2010">
+<p>Halpern, Andrea R., and James C. Bartlett. 2010. “Memory for Melodies.” In <em>Music Perception</em>, edited by Mari Riess Jones, Richard R. Fay, and Arthur N. Popper, 36:233–58. New York, NY: Springer New York. <a href="https://doi.org/10.1007/978-1-4419-6114-3_8" class="uri">https://doi.org/10.1007/978-1-4419-6114-3_8</a>.</p>
+</div>
+<div id="ref-buonviriEffectsTwoListening2017">
+<p>Buonviri, Nathan O. 2017. “Effects of Two Listening Strategies for Melodic Dictation.” <em>Journal of Research in Music Education</em> 65 (3): 347–59. <a href="https://doi.org/10.1177/0022429417728925" class="uri">https://doi.org/10.1177/0022429417728925</a>.</p>
+</div>
+<div id="ref-buonviriMelodicDictationInstruction2015">
+<p>Buonviri, Nathan O, and Andrew S Paney. 2015. “Melodic Dictation Instruction.” <em>Journal of Research in Music Education</em> 62 (2): 224–37.</p>
+</div>
+<div id="ref-paneyEffectDirectingAttention2016">
+<p>Paney, Andrew S. 2016. “The Effect of Directing Attention on Melodic Dictation Testing.” <em>Psychology of Music</em> 44 (1): 15–24. <a href="https://doi.org/10.1177/0305735614547409" class="uri">https://doi.org/10.1177/0305735614547409</a>.</p>
+</div>
+<div id="ref-karpinskiModelMusicPerception1990">
+<p>Karpinski, Gary. 1990. “A Model for Music Perception and Its Implications in Melodic Dictation.” <em>Journal of Music Theory Pedagogy</em> 4 (1): 191–229.</p>
+</div>
+<div id="ref-levitinWhatDoesIt2012">
+<p>Levitin, Daniel J. 2012. “What Does It Mean to Be Musical?” <em>Neuron</em> 73 (4): 633–37. <a href="https://doi.org/10.1016/j.neuron.2012.01.017" class="uri">https://doi.org/10.1016/j.neuron.2012.01.017</a>.</p>
+</div>
+<div id="ref-peretzNatureMusicBiological2006">
+<p>Peretz, Isabelle. 2006. “The Nature of Music from a Biological Perspective.” <em>Cognition</em> 100 (1): 1–32. <a href="https://doi.org/10.1016/j.cognition.2005.11.004" class="uri">https://doi.org/10.1016/j.cognition.2005.11.004</a>.</p>
+</div>
+<div id="ref-bakerExaminingMusicalSophistication2018">
+<p>Baker, David John, Juan Ventura, Matthew Calamia, Daniel Shanahan, and Emily M. Elliott. 2018. “Examining Musical Sophistication: A Replication and Theoretical Commentary on the Goldsmiths Musical Sophistication Index.” <em>Musicae Scientiae</em>, November, 102986491881187. <a href="https://doi.org/10.1177/1029864918811879" class="uri">https://doi.org/10.1177/1029864918811879</a>.</p>
+</div>
+<div id="ref-berzWorkingMemoryMusic1995">
+<p>Berz, William L. 1995. “Working Memory in Music: A Theoretical Model.” <em>Music Perception: An Interdisciplinary Journal</em> 12 (3): 353–64. <a href="https://doi.org/10.2307/40286188" class="uri">https://doi.org/10.2307/40286188</a>.</p>
+</div>
+<div id="ref-cowanMagicalMysteryFour2010">
+<p>Cowan, Nelson. 2010. “The Magical Mystery Four: How Is Working Memory Capacity Limited, and Why?” <em>Current Directions in Psychological Science</em> 19 (1): 51–57. <a href="https://doi.org/10.1177/0963721409359277" class="uri">https://doi.org/10.1177/0963721409359277</a>.</p>
+</div>
+<div id="ref-pearceStatisticalLearningProbabilistic2018a">
+<p>Pearce, Marcus T. 2018. “Statistical Learning and Probabilistic Prediction in Music Cognition: Mechanisms of Stylistic Enculturation: Enculturation: Statistical Learning and Prediction.” <em>Annals of the New York Academy of Sciences</em> 1423 (1): 378–95. <a href="https://doi.org/10.1111/nyas.13654" class="uri">https://doi.org/10.1111/nyas.13654</a>.</p>
+</div>
+<div id="ref-chenetteReframingAuralSkills2019">
+<p>Chenette, Timothy K. 2019. “Reframing Aural Skills Instruction Based on Research in Working Memory.” <em>Journal for Music Theory Pedagogy</em>, 18.</p>
+</div>
+<div id="ref-vanhandelRoleWorkingMemory2011">
+<p>VanHandel, Leigh, Jennie Wakefield, and Wendy K. Wilkins. 2011. “Towards the Role of Working Memory in Pitch Processing in Language and Music.” In <em>Language and Music as Cognitive Systems</em>, edited by Patrick Rebuschat, Martin Rohmeier, John A. Hawkins, and Ian Cross, 302–9. Oxford University Press. <a href="https://doi.org/10.1093/acprof:oso/9780199553426.003.0031" class="uri">https://doi.org/10.1093/acprof:oso/9780199553426.003.0031</a>.</p>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>For a list of Schools, please look <a href="https://nasm.arts-accredit.org/directory-lists/accredited-institutions/search/?institutionname=&amp;city=&amp;state=&amp;country=&amp;search=true">here</a><a href="index.html#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>More aural skills textbooks here<a href="index.html#fnref2" class="footnote-back">↩</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="intro.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/index.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["mmd-draft-djb.pdf", "mmd-draft-djb.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

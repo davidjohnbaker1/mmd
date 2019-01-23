@@ -1,0 +1,181 @@
+# Hello, Corpus
+
+-- chapter will basically just be reference manual for corpus?
+NO
+
+* COmputational musicology needs corpora
+* Here is a history of that
+* And it's important for this to be representative
+* What do i think rrepresntaive means
+* In this chapter I introduce new SS corpus.
+
+Give basic summary statistics on the corpus.
+Compare it as a corpus to essen.
+
+
+
+
+-------------------------------
+
+After make argument about two different types of corpora, say we have implicit
+If it is implicit, follows that there should be some sort of overlap
+kind of like a markov chain and leonard meyer.
+
+
+
+* Point is to introduce corpus 
+* Origin outside music, current state IN music, limitations
+* Describe features of music in corpus
+* Compare it to the features in the Essen Collection
+* then talk about using IC idea from previosu chapter, how that can be applied pegagoically
+
+Corpus work helps inform how we see the world bc it generalizes.
+This was first done in linguistics.
+Paragraph here on gw book.
+Note that there is general split between sylometery studies and using it for NLP.
+
+Similar paths were taken in music.
+We have the MP trajectory that he outlines.
+Many of the early studies just summerise.
+Though they are largely situated in Meyer idea that genre is complex system of relations.
+
+Interesting point here is the scoping between what a corpsu represents.
+On one side we can have the collected works of a dead musician.
+Something like all of the trumpet solos of clifford brown.
+Basically have a population here, tho incomplete.
+Theoretically could have all the studio recordings, transcribe them, total collection.
+While we could sample from this, problem is that the set is finite.
+There is no recreating of more clifford brown solos since he died.
+
+Could further zoom out and look at a genre.
+This is very much like the Nick cook chopin studies.
+Mirrored here with Shanahan's Debussy studies.
+Also shanahan chord change studies
+Idea here is that you are looking for changes over time.
+But again with clifford, can't really re-do the 20th century.
+Maybe find one or two more tunes, but no way to re write cultural conceptions.
+Almost tautologically we have kept what we wanted and used that for our definition.
+
+Zooming out even further we have corpora like the Essen Collection.
+here it is meant to be represntitive of folk songs of Europe.
+Presumably this is also bounded by space and time 
+And it begs the question of should songs today be added to the Essen collection?
+What does this corpus actually represent?
+
+Societal conception of what our prototypes might derrive from?
+Or Colleciton of folk songs for historical purposes? (Ala lomax, bartok, whatever)
+At this level, represents the genre or style.
+
+We see this assumption that these collections or styles are representing something we implicitly have in the work of MP IDyOM.
+He trains his auditory computational model of cognition on a corpus that is limited in space and time, but then generalizes those probabilities into human behavior.
+
+And the thing is that they are very sucessful.
+We can look at the many things from Pearce 2018 where IDyOM is able to get it right.
+Western, Jazz, Chinese music. 
+
+So knowing that there is a move from the single dead composer to a cognitive conception of style.
+Would be good to have digital representaitons of sytles in brain.
+Could argue that sight singing melodies in the bel canto tradition follow this.
+Of course there is cultural baggage with it.
+But as stated in previous chapters, lots of people do sight singing and sight reading.
+And these melodies presumably come from the same culture they train musicians for,
+
+Interesting question as what it would mean to add a batch of sgiht sininging melodies ot other corpora.
+
+But here it is, a corpus of XXX melodies.
+
+### Why I don't follow a random sampling method
+
+Also I will explicitly say here I don't follow a random sampling method as perscribed by London.
+In his article comes to the conclusion that 300 or so pieces is needed for representive sample.
+Show how the cannon needs to be connected to something perceptual.
+
+
+** LONDON OF WHAT DOES IT MEAN TO BE REPRESENTIVE 
+-- london suggests 300 pieces for classical music representation
+-- says that the point is the build a corpus that is "broadly representative of the classical
+composers, styles, and genres that are most familiar to the 21st century listener."
+-- says that this then comes from what we hear 
+--- JL deliniates between passive and active consumption 
+-- point is that these sources "reflect our musical environment"
+-- the implicit assumption being that works outside this sampling would be described as not belonging, but is that not really just a not natural category since if we were to decide that it did belong, it would get lumped in? Clearly the deliniating point here is that of questions of musical similarity and questions of musical similarity are questions of subjectivity. So have to realize with this loop that unless we can additionally provide external evidence that melodies are perceptually different, hard to maintain the borders of what the corpus represents. 
+
+-- Also does this take into account that the listener would change based on exposure and training
+-- get direct and indirect uses of classical music and sample from that 
+-- def notes problems in sampling esp w value judgments and lenght of recordings
+
+Matthews (2009) -- looking at american programming
+
+Burden of learning to play the piece in terms of diversity?>? 
+
+
+VOLUME 31 OF MUSIC PERCEPTION
+
+Moving away from performance like live stuff or score based.
+
+
+Also when assempling a representive corpus, if you have a lot from one genere where the music is very similar, would htat not be an example of having your residuals correlated?
+
+And is there also an implicit assumption that there is something intrisic to each of these melodies that would allow them to be perceptually distiguishable from the other ones.
+Style crossovers are very hard , things like post modern jukebox.
+
+So instead I am introducing novel corpus of 600 melodies that are not tethered to a large cannon in the way that something like a London corpus, or Barlow and Morgenstern, or Essen would presumably be.
+In the above context they come from small subcultre most related to bel canto singing.
+
+I first describe the corpus as a whole.
+
+Descriptive statistics.
+Number of songs.
+Lenghts of songs.
+Key distributions.
+facet wrap of tone profiles.
+
+But then I compare this to the Essen folk song and Densmore and China.
+
+Would be interested to know if you train an IDyOM model on three distinct corpora, will the melody from each of the corpus reflect the different expectationa values in terms of cultural difference.
+
+Make the argument that all corpora are implicit genres.
+Find that pearce paper about historical listening. 
+
+
+
+
+## Brief review of Chapter 4 on corpus (Language to reflect journal submission)
+### Corpus outside of music
+### Corpus in Music
+### The point is that it implicitly represents humand knowledge
+### IDyOM 1
+### IDyOM 2
+### IDyOM 3
+### Huron suggestions that starts of melodies relate to mental rotaiton 
+### Other Huron claims
+## Note problem with using corpus is making corpus
+### Many are used on Essen
+### Brinkman says Essen Sucks
+### If going to make generlizable claims, need to always have new data 
+## Solem duty to encode and report on corpus
+### Justin London Article on what makes it into a corpsu
+### Though I just encoded the whole thing because in my heart of hearts I'm a Bayesian
+## The Corpus
+### History of Sight Singign books
+### Assumed to be where long term store comes from (adumbrate computational model)
+### Lots of melodies in ascending order of difficulty, grouped appropriately though? Utah guy
+### Why I encoded it in XML  
+### Is it legal?
+## Descriptive Stats of Corpus
+### Why?
+#### For pedagogical purposes
+#### For experimental purposes
+#### For computational idexing (get me melody with x tonal score)
+#### Could serve as representation of implicitly learned expectations for future modeling
+### Feature Level
+#### What features are normally distributed
+#### Correlated feature problem
+#### big ~facet wrap of the whole thing
+#### Could do dimensonality reduction (Baker, Harrison, others) but then loose understanding
+### n-gram
+#### Big solfege n-gram table
+#### Dependent on representation (notes, solfege, mint)
+#### Shiny app of n-gram heatmap with Peter
+#### Idea would be that hotter n-grams lend them selves to better chunking (but need better word than chunking)
+
