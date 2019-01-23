@@ -223,6 +223,8 @@ Nevertheless, while the number seven is most likely a red herring, it did inspir
 In the decades since the number 7 has been reduced to about 4 [@cowanMagicalMysteryFour2010] and research around capacity limits has been investigated using a variety of novel tasks, most noteable the complex span task CITATION.   
 When used as predictors in both higher and lower cognitive tasks, measures of working memory capacity predict performance well and additionally tend to be stable across a lifetime [@unsworthAutomatedVersionOperation2005].
 
+#### Parallels Between Working Memory and Melodic Dictation
+
 Given its predictive strength as well as its direct similarity to tasks of melodic dictation, a in depth look at the literature is warranted.   
 Clearly an individual's ability to take in sensory information, maintain it in memory, actively carry out other tasks (like notating said melody) are almost identical to tasks of working memory capacity. 
 Before venturing onward from this striking parallel, tasks investigating working memory capacity differ from melodic dictation tasks in a few key ways.

@@ -5,11 +5,11 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Chapter 6 Experiments | Modeling Melodic Dictation</title>
+  <title>Modeling Melodic Dictation</title>
   <meta name="description" content="This dissertation explores both individual and musical features that might contribute to processes involved in melodic dictation.">
   <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
-  <meta property="og:title" content="Chapter 6 Experiments | Modeling Melodic Dictation" />
+  <meta property="og:title" content="Modeling Melodic Dictation" />
   <meta property="og:type" content="book" />
   
   
@@ -17,7 +17,7 @@
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 6 Experiments | Modeling Melodic Dictation" />
+  <meta name="twitter:title" content="Modeling Melodic Dictation" />
   
   <meta name="twitter:description" content="This dissertation explores both individual and musical features that might contribute to processes involved in melodic dictation." />
   
@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="hello-corpus.html">
-<link rel="next" href="computational-model.html">
+
+<link rel="next" href="intro.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -180,7 +180,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.3.2" data-path="individual-differences.html"><a href="individual-differences.html#materials"><i class="fa fa-check"></i><b>3.3.2</b> Materials</a></li>
 <li class="chapter" data-level="3.3.3" data-path="individual-differences.html"><a href="individual-differences.html#procedure"><i class="fa fa-check"></i><b>3.3.3</b> Procedure</a></li>
 <li class="chapter" data-level="3.3.4" data-path="individual-differences.html"><a href="individual-differences.html#results"><i class="fa fa-check"></i><b>3.3.4</b> Results</a></li>
-<li class="chapter" data-level="3.3.5" data-path="individual-differences.html"><a href="individual-differences.html#discussion"><i class="fa fa-check"></i><b>3.3.5</b> Discussion</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="individual-differences.html"><a href="individual-differences.html#discussion"><i class="fa fa-check"></i><b>3.4</b> Discussion</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="individual-differences.html"><a href="individual-differences.html#model-fits"><i class="fa fa-check"></i><b>3.4.1</b> Model Fits</a></li>
+<li class="chapter" data-level="3.4.2" data-path="individual-differences.html"><a href="individual-differences.html#relating-to-melodic-dictation"><i class="fa fa-check"></i><b>3.4.2</b> Relating to Melodic Dictation</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="computation-chapter.html"><a href="computation-chapter.html"><i class="fa fa-check"></i><b>4</b> Computation Chapter</a><ul>
@@ -289,134 +292,175 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="experiments" class="section level1">
-<h1><span class="header-section-number">Chapter 6</span> Experiments</h1>
-<div id="rationale-3" class="section level2">
-<h2><span class="header-section-number">6.1</span> Rationale</h2>
-<div id="have-done-all-this-and-have-not-actually-talked-about-dictation-yet" class="section level3">
-<h3><span class="header-section-number">6.1.1</span> Have done all this and have not actually talked about dictation yet</h3>
+<div id="header">
+<h1 class="title">Modeling Melodic Dictation</h1>
+<p class="author"><em>David John Baker</em></p>
+<p class="date"><em>2019-01-23</em></p>
 </div>
-<div id="clearly-many-factors-contribte-to-this-whole-thing-and-need-to-be-taken-into-a-model" class="section level3">
-<h3><span class="header-section-number">6.1.2</span> Clearly many factors contribte to this whole thing and need to be taken into a model</h3>
+<div id="significance-of-the-study" class="section level1">
+<h1><span class="header-section-number">Chapter 1</span> Significance of the Study</h1>
+<div id="rationale" class="section level2">
+<h2><span class="header-section-number">1.1</span> Rationale</h2>
+<p>All students pursing a Bachelor’s degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation <span class="citation">(“National Association of Schools of Music Handbook” <a href="#ref-NationalAssociationSchools2018">2018</a>, sec. VIII.6.B.2.A)</span>.
+Melodic dictation is a cognitively demanding process that requires students to listen to a melody, retain it in memory, and then use their knowledge of Western musical notation in order to recreate the mental image of the melody on paper in a limited time frame.
+As of 2019 there are 644 Schools of Music belonging to National Association of Schools of Music (NASM)<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, meaning that hundreds of students every year will be expected to learn this challenging task as part of their aural skills education.
+The implicit logic is that as one improves in their ability to take melodic dictation, this practice of critical and active listening develops one’s ability to “think in music” <span class="citation">(Best <a href="#ref-bestMusicCurriculaFuture1992">1992</a>; Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span> and thus become a more competent musician.</p>
+<p>Despite its ubiquity in curricula within School of Music settings, research on topics pertain to how aural skills are acquired is limited at best.
+The fields of music theory and cognitive psychology are best positioned to make progress on this question, but often the skills required to be well versed in their of these subjects are disparate, published in separate journals, and the research with overlap is scarce.
+This problem is not new and there have been repeated attempts to bridge the gap between practitioners of aural skills and people in cognitive psychology <span class="citation">(Butler and Lochstampfor, <a href="#ref-butlerBridgesUnbuiltComparing1993">n.d.</a>; Butler <a href="#ref-davidbutlerWhyGulfMusic1997a">1997</a>; Klonoski <a href="#ref-klonoskiImprovingDictationAuralSkills2006">2006</a>, <a href="#ref-klonoskiPerceptualLearningHierarchy2000">2000</a>; Pembrook and Riggins <a href="#ref-pembrookSendHelpAural1990">1990</a>; Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span>.
+Literature from music theory has established conceptual frameworks regarding aural skills <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span><a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>, cognitive psychology literature has explored factors that might contribute to melodic perception <span class="citation">(Dowling <a href="#ref-dowlingExpectancyAttentionMelody1990">1990</a>, <a href="#ref-dowlingScaleContourTwo1978">1978</a>, <a href="#ref-dowlingTonalStrengthMelody1991">1991</a>; Halpern and Bartlett <a href="#ref-halpernMemoryMelodies2010">2010</a>)</span>, and applied literature from the field of music education <span class="citation">(Buonviri <a href="#ref-buonviriEffectsTwoListening2017">2017</a>; Nathan O Buonviri and Paney <a href="#ref-buonviriMelodicDictationInstruction2015">2015</a>; Paney <a href="#ref-paneyEffectDirectingAttention2016">2016</a>)</span>.</p>
+<p>However, despite these isolated areas of research, we as music researchers, do not have an a concrete understanding of exactly what contributes to the process of how individuals learn melodies <span class="citation">(Halpern and Bartlett <a href="#ref-halpernMemoryMelodies2010">2010</a>)</span>.
+This is peculiar since “how does one learn a melody?” seems to be one of the fundamental questions to the fields of music theory, music psychology, as well as music education.
+This chasm in the literature also raises a disconcerting question among pedagogy:</p>
+<blockquote>
+<p>If we as pedagogues do not have a in-depth understanding of how people learn melodies, how can we fairly assess what students can be expected to do and then grade them fairly on their attempts?</p>
+</blockquote>
+<p>While no single dissertation can solve any problem completely, this dissertation aims to fill the gap in the literature between aural skills practitioners and music psychologists in order to reach conclusions that can be applied systematically in pedagogical contexts.
+I do this by synthesizing literature from both music theory and music cognition in order to demonstrate how tools from both cognitive psychology as well as computational musicology can be used to help inform pedagogical practices.</p>
 </div>
-<div id="dictation-is-basically-a-within-subjects-design-experiment" class="section level3">
-<h3><span class="header-section-number">6.1.3</span> Dictation is basically a within subjects design Experiment</h3>
-<div id="get-very-ecological-and-dirty-and-run-it" class="section level4">
-<h4><span class="header-section-number">6.1.3.1</span> Get very ecological and dirty and run it</h4>
+<div id="chapter-overview" class="section level2">
+<h2><span class="header-section-number">1.2</span> Chapter Overview</h2>
+<p>In this first chapter, I introduce the process of melodic dictation and discuss factors that would presumably could play a role in taking melodic dictation building off of the work of Gary Karpinski <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>, <a href="#ref-karpinskiModelMusicPerception1990">1990</a>)</span>
+The chapter introduces both a theoretical background and rationale for using methods from both computational musicology and cognitive psychology in order to answer questions about how individuals learn melodies.
+In order to organize the disparate literature, I put forward a taxonomy of factors that are assumed to contribute to an individual’s ability to take melodic dictation and discuss each in turn.
+This chapter outlines the factors hypothesized to contribute to an individual’s ability to learn melodies, incorporating both individual and musical parameters.
+I conclude the chapter with a discussion of some philosophical and theoretical problems when attempting to measure issues concerning melodic dictation and argue for the advantages of answering this problem using a polymorphic view of musicianship <span class="citation">(Levitin <a href="#ref-levitinWhatDoesIt2012">2012</a>; Peretz <a href="#ref-peretzNatureMusicBiological2006">2006</a>; Baker et al. <a href="#ref-bakerExaminingMusicalSophistication2018">2018</a>)</span>.</p>
+<p>The second chapter of my dissertation investigates individual factors that are theorized to contribute to melodic dictation.
+I argue that since the first two steps of Karpinski’s model of melodic dictation do not require any musical training, teasing apart the individual factors that contribute to melodic dictation can be done using a memory for melodies paradigm and structural equation modeling.
+I interpret the results of the data and analysis to highlight the importance of working memory processes in melodic dictation.
+The chapter corroborates claims by <span class="citation">Berz (<a href="#ref-berzWorkingMemoryMusic1995">1995</a>)</span> on the importance of understanding differences in working memory capacity and establishes rationale for including it as a variable of interest in future chapters.</p>
+<p>The third chapter of the dissertation discusses how aural skills pedagogy could benefit from using methodologies computational musicology in order to inform their practice.
+The chapter begins by establishing the degree to which aural skills pedagogues agree on the difficulty of melodies for melodic dictation using a small survey.
+I then show how different sets of tools from computational musicology can approximate the intuitions of aural skills pedagogues from the survey.
+The chapter concludes by putting forward a novel theory of musical memory– The Frequency Facilitation Hypothesis– derived from computational methodologies.
+I show how this hypothesis can be applied in pedagogical settings to create a more linear path to success in the aural skills classroom among students.</p>
+<p>In my fourth chapter, I introduce a novel corpus of 783 digitized melodies encoded in the <code>**kern</code>
+format.
+This chapter, encapsulating the encoding process, the sampling criteria, and the situation of corpus methodologies within the broader research area, will go over summary data and also discuss how the corpus could be used to generate hypotheses for future experiments.
+This dataset will serve as a valuable resource for future researchers in music, psychology, and the digital humanities.</p>
+<p>In the fifth chapter, I will synthesize the previous research in a series of melodic dictation experiments.
+Stimuli for the experiments are selected based on the abstracted, computational features of the melodies discussed in earlier chapters and are manipulated as independent variables based on the previous theoretical literature.
+I then model responses from the experiments using both individual factors and musical features using mixed-effects modeling in order to predict how well an individual performs in behavioral tasks.
+In discussing the results, I also note important caveats in scoring melodic dictation to discuss similarities between the correct answer and an individual’s attempts at dictation.
+Results from the final chapter will be discussed with reference to how findings are applicable to
+pedagogues in aural skills settings.</p>
+<p>Finally, in my sixth chapter, I introduce a computational, cognitive model of melodic dictation with the goal of helping explain how students improve at melodic dictation.
+The model is based in research from both cognitive psychology <span class="citation">(Cowan <a href="#ref-cowanMagicalMysteryFour2010">2010</a>)</span> and computational musicology <span class="citation">(Pearce <a href="#ref-pearceStatisticalLearningProbabilistic2018a">2018</a>)</span> and incorporates relevant theoretical aspects such as working memory <span class="citation">(Chenette <a href="#ref-chenetteReframingAuralSkills2019">2019</a>; VanHandel, Wakefield, and Wilkins <a href="#ref-vanhandelRoleWorkingMemory2011">2011</a>)</span> and the structure of the melody itself.
+In this chapter I demonstrate how modeling the cognitive decision process during melodic dictation helps provide a precise framework for pedagogues to understand student’s inner cognition during melodic dictation and can help inform teaching practice.</p>
+</div>
+<div id="dissertation-output" class="section level2">
+<h2><span class="header-section-number">1.3</span> Dissertation Output</h2>
+<div id="reserach-papers" class="section level3">
+<h3><span class="header-section-number">1.3.1</span> Reserach Papers</h3>
 <ul>
-<li>Paney 2016 had 30 second timing</li>
+<li>SEM Paper in ICMPC</li>
+<li>Aural Skills Paper ICMPC</li>
+<li>Aural Skills Textbook</li>
+<li>Goldsmiths Replication</li>
 </ul>
 </div>
-</div>
-<div id="factors" class="section level3">
-<h3><span class="header-section-number">6.1.4</span> Factors</h3>
-<div id="cognitive-1" class="section level4">
-<h4><span class="header-section-number">6.1.4.1</span> Cognitive</h4>
-<div id="wmc" class="section level5">
-<h5><span class="header-section-number">6.1.4.1.1</span> WMC</h5>
-</div>
-<div id="gf" class="section level5">
-<h5><span class="header-section-number">6.1.4.1.2</span> GF</h5>
-</div>
-</div>
-<div id="training" class="section level4">
-<h4><span class="header-section-number">6.1.4.2</span> Training</h4>
-<div id="goldsmiths-msi" class="section level5">
-<h5><span class="header-section-number">6.1.4.2.1</span> Goldsmiths MSI</h5>
-</div>
-</div>
-<div id="musical" class="section level4">
-<h4><span class="header-section-number">6.1.4.3</span> Musical</h4>
-<div id="fantastic" class="section level5">
-<h5><span class="header-section-number">6.1.4.3.1</span> FANTASTIC</h5>
-</div>
-<div id="idyom" class="section level5">
-<h5><span class="header-section-number">6.1.4.3.2</span> IDyOM</h5>
-</div>
-</div>
-<div id="investigate-melodies-with-this-context-and-set-scoring" class="section level4">
-<h4><span class="header-section-number">6.1.4.4</span> Investigate melodies with this context and set scoring</h4>
-</div>
-<div id="mirror-design-to-see-if-effects-of-melody-are-there" class="section level4">
-<h4><span class="header-section-number">6.1.4.5</span> Mirror design to see if effects of melody are there</h4>
-</div>
-</div>
-</div>
-<div id="experiments-1" class="section level2">
-<h2><span class="header-section-number">6.2</span> Experiments</h2>
-<div id="experiment-i" class="section level3">
-<h3><span class="header-section-number">6.2.1</span> Experiment I</h3>
-<div id="participants-1" class="section level4">
-<h4><span class="header-section-number">6.2.1.1</span> Participants</h4>
-</div>
-<div id="procedure-1" class="section level4">
-<h4><span class="header-section-number">6.2.1.2</span> Procedure</h4>
-</div>
-<div id="materials-1" class="section level4">
-<h4><span class="header-section-number">6.2.1.3</span> Materials</h4>
-</div>
-<div id="scoring" class="section level4">
-<h4><span class="header-section-number">6.2.1.4</span> Scoring</h4>
-</div>
-<div id="results-1" class="section level4">
-<h4><span class="header-section-number">6.2.1.5</span> Results</h4>
-</div>
-<div id="modeling-1" class="section level4">
-<h4><span class="header-section-number">6.2.1.6</span> Modeling</h4>
-</div>
-<div id="discussion-1" class="section level4">
-<h4><span class="header-section-number">6.2.1.7</span> Discussion</h4>
-</div>
-</div>
-<div id="experiment-ii" class="section level3">
-<h3><span class="header-section-number">6.2.2</span> Experiment II</h3>
-<div id="participants-new" class="section level4">
-<h4><span class="header-section-number">6.2.2.1</span> Participants (New)</h4>
-</div>
-<div id="procedure-same" class="section level4">
-<h4><span class="header-section-number">6.2.2.2</span> Procedure (Same)</h4>
-</div>
-<div id="materials-swapped-but-controlled" class="section level4">
-<h4><span class="header-section-number">6.2.2.3</span> Materials (Swapped but controlled)</h4>
-</div>
-<div id="scoring-same" class="section level4">
-<h4><span class="header-section-number">6.2.2.4</span> Scoring (Same)</h4>
-</div>
-<div id="results-2" class="section level4">
-<h4><span class="header-section-number">6.2.2.5</span> Results</h4>
-</div>
-<div id="modeling-same" class="section level4">
-<h4><span class="header-section-number">6.2.2.6</span> Modeling (same)</h4>
-</div>
-</div>
-<div id="general-discussion" class="section level3">
-<h3><span class="header-section-number">6.2.3</span> General Discussion</h3>
-<div id="what-happened" class="section level4">
-<h4><span class="header-section-number">6.2.3.1</span> What happened</h4>
-</div>
-<div id="assumption-of-all-of-this-is-that-many-things-are-happening-linearly-in-combination-with-each-other" class="section level4">
-<h4><span class="header-section-number">6.2.3.2</span> Assumption of all of this is that many things are happening linearly in combination with each other</h4>
-</div>
-<div id="additionally-the-mixed-effects-framework-works-better-with-more-data" class="section level4">
-<h4><span class="header-section-number">6.2.3.3</span> Additionally the mixed effects framework works better with more data?</h4>
-</div>
-<div id="also-how-we-score-it-is-going-to-mess-wiht-the-dvs" class="section level4">
-<h4><span class="header-section-number">6.2.3.4</span> Also how we score it is going to mess wiht the DVs</h4>
-</div>
-</div>
-<div id="really-what-is-needed-is-computational-model" class="section level3">
-<h3><span class="header-section-number">6.2.4</span> Really what is needed is Computational Model</h3>
+<div id="research-presentations" class="section level3">
+<h3><span class="header-section-number">1.3.2</span> Research Presentations</h3>
+<ul>
+<li>SEM Paper at ICMPC</li>
+<li>Aural Skills Poster</li>
+<li>Milton Keynes Talk</li>
+<li>Public Musicology</li>
+<li>Again and Again?</li>
+</ul>
 
 </div>
 </div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-NationalAssociationSchools2018">
+<p>“National Association of Schools of Music Handbook.” 2018. Reston, Virginia: National Association of Schools of Music.</p>
+</div>
+<div id="ref-bestMusicCurriculaFuture1992">
+<p>Best, Harold M. 1992. “Music Curricula in the Future.” <em>Arts Education Policy Review</em> 94 (2): 2–7. <a href="https://doi.org/10.1080/10632913.1992.9936901" class="uri">https://doi.org/10.1080/10632913.1992.9936901</a>.</p>
+</div>
+<div id="ref-karpinskiAuralSkillsAcquisition2000">
+<p>Karpinski, Gary Steven. 2000. <em>Aural Skills Acquisition: The Development of Listening, Reading, and Performing Skills in College-Level Musicians</em>. Oxford University Press.</p>
+</div>
+<div id="ref-butlerBridgesUnbuiltComparing1993">
+<p>Butler, David, and Mark Lochstampfor. n.d. “Bridges Unbuilt: Comparing the Literatures of Music Cognition and Aural Training.” <em>Indiana Theory Review</em> 14 (2): 1–17.</p>
+</div>
+<div id="ref-davidbutlerWhyGulfMusic1997a">
+<p>Butler, David. 1997. “Why the Gulf Between Music Perception Research and Aural Training?” <em>Bulletin of the Council for Research in Music Education</em>, no. 132.</p>
+</div>
+<div id="ref-klonoskiImprovingDictationAuralSkills2006">
+<p>Klonoski, Edward. 2006. “Improving Dictation as an Aural-Skills Instructional Tool,” 6.</p>
+</div>
+<div id="ref-klonoskiPerceptualLearningHierarchy2000">
+<p>Klonoski, Edward. 2000. “A Perceptual Learning Hierarchy: An Imperative for Aural Skills Pedagogy.” <em>College Music Symposium</em> 4: 168–69.</p>
+</div>
+<div id="ref-pembrookSendHelpAural1990">
+<p>Pembrook, Randall G., and H. Lee Riggins. 1990. “&quot;Send Help!&quot;: Aural Skills Instruction in U.S. Colleges and Universities.” <em>Journal of Music Theory Pedagogy</em> 4 (1): 230–41.</p>
+</div>
+<div id="ref-dowlingExpectancyAttentionMelody1990">
+<p>Dowling, W. 1990. “Expectancy and Attention in Melody Perception.” <em>Psychomusicology: A Journal of Research in Music Cognition</em> 9 (2): 148–60. <a href="https://doi.org/10.1037/h0094150" class="uri">https://doi.org/10.1037/h0094150</a>.</p>
+</div>
+<div id="ref-dowlingScaleContourTwo1978">
+<p>Dowling, W. Jay. 1978. “Scale and Contour: Two Components of a Theory of Memory for Melodies.” <em>Psychological Review</em> 84 (4): 341–54.</p>
+</div>
+<div id="ref-dowlingTonalStrengthMelody1991">
+<p>Dowling, W. 1991. “Tonal Strength and Melody Recognition After Long and Short Delays.” <em>Perception &amp; Psychophysics</em> 50 (4): 305–13. <a href="https://doi.org/10.3758/BF03212222" class="uri">https://doi.org/10.3758/BF03212222</a>.</p>
+</div>
+<div id="ref-halpernMemoryMelodies2010">
+<p>Halpern, Andrea R., and James C. Bartlett. 2010. “Memory for Melodies.” In <em>Music Perception</em>, edited by Mari Riess Jones, Richard R. Fay, and Arthur N. Popper, 36:233–58. New York, NY: Springer New York. <a href="https://doi.org/10.1007/978-1-4419-6114-3_8" class="uri">https://doi.org/10.1007/978-1-4419-6114-3_8</a>.</p>
+</div>
+<div id="ref-buonviriEffectsTwoListening2017">
+<p>Buonviri, Nathan O. 2017. “Effects of Two Listening Strategies for Melodic Dictation.” <em>Journal of Research in Music Education</em> 65 (3): 347–59. <a href="https://doi.org/10.1177/0022429417728925" class="uri">https://doi.org/10.1177/0022429417728925</a>.</p>
+</div>
+<div id="ref-buonviriMelodicDictationInstruction2015">
+<p>Buonviri, Nathan O, and Andrew S Paney. 2015. “Melodic Dictation Instruction.” <em>Journal of Research in Music Education</em> 62 (2): 224–37.</p>
+</div>
+<div id="ref-paneyEffectDirectingAttention2016">
+<p>Paney, Andrew S. 2016. “The Effect of Directing Attention on Melodic Dictation Testing.” <em>Psychology of Music</em> 44 (1): 15–24. <a href="https://doi.org/10.1177/0305735614547409" class="uri">https://doi.org/10.1177/0305735614547409</a>.</p>
+</div>
+<div id="ref-karpinskiModelMusicPerception1990">
+<p>Karpinski, Gary. 1990. “A Model for Music Perception and Its Implications in Melodic Dictation.” <em>Journal of Music Theory Pedagogy</em> 4 (1): 191–229.</p>
+</div>
+<div id="ref-levitinWhatDoesIt2012">
+<p>Levitin, Daniel J. 2012. “What Does It Mean to Be Musical?” <em>Neuron</em> 73 (4): 633–37. <a href="https://doi.org/10.1016/j.neuron.2012.01.017" class="uri">https://doi.org/10.1016/j.neuron.2012.01.017</a>.</p>
+</div>
+<div id="ref-peretzNatureMusicBiological2006">
+<p>Peretz, Isabelle. 2006. “The Nature of Music from a Biological Perspective.” <em>Cognition</em> 100 (1): 1–32. <a href="https://doi.org/10.1016/j.cognition.2005.11.004" class="uri">https://doi.org/10.1016/j.cognition.2005.11.004</a>.</p>
+</div>
+<div id="ref-bakerExaminingMusicalSophistication2018">
+<p>Baker, David John, Juan Ventura, Matthew Calamia, Daniel Shanahan, and Emily M. Elliott. 2018. “Examining Musical Sophistication: A Replication and Theoretical Commentary on the Goldsmiths Musical Sophistication Index.” <em>Musicae Scientiae</em>, November, 102986491881187. <a href="https://doi.org/10.1177/1029864918811879" class="uri">https://doi.org/10.1177/1029864918811879</a>.</p>
+</div>
+<div id="ref-berzWorkingMemoryMusic1995">
+<p>Berz, William L. 1995. “Working Memory in Music: A Theoretical Model.” <em>Music Perception: An Interdisciplinary Journal</em> 12 (3): 353–64. <a href="https://doi.org/10.2307/40286188" class="uri">https://doi.org/10.2307/40286188</a>.</p>
+</div>
+<div id="ref-cowanMagicalMysteryFour2010">
+<p>Cowan, Nelson. 2010. “The Magical Mystery Four: How Is Working Memory Capacity Limited, and Why?” <em>Current Directions in Psychological Science</em> 19 (1): 51–57. <a href="https://doi.org/10.1177/0963721409359277" class="uri">https://doi.org/10.1177/0963721409359277</a>.</p>
+</div>
+<div id="ref-pearceStatisticalLearningProbabilistic2018a">
+<p>Pearce, Marcus T. 2018. “Statistical Learning and Probabilistic Prediction in Music Cognition: Mechanisms of Stylistic Enculturation: Enculturation: Statistical Learning and Prediction.” <em>Annals of the New York Academy of Sciences</em> 1423 (1): 378–95. <a href="https://doi.org/10.1111/nyas.13654" class="uri">https://doi.org/10.1111/nyas.13654</a>.</p>
+</div>
+<div id="ref-chenetteReframingAuralSkills2019">
+<p>Chenette, Timothy K. 2019. “Reframing Aural Skills Instruction Based on Research in Working Memory.” <em>Journal for Music Theory Pedagogy</em>, 18.</p>
+</div>
+<div id="ref-vanhandelRoleWorkingMemory2011">
+<p>VanHandel, Leigh, Jennie Wakefield, and Wendy K. Wilkins. 2011. “Towards the Role of Working Memory in Pitch Processing in Language and Music.” In <em>Language and Music as Cognitive Systems</em>, edited by Patrick Rebuschat, Martin Rohmeier, John A. Hawkins, and Ian Cross, 302–9. Oxford University Press. <a href="https://doi.org/10.1093/acprof:oso/9780199553426.003.0031" class="uri">https://doi.org/10.1093/acprof:oso/9780199553426.003.0031</a>.</p>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>For a list of Schools, please look <a href="https://nasm.arts-accredit.org/directory-lists/accredited-institutions/search/?institutionname=&amp;city=&amp;state=&amp;country=&amp;search=true">here</a><a href="index.html#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>More aural skills textbooks here<a href="index.html#fnref2" class="footnote-back">↩</a></p></li>
+</ol>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="hello-corpus.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="computational-model.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+
+<a href="intro.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -446,7 +490,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/05-experiments.Rmd",
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/index.Rmd",
 "text": "Edit"
 },
 "history": {

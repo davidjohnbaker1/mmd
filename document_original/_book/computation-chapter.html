@@ -5,11 +5,11 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Modeling Melodic Dictation</title>
+  <title>Chapter 4 Computation Chapter | Modeling Melodic Dictation</title>
   <meta name="description" content="This dissertation explores both individual and musical features that might contribute to processes involved in melodic dictation.">
   <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
-  <meta property="og:title" content="Modeling Melodic Dictation" />
+  <meta property="og:title" content="Chapter 4 Computation Chapter | Modeling Melodic Dictation" />
   <meta property="og:type" content="book" />
   
   
@@ -17,7 +17,7 @@
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Modeling Melodic Dictation" />
+  <meta name="twitter:title" content="Chapter 4 Computation Chapter | Modeling Melodic Dictation" />
   
   <meta name="twitter:description" content="This dissertation explores both individual and musical features that might contribute to processes involved in melodic dictation." />
   
@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-
-<link rel="next" href="intro.html">
+<link rel="prev" href="individual-differences.html">
+<link rel="next" href="hello-corpus.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -180,7 +180,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.3.2" data-path="individual-differences.html"><a href="individual-differences.html#materials"><i class="fa fa-check"></i><b>3.3.2</b> Materials</a></li>
 <li class="chapter" data-level="3.3.3" data-path="individual-differences.html"><a href="individual-differences.html#procedure"><i class="fa fa-check"></i><b>3.3.3</b> Procedure</a></li>
 <li class="chapter" data-level="3.3.4" data-path="individual-differences.html"><a href="individual-differences.html#results"><i class="fa fa-check"></i><b>3.3.4</b> Results</a></li>
-<li class="chapter" data-level="3.3.5" data-path="individual-differences.html"><a href="individual-differences.html#discussion"><i class="fa fa-check"></i><b>3.3.5</b> Discussion</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="individual-differences.html"><a href="individual-differences.html#discussion"><i class="fa fa-check"></i><b>3.4</b> Discussion</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="individual-differences.html"><a href="individual-differences.html#model-fits"><i class="fa fa-check"></i><b>3.4.1</b> Model Fits</a></li>
+<li class="chapter" data-level="3.4.2" data-path="individual-differences.html"><a href="individual-differences.html#relating-to-melodic-dictation"><i class="fa fa-check"></i><b>3.4.2</b> Relating to Melodic Dictation</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="computation-chapter.html"><a href="computation-chapter.html"><i class="fa fa-check"></i><b>4</b> Computation Chapter</a><ul>
@@ -289,166 +292,282 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Modeling Melodic Dictation</h1>
-<p class="author"><em>David John Baker</em></p>
-<p class="date"><em>2019-01-23</em></p>
-</div>
-<div id="significance-of-the-study" class="section level1">
-<h1><span class="header-section-number">Chapter 1</span> Significance of the Study</h1>
-<div id="rationale" class="section level2">
-<h2><span class="header-section-number">1.1</span> Rationale</h2>
-<p>All students pursing a Bachelor’s degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation <span class="citation">(“National Association of Schools of Music Handbook” <a href="#ref-NationalAssociationSchools2018">2018</a>, sec. VIII.6.B.2.A)</span>.
-Melodic dictation is a cognitively demanding process that requires students to listen to a melody, retain it in memory, and then use their knowledge of Western musical notation in order to recreate the mental image of the melody on paper in a limited time frame.
-As of 2019 there are 644 Schools of Music belonging to National Association of Schools of Music (NASM)<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, meaning that hundreds of students every year will be expected to learn this challenging task as part of their aural skills education.
-The implicit logic is that as one improves in their ability to take melodic dictation, this practice of critical and active listening develops one’s ability to “think in music” <span class="citation">(Best <a href="#ref-bestMusicCurriculaFuture1992">1992</a>; Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span> and thus become a more competent musician.</p>
-<p>Despite its ubiquity in curricula within School of Music settings, research on topics pertain to how aural skills are acquired is limited at best.
-The fields of music theory and cognitive psychology are best positioned to make progress on this question, but often the skills required to be well versed in their of these subjects are disparate, published in separate journals, and the research with overlap is scarce.
-This problem is not new and there have been repeated attempts to bridge the gap between practitioners of aural skills and people in cognitive psychology <span class="citation">(Butler and Lochstampfor, <a href="#ref-butlerBridgesUnbuiltComparing1993">n.d.</a>; Butler <a href="#ref-davidbutlerWhyGulfMusic1997a">1997</a>; Klonoski <a href="#ref-klonoskiImprovingDictationAuralSkills2006">2006</a>, <a href="#ref-klonoskiPerceptualLearningHierarchy2000">2000</a>; Pembrook and Riggins <a href="#ref-pembrookSendHelpAural1990">1990</a>; Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span>.
-Literature from music theory has established conceptual frameworks regarding aural skills <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span><a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>, cognitive psychology literature has explored factors that might contribute to melodic perception <span class="citation">(Dowling <a href="#ref-dowlingExpectancyAttentionMelody1990">1990</a>, <a href="#ref-dowlingScaleContourTwo1978">1978</a>, <a href="#ref-dowlingTonalStrengthMelody1991">1991</a>; Halpern and Bartlett <a href="#ref-halpernMemoryMelodies2010">2010</a>)</span>, and applied literature from the field of music education <span class="citation">(Buonviri <a href="#ref-buonviriEffectsTwoListening2017">2017</a>; Nathan O Buonviri and Paney <a href="#ref-buonviriMelodicDictationInstruction2015">2015</a>; Paney <a href="#ref-paneyEffectDirectingAttention2016">2016</a>)</span>.</p>
-<p>However, despite these isolated areas of research, we as music researchers, do not have an a concrete understanding of exactly what contributes to the process of how individuals learn melodies <span class="citation">(Halpern and Bartlett <a href="#ref-halpernMemoryMelodies2010">2010</a>)</span>.
-This is peculiar since “how does one learn a melody?” seems to be one of the fundamental questions to the fields of music theory, music psychology, as well as music education.
-This chasm in the literature also raises a disconcerting question among pedagogy:</p>
-<blockquote>
-<p>If we as pedagogues do not have a in-depth understanding of how people learn melodies, how can we fairly assess what students can be expected to do and then grade them fairly on their attempts?</p>
-</blockquote>
-<p>While no single dissertation can solve any problem completely, this dissertation aims to fill the gap in the literature between aural skills practitioners and music psychologists in order to reach conclusions that can be applied systematically in pedagogical contexts.
-I do this by synthesizing literature from both music theory and music cognition in order to demonstrate how tools from both cognitive psychology as well as computational musicology can be used to help inform pedagogical practices.</p>
-</div>
-<div id="chapter-overview" class="section level2">
-<h2><span class="header-section-number">1.2</span> Chapter Overview</h2>
-<p>In this first chapter, I introduce the process of melodic dictation and discuss factors that would presumably could play a role in taking melodic dictation building off of the work of Gary Karpinski <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>, <a href="#ref-karpinskiModelMusicPerception1990">1990</a>)</span>
-The chapter introduces both a theoretical background and rationale for using methods from both computational musicology and cognitive psychology in order to answer questions about how individuals learn melodies.
-In order to organize the disparate literature, I put forward a taxonomy of factors that are assumed to contribute to an individual’s ability to take melodic dictation and discuss each in turn.
-This chapter outlines the factors hypothesized to contribute to an individual’s ability to learn melodies, incorporating both individual and musical parameters.
-I conclude the chapter with a discussion of some philosophical and theoretical problems when attempting to measure issues concerning melodic dictation and argue for the advantages of answering this problem using a polymorphic view of musicianship <span class="citation">(Levitin <a href="#ref-levitinWhatDoesIt2012">2012</a>; Peretz <a href="#ref-peretzNatureMusicBiological2006">2006</a>; Baker et al. <a href="#ref-bakerExaminingMusicalSophistication2018">2018</a>)</span>.</p>
-<p>The second chapter of my dissertation investigates individual factors that are theorized to contribute to melodic dictation.
-I argue that since the first two steps of Karpinski’s model of melodic dictation do not require any musical training, teasing apart the individual factors that contribute to melodic dictation can be done using a memory for melodies paradigm and structural equation modeling.
-I interpret the results of the data and analysis to highlight the importance of working memory processes in melodic dictation.
-The chapter corroborates claims by <span class="citation">Berz (<a href="#ref-berzWorkingMemoryMusic1995">1995</a>)</span> on the importance of understanding differences in working memory capacity and establishes rationale for including it as a variable of interest in future chapters.</p>
-<p>The third chapter of the dissertation discusses how aural skills pedagogy could benefit from using methodologies computational musicology in order to inform their practice.
-The chapter begins by establishing the degree to which aural skills pedagogues agree on the difficulty of melodies for melodic dictation using a small survey.
-I then show how different sets of tools from computational musicology can approximate the intuitions of aural skills pedagogues from the survey.
-The chapter concludes by putting forward a novel theory of musical memory– The Frequency Facilitation Hypothesis– derived from computational methodologies.
-I show how this hypothesis can be applied in pedagogical settings to create a more linear path to success in the aural skills classroom among students.</p>
-<p>In my fourth chapter, I introduce a novel corpus of 783 digitized melodies encoded in the <code>**kern</code>
-format.
-This chapter, encapsulating the encoding process, the sampling criteria, and the situation of corpus methodologies within the broader research area, will go over summary data and also discuss how the corpus could be used to generate hypotheses for future experiments.
-This dataset will serve as a valuable resource for future researchers in music, psychology, and the digital humanities.</p>
-<p>In the fifth chapter, I will synthesize the previous research in a series of melodic dictation experiments.
-Stimuli for the experiments are selected based on the abstracted, computational features of the melodies discussed in earlier chapters and are manipulated as independent variables based on the previous theoretical literature.
-I then model responses from the experiments using both individual factors and musical features using mixed-effects modeling in order to predict how well an individual performs in behavioral tasks.
-In discussing the results, I also note important caveats in scoring melodic dictation to discuss similarities between the correct answer and an individual’s attempts at dictation.
-Results from the final chapter will be discussed with reference to how findings are applicable to
-pedagogues in aural skills settings.</p>
-<p>Finally, in my sixth chapter, I introduce a computational, cognitive model of melodic dictation with the goal of helping explain how students improve at melodic dictation.
-The model is based in research from both cognitive psychology <span class="citation">(Cowan <a href="#ref-cowanMagicalMysteryFour2010">2010</a>)</span> and computational musicology <span class="citation">(Pearce <a href="#ref-pearceStatisticalLearningProbabilistic2018a">2018</a>)</span> and incorporates relevant theoretical aspects such as working memory <span class="citation">(Chenette <a href="#ref-chenetteReframingAuralSkills2019">2019</a>; VanHandel, Wakefield, and Wilkins <a href="#ref-vanhandelRoleWorkingMemory2011">2011</a>)</span> and the structure of the melody itself.
-In this chapter I demonstrate how modeling the cognitive decision process during melodic dictation helps provide a precise framework for pedagogues to understand student’s inner cognition during melodic dictation and can help inform teaching practice.</p>
-</div>
-<div id="dissertation-output" class="section level2">
-<h2><span class="header-section-number">1.3</span> Dissertation Output</h2>
-<div id="reserach-papers" class="section level3">
-<h3><span class="header-section-number">1.3.1</span> Reserach Papers</h3>
+<div id="computation-chapter" class="section level1">
+<h1><span class="header-section-number">Chapter 4</span> Computation Chapter</h1>
+<p>— ISMIR
+; symbolic music processing
+; computational music theory and musicology
+; cognitive MIR
+; datasets
+; evaluation beyond just notes
+; training and education application
+—</p>
+<div id="rationale-2" class="section level2">
+<h2><span class="header-section-number">4.1</span> Rationale</h2>
+<p>Music theorists use their pedagogical experience and intuitions to build the appropriate curricula for their aural skills pedagogy.
+Teaching aural skills typically starts with providing students with simpler exercises, often employing a limited number of notes and rhythms, and then slowly progressing to more difficult repertoire.
+This progression from simpler to more difficult is evident in aural skills text books.
+Of the major aural skills textbooks such as the OTTMANN, the BERKOWITZ, KARPINSKI, CLENDENNING MARVIN, DOBREA CLELAND, each is structured in such a way that musical material presented earlier on in the book is more manageable than that near the end.
+In fact, this is true of almost any ETUDE book: open to a random page in a book of musical studies and the difficulty of the study will most likely scale accordingly to its relative position in the textbook.
+But it is not a melody’s position in a text book that makes it difficult to perform: this difficulty comes from the structural elements from the music itself.</p>
+<p>Intuitively, music theorists have a general understanding of what makes a melody difficult to dictate.<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a>
+Factors that might contribute to this complexity could be attributes such as the melody’s note density, the intricacies of the rhythms involved, the scale from which the melody derives, or even more intuitively understood factors such as how tonal the melody sounds.
+Although given all these factors, there is no definitive combination of features that perfectly predicts the degree to which theorists will agree how complex a melody is.
+In many ways, questions of melodic complexity are very much like questions of melodic similarity: it depends on both who is asking the question and for what reasons (CITE SELF).</p>
+<p>Looking at the melodies presented in Figures X and Y, most aural skills pedagogues will be able to successfully intuit which melody is more complex, and presumably, more difficulty to dictate.</p>
 <ul>
-<li>SEM Paper in ICMPC</li>
-<li>Aural Skills Paper ICMPC</li>
-<li>Aural Skills Textbook</li>
-<li>Goldsmiths Replication</li>
+<li><p>FIGURE 1 – Melody with 8 Bars, functional accidentals (V/V, V/IV)</p></li>
+<li><p>FIGURE 2 – Same sets of notes rearranged</p></li>
 </ul>
+<p>While I reserve an extended discussion of what features might characterize why one melody is more difficult than the other to dictate for below, I assume that these melodies do differ in a fundamentally different way when performed in a similar fashion.
+Additionally, many readers of this dissertation can probably draw from anecdotal evidence of their own as to how student’s at various stages of their aural training might fair when asked to dictate both melodies.
+For some, melody Y might be overwhelmingly difficult.</p>
+<p>In fact, it might be overwhelmingly difficulty for the vast majority of people.
+Student are quick establish if they belie that a melody they are being tested on is too difficult, and importantly from a pedagogical standpoint, we as educators need to be able to know how difficulty melodies are given our students in order to asses a degree of fairness in our grading of student’s performance.
+While of course with each student there are inevitably many other variables at play ranging from personal abilities to the goals of the instructor in the scope of their course, yet there are intuitive benchmarks that students are expected to be able to complete throughout their education.
+As students progress, they are expected to be able to dictate more and more difficult melodies, yet exactly what makes a melody complex is often left to the expertise and intuition of a theorist.</p>
+<p>In this chapter I examine how tools from computational musicology can be used to help model an aural skill’s notion of complexity in melodies.
+First, I establish that theorists agree on the differences in melodic complexity using results from a small survey of XX theorists.
+Second, explore how both static and dynamic computationally derived measures can be used to approximate an aural skills pedagogue’s intuition.
+Third and finally, I use evidence afforded by research in computational musicology to posit that the distributional patterns in a corpus of music can be strategically employed to create a more linear path to success among students of aural skills.
+I demonstrate how by combining evidence from the statistical learning hypothesis, the probabilistic prediction hypothesis, and a newly posited distributional frequency hypothesis can explain why some musical sequences in a melody of a certain complexity are easier to dictate than others.
+Using this logic, I then create a new compendium of short melodies, sorted by their perceptual complexity, that can be used for teaching applications.</p>
 </div>
-<div id="research-presentations" class="section level3">
-<h3><span class="header-section-number">1.3.2</span> Research Presentations</h3>
+<div id="agreeing-on-complexity" class="section level2">
+<h2><span class="header-section-number">4.2</span> Agreeing on Complexity</h2>
+<p>Returning to melodies X and Y from above, an aural skills pedagogue most likely has some sort of intution of which of the two melodies would be easier to dictate.
+Melody X exhibits a predictiable melodic synatax and phrase structure, the chromatic notes resovle within the conventions of the Common Practice period, and many of the melodic motives outline and imply a harmony based on tertian harmony.
+On the other hand, Melody Y’s syntax does not comform the the conventions of the common practice music and does not imply any sort of underlying harmony.
+The durations of the rhythms appear irregular and the melody implies an uneven phrase structure.
+Yet both melodies X and Y have the exact same set of notes and rhythms.
+Though despite these content similarities, it would be safe to assume that melody X is probably much easier to dictate than melody Y assuming both were to be played at the same tempo and instrumentation.</p>
+<p>In fact, aural skills pedagoges tend to agree for the most part on questions of difficulty of dication.
+To demonstrate this, I surveyed XX aural skills pedagogues who have all taught at least two years of aural skills at the University level asking them questions presented in TABLE X on a sample of XX melodies found in the BERKOWITZ.
+The survey had questions that specficially were designed to gauge their appropriateness for use in a melodic dictation context.</p>
+<p>Questions included:</p>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">Table</td>
+</tr>
+<tr class="even">
+<td align="left">1. What semester of aural skills do you think this melody is appropriate for?</td>
+</tr>
+<tr class="odd">
+<td align="left">2. How many times do you think this melody should be played in reference to your answer from question 1?</td>
+</tr>
+<tr class="even">
+<td align="left">3. Please rate how difficult you believe this melody to be for the average second year undergraduate at your instiution.</td>
+</tr>
+<tr class="odd">
+<td align="left">4. How musical do you believe this melody to be?</td>
+</tr>
+<tr class="even">
+<td align="left">5. Where in the melody (please list a measure number) do you think student’s will have the most difficulty dictating the melody?</td>
+</tr>
+<tr class="odd">
+<td align="left">6. Is this a melody you would feel comfortable using in your own aural skill’s class?</td>
+</tr>
+<tr class="even">
+<td align="left">7. Could you dictate this melody now?</td>
+</tr>
+</tbody>
+</table>
+<p>Overall, the sample exhibited a _____ degree of inter-rater reliability as measured by THIS STATISTICX<a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a>
+Plotting the respondant’s answers across the textbook, with the book progressing from less to more difficult, there is a trend of pedagoges to AGREE ON THE SIMPLER ONES THEN HAVE MORE DIAGREEMENT LATER ON?
+Central to my argument is a VERY LINEAR TREND of rating of complexity that correlate with both PAGE NUMBER from the textbook that it was drawn from, as well as an even better fitting model of THE EXACT NUMBER OF THE MELODY.
+MORE DISCUSSION HERE AFTER LOOKING AT DATA.</p>
+<p>Taken together, both anecdotal and the evidence for this survey suggest that aural skills pedagoges tend to agree on how difficult a melody is for use in an aural skills setting.
+This sense of difficutly or complexity tracks as the book progresses, but to attribute the cause of a melody being difficult as its position in the book would be making a pretty hilarious error.</p>
+<p>——— EDIT HERE
+It is important to highlight that despite the level of agreement at lower levels of difficulty, even experts do not seem to agree on the appropriateness of melodies as they become more complex for classroom use.
+Of course perfect levels of agreement are not expected, but due ot the fact that people need to be graded and assessed fairly on melodies, this level of disagreement is cause for alarm.
+This level of disagreement might also help explain student’s responses to aural skills pedagogy…</p>
+<p>And to compound this problem, literature from psychology (Kanneman and Tversky, that medicice doctor study) importantly highlight the fact that it’s important to be skeptical of expert opinions.
+Drawing from the medical liteature– a body of research where getting somethign wrong probably matters more– have evidence of stuff happenign with heart attcks.
+Undelrying logic being that people think they have the key, but really they do not.
+And what solved this was a computaional problem.
+————</p>
+<p>The rest of this chapter investigates if similar computaionally derrived tools can help inform aural skills pedagogy.
+In order to provide a sense of validity to the measure, I use the expert answers from the survey as the ground truth for the computational models.<a href="#fn15" class="footnote-ref" id="fnref15"><sup>15</sup></a></p>
+</div>
+<div id="modeling-complexity" class="section level2">
+<h2><span class="header-section-number">4.3</span> Modeling Complexity</h2>
+<p>The ability to quantify what theorists generally agree to be melodic complexity depends on distilling complexity into its component parts.
+Earlier, when comparing melodies X and Y, some of the features put forward that might contribute to this measure were features such as note density, the melody’s rhythm, what scale the melody draws its notes from, and how expected the notes are, and how tonal the melody might be percieved.
+Some combination of these component features presumably make up the construct of complexity.</p>
+<p>Attempting to use features of a melody to to predict how well a melody is remembered has a long history.
+In 193X, Ortmann put forward a set of melodic determinants that he asserted predicted how well a melody was remembered.
+These features such as a melody’s repeition, pitch-direction, contour (conjunct-disjunct motion), degree, order, and implied harmony (chord structure) were deemed to affect the melody’s ability to be remembered.</p>
+<p>Pedagoges since Ortmann such as XYZ have expanded on this research and concluded that ________.
+Using some sort of non-musical representation like a melody’s contour is an abstracted feature of the melody.
+Abstracted features of melodys assume some sort of suspended animation of listening meaning that what is abstracted has some sort of meaning that is related to the listening experience.
+While if an abstracted measure maps directly to any sort of phenomenological experience in time, might be contested, these types of measures have been becoming more common in music psycholgy research.</p>
 <ul>
-<li>SEM Paper at ICMPC</li>
-<li>Aural Skills Poster</li>
-<li>Milton Keynes Talk</li>
-<li>Public Musicology</li>
-<li>Again and Again?</li>
+<li>Sentence here about static and dynamic.</li>
+</ul>
+<div id="static" class="section level3">
+<h3><span class="header-section-number">4.3.1</span> Static</h3>
+<p>An abstracted feature can be either a quantitative or qualitiative observable feature of a melody that is assumed to be perceptual to the listener, but often difficult to quantify with the traditional tools of music analysis.
+Often, these abstracted features come inspired from other domains like computational linguistics.
+To given an example of an abstracted feature, perhaps one of the most popular features in recent decades is the normalized pairwise variability index or nPVI (CITE).
+The nPVI began as a measure of rhythmic variablility in langauge.
+Shown in FIGURE X, the nPVI quantifies the xxx by the yyy in order to provide a metric that can be used as an approximation of the perception that some langauges sound perceptually different. (GET MORE STUFF FROM ORIGINAL NPVI)
+In lingusitics, the nPVI has been used to delinate stress timed langauges from something else…
+Recenlty in the past x years, music science researchers have used the nPVI to attempt to investigate claims about the relationship between speeach and laguage (CITE ALL HERE).
+While results are mixed regarding the nPVI’s predictive ability and some people argue against nPVI (Nat), it does serve as a very good example of a static comuputationall derrived measure.
+Just like taking the average weight in a population, the nPVI summerizes a phrase and importantly assumes that this measure is representive of the entire phrase the calcuation was performed upon.</p>
+<p>or stuff here of meredith and that chapter.</p>
+<p>One of the most complete set of computational measures as applied to music perception comes from Daniel Mullensiefens’ whole name FANTASTIC toolbox (CITE).
+According to FANTATIC’s techncial report,</p>
+<blockquote>
+<p>“FANTASTIC is a program…that analyzes melodies by computing features The aim is to characterise a melody or a melodic phrase by a set of numerical or categorical values reflecting different aspects of musical structure. This feature representation of melodies can then be applied in Music Information Retrieval algorithms or computational
+models of melody cognition.” (pp. 4)</p>
+</blockquote>
+<p>Drawing from fields both central and perphircal to music science, FANTASTIC computes a collection of XX features to analyze features of melodies and continues from a tradition of feature extraction in music research FROM Lomax (1977), Steinbeck (1982), Jesser (1990), Sagrillo (1999), Eerola and Toiviainen (2004) and since its release has been sucessful at …… SINCE THEN.
+Addittionally, FANTASATIC also provides a framework for comparing the features of a melody with a parent corpus from which the melody belongs.</p>
+<p>Returning to the Aural Skills classroom, many of these features can be used to approximate the intutions of complexity as agreed upon by theorists.
+Below, I SHOW A SERIES OF PLOTS WHERE the continously measured abstracted features of FANTASTIC are plotted against the measures of perceieved complexity and difficulty of expert aural skills pedagoges with their respective correlations in TABLE X.</p>
+<ul>
+<li><p>GIANT FIGURE HERE</p></li>
+<li><p>GIANT TABLE HERE</p></li>
+</ul>
+<p>From this, it becomes evident that some features like __________ and ________ succede quite well in approximating the rated complexity measures, while others like __________ and ________ do not.
+I suggest that the reasons that ________ measures are sucessful in explainig is because ___________________.</p>
+<p>In modeling this problem univariatly (one v one), it quicly becomes evident that no single static measure from FANTASTIC is able to complete mirror that of the complexity measrues.
+Following past research (HARRISON, ME, OTHER PAPER THAT I CANT THINK OF), I used a PRINCIPAL COMPONENTS ANALYSIS to distill a single measure of complexity from THIS THIS AND THIS, that I then plot against the ratings and show that using this measure in a regression context increases our correlatio/R2 up a bit.</p>
+<p>Hopefully at this point, I can make the argument that I am getting quite close at fully explaining the variance in ratings.
+Finally, using the features of FANTASTIC, I can also use a random forrest method (LIKE THESE DANIEL PAPERS) to use some machine learning methods to see what best explains this data.</p>
+<p>USING A …. details of Random Forrest here……</p>
+<p>And importanly….. Variable imporacne plot which works by running multiple models and seeing how much variance is accounted for when the model is left out.</p>
+<p>We see that X Y Z are of highest importance, and this corroborates literature from other FANTASTIC measures that say XYZ.</p>
+<p>This is important for pedagogy, this can be used to help provide objective measure of difficulty.
+Can also be a starting point for work on linking these various features with listener response.
+And thus help people desgin curricula and also then better understand human pecerception and role of melody in the aural skills clasroom.</p>
+<p>Though while sucessful at modeling, using various linear combinations of these static abstracted features still assumes that listerns experience melodies in some sort of perceptual suspended animation.
+In order to have more phenomenologically approriate model that incorporates computainoally derived features, it is important to turn to dynamic models of music perception.</p>
+</div>
+<div id="dynamic-1" class="section level3">
+<h3><span class="header-section-number">4.3.2</span> Dynamic</h3>
+<p>The Information Dynamic of Muscic (IDyOM) model of Marcus Pearce is a computational model of auditory cognition that … PEARCE 2018.
+Unlike measures from FANTASTIC, that calculate summary statistics on melodies, IDyOM works by….
+As mentioned in Chapter 1, IDyOM is based both on the SLH and PPH.
+THey state….
+Due to the fact that IDyOM makes its calculations based on a series of n-grams that the model learns, IDyOM is able to output measures of expectedness for each symbolic token used in its calculations.
+As a model, IDyOM has been sucessful at modeling….
+The findings are robust, yet the measures of information content based on Shannon entropy have yet to be used to actually quantify memory (even ala Miller 1956).</p>
+<p>Using measures of IC from IDyOM is a novel application of the IDyOM model, but makes sense.
+Literature from sequential learning notes that much of our learning for materials happens implicitly
+This happens from both langauge and music.
+Roherhimer reference
+Margulis reference</p>
+<p>If true, repeatitive stimuli are then easier to processly as they are going to tax memory less.
+Lking aslo follow that IC measures of expctedness (if we assume expct are easier ot procecss) can be used in memory measure</p>
+<p>Take for example the following two 8grams
+THey are listed with their informaiton contnet.
+One is the opening of this tune
+The other is this really famous tone row</p>
+</div>
+</div>
+<div id="frequency-facilitation-hypothesis" class="section level2">
+<h2><span class="header-section-number">4.4</span> Frequency Facilitation Hypothesis</h2>
+<p>Can see that both are sequences of eight notes, but one consists of more predictiable notes.
+Can model this in terms of information content and as information accumulates over the phrase.
+Intutivly, returning to logic from above, one will be easier to remember and dictate.
+And This is due to processing fluency, thus less of a tax on memory.
+So I am saying that you can use the IC measures of informaiton as actul measures of information.</p>
+<p>More formally, the evidence can be summerized in what I am calling DFH.
+Which states:</p>
+<blockquote>
+<ol style="list-style-type: decimal">
+<li>some sequences are easier to process, means they are more expected.</li>
+<li>IC measures of expectancy can be used as prox for memory</li>
+<li>Given sequence of N lenght melody, ease of dication which is loads on memory is relative to its degree of expectedness in IC and link it back to corpus by saying that it is relative to it’s n-gram distribution frequency.</li>
+</ol>
+</blockquote>
+<p>From this hypothesis, we derrive a couple of testiable predciitions that we can continue to
+use tools from computational musicology and subsequestntly music psychology to answer.</p>
+<div id="distributional-patterns-in-corpus" class="section level3">
+<h3><span class="header-section-number">4.4.1</span> Distributional Patterns in Corpus</h3>
+<p>If this is true, we should see this again throughotu the corpus
+And If IC measures can be used as memory proxy bc of processing due to SLH and PPH, would follow that n-grams woudl be processed relative to their distribution in a corpus.
+And they will have lower IC.
+To show this I extract out of a corpus of 2 3 5 10 grams form both sides of frequency distribution of a corpus to present side by side show intuitive.</p>
+<p>we can also plot this continously</p>
+</div>
+<div id="memory-facilitation" class="section level3">
+<h3><span class="header-section-number">4.4.2</span> Memory Facilitation</h3>
+<p>Predictions here OR add in mini experiment that will be test for ISMIR paper.</p>
+<p>go for further psychology experiemnts in this,
+lays basis for the computational model
+and more direct pedagogical applicaitons are discussed below</p>
+</div>
+<div id="peagogical-applcation" class="section level3">
+<h3><span class="header-section-number">4.4.3</span> Peagogical applcation</h3>
+<p>Here is how you would do it pedagoically
+If this is case, would mean that this is a new way to organize melodies in book.
+Could instead list all melodies and have them as snippets.
+Orgnize them like books in terms of ascending difficulty.
+And this is how i have done it.
+Samples from all the n-grams in this table</p>
+<p>TABLE</p>
+<p>Can find all the things in the back.
+Would suggest learning these patterns as supplment to melody learning.
+It would do the following things.
+I list melodies in the back.
+I would predict that if people learned this as supplment, they would do a lot better.
+Also get rid of some sort of performance anxiety in little successes.</p>
+</div>
+</div>
+<div id="chapter-conclusions" class="section level2">
+<h2><span class="header-section-number">4.5</span> Chapter Conclusions</h2>
+<p>In this chapter I have demonstrated how tools from computational musicology can be used as an aide in aural skills pedagogy.
+After first establishing the extent to which aural skills pedagogues on various melody parameters, I then show how two families of computationally derrived features can stand in for a pedaguges intution.
+First, using the FANTASTIC toolbox, I show how different combintations of static abstracted features can help explain theorists agreed upon complexity.
+This first will help with selection of melodies and also provides insights as to which features of the melodies contribute most to percieved difficutly.
+Second, I demonstrated how assumptions derived from the IDyOM framework can serve as a basis for the intutions of why smaller sequences of notes within melodies are more or less difficult to dictate.
+Using the logic that sequences that are easier to process are more expected, and that computed measures of information content can be used as a proxy for memory, I show that it follows that given the sequence of an N lenght melody, the ease of dictaiton that it loads on memory is relative to both its degree of expectednes quantified in terms of informaiton content and link it back to hte corpus by linking THAT to it’s n-gram distribbutional freuqency.
+This chain of thinking then allowed me to put forward a new sequence of melody segments that can be arragned, like other theory textbooks, in terms of their increasing complexiy.
+I argue that using this smaller, snippit approach, will allow students to not be overwhelmed in their learning by taking a more linear path to dictation, before moving on to more more ecologically valid melodies.
+I finish by disucssiong how this might be implemented in the classroom.</p>
+<p>THER PEOPLE WHO HAVE DONE THIS</p>
+<ul>
+<li>look into Wiggins et al., 1993, for history of representation</li>
+</ul>
+<p>Folk music</p>
+<ul>
+<li>Bartok 1936?</li>
+<li>Bartok and Lord 1951</li>
+<li>Lomax 1977 ; Lomax, A. (1977). Universals in song. The World of Music, 19, 117–129.</li>
+<li>Steinbeck 1982</li>
+<li>Jesser 1992</li>
+<li><p>Sagrillo 1999</p></li>
+<li><p>GET AND READ PAT SAVAGE ARTICLE</p></li>
+</ul>
+<p>Popular Music</p>
+<ul>
+<li>Moor 2006</li>
+<li>Kramarz 2006</li>
+<li>Furnes 2006</li>
+<li>Riedemann ????</li>
+</ul>
+<p>Computational Musicology</p>
+<ul>
+<li>Eerola eta al 2007 and 2007</li>
+<li>McCay 2005</li>
+<li>Huron 2006</li>
+<li>Frieler 2008</li>
+<li>JAZZOMAT PROJECRT OUTPUT</li>
 </ul>
 
 </div>
 </div>
-</div>
-<h3>References</h3>
-<div id="refs" class="references">
-<div id="ref-NationalAssociationSchools2018">
-<p>“National Association of Schools of Music Handbook.” 2018. Reston, Virginia: National Association of Schools of Music.</p>
-</div>
-<div id="ref-bestMusicCurriculaFuture1992">
-<p>Best, Harold M. 1992. “Music Curricula in the Future.” <em>Arts Education Policy Review</em> 94 (2): 2–7. <a href="https://doi.org/10.1080/10632913.1992.9936901" class="uri">https://doi.org/10.1080/10632913.1992.9936901</a>.</p>
-</div>
-<div id="ref-karpinskiAuralSkillsAcquisition2000">
-<p>Karpinski, Gary Steven. 2000. <em>Aural Skills Acquisition: The Development of Listening, Reading, and Performing Skills in College-Level Musicians</em>. Oxford University Press.</p>
-</div>
-<div id="ref-butlerBridgesUnbuiltComparing1993">
-<p>Butler, David, and Mark Lochstampfor. n.d. “Bridges Unbuilt: Comparing the Literatures of Music Cognition and Aural Training.” <em>Indiana Theory Review</em> 14 (2): 1–17.</p>
-</div>
-<div id="ref-davidbutlerWhyGulfMusic1997a">
-<p>Butler, David. 1997. “Why the Gulf Between Music Perception Research and Aural Training?” <em>Bulletin of the Council for Research in Music Education</em>, no. 132.</p>
-</div>
-<div id="ref-klonoskiImprovingDictationAuralSkills2006">
-<p>Klonoski, Edward. 2006. “Improving Dictation as an Aural-Skills Instructional Tool,” 6.</p>
-</div>
-<div id="ref-klonoskiPerceptualLearningHierarchy2000">
-<p>Klonoski, Edward. 2000. “A Perceptual Learning Hierarchy: An Imperative for Aural Skills Pedagogy.” <em>College Music Symposium</em> 4: 168–69.</p>
-</div>
-<div id="ref-pembrookSendHelpAural1990">
-<p>Pembrook, Randall G., and H. Lee Riggins. 1990. “&quot;Send Help!&quot;: Aural Skills Instruction in U.S. Colleges and Universities.” <em>Journal of Music Theory Pedagogy</em> 4 (1): 230–41.</p>
-</div>
-<div id="ref-dowlingExpectancyAttentionMelody1990">
-<p>Dowling, W. 1990. “Expectancy and Attention in Melody Perception.” <em>Psychomusicology: A Journal of Research in Music Cognition</em> 9 (2): 148–60. <a href="https://doi.org/10.1037/h0094150" class="uri">https://doi.org/10.1037/h0094150</a>.</p>
-</div>
-<div id="ref-dowlingScaleContourTwo1978">
-<p>Dowling, W. Jay. 1978. “Scale and Contour: Two Components of a Theory of Memory for Melodies.” <em>Psychological Review</em> 84 (4): 341–54.</p>
-</div>
-<div id="ref-dowlingTonalStrengthMelody1991">
-<p>Dowling, W. 1991. “Tonal Strength and Melody Recognition After Long and Short Delays.” <em>Perception &amp; Psychophysics</em> 50 (4): 305–13. <a href="https://doi.org/10.3758/BF03212222" class="uri">https://doi.org/10.3758/BF03212222</a>.</p>
-</div>
-<div id="ref-halpernMemoryMelodies2010">
-<p>Halpern, Andrea R., and James C. Bartlett. 2010. “Memory for Melodies.” In <em>Music Perception</em>, edited by Mari Riess Jones, Richard R. Fay, and Arthur N. Popper, 36:233–58. New York, NY: Springer New York. <a href="https://doi.org/10.1007/978-1-4419-6114-3_8" class="uri">https://doi.org/10.1007/978-1-4419-6114-3_8</a>.</p>
-</div>
-<div id="ref-buonviriEffectsTwoListening2017">
-<p>Buonviri, Nathan O. 2017. “Effects of Two Listening Strategies for Melodic Dictation.” <em>Journal of Research in Music Education</em> 65 (3): 347–59. <a href="https://doi.org/10.1177/0022429417728925" class="uri">https://doi.org/10.1177/0022429417728925</a>.</p>
-</div>
-<div id="ref-buonviriMelodicDictationInstruction2015">
-<p>Buonviri, Nathan O, and Andrew S Paney. 2015. “Melodic Dictation Instruction.” <em>Journal of Research in Music Education</em> 62 (2): 224–37.</p>
-</div>
-<div id="ref-paneyEffectDirectingAttention2016">
-<p>Paney, Andrew S. 2016. “The Effect of Directing Attention on Melodic Dictation Testing.” <em>Psychology of Music</em> 44 (1): 15–24. <a href="https://doi.org/10.1177/0305735614547409" class="uri">https://doi.org/10.1177/0305735614547409</a>.</p>
-</div>
-<div id="ref-karpinskiModelMusicPerception1990">
-<p>Karpinski, Gary. 1990. “A Model for Music Perception and Its Implications in Melodic Dictation.” <em>Journal of Music Theory Pedagogy</em> 4 (1): 191–229.</p>
-</div>
-<div id="ref-levitinWhatDoesIt2012">
-<p>Levitin, Daniel J. 2012. “What Does It Mean to Be Musical?” <em>Neuron</em> 73 (4): 633–37. <a href="https://doi.org/10.1016/j.neuron.2012.01.017" class="uri">https://doi.org/10.1016/j.neuron.2012.01.017</a>.</p>
-</div>
-<div id="ref-peretzNatureMusicBiological2006">
-<p>Peretz, Isabelle. 2006. “The Nature of Music from a Biological Perspective.” <em>Cognition</em> 100 (1): 1–32. <a href="https://doi.org/10.1016/j.cognition.2005.11.004" class="uri">https://doi.org/10.1016/j.cognition.2005.11.004</a>.</p>
-</div>
-<div id="ref-bakerExaminingMusicalSophistication2018">
-<p>Baker, David John, Juan Ventura, Matthew Calamia, Daniel Shanahan, and Emily M. Elliott. 2018. “Examining Musical Sophistication: A Replication and Theoretical Commentary on the Goldsmiths Musical Sophistication Index.” <em>Musicae Scientiae</em>, November, 102986491881187. <a href="https://doi.org/10.1177/1029864918811879" class="uri">https://doi.org/10.1177/1029864918811879</a>.</p>
-</div>
-<div id="ref-berzWorkingMemoryMusic1995">
-<p>Berz, William L. 1995. “Working Memory in Music: A Theoretical Model.” <em>Music Perception: An Interdisciplinary Journal</em> 12 (3): 353–64. <a href="https://doi.org/10.2307/40286188" class="uri">https://doi.org/10.2307/40286188</a>.</p>
-</div>
-<div id="ref-cowanMagicalMysteryFour2010">
-<p>Cowan, Nelson. 2010. “The Magical Mystery Four: How Is Working Memory Capacity Limited, and Why?” <em>Current Directions in Psychological Science</em> 19 (1): 51–57. <a href="https://doi.org/10.1177/0963721409359277" class="uri">https://doi.org/10.1177/0963721409359277</a>.</p>
-</div>
-<div id="ref-pearceStatisticalLearningProbabilistic2018a">
-<p>Pearce, Marcus T. 2018. “Statistical Learning and Probabilistic Prediction in Music Cognition: Mechanisms of Stylistic Enculturation: Enculturation: Statistical Learning and Prediction.” <em>Annals of the New York Academy of Sciences</em> 1423 (1): 378–95. <a href="https://doi.org/10.1111/nyas.13654" class="uri">https://doi.org/10.1111/nyas.13654</a>.</p>
-</div>
-<div id="ref-chenetteReframingAuralSkills2019">
-<p>Chenette, Timothy K. 2019. “Reframing Aural Skills Instruction Based on Research in Working Memory.” <em>Journal for Music Theory Pedagogy</em>, 18.</p>
-</div>
-<div id="ref-vanhandelRoleWorkingMemory2011">
-<p>VanHandel, Leigh, Jennie Wakefield, and Wendy K. Wilkins. 2011. “Towards the Role of Working Memory in Pitch Processing in Language and Music.” In <em>Language and Music as Cognitive Systems</em>, edited by Patrick Rebuschat, Martin Rohmeier, John A. Hawkins, and Ian Cross, 302–9. Oxford University Press. <a href="https://doi.org/10.1093/acprof:oso/9780199553426.003.0031" class="uri">https://doi.org/10.1093/acprof:oso/9780199553426.003.0031</a>.</p>
-</div>
-</div>
 <div class="footnotes">
 <hr />
-<ol start="1">
-<li id="fn1"><p>For a list of Schools, please look <a href="https://nasm.arts-accredit.org/directory-lists/accredited-institutions/search/?institutionname=&amp;city=&amp;state=&amp;country=&amp;search=true">here</a><a href="index.html#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p>More aural skills textbooks here<a href="index.html#fnref2" class="footnote-back">↩</a></p></li>
+<ol start="13">
+<li id="fn13"><p>I find it safe to assume that more complex melodies are more difficult to dictate As I will demonstrate in this chapter, a melody’s complexity and difficulty to be dictated are closely related. For that reason, I will use the term complexity as a proxy for its ability to be dictated.<a href="computation-chapter.html#fnref13" class="footnote-back">↩</a></p></li>
+<li id="fn14"><p>Reference here about what is good and what is bad.<a href="computation-chapter.html#fnref14" class="footnote-back">↩</a></p></li>
+<li id="fn15"><p>Do I have to explain what ground truth is?<a href="computation-chapter.html#fnref15" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
             </section>
@@ -456,8 +575,8 @@ In this chapter I demonstrate how modeling the cognitive decision process during
           </div>
         </div>
       </div>
-
-<a href="intro.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="individual-differences.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="hello-corpus.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -487,7 +606,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/index.Rmd",
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/03-musical-parameters.Rmd",
 "text": "Edit"
 },
 "history": {
