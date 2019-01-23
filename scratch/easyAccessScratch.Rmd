@@ -134,6 +134,16 @@ Some researchers have estimated that XX amount of processes are needed to sucess
 ## Order of Chapter 2
 
 # Individual Differences
+
+### Dictation without Dictation
+
+One of the most popular paradigms used in music perception research, specifically the memory for melody literature, are same-different memory tasks [@halpernMemoryMelodies2010].
+These tasks require individuals to hear a melody, retain it in memory, then hear a second melody either at the exact same pitch level, or transposed, and then make a judgment if the two melodies were the same or different.
+It is important to note this type of task requires both retention of musical material and a secondary cognitive task: deciding if the melodies were identical or not.
+In many ways, this type of task mirrors the first two steps of melodic dictation.
+Same-different paradigms require individuals to first hear a finite amount of musical material, then while held in conscious representation, perform some sort of mental action on the contents of memory by making a similarity judgment.
+If one were to acknowledge these similarities in mental processes, using same-different paradigms could provide a way to investigate the first two steps of Karpinski's model of melodic dictation in the general population which may or may not have musical training.
+
 ## Literature Review
 
 
