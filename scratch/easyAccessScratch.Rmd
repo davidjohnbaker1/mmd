@@ -685,6 +685,16 @@ Undelrying logic being that people think they have the key, but really they do n
 And what solved this was a computaional problem. 
 ------------
 
+In this chapter I demonstrate how difficulty a melody is to dictate can be formalized with tools from computational musicology.
+It is important to be able to formalize these intutitions in order to begin to build a systematic and fair way to both teach and asses students as they progress through their aural skills training.^[Could add a bit here about how some people will just say leave it to the experts, but if you look at research from psychology, models almost always peform better than individuals who think they have some sort of domain expertise. I think that effect even gets worth with experience?] 
+
+Using an acoustical representation like a melody's contour is an abstracted feature of the melody.
+Abstracted features of melodys assume some sort of suspended animation of listening meaning that what is abstracted has some sort of meaning that is related to the listening experience.
+While if an abstracted measure maps directly to any sort of phenomenological experience in time, might be contested, these types of measures have been becoming more common in music psycholgy research.
+
+
+
+
 THER PEOPLE WHO HAVE DONE THIS
 
 * look into Wiggins et al., 1993, for history of representation 
