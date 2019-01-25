@@ -673,6 +673,50 @@ Karpinski notes that (Butler and Lochstampfor, 1993) no link between pedagogy an
 * Eventually do POT and Music for this 
 
 ## Chapter 4
+
+--------- EDIT HERE
+It is important to highlight that despite the level of agreement at lower levels of difficulty, even experts do not seem to agree on the appropriateness of melodies as they become more complex for classroom use.
+Of course perfect levels of agreement are not expected, but due ot the fact that people need to be graded and assessed fairly on melodies, this level of disagreement is cause for alarm.
+This level of disagreement might also help explain student's responses to aural skills pedagogy...
+ 
+And to compound this problem, literature from psychology (Kanneman and Tversky, that medicice doctor study) importantly highlight the fact that it's important to be skeptical of expert opinions.
+Drawing from the medical liteature-- a body of research where getting somethign wrong probably matters more-- have evidence of stuff happenign with heart attcks.
+Undelrying logic being that people think they have the key, but really they do not.
+And what solved this was a computaional problem. 
+------------
+
+THER PEOPLE WHO HAVE DONE THIS
+
+* look into Wiggins et al., 1993, for history of representation 
+
+Folk music
+
+* Bartok 1936?
+* Bartok and Lord 1951
+* Lomax 1977 ; Lomax, A. (1977). Universals in song. The World of Music, 19, 117–129.
+* Steinbeck 1982 
+* Jesser 1992
+* Sagrillo 1999
+
+* GET AND READ PAT SAVAGE ARTICLE
+
+Popular Music
+
+* Moor 2006
+* Kramarz 2006
+* Furnes 2006
+* Riedemann ????
+
+Computational Musicology
+
+* Eerola eta al 2007  and 2007
+* McCay 2005
+* Huron 2006
+* Frieler 2008
+* JAZZOMAT PROJECRT OUTPUT
+
+
+
 ### Musical Parameters
 
 #### Inspiration from Computational Linguistics 
