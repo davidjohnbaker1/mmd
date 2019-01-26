@@ -1,0 +1,437 @@
+Despite its abundance in curricula in music conservatory settings,
+research on topics pertaining to aural skills is currently limited at
+best. While anthologies of materials for sight singing and dictation
+exist, the ways in which people learn melodies are not well
+understood. This problem is difficult to tackle given the amount of
+factors that may contribute to the process, such as the complexity of
+the melody, the degree of exposure needed to commit a melody to
+long-term memory, and individual differences in cognitive ability
+that have been shown to contribute to an individual's performance on
+musical tasks. Fortunately, literature exists in related areas that serve
+to inform which parameters might contribute to an individual’s
+performance in a melodic dictation setting. This paper presents
+findings from an experiment (N=39) modeling performance on
+melodic dictation tasks using both individual and musical features.
+Results suggest tools from computational musicology as well as
+individual difference measures need further exploration in order to
+assess the degree to which various features contribute to melodic
+dictation performance and inform pedagogical practices.
+
+Despite its near ubiquity in Conservatory and School of
+Music curricula, research surrounding topics concerning aural
+skills is not well understood. This is peculiar since almost any
+individual seeking to earn a degree in music usually must
+enrol in multiple aural skills classes which cover a wide array
+of topics from sight-singing melodies, to melodic and
+harmonic dictation– all of which are presumed to be
+fundamental to any musician’s formal training. Skills acquired
+in these classes are meant to hone the musician’s ear and
+enable them not only to think about music, but, to borrow
+Gary Karpinski’s phrase, to “think in music” (Karpinski,
+2000, p.4). The tacit assumption behind these tasks is that
+once one learns to think in music, these abilities should
+transfer to other aspects of the musician’s playing in a deep
+and profound way. The skills that make up an individual’s
+aural skills encompass many abilities, though are thought to
+be reflective of some sort of core skill. This is evident in early
+attempts to model performance in aural skills classes where C.
+S. Harrison, Asmus, and Serpe (1994) created a latent variable
+model to predict an individual’s success in aural skills classes
+based on musical aptitude, musical experience, motivation,
+and academic ability. While their model was able to predict a
+large amount of variance (73%), modeling at this high,
+conceptual of a level does not provide any sort of specific
+insights into the mental processes that are required for
+completing aural skills related tasks. This trend can also be
+seen in more recent research that has explored the relationship
+between how well entrance exams at the university level are
+
+able to predict success later on in the degree program. Wolf
+and Kopiez (2014) noted a multiple confounds in their study
+attempting to asses ability level in university musicians such
+as inflated grading, which led to ceiling effects, as well as a
+broad lack of consistency in how schools are assessing
+success within their students. But even if the results at the
+larger level were to be clearer, again this says nothing about
+the processes that contribute to tasks like melodic dictation.
+Rather than taking a bird’s eye view of the subject, this paper
+will primarily focus on factors that might contribute to an
+individual’s ability dictate a melody.
+Melodic dictation is one of the central activities in an aural
+skills class. The activity normally consists of the instructor of
+the class playing a monophonic melody a limited number of
+times and the students must use both their ears, as well as their
+understanding of Western Music theory and notation, in order
+to transcribe the melody without any sort of external
+reference. No definitive method is taught across universities,
+but many schools of thought exist on the topic and a wealth of
+resources and materials have been suggested that might help
+students better complete these tasks (Berkowitz, Frontier, &
+Kraft, 1960; Cleland & Dobrea-Grindahl, 2013; Karpinski,
+2007; Ottman, 1996). The lack of consistency could be
+attributed to the fact that there are so many processes at play
+during this process. Prior to listening, the student needs to
+have an understanding of Western music notation at least to
+the degree of understanding of the melody being played. This
+understanding needs to be readily accessible, since as new
+musical information is heard, it is the student’s responsibility
+to, in that moment, encode the melody into either hold a
+chunk of the melody in short term memory or pattern match to
+long term memory so that they can identify what they are
+hearing and transcribe it moments later into Western notation.
+So no matter what, performing some sort of aural skills task
+requires both long term memory and knowledge for
+comprehension, as well as the ability to actively manipulate
+differing degrees of complex musical information in real time
+while concurrently writing it down. Given this complexity of
+the task, as well as the difficulty in quantifying attributes of
+melodies, it is then not surprising that scant research exists on
+describing these tasks.
+Fortunately, a fair amount of research exists in related
+literature which can generate theories and hypotheses
+explaining how individuals dictate melodies. Beginning first
+with factors that are less malleable from person to person
+would be individual differences in cognitive ability. While
+dictating melodies is something that is learned, a growing
+body of literature suggests that other factors can explain
+unique amounts of variance in performance via differences in
+cognitive ability. For example, Meinz and Hambrick (2010)
+found that measures of working memory capacity (WMC)
+
+were able to explain variance in an individual’s ability to sight
+read above and beyond that of sight reading experience and
+musical training. Colley, Keller, and Halpern (2017) recently
+suggested an individual’s WMC also could help explain
+differences beyond musical training in tasks related to tasks of
+tapping along to expressive timing in music. These issues
+become more confounded when considering other recent work
+by Swaminathan, Schellenberg, and Khalil (2017) that
+suggests factors such as musical aptitude, when considered in
+the modeling process, can better explain individual
+differences in intelligence between musicians and nonmusicians
+implying that within the musical population. They
+claim there is a selection bias that “smarter" people tend to
+gravitate towards studying music, which may explain some of
+the differences in memory thought to be caused by music
+study (Talamini, Altoè, Carretti, & Grassi, 2017). Knowing
+that these cognitive factors can play a role warrants attention
+from future researchers on controlling for variables that might
+that might contribute to this process but are not directly
+intuitive and have not been considered in much of the past
+research. This is especially important given recent critique of
+models that purport to measure cognitive ability but are not
+grounded in an explanatory theoretical model (Kovacs &
+Conway, 2016).
+
+The ability to understand how individuals encode melodies
+is at the heart of much of the music perception literature.
+Largely stemming from the work of Bregman (1994), Deutsch
+and Feroe (1981), and Dowling (1978; 1971) work on
+memory for melodies has begun to lay the foundation for how
+people learn melodies. Initial work by Dowling suggested that
+both key and contour information play a central role in the
+perception and memory of novel melodies. Interestingly
+enough, memory for melodies tends to be much worse than
+memory for other stimuli such as pictures or faces noting that
+the average area under the ROC curve tends to be at about .7
+in many of the studies they reviewed, with .5 meaning chance
+and 1 being a perfect performance (Halpern and
+Bartlett,2010). Halpern and Bartlett also note that much of the
+literature on memory for melodies primarily used same
+difference experimental paradigms to investigate individual’s
+melodic perception ability similar to the paradigm used in
+Halpern and Mullensiefen (2008).
+
+Not nearly as much is known about how an individual
+learns melodies, especially in dictation setting. The last, and
+possibly most obvious, variable that would contribute to an
+individual’s ability to learn and dictate a melody would be the
+amount of exposure to the melody and the complexity of the
+melody itself. There is not much research on the first of these
+two points, other than an approximation of how many times
+the melody should be played in a dictation setting according
+to (Karpinski, 2007, p.100) that accounts for chunking as well
+as the idea that more exposure would lead to more complete
+encoding.
+
+Recently tools have been developed in the field of
+computational musicology to help with operationalizing how
+complex melodies are. Both simple and more complex
+features have been used to model performance in behavioral
+tasks. For example Eerola, Himberg, Toiviainen, and
+Louhivuori (2006) found that note density, though not
+consciously aware to the participants, predicted judgments of
+human similarity between melodies not familiar to the
+
+participants. Note density would be an ideal candidate to
+investigate as it is both easily measured and the amount of
+information that can be currently held in memory as measured
+by bits of information has a long history in cognitive
+psychology (Cowan, 2015; Miller, 1956)
+In terms of more complex features, much of the work
+largely stems from the work of Mullensiefen and his
+development of the FANTASTIC Toolbox (2009), a few
+papers have claimed to be able to predict various behavioral
+outcomes based on the structural characteristics of melodies.
+For example, Kopiez and Mullensiefen (2011) claimed to
+have been able to predict how well songs from The Beatles’
+album Revolver did on popularity charts based on structural
+characteristic of the melodies using a data driven approach.
+Expanding on an earlier study, Mullensiefen and Halpern
+(2014) found that the degree of distinctiveness of a melody
+when compared to its parent corpus could be used in order to
+predict how participants in an old/new memory paradigm
+were able to recognize melodies.
+
+
+These abstracted features also have been used in various
+corpus studies (Frieler, Jakubowski, & Mullensiefen, 2015;
+Jakubowski, Finkel, Stewart, & Mullensiefen, 2017; Janssen,
+Burgoyne, & Honing, 2017; Rainsford, Palmer and Paine
+2017). that again use a machine learning approach in order to
+explain which of the 38 features that FANTASTIC calculates
+can predict real-world behavior. In addition to looking at
+individual features, or sets of features, as predictors, recent
+work by P. Harrison, Musil, and Mullensiefen (2016), Baker
+and Mullensiefen (2017) and the aforementioned
+Mullensiefen and Halpern (2014) study have used data
+reduction techniques, namely principal component analysis, to
+take measures that were successful in predicting behavioral
+outcomes and boil them down into a single measure of
+complexity that has had predictive power in modeling
+experimental performance. While helpful and somewhat
+explanatory, the problem with many of these approaches is
+that they take a post-hoc data driven approach with the
+assumption that listeners are even able to abstract and
+perceive these features. Doing this does not allow for any sort
+of controlled approach and without experimentally
+manipulating the parameters, which is then further
+confounded when using some sort of data reduction technique.
+This is understandable seeing as it is very difficult to
+manipulate certain qualities of a melody without disturbing
+other features. For example, if you wanted to decrease the
+“tonalness” of a melody by adding in a few more chromatic
+pitches, you inevitably will increase other measures of pitch
+and interval entropy. In order to truly understand if these
+features are driving changes in behaviour, each needs to be
+altered in some sort of controlled and systematic way while
+simultaneously considering differences in training and
+cognitive ability.
+
+AIMS
+
+This paper presents findings from two experiments modeling
+performance on melodic dictation tasks using both individual
+and musical features. A pilot study was run (N=11) was used
+in order to assess musical confounds that might be present in
+modeling melodic dictation. Results of that pilot study are not
+
+reported here. Based on the results of this pilot data, a follow
+up experiment was conducted to better investigate the features
+in question.
+
+The study sought to answer two main hypotheses:
+ H1: Are all experimental melodies used equally difficult to
+dictate?
+ H2: To what extent do the musical features of Note Density
+and Tonalness play a role in difficulty of dictation?
+ H3: Do individual factors at the cognitive level play a role
+in the melodic dictation process above and beyond musical
+factors?
+
+Methods
+Participants Forty-three students enrolled at Louisiana State
+University School of Music completed the study. The
+inclusion criteria in the analysis included reporting no hearing
+loss, not actively taking medication that would alter cognitive
+performance, and individuals whose performance on any task
+performed greater than three standard deviations from the
+mean score of that task. Using these criteria two participants
+were dropped for not completing the entire experiment. Thus,
+41 participants met the criteria for inclusion. The eligible
+participants were between the ages of 17 and 26 (M = 19.81,
+SD = 1.93; 15 women). Participants volunteered, received
+course credit, or were paid $10.
+Materials Four melodies for the dictation were selected from
+a corpus of n=115 melodies derived from the A New
+Approach to Sight Singing aural skills textbook by Berkowitz
+et. al (2005). Melodies were chosen based on their musical
+features as extracted via the FANTASTIC Toolbox
+(Mullensiefen, 2009). After abstracting the full set of features
+of the melodies, possible melodies were first narrowed down
+by limiting the corpus to melodies lasting between 9 and 12
+seconds and then indexed to select four melodies were chosen
+that as part of a 2x2 repeated measures design including a
+high and low tonalness and note density condition. Melodies,
+as well as a table of their abstracted features can be seen in
+Table 1 and Figures 1—4. Melodies and other sounds used
+were encoded using MuseScore 2 using the standard piano
+timbre and all set to a tempo of quarter = 120 beats per minute
+and adjusted accordingly based on time signature to ensure
+they all sounded the same absolute time duration. The
+experiment was then coded in jsPsych (de Leeuw, 2015)
+andaccesed through a browser offline with high quality
+headphones.
+
+Table 1
+
+Figure 1-4
+
+Procedure Upon arriving at the lab, participants sat down
+in a lab at their own personal computer. Multiple individuals
+were tested simultaneously although individually. Each
+participant was given a test packet which contained all
+information needed for the experiment. After obtaining
+written consent participants navigated through a series of
+instructions explaining the nature of the experiment and given
+an opportunity to adjust the volume to a comfortable level.
+The first portion of the experiment that participants completed
+was the melodic dictation. In order to alleviate any anxiety in
+performance, participants were explicitly told that “unlike
+dictations performed in class, they were not expected to get
+perfect scores on their dictations”. Each melody was played
+five times with 20 seconds between hearings and 120 seconds
+after the last hearing. After the dictation portion of the
+experiment, participants completed a small survey on their
+Aural Skills background, as well as the Bucknell Auditory
+Imagery Scale C (Halpern, 2015). After completing the Aural
+Skills portion of the experiment participants completed one
+block of two different tests of working memory capacity
+(Unsworth et al., 2005) and Raven’s Advanced Progressive
+Matrices and a Number Series task as two tests of general
+fluid intelligence (Gf) (Raven et al., 1998; Thurstone, 1938)
+resulting in four total scores. After completing the cognitive
+battery, participants finished the experiment by compiling the
+self-report version of the Goldsmiths Musical Sophistication
+
+Index (Mullensifen et. al, 2014), the Short Test of Musical
+Preferences (Rentfrow & Gosling, 2003), as well as questions
+pertaining to the participants SES, and any other information
+we needed to control for (Hearing Loss, Medication). Exact
+materials for the experiment can be found at
+https://github.com/davidjohnbaker1/modelingMelodicDictatio
+n .
+Scoring Melodies were scored by counting the amount of
+notes in the melody and multiplying that number by two. Half
+the points were attributed to rhythmic accuracy and the other
+half to pitch accuracy. Points were not deducted for notating
+the melody in the incorrect octave. Points for pitch could only
+be given if the participant correctly notated the rhythm. For
+example, in melody 34 there were 40 points possible (20 notes
+* 2). If a participant were to have put a quarter note on the
+second beat of the third measure, and have everything else
+correct, they would have scored a 19/20. Only if the correct
+rhythms of the measures were accurate could pitch points be
+awarded. In cases where there were more serious errors, for
+example if the second half of the second bar was not notated,
+points would have been deducted in both the pitch and rhythm
+sub-scores. Both the first and second author scored all
+melodies independently and then cross referenced for interrater
+reliability. Using a single score intraclass correlation
+coefficient calculation κ = .96 which suggests a high degree of
+inter-rater reliability (McHugh, 2012).
+
+--- discussion on scoring 
+
+
+Results
+Data Screening
+Before conducting any analyses data was screened for quality.
+List wise deletion was used to remove any participants that
+did not have all variables used in modeling. This process
+resulted in removing four participants: two did not complete
+any of the survey materials and two did not have any
+measures of working memory capacity due to computer error.
+After list-wise deletion, thirty-nine participants remained.
+Effects of Melodic Features
+In order to investigate H1, that melodies would differ in their
+degree of difficulty based on melodic features, we ran a
+repeated measures ANOVA using the ez package in R
+(Lawrence, 2016). Relevant statistics from the model can be
+seen in Table 2.
+
+RM ANOVA TABLE 
+
+Subsequent models exploring possible exploratory covariance
+relationships using random slope models that used measures
+of working memory capacity, general fluid intelligence, and
+measures of musical training, none of which emerged as
+significant.
+Differences between melodies can be see below in Figure
+5.
+
+FIGRE 5 BOX PLOT 
+
+Discussion
+Here, we have investigated the extent to which both
+individual differences and abstracted musical features could
+be used to model results in melodic dictations. In order to
+examine H1, we ran a repeated measures ANOVA in order
+discern any differences in melody difficulty. As noted in
+Table 2, both a significant main effect of Tonalness and Note
+Density was found, as well as a small interaction between the
+two variables suggesting evidence supporting rejecting H2’s
+null hypothesis. The interaction emerged from differences in
+melody means in the low density conditions with the melody
+with higher tonalness actually scoring higher in terms of
+number of errors.
+
+--- Add in all music education literature
+--- Get Ortmann 
+
+While we expected to find an interaction, this condition
+(Melody 34) was hypothesized to be the easiest of the four
+conditions. With Melody 9 there was a clear floor effect,
+which was also to be expected as when we chose the
+melodies, we had no previous experimental data explicitly
+looking at melodic dictation to rely on. For future
+experiments, we will use abstracted features from Melody 9 as
+a baseline. The main effect of note density was expected and
+exhibited a large effect size. (ηg = .46). While it would be
+tempting to attribute this finding exactly to the Note Density
+feature extracted by FANTASTIC, the high and low density
+conditions could also be operationalized as having compound
+versus simple meter. Given the large effect of note density, we
+plan on taking more careful steps in the selection of our next
+melodies in order to control for any effects of meter and keep
+the effects limited to one meter if at all possible.
+
+
+Somewhat surprisingly, the analysis incorporating the
+cognitive measures of covariance did not yield any significant
+results. While other researchers have noted the importance of
+baseline cognitive ability (Schellenberg & Weiss, 2013), the
+task specificity of doing melodic dictation as we designed the
+experiment might not be well suited to capture the variability
+needed for any effects. Hence, this paper would not be able to
+reject H3’s null hypothesis. Considering that other researchers
+have founding constructs like working memory capacity and
+general fluid intelligence to be important factors of tasks of
+musical perception, a more refined design might be
+considered in the future to find any sort of effects.
+
+
+--- wmc did not work bc celing effects
+
+Taken as a whole, these findings suggest that aural skills
+pedagogues should consider exploring the extent to which
+computationally extracted features can guide the difficulty
+expected of melodic dictation exercises.
+
+This paper demonstrates that abstracted musical features
+such as tonalness and note density can play a role in
+predicting how well students do in tasks of melodic dictation.
+While the experiment failed to yield any significant
+differences in cognitive ability predicting success at the task,
+our future research plans to continue incorporate measures
+that others have deemed important. We next plan to replicate
+this experiment’s design with different melodies that use
+similar features.
+Acknowledgements. The authors would like to thank
+Adam Rosado, Brian Ritter, and Katherine Vukovics for
+helping run participants on this study. Additionally, the
+authors would like thank Dr. Emily Elliott for providing
+hardware and software required to run the tests of working
+memory capacity and general fluid intelligence.
+
+
