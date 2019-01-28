@@ -149,23 +149,24 @@ var subject_id = Math.floor(Math.random()*100000);
 
     timeline.push(bye_block);
 
+ /* Online Data Save Function */
+
+function saveData(name, data){
+  var xhr = new XMLHttpRequest();
+  xhr.open('POST', 'write_data.php'); // 'write_data.php' is the path to the php file described above.
+  xhr.setRequestHeader('Content-Type', 'application/json');
+  xhr.send(JSON.stringify({filename: name, filedata: data}));
+}
 
     /* Experimental Loop */
 
 jsPsych.init({
    timeline: timeline,
-      on_finish: function() {
-		jsPsych.data.get().localSave('csv',subject_id+'_data.csv');
-      }
-    });
+      on_finish: function() { saveData(subject_id+'_experiment_data',  ;}
+//		jsPsych.data.get().localSave('csv',subject_id+'_data.csv');
 
-//function saveData(filename, filedata){
-//   $.ajax({
-//       type:'post',
-//       cache: false,
-//       url: 'save_data.php', // this is the path to the above PHP script
-//       data: {filename: filename, filedata: filedata}
-// });
+
+    });
 
   </script>
 </html>

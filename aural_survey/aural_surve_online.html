@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aural Instructor Survey</title>
+    <script src="jspsych.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="plugins/jspsych-image-keyboard-response.js"></script>
+    <script src="plugins/jspsych-image-button-response.js"></script>
+    <script src="plugins/jspsych-survey-text.js"></script>
+    <script src="plugins/jspsych-html-keyboard-response.js"></script>
+    <script src="plugins/jspsych-image-slider-response.js"></script>
+    <script src="plugins/jspsych-instructions.js"></script>
+    <link rel="stylesheet" href="jspsych.css"></link>
+  </head>
+  <body></body>
+  <script>
+
+    /* create timeline */
+    var timeline = [];
+
+   /* Welcome and IRB */
+
+    var welcome_block = {
+    type: 'instructions',
+    pages: ["<p>Welcome to this survey on melodic dictation!</p>" +
+	    "<p> Please click NEXT to start the survey!</p>",
+	
+          "<p>Before collecting any data we are required to obtain a confirmation of consent all for participants.</p>" 
+    	+ "<p>Please read the following statement: </p>" 
+        + "<p>This survey will ask you to self report on your opinions on teaching melodic dictation in the aural skills classroom. Throughout the course of this survey you will see and listen to a few melodies and asked to provide your pedagogical opinions on the melody's suitibility for classroom use. You may choose not to participate or to withdraw from the study at any time without penalty or loss of any benefit.  "
+   	+ "All data will be made anonymous and all efforts will be made to keep data private and secure. For questions concerning participant rights, feel free"
+    	+ " to contact Dr. Dennis Landin, chair of the Institutional Review Board at either (225)-578-8692 or irb@lsu.edu.</p>"
+        + "<p> If you are willing to partake in this study, please press NEXT and the survey will begin." ,
+
+      	   '<p>Thank you for choosing to participate in this survey!</p>'  
+    	        + "<p>Please answer the following survey questions about your teaching background.</p>"],
+
+    show_clickable_nav: true
+  }
+
+    timeline.push(welcome_block);
+
+  /* Demographic Information Here */
+
+
+// defining groups of questions that will go together.
+var survey_trial = {
+  type: 'survey-text',
+  questions: [{prompt: "How many years old are you?"}, {prompt: "What is your educational status? (e.g. Graduate Student, Finished Terminal Degree, Associate Professor)"},{prompt: "How many years have you been teaching Aural Skills at the University level?"}, {prompt: "Which type of syllable system do you prefer to use? (e.g. Moveable-Do, Fixed-Do, La-Based Minor, Numbers"}, {prompt:"Which instrument do you have the most amount of professional training with? (e.g. Piano, Voice, Marimba, Flute)"}, {prompt: "What is the title of the last degree you recieved? (e.g. D.M.A Piano Pedagogy, PhD Music Theory, B.A. Music ", prompt: "What institution are you currenlty teaching? If you are not currently teaching, but have taught in the past, please list your most recent institution where you have taught."}],
+};
+
+timeline.push(survey_trial);
+
+  /* Rating of Melodies Visually */
+
+    var visual_melody_instructions_block = {
+    type: 'instructions',
+    pages: ["<p>Thank you for completing the first part of this survey!</p>" +
+	    "<p>Take a second to rest if you need, the NEXT portion of this survey will ask you to provide your expert opinion on some melodies used in the aural skills classroom.</p>",
+          "<p>For this part of the survey, you will see 15 melodies. You will be asked to provide your opinion on a questions pertaining to using that melody.</p>" 
+    	+ "<p>For each melody, you will answer: </p>" 
+        + "<p><ul align='left'><li>What semester of Aural Skills do you think this melody is appropriate for to give as a melodic dictation?</li><li>How many times do you think this melody should be played in a melodic dictation considering the difficulty you noted in your previous question? Assume a reasonable tempo choice from 70-100BPM.</li><li>Please rate how difficult you believe this melody to be for the average second year undergraduate at your institution. The far left should indicate 'Extremely Easy' and the far right should indicate 'Extremely Difficult'.</li><li>Please rate this melody's aherence to the melodic grammar an of the Common Practice Period. The far left should indcated 'Not well Formed' and the far right should indicate 'Very Well Formed'.</li><li>Is this melody familiar to you?</li></p>"         
+        + "<p>While there are many factors that could contribute to your answers to the above questions, please know we are just interested in you general opinion.</p>",
+	"<p>If you are ready to begin, please press NEXT.</p>"],
+
+    show_clickable_nav: true
+  }
+
+    timeline.push(visual_melody_instructions_block);
+
+/* Melody Loop */
+
+var main_loop = {
+	timeline: [
+		{
+    type: 'image-button-response',
+    stimulus: jsPsych.timelineVariable('melody'),
+    choices: ['1', '2', '3', '4','Advanced Undergraduate', 'Graduate Studies'],
+    prompt: "<p>What semester Aural Skills do you think this melody is appropriate to give as a melodic dictation?</p>"
+
+		},
+		{
+     type: 'image-button-response',
+    stimulus: jsPsych.timelineVariable('melody'),
+    choices: ['1', '2', '3', '4','5', '6','7','8','9','10+'],
+    prompt: "<p>How many times do you think this melody should be played in a melodic dictation considering the difficulty you noted in your previous question? Assume a reasonable tempo choice from 70-100BPM.</p>"
+		},
+		{
+    type: 'image-slider-response',
+    stimulus: jsPsych.timelineVariable('melody'),
+    labels: ['Extremely Easy', 'Extremly Difficulty'],
+    prompt: "<p>Please rate how difficult you believe this melody to be for the average second year undergraduate at your institution.</p><p>The far left should  indicate 'Extremely Easy' and the far right should indicate 'Extremely Difficult'.</p>",
+  response_ends_trial: true 
+
+		},
+		{
+    type: 'image-slider-response',
+    stimulus: jsPsych.timelineVariable('melody'),
+    labels: ['Not Well Formed', 'Very Well Formed '],
+    prompt: "<p>Please rate this melody's aherence to the melodic grammar an of the Common Practice Period.</p><p>The far left should indcated'Not well Formed and the far right should indicate 'Very Well Formed'.</p>"
+		},
+		{
+    type: 'image-button-response',
+    stimulus: jsPsych.timelineVariable('melody'),
+    choices: ['Yes','No'],
+    prompt: "<p>Is this melody familiar to you?</p>"
+		}
+	],
+	timeline_variables : [
+/*		{ melody: 'img/Berkowitz629.png' },
+		{ melody: 'img/Berkowitz379.png' },
+		{ melody: 'img/Berkowitz417.png' },
+		{ melody: 'img/Berkowitz156.png' },
+		{ melody: 'img/Berkowitz382.png' },
+		{ melody: 'img/Berkowitz294.png' },
+		{ melody: 'img/Berkowitz627.png' },
+		{ melody: 'img/Berkowitz75.png' },
+		{ melody: 'img/Berkowitz3.png' },
+		{ melody: 'img/Berkowitz382.png' },
+		{ melody: 'img/Berkowitz334.png' },
+		{ melody: 'img/Berkowitz607.png' },
+		{ melody: 'img/Berkowitz74.png' },
+		{ melody: 'img/Berkowitz622.png' },
+	*/	{ melody: 'img/Berkowitz312.png' }
+	],
+	randomize_order: true
+
+}
+
+    timeline.push(main_loop);
+
+survey_opinions = {
+  type: 'survey-text',
+  questions: [{prompt: "What did you think about this survey?"}, {prompt: "Do you have any opinions you would like to share regarding this survey?"}],
+};
+
+timeline.push(survey_opinions)
+
+var subject_id = Math.floor(Math.random()*100000);
+        jsPsych.data.addProperties({
+                     subject: subject_id,
+                });
+
+    var bye_block = {
+    type: 'instructions',
+    pages: ["<p>Thank you very much for taking part in this survey!</p><p>If you have any questions or would like to talk about this research, please email me at davidjohnbaker1 [at] gmail DOT com.</p><p>A CSV file will download on your browser so you can have a copy of your own data.</p>"],
+
+    show_clickable_nav: true
+  }
+
+    timeline.push(bye_block);
+
+ /* Online Data Save Function */
+
+function saveData(name, data){
+  var xhr = new XMLHttpRequest();
+  xhr.open('POST', 'write_data.php'); // 'write_data.php' is the path to the php file described above.
+  xhr.setRequestHeader('Content-Type', 'application/json');
+  xhr.send(JSON.stringify({filename: name, filedata: data}));
+}
+
+    /* Experimental Loop */
+
+jsPsych.init({
+   timeline: timeline,
+      on_finish: function() { saveData(subject_id,jsPsych.data.get().csv());}
+    });
+
+  </script>
+</html>
