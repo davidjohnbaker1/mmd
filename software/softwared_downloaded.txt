@@ -1,0 +1,4 @@
+https://sourceforge.net/projects/netpbm/files/latest/download
+For making png
+also need hum2muse from HE 
+

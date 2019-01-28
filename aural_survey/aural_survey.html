@@ -5,6 +5,7 @@
     <script src="jspsych.js"></script>
     <script src="plugins/jspsych-image-keyboard-response.js"></script>
     <script src="plugins/jspsych-image-button-response.js"></script>
+    <script src="plugins/jspsych-survey-text.js"></script>
     <script src="plugins/jspsych-html-keyboard-response.js"></script>
     <script src="plugins/jspsych-image-slider-response.js"></script>
     <script src="plugins/jspsych-instructions.js"></script>
@@ -38,21 +39,28 @@
 
     timeline.push(welcome_block);
 
-  /* Demographic Informaiton Here */
+  /* Demographic Information Here */
 
 
+// defining groups of questions that will go together.
+var survey_trial = {
+  type: 'survey-text',
+  questions: [{prompt: "How many years old are you?"}, {prompt: "What is your educational status? (e.g. Graduate Student, Finished Terminal Degree, Associate Professor)"},{prompt: "How many years have you been teaching Aural Skills at the University level?"}, {prompt: "Which type of syllable system do you prefer to use? (e.g. Moveable-Do, Fixed-Do, La-Based Minor, Numbers"}, {prompt:"Which instrument do you have the most amount of professional training with? (e.g. Piano, Voice, Marimba, Flute)"}, {prompt: "What is the title of the last degree you recieved? (e.g. D.M.A Piano Pedagogy, PhD Music Theory, B.A. Music ", prompt: "What institution are you currenlty teaching? If you are not currently teaching, but have taught in the past, please list your most recent institution where you have taught."}],
+};
+
+timeline.push(survey_trial);
 
   /* Rating of Melodies Visually */
 
     var visual_melody_instructions_block = {
     type: 'instructions',
     pages: ["<p>Thank you for completing the first part of this survey!</p>" +
-	    "<p>Take a second to rest if you need, the NEXT portion of this survey will be asking you to provide your expert opinion on various melodies in the aural skills classroom.</p>",
-          "<p>For this part of the survey, you will see XX melodies. You will be asked to provide your opinion on a questions pertaining to using that melody.</p>" 
+	    "<p>Take a second to rest if you need, the NEXT portion of this survey will ask you to provide your expert opinion on some melodies used in the aural skills classroom.</p>",
+          "<p>For this part of the survey, you will see 15 melodies. You will be asked to provide your opinion on a questions pertaining to using that melody.</p>" 
     	+ "<p>For each melody, you will answer: </p>" 
-        + "<p align='left'><ul><li>What semester of Aural Skills do you think this melody is appropriate for?</li><li>How many times do you think this melody should be played in a melodic dictation in reference to your answer from the previous question?</li><li>Please rate how difficult you believe this melody to be for the average second year undergradaute at your institution using the slider provided. A 0 should indicate 'Very Easy' and a 100 should indicate 'Almost impossible'</li><li>In your own subjective opinion, how musical do you believe this melody to be?</li><li>Where in this melody (Please list a measure number) do you think most students will have difficulty dictating the melody?</li><li>Is this a melody you would feel comfortable using in your own Aural Skills teaching?</li><li>How confident are you that you could dictate this melody right now?</li><li>Is this melody familiar to you?</li></p>"         
+        + "<p><ul align='left'><li>What semester of Aural Skills do you think this melody is appropriate for to give as a melodic dictation?</li><li>How many times do you think this melody should be played in a melodic dictation considering the difficulty you noted in your previous question? Assume a reasonable tempo choice from 70-100BPM.</li><li>Please rate how difficult you believe this melody to be for the average second year undergraduate at your institution. The far left should indicate 'Extremely Easy' and the far right should indicate 'Extremely Difficult'.</li><li>Please rate this melody's aherence to the melodic grammar an of the Common Practice Period. The far left should indcated 'Not well Formed' and the far right should indicate 'Very Well Formed'.</li><li>Is this melody familiar to you?</li></p>"         
         + "<p>While there are many factors that could contribute to your answers to the above questions, please know we are just interested in you general opinion.</p>",
-	"<p>If you are ready to begin, please press NEXT.</p>" + "<p>Note that you will probably... many melodies. Progress bar and will answer all questions regarding all XX melodies. Experiment set up to facilitate collecting a lot of data.</p>"],
+	"<p>If you are ready to begin, please press NEXT.</p>"],
 
     show_clickable_nav: true
   }
@@ -67,28 +75,28 @@ var main_loop = {
     type: 'image-button-response',
     stimulus: jsPsych.timelineVariable('melody'),
     choices: ['1', '2', '3', '4','Advanced Undergraduate', 'Graduate Studies'],
-    prompt: "<p>What semester Aural Skills do you think this melody is appropriate for?</p>"
+    prompt: "<p>What semester Aural Skills do you think this melody is appropriate to give as a melodic dictation?</p>"
 
 		},
 		{
      type: 'image-button-response',
     stimulus: jsPsych.timelineVariable('melody'),
     choices: ['1', '2', '3', '4','5', '6','7','8','9','10+'],
-    prompt: "<p>How many times do you think this melody should be played considering the difficulty you noted in your previous question?</p>"
+    prompt: "<p>How many times do you think this melody should be played in a melodic dictation considering the difficulty you noted in your previous question? Assume a reasonable tempo choice from 70-100BPM.</p>"
 		},
 		{
     type: 'image-slider-response',
     stimulus: jsPsych.timelineVariable('melody'),
     labels: ['Extremely Easy', 'Extremly Difficulty'],
-    prompt: "<p>Please rate how difficult you believe this melody to be for the average second year undergradaute at your institution using the slider provided. A 0 should indicate 'Extremely Easy' and a 100 should indicate 'Extremely Difficult'</p>",
+    prompt: "<p>Please rate how difficult you believe this melody to be for the average second year undergraduate at your institution.</p><p>The far left should  indicate 'Extremely Easy' and the far right should indicate 'Extremely Difficult'.</p>",
   response_ends_trial: true 
 
 		},
 		{
-    type: 'image-button-response',
+    type: 'image-slider-response',
     stimulus: jsPsych.timelineVariable('melody'),
-    choices: ['Very unmusical','Unmusical','Somewhat  unmusical','Neither Unmusical or Musical','Somewhat Musical','Musical', 'Very Musical'],
-    prompt: "<p>In your own subjective opinion, how musical do you believe this melody to be?</p>"
+    labels: ['Not Well Formed', 'Very Well Formed '],
+    prompt: "<p>Please rate this melody's aherence to the melodic grammar an of the Common Practice Period.</p><p>The far left should indcated'Not well Formed and the far right should indicate 'Very Well Formed'.</p>"
 		},
 		{
     type: 'image-button-response',
@@ -98,8 +106,21 @@ var main_loop = {
 		}
 	],
 	timeline_variables : [
-	   { melody: 'img/Berkowitz1.png'},
-	   { melody: 'img/Berkowitz354.png'}
+/*		{ melody: 'img/Berkowitz629.png' },
+		{ melody: 'img/Berkowitz379.png' },
+		{ melody: 'img/Berkowitz417.png' },
+		{ melody: 'img/Berkowitz156.png' },
+		{ melody: 'img/Berkowitz382.png' },
+		{ melody: 'img/Berkowitz294.png' },
+		{ melody: 'img/Berkowitz627.png' },
+		{ melody: 'img/Berkowitz75.png' },
+		{ melody: 'img/Berkowitz3.png' },
+		{ melody: 'img/Berkowitz382.png' },
+		{ melody: 'img/Berkowitz334.png' },
+		{ melody: 'img/Berkowitz607.png' },
+		{ melody: 'img/Berkowitz74.png' },
+		{ melody: 'img/Berkowitz622.png' },
+	*/	{ melody: 'img/Berkowitz312.png' }
 	],
 	randomize_order: true
 
@@ -107,75 +128,44 @@ var main_loop = {
 
     timeline.push(main_loop);
 
-
-
-var trial_approp = {
-    type: 'image-button-response',
-    stimulus: "img/Berkowitz1.png",
-    choices: ['1', '2', '3', '4','Advanced Undergraduate', 'Graduate Studies'],
-    prompt: "<p>What semester Aural Skills do you think this melody is appropriate for?</p>"
-};
-    timeline.push(trial_approp);
-
-var trial_times = {
-    type: 'image-button-response',
-    stimulus: "img/Berkowitz1.png",
-    choices: ['1', '2', '3', '4','5', '6','7','8','9','10+'],
-    prompt: "<p>How many times do you think this melody should be played considering the difficulty you noted in your previous question?</p>"
-};
-    timeline.push(trial_times);
-
-
-var trial_difficult = {
-    type: 'image-slider-response',
-    stimulus: 'img/Berkowitz1.png',
-    labels: ['Extremely Easy', 'Extremly Difficulty'],
-    prompt: "<p>Please rate how difficult you believe this melody to be for the average second year undergradaute at your institution using the slider provided. A 0 should indicate 'Extremely Easy' and a 100 should indicate 'Extremely Difficult'</p>",
-  response_ends_trial: true 
+survey_opinions = {
+  type: 'survey-text',
+  questions: [{prompt: "What did you think about this survey?"}, {prompt: "Do you have any opinions you would like to share regarding this survey?"}],
 };
 
-    timeline.push(trial_difficult);
+timeline.push(survey_opinions)
 
- var trial_musical = {
-    type: 'image-button-response',
-    stimulus: 'img/Berkowitz1.png',
-    choices: ['Very unmusical','Unmusical','Somewhat  unmusical','Neither Unmusical or Musical','Somewhat Musical','Musical', 'Very Musical'],
-    prompt: "<p>In your own subjective opinion, how musical do you believe this melody to be?</p>",
-};
-    timeline.push(trial_musical);
+var subject_id = Math.floor(Math.random()*100000);
+        jsPsych.data.addProperties({
+                     subject: subject_id,
+                });
 
-
- var trial_familiar = {
-    type: 'image-button-response',
-    stimulus: 'img/Berkowitz1.png',
-    choices: ['Yes','No'],
-    prompt: "<p>Is this melody familiar to you?</p>",
-};
-    timeline.push(trial_familiar);
-
-
-   /* Debrief  */
-
-    var debrief_block = {
+    var bye_block = {
     type: 'instructions',
-    pages: ["<p>THANK YOU for taking part in  this survey on melodic dictation!. </p>" +
-	    "<p> Your answers will be used as a part of David John Baker's dissertation investigating various ways to model melodic dictation.</p>",
-          "<p>The objective of this experiment was to determine what degree aural skills pedagoges agree on their ratings of difficutly of melodies for melodic dictation. I also plan on using your response data as a ground truth to model how computationally abstracted features can and cannot be used as a stand in for pedagogue's intution regarding the appropriateness of certain melodies for melodic dictation.</p>" 
-        + "<p>If you are interested in discussing this research with me, please email me at davidjohnbaker1 @ gmail . com  (no spaces) and I would be happy to share!</p>"],
+    pages: ["<p>Thank you very much for taking part in this survey!</p><p>If you have any questions or would like to talk about this research, please email me at davidjohnbaker1 [at] gmail DOT com.</p><p>A CSV file will download on your browser so you can have a copy of your own data.</p>"],
 
     show_clickable_nav: true
   }
 
-    timeline.push(debrief_block);
+    timeline.push(bye_block);
 
 
     /* Experimental Loop */
 
-    jsPsych.init({
-      timeline: timeline,
+jsPsych.init({
+   timeline: timeline,
       on_finish: function() {
-        jsPsych.data.displayData();
+		jsPsych.data.get().localSave('csv',subject_id+'_data.csv');
       }
     });
+
+//function saveData(filename, filedata){
+//   $.ajax({
+//       type:'post',
+//       cache: false,
+//       url: 'save_data.php', // this is the path to the above PHP script
+//       data: {filename: filename, filedata: filedata}
+// });
+
   </script>
 </html>
