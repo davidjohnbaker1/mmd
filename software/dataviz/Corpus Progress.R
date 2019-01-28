@@ -12,7 +12,7 @@ table(berkowitz_progress$Finished)[2] / sum(table(berkowitz_progress$Finished))
 sum(table(berkowitz_progress$Finished)) - table(berkowitz_progress$Finished)[2] 
 
 # Unclaimed Pay 
-(sum(table(berkowitz_progress$Finished)) - table(berkowitz_progress$Finished)[2]) * .80
+(sum(table(berkowitz_progress$Finished)) - table(berkowitz_progress$Finished)[2]) * 1.00
 
 
 # Percent Done, No Literature
