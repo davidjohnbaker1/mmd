@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -14,6 +15,8 @@
   </head>
   <body></body>
   <script>
+
+/* DON'T LOOK AT MY GARBAGEEEEEEEE */ 
 
     /* create timeline */
     var timeline = [];
@@ -34,7 +37,7 @@
       	   '<p>Thank you for choosing to participate in this survey!</p>' +
 	   '<p>For your participation in this survey, you can enter to win $50!</p>' +  
 	   '<p>If you are interested in entering this raffle, please provide your name and email at the end of the survey.</p>' + 
-	   '<p>You will only be entered to win the raffle if the time you take to complete the survey is within 2 standard deviations of the mean finish time, so if you rush through, your entry will not be counted!</p>' +
+	   '<p>Your entry for the $50 will not be counted if you click though quickly.</p>' +
     	        "<p>Please begin by answering the following survey questions about your teaching background.</p>"],
 
     show_clickable_nav: true
@@ -58,7 +61,7 @@ timeline.push(survey_age);
 var survey_edstatus = {
   type: 'survey-text',
   questions: [	
-		{prompt: "What is your educational status? (e.g. Master's Student, Doctoral Student, Completed Doctorate)"}
+		{prompt: "<p>What is your educational status? </p><p>(e.g. Master's Student, Doctoral Student, Completed Doctorate)</p>"}
 
 		],
 };
@@ -68,7 +71,7 @@ timeline.push(survey_edstatus);
 var survey_auralyears = {
   type: 'survey-text',
   questions: [	 
-		{prompt: "How many years have you been teaching Aural Skills at the University level?"}
+		{prompt: "<p>How many years have you been teaching Aural Skills at the University level?</p><p>Please do not include any Music Theory classes in your answer.</p>"}
 		],
 };
 
@@ -77,7 +80,7 @@ timeline.push(survey_auralyears);
 var survey_system= {
   type: 'survey-text',
   questions: [
-		{prompt: "Which type of syllable system do you prefer to use? (e.g. Moveable-Do, Fixed-Do, La-Based Minor, Numbers)"}
+		{prompt: "<p>Which type of syllable system do you prefer to use? </p><p>(e.g. Moveable-Do, Fixed-Do, La-Based Minor, Numbers)</p>"}
 		],
 };
 
@@ -85,7 +88,7 @@ timeline.push(survey_system);
 
 var survey_instru= {
   type: 'survey-text',
-  questions: [	{prompt: "On which instrument have you gained the most amount of professional training? (e.g. Piano, Voice, Marimba, Flute)"}
+  questions: [	{prompt: "<p>On which instrument have you gained the most amount of professional training? </p><p>(e.g. Piano, Voice, Marimba, Flute)</p>"}
 		],
 };
 
@@ -93,7 +96,7 @@ timeline.push(survey_instru);
 
 var survey_degree = {
   type: 'survey-text',
-  questions: [	{prompt: "What is the title of the last degree you recieved? (e.g. DMA Piano Pedagogy, PhD Music Theory, BA Music)"}
+  questions: [	{prompt: "<p>What is the title of the last degree you recieved? </p><p>(e.g. DMA Piano Pedagogy, PhD Music Theory, BA Music)</p>"}
 	],
 };
 
@@ -101,7 +104,7 @@ timeline.push(survey_degree);
 
 var survey_school = {
   type: 'survey-text',
-  questions: [ {prompt: "At what institution are you currently teaching? If you are not currently teaching, but have taught in the past, please list the most recent institution at which you taught."}],
+  questions: [ {prompt: "<p>At what institution are you currently teaching?</p><p>If you are not currently teaching, but have taught in the past, please list the most recent institution at which you taught.</p>"}],
 };
 
 timeline.push(survey_school);
@@ -116,7 +119,7 @@ timeline.push(survey_school);
 	    "<p>The next portion of this survey will ask you to provide your expert opinion on a few melodies and their use in the aural skills classroom.</p>",
           "<p>You will see 20 melodies. For each melody, you will be asked the following questions:</p>" 
         + "<p><ul align='left'><li>During which semester of Aural Skills would you think it is appropriate to give this melody as a melodic dictation?</li><li>How many times do you think this melody should be played in a melodic dictation considering the difficulty you noted in your previous question? Assume a reasonable tempo choice from 70-100BPM.</li><li>Please rate how difficult you believe this melody to be for the average second-year undergraduate student at your institution. The far left should indicate 'Extremely Easy' and the far right should indicate 'Extremely Difficult'.</li><li>Please rate this melody's adherence to the melodic grammar of the Common Practice Period. The far left should indicate 'Not Well Formed' and the far right should indicate 'Very Well Formed'.</li><li>Is this melody familiar to you?</li></p>"         
-        + "<p>While there are many factors that could contribute to your answers to the above questions, please know we are just interested in you general opinion.</p>",
+        + "<p>While there are many factors that could contribute to your answers to the above questions, please know we are just interested in your general opinion.</p>",
          "<p>You might need to resize or scroll the screen to see all melodies depending on your computer or browser.</p>",
 	"<p>To begin, please press NEXT. The survey should not take more than 20 minutes.</p><p>Please do not use an instrument to help you with your answers. You are of course free to sight sing the melodies.</p>"],
 
@@ -140,7 +143,7 @@ var main_loop = {
      type: 'image-button-response',
     stimulus: jsPsych.timelineVariable('melody'),
     choices: ['1', '2', '3', '4','5', '6','7','8','9','10+'],
-    prompt: "<p>How many times do you think this melody should be played in a melodic dictation considering the difficulty you noted in your previous question? Assume a reasonable tempo choice from 70-100BPM.</p>"
+    prompt: "<p>How many times do you think this melody should be played in a melodic dictation considering the difficulty you noted in your previous question?</p><p>Assume a reasonable tempo choice from 70-100BPM.</p>"
 		},
 		{
     type: 'image-slider-response',
@@ -166,7 +169,7 @@ var main_loop = {
 	timeline_variables : [
 		{ melody: 'img/Berkowitz629.png' },
 		{ melody: 'img/Berkowitz379.png' },
-		{ melody: 'img/Berkowitz417t.png' },
+		{ melody: 'img/Berkowitz417tx.png' },
 		{ melody: 'img/Berkowitz156.png' },
 		{ melody: 'img/Berkowitz9.png' },
 		{ melody: 'img/Berkowitz70.png' },
@@ -180,7 +183,7 @@ var main_loop = {
 		{ melody: 'img/Berkowitz3.png' },
 		{ melody: 'img/Berkowitz282.png' },
 		{ melody: 'img/Berkowitz334t.png' },
-		{ melody: 'img/Berkowitz607t.png' },
+		{ melody: 'img/Berkowitz607tx.png' },
 		{ melody: 'img/Berkowitz74.png' },
 		{ melody: 'img/Berkowitz622.png' },
 		{ melody: 'img/Berkowitz312.png' }
@@ -209,13 +212,13 @@ timeline.push(survey_opinions)
 survey_raf= {
   type: 'survey-text',
   questions: [
-		{prompt: "<p>If you would like to be entered in the raffle for $50, please provide your: </p><p>NAME</p>?"}, 
+		{prompt: "<p>If you would like to be entered in the raffle for $50, please provide your:</p><p>NAME</p>"}, 
 		{prompt: "EMAIL ADDRESS"}
 			
 		],
 };
 
-timeline.push(survey_opinions)
+timeline.push(survey_raf)
 
 
 var subject_id = Math.floor(Math.random()*100000);
