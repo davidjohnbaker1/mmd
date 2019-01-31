@@ -11,7 +11,10 @@ clean_demographics <- function(x){
   x %>%
     str_remove_all(pattern = "Q0") %>%
     str_remove_all(pattern = "Q1") %>%
-    str_remove_all(pattern = "[:punct:]")
+    str_remove_all(pattern = "\\{") %>%
+    str_remove_all(pattern = "\\}") %>%
+    str_remove_all(pattern = "\\:") %>%
+    str_remove_all(pattern = "\"")
 }
 
 get_melody_responses <- function(x){
