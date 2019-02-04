@@ -46,3 +46,5 @@ melody_data %>%
   select(stimulus,mean_diff, mean_gram, p.range,p.entropy,len, note.dens,tonalness) %>%
   pairs.panels()
 
+model_dumb <- lm(mean_diff ~ p.entropy + len, data = melody_data)
+summary(model_dumb)
