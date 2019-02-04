@@ -46,6 +46,7 @@ dictation_survey$What_Semester <- make_semester_category(dictation_survey$What_S
 #--------------------------------------------------
 # Difficulty for Average 2nd Year 
 dictation_survey %>%
+  filter(melody_number < 500) %>%
   ggplot(aes(x = melody_number, y = Difficulty_2nd_Year, color = subject)) +
   geom_point() + geom_smooth(method = "lm") + 
   labs(title = "Difficulty of Melody Across Sample",
