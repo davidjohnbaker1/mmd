@@ -1,6 +1,6 @@
 #--------------------------------------------------
 # Update Features 
-setwd("symbolic/featureData/")
+setwd("corpus/symbolic/fantasticSoftware/")
 source("Fantastic.R")
 setwd("../csv/")
 

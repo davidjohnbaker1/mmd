@@ -39,14 +39,13 @@ dictation_survey$What_Semester <- factor(dictation_survey$What_Semester, levels 
                                                            "Advanced Undergradaute", "Graduate Studies"))
 
 
-View(dictation_survey)
 
 #======================================================================================================
 # Variable Checks
-table(unique(dictation_survey$years_teaching_aural))
 
-
-#======================================================================================================
+#--------------------------------------------------
+# Figure 1
+# * Plot X axis of Index of Melody ~ Semester, Average Difficulty, Adherence to Grammatrial Syntax
 # Things to Begin to Plot
 # List of All Melodies Use in Chapter
 # Basic Demographics of Survey Participants
@@ -149,19 +148,49 @@ dictation_survey %>%
   mutate(melody_cor = cor(Difficulty_2nd_Year, Grammar)) %>%
   arrange(melody_cor)
 
-
-# Semester -- ranked data
-# Average Difficulty for second year -- ICC
-# Adherence to grammatical syntax of common pratice -- ICC
-
-
 #--------------------------------------------------
-# Figure 1
-# * Plot X axis of Index of Melody ~ Semester, Average Difficulty, Adherence to Grammatrial Syntax
+# Better to do rank order or melody_number??
+
+library(lme4)
+
+rank_model <- lmer(Difficulty_2nd_Year ~ melody_rank + (1|subject) + (1|stimulus), data = dictation_survey)
+index_model<- lmer(Difficulty_2nd_Year ~ melody_number + (1|subject) + (1|stimulus), data = dictation_survey)
+
+summary(rank_model)
+summary(index_model)
+anova(rank_model, index_model)
+
 
 #--------------------------------------------------
 # Figure 2
 # Plot basic Correlations between grammatical coherence and difficulty
+
+dictation_survey %>%
+  group_by(stimulus) %>%
+  mutate(dif_gram_cor = cor(Difficulty_2nd_Year, Grammar)) %>%
+  select(stimulus, dif_gram_cor, melody_rank) %>%
+  unique() %>%
+  arrange(dif_gram_cor) %>%
+  ggplot(aes(x = reorder(stimulus, melody_rank), y = dif_gram_cor)) + 
+  geom_bar(stat = "identity") + 
+  coord_flip() + 
+  labs(title = "Correlations Between Difficulty and Melodic Common Practice",
+       x = "Melody",
+       y = "Pearson r")
+
+dictation_survey %>%
+  group_by(stimulus) %>%
+  mutate(dif_gram_cor = cor(Difficulty_2nd_Year, Grammar)) %>%
+  select(stimulus, dif_gram_cor, melody_rank) %>%
+  unique() %>%
+  arrange(dif_gram_cor) %>%
+  ggplot(aes(x = reorder(stimulus, dif_gram_cor), y = dif_gram_cor)) + 
+  geom_bar(stat = "identity") + 
+  coord_flip() + 
+  labs(title = "Correlations Between Difficulty and Melodic Common Practice",
+       x = "Melody",
+       y = "Pearson r")
+
 
 #--------------------------------------------------
 # Introduce Fantastic
