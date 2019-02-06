@@ -677,72 +677,72 @@ Literature,46,Literature46,DJB,YES,YES,YES,I,354,NA,5,g,,,0.75
 Literature,47,Literature47,DJB,YES,YES,YES,I,355,NA,5,d,,,0.75
 Literature,48,Literature48,DJB,YES,YES,YES,I,355,NA,5,b,,,0.75
 Literature,49,Literature49,DJB,YES,YES,YES,I,355,NA,5,B-,,,0.75
-Literature,50,Literature50,,,,NO,,,,5,,,,1
-Literature,51,Literature51,,,,NO,,,,5,,,,1
-Literature,52,Literature52,,,,NO,,,,5,,,,1
-Literature,53,Literature53,,,,NO,,,,5,,,,1
-Literature,54,Literature54,,,,NO,,,,5,,,,1
-Literature,55,Literature55,,,,NO,,,,5,,,,1
-Literature,56,Literature56,,,,NO,,,,5,,,,1
-Literature,57,Literature57,,,,NO,,,,5,,,,1
-Literature,58,Literature58,,,,NO,,,,5,,,,1
-Literature,59,Literature59,,,,NO,,,,5,,,,1
-Literature,60,Literature60,,,,NO,,,,5,,,,1
-Literature,61,Literature61,,,,NO,,,,5,,,,1
-Literature,62,Literature62,,,,NO,,,,5,,,,1
-Literature,63,Literature63,,,,NO,,,,5,,,,1
-Literature,64,Literature64,,,,NO,,,,5,,,,1
-Literature,65,Literature65,,,,NO,,,,5,,,,1
-Literature,66,Literature66,,,,NO,,,,5,,,,1
-Literature,67,Literature67,,,,NO,,,,5,,,,1
-Literature,68,Literature68,,,,NO,,,,5,,,,1
-Literature,69,Literature69,,,,NO,,,,5,,,,1
-Literature,70,Literature70,,,,NO,,,,5,,,,1
-Literature,71,Literature71,,,,NO,,,,5,,,,1
-Literature,72,Literature72,,,,NO,,,,5,,,,1
-Literature,73,Literature73,,,,NO,,,,5,,,,1
-Literature,74,Literature74,,,,NO,,,,5,,,,1
-Literature,75,Literature75,,,,NO,,,,5,,,,1
-Literature,76,Literature76,,,,NO,,,,5,,,,1
-Literature,77,Literature77,,,,NO,,,,5,,,,1
-Literature,78,Literature78,,,,NO,,,,5,,,,1
-Literature,79,Literature79,,,,NO,,,,5,,,,1
-Literature,80,Literature80,,,,NO,,,,5,,,,1
-Literature,81,Literature81,,,,NO,,,,5,,,,1
-Literature,82,Literature82,,,,NO,,,,5,,,,1
-Literature,83,Literature83,,,,NO,,,,5,,,,1
-Literature,84,Literature84,,,,NO,,,,5,,,,1
-Literature,85,Literature85,,,,NO,,,,5,,,,1
-Literature,86,Literature86,,,,NO,,,,5,,,,1
-Literature,87,Literature87,,,,NO,,,,5,,,,1
-Literature,88,Literature88,,,,NO,,,,5,,,,1
-Literature,89,Literature89,,,,NO,,,,5,,,,1
-Literature,90,Literature90,,,,NO,,,,5,,,,1
-Literature,91,Literature91,,,,NO,,,,5,,,,1
-Literature,92,Literature92,,,,NO,,,,5,,,,1
-Literature,93,Literature93,,,,NO,,,,5,,,,1
-Literature,94,Literature94,,,,NO,,,,5,,,,1
-Literature,95,Literature95,,,,NO,,,,5,,,,1
-Literature,96,Literature96,,,,NO,,,,5,,,,1
-Literature,97,Literature97,,,,NO,,,,5,,,,1
-Literature,98,Literature98,,,,NO,,,,5,,,,1
-Literature,99,Literature99,,,,NO,,,,5,,,,1
-Literature,100,Literature100,,,,NO,,,,5,,,,1
-Literature,101,Literature101,,,,NO,,,,5,,,,1
-Literature,102,Literature102,,,,NO,,,,5,,,,1
-Literature,103,Literature103,,,,NO,,,,5,,,,1
-Literature,104,Literature104,,,,NO,,,,5,,,,1
-Literature,105,Literature105,,,,NO,,,,5,,,,1
-Literature,106,Literature106,,,,NO,,,,5,,,,1
-Literature,107,Literature107,,,,NO,,,,5,,,,1
-Literature,108,Literature108,,,,NO,,,,5,,,,1
-Literature,109,Literature109,,,,NO,,,,5,,,,1
-Literature,110,Literature110,,,,NO,,,,5,,,,1
-Literature,111,Literature111,,,,NO,,,,5,,,,1
-Literature,112,Literature112,,,,NO,,,,5,,,,1
-Literature,113,Literature113,,,,NO,,,,5,,,,1
-Literature,114,Literature114,,,,NO,,,,5,,,,1
-Literature,115,Literature115,,,,NO,,,,5,,,,1
+Literature,50,Literature50,DJB,YES,YES,YES,II,356,,5,E-,,,1
+Literature,51,Literature51,DJB,YES,YES,YES,II,356,,5,b,,,1
+Literature,52,Literature52,DJB,YES,YES,YES,II,356,,5,A-,,,1
+Literature,53,Literature53,DJB,YES,YES,YES,II,356,,5,D,,,1
+Literature,54,Literature54,DJB,YES,YES,YES,II,356,,5,F,,,1
+Literature,55,Literature55,DJB,YES,YES,YES,II,357,,5,F,,,1
+Literature,56,Literature56,DJB,YES,YES,YES,II,357,,5,D,,,1
+Literature,57,Literature57,ESM,done,NO,YES,II,357,,5,G,,,1
+Literature,58,Literature58,ESM,done,NO,YES,II,357,,5,e,pentatonic,ties not added yet,1
+Literature,59,Literature59,ESM,done,NO,YES,II,358,,5,g,pentatonic,ties not added yet,1
+Literature,60,Literature60,ESM,done,NO,YES,II,358,,5,F,pentatonic?,ties not added yet,1
+Literature,61,Literature61,ESM,done,NO,YES,II,358,,5,B-,,ties not added yet,1
+Literature,62,Literature62,ESM,done,NO,YES,II,358,,5,C,,ties not added yet,1
+Literature,63,Literature63,ESM,done,NO,YES,II,359,,5,G,,ties not added yet,1
+Literature,64,Literature64,ESM,done,NO,YES,II,359,,5,b,,ties not added yet,1
+Literature,65,Literature65,ESM,done,NO,YES,II,359,,5,G,,ties not added yet,1
+Literature,66,Literature66,ESM,done,NO,YES,II,359,,5,F,,ties not added yet,1
+Literature,67,Literature67,ESM,done,NO,YES,II,360,,5,d,,ties not added yet,1
+Literature,68,Literature68,ESM,done,NO,YES,II,360,,5,F,,ties not added yet,1
+Literature,69,Literature69,ESM,done,NO,YES,II,360,,5,C,,ties not added yet,1
+Literature,70,Literature70,ESM,done,NO,YES,II,360,,5,a,,ties not added yet,1
+Literature,71,Literature71,ESM,,NO,YES,II,360,,5,,,,1
+Literature,72,Literature72,ESM,,NO,YES,II,361,,5,,,,1
+Literature,73,Literature73,ESM,,NO,YES,II,361,,5,,,,1
+Literature,74,Literature74,ESM,,NO,YES,II,361,,5,,,,1
+Literature,75,Literature75,ESM,,NO,YES,II,361,,5,,,,1
+Literature,76,Literature76,ESM,,NO,YES,II,361,,5,,,,1
+Literature,77,Literature77,ESM,,NO,YES,II,362,,5,,,,1
+Literature,78,Literature78,ESM,,NO,YES,II,362,,5,,,,1
+Literature,79,Literature79,ESM,,NO,YES,II,362,,5,,,,1
+Literature,80,Literature80,ESM,,NO,YES,II,362,,5,,,,1
+Literature,81,Literature81,ESM,,NO,YES,II,362,,5,,,,1
+Literature,82,Literature82,ESM,,NO,YES,II,363,,5,,,,1
+Literature,83,Literature83,ESM,,NO,YES,II,363,,5,,,,1
+Literature,84,Literature84,ESM,,NO,YES,II,363,,5,,,,1
+Literature,85,Literature85,ESM,,NO,YES,II,363,,5,,,,1
+Literature,86,Literature86,ESM,,NO,YES,II,364,,5,,,,1
+Literature,87,Literature87,ESM,,NO,YES,II,364,,5,,,,1
+Literature,88,Literature88,ESM,,,NO,,,,5,,,,1
+Literature,89,Literature89,ESM,,,NO,,,,5,,,,1
+Literature,90,Literature90,ESM,,,NO,,,,5,,,,1
+Literature,91,Literature91,ESM,,,NO,,,,5,,,,1
+Literature,92,Literature92,ESM,,,NO,,,,5,,,,1
+Literature,93,Literature93,ESM,,,NO,,,,5,,,,1
+Literature,94,Literature94,ESM,,,NO,,,,5,,,,1
+Literature,95,Literature95,ESM,,,NO,,,,5,,,,1
+Literature,96,Literature96,ESM,,,NO,,,,5,,,,1
+Literature,97,Literature97,ESM,,,NO,,,,5,,,,1
+Literature,98,Literature98,ESM,,,NO,,,,5,,,,1
+Literature,99,Literature99,ESM,,,NO,,,,5,,,,1
+Literature,100,Literature100,ESM,,,NO,,,,5,,,,1
+Literature,101,Literature101,ESM,,,NO,,,,5,,,,1
+Literature,102,Literature102,ESM,,,NO,,,,5,,,,1
+Literature,103,Literature103,ESM,,,NO,,,,5,,,,1
+Literature,104,Literature104,ESM,,,NO,,,,5,,,,1
+Literature,105,Literature105,ESM,,,NO,,,,5,,,,1
+Literature,106,Literature106,ESM,,,NO,,,,5,,,,1
+Literature,107,Literature107,ESM,,,NO,,,,5,,,,1
+Literature,108,Literature108,ESM,,,NO,,,,5,,,,1
+Literature,109,Literature109,ESM,,,NO,,,,5,,,,1
+Literature,110,Literature110,ESM,,,NO,,,,5,,,,1
+Literature,111,Literature111,ESM,,,NO,,,,5,,,,1
+Literature,112,Literature112,ESM,,,NO,,,,5,,,,1
+Literature,113,Literature113,ESM,,,NO,,,,5,,,,1
+Literature,114,Literature114,ESM,,,NO,,,,5,,,,1
+Literature,115,Literature115,ESM,,,NO,,,,5,,,,1
 Literature,116,Literature116,,,,NO,,,,5,,,,1
 Literature,117,Literature117,,,,NO,,,,5,,,,1
 Literature,118,Literature118,,,,NO,,,,5,,,,1
