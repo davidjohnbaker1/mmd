@@ -8,6 +8,14 @@ library(irr)
 dictation_survey <- read_csv("aural_survey/Dictation_Survey_Responses.csv")
 View(dictation_survey)
 
+unique(dictation_survey$subject)
+length(unique(dictation_survey$subject))
+#--------------------------------------------------
+# Removal of Subjects
+
+dictation_survey <- dictation_survey %>%
+  filter(subject != "73650") # PhD in Neuroscience 
+
 #--------------------------------------------------
 # Create Melody Number
 head(dictation_survey)
@@ -17,8 +25,9 @@ get_melody_number <- function(x){
     str_remove_all(pattern = "[:alpha:]")
 }
 
-dictation_survey$melody_number <- as.numeric(get_melody_number(dictation_survey$stimulus))
-dictation_survey$subject <- as.character(dictation_survey$subject)
+dictation_survey <- dictation_survey %>%
+  mutate(melody_number = as.numeric(get_melody_number(stimulus)),
+         subject = as.character(subject)) 
 
 make_semester_category <- function(x){
   
@@ -31,18 +40,20 @@ make_semester_category <- function(x){
   x
 }
 
+#--------------------------------------------------
+# Assign Semster as Factor 
 
-dictation_survey$What_Semester <- make_semester_category(dictation_survey$What_Semester)
-
-dictation_survey$What_Semester <- factor(dictation_survey$What_Semester, levels = c("First Semester", "Second Semester",
-                                                           "Third Semester","Fourth Semester", 
-                                                           "Advanced Undergradaute", "Graduate Studies"))
-
-
-
+dictation_survey <-
+  dictation_survey %>%
+  mutate(What_Semester = make_semester_category(What_Semester),
+         What_Semester = factor(What_Semester, levels = c("First Semester",
+                                                          "Second Semester",
+                                                          "Third Semester",
+                                                          "Fourth Semester", 
+                                                          "Advanced Undergradaute",
+                                                          "Graduate Studies"))) 
 #======================================================================================================
 # Variable Checks
-
 #--------------------------------------------------
 # Figure 1
 # * Plot X axis of Index of Melody ~ Semester, Average Difficulty, Adherence to Grammatrial Syntax
@@ -113,7 +124,7 @@ dictation_survey %>%
   select(-melody_number) %>%
   icc(model = "twoway",type = "consistency")
   
-# ICC .715 
+# ICC .763 
 
 # Cicchetti (1994)[16] gives the following often quoted guidelines for interpretation for kappa or ICC inter-rater agreement measures:
 #   
@@ -152,15 +163,12 @@ dictation_survey %>%
 # Better to do rank order or melody_number??
 
 library(lme4)
-
 rank_model <- lmer(Difficulty_2nd_Year ~ melody_rank + (1|subject) + (1|stimulus), data = dictation_survey)
 index_model<- lmer(Difficulty_2nd_Year ~ melody_number + (1|subject) + (1|stimulus), data = dictation_survey)
 
 summary(rank_model)
 summary(index_model)
 anova(rank_model, index_model)
-
-
 #--------------------------------------------------
 # Figure 2
 # Plot basic Correlations between grammatical coherence and difficulty
