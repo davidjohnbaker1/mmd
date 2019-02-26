@@ -1,0 +1,73 @@
+Music is made up of many small repeated patterns (Margulis, 2014). 
+Research in music perception demonstrates that these patterns are learned implicitly (Rohrmeier & Rebuschat, 2012), and importantly, they are related to listern’s sense of musical anticipation (Huron, 2006). 
+While research on patterns and music has established how these patterns are related to expectancy and melodic segmentation (Pearce, 2018), how music’s repetitive nature affects a listener’s load on memory has not been explored to the same extent. 
+
+This paper presents a novel theory of music perception that links music’s repetitive structure to the limits of working memory. 
+I first draw from research in cognitive psychology that hypothesizes that more predictable events are less taxing on memory. 
+Given research in music perception based on the statistical learning hypothesis and the probabilistic prediction hypothesis (Pearce, 2018), 
+I posit that more predictable musical events would be less taxing on memory as a result of more efficient processing.
+
+To demonstrate this, I provide both evidence from a newly encoded corpus of over 750 melodies and a small, pilot experiment (N = 15). 
+I argue that a motive’s frequency distribution in a corpus is related to its load on memory when quantified using the information content measures derived from Pearce’s computational model of auditory cognition. 
+The paper concludes by asserting that studying the repeated patterns in music can help inform both work in memory for melodies, as well as music pedagogy. 
+I end by further speculating that similar research might provide a useful theoretical link to investigate interactions between musical memory and the finite window of working memory, and thus help answer questions of musical perception.
+
+Audience -- humanities and music cognition 
+
+I. Repeatition 
+	Margulis
+	How we learn
+	Huron
+	Pearce (2018)
+II. Required Theory 
+	SLH 
+		Saffran
+		Huron 
+	PPH 
+		Pearce
+		All the papers from 2018 that Pearce is good at
+	But what about memory?
+III. Psychology
+	More predictiable events less taxing on memory
+		Margulis book example
+		This is the learning effect that is a confound in experiments
+		(tho could be opposite)
+	Tho it could also be that less predictable events are more salient
+		FANTASTIC feature paper
+		BUT THIS IS RECOGNITION NOT MEMORY 
+	So here's the logic
+		IF we learn events implicitly 
+		AND Those patterns are linked to behavior (see Pearce plethora)
+		THEN chains of more expected events would be easier to chunk 
+	Duh - this is chunking 
+		Look at what Cowan warns about in research on finite window
+		All of these examples have to do with music
+	Patterns 
+		Look at these patterns on a corpus I trained with IDYOM
+IV. Corpus
+	What sets
+		If I said, what sets of notes seem to be more gramatical?
+		(Triads, variation of pitch class set 1-4)
+	Where did I get these sets?
+		Well as part of dissertation research, encoded 750 melodies
+		ran n-gram search pattern on the whole thing
+		Looked at THIS DISTRIBUTION
+		used theorist intuition to find meaningful patterns
+	Though could ask you anecodotally, any empriical people would be like... ok 
+V. Experiment
+	So I ran a small, pilot experiment
+	Rationale was IF these are all equally likely to be remembered, no differences
+	so i trained corpus on N tonal melodies
+	grabbed melodies from top and bottom half, only grabbing first 1,3,5 notes 
+	Did correctness analysis with mixed effects and serial recall 
+	Also did RT analysis looking at time to think (Metzler) 
+	LOOK AT THESE SWEET RESULTS
+VI. Conclusions
+	Ok, if this is true what does it mean?
+	Means that in aural skills, can create a more linear path to sucess among students
+	Also have a better way of talking about limits of memory than X notes, maybe IC
+	Further, a lot to be investigated about how this finite IC WMC window would play to other phenomea
+	Deutsch so strangely effect (replicated by margulis)
+	could have to deal with performance choices?
+	(certain point a fermata is, in fact too long) 
+	
