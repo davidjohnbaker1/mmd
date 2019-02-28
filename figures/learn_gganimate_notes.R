@@ -42,3 +42,38 @@ airq %>%
   labs(title = 'Temperature in New York', y = 'Temperature (°F)') + 
   theme_minimal() + 
   theme(plot.margin = margin(5.5, 40, 5.5, 5.5))
+
+
+
+# Coordinates for 10 squares
+d <- data.frame(
+  x1 = 1:10, x2 = 2:11,
+  y1 = 4, y2 = 5,
+  t = 1:10
+)
+
+# Creating the gradient background
+library(grid)
+g <- rasterGrob(
+  t(colorRampPalette(c("#000000", "#FFFFFF"))(1000)),
+  width = unit(1, "npc"), height = unit(1, "npc")
+)
+
+# Creating the animation
+library(ggplot2)
+library(ggmap) # For theme_nothing()
+library(gganimate)
+ggplot() +
+  annotation_custom(g, -Inf, Inf, -Inf, Inf) +
+  geom_rect(
+    data = d,
+    mapping = aes(xmin = x1, xmax = x2, ymin = y1, ymax = y2),
+    color = "black", fill = "#7E7E7E"
+  ) +
+  ylim(c(1, 8)) +
+  theme_nothing() +
+  transition_time(t)
+
+# Take chunk and look for match in cowan web
+# Drop chunk 
+# Search and find 
