@@ -38,6 +38,25 @@ print(paste("If Rory encodes",helpmelodycount,"melodies, then you only need to w
 
 print(paste("You have",handindayuntil,"until your hand in."))
 print(paste("You have",defensedayuntil,"until your defense."))
+#--------------------------------------------------
+# Calculating Pay 
+
+berkowitz_progress %>%
+  group_by(Encoder) %>%
+  summarise(mar6counts = n()) %>%
+  arrange(-mar6counts) -> mar6counts
+
+berkowitz_progress %>%
+  left_join(mar6counts) %>%
+  select(Encoder, Rate, mar6counts) %>%
+  group_by(Encoder) %>%
+  summarise(sum = sum(Rate))
+
+# Payout 
+#--------------------------------------------------
+# AR - 37.5 = 40
+# CD - 09.0 = 10
+# EM - 31.0 = 31
 
 #======================================================================================================
 # Tweet
