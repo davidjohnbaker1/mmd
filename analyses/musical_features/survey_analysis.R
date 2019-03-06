@@ -53,6 +53,101 @@ dictation_survey <-
                                                           "Advanced Undergradaute",
                                                           "Graduate Studies"))) 
 #======================================================================================================
+# Make Demographic Plots
+
+# Age and Educational Status 
+
+dictation_survey %>%
+  group_by(subject) %>%
+  select(subject, age) %>%
+  unique() %>%
+  ungroup() %>%
+  mutate(mean_age = mean(age), sd_age = sd(age))
+
+library(stringr)
+
+fix_masters <- function(x){
+  x <- ifelse(str_detect(string = x, pattern = "Mas") == TRUE, "Masters", x) 
+  x <- ifelse(str_detect(string = x, pattern = "mas") == TRUE, "Masters", x) 
+  x
+  }
+
+fix_doc <- function(x){
+  x <- ifelse(str_detect(string = x, pattern = "[Cc]omp") == TRUE, "Completed Doctorate", x) 
+}
+
+fix_doc_candidate <- function(x){
+  x <- ifelse(str_detect(string = x, pattern = "[Cc]an") == TRUE, "Doctoral Student", x) 
+  x <- ifelse(str_detect(string = x, pattern = "[Ss]tu") == TRUE, "Doctoral Student", x) 
+  x <- ifelse(str_detect(string = x, pattern = "ABD") == TRUE, "Doctoral Student", x) 
+  }
+
+dictation_survey$education_status <- fix_masters(dictation_survey$education_status)
+dictation_survey$education_status <- fix_doc(dictation_survey$education_status)
+dictation_survey$education_status <- fix_doc_candidate(dictation_survey$education_status)
+
+dictation_survey <- dictation_survey %>%
+  mutate(`Educational Status` = education_status)
+
+dictation_survey %>%
+  group_by(subject) %>%
+  select(subject, age, education_status) %>%
+  unique() %>%
+  ungroup() %>%
+  ggplot(aes(x = age)) +
+  geom_histogram(bins = 10, aes(fill = education_status)) +
+  scale_y_continuous(limits = c(0,10), breaks = seq(0,10,1)) +
+  labs(title = "Age and Educational Distribution of Sample",
+       x = "Age",
+       y = "Frequency Count", fill = "Educational Status") +
+  theme_minimal()
+
+# Years Teaching Aural 
+dictation_survey$years_teaching_aural
+
+clean_years <- function(x){
+  x <- str_remove_all(string = x, pattern = "[Yy].*$")
+  x <- str_replace_all(string = x, pattern = ",",replacement = "\\.")
+  x <- as.numeric(x)
+  x
+}
+
+dictation_survey$years_teaching_aural <- clean_years(dictation_survey$years_teaching_aural)
+
+
+dictation_survey %>%
+  group_by(subject) %>%
+  select(subject, `Educational Status`, years_teaching_aural) %>%
+  unique() %>%
+  ungroup(subject) %>%
+  mutate(avg_years = mean(years_teaching_aural), sd_years = sd(years_teaching_aural))
+
+range(dictation_survey$years_teaching_aural)
+
+# Preferred System 
+
+dictation_survey %>%
+  select(subject, `Educational Status`, years_teaching_aural, syllable_system, last_school) %>%
+  unique() %>%
+  print(n = 40)
+
+# 38 report moveable Do, 2 fixed 
+
+# Instrument
+
+
+dictation_survey %>%
+  select(subject, `Educational Status`, years_teaching_aural, instrument, last_school) %>%
+  unique() %>%
+  print(n = 40)
+
+# Get Help
+
+# Opinions
+
+# Contact Information 
+
+#======================================================================================================
 # Variable Checks
 #--------------------------------------------------
 # Figure 1
@@ -124,7 +219,7 @@ dictation_survey %>%
   select(-melody_number) %>%
   icc(model = "twoway",type = "consistency")
   
-# ICC .763 
+# ICC .799
 
 # Cicchetti (1994)[16] gives the following often quoted guidelines for interpretation for kappa or ICC inter-rater agreement measures:
 #   
