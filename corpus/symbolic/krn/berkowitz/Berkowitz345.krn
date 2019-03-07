@@ -4,6 +4,7 @@
 =1-
 *clefG2
 *k[b-e-a-]
+*met(c)
 *M4/4
 16g/LL
 16f#/
@@ -33,7 +34,6 @@
 16g/JJ
 4f/
 =3
-!!linebreak:original
 16f\LL
 16an\
 16cc\
@@ -68,7 +68,6 @@
 16cc\
 16dd\JJ
 =5
-!!linebreak:original
 16ee-\LL
 16b-\
 16cc\

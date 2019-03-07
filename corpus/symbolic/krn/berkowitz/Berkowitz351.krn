@@ -4,6 +4,7 @@
 =1-
 *clefG2
 *k[b-]
+*met(c)
 *M4/4
 16a\LL
 16b-\
@@ -53,7 +54,6 @@
 16e/J
 8f/J
 =4
-!!linebreak:original
 16e/LL
 16f/
 16g/
@@ -105,7 +105,6 @@
 16f/
 16e/JJ
 =7
-!!linebreak:original
 16f/LL
 16e/
 16f/

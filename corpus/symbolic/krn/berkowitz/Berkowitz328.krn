@@ -4,6 +4,7 @@
 =1-
 *clefG2
 *k[f#c#]
+*met(c|)
 *M2/2
 8f#/L
 8e/
@@ -51,7 +52,6 @@
 4g/
 4b\
 =8
-!!linebreak:original
 8a/L
 8g#/
 8a/
@@ -89,7 +89,6 @@
 2dd\
 4cc#\
 =14
-!!linebreak:original
 8b/L
 8a#/
 8b/
@@ -133,7 +132,6 @@
 8f#/J
 2g/
 =20
-!!linebreak:original
 4dd\
 8g/L
 8f#/J

@@ -4,6 +4,7 @@
 =1-
 *clefG2
 *k[b-e-a-d-g-]
+*met(c|)
 *M2/2
 4r
 4r
@@ -46,7 +47,6 @@
 4a-/
 4a-/
 =8
-!!linebreak:original
 4.gn/
 8a-/
 8b-\L
@@ -88,7 +88,6 @@
 8g-/
 8a-/J
 =15
-!!linebreak:original
 4b-\
 4cc\
 2dd-\

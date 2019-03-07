@@ -1,9 +1,9 @@
 **kern
 *staff1
 =1-
-!!pagebreak:original
 *clefC4
 *k[]
+*met(c|)
 *M2/2
 2.E/
 4F/
@@ -29,7 +29,6 @@
 =8
 1B
 =9
-!!linebreak:original
 2.c\
 4A\
 =10
@@ -46,7 +45,6 @@
 8B\L
 8B-\J
 =14
-!!linebreak:original
 1Gn
 =15
 2.E/

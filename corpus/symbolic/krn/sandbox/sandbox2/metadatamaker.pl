@@ -28,7 +28,7 @@ sub processEntry {
    my $directory = $data[0];
    my $filename  = $data[1];
    if (!-r "$directory/$filename") {
-      print "WARNING: Cannot find $filename, skipping...\n";
+      print "WARNING 1: Cannot find $filename, skipping...\n";
       next;
    }
    open (HFILE, "$directory/$filename") or die "Cannot read $filename";

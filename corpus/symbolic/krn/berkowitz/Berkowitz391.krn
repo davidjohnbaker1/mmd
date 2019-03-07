@@ -4,6 +4,7 @@
 =1-
 *clefC3
 *k[f#]
+*met(c|)
 *M2/2
 2r
 8r
@@ -43,7 +44,6 @@
 4r
 [4cc\
 =6
-!!linebreak:original
 8cc\L]
 8a\
 8a\
@@ -80,7 +80,6 @@
 4b\
 2cc\
 =11
-!!linebreak:original
 8r
 8d#\L
 8d#\

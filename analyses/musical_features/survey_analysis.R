@@ -100,7 +100,13 @@ dictation_survey %>%
   labs(title = "Age and Educational Distribution of Sample",
        x = "Age",
        y = "Frequency Count", fill = "Educational Status") +
-  theme_minimal()
+  theme_minimal() -> age_ed_survey_distribution
+
+age_ed_survey_distribution
+
+# Save Plot 
+ggsave(age_ed_survey_distribution, 
+       filename = "document/img/age_ed_survey_distribution.png")
 
 # Years Teaching Aural 
 dictation_survey$years_teaching_aural
@@ -181,10 +187,14 @@ ggplot(dictation_agreement_plot, aes(x = melody_rank, y = difficulty_mean)) +
                     ymax = difficulty_mean+difficulty_sem),
                 width = .1) +
   labs(title = "Average Difficulty for 2nd Year of Melodies Across Sample",
-       subtitle = "Bars indicate Standard Error of the Mean",
+       subtitle = "Standard Error of Mean",
        x = "Melodies in Sample in Rank Order",
-       y = "Averaged Difficulty") +
-  theme_classic()
+       y = "Average Difficulty") +
+  theme_minimal() -> difficulty_plot
+
+difficulty_plot
+
+ggsave(plot = difficulty_plot, filename = "document/img/difficulty_plot.png")
 
 #--------------------------------------------------
 # Grammar Plots 
@@ -204,9 +214,11 @@ ggplot(dictation_agreement_plot_grammar, aes(x = melody_rank, y = grammar_mean))
        subtitle = "Bars indicate Standard Error of the Mean",
        x = "Melodies in Sample in Rank Order",
        y = "Averaged Grammar") +
-  theme_classic()
+  theme_minimal() -> grammar_plot
 
+grammar_plot
 
+ggsave(plot = grammar_plot, filename = "document/img/grammar_plot.png")
 
 #--------------------------------------------------
 # Calculate IRR + ICC 
@@ -290,10 +302,14 @@ dictation_survey %>%
   ggplot(aes(x = reorder(stimulus, dif_gram_cor), y = dif_gram_cor)) + 
   geom_bar(stat = "identity") + 
   coord_flip() + 
+  scale_y_continuous(limits = c(-1,1), breaks = seq(-1,1,.5)) +
   labs(title = "Correlations Between Difficulty and Melodic Common Practice",
        x = "Melody",
-       y = "Pearson r")
+       y = "Pearson Correlation Coefficient") + 
+  theme_minimal() -> grammar_difficulty_correlation_plot
 
+ggsave(filename = "document/img/grammar_difficulty_correlation_plot.png",
+       plot = grammar_difficulty_correlation_plot)
 
 #--------------------------------------------------
 # Introduce Fantastic

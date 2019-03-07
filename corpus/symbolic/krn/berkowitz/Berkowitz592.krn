@@ -1,7 +1,6 @@
 **kern
 *staff1
 =1-
-!!pagebreak:original
 *clefG2
 *k[]
 *M2/4
@@ -41,7 +40,6 @@ q0.332031dd\
 q0.335938an\J
 4cc\
 =8
-!!linebreak:original
 q0.332031dd-\L
 q0.332031cc\
 q0.335938g\J
@@ -64,7 +62,6 @@ q0.335938g\J
 16g/
 16r
 =12
-!!linebreak:original
 8a/L
 8a-/J
 4e-/
