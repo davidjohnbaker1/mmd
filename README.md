@@ -24,7 +24,11 @@ Book will not build, fix
 
 ### Introduction 
 
-* [ ] Update Chapter 4 blurb in the intro chapter
+* 7 Minutes to Read 
+
+* [ ] Get External eyes on it 
+* [ ] Clean References
+* [X] Update Chapter 4 blurb in the intro chapter
 
 ### Literature Review
 
