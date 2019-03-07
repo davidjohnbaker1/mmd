@@ -14,6 +14,23 @@ library(corrr)
 # Data Import
 dictation_survey <- read_csv("aural_survey/Dictation_Survey_Responses.csv")
 fantastic_computations <- read_csv("corpus/symbolic/CurrentBerkowitz.csv")
+#--------------------------------------------------
+# Swap Out Transposed Melodies Names 
+
+# Berkowitz334
+# Berkowitz382
+# Berkowitz417
+# Berkowitz607 
+
+accomodate_rename <- function(x){
+  x[x=="Berkowitz334"] <- "Berkowitz334t"
+  x[x=="Berkowitz382"] <- "Berkowitz382t"
+  x[x=="Berkowitz417"] <- "Berkowitz417t"
+  x[x=="Berkowitz607"] <- "Berkowitz607t"
+  x
+}
+
+fantastic_computations$file.id <- accomodate_rename(fantastic_computations$file.id)
 
 #--------------------------------------------------
 # Change Fantastic Name for Merge 
@@ -31,41 +48,95 @@ dictation_survey %>%
 #--------------------------------------------------
 # Merge Data 
 # Variables Wanted: All Fantastic, 
-names(fantastic_computations)
 
-remove_transpose <- function(x){
-  x %>%
-    str_remove_all(pattern = "t$")
-}
-dictation_survey$stimulus <- remove_transpose(dictation_survey$stimulus)
+#remove_transpose <- function(x){
+#  x %>%
+#    str_remove_all(pattern = "t$")
+#}
+
+# dictation_survey$stimulus <- remove_transpose(dictation_survey$stimulus)
+
 
 target %>% 
   left_join(fantastic_computations) -> melody_data 
+#======================================================================================================
+# Export Data For Correlation Table 
+
+#--------------------------------------------------
+
+melody_data %>%
+  ungroup(stimulus) %>%
+  select(mean_diff:step.cont.loc.var) %>%
+  correlate() %>%
+  shave() %>%
+  select(rowname, mean_diff, mean_gram) %>%
+  arrange(-mean_diff) 
+  
+#--------------------------------------------------
+# FILE FOF DISSERATION
+
+fix_gt <- function(x){
+  x <- x[x=="mean_diff"] <- "Mean Difficulty"
+  x <- x[x=="mean_gram"] <- "Mean Grammar"
+}
+
+melody_data %>%
+  ungroup(stimulus) %>%
+  select(mean_diff:step.cont.loc.var) %>%
+  correlate() %>%
+  shave() %>%
+  select(rowname, mean_diff, mean_gram) %>%
+# mutate(strength = abs(mean_diff) + abs(mean_gram)) %>%
+  gather(mean_diff, mean_gram, -rowname) %>%
+  rename(Feature = rowname, GroundTruth = mean_diff, corr = mean_gram) %>%
+  mutate(GT = fix_gt(GroundTruth)) %>%
+  filter(Feature != "mean_gram") %>%
+  filter(Feature != "mean_diff") %>%
+  ggplot(aes(x = reorder(Feature, corr), y = corr, group = GroundTruth)) +
+  coord_flip() +
+  geom_bar(stat = "identity", aes(fill = GroundTruth)) +
+  labs(title = "Correlations Between FANTASTIC Features and Expert Ratings",
+       x = "FANTASTIC Features",
+       y = "r",
+       color = "Ground Truth") +
+  theme_minimal() -> fantastic_expert_plot
+
+fantastic_expert_plot 
+
+ggsave(filename = "document/img/FantasticExpertPlot.png", plot = fantastic_expert_plot)
+
+
+# %>%
+#   rename(`FANTASTIC Feature` = rowname, `Averaged Difficulty` = mean_diff, `Average Grammar` = mean_gram) %>%
+#   kableExtra::kable(digits = 2) -> difficulty_feature_data 
+# 
+# write_rds(difficulty_feature_data,path = "analyses/musical_features/difficulty_feature_data_feb6.rds")
+
 
 #--------------------------------------------------
 # Plot Melody Against Various Features
-
+View(melody_data)
 
 # Good Ones
 ggplot(melody_data, aes(x = p.entropy, y = mean_diff)) +
   geom_point() + theme_minimal() +
   labs(title = "Pitch Entropy", x = "Pitch Entropy", y = "Mean Difficulty") +
-  theme_classic()
+  theme_minimal()
 
 ggplot(melody_data, aes(x = tonalness, y = mean_diff)) +
   geom_point() + theme_minimal() +
   labs(title = "Tonalness", x = "Tonalness", y = "Mean Difficulty") +
-  theme_classic()
+  theme_minimal()
 
 ggplot(melody_data, aes(x = step.cont.loc.var, y = mean_diff)) +
   geom_point() + theme_minimal() +
   labs(title = "Stepwise Contour: Local Variation", x = "Stepwise Contour", y = "Mean Difficulty") +
-  theme_classic()
+  theme_minimal()
 
 ggplot(melody_data, aes(x = len, y = mean_diff)) +
   geom_point() + theme_minimal() +
   labs(title = "Melody Length", x = "Melody Length", y = "Mean Difficulty") +
-  theme_classic() 
+  theme_minimal() 
 
 # Bad Ones
 
@@ -88,28 +159,7 @@ ggplot(melody_data, aes(x = d.range, y = mean_diff)) +
   geom_point() + theme_minimal() +
   labs(title = "Durational Range", x = "Durational Range", y = "Mean Difficulty") +
   theme_classic()
-#--------------------------------------------------
 
-
-melody_data %>%
-  ungroup(stimulus) %>%
-  select(mean_diff:step.cont.loc.var) %>%
-  correlate() %>%
-  shave() %>%
-  select(rowname, mean_diff, mean_gram) %>%
-  arrange(-mean_diff) %>%
-
-#--------------------------------------------------
-# FILE FOF DISSERATION
-melody_data %>%
-  ungroup(stimulus) %>%
-  select(mean_diff:step.cont.loc.var) %>%
-  correlate() %>%
-  shave() %>%
-  select(rowname, mean_diff, mean_gram) %>%
-  kableExtra::kable(digits = 2) -> difficulty_feature_data 
-
-write_rds(difficulty_feature_data,path = "analyses/musical_features/difficulty_feature_data_feb6.rds")
 #--------------------------------------------------  
 
 melody_data %>%

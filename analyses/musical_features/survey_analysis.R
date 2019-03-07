@@ -183,6 +183,7 @@ dictation_survey %>%
 
 ggplot(dictation_agreement_plot, aes(x = melody_rank, y = difficulty_mean)) + 
   geom_point() +
+  scale_x_continuous(limits = c(1,20), breaks = seq(1,20,1)) +
   geom_errorbar(aes(ymin=difficulty_mean-difficulty_sem,
                     ymax = difficulty_mean+difficulty_sem),
                 width = .1) +
@@ -210,6 +211,7 @@ ggplot(dictation_agreement_plot_grammar, aes(x = melody_rank, y = grammar_mean))
   geom_errorbar(aes(ymin=grammar_mean-grammar_sem,
                     ymax = grammar_mean+grammar_sem),
                 width = .1) +
+  scale_x_continuous(limits = c(1,20), breaks = seq(1,20,1)) +
   labs(title = "Average Grammar Across Sample",
        subtitle = "Bars indicate Standard Error of the Mean",
        x = "Melodies in Sample in Rank Order",
@@ -232,6 +234,12 @@ dictation_survey %>%
   icc(model = "twoway",type = "consistency")
   
 # ICC .799
+
+dictation_survey %>%
+  select(subject, melody_number,Grammar) %>%
+  spread(subject, Grammar) %>%
+  select(-melody_number) %>%
+  icc(model = "twoway",type = "consistency")
 
 # Cicchetti (1994)[16] gives the following often quoted guidelines for interpretation for kappa or ICC inter-rater agreement measures:
 #   
@@ -314,6 +322,9 @@ ggsave(filename = "document/img/grammar_difficulty_correlation_plot.png",
 #--------------------------------------------------
 # Introduce Fantastic
 # Merge on Dataset
+
+
+
 
 #--------------------------------------------------
 # Figure 3
