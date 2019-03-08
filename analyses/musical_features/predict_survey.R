@@ -105,13 +105,49 @@ fantastic_expert_plot
 
 ggsave(filename = "document/img/FantasticExpertPlot.png", plot = fantastic_expert_plot)
 
+melody_data %>%
+  ungroup(stimulus) %>%
+  select(mean_diff:step.cont.loc.var) %>%
+  correlate() %>%
+  shave() %>%
+  select(rowname, mean_diff, mean_gram) %>%
+  arrange(-mean_diff, mean_gram) %>% 
+  filter(rowname != "mean_diff" & rowname != "mean_gram") %>%
+  head(n = 5) -> feature_head
+
+melody_data %>%
+  ungroup(stimulus) %>%
+  select(mean_diff:step.cont.loc.var) %>%
+  correlate() %>%
+  shave() %>%
+  select(rowname, mean_diff, mean_gram) %>%
+  arrange(-mean_diff, mean_gram) %>% 
+  filter(rowname != "mean_diff" & rowname != "mean_gram") %>%
+  tail(n = 5) -> feature_tail
+
+rbind(feature_head, feature_tail) %>%
+  mutate(Feature = rowname, Difficulty = mean_diff, Grammar = mean_gram) %>%
+  select(Feature, Difficulty, Grammar) %>%
+  knitr::kable() -> strong_features
+
+write_rds(strong_features, path = "document/img/strongfeatures.rds")
 
 # %>%
 #   rename(`FANTASTIC Feature` = rowname, `Averaged Difficulty` = mean_diff, `Average Grammar` = mean_gram) %>%
 #   kableExtra::kable(digits = 2) -> difficulty_feature_data 
 # 
 # write_rds(difficulty_feature_data,path = "analyses/musical_features/difficulty_feature_data_feb6.rds")
+#======================================================================================================
+# Show Collinearity of Feature Items 
 
+fantastic_computations %>%
+  select(-stimulus, h.contour, starts_with("int")) %>%
+  select(i.abs.std, i.abs.mean, step.cont.loc.var, i.entropy, p.entropy, 
+         d.median, d.eq.trans, mean.Yules.K, tonalness, mean.Simpsons.D, mode) %>%
+  mutate(mode = as.factor(mode)) %>%
+  ggpairs(title = "Feature Correlations") -> fantastic_collin
+
+ggsave(filename = "document/img/FANTASTIC_collin.png", plot = fantastic_collin)
 
 #--------------------------------------------------
 # Plot Melody Against Various Features
