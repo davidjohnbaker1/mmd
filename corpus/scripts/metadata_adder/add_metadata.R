@@ -16,6 +16,12 @@ meta$Filename <- paste0(meta$Filename, ".krn")
 
 add_metadata <- function(fns=list.files(pattern = "*.krn")){
   
+  if (!dir.exists("kern_output")){
+    dir.create("kern_output")
+  } else {
+    print("Dir already exists!")
+  }
+  
   # Import Krn Files 
   for(i in seq(along=fns)){
     
@@ -64,7 +70,7 @@ add_metadata <- function(fns=list.files(pattern = "*.krn")){
                      krn_file[(id_line + 1):length(krn_file)])
     
     updated_krn 
-    writeLines(text = updated_krn, con = fns[i])
+    writeLines(text = updated_krn, con = paste0("kern_output/",fns[i]))
     
     }
     
