@@ -744,6 +744,18 @@ Computational Musicology
 
 ## Chapter 5
 
+Importatn to mention here that this is not a sampling. 
+Whereas might ahve made arguments similar to London about sampling at 300, not case.
+Here assumpiing that corpus could be the population, not just sample like in Essen.
+** LONDON OF WHAT DOES IT MEAN TO BE REPRESENTIVE 
+-- london suggests 300 pieces for classical music representation
+-- says that the point is the build a corpus that is "broadly representative of the classical
+composers, styles, and genres that are most familiar to the 21st century listener."
+-- says that this then comes from what we hear 
+--- JL deliniates between passive and active consumption 
+-- point is that these sources "reflect our musical environment"
+-- the implicit assumption being that works outside this sampling would be described as not belonging, but is that not really just a not natural category since if we were to decide that it did belong, it would get lumped in? Clearly the deliniating point here is that of questions of musical similarity and questions of musical similarity are questions of subjectivity. So have to realize with this loop that unless we can additionally provide external evidence that melodies are perceptually different, hard to maintain the borders of what the corpus represents. 
+
 ## Brief review of Chapter 4 on corpus (Language to reflect journal submission)
 ### Corpus outside of music
 ### Corpus in Music

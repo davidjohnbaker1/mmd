@@ -16,9 +16,7 @@ Book will not build, fix
 
 ### Corpus
 
-* Finishing remaining 25% of encoding
 * Clean All Data 
-* Run n-gram tables 
 * Create Visualzations
 * Document use of corpus 
 
@@ -41,6 +39,54 @@ Book will not build, fix
 
 * [ ] Add in citations from linear mixed effects in lingusitics talking about how subjects are random variables 
 * [ ] More explicit about ther Berz 1994
+
+### Computation Chapter
+
+* [ ] DFH In Humdrum Analysis 
+
+### Corpus Chapter
+
+* [ ] Last XXX Melodies 
+* [ ] Compare Essen to Berkowitz, make and add charts
+* [ ] General Level Edits
+
+### Experimental Chapter
+
+* [ ] General Level flow edits
+* [ ] Discussion on grading
+* [ ] Reorganize analysis 
+* [ ] Extend discssion
+
+### Comp Model 
+
+* [ ] Merge Aubrey Hickman Edits
+* [ ] Add Gifs
+* [ ] General Level Edits
+
+### Conference Papers
+
+#### Job Talk 
+
+* [ ] Copy google slides from job talk
+* [ ] Turn to general overview of data 
+* [ ] General level findings
+* [ ] Future Directions 
+
+#### SEMPRE Talk 
+
+* [ ] Re-record video 
+
+#### Again and Again
+
+* [ ] DFH Anlaysis with Humdrum (above too)
+* [ ] Clean Script 
+
+#### Regional 20 Min 
+
+* [ ] Clean Shit Draft
+* [ ] Collect all Figures
+* [ ] Make Slides
+
 
 ## Dissem
 

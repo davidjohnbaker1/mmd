@@ -1,0 +1,197 @@
+---
+title: "Corpus and Stats Essay"
+author: "David John Baker"
+date: "3/14/2019"
+output: html_document
+---
+
+
+Thesis: need to be more explicit about what we think corpora represent.
+
+Historical --> stylometrry --> inappropriate stats tests.
+Corpus as cognition --> yes need to treat data as random effects
+
+Thigns I would need to write this essay
+
+* Examples of Corpus being used to represente cotniton (random effects)
+* Examples of statistical tests being done on non population data
+* Talk about why Bayes framework would be clear answer here
+
+* What even is a corpus? 
+* Techncially its digital representations of something
+* Comes from lingusitics
+* in our case its music
+* Unlike langauge problem here is that encoding choices refelct epistomological assumptions
+* See this with xyz in music encoding inititive
+* This is bascially what Babbit said about music, lives in three worlds 
+* Ok, so decided to encode one way, still what does it represent
+* Here are examples treating it like historical data
+* But here are SIMILAR EXAMPLES OF HISTORICAL DATA BEING TREATED LIKE COGNITVE
+* Problem with doing statistical tests on corpus is can't generate new beethoven 
+* Clara Schhumann is dead, so unless we find more data, she is the populaiton
+* obvs this relates to david huron article on data rich vs data poor
+* Best thing you can then do maybe create a computer model that sounds like Clara 
+* Of course problem here is that someone might confuse it with robert 
+* so what if it's just a genre question?
+* Schumans now represent that of late classical music?
+* Well problem here is one of representation
+* Norms then going to to depend on what then is a representive genre
+* Justin London has talked about this but the argument is circular
+* More imporantly, at this point still can't do a statiscal test bc everyone is dead
+* Ok then what if you are looking at things across time
+* people love examples of music getting less or more complex over time
+* Problem in first place bc this is a value question
+* But still people do this
+* Not only do we have the resampling problem here, but now we have queastion of tons of data
+* As shown here, if you pump in a lot of data to statiscal test, always signfiacnt
+* PH note that more data is actually worse in this case
+
+* Soo what do we do next? well thing here is this assumes that corpora share a popuolation sample relationship
+* This is what that is
+* but the thing is that music's populaiton is always moving and too small and then people die bc culture changes
+* Really really if we want to model things in NHST need to pick things that are invarint.
+* only thing that is really invariant the brain
+* of course individual differnces shaped by culture
+* but we dont have infitie memory ability 
+* What we want to do is find out how much musical system is needed to represent schematic expactionts
+
+----------------
+
+
+Also McGill
+
+* Solfege essay
+* Evolution of Voice Leading Principles over time 
+* Compare with treateises 
+
+## Representation of Corpora 
+
+Returning to the introduction of this chapter, much of the point of corpus methodologies is to be able to understand what effects generalize across different data sets.
+Unlike some of the goals of more humanistic research, attempting to find this invariance derives from an empirical musicologist's methodological attempting to separte the observer from the phenomena, though this level of objectivity is acknowledged as never being completely possible (PARNCUT).
+In many ways, the motivations from this research is inspired from work from computational linguistics, a field of research where much of music is often inspired (LINGUSITC BOOK.)
+
+Studies in both linguistics and music tend to approach musical corpora in similar ways.
+Both music and langauge corpus analsyes are interested in aspects of stylometry.
+For example musical studies investigating authorship are often inspired by those from lingusitics.
+These investigations of stylometry are categorically differnt to those looking to make more general claims about langauge.
+For example, in TEXTBOOK the authors note that one of the primary goals of reserachers in computational lingusitics is not to follow PRESCRIPTIVSIT schools of thinking like that of CHOMSKY, but istead see the goal of computational lingusitics to describe patterns in langauge following DESCRIPTIVEIST MODELS.
+
+This disctinction between presecritpism and descriptivism also is important in musical contexts when considering what a corpus is even assumed to represent.
+Working in historical contexts, like that of work in stylometry is actually able to make claims about 
+
+
+- This is different than people who see it more as representation of behavior
+- For example look at all the Pat Savage stuff and his new article 
+- And then we have the idea that a corpus can be trained to be representation of cognition
+- But in statistical parlance, it's really what we are thinking of them as
+- Useful to think about musical data and what they represent
+- Take this ANOVA paper that basically has just come to me here by Gelman 
+
+- In historical context generally wrong to think of data as being re-generated
+- No more beehtoven 
+- pearce paper on historical listening AS TRANSITION
+- Fixed effects are assumed constant across individuals
+- Often taken as something like Gender or Age 
+- Can be either X or Y, that's it 
+- We see this kind of thinking in these corpus papers 
+- Would also see this like in that genre type paper 
+
+- In the music as behavior ala Savage school 
+- Idea is that over the course of time depending on agency, can model it with features changing
+- Historical interest in this with the broadside ballads
+- People in the west have done thi
+- Savage notes that people in the east have done this 
+- Mixes both humanities style historicism with quasi-scientific modeling of transmission
+
+- Then lastly we can use corpus to represent cogniitive states
+- need active process for this
+- Much like NLP and textbook
+- But isntead we have that with IDyOM
+- Idea here is that the corpus is representing something manifestation of cognition 
+- And we need to be able to track all these schema (Dom and Bryn)
+
+- so when we run a test, need to think more about generative assumptions
+- And of course this leads into abductive process
+- but of course ian cross cognitive approach is best 
+- Historical is bad on category, tho idk if people do that
+- behiavoral is messy 
+- but it interacts with cognition
+- cog models are sucessful
+- and imporantly, if they are LIKE LINGUISTIC CONVERSATION 
+- Then when we swap them out, should get same results, models robust
+- Also because taking this approach also links to general theory of human behavior
+- SLH, PPH, Manifestation in music
+- So given all that, here is a new corpuS
+
+So first think when people use corpora they need to be very clear on what they think their corpus is representing.
+And thus the claims that it can make
+- Harmonic analysis is especially guilty of this
+- Take for example Chris White and Quinn paper that just Machine learns
+- Know that models are dependent on data
+- Not only that, but how the data is encoded refelects epistomological assumptions
+- MEI captures as we notate it
+- But returnt to textbook here based on 
+
+- empiricist as actually occurs
+- ratonalists langauge or harmony module of the mind 
+- closer to chomsky linguitic compotence -- knowledge of structure in the midn
+- linguistic performance -- what affordances fuck this up 
+
+Generative linguistics has argued that one can
+isolate linguistic competence and describe it in isolation, while empiricist
+approaches generally reject this notion and want to describe actual use
+of language.
+
+chomsky is categorical -- yes no
+better to go probabsilitic 
+
+---- 
+After make argument about two different types of corpora, say we have implicit
+If it is implicit, follows that there should be some sort of overlap
+kind of like a markov chain and leonard meyer.
+
+Interesting point here is the scoping between what a corpsu represents.
+On one side we can have the collected works of a dead musician.
+Something like all of the trumpet solos of clifford brown.
+Basically have a population here, tho incomplete.
+Theoretically could have all the studio recordings, transcribe them, total collection.
+While we could sample from this, problem is that the set is finite.
+There is no recreating of more clifford brown solos since he died.
+
+Could further zoom out and look at a genre.
+This is very much like the Nick cook chopin studies.
+Mirrored here with Shanahan's Debussy studies.
+Also shanahan chord change studies
+Idea here is that you are looking for changes over time.
+But again with clifford, can't really re-do the 20th century.
+Maybe find one or two more tunes, but no way to re write cultural conceptions.
+Almost tautologically we have kept what we wanted and used that for our definition.
+
+Zooming out even further we have corpora like the Essen Collection.
+here it is meant to be represntitive of folk songs of Europe.
+Presumably this is also bounded by space and time 
+And it begs the question of should songs today be added to the Essen collection?
+What does this corpus actually represent?
+
+Societal conception of what our prototypes might derrive from?
+Or Colleciton of folk songs for historical purposes? (Ala lomax, bartok, whatever)
+At this level, represents the genre or style.
+
+We see this assumption that these collections or styles are representing something we implicitly have in the work of MP IDyOM.
+He trains his auditory computational model of cognition on a corpus that is limited in space and time, but then generalizes those probabilities into human behavior.
+
+And the thing is that they are very sucessful.
+We can look at the many things from Pearce 2018 where IDyOM is able to get it right.
+Western, Jazz, Chinese music. 
+
+So knowing that there is a move from the single dead composer to a cognitive conception of style.
+Would be good to have digital representaitons of sytles in brain.
+Could argue that sight singing melodies in the bel canto tradition follow this.
+Of course there is cultural baggage with it.
+But as stated in previous chapters, lots of people do sight singing and sight reading.
+And these melodies presumably come from the same culture they train musicians for,
+
+Matthews (2009) -- looking at american programming
+
+VOLUME 31 OF MUSIC PERCEPTION
+
