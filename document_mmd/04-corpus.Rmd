@@ -1,0 +1,127 @@
+# Hello, Corpus
+
+## Rationale 
+
+One of the essential features of any scientific discovery is the ability to reproduce the finding.
+Given a new claim about reality, in order to be able to demonstrate that the claim is true, the new phenomea should reamin invariant when being repoduced under different conditions.
+If the phenomena satisfies pre-established criteria for causality can evidence be used to corrobrate theories that would predict this pheneomea (HUME, PEARL).
+This type of reasoning typically falls outside the realm of music theory, as studies involving music in the past few decades have generaly been associated with research in the humanities.
+One of the main objectives of research in the humanities-- as opposed to that of the sciences-- is to both challenge exisiting categories and subsequently create new framework of reality as we understand it (CITE).
+This division between the goals of those affiliated with studying music have not always been the case as noted by scholars like Allen Forte, who in his 1967 article notes that "In virtually any historic period one finds an interaction betweeen music and science and mathematics." (FORTE).
+This should come as suprise given that music, was one of the seven liberal arts during Roman times belonging to the quadrivium along with astronomy, geometry, and arithimitic (CITE).
+In fact, many disciplinary differences are more likely to result from geopolitical divides as how scholars concetuplize the study of music based on their location of study rather than the content and form of their research (PARNCUTT).
+Thus given th ebb and flow of relationship of music with so many other disciplines, incorporating epistomlogical and methodlogoical frameworks is nothing new in music research. 
+
+Returning to a phenomena's invariance under different conditions, one of the most effective ways to investigate claims about the state of reality is to reproduce previously made claims using new data.
+One of the most important contributions that a reseacher can make towards either bolstering or refuting claims about the nature of music and its resulting theories would be to generate more materials in which to examine previous claims under new conditions.
+
+In order to accomplish this, in this chapter I introduce a new corpus of sight-singing melodies based on the pedagogical text "A New Approach to Sight Singing" [@berkowitzNewApproachSight2011].
+The corpus contains XXX monophonic melodies that have been digitially encoded in the kern format [@huronHumdrumToolkitReference1994] and contain both melodies specifically composed for use in the Aural Skills classroom and examples of melodies from outside musical literature. 
+After introducing the corpus, I compare the Sight-Singing corpus with the Essen Folk Song [@schaffrathEssenFolkSong1995] collection in order to highlight variability between these musical corpora.
+I end by highlighting important considerations in the undelrying representaiotns of what the data represent and what these assumptions entail for future work in computational musicology. 
+
+## History
+
+The use of computers to study music has been been ongoing for over the past fifty years CITE.
+As catalouged by CITE, early approaches to using music to study computers begin in the mid 1960s and due to the high effort and cost of computation, projects pursued by researchers at this time tended to focus on questions that might have some sort of global relevance CITE.
+The use of computers to study music at this time was not by any means a sparse area of study as reflected in THIS BIBLIOGRAPHY by XXXX and throughout the second half of the 20th century, reserach in computational musicology grew in relation to the computing abilities afforded by the avalible technologies (CITE).
+During this time, not only was there progress made on computing power, many forms of developing new encoding frameworks were developed. 
+As discussed by WIGGINS 1993, the design and development of these encoding frameworks impacts the degree that the systems can be asses based on two orthognal dimensions they identify in evaluating a framework: it's expressive completeness and structural generality. 
+Considering what system is used to then encode musical information then becomes paramount given that the level of granularity that musical data in encoded will eventually determine the types of questions that could eventually be asked in an analysis.
+For example, data encoded in a MIDI or CHARM format is able to store mico-time variations in performance practice, which might lend it to being able to do performance based analyses on this data.
+This type of research has been done with CHOPIN PROJECT.
+If this data were instead to have been encoded in just using a frequency spectrum as would be stored in an MP3 or WAV file, this type of analysis could not be carried out as accuratly due to the task of automating the detection of pitch onsets.
+
+On a higher level of abstraction, this problem of how a melody is encoded becomes exacerbated when considering meta-research issues such as the the tools-to-theories heuristic put forward by GIZO (CITE).
+GIZO makes the claim that much of both the novelty and authority given to the trajectory of a reserach path is determined by the tools a group decideds is valid, and not the generation of new data or theories.
+Contexutualizing this problem for digitial music encoding, again choosing how to represent the data reflects ontological and episotmological assupmtions about the data itself.
+Further, the technology used to be able ot query or test this data would provide an additional constraint on the analysis.
+Authors like XXX have noted this phenomena is fields like music informaiton retrevial, where much of the world has tended to focus on rhythmic issues such as beat tracking or onset dectection as opposed to VOCAL EXTRACTION due to the fact that it is easier to get this information from an audio signal.
+These issues are by no means settled, but as time progresses, moving between encoding formats becomes less difficulty with time.
+Some popular formats today include the Music Encoding Inititive, which according to their website is "a core set of rules for recording physical and intellectual characteristics of music notation documents expressed as an eXtensible Markup Language (XML) schema" (CITE), as well as MIDI (CITE), and kern (HUMDRUM).
+Not only is there variability in types of encoding, but additonally the tools availible to analyze digital music data vary as well. 
+Popular analysis software consists of THIS PERSON's music21 writte in Python, David Huron's Humdrum (CITE), as well as technologies being developed by the SIMSSA project based in McGill under the direction of ICH.
+Despite differences the advantages between both types of encoding and tools use to analyze this data, parsers like that of KLAUS FRILERS are constanly being developed to serve as digital music's rosetta stone resulting in a current eco-system that allows for moving between options granted a compotent degree of computer programming experience. 
+
+While many of the encoding formats thoguhtou the past 50 years have fallen out of favor, the kern format of encoding data developed by David Huron has persisted as a choice for many computational musicologists since its initial development in 1994 (CITE).
+The kern format (often stylized as ```**kern```) was developed in tandem with the Humdrum Toolbox for music analysis that according to Humdrum user guide is
+
+> a set of command-line tools that facilitates musical analysis, as well as a generalized syntax for representing sequential streams of data. Because it’s a set of command-line tools, it’s program-language agnostic. Many have employed Humdrum tools in larger scripts that use PERL, Ruby, Python, Bash, LISP, and C++.
+
+Humdrum files, unlike that of anything used in MEI are human readable and non-hierarchical, thus mirroring Western notated music's sequential time baed nature.
+Because of this, editing kern files using the humdrum toolset and humdrum extras developed by Craig Sapp (CITE) can be done with short, UNIX scripts as oppsed to similar analyses in music21.
+As humdrum is also sequential and text based, it is also able to encode formats typically not able to be supported by traditional formats such as THIS STUDY THIS STUDY. 
+Since moving between digitially encoded ecoystems is not nearly as difficutl and much of encoding is can be left to the jusrdicition of the resarcher, I have chose to encode this datast using the kern format. 
+
+## Berkowitz Corpus
+
+In this next section I introduce a new corpus of melodies encoded in the kern format.
+The melodies come from the 5th edition of "a new approach to sight singing" written by Sol Berkowitz, Gabriel Fontrier, Leo Kraft, Perry Goldstein, and Edward Smaldone, CITE. 
+In this verison, it includes XX melodies from the first and last chapter fo the book.
+The first Chapter contains melodies from five different sections and the fifth chapter comtaines "Melodies from the Literature" and is made up of four sections.
+Melodies from the first chapter have all been specifically composed for use in a sight singing context.
+Melodies from the fifth chapter are small excerpts from examples of both excerpts from Western Classical Music canon and traditional folk songs of various countries.
+The information for each melody is recorded in the meta-data of the kern file. 
+In additon to having a key signature in each kern file, I have also added an explicit key to each kern file.
+Each section of the book contains melodies that would be considered tonal, except for melodies in the fifth section of the first chapter and intermittent melodies in the fourht section of the fifth chapter which contain atonal melodies.
+If a melody is decidedly atonal or written using a mode, this is document as well in the metadata.
+Atonal melodies are given the explicit key of C major so that they can be analyzed using tools from the humdrum extras toolbox and parsed as if they were part of a fixed do system.
+In totaly the corpus consists of XXXXXXX tokens.
+In Figure XXX see that there is even distirbution of keys.
+In comparison to other corpora, such as the canoncical Essen folk song datatbase, the Berkowtiz has less melodies, but melodies are typically LONGER, reflects more diversity of keys, and does not reflect music of a particular national culture.
+Contrasting the XXXXX tokens in the corpus, the Essen folk song ha XXXXXXX tokens. 
+
+* FIGURE KEY DISTRIBUTION
+
+## Comparison of Corpora 
+
+In order to givea brief overview of the corpus and contextualize it in the context of other corpora, in the next section I compare the Berkowtiz corpus to that of the Essen Folk song collection (CITE).
+I compare it to the Essen Folk Song Collection because imporantly close in being that they both were written for some sort of vocal performance.
+The Berkowitz corpus was specicificaly designed for pedagogical purposes whereas the Essen is more ecologically reflective of melodies originating from a diversity of sources.
+Though given that they are both generally vocal melodies and  both come from Western sources, there presumably qwould be differences on between the two corpora on a large scale structure.
+A second, more important reason for comparing this corpus with the Essen is that the Essen is one of the more heavily cited corpora used in the field of comptuational musicology and often taken as a proxy to represent the underlying expectational structure of Western music.
+For example....... 
+Much of this work makes claims about general level musical features, referenceing the Essen dataset as reference.
+In this context, the inderlying assumption in this inference is that the Essen is a sample of the larger population of Western music borrowing undelrying logic from frequentism as evident from the choice to examine these relationship like Huron did using frequestist statistics and the null hypothesis signifcance testing framework (Dienes chapter).
+While of course thi might be true,in order to have more evidence for this, would need to build more eviedence.
+This could come in the form of performing frequentist staistical tests on data to reject null looking at the probabily of the data given the hypothesis, tho on large datasets that is a bad idea.
+Or could be talkign about modeling these things in terms of Bayes, which would be modeling data lookign at probabily of the hypothesis given the data.
+Either way, providing more evidence for previous claims depends on, as noted above, finding new evidence for claims with new data. 
+
+Below I do a corpus analysis of both the Berkowitz an Essen on a descriptive level, then take a case study example and look into it where MELODIES DESCEND to see.
+
+* Distribution of Solfa
+* Distribution of Notes 
+* Distribution of bi-gram probabilities of them
+* Then subtract the matricies to show where teh differnces in the bi-grams are
+
+So knowing that they are similar in some aspects, want ot then ask if some of thes assumptions hold.
+For example, THEY argued that there is a descent in vocal tract.
+Found evidence using corpus study.
+THis was followed up and published by Shanahan.
+So if it is true, should see it again in this corpus.
+
+In order to do that, ran THIS ANALYSIS over the humdrum data.
+And found that SENTENCE HERE.
+This is reflected in FIGURE HERE.
+
+From this we can conclude that....
+And this is an example of using new data to test invariance of claims under different conditions.
+But to return to question of assumptions, what population is are both of these corpora assumed to orginate from.
+And what, in fact are teh assumptions of other types of corpus studies.
+As said above, assumption here is that often in many studies corpora share an assumped sample population relationship. 
+This is OK from descriptive point of view, but becomes difficult to then apply any sort of inferrential statisical tests.
+Requires answering a question of what are the bounds of hte population?
+In historical studies, this is never possible.
+No more Clara Schumann.
+In studies that caputured Essen over time, yes can be representiatve.
+But work in transmission of song reflects that just like culture evolves, so does music.
+This is discussed by SAaveage.
+So the more imporant question then becomes what does it mean to be able to replicate these findings and find what is invariant with another corpus.
+If this is not possilbe, epistomologically this prohibits from NHST.
+Frequentism is not the only way to conceptualize stiaticcal relationsip, could be Bayes.
+More often than not this also more reflects the intuition that peopel want of probabily of hypothesis given data rather than what NHST gives of P data given hypothesis.
+Concrete answer to this question is beyond the scope of this chapter, important to end by saying that people who do use corpus methodlogies need to be explicit about what they are assumign their corpora to represent.
+
+
+
