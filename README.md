@@ -25,7 +25,7 @@ Book will not build, fix
 * 7 Minutes to Read 
 
 * [ ] Get External eyes on it 
-* [ ] Clean References
+* [X] Clean References
 * [X] Update Chapter 4 blurb in the intro chapter
 
 ### Literature Review
@@ -74,7 +74,7 @@ Book will not build, fix
 
 #### SEMPRE Talk 
 
-* [ ] Re-record video 
+* [X] Re-record video 
 
 #### Again and Again
 

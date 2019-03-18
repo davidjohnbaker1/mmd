@@ -1,45 +1,23 @@
 # Experiments
 
-> Rationale 
+## Rationale 
 
-> ITC
+Using experiments in order to understand factors that contribute to an individual's ability to take melodic dictation are by no means new [@ortmannTonalDeterminantsMelodic1933].
+This is not a simple problem as noted in CHAPTER 1, as both individual differences as well as musical features are difficult to quantify and subsequently model.
+Capturing variability at both the individual and item level not only is riddled with measurement problems, but this variability problem is only exacerbated when realizing many of the statistical ramifications of measuring so many variables in a single experiment.
+Many variables leads to many tests, which leads to inflated type I error rates as well as massive resources needed in order to detect even small effects.
+When viewed empirically from the perspective of experimental design, melodic dictation becomes gnarly. 
 
-> Have done all this and have not actually talked about dictation yet 
-> Clearly many factors contribte to this whole thing and need to be taken into a model 
-> Dictation is basically a within subjects design Experiment
->  Get very ecological and dirty and run it 
-
-In this chapter I combine ideas put forward in chapter 2 and chapter 3 in an experiemnt looking at melodic dictaiton.
-I show how you can combine both tests of individual ability and musical features to predict score.
+Fortunatly dealing with high levels of variability at both the individual and item level is not a problem exclusive to work on melodic dictation.
+Recently work from LINGUSITICS has developed more sophisticated methodologies that are able to accomodate the above challenges and provide a more elegant way of handling these types of problems.
+In this chapter, synthesize work from the previous chapters of this dissertation in in an experiment investigating melodic dictation.
+Unlike work in the past literature, I take advantage of statistical methodologies that are able to better accomodate problems in experimental design using these types of paradigms.
+By using hierarchical mixed linear modeling, I borrow methodlogies from LINGUSITICS in order to put forward a more principled way of modeling data that more ecologically reflects melodic dictation. 
+I show how it is possible ti combine both tests of individual ability and musical features to predict score.
 Discuss new intricies of this kind of testing like scoring, relate back to classroom.
 And conclude with showing how if you cobmine aural skills, comptuational musicology, mixed effects, this is way forward. 
 
-Abstract 
-
-Despite its abundance in curricula in music conservatory settings,
-research on topics pertaining to aural skills is currently limited at
-best. While anthologies of materials for sight singing and dictation
-exist, the ways in which people learn melodies are not well
-understood. This problem is difficult to tackle given the amount of
-factors that may contribute to the process, such as the complexity of
-the melody, the degree of exposure needed to commit a melody to
-long-term memory, and individual differences in cognitive ability
-that have been shown to contribute to an individual's performance on
-musical tasks. Fortunately, literature exists in related areas that serve
-to inform which parameters might contribute to an individual’s
-performance in a melodic dictation setting. This paper presents
-findings from an experiment (N=39) modeling performance on
-melodic dictation tasks using both individual and musical features.
-Results suggest tools from computational musicology as well as
-individual difference measures need further exploration in order to
-assess the degree to which various features contribute to melodic
-dictation performance and inform pedagogical practices.
-
 ## Introduction 
-
-### Clearly many factors contribte to this whole thing and need to be taken into a model 
-### Dictation is basically a within subjects design Experiment
-#### Get very ecological and dirty and run it 
 
 Despite its near ubiquity in Conservatory and School of Music curricula, research surrounding topics concerning aural skills is not well understood. 
 This is peculiar since almost any individual seeking to earn a degree in music usually must enrol in multiple aural skills classes which cover a wide array of topics from sight-singing melodies, to melodic and harmonic dictation– all of which are presumed to be fundamental to any musician’s formal training. 
