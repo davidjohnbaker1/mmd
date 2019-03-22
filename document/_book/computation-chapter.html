@@ -25,7 +25,7 @@
 <meta name="author" content="David John Baker">
 
 
-<meta name="date" content="2019-03-21">
+<meta name="date" content="2019-03-22">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -135,14 +135,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Significance of the Study</a><ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#rationale"><i class="fa fa-check"></i><b>1.1</b> Rationale</a></li>
 <li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#chapter-overview"><i class="fa fa-check"></i><b>1.2</b> Chapter Overview</a></li>
-<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#dissertation-output"><i class="fa fa-check"></i><b>1.3</b> Dissertation Output</a><ul>
-<li class="chapter" data-level="1.3.1" data-path="index.html"><a href="index.html#reserach-papers"><i class="fa fa-check"></i><b>1.3.1</b> Reserach Papers</a></li>
-<li class="chapter" data-level="1.3.2" data-path="index.html"><a href="index.html#research-presentations"><i class="fa fa-check"></i><b>1.3.2</b> Research Presentations</a></li>
-</ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Theoretical Background and Rationale</a><ul>
 <li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#melodic-dictation"><i class="fa fa-check"></i><b>2.1</b> Melodic Dictation</a><ul>
 <li class="chapter" data-level="2.1.1" data-path="intro.html"><a href="intro.html#describing-melodic-dictation"><i class="fa fa-check"></i><b>2.1.1</b> Describing Melodic Dictation</a></li>
+<li class="chapter" data-level="2.1.2" data-path="intro.html"><a href="intro.html#taxonomizing"><i class="fa fa-check"></i><b>2.1.2</b> Taxonomizing</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="intro.html"><a href="intro.html#individual-factors"><i class="fa fa-check"></i><b>2.2</b> Individual Factors</a><ul>
 <li class="chapter" data-level="2.2.1" data-path="intro.html"><a href="intro.html#cognitive"><i class="fa fa-check"></i><b>2.2.1</b> Cognitive</a></li>
@@ -535,7 +532,7 @@ Using an intraclass coefficient calculation of agreement using a two way model b
 <p>Both the trends from Figure <a href="computation-chapter.html#fig:diffplot">4.22</a> and Figure <a href="computation-chapter.html#fig:grammarplot">4.23</a> occur in the opposite direction.
 As the index or rank of the melody increases, so does the difficulty for the rating as would be expected.
 As the index or rank of the melody increases, its adherence to subjective ratings of melodic grammar of the Common Practice period also decreases.
-Taken together, I ran a correlation on every one of the twenty melodies between a single rater’s judged difficulty and its judged adherence to tonal expectations of the common practice era.<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a>
+Taken together, I ran a correlation on every one of the twenty melodies between a single rater’s judged difficulty and its judged adherence to tonal expectations of the common practice era.<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a>
 The correlations for all 20 melodies are plotted here in Figure <a href="computation-chapter.html#fig:gramcor">4.24</a>.
 From this chart, we see higher degrees of correlation between difficulty and tonality.</p>
 <div class="figure" style="text-align: center"><span id="fig:gramcor"></span>
@@ -803,7 +800,7 @@ The SLH leads the corroborating probabilistic prediction hypothesis which Pearce
 </blockquote>
 <p>Essentially IDyOM works by providing the model with a musical corpus that it assumes is representative of a genre, or musical style.
 This musical corpus then serves as training data to approximate either a listener or style’s ground truth ASK MP?.
-After establishing this corpus, IDyOM then learns both long term and short term expectations of events using a variable-order Markov model<a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a> in order to best optimize its predictive abilities.
+After establishing this corpus, IDyOM then learns both long term and short term expectations of events using a variable-order Markov model<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a> in order to best optimize its predictive abilities.
 The expectations that IDyOM calculates are based on a probability distribution of the proceeding events, which is then quantified in terms of informaiton content (CITE).
 As detailed in a summary review article on IDyOM by Pearce, IDyOM has been successful at predicting</p>
 <blockquote>
@@ -867,7 +864,7 @@ In this computation, I explicitly assume that the underlying corpus of data is r
 <li>HERE</li>
 </ul>
 <p>This observation may seem tautological, as this relationship would result from how information content is calculated (more expeted patterns have less information), but the novel assertion here is connecting the cumulative informaiotn content to ease of memory load.
-For example, in Figure <a href="computation-chapter.html#fig:tridensity">4.29</a>, we see that when split into three sections, random samples from the the corpus when partiioned into three secitons, even just the opening of the first five notes of each melody increase per group.<a href="#fn15" class="footnote-ref" id="fnref15"><sup>15</sup></a></p>
+For example, in Figure <a href="computation-chapter.html#fig:tridensity">4.29</a>, we see that when split into three sections, random samples from the the corpus when partiioned into three secitons, even just the opening of the first five notes of each melody increase per group.<a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a></p>
 <div class="figure" style="text-align: center"><span id="fig:tridensity"></span>
 <img src="img/tri_distribution.png" alt="Average Information Content of First Five Notes of Melodies" width="100%" />
 <p class="caption">
@@ -926,7 +923,7 @@ For example, extensive evidence as reviewed by FIND Cleeremans and Dienes (2008)
 Rather, Jamieson and XXX assert that employing memory models like that of MINERVA 2 (XXXX) can accuratly model behavioral patterns in individual responses without the theoretical framework of statistal learning.
 They instead note that similar results can result from individuals making similary jugments.
 This notation is important to highlight because as noted by <span class="citation">Perruchet and Pacton (<a href="#ref-perruchetImplicitLearningStatistical2006">2006</a>)</span>, statistical learning depend on the tacit assumption that people are performing real-time calculations on incoming stimuli in real time.</p>
-<p>Another important caveat in the corpus analysis above is that the corpus analsis was done using fixed order search patterns<a href="#fn16" class="footnote-ref" id="fnref16"><sup>16</sup></a>, wheras the calculations from IDyOM are based on variable order Markov-Models.
+<p>Another important caveat in the corpus analysis above is that the corpus analsis was done using fixed order search patterns<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a>, wheras the calculations from IDyOM are based on variable order Markov-Models.
 While differences in these computations might prove meaningful, only with future experimental evidence where we corrobrate with behvioral evidence would this be worht furhter looking into.</p>
 </div>
 </div>
@@ -1063,11 +1060,11 @@ I finish by discussing how this might be implemented in the classroom.</p>
 </div>
 <div class="footnotes">
 <hr />
-<ol start="13">
-<li id="fn13"><p>I chose not to pool ratings as that would violate the assumption of independence for correlation.<a href="computation-chapter.html#fnref13" class="footnote-back">↩</a></p></li>
-<li id="fn14"><p>43-46<a href="computation-chapter.html#fnref14" class="footnote-back">↩</a></p></li>
-<li id="fn15"><p>This same trend is also apparent using a general linear model across the entire corpus. I chose to model it with three groups for more effective communication.<a href="computation-chapter.html#fnref15" class="footnote-back">↩</a></p></li>
-<li id="fn16"><p>did a grep sort count on solfa<a href="computation-chapter.html#fnref16" class="footnote-back">↩</a></p></li>
+<ol start="10">
+<li id="fn10"><p>I chose not to pool ratings as that would violate the assumption of independence for correlation.<a href="computation-chapter.html#fnref10" class="footnote-back">↩</a></p></li>
+<li id="fn11"><p>43-46<a href="computation-chapter.html#fnref11" class="footnote-back">↩</a></p></li>
+<li id="fn12"><p>This same trend is also apparent using a general linear model across the entire corpus. I chose to model it with three groups for more effective communication.<a href="computation-chapter.html#fnref12" class="footnote-back">↩</a></p></li>
+<li id="fn13"><p>did a grep sort count on solfa<a href="computation-chapter.html#fnref13" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
             </section>
