@@ -72,21 +72,3 @@ Results from this chapter will be discussed with reference to how findings are a
 Finally, in my sixth chapter, I introduce a computational, cognitive model of melodic dictation with the goal of helping explain how students improve at melodic dictation. 
 The model is based in research from both cognitive psychology [@cowanMagicalMysteryFour2010] and computational musicology [@pearceStatisticalLearningProbabilistic2018a] and incorporates relevant theoretical aspects such as working memory [@chenetteReframingAuralSkills2019; @vanhandelRoleWorkingMemory2011] and the structure of the melody itself. 
 In this chapter I demonstrate how modeling the cognitive decision process during melodic dictation helps provide a precise framework for pedagogues to understand student’s inner cognition during melodic dictation and can help inform teaching practice. 
-
-## Dissertation Output
-
-### Reserach Papers
-
-* SEM Paper in ICMPC
-* Aural Skills Paper ICMPC 
-* Aural Skills Textbook
-* Goldsmiths Replication
-
-### Research Presentations
-
-* SEM Paper at ICMPC
-* Aural Skills Poster
-* Milton Keynes Talk
-* Public Musicology 
-* Again and Again? 
-

@@ -2,15 +2,9 @@
 
 Repo for my PhD Dissertation: Modeling Melodic Dictation
 
-Book will not build, fix
-
 ## Tasks for David 
 
-* Create two real data responses
-* Do initial analysis for agreement for chapter
-* Merge in fantastic measures
-
-* [ ] Clean up citations at start 
+* [X] Clean up citations at start 
 * [ ] Get biblio listings of all features studies on page 2 of Taylor and Pembrook 1983
 * [X] Long Read of Pembrook 1986 for rationale 
 
@@ -24,7 +18,7 @@ Book will not build, fix
 
 * 7 Minutes to Read 
 
-* [ ] Get External eyes on it 
+* [X] Get External eyes on it 
 * [X] Clean References
 * [X] Update Chapter 4 blurb in the intro chapter
 
@@ -33,7 +27,6 @@ Book will not build, fix
 * [ ] General Level edits of entire Literature review - length ok, but serious langauge cleaning and citations
 * [ ] Add section on Experimental factors as well as 
 * [ ] Add argument regarding polymorphism of ability and not doing the LV thing like harrsion 1994
-
 
 ### Individual Differences
 
@@ -46,7 +39,7 @@ Book will not build, fix
 
 ### Corpus Chapter
 
-* [ ] Last XXX Melodies 
+* [X] Last XXX Melodies 
 * [ ] Compare Essen to Berkowitz, make and add charts
 * [ ] General Level Edits
 
@@ -67,10 +60,10 @@ Book will not build, fix
 
 #### Job Talk 
 
-* [ ] Copy google slides from job talk
-* [ ] Turn to general overview of data 
-* [ ] General level findings
-* [ ] Future Directions 
+* [X] Copy google slides from job talk
+* [X] Turn to general overview of data 
+* [X] General level findings
+* [X] Future Directions 
 
 #### SEMPRE Talk 
 
