@@ -335,16 +335,52 @@ While the above literature suggests there are empirical grounds to consider thes
 
 ## Musical Parameters
 
-Transitioning to the other half of the taxonomy on figure \@ref(fig:taxonomy), the other main source of variation on any study looking at melodic perception, and consequently studies of melodic dictation, is the effect of the melody itself.
-I find it safe to assume that not all melodies are equally difficult to dictate and assert that variance in the difficulty the melody can partitioned between both **structural** and **experimental** aspects of a melody.
+Transitioning to the other half of the taxonomy on figure \@ref(fig:taxonomy), the other main source of variance in any study investigating melodic perception is the effect of the melody itself.
+I find it safe to assume that not all melodies are equally difficult to dictate and assert that variance in the difficulty the melody can partitioned between both structural and experimental aspects of a melody.
 As noted above, there is not a strict deliniation between these two categories since once could imagine drastic maniuplations in experimental parameters in order to result in a phenomenologically different experience of melody.
-Questions of transformations of melodies and musical similarity fall have been addressed in ohter research [@cambouropoulosHowSimilarSimilar2009; @wigginsModelsMusicalSimilarity2007] but are beyond the scope of this study.
+Questions of transformations of melodies and musical similarity fall have been addressed in other research [@cambouropoulosHowSimilarSimilar2009; @wigginsModelsMusicalSimilarity2007] but are beyond the scope of this study.
 
 ### Structural 
 
-The notion that the music as represented by a score is able to provide insights towards understanding aspects about music is not new to music theory and anlaysis.
-Heinrich Schenker argued for an undertanding of tonal music [@schenkerFreieSatz1935] that asserted hierarchical relationships of notes on the musical surface in the early 20th century and has since been expanded upon by theorists over the past century SALTZER, SCHAKTER, ROTHSTEIN.
-Leonard Meyer in his _Emotion and Meaning in Music_ [@meyerEmotionMeaningMusic1956] continued some of these lines of thought and was the first who put forward the idea that tethered the struture that earlier theorists wrote about and suggested that in addition to this struture being fundamental to the perception of the piece that there were also responsible for some aspects of the emotion and meaning listeners found in the piece.
+JUST WRITE ENOUGH TO DO MELODIC DICTATION
+
+The assumption that music as represented by a score is able to provide insights towards understanding the music is a core tennents of music theory and analysis.
+Throughout the 20th Century, music theorists have almost exclusively relied on musical scores as their central point of reference in their work.
+According to Clarke, this structuralist approach to music comes form Dalhaus.
+
+Score based orthodoxy is reflected in tools, imagine schenker ald the like.
+And if you're a humanist, as Aawu agues, this is once thing you bring to the table.
+
+
+
+Like Dahlhaus, Chua (1999) argues that the idea of absolute
+music was an invention of the early nineteenth century, and
+that along with its absoluteness came claims for its ineffability. If absolute music consists of abstract structural units, then
+it must either have no meaning, or else a meaning that is similarly abstract, absolute, and intangible. And if musical meaning
+is abstract, absolute, and ineffable then it is only a very short step
+to claims of universality and mystery, and thus to the quasi-religious character of nineteenth and twentieth century concert listening practices, documented by Johnson () in his history
+of listening in Paris. 
+
+
+This structralist approach to music 
+
+
+
+CLARKE
+
+* Assumption of score to representaiton
+* this is done in theory
+* This is done by meyer
+This is done with everyone else.
+Many ways talking about music, however it is represented, and meaning is big part of what we do as analysts AGAWU.
+Where some branches of music theory look at what huron refers to as Finite data, others generally stemming from the european systematich musicology and those interested in Meyer are different.
+Not exclusive to this world of thought, even before Free Comp, Ortamann talked about melodic determiants. 
+
+Heinrich Schenker argued for an undertanding of tonal music [@schenkerFreieSatz1935] that asserted hierarchical relationships of notes on the musical surface in the early 20th century and work eminating from this line of thought laid much of the ground work of music analysis. 
+Work from Schenkerian thinking has since been expanded upon by theorists over the past century from Saltzer [@salzerStructuralHearingTonal1982], to Schacter and colleagues [@schachterSchenkerStudies2006; @schenkerSchenkerStudies1990]. 
+One of the core assumptions of Schenkerian analysis is that the compositional reductions realized through analyses are perceptually salient to the listener given.
+
+Leonard Meyer-- in his _Emotion and Meaning in Music_ [@meyerEmotionMeaningMusic1956] --continued many of these lines of thought and forward the notion that tethered the struture that earlier theorists wrote about to this struture being fundamental to the perception of the piece that there were also responsible for some aspects of the emotion and meaning listeners found in music.
 
 Meyer's work since inspired a line of reserach investigating the perception of the structural aspects of music could be understood with the work of Eugene Narmor [@narmourAnalysisCognitionBasic1990; @narmourAnalysisCognitionMelodic1992], Glenn Schellenberg [@schellenbergSimplifyingImplicationRealizationModel1997], Elizabeth Hellmuth Margulis [@margulisModelMelodicExpectation2005], David Huron  [@huronSweetAnticipation2006] and have inpsired computational, machine learning approaches to expectational frameworks in with work by Marcus Pearce [@pearceAuditoryExpectationInformation2012].
 
@@ -363,7 +399,7 @@ One problem with studies such as [@longRelationshipsPitchMemory1977] is that the
 Not only does this reduce the spectrum of ability levels (assuming that singing ability correlates with dictation ability, a finding since which has been established [@norrisRelationshipSightSinging2003]), but is additinally flawed in that it is at odds both with the intuition that an individual's singing ability cannot be taken as a direct representation of their mental image of the melody and is probably more related to the ability to have motor control over the vocal tract [@pfordresherPoorPitchSingingAbsence2007].
 
 Other researchers have also put forward other paramters thought to contribute like tempo [@hofstetterComputerBaesedRecognitionPerceptual1981]
-tonality [@dowlingScaleContourTwo1978] [@longRelationshipsPitchMemory1977] [@pembrookInterferenceTranscriptionProcess1986] [@ouraMemoryMelodiesSubjects1988]
+tonality [@dowlingScaleContourTwo1978;@longRelationshipsPitchMemory1977] [@pembrookInterferenceTranscriptionProcess1986] [@ouraMemoryMelodiesSubjects1988]
 interval motion [@ortmannTonalDeterminantsMelodic1933; @pembrookInterferenceTranscriptionProcess1986]
 length of melody [@longRelationshipsPitchMemory1977; @pembrookInterferenceTranscriptionProcess1986]
 number of presentations [@hofstetterComputerBaesedRecognitionPerceptual1981] [[@pembrookInterferenceTranscriptionProcess1986]] 
@@ -408,7 +444,8 @@ While I reserve a longer discussion on the histories of computational musicology
 
 An abstracted feature of a melody is an emergent property of the melody that results from performing some sort of calculation on the melody? 
 This type of feature abstraction is in contrast to much of the work done in the field of music information retrivial which often relies on the recorded audio for feature abstraction and is addressed under Experimental features LINK THAT IN!. 
-Abstracted symbolic features of melodies can largely be conceptualized as being **static** or **dynamic**.
+
+Abstracted symbolic features of melodies can largely be conceptualized as being static or dynamic.
 The above papers tended to use more simplisitc methods of figuring out parameters such as counting the notes by hand but with the advent of new encoding systems and more powerful computing power it is now possible to take on much more rigerious computational analyses. 
 
 #### Static Views of Computational Features/ FANTASTIC
@@ -438,9 +475,11 @@ IDyOM has also been recently extended to look at expectation in multi-part chora
 
 [@pearceAuditoryExpectationInformation2012]
 
-The advantage of using a dynamic approach is that it theoretically reflects real time perception of music with the structural characeristics of the music mapping on to real human behavior.
+The advantage of using a dynamic approach is that it theoretically reflects real-time perception of music with the structural characeristics of the music mapping on to real human behavior.
 
 ### Experimental
+
+
 
 * Advantage of vocal melodies paper | Weiss 2015
 * Voice is better than instruments Weiss Trehub Schellenberg 2012
@@ -470,7 +509,7 @@ This idea is not new even in music psychology, the past two decades have seen ca
 
 ## Conclusions
 
-In this chapter I first described what is melodic dictation using Karpinki's verbal model, noted what the things were that were missing from this model as a stepping off point, then went on to suggest a taxonomy of these based on what already has done. 
+In this chapter I first described what is melodic dictation using Karpinki's model of melodic dictation, noted what the things were that were missing from this model as a stepping off point, then went on to suggest a taxonomy of these based on what already has done. 
 I suggest there are both individual as well as musical features that need to be understood in order to have a comprensive understanding of melodic dictation.
 Of the two sets of features, individual features can be either cognitive or environmental and musical features can be either structural or experimental.
 This taxonomy does not consist of exclusive categories and certainly permits  interactions between any and all of the levels.
