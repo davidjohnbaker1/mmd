@@ -46,7 +46,7 @@ The exact details of the assumptions, parameters, and complete formula of the mo
 ## Verbal Model 
 
 Below I describe my model's assumptions, parameters, as well as the steps taken when the model is run.
-After detailing the inner workings of each of the assumptions and the modules, described in roughly the order that they occur, I present the model using psudeocode with the terminology described below.
+After detailing the inner workings of each of the assumptions and the modules, described in roughly the order that they occur, I present the model using pseudocode with the terminology described below.
 I discuss the issues of assumptions and representations as they arise in describing the model. 
 
 ### Model Representational Assumptions
@@ -185,7 +185,7 @@ It is based on the Embedded Process Model from working memory and attention, so 
 
 ## Formal Model 
 
-Below I present the computational model in psudeocode as described in Figure 7.3.
+Below I present the computational model in pseudocode as described in Figure 7.3.
 First listed are the defined inputs, the functions needed to run the algorithm, and then the sequence the model runs.
 To aid distinguishing between functions and objects, I put functions in italics and objects in bold.
 Below the model in Figure 7.4, I provide a brief walk through of one iteration of the model.

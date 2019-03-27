@@ -1,6 +1,15 @@
 --- 
-title: "Modeling Melodic Dictation"
-author: "David John Baker"
+title: "MODELING MELODIC DICTATION"
+subtitle: "David John Baker"
+author: 
+- 'A Dissertation' 
+- 'Submitted to the Graduate Faculty of the Louisiana State University and Agricultural and Mechanical College in partial fulfillment of the requirements for the degree of Doctor of Philosophy'
+- 'in'
+- 'The School of Music'
+- 'by David John Baker'
+- 'B.M., Baldwin Wallace University, 2012'
+- 'MSc., Goldsmiths, University of London, 2015'
+- 'May 2019' 
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook

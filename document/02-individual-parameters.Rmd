@@ -13,7 +13,7 @@ While the majority of beginning students of melodic dictation are assumed to sta
 In order to fully capture the diversity of listening abilities among students of melodic dictation, a complete account of melodic dictation must include individual differences in ability.
 Understanding how differences at the individual level vary also will help pedagogues know what can be reasonably expected of students with different experiences and abilities.
 
-Attempting to investigate all four parts of melodic dictation from hearing, to short-term melodic memory, to musical understanding, to notation is cumbersome both from a theoretical perspective and practically unfeasible due to the amount of variables that contribute to this process.
+Attempting to investigate all four parts of melodic dictation from hearing, to short-term melodic memory, to musical understanding, to notation is cumbersome both from a theoretical perspective and practically infeasible due to the amount of variables that contribute to this process.
 In order to obtain a clearer picture of what mechanisms contribute to this process, these steps must be be investigated in turn.
 This chapter investigates the first two steps of the Karpinski model of melodic dictation [@karpinskiAuralSkillsAcquisition2000; @karpinskiModelMusicPerception1990] with an experiment examining individual factors that contribute to musical memory that do not depend on knowledge of Western musical notation.
 By understanding which, if any, individual factors play a role in this process, it will inform what can be reasonably expected of individuals when other musical variables are then introduced.
@@ -60,7 +60,7 @@ As with much of the music psychology literature, one of the reasons that these s
 This inability to measure musical exposure additionally complicates controlling for the amount of variability of what might drive the memory effects in the models of musical memory.
 When measured continuously using paradigms that require immediate recall and judgment, musical training does often predict memory for musical materials.
 
-Using a step wise modeling procedure, @harrisonModellingMelodicDiscrimination2016 consistently found evidence that musical training to be a significant predictor of ability to preform well on a melodic discrimination task when developing an item response theory based test of melodic memory. 
+Using a stepwise modeling procedure, @harrisonModellingMelodicDiscrimination2016 consistently found evidence that musical training to be a significant predictor of ability to perform well on a melodic discrimination task when developing an item response theory based test of melodic memory. 
 Using regression modeling, Harrison et. al reported to be able to explain a large amount of the variance ($R^2 = 0.459$) when reporting response variability in a melodic discrimination task [@harrisonApplyingModernPsychometric2017a] when measuring musical training via the Goldsmith's Musical Sophistication Index [@mullensiefenMusicalityNonMusiciansIndex2014].
 @bakerPerceptionLeitmotivesRichard2017 found musical training, when measured continuously, was able to be a significant predictor using a exposure-recall paradigm among other predictor variables.
 
@@ -76,7 +76,7 @@ Work as reviewed in @schellenbergMusicNonmusicalAbilities2017 investigating the 
 Importantly, this association between intelligence and musical training comes with a correlation between duration of musical training and the extent of the increases in intelligence [@corrigallMusicTrainingCognition2013; @corrigallPredictingWhoTakes2015; @degeMusicLessonsIntelligence2011; @schellenbergLongtermPositiveAssociations2006].
 While many of these studies are correlation, other researchers have further investigated this relationship in experimental settings in attempt to control for confounding variables like socio-economic status and parental involvement in out of school activities [@corrigallMusicTrainingCognition2013; @degeMusicLessonsIntelligence2011; @schellenbergExaminingAssociationMusic2011; @schellenbergLongtermPositiveAssociations2006; @schellenbergMusicTrainingEmotion2012], but findings have been mixed.
 
-Schellenberg [@schellenbergMusicNonmusicalAbilities2017] notes that in many of these studies there is a problem of too small of a sample size in his review [@corrigallAssociationsLengthMusic2011; @parbery-clarkMusicalExperienceAging2011; @straitMusicalTrainingEarly2012] in that studies that are typically smaller might be under powered to detect any effects. 
+Schellenberg [@schellenbergMusicNonmusicalAbilities2017] notes that in many of these studies there is a problem of too small of a sample size in his review [@corrigallAssociationsLengthMusic2011; @parbery-clarkMusicalExperienceAging2011; @straitMusicalTrainingEarly2012] in that studies that are typically smaller might be underpowered to detect any effects. 
 Also referenced in Schellenberg's review is evidence that when professional musicians are matched with non-musicians from the general population these associations are non-existent [@schellenbergMusicTrainingSpeech2015]. 
 Interpreting the current literature Schellenberg puts forward the hypothesis that higher functioning children might self-select into music lessons and they tend to stay in lessons longer which leads to the observed differences in intelligence. 
 Additionally, Schellenberg remains skeptical of any sorts of causal factors regarding increases in IQ [@francoisMusicTrainingDevelopment2013; @morenoMusicalTrainingInfluences2009] noting methodological problems such as short exposure times or researchers who did not holding pre-existing cognitive abilities constant [@mehrTwoRandomizedTrials2013].
@@ -118,7 +118,7 @@ So given the complex network of variables at play, in order to understand how th
 In order to investigate the effects of individual factors on baseline, I must first assume that using a melodic discrimination paradigm can be used as a proxy for the first two steps of the Karpinski model of melodic dictation.
 I argue that because melodic discrimination paradigms require perceptual encoding, memory retention, and two other cognitive manipulations of similarity comparison and decision making as argued by @harrisonModellingMelodicDiscrimination2016, this paradigms do in fact resemble the first two steps of the Karpinski model.
 Karpinski's hearing and short-term musical memory could just as easily be described as perceptual encoding and memory retention.
-Additionally, the requirement to execute a decision while representing musical information in memory-- Harrison and colleague's Similarity Comparison and Descion making-- can be mapped on to later stages of Karpinski's model of musical understanding, and subsequently notation.
+Additionally, the requirement to execute a decision while representing musical information in memory-- Harrison and colleague's similarity comparison and decision making-- can be mapped on to later stages of Karpinski's model of musical understanding, and subsequently notation.
 
 One of the most complete suites of measuring musicality that employs both objective and subjective measures of musical sophistication is the Goldsmiths Musical Sophistication Index or Gold-MSI [@mullensiefenMusicalityNonMusiciansIndex2014].
 The Gold-MSI has both a self-report questionnaire as well as two test of objective ability.
@@ -144,7 +144,7 @@ Finally, in response to claims made by  @okadaIndividualDifferencesMusical2018, 
 
 Given the complex nature being investigated and the theoretical concepts at play such as working memory, general fluid intelligence, and musical sophistication conceptualized as a latent variable, it follows that the most appropriate method of parsing out the variance in this covariance structure would be to use some form of structural equation modeling [@beaujeanLatentVariableModeling2014].
 Structural equation modeling uses latent variables, theoretical constructs thought to exist yet are not possible to measure directly, that using a closed set of algebraic systems originally developed by Sewall Wright [@wrightMethodPathCoefficents1934].
-When used under the right conditions, the technique is powerful enough to determine casual mechanisms in closed systems [@pearlBookWhyNew2018], but this is not the case in this analysis. 
+When used under the right conditions, the technique is powerful enough to determine causal mechanisms in closed systems [@pearlBookWhyNew2018], but this is not the case in this analysis. 
 
 ### Hypotheses
 
@@ -424,7 +424,7 @@ General fluid intelligence might be helpful at later stages of cognitive process
 
 From a pedagogical standpoint, this is important in that many teachers are aware that students will vary in terms of their working memory ability.
 While it would be statistically rare to actually find someone with a working memory deficit, knowing that this construct is powerful predictor of performance at such an early stage of melodic dictation reinforces that teachers should be aware of it.
-One practical consideration for the classroom within the Karpinksi framework would be to encourage students to listen for smaller chunks when using extractive listening.
+One practical consideration for the classroom within the Karpinski framework would be to encourage students to listen for smaller chunks when using extractive listening.
 Using a Cowanian model of working memory, students should extract smaller chunks so that they still have cognitive resources available in order to focus on the later stages of the Karpinski model (musical understanding and notation).
 As attention is limited, not listening to more than you can hold will free up cognitive resources that might later be used in melodic dictation.
 Further students could take up recommendations like that of @chenetteReframingAuralSkills2019 and focus on activities that might help them increase their ability to focus, knowing that this practice will most likely not increase their working memory.

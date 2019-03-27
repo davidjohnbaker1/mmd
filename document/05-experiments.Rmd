@@ -8,19 +8,19 @@ Capturing variability at both the individual and item level not only is riddled 
 Many variables leads to many tests, which leads to inflated type I error rates as well as massive resources needed in order to detect even small effects.
 When viewed empirically from the perspective of experimental design, melodic dictation becomes gnarly. 
 
-Fortunatly dealing with high levels of variability at both the individual and item level is not a problem exclusive to work on melodic dictation.
-Recently work from LINGUSITICS has developed more sophisticated methodologies that are able to accomodate the above challenges and provide a more elegant way of handling these types of problems.
+Fortunately dealing with high levels of variability at both the individual and item level is not a problem exclusive to work on melodic dictation.
+Recently work from LINGUSITICS has developed more sophisticated methodologies that are able to accommodate the above challenges and provide a more elegant way of handling these types of problems.
 In this chapter, synthesize work from the previous chapters of this dissertation in in an experiment investigating melodic dictation.
-Unlike work in the past literature, I take advantage of statistical methodologies that are able to better accomodate problems in experimental design using these types of paradigms.
-By using hierarchical mixed linear modeling, I borrow methodlogies from LINGUSITICS in order to put forward a more principled way of modeling data that more ecologically reflects melodic dictation. 
+Unlike work in the past literature, I take advantage of statistical methodologies that are able to better accommodate problems in experimental design using these types of paradigms.
+By using hierarchical mixed linear modeling, I borrow methodologies from LINGUSITICS in order to put forward a more principled way of modeling data that more ecologically reflects melodic dictation. 
 I show how it is possible ti combine both tests of individual ability and musical features to predict score.
-Discuss new intricies of this kind of testing like scoring, relate back to classroom.
-And conclude with showing how if you cobmine aural skills, comptuational musicology, mixed effects, this is way forward. 
+Discuss new intricacies of this kind of testing like scoring, relate back to classroom.
+And conclude with showing how if you combine aural skills, computational musicology, mixed effects, this is way forward. 
 
 ## Introduction 
 
 Despite its near ubiquity in Conservatory and School of Music curricula, research surrounding topics concerning aural skills is not well understood. 
-This is peculiar since almost any individual seeking to earn a degree in music usually must enrol in multiple aural skills classes which cover a wide array of topics from sight-singing melodies, to melodic and harmonic dictation– all of which are presumed to be fundamental to any musician’s formal training. 
+This is peculiar since almost any individual seeking to earn a degree in music usually must enroll in multiple aural skills classes which cover a wide array of topics from sight-singing melodies, to melodic and harmonic dictation– all of which are presumed to be fundamental to any musician’s formal training. 
 Skills acquired in these classes are meant to hone the musician’s ear and enable them not only to think about music, but, to borrow Gary Karpinski’s phrase, to “think in music” (Karpinski, 2000, p.4). 
 The tacit assumption behind these tasks is that once one learns to think in music, these abilities should transfer to other aspects of the musician’s playing in a deep and profound way. 
 The skills that make up an individual’s aural skills encompass many abilities, though are thought to be reflective of some sort of core skill. 
@@ -32,7 +32,7 @@ Wolf and Kopiez (2014) noted a multiple confounds in their study attempting to a
 as inflated grading, which led to ceiling effects, as well as a broad lack of consistency in how schools are assessing success within their students. 
 But even if the results at the larger level were to be clearer, again this says nothing about the processes that contribute to tasks like melodic dictation.
 Rather than taking a bird’s eye view of the subject, this chapter will primarily focus on factors that might contribute to an individual’s ability dictate a melody.
--- note here on not causal, still descriptive to foreshadwo next chatpter
+-- note here on not causal, still descriptive to foreshadow next chapter
 
 Melodic dictation is one of the central activities in an aural
 skills class. 
@@ -175,7 +175,7 @@ If a participant were to have put a quarter note on the second beat of the third
 Only if the correct rhythms of the measures were accurate could pitch points be
 awarded. 
 In cases where there were more serious errors, for example if the second half of the second bar was not notated, points would have been deducted in both the pitch and rhythm sub-scores. 
-Both the first and second author scored all melodies independently and then cross referenced for interrater
+Both the first and second author scored all melodies independently and then cross referenced for inter rater
 reliability. -- change wording
 Using a single score intraclass correlation coefficient calculation κ = .96 which suggests a high degree of inter-rater reliability (McHugh, 2012).
 
