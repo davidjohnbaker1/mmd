@@ -57,6 +57,71 @@
 
 
 
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; position: absolute; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; }
+pre.numberSource a.sourceLine:empty
+  { position: absolute; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -205,7 +270,7 @@
 <h2><span class="header-section-number">2.1</span> Melodic Dictation</h2>
 <p>Melodic dictation is the process in which an individual hears a melody, retains it in memory, and then uses their knowledge of Western musical notation to recreate the mental image of the melody on paper in a limited time frame.
 For many, becoming proficient at this task is at the core of developing one’s aural skills <span class="citation">(Karpinski <a href="#ref-karpinskiModelMusicPerception1990">1990</a>)</span>.
-For over a century, music pedagogues have valued melodic dictation<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> which is evident from the fact that most aural skills texts with content devoted to honing one’s listening skills have sections on melodic dictation <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span>.</p>
+For over a century, music pedagogues have valued melodic dictation<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> which is evident from the fact that most aural skills texts with content devoted to honing one’s listening skills have sections on melodic dictation <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span>.</p>
 <p>Yet despite this tradition and ubiquity, the rationales as to <em>why</em> it is important for students to learn this ability often comes from some sort of appeal to tradition or underwhelming anecdotal evidence.
 The argument tends to go that time spent learning to take melodic dictation results in increases in near transfer abilities after an individual acquires a certain degree of proficiency learning to take melodic dictation.
 Rationales given for why students should learn melodic dictation has even been described by Karpinski as being based on “comparatively vague aphorisms about mental relationships and intelligent listening” <span class="citation">(Karpinski <a href="#ref-karpinskiModelMusicPerception1990">1990</a>, 192)</span>, thus leaving the evidence for the argument for learning to take melodic dictation not being well supported.</p>
@@ -268,7 +333,7 @@ Lack of this knowledge will limit an individual’s ability to translate what is
 While this framework can help illuminate this cognitive process and help pedagogues understand how to best help their students, presumably there are many more factors that contribute to this process.
 The model as it stands is not detailed enough for explanatory purposes and lacks in two areas that would need to be expanded if this model were to be explored experimentally and computationally.</p>
 <p>First, having a single model for melodic dictation assumes that all individuals are likely to engage in this sequential ordering of events.
-This could in fact be the case<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>, but there is research from music perception <span class="citation">(Goldman, Jackson, and Sajda <a href="#ref-goldmanImprovisationExperiencePredicts2018a">2018</a>)</span> and other areas of memory psychology such as work on expert chess players <span class="citation">(Lane and Chang <a href="#ref-laneChessKnowledgePredicts2018">2018</a>)</span> that suggests that as individuals gain more expertise in a specific domain, their processing and categorization of information changes.
+This could in fact be the case<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>, but there is research from music perception <span class="citation">(Goldman, Jackson, and Sajda <a href="#ref-goldmanImprovisationExperiencePredicts2018a">2018</a>)</span> and other areas of memory psychology such as work on expert chess players <span class="citation">(Lane and Chang <a href="#ref-laneChessKnowledgePredicts2018">2018</a>)</span> that suggests that as individuals gain more expertise in a specific domain, their processing and categorization of information changes.
 Additionally, different individuals will most likely have different experiences dictating melodies based on their own past listening experience, an area that Karpinski refers to when citing literature on musical enculturation based on statistical exposure.
 The model does not have any flexibility in terms of individual differences.</p>
 <p>Second, the model presumes the same sequence of events for every melody.
@@ -350,7 +415,7 @@ Even given this statement, measuring a theoretical construct such as an aspect o
 <h4><span class="header-section-number">2.2.1.1</span> Intelligence</h4>
 <p>Attempting to measure and quantify aspects of cognition date back over a century.
 Even before concepts of intelligence were posited by Charles Spearman via his conception of <em>g</em> <span class="citation">(Spearman <a href="#ref-spearmanGeneralIntelligenceObjectively1904">1904</a>)</span>, scientists were interested in establishing links between latent constructs they presumed to exist in the real world– yet were impossible to measure directly like intelligence– and physical manifestations in that could be measured such as body morphology <span class="citation">(Gould <a href="#ref-gouldMismeasureMan1996">1996</a>)</span>.
-While scholars like Gould have documented and critiqued much of the history of early psychometrics<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>, central to this study are two important schools of thought on intelligence testing commonly discussed in the current literature.</p>
+While scholars like Gould have documented and critiqued much of the history of early psychometrics<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>, central to this study are two important schools of thought on intelligence testing commonly discussed in the current literature.</p>
 <p>The first ideology originates from Cyril Burt and Charles Spearman who, in developing the statistical tool of factor analysis, posited that a construct of general intelligence exists as a part of human cognition and can be quantified.
 Burt and Spearman claimed that a general intelligence factor existed in human cognition from evidence they found developing a batty of cognitive tests whose performance on one subtest could often reliably predict performance on another.
 This phenomena of multiple related tests predicting each other’s performance is a manifestation referred to as the positive manifold.
@@ -486,7 +551,7 @@ The first of their three is not normally believed to be malleable, while the for
 This reasoning has been explored by researchers such as <span class="citation">Ruthsatz et al. (<a href="#ref-ruthsatzBecomingExpertMusical2008">2008</a>)</span>, who investigated these assertions and provided empirical evidence to support this notion using a hierarchical multiple regression modelling and concluded that each of these variables does in fact contribute significantly to the target variable of musical performance.
 Other researchers have since commented on these expertise models like <span class="citation">Mosing et al. (<a href="#ref-mosingPracticeDoesNot2014">2014</a>)</span> who have asserted that a genetic component, rather than those listed above best explain variance on musical ability.</p>
 <p>One major problem with interpreting literature like the studies mentioned above is the general lack of agreement on what constitutes musical behaviors.
-At a very high level, many of the aforementioned studies take a parochial view of what it means to engage in musical activity, a problem which is only exacerbated by not having uniform psychometric measurements <span class="citation">(Baker et al. <a href="#ref-bakerExaminingMusicalSophistication2018a">2018</a>; Talamini et al. <a href="#ref-talaminiMusiciansHaveBetter2017">2017</a>)</span>.
+At a very high level, many of the aforementioned studies take a parochial view of what it means to engage in musical activity, a problem which is only exacerbated by not having uniform psychometric measurements <span class="citation">(D. Baker et al. <a href="#ref-bakerExaminingMusicalSophistication2018a">2018</a>; Talamini et al. <a href="#ref-talaminiMusiciansHaveBetter2017">2017</a>)</span>.
 Interpreting this data then becomes difficult as what it means to be proficient at a musical task is culturally dependent.
 Investigating musical talent as if were a universal is a problem well documented in both the ethnomusicological and music education literature <span class="citation">(Blacking <a href="#ref-blackingHowMusicalMan2000">2000</a>; Murphy <a href="#ref-murphyHowFarTests1999">1999</a>)</span>.</p>
 <div id="aural-training" class="section level4">
@@ -595,7 +660,7 @@ Looking at the notorious subset of students with absolute pitch (AP), <span clas
 <p>Continuing exploring the pedagogical literature, Nathan Buonviri and colleagues have also made melodic dictation a central focus of recent work.
 Using qualitative methods, <span class="citation">N. Buonviri (<a href="#ref-buonviriEffectsMusicNotation2015">2015</a>)</span> interviewed six sophomore music majors in order to find successful strategies that students engaged with when completing melodic dictations and found evidence to suggest that sucessful students engage in highly concentrated mental choreography when completing melodic dictations.<br />
 <span class="citation">Paney (<a href="#ref-paneyEffectDirectingAttention2016">2016</a>)</span> reported beneficial effects to direct student’s attention and guide them through melodic dictation exercises suggesting that some sort of mental organization of the dictation process is helpful.
-<span class="citation">N. O. Buonviri and Paney (<a href="#ref-buonviriMelodicDictationInstruction2015">2015</a>)</span> found that having students sing a preparatory singing pattern after hearing the target melody, essentially a distraction task, hindered performance on melodic dictation.
+<span class="citation">Nathan O Buonviri and Paney (<a href="#ref-buonviriMelodicDictationInstruction2015">2015</a>)</span> found that having students sing a preparatory singing pattern after hearing the target melody, essentially a distraction task, hindered performance on melodic dictation.
 <span class="citation">N. Buonviri (<a href="#ref-buonviriEffectsMusicNotation2015">2015</a>)</span> found no effects of test presentation format (visual versus aural-visual) using a melodic memory paradigm and more work by <span class="citation">Buonviri (<a href="#ref-buonviriEffectsTwoListening2017">2017</a>)</span> reported no significant advantage to listening strategies while partaking in a melodic dictation test.</p>
 <p>Not specific to computational musicology or that of the music education literature, other research from music perception has also claimed other experimental features might play a role in dictation.
 For example, a series of papers by Michael W. Weiss has found a general timbral advantage of voice in memory recall tasks <span class="citation">(Weiss et al. <a href="#ref-weissRapidCommunicationPianists2015">2015</a>; Weiss and Peretz <a href="#ref-weissAbilityProcessMusical2019">2019</a>)</span>, even finding the effect in amusics.
@@ -619,7 +684,7 @@ After reviewing this literature, below I list my reccomendations in answering th
 While abstract concepts like intelligence and musical training are helpful concepts for explaining the variance in responses in aural skills settings, using such abstracted variables obfuscates causal mechanisms underlying this process.</p>
 <p>The most illustrative example of this comes from the above study by <span class="citation">Harrison, Asmus, and Serpe (<a href="#ref-harrisonEffectsMusicalAptitude1994">1994</a>)</span> who created a latent variable model of aural skills that was able to predict 74% of the variance in aural skills performance.
 This latent trait that the authors created is helpful in explaining the patterns of covariance in data, but this would be to reify a statistical abstraction and assume a stance of ontological realsim as noted before <span class="citation">(Borsboom, Mellenbergh, and van Heerden <a href="#ref-borsboomTheoreticalStatusLatent2003">2003</a>)</span>.
-The idea of statistical reification has been critiqued outside of music <span class="citation">(Gould <a href="#ref-gouldMismeasureMan1996">1996</a>; Kovacs and Conway <a href="#ref-kovacsProcessOverlapTheory2016">2016</a>)</span> and additionally has served as the basis for an argument that work from my doctoral work has putforward <span class="citation">(Baker et al. <a href="#ref-bakerExaminingMusicalSophistication2018a">2018</a>)</span>.</p>
+The idea of statistical reification has been critiqued outside of music <span class="citation">(Gould <a href="#ref-gouldMismeasureMan1996">1996</a>; Kovacs and Conway <a href="#ref-kovacsProcessOverlapTheory2016">2016</a>)</span> and additionally has served as the basis for an argument that work from my doctoral work has putforward <span class="citation">(D. Baker et al. <a href="#ref-bakerExaminingMusicalSophistication2018a">2018</a>)</span>.</p>
 <p>The same arguments put forward in this literature also are relevant in reserach in aural skills.
 In order to have a complete, causal model of the processes underlying melodic dictation, it is important to understand melodic dictation as a set of musical abilities that are related to other musical abilities, though may not be unified as a monolithic whole form which indiviuals draw from in order execute musical tasks.
 This idea is not new even in music psychology, as the past two decades have seen calls for a more polymorphic definition of musical ability <span class="citation">(Levitin <a href="#ref-levitinWhatDoesIt2012">2012</a>; Peretz and Coltheart <a href="#ref-peretzModularityMusicProcessing2003">2003</a>)</span> whose modeling will require more concrete ways of defining underlying processes rather than correlating variable together that are helpful at prediction without explaining the process.
@@ -1081,10 +1146,10 @@ The rest of this dissertation will synthesize these areas and put forth novel re
 </div>
 <div class="footnotes">
 <hr />
-<ol start="1">
-<li id="fn1"><p>In his highly influential book <em>Aural Skills Acquisition: The Development of Listening, Reading, and Performing Skills in College-Level Musicians</em>, <span class="citation">Karpinski (<a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span> documents this sentiment in music pedagogy circles by highlighting poetic adages from Romantic composer Robert Schumann in the mid 19th century through 21st century music educator Charles Elliott in the opening of his book, thus providing concrete examples of the belief that improving one’s aural skills, or <em>ear</em>, is a highly sought after advanced skill.<a href="intro.html#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p>And in his Figure 3.1 he does caption it as an <em>idealized</em> dictation process<a href="intro.html#fnref2" class="footnote-back">↩</a></p></li>
-<li id="fn3"><p>Gould puts forward a complete, yet very charged reading of the early history of cognitive testing and his writings on the subject have been accused of falling prey to the same logic he rails against <span class="citation">(Warne et al. <a href="#ref-warneStephenJayGould2019">2019</a>)</span><a href="intro.html#fnref3" class="footnote-back">↩</a></p></li>
+<ol start="3">
+<li id="fn3"><p>In his highly influential book <em>Aural Skills Acquisition: The Development of Listening, Reading, and Performing Skills in College-Level Musicians</em>, <span class="citation">Karpinski (<a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>)</span> documents this sentiment in music pedagogy circles by highlighting poetic adages from Romantic composer Robert Schumann in the mid 19th century through 21st century music educator Charles Elliott in the opening of his book, thus providing concrete examples of the belief that improving one’s aural skills, or <em>ear</em>, is a highly sought after advanced skill.<a href="intro.html#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>And in his Figure 3.1 he does caption it as an <em>idealized</em> dictation process<a href="intro.html#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn5"><p>Gould puts forward a complete, yet very charged reading of the early history of cognitive testing and his writings on the subject have been accused of falling prey to the same logic he rails against <span class="citation">(Warne et al. <a href="#ref-warneStephenJayGould2019">2019</a>)</span><a href="intro.html#fnref5" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
             </section>

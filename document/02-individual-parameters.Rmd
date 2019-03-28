@@ -41,7 +41,7 @@ After students master the ability to selectively hear and retain portion of a me
 Chunking is a listener's ability group smaller units of musical material into a larger group.
 The idea of chunking derives from earlier work from Gestalt psychologists and was one of the initial mechanisms proposed by @millerMagicalNumberSeven1956 able to extend the finite window of memory.
 The general idea is that if a collection of notes can be identified as its own discrete entity-- such as a descending major triad in first inversion-- the listener will only have to remember that one structure, rather than its component parts.
-As discussed in the previous chapter in [Parallels Between Working Memory and Melodic Dictation], music's inherently sequential nature affords it many opportunities to find repeated patterns which can be labeled, musically understood, and thus chunked.
+As discussed in the previous chapter in [Working Memory and Melodic Dictation], music's inherently sequential nature affords it many opportunities to find repeated patterns which can be labeled, musically understood, and thus chunked.
 While stimuli that are inherently sequential are problematic for psychologists investigating capacity limits of working memory capacity [@cowanWorkingMemoryCapacity2005], students are expected to use chunking to their advantage in order to become more adept listeners.
 As students learn to chunk more efficiently, they are able to process more musical information in their short-term musical memory.
 With the development of both skills, students are presumed to increase their musical memory and ultimately improve their melodic dictation abilities.
@@ -121,7 +121,7 @@ Karpinski's hearing and short-term musical memory could just as easily be descri
 Additionally, the requirement to execute a decision while representing musical information in memory-- Harrison and colleague's similarity comparison and decision making-- can be mapped on to later stages of Karpinski's model of musical understanding, and subsequently notation.
 
 One of the most complete suites of measuring musicality that employs both objective and subjective measures of musical sophistication is the Goldsmiths Musical Sophistication Index or Gold-MSI [@mullensiefenMusicalityNonMusiciansIndex2014].
-The Gold-MSI has both a self-report questionnaire as well as two test of objective ability.
+The Gold-MSI has both a self-report questionnaire as well as two tests of objective ability and a timbre identification task.
 One of the tests employs a beat detection paradigm, the other is a melodic discrimination paradigm.
 Seeing as both measures mirror tasks used in the aural skills classroom and the two are purported to measure different constructs, both will be used in this study.
 Since its initial publication, adaptive short forms of the tests have been developed using item response theory [@harrisonApplyingModernPsychometric2017a].
@@ -188,7 +188,7 @@ The complete survey with all questions used can be found at goo.gl/dqtSaB.
 ##### Tone Span (TSPAN)
 
 Participants completed a two-step math operation and then tried to remember three different tones in an alternating sequence (based upon @unsworthAutomatedVersionOperation2005). 
-We modeled the three tones after @liEstimatingWorkingMemory2013 paper's using frequencies outside of the equal tempered system (200Hz, 375Hz, 702Hz). 
+The three tones were modeled after @liEstimatingWorkingMemory2013 paper's using frequencies outside of the equal tempered system (200Hz, 375Hz, 702Hz). 
 The same math operation procedure as OSPAN was used. 
 The tones was presented aurally for 1000ms after each math operation. 
 During tone recall, participants were presented three different options H M and L (High, Medium, and Low), each with its own check box.
@@ -270,7 +270,7 @@ Only measures used in modeling are reported below.
 #### Descriptive, Data Screening, Correlational
 
 The goal of the analyses was to examine the relationships among the measures and constructs of WMC, general fluid intelligence, musical sophistication (operationalized as the General score from the Gold-MSI), in relation to the two objective listening tests on the Gold-MSI. 
-Before running any sort of modeling, we inspected our data to ensure in addition to outlier issues as mentioned above, the data exhibited normal distributions. 
+Before running any sort of modeling, data was inspected inspected to ensure in addition to outlier issues as mentioned above, the data exhibited normal distributions. 
 I report both correlation values, as well as visually displaying our distributions in Figure 1.
 
 Before running any modeling, I checked our data for assumptions of normality since violations of normality can strongly affect the covariances between items. 
@@ -388,7 +388,7 @@ This model was run to create a baseline measurement.
 
 Following a series of nested model fits, we were able to improve model fits on a series of structural equation models that incorporated both measures of working memory capacity and measures of general fluid intelligence.
 Before commenting on new models, it is worth noting that the Model 5 does not seem to align with the findings from the original 2014 paper by [@mullensiefenMusicalityNonMusiciansIndex2014]. 
-While the correlation between the objective tasks is the same (r = .16), the factor loadings from this paper suggest lower values for both Beat Perception (.37 original, .27 this paper) as well as Melodic Memory (.28 original, .18 this paper). 
+While the correlation between the objective tasks is the same (r = .16), the factor loadings from this analysis suggest lower values for both Beat Perception (.37 original, .27 this paper) as well as Melodic Memory (.28 original, .18 this paper). 
 Note that two items were removed dealing with melody for memory for this model; when those items were re-run with the data, the factor loadings did not deviate from these numbers.
 
 The first two models I ran resulted in minor improvements to model fit. 
