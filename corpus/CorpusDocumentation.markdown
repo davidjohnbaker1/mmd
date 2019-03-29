@@ -11,17 +11,4 @@ The ```.krn``` files are used for the IDyOM modeling.
 
 Scripts to do all the conversions are found in the scripts directory.
 
-I also plan on building a Shiny dashboard for helping visualise the features of the dataset.
 
-## Google Doc Mangement
-
-* [Progress](https://docs.google.com/spreadsheets/d/1JjWNjxyaihh_Cbl8uUIaaoxIZ4i0nTzDCP6F9dPQb04/edit?usp=sharing)
-
-## To Do
-
-* [ ] Encode Corpus
-* [X] Write Data pipeline for xml to csv
-* [X] Write script that does FANTASTIC Analysis 
-* [ ] Write scripts that do IDyOM Analysis
-* [ ] Create script that explores n-grams in corpus 
-* [ ] Fix Igor stravisnky liteature 153 rhythm for idyom
