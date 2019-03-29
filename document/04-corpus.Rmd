@@ -3,14 +3,18 @@
 ## Rationale 
 
 One of the essential features of any scientific discovery is the ability to reproduce the finding.
-Given a new claim about reality, in order to be able to demonstrate that the claim is true, the new phenomena should remain invariant when being reproduced under different conditions.
-If the phenomena satisfies pre-established criteria for causality can evidence be used to corroborate theories that would predict this phenomena (HUME, PEARL).
+Given a new claim about reality, in order to be able to demonstrate that the claim is true, the new phenomena should remain invariant when reproduced.
+If the phenomena satisfies pre-established criteria for causality, this evidence can be used to corroborate its generating theories.
+
+
 This type of reasoning typically falls outside the realm of music theory, as studies involving music in the past few decades have generally been associated with research in the humanities.
-One of the main objectives of research in the humanities-- as opposed to that of the sciences-- is to both challenge existing categories and subsequently create new framework of reality as we understand it (CITE).
-This division between the goals of those affiliated with studying music have not always been the case as noted by scholars like Allen Forte, who in his 1967 article notes that "In virtually any historic period one finds an interaction between music and science and mathematics." (FORTE).
-This should come as surprise given that music, was one of the seven liberal arts during Roman times belonging to the quadrivium along with astronomy, geometry, and arithmetic (CITE).
-In fact, many disciplinary differences are more likely to result from geopolitical divides as how scholars conceptualize the study of music based on their location of study rather than the content and form of their research (PARNCUTT).
-Thus given th ebb and flow of relationship of music with so many other disciplines, incorporating epidemiological and methodological frameworks is nothing new in music research. 
+One of the main objectives of research is to both challenge existing categories and subsequently create new framework of reality as we understand it (CITE).
+
+
+The creation of new categories to disccuss music have not always been the case as noted by scholars like Allen Forte, who in his 1967 article notes that "In virtually any historic period one finds an interaction between music and science and mathematics." [@forteMusicComputingPresent1967].
+This should come as surprise given that music, was one of the seven liberal arts during Roman times belonging to the quadrivium along with astronomy, geometry, and arithmetic.
+In fact, many disciplinary differences are more likely to result from geopolitical divides as how scholars conceptualize the study of music based on their location of study rather than the content and form of their research PARNCUTT.
+Thus given th ebb and flow of relationship of music with so many other disciplines, incorporating episdemiological and methodological frameworks is nothing new in music research. 
 
 Returning to a phenomenon's invariance under different conditions, one of the most effective ways to investigate claims about the state of reality is to reproduce previously made claims using new data.
 One of the most important contributions that a researcher can make towards either bolstering or refuting claims about the nature of music and its resulting theories would be to generate more materials in which to examine previous claims under new conditions.
@@ -22,9 +26,9 @@ I end by highlighting important considerations in the underlying representations
 
 ## History
 
-The use of computers to study music has been been ongoing for over the past fifty years CITE.
-As cataloged by CITE, early approaches to using music to study computers begin in the mid 1960s and due to the high effort and cost of computation, projects pursued by researchers at this time tended to focus on questions that might have some sort of global relevance CITE.
-The use of computers to study music at this time was not by any means a sparse area of study as reflected in THIS BIBLIOGRAPHY by XXXX and throughout the second half of the 20th century, research in computational musicology grew in relation to the computing abilities afforded by the available technologies (CITE).
+The use of computers to study music has been been ongoing for over the past fifty years.
+As reviewed by @hewlettComputingMusicology1991, early approaches to using music to study computers begin in the mid 1960s and due to the high effort and cost of computation, projects pursued by researchers at this time tended to focus on questions that might have some sort of global relevance.
+The use of computers to study music at this time was not by any means a sparse area of study BIBLOI and throughout the second half of the 20th century, research in computational musicology grew in relation to the computing abilities afforded by the available technologies (CITE).
 During this time, not only was there progress made on computing power, many forms of developing new encoding frameworks were developed. 
 As discussed by WIGGINS 1993, the design and development of these encoding frameworks impacts the degree that the systems can be asses based on two orthogonal dimensions they identify in evaluating a framework: it's expressive completeness and structural generality. 
 Considering what system is used to then encode musical information then becomes paramount given that the level of granularity that musical data in encoded will eventually determine the types of questions that could eventually be asked in an analysis.
@@ -56,7 +60,7 @@ Since moving between digitally encoded ecosystems is not nearly as difficult and
 ## Berkowitz Corpus
 
 In this next section I introduce a new corpus of melodies encoded in the kern format.
-The melodies come from the 5th edition of "a new approach to sight singing" written by Sol Berkowitz, Gabriel Fontrier, Leo Kraft, Perry Goldstein, and Edward Smaldone, CITE. 
+The melodies come from the 5th edition of "a new approach to sight singing" written by Sol Berkowitz, Gabriel Fontrier, Leo Kraft, Perry Goldstein, and Edward Smaldone, [@berkowitzNewApproachSight2011]. 
 In this version, it includes XX melodies from the first and last chapter of the book.
 The first Chapter contains melodies from five different sections and the fifth chapter contains "Melodies from the Literature" and is made up of four sections.
 Melodies from the first chapter have all been specifically composed for use in a sight singing context.
@@ -64,9 +68,9 @@ Melodies from the fifth chapter are small excerpts from examples of both excerpt
 The information for each melody is recorded in the meta-data of the kern file. 
 In addition to having a key signature in each kern file, I have also added an explicit key to each kern file.
 Each section of the book contains melodies that would be considered tonal, except for melodies in the fifth section of the first chapter and intermittent melodies in the fourth section of the fifth chapter which contain atonal melodies.
-If a melody is decidedly atonal or written using a mode, this is document as well in the metadata.
+If a melody is decidedly atonal or modal, this is documented in the metadata.
 Atonal melodies are given the explicit key of C major so that they can be analyzed using tools from the humdrum extras toolbox and parsed as if they were part of a fixed do system.
-In total the corpus consists of XXXXXXX tokens.
+
 In Figure XXX see that there is even distribution of keys.
 In comparison to other corpora, such as the canonical Essen folksong data base, the Berkowtiz has less melodies, but melodies are typically LONGER, reflects more diversity of keys, and does not reflect music of a particular national culture.
 Contrasting the XXXXX tokens in the corpus, the Essen folk song ha XXXXXXX tokens. 
@@ -75,8 +79,8 @@ Contrasting the XXXXX tokens in the corpus, the Essen folk song ha XXXXXXX token
 
 ## Comparison of Corpora 
 
-In order to gives brief overview of the corpus and contextualize it in the context of other corpora, in the next section I compare the Berkowtiz corpus to that of the Essen Folk song collection (CITE).
-I compare it to the Essen Folk Song Collection because importantly close in being that they both were written for some sort of vocal performance.
+In order to gives brief overview of the corpus and contextualize it in the context of other corpora, in the next section I compare the Berkowtiz corpus to that of the Essen Folk song collection [@schaffrathEssenFolkSong1995].
+I compare the Berkowitz Corpus to the Essen Folk Song Collection because importantly close in being that they both were written for some sort of vocal performance.
 The Berkowitz corpus was specifically designed for pedagogical purposes whereas the Essen is more ecologically reflective of melodies originating from a diversity of sources.
 Though given that they are both generally vocal melodies and  both come from Western sources, there presumably would be differences on between the two corpora on a large scale structure.
 A second, more important reason for comparing this corpus with the Essen is that the Essen is one of the more heavily cited corpora used in the field of computational musicology and often taken as a proxy to represent the underlying expectation structure of Western music.
