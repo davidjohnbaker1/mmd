@@ -2,10 +2,18 @@
 
 Repo for my PhD Dissertation: Modeling Melodic Dictation
 
+## COUNTDOWN
+
+* Clean and Finalize Corpus
+* Finalize Corpus Chapter Text
+* Add Corpus Graphs
+* Insert Experimental Citations
+* Incorporate Aubrey Hickman Edits for Chapter 6
+
 ## Tasks for David 
 
 * [X] Clean up citations at start 
-* [ ] Get biblio listings of all features studies on page 2 of Taylor and Pembrook 1983
+* [X] Get biblio listings of all features studies on page 2 of Taylor and Pembrook 1983
 * [X] Long Read of Pembrook 1986 for rationale 
 
 ### Corpus
@@ -24,14 +32,14 @@ Repo for my PhD Dissertation: Modeling Melodic Dictation
 
 ### Literature Review
 
-* [ ] General Level edits of entire Literature review - length ok, but serious langauge cleaning and citations
-* [ ] Add section on Experimental factors as well as 
-* [ ] Add argument regarding polymorphism of ability and not doing the LV thing like harrsion 1994
+* [X] General Level edits of entire Literature review - length ok, but serious langauge cleaning and citations
+* [X] Add section on Experimental factors as well as 
+* [X] Add argument regarding polymorphism of ability and not doing the LV thing like harrsion 1994
 
 ### Individual Differences
 
-* [ ] Add in citations from linear mixed effects in lingusitics talking about how subjects are random variables 
-* [ ] More explicit about ther Berz 1994
+* [X] Add in citations from linear mixed effects in lingusitics talking about how subjects are random variables 
+* [X] More explicit about ther Berz 1994
 
 ### Computation Chapter
 
