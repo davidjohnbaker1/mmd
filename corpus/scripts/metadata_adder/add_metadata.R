@@ -2,7 +2,7 @@
 # Metadata for Berkowitz Script 
 #--------------------------------------------------
 # Import Meta Data In Global Environment
-meta <- read.csv("metadata.csv",
+meta <- read.csv("berk_melo_meta.csv",
                   check.names = FALSE,
                   sep = ",")
 
@@ -47,11 +47,11 @@ add_metadata <- function(fns=list.files(pattern = "*.krn")){
     # Extract Objects 
     #--------------------------------------------------
     # Spreadsheet Data 
-    encoder <- paste("!!! Encoder:",selected_meta$`!!!Encoder`)
-    section <- paste("!!! Section:",selected_meta$`!!!Section`)
-    page <- paste("!!! Page:",selected_meta$`!!!Page`)
-    chapter <- paste("!!! Chapter:",selected_meta$`!!!Chapter`)
-    music_mode <- paste("!!! Mode:",selected_meta$`!!!Mode`)
+    encoder <- paste("!!! Encoder:",selected_meta$`!!! Encoder`)
+    section <- paste("!!! Section:",selected_meta$`!!! Section`)
+    page <- paste("!!! Page:",selected_meta$`!!! Page`)
+    chapter <- paste("!!! Chapter:",selected_meta$`!!! Chapter`)
+    music_mode <- paste("!!! Mode:",selected_meta$`!!! Mode`)
     key <- paste0("*", selected_meta$Key,":") 
     
     id_line <- which(grepl(pattern = "\\*k\\[",x = krn_file)) # Used for Searching
