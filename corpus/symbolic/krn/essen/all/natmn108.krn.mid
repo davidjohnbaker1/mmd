@@ -1,0 +1,91 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! Ethnic Group: Menggu]
+0	0xff TEXT [!! MM, S. 161]
+0	0xff TEXT [!! Irregular meter.]
+0	0xff TEXT [!! Eigene Aufnahme]
+0	0xff TEXT [!! 00010] TT[TB]
+3105	0xff TEXT [!!    +2 (Zeile 262): Druckfehler? Geringerer Ambitus angegeben.]
+3105	0xff TEXT [!!    Wenig Verzierungen.]
+3105	0xff TEXT [!!    benutzte und ansonsten auswendig sang. Da er aus dem Osten der]
+3105	0xff TEXT [!! Saenger: Chao Lun Batou, der das Buch nur zum Nachschlagen]
+3105	0xff TEXT [!!    Neimeng kommt, kennt er nicht so viele Lieder des Westens.]
+3105	0xff TEXT [!!    Alle Lieder wurden mit erkaelteter, halber Stimme in meinem]
+3105	0xff TEXT [!!    Zimmer gesungen. FOTO VORHANDEN (DIAS)   31.3.87  VARIANTE + Verz.]
+3225	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 55 64 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+60	0x80 55 64 
+60	0x90 57 70 
+120	0x80 57 70 
+120	0x90 60 68 
+360	0x80 60 68 
+360	0x90 64 70 
+420	0x80 64 70 
+420	0x90 67 63 
+480	0x80 67 63 
+480	0x90 55 66 
+720	0x80 55 66 
+720	0x90 62 68 
+780	0x80 62 68 
+780	0x90 64 65 
+840	0x80 64 65 
+840	0x90 67 64 
+1020	0x80 67 64 
+1020	0x90 64 60 
+1080	0x80 64 60 
+1080	0x90 62 65 
+1120	0x80 62 65 
+1120	0x90 67 60 
+1160	0x80 67 60 
+1160	0x90 64 61 
+1200	0x80 64 61 
+1200	0x90 62 62 
+1440	0x80 62 62 
+1440	0x90 62 72 
+1530	0x80 62 72 
+1530	0x90 64 65 
+1560	0x80 64 65 
+1560	0x90 67 62 
+1740	0x80 67 62 
+1740	0x90 64 62 
+1800	0x80 64 62 
+1800	0x90 62 64 
+1890	0x80 62 64 
+1890	0x90 67 57 
+1905	0x80 67 57 
+1905	0x90 64 56 
+1935	0x80 64 56 
+1935	0x90 62 58 
+1965	0x80 62 58 
+1965	0x90 60 57 
+2205	0x80 60 57 
+2205	0x90 64 62 
+2325	0x80 64 62 
+2325	0x90 52 56 
+2385	0x80 52 56 
+2385	0x90 55 58 
+2415	0x80 55 58 
+2415	0x90 57 64 
+2445	0x80 57 64 
+2445	0x90 62 60 
+2685	0x80 62 60 
+2685	0x90 64 56 
+2865	0x80 64 56 
+2865	0x90 55 60 
+3105	0x80 55 60 
+3224	0x90 0 0 
+3225	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

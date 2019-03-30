@@ -1,0 +1,72 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! MM, S. 76]
+0	0xff TEXT [!! Eigene Aufnahme]
+0	0xff TEXT [!! Ethnic Group: Menggu]
+0	0xff TEXT [!! 00010] TT[TB]
+1920	0xff TEXT [!!    Zimmer gesungen. FOTO VORHANDEN (DIAS)  31.3.87]
+1920	0xff TEXT [!!    +++ Hier fehlt S. 75 in Kopie. S. 76 enthaelt nur zwei]
+1920	0xff TEXT [!!    Notenzeilen. +++ ANDERES LIED? VARIANTE. Schoene Tremoli!]
+1920	0xff TEXT [!!    Neimeng kommt, kennt er nicht so viele Lieder des Westens.]
+1920	0xff TEXT [!! Saenger: Chao Lun Batou, der das Buch nur zum Nachschlagen]
+1920	0xff TEXT [!!    benutzte und ansonsten auswendig sang. Da er aus dem Osten der]
+1920	0xff TEXT [!!    Alle Lieder wurden mit erkaelteter, halber Stimme in meinem]
+2040	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 64 65 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+120	0x80 64 65 
+120	0x90 67 67 
+180	0x80 67 67 
+180	0x90 69 57 
+240	0x80 69 57 
+240	0x90 74 72 
+600	0x80 74 72 
+600	0x90 76 59 
+630	0x80 76 59 
+630	0x90 74 56 
+660	0x80 74 56 
+660	0x90 76 66 
+690	0x80 76 66 
+690	0x90 79 58 
+720	0x80 79 58 
+720	0x90 72 66 
+840	0x80 72 66 
+840	0x90 69 60 
+870	0x80 69 60 
+870	0x90 72 58 
+900	0x80 72 58 
+900	0x90 69 66 
+960	0x80 69 66 
+960	0x90 67 69 
+1020	0x80 67 69 
+1020	0x90 69 59 
+1080	0x80 69 59 
+1080	0x90 67 64 
+1110	0x80 67 64 
+1110	0x90 69 59 
+1140	0x80 69 59 
+1140	0x90 67 58 
+1440	0x80 67 58 
+1440	0x90 64 62 
+1460	0x80 64 62 
+1460	0x90 62 57 
+1480	0x80 62 57 
+1480	0x90 64 59 
+1500	0x80 64 59 
+1500	0x90 67 57 
+1920	0x80 67 57 
+2039	0x90 0 0 
+2040	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

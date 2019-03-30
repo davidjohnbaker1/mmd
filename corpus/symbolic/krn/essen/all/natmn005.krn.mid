@@ -1,0 +1,71 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! 00000] TT[00]
+0	0xff TEXT [!! NN]
+0	0xff TEXT [!! Ethnic Group: Menggu]
+0	0xff TEXT [!! III, 271]
+3840	0xff TEXT [!! Diese Melodie wurde in einer Komposition von San Tong verwendet.-]
+3840	0xff TEXT [!!    Beim Erscheinen des vorl. Bandes zaehlte ein Teil der Neimeng noch]
+3840	0xff TEXT [!!    zu Liaoning. Nur deshalb ist das Lied hier untergeordnet.]
+3840	0xff TEXT [!!    Wenig Verzierungen.]
+3960	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 69 62 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+120	0x80 69 62 
+120	0x90 72 66 
+240	0x80 72 66 
+240	0x90 74 64 
+480	0x80 74 64 
+480	0x90 67 67 
+600	0x80 67 67 
+600	0x90 65 61 
+720	0x80 65 61 
+720	0x90 62 63 
+960	0x80 62 63 
+960	0x90 72 66 
+1080	0x80 72 66 
+1080	0x90 77 69 
+1200	0x80 77 69 
+1200	0x90 74 65 
+1320	0x80 74 65 
+1320	0x90 72 61 
+1440	0x80 72 61 
+1440	0x90 69 64 
+1920	0x80 69 64 
+1920	0x90 69 63 
+2040	0x80 69 63 
+2040	0x90 72 59 
+2160	0x80 72 59 
+2160	0x90 74 63 
+2400	0x80 74 63 
+2400	0x90 67 64 
+2520	0x80 67 64 
+2520	0x90 65 69 
+2640	0x80 65 69 
+2640	0x90 62 62 
+2880	0x80 62 62 
+2880	0x90 65 64 
+3000	0x80 65 64 
+3000	0x90 67 61 
+3120	0x80 67 61 
+3120	0x90 72 70 
+3240	0x80 72 70 
+3240	0x90 65 69 
+3360	0x80 65 69 
+3360	0x90 62 65 
+3840	0x80 62 65 
+3959	0x90 0 0 
+3960	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

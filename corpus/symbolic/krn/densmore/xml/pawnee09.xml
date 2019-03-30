@@ -1,0 +1,2320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<!-- INFO key="SOCIAL_FUNCTION" value="	songs connected with ceremonies" -->
+<!-- INFO key="PDT" value="	1929" -->
+<!-- INFO key="LING_GROUP" value="Caddoan" -->
+<!-- INFO key="LANG" value="Non-Tone" -->
+<!-- INFO key="REG" value="Oklahoma" -->
+<!-- INFO key="COM" value="Anon." -->
+<!-- INFO key="OTL" value="Unreal the Buffalo is Standing" -->
+<!-- INFO key="ODT" value="<1920//" -->
+<!-- INFO key="MPN" value="Tutukrawitsu [He overtook the enemy, Wicita Blain]" -->
+<!-- INFO key="MLC" value="Pawnee, Oklahoma, United States of America" -->
+<!-- GCOMMENT value=" Song was recorded either 1919 or 1920." -->
+<!-- INFO key="AGN" value="monody" -->
+<!-- INFO key="AST" value="Buffalo dance" -->
+<!-- INFO key="AMT" value="irregular" -->
+<!-- INFO key="RWG" value="Transcribed pitches, durations, and meters are only approximate." -->
+<!-- GCOMMENT value=" Drum Tempo:  MM138 changing to MM76" -->
+<!-- GCOMMENT value=" Drum-rhythm:  (8 8 8 8 8 8)" -->
+<score-partwise version="2.0">
+	<part-list>
+		<score-part id="P1">
+			<part-name>male</part-name>
+		</score-part>
+	</part-list>
+
+	<part id="P1">
+		<measure number="1">
+			<attributes>
+				<divisions>24</divisions>
+			</attributes>
+			<attributes>
+				<clef>
+					<sign>F</sign>
+					<line>4</line>
+				</clef>
+			</attributes>
+			<attributes>
+				<key>
+					<fifths>5</fifths>
+				</key>
+			</attributes>
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>Ti</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>Ti</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>He</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>wa-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>waka</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>said</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="2">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ka</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>a</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>raru</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>not real</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ru</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="3">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>it</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>have</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ri-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>riki</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>standing</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ki</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="4">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ku-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>kura</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>his</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>|</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ra</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>have</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>wa-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>wakuru</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>sayings</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ku-</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="5">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ru</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>e</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>e</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>e</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="6">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>raru</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>not real</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ru</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>it</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>have</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ri-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>riki</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>standing</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="7">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ki</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>i</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>2</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<accidental>double-sharp</accidental>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>i</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>2</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>i</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="8">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ti</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ti</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>he</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>wa-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>waka</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>said</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ka</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>24</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>it</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="9">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>have</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>|</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ri-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>riki</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>standing</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>24</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ki</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="10">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>raru</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>not real</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ru</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>it</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>have</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="11">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ri-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>riki</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>standing</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>9</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ki</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>32nd</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>i</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>24</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>i</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="12">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>raru</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>not real</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ru</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>it</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>have</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ri-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>riki</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>standing</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="13">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>18</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ki</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>i</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>24</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>i</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="14">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>raru</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>not real</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ru</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>tex</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>tex</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>his</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<time-modification>
+					<actual-notes>3</actual-notes>
+					<normal-notes>2</normal-notes>
+				</time-modification>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>wa-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>wararu</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>open space</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<time-modification>
+					<actual-notes>3</actual-notes>
+					<normal-notes>2</normal-notes>
+				</time-modification>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ra-</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<time-modification>
+					<actual-notes>3</actual-notes>
+					<normal-notes>2</normal-notes>
+				</time-modification>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ru</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="15">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ka-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>kariki</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>standing</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ri-</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>2</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<accidental>double-sharp</accidental>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ki</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>2</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>e</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="16">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>raru</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>not real</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-a-</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ru</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>24</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>tex</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>tex</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>his</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="17">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>have</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>a</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ri-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>riki</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>standing</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<notations>
+					<fermata type="upright"/>
+				</notations>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ki</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ti</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ti</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>he</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>wa-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>waka</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>said</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="18">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ka</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>a</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>raru</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>not real</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ru</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="19">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>it</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>have</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ri-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>riki</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>standing</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ki</text>
+				</lyric>
+			</note>
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="20">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ku-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>kura</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>his</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ra</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>have</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>9</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>wa-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>wakuru</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>sayings</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>32nd</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ku-</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ru</text>
+				</lyric>
+			</note>
+			<note>
+				<rest/>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="21">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>raru</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>not real</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ru</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>it</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>have</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="22">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ri-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>riki</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>standing</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>9</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ki</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>32nd</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>i</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>24</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>i</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="23">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>raru</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>not real</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ru</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>te</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>it</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>have</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ri-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>riki</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>standing</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="24">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>18</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ki</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>i</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>24</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>i</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="25">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>raru</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>not real</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ru</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>tex</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>tex</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>his</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<time-modification>
+					<actual-notes>3</actual-notes>
+					<normal-notes>2</normal-notes>
+				</time-modification>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>wa-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>wararu</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>open space</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<time-modification>
+					<actual-notes>3</actual-notes>
+					<normal-notes>2</normal-notes>
+				</time-modification>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ra-</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<time-modification>
+					<actual-notes>3</actual-notes>
+					<normal-notes>2</normal-notes>
+				</time-modification>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ru</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="26">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ka-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>kariki</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>standing</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ri-</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>2</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<accidental>double-sharp</accidental>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ki</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>2</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>a</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="27">
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>raru</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>not real</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-a-</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ru</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>24</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>tex</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>tex</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>his</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="28">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>have</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>a</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ri-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>riki</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>standing</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>12</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ki</text>
+				</lyric>
+			</note>
+		</measure>
+	</part>
+</score-partwise>
+<!-- INFO key="HAO" value="   At a certain point in the Lance dance witnessed" -->
+<!-- INFO key="HAO" value="by the writer the decorated lances were carried" -->
+<!-- INFO key="HAO" value="around the lodge and the following song was sung." -->
+<!-- INFO key="HAO" value="This constituted one of the most impressive portions" -->
+<!-- INFO key="HAO" value="of the ceremony.  The song is very old and belonged" -->
+<!-- INFO key="HAO" value="to a woman who had two sons, the song being sung" -->
+<!-- INFO key="HAO" value="whenever they danced.  The woman lived to be so" -->
+<!-- INFO key="HAO" value="old that she could not stand erect but she" -->
+<!-- INFO key="HAO" value=""was always singing this song while she was cooking" -->
+<!-- INFO key="HAO" value="or working."  The words mean "Father, the band of the" -->
+<!-- INFO key="HAO" value="dead is coming."  The woman who recorded the song" -->
+<!-- INFO key="HAO" value="was blind." -->
+<!-- INFO key="HTX" value="[no free translation]" -->
+<!-- INFO key="CNT" value="Pawnee" -->
+<!-- INFO key="TXO" value="Pawnee" -->
+<!-- INFO key="OCY" value="United States" -->
+<!-- INFO key="OCL" value="Frances Densmore" -->
+<!-- INFO key="YOR" value="Frances Densmore, "Pawnee Music"" -->
+<!-- INFO key="YOR" value="Bulletin 93, page 35, No. 9" -->
+<!-- INFO key="PPR" value="Smithsonian Institution, Bureau of American Ethnology" -->
+<!-- INFO key="PPR" value="Government Printing Office" -->
+<!-- INFO key="PDT" value="1926" -->
+<!-- INFO key="PPP" value="Washington, DC, United States of America" -->
+<!-- INFO key="YEC" value="Electronic Copyright 2000 David Huron" -->
+<!-- INFO key="YER" value="September 2000" -->
+<!-- INFO key="YEN" value="United States of America" -->
+<!-- INFO key="ENC" value="David Huron" -->
+<!-- INFO key="RDT" value="September 2, 2000" -->
+<!-- INFO key="EEV" value="Release 1.0" -->
+<!-- INFO key="AIN" value="tom, vox" -->

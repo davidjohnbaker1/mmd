@@ -1,0 +1,89 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! Ethnic Group: Han]
+0	0xff TEXT [!! IV, 66]
+0	0xff TEXT [!! 3+2 metric grouping]
+0	0xff TEXT [!! Mixed meters:  5/4; 4/4]
+0	0xff TEXT [!! Eigene Aufnahme]
+0	0xff TEXT [!! 00025] TT[TB]
+3360	0xff TEXT [!!    WEITERE VERSIONEN: C1211, C0755, C0365]
+3360	0xff TEXT [!!    Pinyin-Text der ersten Strophe vorhanden!]
+3360	0xff TEXT [!! Als Tonbeispiel vorhanden; Signatur: 00151, Cut Nr.: 24]
+3360	0xff TEXT [!!    Lebenslauf, Klage]
+3360	0xff TEXT [!!    sehr bekannt. Hauptsstueck der Oper: Das weisshaarige Maedchen.]
+3360	0xff TEXT [!!    Inhalt: Ein Kind beklagt sich, dass der Vater nach dem Tod der]
+3360	0xff TEXT [!!    Mutter wieder heiratet.]
+3360	0xff TEXT [!!    Saengerin Huang Bai am 28.4.87 (wieder erkaeltet)]
+3480	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 76 63 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+120	0x80 76 63 
+120	0x90 73 68 
+240	0x80 73 68 
+240	0x90 73 65 
+360	0x80 73 65 
+360	0x90 71 72 
+600	0x80 71 72 
+600	0x90 76 70 
+720	0x80 76 70 
+720	0x90 76 67 
+780	0x80 76 67 
+780	0x90 73 62 
+840	0x80 73 62 
+840	0x90 73 66 
+900	0x80 73 66 
+900	0x90 71 61 
+960	0x80 71 61 
+960	0x90 69 66 
+1200	0x80 69 66 
+1200	0x90 69 72 
+1320	0x80 69 72 
+1320	0x90 73 67 
+1440	0x80 73 67 
+1440	0x90 71 62 
+1560	0x80 71 62 
+1560	0x90 66 66 
+1800	0x80 66 66 
+1800	0x90 71 65 
+1920	0x80 71 65 
+1920	0x90 69 65 
+2040	0x80 69 65 
+2040	0x90 68 70 
+2100	0x80 68 70 
+2100	0x90 66 60 
+2160	0x80 66 60 
+2160	0x90 64 63 
+2400	0x80 64 63 
+2400	0x90 66 67 
+2520	0x80 66 67 
+2520	0x90 69 67 
+2580	0x80 69 67 
+2580	0x90 66 59 
+2640	0x80 66 59 
+2640	0x90 64 62 
+2880	0x80 64 62 
+2880	0x90 66 62 
+2940	0x80 66 62 
+2940	0x90 71 56 
+3000	0x80 71 56 
+3000	0x90 69 61 
+3060	0x80 69 61 
+3060	0x90 66 57 
+3120	0x80 66 57 
+3120	0x90 64 63 
+3360	0x80 64 63 
+3479	0x90 0 0 
+3480	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

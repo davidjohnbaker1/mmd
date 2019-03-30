@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<!-- INFO key="SOCIAL_FUNCTION" value="	songs connected with folk tales" -->
+<!-- INFO key="PDT" value="	1929" -->
+<!-- INFO key="LING_GROUP" value="Caddoan" -->
+<!-- INFO key="LANG" value="Non-Tone" -->
+<!-- INFO key="REG" value="Oklahoma" -->
+<!-- INFO key="COM" value="Anon." -->
+<!-- INFO key="OTL" value="Folk Tale Song (a)" -->
+<!-- INFO key="ODT" value="<1920//" -->
+<!-- INFO key="MPN" value="Fannie Chapman" -->
+<!-- INFO key="MLC" value="Pawnee, Oklahoma, United States of America" -->
+<!-- GCOMMENT value=" Song was recorded either 1919 or 1920." -->
+<!-- INFO key="AGN" value="monody" -->
+<!-- INFO key="AST" value="folk tale" -->
+<!-- INFO key="AMT" value="irregular" -->
+<!-- INFO key="RWG" value="Transcribed pitches, durations, and meters are only approximate." -->
+<!-- GCOMMENT value=" Drum not recorded" -->
+<score-partwise version="2.0">
+	<part-list>
+		<score-part id="P1">
+			<part-name>female</part-name>
+		</score-part>
+	</part-list>
+
+	<part id="P1">
+		<measure number="1">
+			<attributes>
+				<divisions>4</divisions>
+			</attributes>
+			<attributes>
+				<clef>
+					<sign>F</sign>
+					<line>4</line>
+				</clef>
+			</attributes>
+			<attributes>
+				<key>
+					<fifths>4</fifths>
+				</key>
+			</attributes>
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+			</note>
+		</measure>
+		<measure number="2">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+		</measure>
+		<measure number="3">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="4">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+		</measure>
+		<measure number="5">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+			</note>
+		</measure>
+		<measure number="6">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+		</measure>
+		<measure number="7">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+		</measure>
+		<measure number="8">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+		</measure>
+		<measure number="9">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="10">
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="11">
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+		</measure>
+		<measure number="12">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="13">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+		</measure>
+		<measure number="14">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="15">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="16">
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="17">
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+		</measure>
+		<measure number="18">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="19">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+		</measure>
+		<measure number="20">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+			</note>
+		</measure>
+		<measure number="21">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+		</measure>
+		<measure number="22">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+		</measure>
+		<measure number="23">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+		</measure>
+		<measure number="24">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+			</note>
+		</measure>
+		<measure number="25">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+		</measure>
+		<measure number="26">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="27">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+		</measure>
+		<measure number="28">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="29">
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="30">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="31">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+		</measure>
+	</part>
+</score-partwise>
+<!-- INFO key="HAO" value="   In a certain village were two young boys.  They were good-looking" -->
+<!-- INFO key="HAO" value="lads and wore their hair long on the right side of the head.  One day" -->
+<!-- INFO key="HAO" value="the younger boy thought he would go to another village in the woods." -->
+<!-- INFO key="HAO" value="When he came near this village he saw the smoke of a tipi that stood" -->
+<!-- INFO key="HAO" value="by itself among the willows.  He went there and stood outside the entrance." -->
+<!-- INFO key="HAO" value="In this tipi lived an old woman and her three granddaughters.  The old" -->
+<!-- INFO key="HAO" value="woman told the youngest girl to go outside and see if anyone was there." -->
+<!-- INFO key="HAO" value="the girl saw the strange lad and returned, saying "O grandmother, there" -->
+<!-- INFO key="HAO" value="is a good-looking young man outside."  The old woman wanted to speak with" -->
+<!-- INFO key="HAO" value="him and said, 'You had better go to some village where the people have money." -->
+<!-- INFO key="HAO" value="We are very poor."  But the lad replied, "No. I cam here and this is where" -->
+<!-- INFO key="HAO" value="I belong."  The old woman said, "Well, come in," and the boy entered the" -->
+<!-- INFO key="HAO" value="tipi.  Later the old woman said, "You had better go away for the chief of" -->
+<!-- INFO key="HAO" value="our band is very unkind to strangers.  You must watch, for Longnose (Coyote)" -->
+<!-- INFO key="HAO" value="will come before daylight to see if anyone is here.  He will see you and" -->
+<!-- INFO key="HAO" value="tell the chief, who will ask you to breakfast.  If he offers you dry" -->
+<!-- INFO key="HAO" value="pumpkin do not eat it, nor corn, nor mush.  Bring it home with you."" -->
+<!-- INFO key="HAO" value="Before daylight, as the old woman had predicted, Coyote came to see if" -->
+<!-- INFO key="HAO" value="anyone was in the tipi.  The old woman said, "See my grandson, how" -->
+<!-- INFO key="HAO" value="good-looking he is.  He ought to go where the big men are."  Coyote ran" -->
+<!-- INFO key="HAO" value="at once to the chief and said, "O chief, there is a good looking young" -->
+<!-- INFO key="HAO" value="man down at the old woman's tipi.  When you kill him he will be the leader" -->
+<!-- INFO key="HAO" value="of your heads."  (Referring to a row of the heads of men killed by the" -->
+<!-- INFO key="HAO" value="chief that had been put in his tipi.)  The chief said, "Run down to the old" -->
+<!-- INFO key="HAO" value="woman's tipi and bring the young man.  I want to feast him."  Coyote ran" -->
+<!-- INFO key="HAO" value="as fast as he could.  The old woman saw him coming and again told the" -->
+<!-- INFO key="HAO" value="young man not to eat anything but to bring the food home.  Coyote said to" -->
+<!-- INFO key="HAO" value="the young man, "You certainly are good-looking."  When the chief saw the" -->
+<!-- INFO key="HAO" value="young man he said, "I sent for you to eat with me," and offered him dry" -->
+<!-- INFO key="HAO" value="pumpkin, corn, much, and other food.  The lad replied, "O grandfather, I" -->
+<!-- INFO key="HAO" value="am full; I have had my breakfast; I will take this home to my grandmother."" -->
+<!-- INFO key="HAO" value="Coyote went with him and waited while the old woman emptied and washed" -->
+<!-- INFO key="HAO" value="the bowls.  Then Coyote took the bowls back to the chief.  After the boy" -->
+<!-- INFO key="HAO" value="refused to eat the food, the chief wanted him to play the "stick game."" -->
+<!-- INFO key="HAO" value="He refused at first but finally he said that he would play in two days," -->
+<!-- INFO key="HAO" value="saying he must wait because he was so tired.  The chief said, "Choose a" -->
+<!-- INFO key="HAO" value="day and we will play."  The boy went home and told the old woman that he" -->
+<!-- INFO key="HAO" value="was to play the stick game with the chief.  She said, "O my boy, you did" -->
+<!-- INFO key="HAO" value="wrong to consent.  You saw those heads in the chief's tent.  He will kill" -->
+<!-- INFO key="HAO" value="you and all our people."" -->
+<!-- INFO key="HAO" value="Before daylight on the day of the game Coyote opened the old woman's door" -->
+<!-- INFO key="HAO" value="and said, "The chief is at the place for the game, he is waiting for you."" -->
+<!-- INFO key="HAO" value="The boy replied, "I will go when I am ready."  Later they began to play" -->
+<!-- INFO key="HAO" value="the stick game.  The boy had people on his side and also a bird-man" -->
+<!-- INFO key="HAO" value="(bird turned into a man), who watched everything.  Coyote watched" -->
+<!-- INFO key="HAO" value="everything on the chief's side.  the boy had nothing to wager so he bet" -->
+<!-- INFO key="HAO" value="the people who were on his side, and at last he was obliged to bet himself." -->
+<!-- INFO key="HAO" value="The old chief won, so the people on the chief's side killed all the people" -->
+<!-- INFO key="HAO" value="on the boy's side.  They even killed the boy.  Then they cut off all the" -->
+<!-- INFO key="HAO" value="heads and put them up with the other heads in the chief's lodge." -->
+<!-- INFO key="HAO" value="While this was happening the elder of the two boys, mentioned at the" -->
+<!-- INFO key="HAO" value="beginning of this story, grew uneasy about his brother.  He determined" -->
+<!-- INFO key="HAO" value="to find him and traced him to the village, then he went home, got his" -->
+<!-- INFO key="HAO" value="bow and arrows, and went to the old woman's tipi.  The old woman did" -->
+<!-- INFO key="HAO" value="as before, sending the same girl to see if anyone were outside.  The" -->
+<!-- INFO key="HAO" value="girl returned and said, "It looks as though that good-looking boy had" -->
+<!-- INFO key="HAO" value="come to life."  The old woman invited him into the tend but said as" -->
+<!-- INFO key="HAO" value="before, "O my grandson, why do you come here.  You ought to go where" -->
+<!-- INFO key="HAO" value="the rich people are."  He replied as his brother had done, "No, I want" -->
+<!-- INFO key="HAO" value="to be here."  They were so poor that they gave him only one bean from" -->
+<!-- INFO key="HAO" value="those they had gathered.  At night the old woman said as before, "O my" -->
+<!-- INFO key="HAO" value="grandson, I wish you would go away.  Go somewhere else or go home, for" -->
+<!-- INFO key="HAO" value="someone will come early in the morning to look all around the place."" -->
+<!-- INFO key="HAO" value="Everything happened exactly as before.  Coyote came, found the young" -->
+<!-- INFO key="HAO" value="man, and took him to the chief, who offered him food.  The young man" -->
+<!-- INFO key="HAO" value="replied, as his brother had done, that he was not hungry, and he took the" -->
+<!-- INFO key="HAO" value="food home.  The chief asked him to play the stick game and he said that" -->
+<!-- INFO key="HAO" value="he was too tired to play that day.  It was decided that they would play in" -->
+<!-- INFO key="HAO" value="a few days.  The boy went home and said to his grandmother, "I am going to" -->
+<!-- INFO key="HAO" value="play the stick game with the chief.  To-morrow I want you to clean up the" -->
+<!-- INFO key="HAO" value="house and put everything one side, then I want you all to go into the woods." -->
+<!-- INFO key="HAO" value="Do not try to look into the house until I call you."  Then he asked, "Is" -->
+<!-- INFO key="HAO" value="there any place around here where the people used to kill buffalo?"" -->
+<!-- INFO key="HAO" value="She replied, "Yes, over there by the hill."" -->
+<!-- INFO key="HAO" value="After they had gone the young man took the pipe out of the sacred bundle" -->
+<!-- INFO key="HAO" value="that the old woman kept.  Before daylight he filled the pipe and went toward" -->
+<!-- INFO key="HAO" value="the place where they used to kill the buffalo.  When he reached the place" -->
+<!-- INFO key="HAO" value="he found many buffalo bones.  He held the stem of the pipe down toward the" -->
+<!-- INFO key="HAO" value="buffalo bones and sang the following song." -->
+<!-- INFO key="HTX" value="Father, I have brought this pipe for you to smoke." -->
+<!-- INFO key="HTX" value="I am lonely for my brother." -->
+<!-- INFO key="CNT" value="Pawnee" -->
+<!-- INFO key="TXO" value="Pawnee" -->
+<!-- INFO key="OCY" value="United States" -->
+<!-- INFO key="OCL" value="Frances Densmore" -->
+<!-- INFO key="YOR" value="Frances Densmore, "Pawnee Music"" -->
+<!-- INFO key="YOR" value="Bulletin 93, page 100, No. 72" -->
+<!-- INFO key="PPR" value="Smithsonian Institution, Bureau of American Ethnology" -->
+<!-- INFO key="PPR" value="Government Printing Office" -->
+<!-- INFO key="PDT" value="1926" -->
+<!-- INFO key="PPP" value="Washington, DC, United States of America" -->
+<!-- INFO key="YEC" value="Electronic Copyright 2000 David Huron" -->
+<!-- INFO key="YER" value="September 2000" -->
+<!-- INFO key="YEN" value="United States of America" -->
+<!-- INFO key="ENC" value="David Huron" -->
+<!-- INFO key="RDT" value="September 10, 2000" -->
+<!-- INFO key="EEV" value="Release 1.0" -->
+<!-- INFO key="AIN" value="vox" -->

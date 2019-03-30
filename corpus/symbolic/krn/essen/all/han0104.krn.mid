@@ -1,0 +1,62 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! 00025] TT[TB]
+0	0xff TEXT [!! Zh. Ch. M-2523, NN), MZ 2305)]
+0	0xff TEXT [!! Ethnic Group: Han]
+0	0xff TEXT [!! I, 550, 1)]
+960	0xff TEXT [!! I: Yao Meizo hu he; II: di chiang; III: gao chiang]
+960	0xff TEXT [!!    Zu diesen Themen gibt es viele Melodien.]
+960	0xff TEXT [!!    +++ANGABEN UeBERPRueFEN, AUS VORHERIGEM LIED UNGEPRueFT ueBERNOMMEN!!!+++]
+1080	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 74 67 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+30	0x80 74 67 
+30	0x90 77 68 
+60	0x80 77 68 
+60	0x90 74 64 
+90	0x80 74 64 
+90	0x90 72 66 
+120	0x80 72 66 
+120	0x90 70 66 
+180	0x80 70 66 
+180	0x90 72 65 
+240	0x80 72 65 
+240	0x90 74 66 
+330	0x80 74 66 
+330	0x90 70 59 
+360	0x80 70 59 
+360	0x90 72 64 
+480	0x80 72 64 
+480	0x90 72 66 
+510	0x80 72 66 
+510	0x90 74 66 
+540	0x80 74 66 
+540	0x90 72 62 
+570	0x80 72 62 
+570	0x90 70 60 
+600	0x80 70 60 
+600	0x90 70 65 
+660	0x80 70 65 
+660	0x90 67 57 
+720	0x80 67 57 
+720	0x90 65 62 
+810	0x80 65 62 
+810	0x90 67 59 
+840	0x80 67 59 
+840	0x90 70 68 
+960	0x80 70 68 
+1079	0x90 0 0 
+1080	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

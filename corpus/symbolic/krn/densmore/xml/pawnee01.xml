@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<!-- INFO key="SOCIAL_FUNCTION" value="	songs connected with ceremonies" -->
+<!-- INFO key="PDT" value="	1929" -->
+<!-- INFO key="LING_GROUP" value="Caddoan" -->
+<!-- INFO key="LANG" value="Non-Tone" -->
+<!-- INFO key="REG" value="Oklahoma" -->
+<!-- INFO key="COM" value="Anon." -->
+<!-- INFO key="OTL" value="Song of Morning Star" -->
+<!-- INFO key="ODT" value="<1920//" -->
+<!-- INFO key="MPN" value="Coming Sun" -->
+<!-- INFO key="MLC" value="Pawnee, Oklahoma, United States of America" -->
+<!-- GCOMMENT value=" Song was recorded either 1919 or 1920." -->
+<!-- INFO key="AGN" value="monody" -->
+<!-- INFO key="AST" value="Morning star ceremony" -->
+<!-- INFO key="AMT" value="simple triple" -->
+<!-- INFO key="RWG" value="Transcribed pitches, durations, and meters are only approximate." -->
+<score-partwise version="2.0">
+	<part-list>
+		<score-part id="P1">
+			<part-name>male</part-name>
+		</score-part>
+	</part-list>
+
+	<part id="P1">
+		<measure number="1">
+			<attributes>
+				<divisions>4</divisions>
+			</attributes>
+			<attributes>
+				<clef>
+					<sign>F</sign>
+					<line>4</line>
+				</clef>
+			</attributes>
+			<attributes>
+				<key>
+					<fifths>-1</fifths>
+				</key>
+			</attributes>
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+		</measure>
+		<measure number="2">
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="3">
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="4">
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="5">
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+		</measure>
+		<measure number="6">
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="7">
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="8">
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="9">
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+		</measure>
+		<measure number="10">
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="11">
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+		</measure>
+		<measure number="12">
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="13">
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+		</measure>
+		<measure number="14">
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="15">
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+			</note>
+		</measure>
+		<measure number="16">
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="17">
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+			</note>
+		</measure>
+		<measure number="18">
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="19">
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>2</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="20">
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>2</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>2</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="21">
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>2</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>2</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>2</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="22">
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>2</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>2</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="23">
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>2</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="24">
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>2</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>2</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>2</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="25">
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+			</note>
+		</measure>
+	</part>
+</score-partwise>
+<!-- INFO key="HAO" value="Morning Star Ceremony" -->
+<!-- INFO key="HAO" value="   A sacred bundle of the Skidi Pawnee was associated with Morning Star" -->
+<!-- INFO key="HAO" value="and its ceremony was held in the early spring, having for its object the" -->
+<!-- INFO key="HAO" value="securing of good crops in the coming season.  It was the writer's" -->
+<!-- INFO key="HAO" value="privilege to see the Morning Star bundle in the house of the woman who" -->
+<!-- INFO key="HAO" value="was its keeper, and also to see its contents exposed in the ceremony." -->
+<!-- INFO key="HAO" value="The bundle, in accordance with custom, was hung on the west wall of its" -->
+<!-- INFO key="HAO" value="owner's house, and with it were hung four large gourds, symbolizing the" -->
+<!-- INFO key="HAO" value="four deities who were the special guardians of Evening Star and also" -->
+<!-- INFO key="HAO" value="representing the breasts of the two women in the west, Evening Star and" -->
+<!-- INFO key="HAO" value="Moon." -->
+<!-- INFO key="HAO" value="   The legend from which the Morning Star ceremony arose was related by" -->
+<!-- INFO key="HAO" value="Coming Sun, whose grandfather was a high priest in the Morning Star village" -->
+<!-- INFO key="HAO" value="and who received his name by inheritance from this ancestor.  With Coming" -->
+<!-- INFO key="HAO" value="Sun's narrative is combined a limited number of details mention by Linton" -->
+<!-- INFO key="HAO" value="in "Sacrifice to the Morning Star by the Skidi Pawnee."" -->
+<!-- INFO key="HAO" value="   As already stated, Morning Star ruled in the east and Evening Star in" -->
+<!-- INFO key="HAO" value="the west.  All the stars west of the Milky Way were feminine and those to" -->
+<!-- INFO key="HAO" value="the east were masculine, but the most powerful were Morning Star and" -->
+<!-- INFO key="HAO" value="Evening Star.  Sun was with the former and Moon was a companion of the" -->
+<!-- INFO key="HAO" value="latter.  One after another the eastern star came to court the stars in the" -->
+<!-- INFO key="HAO" value="west, in order that man might be placed on the earth.  Moon welcomed them" -->
+<!-- INFO key="HAO" value="and walked with them toward the west, but as soon as they came in sight of" -->
+<!-- INFO key="HAO" value="the village she caused the ground to open so the man fell through and was" -->
+<!-- INFO key="HAO" value="killed.  At last Morning Star resolved to go and woo the great Evening Star," -->
+<!-- INFO key="HAO" value="taking his little brother along to carry his pack.  Thus, according to" -->
+<!-- INFO key="HAO" value="Coming Sun, a small star always appears near and slightly below the" -->
+<!-- INFO key="HAO" value="morning star in the spring, representing the little brother.  Linton," -->
+<!-- INFO key="HAO" value="however, states that Morning Star was accompanied by Sun, who carried a" -->
+<!-- INFO key="HAO" value="sacred bundle with a war club." -->
+<!-- INFO key="HAO" value="   Ten obstacles were encountered by Morning Star and his companion, the" -->
+<!-- INFO key="HAO" value="first five being difficulties of travel, such as sharp flints and sword" -->
+<!-- INFO key="HAO" value="grass beneath their feet, and the last five being animals which attached" -->
+<!-- INFO key="HAO" value="them, including the mountain lion, wildcat, buffalo, and bear.  All these" -->
+<!-- INFO key="HAO" value="were placed in their way by Moon, who thought she could conquer them as" -->
+<!-- INFO key="HAO" value="she had conquered the others.  But Morning Star carried a ball encased in" -->
+<!-- INFO key="HAO" value="such a manner that when he threw it the casing broke and it became a ball" -->
+<!-- INFO key="HAO" value="of fire.  When throwing the ball he sang the following song, which was" -->
+<!-- INFO key="HAO" value="said to be one of the principal songs in the ceremony.  Linton states that" -->
+<!-- INFO key="HAO" value="Morning Star struck the ground with his war club, closing the cracks made" -->
+<!-- INFO key="HAO" value="by Moon for his destruction, and that he sang a song with substantially the" -->
+<!-- INFO key="HAO" value="same words recorded by Coming Sun." -->
+<!-- INFO key="HAO" value="   The tenth obstacle was not encountered by Morning Star until after he" -->
+<!-- INFO key="HAO" value="entered the lodge of Evening Star.  The obstacle was a snake, but he" -->
+<!-- INFO key="HAO" value="overcame it, as he had overcome the others, by means of the ball of fire" -->
+<!-- INFO key="HAO" value="and the song." -->
+<!-- INFO key="HAO" value="   Even Star saw that his power was greater than heres, but she determined" -->
+<!-- INFO key="HAO" value="to hold him aloof as long as possible.  Finally, she insisted that he make" -->
+<!-- INFO key="HAO" value="provision for the child that should be born; she even required him to" -->
+<!-- INFO key="HAO" value="provide perfumed water for bathing the child and a cradle board in which" -->
+<!-- INFO key="HAO" value="it should be placed.  On the hoop, or arch, of this cradle board was" -->
+<!-- INFO key="HAO" value="painted a morning star and the lightnings, this custom being followed by" -->
+<!-- INFO key="HAO" value="the Pawnee at the present time.  Evening Star also required him to plant a" -->
+<!-- INFO key="HAO" value="tree in front of the lodge so that the mocking birds might nest there and" -->
+<!-- INFO key="HAO" value="sing to the child.  From this union a daughter was born.  She cam down to" -->
+<!-- INFO key="HAO" value="earth and wandered about in fear.  As she was running hither and thither she" -->
+<!-- INFO key="HAO" value="met a boy, the child of Sun and Moon, and these two became the ancestors of" -->
+<!-- INFO key="HAO" value="the human race." -->
+<!-- INFO key="HAO" value="   Morning Star made a bundle and placed in it various articles connected" -->
+<!-- INFO key="HAO" value="with the obstacles he had overcome on his westward journey.  He left this" -->
+<!-- INFO key="HAO" value="bundle with Evening Star and for that reason a woman has always been the" -->
+<!-- INFO key="HAO" value="keeper of the sacred bundle.  Other articles have been added from time to" -->
+<!-- INFO key="HAO" value="time and will be noted in this paper." -->
+<!-- INFO key="HAO" value="   It is said that Evening Star required a human sacrifice as her reward." -->
+<!-- INFO key="HAO" value="This sacrifice must be a pure and beautiful maiden and she demanded that" -->
+<!-- INFO key="HAO" value="the sacrifice be repeated annually.  Long ago, Morning Star sometimes" -->
+<!-- INFO key="HAO" value="appeared to a man in a dream and told him to secure a maiden for this" -->
+<!-- INFO key="HAO" value="sacrifice.  According to Linton, a man who had this vision went to the" -->
+<!-- INFO key="HAO" value="keeper of the Morning Star bundle and received the warrior's costume and" -->
+<!-- INFO key="HAO" value="the sacred objects kept for such an expedition.  Other warriors joined him" -->
+<!-- INFO key="HAO" value="and, preliminary to the expedition, they enacted the journey of the" -->
+<!-- INFO key="HAO" value="Morning Star, and sang the song with which he overcame the obstacles placed" -->
+<!-- INFO key="HAO" value="in his way. (Cf. Song No. 1)  When the ceremony ended it was almost time" -->
+<!-- INFO key="HAO" value="for the Morning Star to rise and the leader went outside the lodge and" -->
+<!-- INFO key="HAO" value="addressed an invocation to him.  After dancing furiously around their fire" -->
+<!-- INFO key="HAO" value="and offering a last prayer to Morning Star the warriors started forth and" -->
+<!-- INFO key="HAO" value="captured a maiden from the enemy.  Returning, they gave her into the care" -->
+<!-- INFO key="HAO" value="of the chief of the Morning Star village until the time for her sacrifice." -->
+<!-- INFO key="HAO" value="She was treated in a ceremonial manner but kept in ignorance of her fate." -->
+<!-- INFO key="HAO" value="At the appointed time her body was painted, half red and half black, and" -->
+<!-- INFO key="HAO" value="she was tied to a scaffold and shot through the heart with an arrow.  It" -->
+<!-- INFO key="HAO" value="was said that the braided thong used to bind the girl to the scaffold is" -->
+<!-- INFO key="HAO" value="now in the Morning Star bundle." -->
+<!-- INFO key="HAO" value="   Tradition states that on one occasion the intended victim was rescued." -->
+<!-- INFO key="HAO" value="On the night preceding her execution she was seated beside some tall" -->
+<!-- INFO key="HAO" value="sunflowers.  A young chief came through the tall weed and stole her away," -->
+<!-- INFO key="HAO" value="putting her on his horse and taking her to Fort Leavenworth, whence she" -->
+<!-- INFO key="HAO" value="was returned to her own people.  She died within three months, having" -->
+<!-- INFO key="HAO" value="been anointed for death with the sacred ointment of red paint and buffalo" -->
+<!-- INFO key="HAO" value="fat.  This occurred about the year 1818.  The man who rescued the intended" -->
+<!-- INFO key="HAO" value="victim was a warrior of distinction and through his influence the custom" -->
+<!-- INFO key="HAO" value="was discontinued.  The ritual of the sacrifice is still rendered but no" -->
+<!-- INFO key="HAO" value="actual sacrifice has taken place since that date." -->
+<!-- INFO key="HAO" value="   Coming Sun, who sings the ceremonial songs, said that sometimes, during" -->
+<!-- INFO key="HAO" value="the Morning Star ceremony he stops and says "Listen," and the people hear" -->
+<!-- INFO key="HAO" value="a woman's voice singing the songs above his head." -->
+<!-- INFO key="HAO" value="   The Morning Star ceremony was held by the Skidi Band near Pawnee," -->
+<!-- INFO key="HAO" value="Okla., on April 17, 1920.  This ceremony formerly lasted four days and" -->
+<!-- INFO key="HAO" value="nights, ending when the morning star appeared in the east, but at the" -->
+<!-- INFO key="HAO" value="present time it is concluded in one day.  On this occasion the writer" -->
+<!-- INFO key="HAO" value="had the honor of entering the lodge, through the courtesy of Coming Sun." -->
+<!-- INFO key="HAO" value="It is said that one other white person, Dr. G. A. Dorsey, has entered the" -->
+<!-- INFO key="HAO" value="lodge during the ceremony and seen the contents of the sacred bundle." -->
+<!-- INFO key="HAO" value="   The ceremony was held in a tipi erected for the occasion in a quiet" -->
+<!-- INFO key="HAO" value="spot near the house of the keeper of the bundle, north of Pawnee.  This" -->
+<!-- INFO key="HAO" value="tipi has been used in the Ghost dance and was decorated with Ghost dance" -->
+<!-- INFO key="HAO" value="symbols.  The adjacent landscape is shown in Plate 3,c.  The ceremony" -->
+<!-- INFO key="HAO" value="began at about 9 a.m. and continued until 4 p.m., the writer sitting" -->
+<!-- INFO key="HAO" value="outside the tipi except for the brief time she was permitted to enter." -->
+<!-- INFO key="HAO" value="Thus the entire songs of the ceremony were heard, as well as the prayers" -->
+<!-- INFO key="HAO" value="and rituals, though only the principal song was obtained.  At the proper" -->
+<!-- INFO key="HAO" value="time Coming Sun, who was in charge of the ceremony, sent a message to" -->
+<!-- INFO key="HAO" value="summon the writer and she entered the lodge, passing to the right and" -->
+<!-- INFO key="HAO" value="standing near the bundle before which she laid gifts of calico, tobacco," -->
+<!-- INFO key="HAO" value="and money.  Coming Sun was seated back of the bundle, directly opposite" -->
+<!-- INFO key="HAO" value="the entrance, and held one of the sacred gourd rattles.  Two men at either" -->
+<!-- INFO key="HAO" value="side of him held similar rattles.  In front of the men at Coming Sun's" -->
+<!-- INFO key="HAO" value="left and next [to] the sacred bundle was a belt decorated " -->
+<!-- INFO key="HAO" value="XXX[page23]" -->
+<!-- INFO key="HTX" value="[no free translation]" -->
+<!-- INFO key="CNT" value="Pawnee" -->
+<!-- INFO key="TXO" value="Pawnee" -->
+<!-- INFO key="OCY" value="United States" -->
+<!-- INFO key="OCL" value="Frances Densmore" -->
+<!-- INFO key="YOR" value="Frances Densmore, "Pawnee Music"" -->
+<!-- INFO key="YOR" value="Bulletin 93, page 20, No. 1" -->
+<!-- INFO key="PPR" value="Smithsonian Institution, Bureau of American Ethnology" -->
+<!-- INFO key="PPR" value="Government Printing Office" -->
+<!-- INFO key="PDT" value="1926" -->
+<!-- INFO key="PPP" value="Washington, DC, United States of America" -->
+<!-- INFO key="YEC" value="Electronic Copyright 2000 David Huron" -->
+<!-- INFO key="YER" value="September 2000" -->
+<!-- INFO key="YEN" value="United States of America" -->
+<!-- INFO key="ENC" value="David Huron" -->
+<!-- INFO key="RDT" value="August 31, 2000" -->
+<!-- INFO key="EEV" value="Release 1.0" -->
+<!-- INFO key="AIN" value="vox" -->

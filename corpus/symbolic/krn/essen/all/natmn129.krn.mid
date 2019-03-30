@@ -1,0 +1,90 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! 00010] TT[TB]
+0	0xff TEXT [!! Ethnic Group: Menggu]
+0	0xff TEXT [!! MM, S. 45]
+0	0xff TEXT [!! Irregular meter.]
+0	0xff TEXT [!! Eigene Aufnahme]
+6960	0xff TEXT [!!    Wenig Verzierungen. VARIANTE ODER ANDERES LIED?]
+6960	0xff TEXT [!!    benutzte und ansonsten auswendig sang. Da er aus dem Osten der]
+6960	0xff TEXT [!! Saenger: Chao Lun Batou, der das Buch nur zum Nachschlagen]
+6960	0xff TEXT [!!    Neimeng kommt, kennt er nicht so viele Lieder des Westens.]
+6960	0xff TEXT [!!    Alle Lieder wurden mit erkaelteter, halber Stimme in meinem]
+6960	0xff TEXT [!!    Zimmer gesungen. FOTO VORHANDEN (DIAS)  31.3.87]
+7080	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 64 64 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+240	0x80 64 64 
+240	0x90 67 67 
+600	0x80 67 67 
+600	0x90 64 71 
+720	0x80 64 71 
+720	0x90 62 67 
+840	0x80 62 67 
+840	0x90 64 69 
+960	0x80 64 69 
+960	0x90 67 66 
+1320	0x80 67 66 
+1320	0x90 72 62 
+1440	0x80 72 62 
+1440	0x90 69 68 
+1920	0x80 69 68 
+1920	0x90 67 68 
+2040	0x80 67 68 
+2040	0x90 64 67 
+2160	0x80 64 67 
+2160	0x90 64 65 
+2400	0x80 64 65 
+2400	0x90 67 66 
+2760	0x80 67 66 
+2760	0x90 64 64 
+2880	0x80 64 64 
+2880	0x90 62 62 
+3360	0x80 62 62 
+3360	0x90 67 72 
+3720	0x80 67 72 
+3720	0x90 72 68 
+3840	0x80 72 68 
+3840	0x90 64 65 
+3960	0x80 64 65 
+3960	0x90 62 65 
+4080	0x80 62 65 
+4080	0x90 55 67 
+4200	0x80 55 67 
+4200	0x90 57 60 
+4320	0x80 57 60 
+4320	0x90 60 62 
+4680	0x80 60 62 
+4680	0x90 57 60 
+4800	0x80 57 60 
+4800	0x90 55 65 
+4920	0x80 55 65 
+4920	0x90 57 62 
+5040	0x80 57 62 
+5040	0x90 60 61 
+5520	0x80 60 61 
+5520	0x90 62 67 
+6000	0x80 62 67 
+6000	0x90 57 63 
+6120	0x80 57 63 
+6120	0x90 57 62 
+6240	0x80 57 62 
+6240	0x90 60 63 
+6480	0x80 60 63 
+6480	0x90 55 68 
+6960	0x80 55 68 
+7079	0x90 0 0 
+7080	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

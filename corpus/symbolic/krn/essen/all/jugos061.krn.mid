@@ -1,0 +1,44 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!!    1909 aufgezeichnet]
+1440	0xff TEXT [!! Grundton in der zweigestrichenen Oktave. Melodie wird durch]
+1440	0xff TEXT [!!    Wiederholung (Text + Musik) zum Zweizeiler.]
+1560	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 60 57 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+120	0x80 60 57 
+120	0x90 65 64 
+240	0x80 65 64 
+240	0x90 62 58 
+360	0x80 62 58 
+360	0x90 65 58 
+480	0x80 65 58 
+480	0x90 64 68 
+600	0x80 64 68 
+600	0x90 60 62 
+720	0x80 60 62 
+720	0x90 60 65 
+840	0x80 60 65 
+840	0x90 59 70 
+960	0x80 59 70 
+960	0x90 62 65 
+1080	0x80 62 65 
+1080	0x90 62 66 
+1200	0x80 62 66 
+1200	0x90 60 71 
+1440	0x80 60 71 
+1559	0x90 0 0 
+1560	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

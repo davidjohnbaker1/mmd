@@ -1,0 +1,104 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! Ethnic Group: Han]
+0	0xff TEXT [!! I, 52, 1)]
+0	0xff TEXT [!! 00005] TT[TB]
+0	0xff TEXT [!! Eigene Aufnahme]
+1920	0xff TEXT [!!    Berg kann man das Licht sehen. Die urspruengliche Version,]
+1920	0xff TEXT [!!    ein Liebeslied, das doppelt so langsam gesungen wird, ist in]
+1920	0xff TEXT [!!    Cut 2 enthalten. - Saengerin: Huang Bai. +++ Singt eine weitere]
+1920	0xff TEXT [!!    Verzierung in Takt 3. +++BEREITS KODIERT+++]
+1920	0xff TEXT [!!    Pinyin-Text der ersten Strophe vorhanden!]
+1920	0xff TEXT [!!    geschrieben.- Typ: Hier macht man die Lampe an und am anderen]
+1920	0xff TEXT [!! neues Volkslied, wird heute mit neuem Text in fast doppelter]
+1920	0xff TEXT [!!    Geschwindigkeit gesungen und froehlich. Frueher traurig. Der]
+1920	0xff TEXT [!!    Textdichter hat auch die Oper "Das weisshaarige Maedchen"]
+2040	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 76 65 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+60	0x80 76 65 
+60	0x90 76 66 
+120	0x80 76 66 
+120	0x90 78 69 
+180	0x80 78 69 
+180	0x90 81 62 
+210	0x80 81 62 
+210	0x90 73 56 
+240	0x80 73 56 
+240	0x90 71 68 
+270	0x80 71 68 
+270	0x90 69 62 
+300	0x80 69 62 
+300	0x90 71 64 
+420	0x80 71 64 
+420	0x90 81 60 
+450	0x80 81 60 
+450	0x90 78 61 
+480	0x80 78 61 
+480	0x90 76 69 
+540	0x80 76 69 
+540	0x90 76 66 
+570	0x80 76 66 
+570	0x90 73 58 
+600	0x80 73 58 
+600	0x90 71 68 
+630	0x80 71 68 
+630	0x90 73 56 
+660	0x80 73 56 
+660	0x90 71 59 
+690	0x80 71 59 
+690	0x90 64 58 
+720	0x80 64 58 
+720	0x90 69 70 
+960	0x80 69 70 
+960	0x90 71 63 
+1020	0x80 71 63 
+1020	0x90 76 66 
+1080	0x80 76 66 
+1080	0x90 74 63 
+1140	0x80 74 63 
+1140	0x90 73 63 
+1170	0x80 73 63 
+1170	0x90 71 62 
+1200	0x80 71 62 
+1200	0x90 69 63 
+1260	0x80 69 63 
+1260	0x90 68 60 
+1290	0x80 68 60 
+1290	0x90 66 61 
+1320	0x80 66 61 
+1320	0x90 64 62 
+1380	0x80 64 62 
+1380	0x90 76 63 
+1440	0x80 76 63 
+1440	0x90 69 70 
+1500	0x80 69 70 
+1500	0x90 68 65 
+1530	0x80 68 65 
+1530	0x90 66 62 
+1560	0x80 66 62 
+1560	0x90 64 69 
+1590	0x80 64 69 
+1590	0x90 66 56 
+1620	0x80 66 56 
+1620	0x90 64 61 
+1650	0x80 64 61 
+1650	0x90 59 64 
+1680	0x80 59 64 
+1680	0x90 64 72 
+1920	0x80 64 72 
+2039	0x90 0 0 
+2040	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

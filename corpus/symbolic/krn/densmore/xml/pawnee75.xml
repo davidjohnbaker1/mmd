@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<!-- INFO key="SOCIAL_FUNCTION" value="	songs connected with folk tales" -->
+<!-- INFO key="PDT" value="	1929" -->
+<!-- INFO key="LING_GROUP" value="Caddoan" -->
+<!-- INFO key="LANG" value="Non-Tone" -->
+<!-- INFO key="REG" value="Oklahoma" -->
+<!-- INFO key="COM" value="Anon." -->
+<!-- INFO key="OTL" value="Song of the Strange Little Boy" -->
+<!-- INFO key="ODT" value="<1920//" -->
+<!-- INFO key="MPN" value="Tsastawinahiigat Mary Murie" -->
+<!-- INFO key="MLC" value="Pawnee, Oklahoma, United States of America" -->
+<!-- GCOMMENT value=" Song was recorded either 1919 or 1920." -->
+<!-- INFO key="AGN" value="monody" -->
+<!-- INFO key="AST" value="storgy of Nuri and his brother" -->
+<!-- INFO key="AMT" value="simple duple" -->
+<!-- INFO key="RWG" value="Transcribed pitches, durations, and meters are only approximate." -->
+<!-- GCOMMENT value=" Drum not recorded" -->
+<!-- INFO key="RWG" value=""Irregular in tonality"" -->
+<score-partwise version="2.0">
+	<part-list>
+		<score-part id="P1">
+			<part-name>female</part-name>
+		</score-part>
+	</part-list>
+
+	<part id="P1">
+		<measure number="1">
+			<attributes>
+				<divisions>4</divisions>
+			</attributes>
+			<attributes>
+				<clef>
+					<sign>F</sign>
+					<line>4</line>
+				</clef>
+			</attributes>
+			<attributes>
+				<key>
+					<fifths>0</fifths>
+				</key>
+			</attributes>
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+		</measure>
+		<measure number="2">
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+			</note>
+		</measure>
+		<measure number="3">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+		</measure>
+		<measure number="4">
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="5">
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+			</note>
+		</measure>
+		<measure number="6">
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+			</note>
+		</measure>
+		<measure number="7">
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+		</measure>
+	</part>
+</score-partwise>
+<!-- INFO key="HAO" value="Story of Nuri and His Brother." -->
+<!-- INFO key="HAO" value="Related by Mrs. Mary Murie." -->
+<!-- INFO key="HAO" value="   The narrator of [this] story said that it did not originate with the" -->
+<!-- INFO key="HAO" value="Pawnee and she thought that it came from the Omaha in Nebraska." -->
+<!-- INFO key="HAO" value="There was a man so jealous of his wife that he determined to take her" -->
+<!-- INFO key="HAO" value="away from the village.  He told her to pack everything and they would go." -->
+<!-- INFO key="HAO" value="They took plenty of dried meat, pounded meat, corn, and all kinds of food," -->
+<!-- INFO key="HAO" value="and left the village.  When night came they camped.  They were far from" -->
+<!-- INFO key="HAO" value="any people and her husband said they would stay in that place.  He was a" -->
+<!-- INFO key="HAO" value="good hunter and killed deer, turkeys, and other game.  After a while they" -->
+<!-- INFO key="HAO" value="made an earth lodge to live in.  Every morning the man put plenty of meat" -->
+<!-- INFO key="HAO" value="beside the fire, brought some water, and told his wife to stay in the lodge" -->
+<!-- INFO key="HAO" value="until his return.  He was gone until night." -->
+<!-- INFO key="HAO" value="   In time his wife bore a child and named it Nuri.  Indeed she bore twin" -->
+<!-- INFO key="HAO" value="boys, but her husband did not notice the second child and buried it with" -->
+<!-- INFO key="HAO" value="the afterbirth.  The second child crawled out of the ground and lived" -->
+<!-- INFO key="HAO" value="with the animals, but his mother never knew.  Her husband told her, as" -->
+<!-- INFO key="HAO" value="before, that she must stay in the lodge.  He said that he had seen some" -->
+<!-- INFO key="HAO" value="bad people prowling about.  One day, when the man was away, these bad" -->
+<!-- INFO key="HAO" value="people cam to the lodge.  His wife was sitting beside the fire and the" -->
+<!-- INFO key="HAO" value="baby was asleep when she heard a sound and looked toward the door.  Even" -->
+<!-- INFO key="HAO" value="men entered the lodge and said, "Give us something to eat.  We know that" -->
+<!-- INFO key="HAO" value="you have plenty of food."  She did not reply but pointed to the meat that" -->
+<!-- INFO key="HAO" value="was cooking on sticks around the fire.  They ate it all and went away." -->
+<!-- INFO key="HAO" value="After they had gone she exclaimed, "Those horrid men ate all my meat."" -->
+<!-- INFO key="HAO" value="One heard it and said to the others, "She called us names."  So they all" -->
+<!-- INFO key="HAO" value="went into the lodge and killed her.  They did not see the baby but they" -->
+<!-- INFO key="HAO" value="carried the woman's body to their camp and devoured it.  When the man" -->
+<!-- INFO key="HAO" value="came home he looked for his wife, and seeing the tracks he knew the wicked" -->
+<!-- INFO key="HAO" value="people had taken her.  The man grieved greatly for his wife." -->
+<!-- INFO key="HAO" value="   By this time the baby was old enough to walk and walk.  Every morning" -->
+<!-- INFO key="HAO" value="before the man went to hunt he fixed the meat ready to cook and told the" -->
+<!-- INFO key="HAO" value="little boy to play inside the lodge.  One day he went away as usual, after" -->
+<!-- INFO key="HAO" value="fixing the meat, and the little boy thought, "I will go outside.  I never" -->
+<!-- INFO key="HAO" value="have seen what it is like out there."  He went out and saw a little boy" -->
+<!-- INFO key="HAO" value="coming toward him.  The boy was about his own size and was singing the" -->
+<!-- INFO key="HAO" value="following song.  [story continued in next song]" -->
+<!-- INFO key="HTX" value="[no free translation]" -->
+<!-- INFO key="CNT" value="Pawnee" -->
+<!-- INFO key="TXO" value="Pawnee" -->
+<!-- INFO key="OCY" value="United States" -->
+<!-- INFO key="OCL" value="Frances Densmore" -->
+<!-- INFO key="YOR" value="Frances Densmore, "Pawnee Music"" -->
+<!-- INFO key="YOR" value="Bulletin 93, page 104, No. 75" -->
+<!-- INFO key="PPR" value="Smithsonian Institution, Bureau of American Ethnology" -->
+<!-- INFO key="PPR" value="Government Printing Office" -->
+<!-- INFO key="PDT" value="1926" -->
+<!-- INFO key="PPP" value="Washington, DC, United States of America" -->
+<!-- INFO key="YEC" value="Electronic Copyright 2000 David Huron" -->
+<!-- INFO key="YER" value="September 2000" -->
+<!-- INFO key="YEN" value="United States of America" -->
+<!-- INFO key="ENC" value="David Huron" -->
+<!-- INFO key="RDT" value="September 10, 2000" -->
+<!-- INFO key="EEV" value="Release 1.0" -->
+<!-- INFO key="AIN" value="vox" -->

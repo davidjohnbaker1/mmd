@@ -1,0 +1,86 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! Ethnic Group: Han]
+0	0xff TEXT [!! II, 242]
+0	0xff TEXT [!! 00026] TT[00]
+0	0xff TEXT [!! Eigene Aufnahme]
+2400	0xff TEXT [!!    aufgenommen am 5.5.87 +++ Komischer Grundton? +++]
+2400	0xff TEXT [!!    +++ AUCH AUF KASSETTE 1 = 46 CUT 2 (A-Seite) +++ MEHRMALS ! +++]
+2400	0xff TEXT [!!    Grundton liegt in der zweigestrichenen Oktave; Verzierung]
+2400	0xff TEXT [!!    Als Tonbeispiel vorhanden; Signatur: 00151, Cut Nr.: 17]
+2400	0xff TEXT [!!    Pinyin-Text der ersten Strophe vorhanden!]
+2400	0xff TEXT [!!    studiert an der Guangzhouer Musikhochschule.]
+2400	0xff TEXT [!! Die Gattungsbzeichnung gilt den Fuellwoertern, die den Klang]
+2400	0xff TEXT [!!    des Gongs "Luo" imitieren.]
+2400	0xff TEXT [!!    Die Saengerin Lei Huilan ist Angehoerige der Zhuang Minderheit und]
+2520	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 76 71 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+60	0x80 76 71 
+60	0x90 78 65 
+120	0x80 78 65 
+120	0x90 76 65 
+180	0x80 76 65 
+180	0x90 74 62 
+240	0x80 74 62 
+240	0x90 76 63 
+360	0x80 76 63 
+360	0x90 78 59 
+420	0x80 78 59 
+480	0x90 74 69 
+540	0x80 74 69 
+540	0x90 76 57 
+600	0x80 76 57 
+600	0x90 78 59 
+660	0x80 78 59 
+660	0x90 76 61 
+780	0x80 76 61 
+780	0x90 74 65 
+840	0x80 74 65 
+840	0x90 71 69 
+900	0x80 71 69 
+960	0x90 69 64 
+1020	0x80 69 64 
+1020	0x90 71 60 
+1080	0x80 71 60 
+1080	0x90 74 68 
+1140	0x80 74 68 
+1140	0x90 71 66 
+1200	0x80 71 66 
+1200	0x90 76 72 
+1260	0x80 76 72 
+1260	0x90 76 60 
+1320	0x80 76 60 
+1320	0x90 71 65 
+1440	0x80 71 65 
+1440	0x90 69 69 
+1560	0x80 69 69 
+1560	0x90 71 68 
+1620	0x80 71 68 
+1680	0x90 74 62 
+1740	0x80 74 62 
+1740	0x90 71 65 
+1800	0x80 71 65 
+1800	0x90 76 59 
+1860	0x80 76 59 
+1860	0x90 74 59 
+1980	0x80 74 59 
+1980	0x90 71 60 
+2040	0x80 71 60 
+2040	0x90 76 61 
+2400	0x80 76 61 
+2519	0x90 0 0 
+2520	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

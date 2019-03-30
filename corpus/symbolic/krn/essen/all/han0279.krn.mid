@@ -1,0 +1,124 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! Eigene Aufnahme]
+0	0xff TEXT [!! 00005] TT[TB]
+0	0xff TEXT [!! Ethnic Group: Han]
+0	0xff TEXT [!! MM, vorhanden, handschriftlich), Original von Dong Fang Hong]
+3840	0xff TEXT [!!    Das Lied wurde vom Bauernsaenger Li You Yuan, 1903-1955) komponiert und]
+3840	0xff TEXT [!!    ein Lied fuer Auswanderer. Der Komponist stammte aus Jia Xian in der]
+3840	0xff TEXT [!!    Provinz Shanxi. 1943 wurde das Lied dann umgeschrieben. Sein Neffe, Li]
+3840	0xff TEXT [!!    Zengzheng sang dieses neue Lied als erster. 1944 wurde es noch einmal]
+3840	0xff TEXT [!!    bearbeitet und in der Befreiungszeitund Jief…ng Ribao gedruckt. Von]
+3840	0xff TEXT [!!    dort machte es dann den Siegeszug durch die VR., Bericht: Frau Loehr)]
+3840	0xff TEXT [!!    Hong shuang xie scheint also nur eine Variante, gefolgt von Qi bai ma.]
+3840	0xff TEXT [!!    hatte 12 Strophen. Es hiess "Yi Mong Ge", Den Schimmel reiten) und war]
+3840	0xff TEXT [!! Saengerin: Huang Bai. Vorlaeufer von Dong fang hong.]
+3840	0xff TEXT [!!    Die 4 wird hoeher gesungen.  Glissandi. singt leichte Variante. Der 3.]
+3840	0xff TEXT [!!    Ton = +1. Einmal nach Gesang korrigiert.+++ Kommentar zu Dong fan hong: +++]
+3960	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 72 68 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+60	0x80 72 68 
+60	0x90 72 71 
+180	0x80 72 71 
+180	0x90 74 57 
+240	0x80 74 57 
+240	0x90 67 72 
+420	0x80 67 72 
+420	0x90 72 64 
+480	0x80 72 64 
+480	0x90 65 62 
+540	0x80 65 62 
+540	0x90 65 62 
+600	0x80 65 62 
+600	0x90 64 65 
+660	0x80 64 65 
+660	0x90 62 60 
+720	0x80 62 60 
+720	0x90 67 71 
+960	0x80 67 71 
+960	0x90 72 64 
+1020	0x80 72 64 
+1020	0x90 70 59 
+1140	0x80 70 59 
+1140	0x90 72 56 
+1200	0x80 72 56 
+1200	0x90 74 69 
+1290	0x80 74 69 
+1290	0x90 77 66 
+1320	0x80 77 66 
+1320	0x90 74 67 
+1380	0x80 74 67 
+1380	0x90 72 60 
+1440	0x80 72 60 
+1440	0x90 69 67 
+1500	0x80 69 67 
+1500	0x90 67 58 
+1560	0x80 67 58 
+1560	0x90 65 69 
+1620	0x80 65 69 
+1620	0x90 62 57 
+1680	0x80 62 57 
+1680	0x90 67 63 
+1920	0x80 67 63 
+1920	0x90 72 64 
+2040	0x80 72 64 
+2040	0x90 67 66 
+2100	0x80 67 66 
+2100	0x90 69 60 
+2160	0x80 69 60 
+2160	0x90 65 72 
+2280	0x80 65 72 
+2280	0x90 64 62 
+2340	0x80 64 62 
+2340	0x90 62 62 
+2400	0x80 62 62 
+2400	0x90 60 70 
+2520	0x80 60 70 
+2520	0x90 72 64 
+2640	0x80 72 64 
+2640	0x90 67 71 
+2760	0x80 67 71 
+2760	0x90 69 66 
+2820	0x80 69 66 
+2820	0x90 67 64 
+2880	0x80 67 64 
+2880	0x90 65 65 
+3000	0x80 65 65 
+3000	0x90 65 62 
+3060	0x80 65 62 
+3060	0x90 62 66 
+3120	0x80 62 66 
+3120	0x90 67 64 
+3180	0x80 67 64 
+3180	0x90 69 56 
+3240	0x80 69 56 
+3240	0x90 67 66 
+3300	0x80 67 66 
+3300	0x90 65 65 
+3360	0x80 65 65 
+3360	0x90 67 69 
+3420	0x80 67 69 
+3420	0x90 65 61 
+3480	0x80 65 61 
+3480	0x90 64 69 
+3540	0x80 64 69 
+3540	0x90 62 66 
+3600	0x80 62 66 
+3600	0x90 60 62 
+3840	0x80 60 62 
+3959	0x90 0 0 
+3960	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

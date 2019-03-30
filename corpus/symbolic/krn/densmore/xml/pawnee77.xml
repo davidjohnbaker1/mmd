@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<!-- INFO key="SOCIAL_FUNCTION" value="	songs connected with folk tales" -->
+<!-- INFO key="PDT" value="	1929" -->
+<!-- INFO key="LING_GROUP" value="Caddoan" -->
+<!-- INFO key="LANG" value="Non-Tone" -->
+<!-- INFO key="REG" value="Oklahoma" -->
+<!-- INFO key="COM" value="Anon." -->
+<!-- INFO key="OTL" value="The Little Rattlesnake" -->
+<!-- INFO key="ODT" value="<1920//" -->
+<!-- INFO key="MPN" value="Tsastawinahiigat [She led a phony into the ceremony, Effie Blain]" -->
+<!-- INFO key="MLC" value="Pawnee, Oklahoma, United States of America" -->
+<!-- GCOMMENT value=" Song was recorded either 1919 or 1920." -->
+<!-- INFO key="AGN" value="monody" -->
+<!-- INFO key="AST" value="story of the little rattlesnake" -->
+<!-- INFO key="AMT" value="irregular" -->
+<!-- INFO key="RWG" value="Transcribed pitches, durations, and meters are only approximate." -->
+<!-- GCOMMENT value=" Drum not recorded" -->
+<score-partwise version="2.0">
+	<part-list>
+		<score-part id="P1">
+			<part-name>female</part-name>
+		</score-part>
+	</part-list>
+
+	<part id="P1">
+		<measure number="1">
+			<attributes>
+				<divisions>2</divisions>
+			</attributes>
+			<attributes>
+				<clef>
+					<sign>G</sign>
+					<line>2</line>
+				</clef>
+			</attributes>
+			<attributes>
+				<key>
+					<fifths>4</fifths>
+				</key>
+			</attributes>
+			<attributes>
+				<time>
+					<beats>5</beats>
+					<beat-type>8</beat-type>
+				</time>
+			</attributes>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+		</measure>
+		<measure number="2">
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>8</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="3">
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+		</measure>
+		<measure number="4">
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<attributes>
+				<time>
+					<beats>4</beats>
+					<beat-type>8</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="5">
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>8</beat-type>
+				</time>
+			</attributes>
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+		</measure>
+		<measure number="6">
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<attributes>
+				<time>
+					<beats>4</beats>
+					<beat-type>8</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="7">
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>8</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="8">
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+			</note>
+			<attributes>
+				<time>
+					<beats>4</beats>
+					<beat-type>8</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="9">
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>8</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="10">
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+			</note>
+		</measure>
+		<measure number="11">
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<attributes>
+				<time>
+					<beats>4</beats>
+					<beat-type>8</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="12">
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+	</part>
+</score-partwise>
+<!-- INFO key="HAO" value="Story of the Little Rattlesnake" -->
+<!-- INFO key="HAO" value="   This story differs from the preceding in that the entire narrative was" -->
+<!-- INFO key="HAO" value="sung, a typical portion of the melody begin transcribed.  The story was" -->
+<!-- INFO key="HAO" value="as follows:  In the place where the rattlesnakes lived there was a little" -->
+<!-- INFO key="HAO" value="rattlesnake who cried because he wanted his rattle to make a noise.  He" -->
+<!-- INFO key="HAO" value="said to his father, "I do not see why I don't rattle.  I am just like my" -->
+<!-- INFO key="HAO" value="brothers and sisters but their rattles rattle while mine does not."  His" -->
+<!-- INFO key="HAO" value="father said, "You are not old enough.  When you are as big as your" -->
+<!-- INFO key="HAO" value="brothers and sisters your rattle will rattle like theirs."" -->
+<!-- INFO key="HAO" value="   The little snake cried so hard that at last they "made medicine" for" -->
+<!-- INFO key="HAO" value="him so that his rattle would rattle.  Then he wanted to rattle it all" -->
+<!-- INFO key="HAO" value="the time." -->
+<!-- INFO key="HAO" value="   The little snake said to his father, "Tell me how a chief's daughter" -->
+<!-- INFO key="HAO" value="looks.  I want to bite her foot."  His father said, "A chief's daughter " -->
+<!-- INFO key="HAO" value="is very neat in her dress.  Those who are not the daughters of chiefs are" -->
+<!-- INFO key="HAO" value="very careless  You can tell the difference in that way."" -->
+<!-- INFO key="HAO" value="   The snakes' house was located on a road along which the Pawnee used" -->
+<!-- INFO key="HAO" value="to travel.  The oldest snake said, "Father, my little brother rattles all" -->
+<!-- INFO key="HAO" value="the time.  The Pawnee will hear him and kill us all.  Make him stop."" -->
+<!-- INFO key="HAO" value="But the little snake kept on.  He even went beside the road and rattled" -->
+<!-- INFO key="HAO" value="his rattle very loud." -->
+<!-- INFO key="HAO" value="   One day a girl came along the road and the little snake thought she" -->
+<!-- INFO key="HAO" value="was the chief's daughter.  He bit her foot and she turned quickly and" -->
+<!-- INFO key="HAO" value="crushed his head.  The other snakes found him and the brother said," -->
+<!-- INFO key="HAO" value=""Father, didn't I tell you that one of us would be killed?  There is my" -->
+<!-- INFO key="HAO" value="little brother with his head smashed."  That is the end of the story." -->
+<!-- INFO key="HTX" value="[no free translation]" -->
+<!-- INFO key="CNT" value="Pawnee" -->
+<!-- INFO key="TXO" value="Pawnee" -->
+<!-- INFO key="OCY" value="United States" -->
+<!-- INFO key="OCL" value="Frances Densmore" -->
+<!-- INFO key="YOR" value="Frances Densmore, "Pawnee Music"" -->
+<!-- INFO key="YOR" value="Bulletin 93, page 108, No. 77" -->
+<!-- INFO key="PPR" value="Smithsonian Institution, Bureau of American Ethnology" -->
+<!-- INFO key="PPR" value="Government Printing Office" -->
+<!-- INFO key="PDT" value="1926" -->
+<!-- INFO key="PPP" value="Washington, DC, United States of America" -->
+<!-- INFO key="YEC" value="Electronic Copyright 2000 David Huron" -->
+<!-- INFO key="YER" value="September 2000" -->
+<!-- INFO key="YEN" value="United States of America" -->
+<!-- INFO key="ENC" value="David Huron" -->
+<!-- INFO key="RDT" value="September 10, 2000" -->
+<!-- INFO key="EEV" value="Release 1.0" -->
+<!-- INFO key="AIN" value="vox" -->

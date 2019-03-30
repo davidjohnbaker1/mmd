@@ -1,0 +1,90 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! 00010] TT[TB]
+0	0xff TEXT [!! Ethnic Group: Menggu]
+0	0xff TEXT [!! MM, S. 172]
+0	0xff TEXT [!! Irregular meter.]
+0	0xff TEXT [!! Eigene Aufnahme]
+2400	0xff TEXT [!!    Wenig Verzierungen. Phrasen nach Gesang eingeteilt.]
+2400	0xff TEXT [!!    benutzte und ansonsten auswendig sang. Da er aus dem Osten der]
+2400	0xff TEXT [!! Saenger: Chao Lun Batou, der das Buch nur zum Nachschlagen]
+2400	0xff TEXT [!!    Neimeng kommt, kennt er nicht so viele Lieder des Westens.]
+2400	0xff TEXT [!!    Alle Lieder wurden mit erkaelteter, halber Stimme in meinem]
+2400	0xff TEXT [!!    Zimmer gesungen. FOTO VORHANDEN (DIAS)  31.3.87]
+2520	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 69 64 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+45	0x80 69 64 
+45	0x90 69 70 
+75	0x80 69 70 
+75	0x90 69 71 
+105	0x80 69 71 
+105	0x90 74 70 
+345	0x80 74 70 
+345	0x90 64 63 
+525	0x80 64 63 
+525	0x90 64 63 
+540	0x80 64 63 
+540	0x90 64 56 
+570	0x80 64 56 
+570	0x90 64 65 
+600	0x80 64 65 
+600	0x90 62 71 
+840	0x80 62 71 
+840	0x90 72 67 
+930	0x80 72 67 
+930	0x90 74 65 
+960	0x80 74 65 
+960	0x90 76 60 
+1020	0x80 76 60 
+1020	0x90 76 61 
+1050	0x80 76 61 
+1050	0x90 72 59 
+1080	0x80 72 59 
+1080	0x90 74 66 
+1320	0x80 74 66 
+1320	0x90 72 65 
+1350	0x80 72 65 
+1350	0x90 72 59 
+1410	0x80 72 59 
+1410	0x90 74 68 
+1440	0x80 74 68 
+1440	0x90 76 61 
+1560	0x80 76 61 
+1560	0x90 64 57 
+1590	0x80 64 57 
+1590	0x90 64 56 
+1650	0x80 64 56 
+1650	0x90 60 64 
+1680	0x80 60 64 
+1680	0x90 62 57 
+1920	0x80 62 57 
+1920	0x90 64 62 
+1950	0x80 64 62 
+1950	0x90 64 56 
+1980	0x80 64 56 
+1980	0x90 67 58 
+2040	0x80 67 58 
+2040	0x90 67 64 
+2070	0x80 67 64 
+2070	0x90 69 60 
+2100	0x80 69 60 
+2100	0x90 72 56 
+2160	0x80 72 56 
+2160	0x90 69 60 
+2400	0x80 69 60 
+2519	0x90 0 0 
+2520	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

@@ -1,0 +1,70 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! 00010] TT[TB]
+0	0xff TEXT [!! Ethnic Group: Menggu]
+0	0xff TEXT [!! MM, S. 304]
+0	0xff TEXT [!! Irregular meter.]
+0	0xff TEXT [!! Eigene Aufnahme]
+3840	0xff TEXT [!!    Wenig Verzierungen.]
+3840	0xff TEXT [!!    benutzte und ansonsten auswendig sang. Da er aus dem Osten der]
+3840	0xff TEXT [!! Saenger: Chao Lun Batou, der das Buch nur zum Nachschlagen]
+3840	0xff TEXT [!!    Neimeng kommt, kennt er nicht so viele Lieder des Westens.]
+3840	0xff TEXT [!!    Alle Lieder wurden mit erkaelteter, halber Stimme in meinem]
+3840	0xff TEXT [!!    Zimmer gesungen. FOTO VORHANDEN (DIAS)  31.3.87]
+3960	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 67 64 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+120	0x80 67 64 
+120	0x90 62 67 
+480	0x80 62 67 
+480	0x90 67 68 
+960	0x80 67 68 
+960	0x90 74 67 
+1320	0x80 74 67 
+1320	0x90 62 66 
+1440	0x80 62 66 
+1440	0x90 69 59 
+1680	0x80 69 59 
+1680	0x90 60 68 
+2160	0x80 60 68 
+2160	0x90 60 68 
+2220	0x80 60 68 
+2220	0x90 60 61 
+2340	0x80 60 61 
+2340	0x90 62 60 
+2400	0x80 62 60 
+2400	0x90 57 65 
+2520	0x80 57 65 
+2520	0x90 69 66 
+2760	0x80 69 66 
+2760	0x90 74 67 
+2940	0x80 74 67 
+2940	0x90 76 56 
+2970	0x80 76 56 
+2970	0x90 79 66 
+3000	0x80 79 66 
+3000	0x90 69 71 
+3120	0x80 69 71 
+3120	0x90 74 62 
+3300	0x80 74 62 
+3300	0x90 69 62 
+3330	0x80 69 62 
+3330	0x90 72 61 
+3360	0x80 72 61 
+3360	0x90 67 60 
+3840	0x80 67 60 
+3959	0x90 0 0 
+3960	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

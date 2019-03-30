@@ -1,2 +1,0 @@
-> hum2muse Berkowitz1.krn | muse2ps =z21j | convert - -trim -resize '200%' -bordercolor white -border 10x10 large.png
-

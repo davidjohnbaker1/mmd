@@ -1,0 +1,138 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! NN]
+0	0xff TEXT [!! 00000] TT[00]
+0	0xff TEXT [!! Ethnic Group: Han]
+0	0xff TEXT [!! I, 389]
+3840	0xff TEXT [!!    Saenger und Trommler, um so die Feldarbeit "zu effektivieren".]
+3840	0xff TEXT [!!    Der zweite Teil des Liedes folgt aus Platzgruenden im naechsten]
+3840	0xff TEXT [!!    Dokument !!! Vor- und Nachspiel weggelassen. Neues Volkslied. - Wer solche]
+3840	0xff TEXT [!!    Lieder sang, musste es den ganzen Tag lang tun.  In seiner Kategorie ist]
+3840	0xff TEXT [!!    dieses Lied sehr typisch. !!!Dieses Lied war aus Platzgruenden auf 2]
+3840	0xff TEXT [!!    Dokumente verteilt!!! Der erste Teil war im vorherigen Dokument. Vereinzelt]
+3840	0xff TEXT [!!    Verzierungen.]
+3840	0xff TEXT [!!    In seiner Kategorie ist dieses Lied sehr typisch.]
+3840	0xff TEXT [!! 4 Saetze pro Strophe, dann ein kurzer Einschub in Klammern.]
+3840	0xff TEXT [!!    Neues Volkslied. - Wer solche Lieder sang, musste es den ganzen]
+3840	0xff TEXT [!!    Tag lang tun. Die Gutsbesitzer holten hierfuer auch, Vor-)]
+3960	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 67 63 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+90	0x80 67 63 
+90	0x90 67 64 
+120	0x80 67 64 
+120	0x90 67 63 
+180	0x80 67 63 
+180	0x90 69 59 
+240	0x80 69 59 
+240	0x90 72 68 
+300	0x80 72 68 
+300	0x90 74 57 
+420	0x80 74 57 
+420	0x90 69 61 
+480	0x80 69 61 
+480	0x90 72 67 
+540	0x80 72 67 
+540	0x90 74 63 
+600	0x80 74 63 
+600	0x90 72 67 
+630	0x80 72 67 
+630	0x90 74 58 
+660	0x80 74 58 
+660	0x90 69 57 
+720	0x80 69 57 
+720	0x90 67 70 
+900	0x80 67 70 
+900	0x90 69 66 
+960	0x80 69 66 
+960	0x90 74 63 
+1020	0x80 74 63 
+1020	0x90 74 63 
+1080	0x80 74 63 
+1080	0x90 72 60 
+1140	0x80 72 60 
+1140	0x90 74 57 
+1200	0x80 74 57 
+1200	0x90 67 63 
+1320	0x80 67 63 
+1320	0x90 69 62 
+1440	0x80 69 62 
+1440	0x90 74 69 
+1530	0x80 74 69 
+1530	0x90 72 61 
+1560	0x80 72 61 
+1560	0x90 69 65 
+1620	0x80 69 65 
+1620	0x90 69 66 
+1680	0x80 69 66 
+1680	0x90 67 66 
+1740	0x80 67 66 
+1740	0x90 67 64 
+1920	0x80 67 64 
+1920	0x90 67 69 
+2010	0x80 67 69 
+2010	0x90 67 57 
+2040	0x80 67 57 
+2040	0x90 67 65 
+2100	0x80 67 65 
+2100	0x90 69 62 
+2160	0x80 69 62 
+2160	0x90 72 72 
+2220	0x80 72 72 
+2220	0x90 74 56 
+2340	0x80 74 56 
+2340	0x90 69 57 
+2400	0x80 69 57 
+2400	0x90 72 69 
+2460	0x80 72 69 
+2460	0x90 74 56 
+2520	0x80 74 56 
+2520	0x90 72 66 
+2550	0x80 72 66 
+2550	0x90 74 59 
+2580	0x80 74 59 
+2580	0x90 69 66 
+2640	0x80 69 66 
+2640	0x90 67 66 
+2820	0x80 67 66 
+2820	0x90 69 63 
+2880	0x80 69 63 
+2880	0x90 74 70 
+2940	0x80 74 70 
+2940	0x90 74 56 
+3000	0x80 74 56 
+3000	0x90 72 60 
+3060	0x80 72 60 
+3060	0x90 74 64 
+3120	0x80 74 64 
+3120	0x90 67 67 
+3240	0x80 67 67 
+3240	0x90 69 67 
+3360	0x80 69 67 
+3360	0x90 74 70 
+3450	0x80 74 70 
+3450	0x90 72 64 
+3480	0x80 72 64 
+3480	0x90 69 60 
+3540	0x80 69 60 
+3540	0x90 69 64 
+3600	0x80 69 64 
+3600	0x90 67 69 
+3660	0x80 67 69 
+3660	0x90 67 60 
+3840	0x80 67 60 
+3959	0x90 0 0 
+3960	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

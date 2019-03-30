@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<!-- INFO key="SOCIAL_FUNCTION" value="	songs connected with folk tales" -->
+<!-- INFO key="PDT" value="	1929" -->
+<!-- INFO key="LING_GROUP" value="Caddoan" -->
+<!-- INFO key="LANG" value="Non-Tone" -->
+<!-- INFO key="REG" value="Oklahoma" -->
+<!-- INFO key="COM" value="Anon." -->
+<!-- INFO key="OTL" value="Falk Tale Song (b)" -->
+<!-- INFO key="ODT" value="<1920//" -->
+<!-- INFO key="MPN" value="Fannie Chapman" -->
+<!-- INFO key="MLC" value="Pawnee, Oklahoma, United States of America" -->
+<!-- GCOMMENT value=" Song was recorded either 1919 or 1920." -->
+<!-- INFO key="AGN" value="monody" -->
+<!-- INFO key="AST" value="folk tale song" -->
+<!-- INFO key="AMT" value="irregular" -->
+<!-- INFO key="RWG" value="Transcribed pitches, durations, and meters are only approximate." -->
+<!-- GCOMMENT value=" Drum not recorded" -->
+<score-partwise version="2.0">
+	<part-list>
+		<score-part id="P1">
+			<part-name>female</part-name>
+		</score-part>
+	</part-list>
+
+	<part id="P1">
+		<measure number="1">
+			<attributes>
+				<divisions>2</divisions>
+			</attributes>
+			<attributes>
+				<clef>
+					<sign>F</sign>
+					<line>4</line>
+				</clef>
+			</attributes>
+			<attributes>
+				<key>
+					<fifths>-2</fifths>
+				</key>
+			</attributes>
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="2">
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="3">
+			<note>
+				<pitch>
+					<step>E</step>
+					<alter>-1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<tie type="start"/>
+				<voice>1</voice>
+				<type>eighth</type>
+				<notations>
+					<tied type="start"/>
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<tie type="stop"/>
+				<voice>1</voice>
+				<type>quarter</type>
+				<notations>
+					<tied type="stop"/>
+				</notations>
+			</note>
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="4">
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="5">
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="6">
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<tie type="start"/>
+				<voice>1</voice>
+				<type>eighth</type>
+				<notations>
+					<tied type="start"/>
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<tie type="stop"/>
+				<voice>1</voice>
+				<type>quarter</type>
+				<notations>
+					<tied type="stop"/>
+				</notations>
+			</note>
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="7">
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+		</measure>
+		<measure number="8">
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="9">
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<tie type="start"/>
+				<voice>1</voice>
+				<type>eighth</type>
+				<notations>
+					<tied type="start"/>
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<tie type="stop"/>
+				<voice>1</voice>
+				<type>quarter</type>
+				<notations>
+					<tied type="stop"/>
+				</notations>
+			</note>
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="10">
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+			</note>
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="11">
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<tie type="start"/>
+				<voice>1</voice>
+				<type>eighth</type>
+				<notations>
+					<tied type="start"/>
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<tie type="stop"/>
+				<voice>1</voice>
+				<type>quarter</type>
+				<notations>
+					<tied type="stop"/>
+				</notations>
+			</note>
+		</measure>
+	</part>
+</score-partwise>
+<!-- INFO key="HAO" value="   As the young man sang [the previous] song [No. 72] the bones came to life" -->
+<!-- INFO key="HAO" value="and made a noise like a great many buffalo.  He said, "Now, fathers," -->
+<!-- INFO key="HAO" value="grandfathers and grandmothers, I want you to pity me.  That is why I sang."" -->
+<!-- INFO key="HAO" value="They replied, "All right."  Then a middle-aged buffalo with shining horns" -->
+<!-- INFO key="HAO" value="came toward him and said, "I will be the first to help you.  We know about" -->
+<!-- INFO key="HAO" value="the wicked chief and what he has been doing."  The buffalo threw himself down" -->
+<!-- INFO key="HAO" value="down and when he got up he shook himself.  Where he had been lying the boy" -->
+<!-- INFO key="HAO" value="saw a game stick.  The buffalo said, "Take this stick."  A young buffalo" -->
+<!-- INFO key="HAO" value="did the same and gave the boy another stick.  Then a young buffalo cow did" -->
+<!-- INFO key="HAO" value="the same and when she arose the boy saw a game ring which she told him" -->
+<!-- INFO key="HAO" value="to use.  The boy brought the two sticks and the ring home with him and" -->
+<!-- INFO key="HAO" value="hung them beside the sacred bundle.  On the day of the game he told his" -->
+<!-- INFO key="HAO" value="grandmother that he would send someone for the sticks and the ring but" -->
+<!-- INFO key="HAO" value="did not want anyone to be at home when the messenger came." -->
+<!-- INFO key="HAO" value="   In the morning Coyote came as before and said that all was ready for the" -->
+<!-- INFO key="HAO" value="game.  Everything was the same as when the younger man played, the chief" -->
+<!-- INFO key="HAO" value="having Coyote and the man having the bird-man on his side.  They began" -->
+<!-- INFO key="HAO" value="to play and the chief won as before.  The boy had no goods so he bet the" -->
+<!-- INFO key="HAO" value="people, as his brother had done.  The chief said, "Now you have bet all" -->
+<!-- INFO key="HAO" value="the people, you ought to bet yourself."  The young man said "All right."" -->
+<!-- INFO key="HAO" value="Then his stick struck the chief's stick and broke it in two.  The young" -->
+<!-- INFO key="HAO" value="man said, "Thanks.  Now I will not be killed."  The chief said, "Perhaps" -->
+<!-- INFO key="HAO" value="you have some gaming sticks somewhere."  The man said, "Yes," and sent" -->
+<!-- INFO key="HAO" value="Coyote to get them, adding, "They are common sticks, lying on the floor."" -->
+<!-- INFO key="HAO" value="Coyote went to the old woman's lodge, opened the door and heard a noise" -->
+<!-- INFO key="HAO" value="as of many buffalo.  He was frightened and ran back.  The chief sent" -->
+<!-- INFO key="HAO" value="another messenger, who brought the same report.  Then the boy sent the" -->
+<!-- INFO key="HAO" value="bird-man, who brought the sticks and the ring.  They did not make any" -->
+<!-- INFO key="HAO" value="noise when he entered the lodge for they knew he was the right person." -->
+<!-- INFO key="HAO" value="The boy played with the sticks and had good luck.  He won back all the" -->
+<!-- INFO key="HAO" value="people, and the chief's leg was broken.  Then the boy sang this song." -->
+<!-- INFO key="HAO" value="They played again and the chief said, "Throw the sticks toward the east."" -->
+<!-- INFO key="HAO" value="They threw the sticks toward the east and the boy's stick went through" -->
+<!-- INFO key="HAO" value="the hoop and went on and on, and finally it turned into a buffalo.  As" -->
+<!-- INFO key="HAO" value="soon as the chief's people saw the stick turn into a buffalo they began" -->
+<!-- INFO key="HAO" value="to cry, but the boy's people began to rejoice." -->
+<!-- INFO key="HAO" value="   The young man asked, "Where is my brother's head?"  They told him." -->
+<!-- INFO key="HAO" value="He asked, "Where are his bones?"  They told him this also.  Then he" -->
+<!-- INFO key="HAO" value="laid his brother's bones in order on the ground, with the head at one end." -->
+<!-- INFO key="HAO" value="Then he stood below his brother's foot and kicked the foot, saying," -->
+<!-- INFO key="HAO" value=""Why are you sleeping so long?"  His brother arose and said, "Yes, I have" -->
+<!-- INFO key="HAO" value="been asleep a long time," and smoothed his hair." -->
+<!-- INFO key="HAO" value="   They killed the chief where the game had been played and they killed all" -->
+<!-- INFO key="HAO" value="the chief's people.  Then the two brother returned to their own village." -->
+<!-- INFO key="HTX" value="You are a good gambler." -->
+<!-- INFO key="HTX" value="They say you are a good gambler." -->
+<!-- INFO key="HTX" value="Get up and play." -->
+<!-- INFO key="CNT" value="Pawnee" -->
+<!-- INFO key="TXO" value="Pawnee" -->
+<!-- INFO key="OCY" value="United States" -->
+<!-- INFO key="OCL" value="Frances Densmore" -->
+<!-- INFO key="YOR" value="Frances Densmore, "Pawnee Music"" -->
+<!-- INFO key="YOR" value="Bulletin 93, page 102, No. 73" -->
+<!-- INFO key="PPR" value="Smithsonian Institution, Bureau of American Ethnology" -->
+<!-- INFO key="PPR" value="Government Printing Office" -->
+<!-- INFO key="PDT" value="1926" -->
+<!-- INFO key="PPP" value="Washington, DC, United States of America" -->
+<!-- INFO key="YEC" value="Electronic Copyright 2000 David Huron" -->
+<!-- INFO key="YER" value="September 2000" -->
+<!-- INFO key="YEN" value="United States of America" -->
+<!-- INFO key="ENC" value="David Huron" -->
+<!-- INFO key="RDT" value="September 10, 2000" -->
+<!-- INFO key="EEV" value="Release 1.0" -->
+<!-- INFO key="AIN" value="vox" -->

@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<!-- INFO key="SOCIAL_FUNCTION" value="	unclassified songs" -->
+<!-- INFO key="PDT" value="	1929" -->
+<!-- INFO key="LING_GROUP" value="Caddoan" -->
+<!-- INFO key="LANG" value="Non-Tone" -->
+<!-- INFO key="REG" value="Oklahoma" -->
+<!-- INFO key="COM" value="Anon." -->
+<!-- INFO key="OTL" value="Mad Chief Mourns for His Grandson" -->
+<!-- INFO key="ODT" value="<1920//" -->
+<!-- INFO key="MPN" value="Tsastawinahiigat [She led a phony into the ceremony, Effie Blain]" -->
+<!-- INFO key="MLC" value="Pawnee, Oklahoma, United States of America" -->
+<!-- GCOMMENT value=" Song was recorded either 1919 or 1920." -->
+<!-- INFO key="AGN" value="monody" -->
+<!-- INFO key="AST" value="unclassified" -->
+<!-- INFO key="AMT" value="irregular" -->
+<!-- INFO key="RWG" value="Transcribed pitches, durations, and meters are only approximate." -->
+<!-- GCOMMENT value=" Drum not recorded" -->
+<score-partwise version="2.0">
+	<part-list>
+		<score-part id="P1">
+			<part-name>female</part-name>
+		</score-part>
+	</part-list>
+
+	<part id="P1">
+		<measure number="1">
+			<attributes>
+				<divisions>4</divisions>
+			</attributes>
+			<attributes>
+				<clef>
+					<sign>G</sign>
+					<line>2</line>
+				</clef>
+			</attributes>
+			<attributes>
+				<key>
+					<fifths>2</fifths>
+				</key>
+			</attributes>
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>E</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>E</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>Yonder</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>i</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>i</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>he</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="2">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>7</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>re</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>re</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>comes</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>Sa-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>Saristsaris</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>Mad Chief</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="3">
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ri-</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-tsa-</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ris</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ra</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>have</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="4">
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>wak</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>wak</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>sing</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>|</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>a-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ata</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>walking</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ta</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="5">
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>tsiks</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>tsiks</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>spirit</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>|</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ti</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ti</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>glad</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>we</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>we</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>now</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>tat</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>tat</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>I am</text>
+				</lyric>
+			</note>
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="6">
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>a-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ata</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>walking</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>|</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<tie type="start"/>
+				<voice>1</voice>
+				<type>eighth</type>
+				<notations>
+					<tied type="start"/>
+				</notations>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ta</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<tie type="stop"/>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+				<notations>
+					<tied type="stop"/>
+				</notations>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>|</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>e</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>e</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>yonder</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="7">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<tie type="start"/>
+				<voice>1</voice>
+				<type>half</type>
+				<notations>
+					<tied type="start"/>
+				</notations>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>a</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>3</duration>
+				<tie type="stop"/>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+				<notations>
+					<tied type="stop"/>
+				</notations>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>|</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>Si-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>Sirirut-Kawi</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>Pushed forward [young man's name]</text>
+				</lyric>
+			</note>
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="8">
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ri-</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ri-</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-rut~</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>~Ka-</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="9">
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-wi</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>we</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>we</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>now</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>|</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ka-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>kara</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>not have</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="10">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ra</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ri</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ri</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>him</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ta-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>tawe</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>among</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-we</text>
+				</lyric>
+			</note>
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="11">
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>re-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>rehuksuru</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>of his image</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>|</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-huk-</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-su-</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>|</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-ra</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<notations>
+					<fermata type="upright"/>
+				</notations>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>a</text>
+				</lyric>
+			</note>
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="12">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ti</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>ti</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>him</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>a</text>
+				</lyric>
+			</note>
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+		</measure>
+		<measure number="13">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<tie type="start"/>
+				<voice>1</voice>
+				<type>half</type>
+				<notations>
+					<tied type="start"/>
+				</notations>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>ta-</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>tawe</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>among</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<tie type="stop"/>
+				<voice>1</voice>
+				<type>eighth</type>
+				<notations>
+					<tied type="stop"/>
+				</notations>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>|</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>-we</text>
+				</lyric>
+			</note>
+		</measure>
+		<measure number="14">
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>e</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>e</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>yonder</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>i</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>i</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>he</text>
+				</lyric>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>7</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+				<dot/>
+				<lyric number="1" name="verse">
+					<syllabic>single</syllabic>
+					<text>re</text>
+				</lyric>
+				<lyric number="2" name="verse">
+					<syllabic>single</syllabic>
+					<text>re</text>
+				</lyric>
+				<lyric number="3" name="verse">
+					<syllabic>single</syllabic>
+					<text>comes</text>
+				</lyric>
+			</note>
+		</measure>
+	</part>
+</score-partwise>
+<!-- INFO key="HAO" value="   Mr. Murie said that the story concerning the following song was recently" -->
+<!-- INFO key="HAO" value="told him by John Luwak: A man and his wife had one child, a daughter, who" -->
+<!-- INFO key="HAO" value="had many admirers.  Sirirut Kawi (Pushed Forward) entered the lodge" -->
+<!-- INFO key="HAO" value="early one morning, after the manner of young men courting a maiden." -->
+<!-- INFO key="HAO" value="The man said to his wife, "Did you notice that young man?"" -->
+<!-- INFO key="HAO" value="He came again, and then the woman said to her husband.  "The young man" -->
+<!-- INFO key="HAO" value="is handsome, he comes of a good family, he has plenty of horses and" -->
+<!-- INFO key="HAO" value="his arms are strong so that he would be good to support us."  When he" -->
+<!-- INFO key="HAO" value="came the third time they told him to wait for his answer until the girl's" -->
+<!-- INFO key="HAO" value="relatives could discuss the matter.  So they called their relatives" -->
+<!-- INFO key="HAO" value="together, the mother's relatives being seated on the south and the" -->
+<!-- INFO key="HAO" value="father's on the north side of the lodge.  The father's relatives left" -->
+<!-- INFO key="HAO" value="the decision to the mother's relatives, who decided that the girl should" -->
+<!-- INFO key="HAO" value="be allowed to marry the young man.  Many presents were distributed." -->
+<!-- INFO key="HAO" value="The young man's relatives gave presents, and the young man gave a fine" -->
+<!-- INFO key="HAO" value="horse to the father and mother of the girl.  The next day the old man" -->
+<!-- INFO key="HAO" value="gave the horse to his wife.  There were buffalo robes and many valuable" -->
+<!-- INFO key="HAO" value="articles among the presents." -->
+<!-- INFO key="HAO" value="   All went well for a time, and then the young man began to beat his wife" -->
+<!-- INFO key="HAO" value="and abuse her.  The girl's mother begged her father to interfere, but" -->
+<!-- INFO key="HAO" value="he refused to do so.  She said, "You claim to be a brave man; why do" -->
+<!-- INFO key="HAO" value="you not make our son-in-law stop beating his wife?"" -->
+<!-- INFO key="HAO" value="   He said, "Do you remember one beautiful morning when you said the" -->
+<!-- INFO key="HAO" value="young man was handsome, that he came of good family, had many horses," -->
+<!-- INFO key="HAO" value="and his arms were strong?"" -->
+<!-- INFO key="HAO" value="   "Yes."" -->
+<!-- INFO key="HAO" value="   "Do you remember that my relatives sat on the north and yours on the" -->
+<!-- INFO key="HAO" value="south side of the lodge, and that my relatives left the decision to" -->
+<!-- INFO key="HAO" value="yours?"" -->
+<!-- INFO key="HAO" value="   "Yes."" -->
+<!-- INFO key="HAO" value="   "So your people sold our daughter to that man.  We have no right to" -->
+<!-- INFO key="HAO" value="interfere with his property.  He gave the ponies.  He gave a fine pony" -->
+<!-- INFO key="HAO" value="to us.  Didn't I give you that pony?"" -->
+<!-- INFO key="HAO" value="   "Yes."" -->
+<!-- INFO key="HAO" value="   "Get a kettle.  Put it on the fire and put water in it."  She did so." -->
+<!-- INFO key="HAO" value="   "Now take your parfleche bag and put the finest of your dried meat in" -->
+<!-- INFO key="HAO" value="the pot.  When the soup is done you must bring me some in a wooden bowl."" -->
+<!-- INFO key="HAO" value="When she brought the soup he told her to sit beside him and eat.  As" -->
+<!-- INFO key="HAO" value="they ate he said, "What nice fat!  What fine meat this is!  Who got it" -->
+<!-- INFO key="HAO" value="for you?"" -->
+<!-- INFO key="HAO" value="   "Our son-in-law."" -->
+<!-- INFO key="HAO" value="   "You like the meat that our son-in-law brings us?  He punishes our" -->
+<!-- INFO key="HAO" value="daughter for her own good.  He does not want her to run around the camp" -->
+<!-- INFO key="HAO" value="foolishly.  He wants her to be a good cook and to look after things in" -->
+<!-- INFO key="HAO" value="the lodge."" -->
+<!-- INFO key="HAO" value="   Then the woman stopped finding fault with her son-in-law." -->
+<!-- INFO key="HAO" value="The young man was well liked by the chiefs.  They asked him to join their" -->
+<!-- INFO key="HAO" value="societies and later he became a chief.  He and his wife had one child," -->
+<!-- INFO key="HAO" value="a body.  This little boy liked to stay with his grandfather, who told" -->
+<!-- INFO key="HAO" value="him stories.  His grandfather was Saritsaris (Mad Chief), a brave man of" -->
+<!-- INFO key="HAO" value="the Chaui Band.  The little boy cooled his grandfather's mush or soup by" -->
+<!-- INFO key="HAO" value="swinging the dish back and forth, then he set it before the old man." -->
+<!-- INFO key="HAO" value="When the little boy was about half-grown he heard that a war party was" -->
+<!-- INFO key="HAO" value="to start.  He told his mother that he wanted to go, and he wanted her" -->
+<!-- INFO key="HAO" value="and his grandmother to make him some moccasins.  He also wanted arrows," -->
+<!-- INFO key="HAO" value="a bow and a quiver, and all the equipment of a warrior.  When the old" -->
+<!-- INFO key="HAO" value="man heard this he called the boy and said, "Do you realize what you are" -->
+<!-- INFO key="HAO" value="doing?"" -->
+<!-- INFO key="HAO" value="   "Yes, I am grown to be a man."" -->
+<!-- INFO key="HAO" value="   "Do you have dreams at night?"" -->
+<!-- INFO key="HAO" value="   "Yes."" -->
+<!-- INFO key="HAO" value="   "Can you relate some of them?"" -->
+<!-- INFO key="HAO" value="   "Yes."" -->
+<!-- INFO key="HAO" value="   "Tell one to me."" -->
+<!-- INFO key="HAO" value="   "In my dream I was with a war party.  I found myself coming toward home" -->
+<!-- INFO key="HAO" value="through deep snow."" -->
+<!-- INFO key="HAO" value="   "That is enough," said the old man.  "You can go."" -->
+<!-- INFO key="HAO" value="The women had sent the boy to his grandfather, thinking he would keep" -->
+<!-- INFO key="HAO" value="him at home, and they were greatly surprised to learn that the grandfather" -->
+<!-- INFO key="HAO" value="had told the boy to go with the warriors.  It was fall when the war party" -->
+<!-- INFO key="HAO" value="started.  As winter was coming near it was noised through the camp that" -->
+<!-- INFO key="HAO" value="all the war party had been killed and the people began to mourn.  The" -->
+<!-- INFO key="HAO" value="women of this family mourned exceedingly and cut their flesh with knives," -->
+<!-- INFO key="HAO" value="but the old man sat and laughed at them, or smoked his pipe.  This went" -->
+<!-- INFO key="HAO" value="on for about 10 days.  Then his wife said, "You did not care for our" -->
+<!-- INFO key="HAO" value="grandchild," and his daughter said, "Why do you not mourn?"  The old man" -->
+<!-- INFO key="HAO" value="said to his wife, "You remember that you turned the boy over to me when" -->
+<!-- INFO key="HAO" value="he wanted to go to war.  You made moccasins for him and filled his" -->
+<!-- INFO key="HAO" value="quiver with arrows.  I questioned him and found that he had a dream in" -->
+<!-- INFO key="HAO" value="which he was returning alone through deep snow.  That dream will come" -->
+<!-- INFO key="HAO" value="true.  He is coming home, so I want you all to stop mourning."" -->
+<!-- INFO key="HAO" value="They would not believe him, but one day, after a snow, some people" -->
+<!-- INFO key="HAO" value="going out from the village met the young man returning.  He said, "All" -->
+<!-- INFO key="HAO" value="the warriors were killed except myself."" -->
+<!-- INFO key="HAO" value="The man rode back and cried through the village, "Saritsaris' grandchild" -->
+<!-- INFO key="HAO" value="is coming through the deep snow."" -->
+<!-- INFO key="HAO" value="   Everyone in the lodge was excited, except the old man.  He did not rush" -->
+<!-- INFO key="HAO" value="out to meet his grandson.  The women urged him to go, but he said, "He" -->
+<!-- INFO key="HAO" value="is coming; never mind."" -->
+<!-- INFO key="HAO" value="When the young man entered the lodge his grandfather said, "Sit on my" -->
+<!-- INFO key="HAO" value="knees."  The old man passed his hands downward over the young man's" -->
+<!-- INFO key="HAO" value="head and body in the tribal manner of "blessing," and said, "I believed" -->
+<!-- INFO key="HAO" value="in your dream and now you are here."" -->
+<!-- INFO key="HAO" value="Then he told him to sit yonder and said, "I ask you &#45;&#45; when attacked," -->
+<!-- INFO key="HAO" value="did you hide in a ravine?  When you were a little boy and cooled my" -->
+<!-- INFO key="HAO" value="mush I told you that I never wanted to hear that your body was found" -->
+<!-- INFO key="HAO" value="in a ravine.  I said that if you must be killed, let it be on a hilltop," -->
+<!-- INFO key="HAO" value="fighting in the open.  I told you not to run away.  Did you fight the" -->
+<!-- INFO key="HAO" value="enemy?  Is it possible that you had gone on an errand and on your" -->
+<!-- INFO key="HAO" value="return found the fight going on and ran home instead of joining your" -->
+<!-- INFO key="HAO" value="comrades?  I told you always to tell the truth.  Don't lie to me now." -->
+<!-- INFO key="HAO" value="Tell me the truth."" -->
+<!-- INFO key="HAO" value="   The young man said, "This will tell the story," and he exposed his arm," -->
+<!-- INFO key="HAO" value="which was raw and sore from wrist to elbow, where the bowstring had" -->
+<!-- INFO key="HAO" value="stung him.  The boy said, "I did not even throw away my buffalo robe." -->
+<!-- INFO key="HAO" value="I fought until night and then they let me alone."" -->
+<!-- INFO key="HAO" value="The old man said, "Now your name shall be Sirirut Kawi, the same as" -->
+<!-- INFO key="HAO" value="your father's.  If you had been killed I would not have shed a tear," -->
+<!-- INFO key="HAO" value="for I urged you to go on the warpath."" -->
+<!-- INFO key="HAO" value="So the young man lived with his grandfather until the next summer," -->
+<!-- INFO key="HAO" value="when the village was attacked by the enemy.  The young man went out" -->
+<!-- INFO key="HAO" value="and was killed.  The news was brought into the village and the old man" -->
+<!-- INFO key="HAO" value="heard it.  He took his robe of bear skin, threw it over his shoulder," -->
+<!-- INFO key="HAO" value="and went about the camp telling how kind the young man was to the old" -->
+<!-- INFO key="HAO" value="and sick.  Returning home, he said, "You waved the bowl of mush to cool" -->
+<!-- INFO key="HAO" value="it.  I shall miss you."" -->
+<!-- INFO key="HAO" value="People said his heart was like stone until he sang this song.  Then he" -->
+<!-- INFO key="HAO" value="wept.  In the first portion of the words he sings about himself and" -->
+<!-- INFO key="HAO" value="his pride in his grandson, and in the latter portion he sings about the" -->
+<!-- INFO key="HAO" value="young man." -->
+<!-- INFO key="HTX" value="Mad Chief sings as he walks, his spirit is glad as he walks." -->
+<!-- INFO key="HTX" value="Pushed Forward is no longer among us, yet we seem to see him;" -->
+<!-- INFO key="HTX" value="Yonder he comes." -->
+<!-- INFO key="CNT" value="Pawnee" -->
+<!-- INFO key="TXO" value="Pawnee" -->
+<!-- INFO key="OCY" value="United States" -->
+<!-- INFO key="OCL" value="Frances Densmore" -->
+<!-- INFO key="YOR" value="Frances Densmore, "Pawnee Music"" -->
+<!-- INFO key="YOR" value="Bulletin 93, page 119, No. 86" -->
+<!-- INFO key="PPR" value="Smithsonian Institution, Bureau of American Ethnology" -->
+<!-- INFO key="PPR" value="Government Printing Office" -->
+<!-- INFO key="PDT" value="1926" -->
+<!-- INFO key="PPP" value="Washington, DC, United States of America" -->
+<!-- INFO key="YEC" value="Electronic Copyright 2000 David Huron" -->
+<!-- INFO key="YER" value="September 2000" -->
+<!-- INFO key="YEN" value="United States of America" -->
+<!-- INFO key="ENC" value="David Huron" -->
+<!-- INFO key="RDT" value="September 10, 2000" -->
+<!-- INFO key="EEV" value="Release 1.0" -->
+<!-- INFO key="AIN" value="vox" -->

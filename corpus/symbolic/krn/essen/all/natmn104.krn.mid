@@ -1,0 +1,100 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! MM, S. 1550]
+0	0xff TEXT [!! Eigene Aufnahme]
+0	0xff TEXT [!! Ethnic Group: Menggu]
+0	0xff TEXT [!! 00010] TT[TB]
+2880	0xff TEXT [!!    Zimmer gesungen. FOTO VORHANDEN (DIAS)  31.3.87]
+2880	0xff TEXT [!!    +++ Ggf. abgeschnitten oder S. 1551 ist richtig. +++]
+2880	0xff TEXT [!!    Cubit = Laengenmass = 1 Unterarm]
+2880	0xff TEXT [!!    Neimeng kommt, kennt er nicht so viele Lieder des Westens.]
+2880	0xff TEXT [!! Saenger: Chao Lun Batou, der das Buch nur zum Nachschlagen]
+2880	0xff TEXT [!!    benutzte und ansonsten auswendig sang. Da er aus dem Osten der]
+2880	0xff TEXT [!!    Alle Lieder wurden mit erkaelteter, halber Stimme in meinem]
+3000	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 67 71 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+120	0x80 67 71 
+120	0x90 72 64 
+210	0x80 72 64 
+210	0x90 69 64 
+240	0x80 69 64 
+240	0x90 72 70 
+300	0x80 72 70 
+300	0x90 69 63 
+360	0x80 69 63 
+360	0x90 67 66 
+420	0x80 67 66 
+420	0x90 64 56 
+480	0x80 64 56 
+540	0x90 62 61 
+600	0x80 62 61 
+600	0x90 64 63 
+660	0x80 64 63 
+660	0x90 67 62 
+720	0x80 67 62 
+720	0x90 72 67 
+900	0x80 72 67 
+900	0x90 67 56 
+960	0x80 67 56 
+960	0x90 72 71 
+1020	0x80 72 71 
+1020	0x90 69 59 
+1050	0x80 69 59 
+1050	0x90 67 62 
+1080	0x80 67 62 
+1080	0x90 64 64 
+1140	0x80 64 64 
+1140	0x90 62 57 
+1200	0x80 62 57 
+1200	0x90 60 64 
+1440	0x80 60 64 
+1440	0x90 67 68 
+1560	0x80 67 68 
+1560	0x90 67 59 
+1620	0x80 67 59 
+1620	0x90 64 58 
+1680	0x80 64 58 
+1680	0x90 62 66 
+1740	0x80 62 66 
+1740	0x90 64 56 
+1800	0x80 64 56 
+1800	0x90 67 63 
+1920	0x80 67 63 
+1980	0x90 55 64 
+2040	0x80 55 64 
+2040	0x90 57 67 
+2100	0x80 57 67 
+2100	0x90 60 62 
+2160	0x80 60 62 
+2160	0x90 64 69 
+2340	0x80 64 69 
+2340	0x90 67 66 
+2400	0x80 67 66 
+2400	0x90 62 72 
+2460	0x80 62 72 
+2460	0x90 62 65 
+2490	0x80 62 65 
+2490	0x90 60 57 
+2520	0x80 60 57 
+2520	0x90 57 69 
+2580	0x80 57 69 
+2580	0x90 62 61 
+2640	0x80 62 61 
+2640	0x90 55 64 
+2880	0x80 55 64 
+2999	0x90 0 0 
+3000	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

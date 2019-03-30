@@ -1,0 +1,87 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! Ethnic Group: Menggu]
+0	0xff TEXT [!! MM, S. 331]
+0	0xff TEXT [!! Eigene Aufnahme]
+0	0xff TEXT [!! 00010] TT[TB]
+4080	0xff TEXT [!!    Zimmer gesungen. FOTO VORHANDEN (DIAS)  31.3.87]
+4080	0xff TEXT [!!    Wenig Verzierungen. VARIANTE BZW. ANDERES LIED!]
+4080	0xff TEXT [!!    benutzte und ansonsten auswendig sang. Da er aus dem Osten der]
+4080	0xff TEXT [!! Saenger: Chao Lun Batou, der das Buch nur zum Nachschlagen]
+4080	0xff TEXT [!!    Neimeng kommt, kennt er nicht so viele Lieder des Westens.]
+4080	0xff TEXT [!!    Alle Lieder wurden mit erkaelteter, halber Stimme in meinem]
+4200	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 67 71 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+60	0x80 67 71 
+60	0x90 67 64 
+240	0x80 67 64 
+240	0x90 67 71 
+360	0x80 67 71 
+360	0x90 62 67 
+480	0x80 62 67 
+480	0x90 67 69 
+600	0x80 67 69 
+600	0x90 64 59 
+720	0x80 64 59 
+720	0x90 67 71 
+960	0x80 67 71 
+960	0x90 67 66 
+990	0x80 67 66 
+990	0x90 67 62 
+1020	0x80 67 62 
+1020	0x90 67 60 
+1200	0x80 67 60 
+1200	0x90 67 62 
+1320	0x80 67 62 
+1320	0x90 62 69 
+1440	0x80 62 69 
+1440	0x90 67 65 
+1560	0x80 67 65 
+1560	0x90 64 65 
+1680	0x80 64 65 
+1680	0x90 62 63 
+1920	0x80 62 63 
+1920	0x90 60 64 
+2040	0x80 60 64 
+2040	0x90 60 60 
+2160	0x80 60 60 
+2160	0x90 60 62 
+2280	0x80 60 62 
+2280	0x90 57 61 
+2400	0x80 57 61 
+2400	0x90 60 66 
+2520	0x80 60 66 
+2520	0x90 62 59 
+2640	0x80 62 59 
+2640	0x90 64 71 
+2880	0x80 64 71 
+2880	0x90 62 70 
+3120	0x80 62 70 
+3120	0x90 62 68 
+3360	0x80 62 68 
+3360	0x90 60 69 
+3480	0x80 60 69 
+3480	0x90 57 59 
+3600	0x80 57 59 
+3600	0x90 60 71 
+3720	0x80 60 71 
+3720	0x90 64 60 
+3840	0x80 64 60 
+3840	0x90 67 67 
+4080	0x80 67 67 
+4199	0x90 0 0 
+4200	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

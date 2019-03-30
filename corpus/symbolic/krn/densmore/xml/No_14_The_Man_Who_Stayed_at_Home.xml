@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<!-- INFO key="SOCIAL_FUNCTION" value="	songs of war" -->
+<!-- INFO key="PDT" value="	1913" -->
+<!-- INFO key="OTL" value="No_14_The_Man_Who_Stayed_at_Home.krn" -->
+<!-- INFO key="REG" value="Great_Lakes" -->
+<!-- INFO key="LANG" value="Non-Tone" -->
+<!-- INFO key="LING_GROUP" value="Algonquin" -->
+<score-partwise version="2.0">
+	<part-list>
+		<score-part id="P1">
+			<part-name></part-name>
+		</score-part>
+	</part-list>
+
+	<part id="P1">
+		<measure number="1">
+			<attributes>
+				<divisions>4</divisions>
+			</attributes>
+			<attributes>
+				<clef>
+					<sign>F</sign>
+					<line>4</line>
+				</clef>
+			</attributes>
+			<attributes>
+				<key>
+					<fifths>-1</fifths>
+				</key>
+			</attributes>
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+		</measure>
+		<measure number="2">
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<stem>down</stem>
+				<beam number="1">begin</beam>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<stem>down</stem>
+				<beam number="1">end</beam>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+		</measure>
+		<measure number="3">
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<stem>down</stem>
+				<beam number="1">begin</beam>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<stem>down</stem>
+				<beam number="1">end</beam>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+		</measure>
+		<measure number="4">
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+				<stem>down</stem>
+				<beam number="1">begin</beam>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<stem>down</stem>
+				<beam number="1">end</beam>
+				<beam number="2">backward hook</beam>
+			</note>
+		</measure>
+		<measure number="5">
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+				<stem>down</stem>
+				<notations>
+					<fermata type="upright"/>
+				</notations>
+			</note>
+			<barline>
+				<bar-style>light-light</bar-style>
+			</barline>
+		</measure>
+		<measure number="6">
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+				<stem>down</stem>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<stem>down</stem>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+			<barline>
+				<bar-style>light-light</bar-style>
+			</barline>
+		</measure>
+		<measure number="7">
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+		</measure>
+		<measure number="8">
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<tie type="start"/>
+				<voice>1</voice>
+				<type>half</type>
+				<stem>down</stem>
+				<notations>
+					<tied type="start"/>
+				</notations>
+			</note>
+		</measure>
+		<measure number="9">
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<tie type="stop"/>
+				<tie type="start"/>
+				<voice>1</voice>
+				<type>half</type>
+				<stem>down</stem>
+				<notations>
+					<tied type="stop"/>
+					<tied type="start"/>
+				</notations>
+			</note>
+		</measure>
+		<measure number="10">
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<tie type="stop"/>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+				<notations>
+					<tied type="stop"/>
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+		</measure>
+		<measure number="11">
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+			<barline>
+				<bar-style>light-light</bar-style>
+			</barline>
+		</measure>
+		<measure number="12">
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>3</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<dot/>
+				<stem>down</stem>
+				<beam number="1">begin</beam>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>3</octave>
+				</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>16th</type>
+				<stem>down</stem>
+				<beam number="1">end</beam>
+				<beam number="2">backward hook</beam>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+			<barline>
+				<bar-style>light-light</bar-style>
+			</barline>
+		</measure>
+		<measure number="13">
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+		</measure>
+		<measure number="14">
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<tie type="start"/>
+				<voice>1</voice>
+				<type>half</type>
+				<stem>down</stem>
+				<notations>
+					<tied type="start"/>
+				</notations>
+			</note>
+			<barline>
+				<bar-style>light-light</bar-style>
+			</barline>
+		</measure>
+		<measure number="15">
+			<attributes>
+				<time>
+					<beats>3</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>8</duration>
+				<tie type="stop"/>
+				<voice>1</voice>
+				<type>half</type>
+				<stem>down</stem>
+				<notations>
+					<tied type="stop"/>
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>2</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>up</stem>
+			</note>
+			<barline>
+				<bar-style>light-light</bar-style>
+			</barline>
+		</measure>
+		<measure number="16">
+			<attributes>
+				<time>
+					<beats>2</beats>
+					<beat-type>4</beat-type>
+				</time>
+			</attributes>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+		</measure>
+		<measure number="17">
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>4</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem>down</stem>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<stem>down</stem>
+				<beam number="1">begin</beam>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<stem>down</stem>
+				<beam number="1">end</beam>
+			</note>
+		</measure>
+		<measure number="18">
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>2</octave>
+				</pitch>
+				<duration>6</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+				<stem>up</stem>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>2</octave>
+				</pitch>
+				<duration>2</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<stem>up</stem>
+			</note>
+		</measure>
+		<measure number="19">
+			<note>
+				<pitch>
+					<step>A</step>
+					<octave>2</octave>
+				</pitch>
+				<duration>8</duration>
+				<voice>1</voice>
+				<type>half</type>
+				<stem>up</stem>
+			</note>
+		</measure>
+	</part>
+</score-partwise>

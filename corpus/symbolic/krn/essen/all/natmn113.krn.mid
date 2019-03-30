@@ -1,0 +1,88 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! 00010] TT[TB]
+0	0xff TEXT [!! Ethnic Group: Menggu]
+0	0xff TEXT [!! MM, S. 1783]
+0	0xff TEXT [!! Irregular meter.]
+0	0xff TEXT [!! Eigene Aufnahme]
+3240	0xff TEXT [!!    Einige Verzierungen. VARIANTE ODER ANDERES LIED]
+3240	0xff TEXT [!!    benutzte und ansonsten auswendig sang. Da er aus dem Osten der]
+3240	0xff TEXT [!! Saenger: Chao Lun Batou, der das Buch nur zum Nachschlagen]
+3240	0xff TEXT [!!    Neimeng kommt, kennt er nicht so viele Lieder des Westens.]
+3240	0xff TEXT [!!    Alle Lieder wurden mit erkaelteter, halber Stimme in meinem]
+3240	0xff TEXT [!!    Zimmer gesungen. FOTO VORHANDEN (DIAS)  31.3.87]
+3360	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 60 64 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+180	0x80 60 64 
+180	0x90 57 64 
+240	0x80 57 64 
+240	0x90 62 68 
+420	0x80 62 68 
+420	0x90 64 64 
+480	0x80 64 64 
+480	0x90 55 66 
+720	0x80 55 66 
+720	0x90 64 59 
+840	0x80 64 59 
+840	0x90 62 68 
+870	0x80 62 68 
+870	0x90 64 65 
+900	0x80 64 65 
+900	0x90 62 61 
+930	0x80 62 61 
+930	0x90 64 60 
+960	0x80 64 60 
+960	0x90 67 68 
+1140	0x80 67 68 
+1140	0x90 72 60 
+1200	0x80 72 60 
+1200	0x90 64 67 
+1320	0x80 64 67 
+1320	0x90 62 59 
+1440	0x80 62 59 
+1440	0x90 60 72 
+1680	0x80 60 72 
+1680	0x90 62 71 
+1740	0x80 62 71 
+1740	0x90 64 59 
+1800	0x80 64 59 
+1800	0x90 67 65 
+1980	0x80 67 65 
+1980	0x90 60 61 
+2040	0x80 60 61 
+2040	0x90 60 60 
+2100	0x80 60 60 
+2100	0x90 57 56 
+2160	0x80 57 56 
+2160	0x90 55 64 
+2400	0x80 55 64 
+2400	0x90 57 63 
+2460	0x80 57 63 
+2460	0x90 60 62 
+2520	0x80 60 62 
+2520	0x90 64 59 
+2640	0x80 64 59 
+2640	0x90 62 64 
+2880	0x80 62 64 
+2880	0x90 60 70 
+2940	0x80 60 70 
+2940	0x90 57 60 
+3000	0x80 57 60 
+3000	0x90 55 59 
+3240	0x80 55 59 
+3359	0x90 0 0 
+3360	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

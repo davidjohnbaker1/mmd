@@ -1,0 +1,98 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Number of Tracks: 2
+Time method: 1 (Absolute timing)
+Divisions per Quarter Note: 120
+
+Track 0   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xff TEXT [!! MM, S. 1458]
+0	0xff TEXT [!! Irregular meter.]
+0	0xff TEXT [!! Eigene Aufnahme]
+0	0xff TEXT [!! Ethnic Group: Menggu]
+0	0xff TEXT [!! 00010] TT[TB]
+3060	0xff TEXT [!!    Die punktierten Noten sind mit Fermaten versehen.]
+3060	0xff TEXT [!!    VARIANTE. In den Noten zu viele Verzierungen??]
+3060	0xff TEXT [!!    Korrektur gemaess Shen Qia (Zeile 2 gemaess Druck).]
+3060	0xff TEXT [!!    Neimeng kommt, kennt er nicht so viele Lieder des Westens.]
+3060	0xff TEXT [!! Saenger: Chao Lun Batou, der das Buch nur zum Nachschlagen]
+3060	0xff TEXT [!!    benutzte und ansonsten auswendig sang. Da er aus dem Osten der]
+3060	0xff TEXT [!!    Alle Lieder wurden mit erkaelteter, halber Stimme in meinem]
+3060	0xff TEXT [!!    Zimmer gesungen. FOTO VORHANDEN (DIAS)  31.3.87]
+3180	0xff 47 0 
+
+Track 1   +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	0xc0 52 
+0	0x90 64 64 
+0	0xff TRACK []
+0	0xff INSTR []
+0	0xff INSTR [generic voice]
+60	0x80 64 64 
+60	0x90 62 70 
+120	0x80 62 70 
+120	0x90 67 68 
+300	0x80 67 68 
+300	0x90 69 64 
+360	0x80 69 64 
+360	0x90 60 69 
+600	0x80 60 69 
+600	0x90 62 59 
+630	0x80 62 59 
+630	0x90 64 65 
+660	0x80 64 65 
+660	0x90 62 65 
+690	0x80 62 65 
+720	0x90 60 65 
+760	0x80 60 65 
+760	0x90 62 60 
+800	0x80 62 60 
+800	0x90 64 61 
+840	0x80 64 61 
+840	0x90 67 59 
+1080	0x80 67 59 
+1080	0x90 64 69 
+1120	0x80 64 69 
+1120	0x90 62 65 
+1160	0x80 62 65 
+1160	0x90 64 59 
+1200	0x80 64 59 
+1200	0x90 55 68 
+1440	0x80 55 68 
+1440	0x90 57 67 
+1470	0x80 57 67 
+1470	0x90 55 57 
+1500	0x80 55 57 
+1560	0x90 57 61 
+1590	0x80 57 61 
+1590	0x90 60 57 
+1620	0x80 60 57 
+1620	0x90 62 62 
+1800	0x80 62 62 
+1800	0x90 64 59 
+1860	0x80 64 59 
+1860	0x90 55 58 
+2100	0x80 55 58 
+2100	0x90 57 64 
+2130	0x80 57 64 
+2130	0x90 55 60 
+2160	0x80 55 60 
+2220	0x90 57 60 
+2280	0x80 57 60 
+2280	0x90 60 68 
+2340	0x80 60 68 
+2340	0x90 64 60 
+2520	0x80 64 60 
+2520	0x90 62 67 
+2580	0x80 62 67 
+2580	0x90 62 64 
+2620	0x80 62 64 
+2620	0x90 64 62 
+2660	0x80 64 62 
+2660	0x90 62 58 
+2700	0x80 62 58 
+2700	0x90 60 63 
+3000	0x80 60 63 
+3179	0x90 0 0 
+3180	0xff 47 0 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
