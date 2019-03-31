@@ -4,10 +4,6 @@ Repo for my PhD Dissertation: Modeling Melodic Dictation
 
 ## COUNTDOWN
 
-* Clean and Finalize Corpus
-* Finalize Corpus Chapter Text
-* Add Corpus Graphs
-* Insert Experimental Citations
 * Incorporate Aubrey Hickman Edits for Chapter 6
 
 ## Tasks for David 
@@ -48,15 +44,15 @@ Repo for my PhD Dissertation: Modeling Melodic Dictation
 ### Corpus Chapter
 
 * [X] Last XXX Melodies 
-* [ ] Compare Essen to Berkowitz, make and add charts
-* [ ] General Level Edits
+* [X] Compare Essen to Berkowitz, make and add charts
+* [X] General Level Edits
 
 ### Experimental Chapter
 
-* [ ] General Level flow edits
-* [ ] Discussion on grading
+* [X] General Level flow edits
+* [X] Discussion on grading
 * [ ] Reorganize analysis 
-* [ ] Extend discssion
+* [X] Extend discssion
 
 ### Comp Model 
 
