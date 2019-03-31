@@ -126,7 +126,7 @@
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2019-03-29}
+    \date{2019-03-31}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -2072,20 +2072,20 @@ I finish by discussing how this might be implemented in the classroom.
 \section{Rationale}\label{rationale-3}}
 
 One of the essential features of any scientific discovery is the ability to reproduce the finding.
-Given a new claim about reality, in order to be able to demonstrate that the claim is true, the new phenomena should remain invariant when reproduced.
-If the phenomena satisfies pre-established criteria for causality, this evidence can be used to corroborate its generating theories.
-This type of rationale is often associated with scientific methodologies, but music and science have a long, enjoyed history.
-As noted by scholars like Allen Forte, ``In virtually any historic period one finds an interaction between music and science and mathematics.'' \citep{forteMusicComputingPresent1967}.
+Given a new claim about reality, in order to be able to demonstrate that the claim is true, the new phenomenon should remain invariant when reproduced.
+If the phenomenon satisfies pre-established criteria for causality, this evidence can be used to corroborate its generating theories.
+This type of rationale is often associated with scientific methodologies and needs to be adopted here as many questions in music research are better suited for these methods.
+As noted by scholars like Allen Forte, ``In virtually any historic period one finds an interaction between music and science and mathematics'' \citep{forteMusicComputingPresent1967}.
 Music was one of the seven liberal arts during Roman times belonging to the quadrivium along with astronomy, geometry, and arithmetic.
 In fact, many disciplinary differences in musical study more likely to result from geopolitical divides as how scholars conceptualize the study of music based on their location, rather than the content and form of their research \citep{parncuttSystematicMusicologyHistory2007}.
 It should then come as no surprise that studies in music will often interface with diverse methodologies.
 
 Returning to a phenomenon's invariance under different conditions, one of the most effective ways to investigate claims about the state of reality is to reproduce previously made claims using new data.
-One of the most important contributions that a researcher can make towards either bolstering or refuting claims about the nature of music and its resulting theories would be to generate more materials in which to examine previous claims under new conditions.
+One contributions that a researcher can make towards either bolstering or refuting claims and their resulting theories would be to generate more materials in which to examine previous claims under new conditions.
 In order to accomplish this, in this chapter I introduce a new corpus of sight-singing melodies based on the pedagogical text ``A New Approach to Sight Singing'' \citep{berkowitzNewApproachSight2011}.
-The corpus contains 783 monophonic melodies that have been digitally encoded in the kern format \citep{huronHumdrumToolkitReference1994} and contain both melodies specifically composed for use in the Aural Skills classroom and examples of melodies from outside musical literature.
-Due to the fact that the corpus contains melodic data from a sight-singing anthology, for easier reference I will refer to it as the \emph{MeloSol} corpus.
-After introducing the corpus, I compare the Melosol corpus with the Essen Folk Song collection \citep{schaffrathEssenFolkSong1995} in order to highlight variability between these musical corpora.
+The corpus contains 783 monophonic melodies that have been digitally encoded in the kern format \citep{huronHumdrumToolkitReference1994} and contain both melodies specifically composed for use in the Aural Skills classroom and examples of melodies from the Western canon.
+Due to the fact that the corpus contains melodic data from a sight-singing anthology first published by Sol Berkowitz, for ease of reference I will refer to this corpus as the \emph{MeloSol} corpus.
+After introducing the corpus, I compare the \emph{Melosol} corpus with the \emph{Essen Folk Song Collection} \citep{schaffrathEssenFolkSong1995} as well as a portion of the \emph{Densmore} collection \citep{shanahanDENSMORECOLLECTIONNATIVE2014} in order to highlight variability between these musical corpora.
 I end by highlighting important considerations in the underlying representations of what the data represent and what these assumptions entail for future work in computational musicology.
 
 \hypertarget{history}{%
@@ -2095,23 +2095,25 @@ The use of computers to study music has been been ongoing for over the past fift
 As reviewed by \citet{hewlettComputingMusicology1991}, early approaches to using music to study computers begin in the mid 1960s and due to the high effort and cost of computation, projects pursued by researchers at this time tended to focus on questions that might have global relevance.
 The use of computers to study music at this time was not by any means a sparse area of study and throughout the second half of the 20th century, research in computational musicology grew in relation to the computing abilities afforded by the available technologies \citep{nettheimBibliographyStatisticalApplications1997}.
 During this time, not only was there progress made on computing power, many forms of developing new encoding frameworks were developed.
-As discussed by \citet{wigginsFrameworkEvaluationMusic1993}, the design and development of these encoding frameworks has impact on the degree that the systems can be assesed.
-According to Wiggins and colleagues a framework can be evaluated on the two orthogonal dimensions of expressive completeness and structural generality.
-Considering what system is used to then encode musical information then becomes paramount given that the level of granularity that musical data is encoded will determine the types of questions that could eventually be asked in a computational analysis.
-For example, data encoded in a MIDI or CHARM format is able to store micro-time variations in performance practice, which might lend it to being able to do performance based analyses on this data.
+As discussed by \citet{wigginsFrameworkEvaluationMusic1993}, the design and development of these encoding frameworks has impact on the degree that the systems can be assessed.
+According to Wiggins and colleagues, a framework can be evaluated on the two orthogonal dimensions of expressive completeness and structural generality.
+Considering how a system is developed in order to encode encode musical information then becomes paramount given that the level of granularity of encoding data will determine the types of questions that could eventually be asked in a computational analysis.
+For example, data encoded in MIDI or CHARM format is able to store micro-time variations in performance practice, which lends itself to the ability to do performance based analyses on this data.
 If this data were instead to have been encoded in just using a frequency spectrum as would be stored in an MP3 or WAV file, this type of analysis could not be carried out as accurately due to the task of automating the detection of pitch onsets.
 
 On a higher level of abstraction, this problem of how a melody is encoded becomes exacerbated when considering meta-research issues such as the the tools-to-theories heuristic put forward by Gigerenzer \citep{gigerenzerToolsTheoriesHeuristic1991}.
-Gigerenzer claims that much of both the novelty and authority given to the trajectory of a research path is determined by the tools a group decided is valid, and not the generation of new data or theories.
+Gigerenzer claims that much of both the novelty and authority given to the trajectory of a research path is determined by the tools a group decided is valid and not the generation of new data or theories.
 Contextualizing this problem for digital music encoding, again choosing how to represent the data reflects ontological and epistemological assumptions about the data itself.
+Not only does committing to an encoding system come with the inevitable eliminating important musical features, but over time the establshing of canonical assumptions about the nature of methods might lead to researchers choosing questions and methods based on the convience of answering those questions, rather than committment to the question itself.
+This type of problem would only be exacerbated in high pressure, performance based research environments.
 Further, the technology used to be able to query or test this data would provide an additional constraint on the analysis.
 
-Currently there is a large amount of variability in types of encoding availble as well as tools that can be used for computer based analysis.
+Currently there is a large amount of variability in types of encoding available as well as tools that can be used for computer based analysis.
 Popular analysis software such as music21 \citep{cuthbertMusic21ToolkitComputerAided2010}, David Huron's Humdrum \citep{huronHumdrumToolkitReference1994}, as well as technologies being developed by the Single Interface for Music Score Searching and Analysis (SIMSSA) project based in McGill all exist as options for the musicologist to adopt.
-Despite differences the advantages between both types of encoding and tools use to analyze this data, parsers such as the MeloSpySuite are constantly being developed to serve as digital music's Rosetta stone resulting in a current eco-system that allows for moving between options granted a competent degree of computer programming experience \citep{frielerIntroducingJazzomatProject2013}.
+Despite differences the advantages between both types of encoding and tools use to analyze this data, parsers such as the MeloSpySuite are constantly being developed to serve as digital music's Rosetta stone resulting in a current eco-system that allows for moving between encoding formats \citep{frielerIntroducingJazzomatProject2013}.
 
 While many of the encoding formats throughout the past 50 years have fallen out of favor, the kern format of encoding data developed by David Huron has persisted as a choice for many computational musicologists since its initial development in 1994.
-The kern format (often stylized as \texttt{**kern}) was developed in tandem with the Humdrum Toolbox for music analysis that according to Humdrum user guide is
+The kern format (often stylized as \texttt{**kern}) was developed in tandem with the Humdrum Toolbox for music analysis that according to Humdrum user guide \citep{huronHumdrumToolkitReference1994} is
 
 \begin{quote}
 a set of command-line tools that facilitates musical analysis, as well as a generalized syntax for representing sequential streams of data. Because it's a set of command-line tools, it's program-language agnostic. Many have employed Humdrum tools in larger scripts that use PERL, Ruby, Python, Bash, LISP, and C++.
@@ -2121,15 +2123,15 @@ Humdrum files, unlike that of anything used in MEI are human readable and non-hi
 Because of this, editing kern files using the humdrum tool set and humdrum extras developed by Craig Sapp \citep{sappHumdrumExtras2008} can be done with short, UNIX scripts as opposed to similar analyses in music21.
 Since moving between digitally encoded ecosystems is not nearly as difficult and much of encoding is can be left to the jurisdiction of the researcher, I have chose to encode this data set using the kern format.
 
-\hypertarget{berkowitz-corpus}{%
-\section{Berkowitz Corpus}\label{berkowitz-corpus}}
+\hypertarget{melosol-corpus}{%
+\section{MeloSol Corpus}\label{melosol-corpus}}
 
 In this next section I introduce a new corpus of melodies encoded in the kern format.
 The melodies come from the 5th edition of ``A New Approach to Sight Singing'' written by Sol Berkowitz, Gabriel Fontrier, Leo Kraft, Perry Goldstein, and Edward Smaldone, \citep{berkowitzNewApproachSight2011}.
 This corpus includes 783 melodies from the first and last chapters of the book.
 The first chapter contains melodies from five different sections and the fifth chapter contains ``Melodies from the Literature'' and is made up of four sections.
-Melodies from the first chapter have all been specifically composed for use in a sight-singing contexts.
-Melodies from the fifth chapter are small excerpts from examples of both excerpts from Western Classical Music canon and traditional folksongs of various countries.
+Melodies from the first chapter have all been specifically composed for use in sight-singing contexts.
+Melodies from the fifth chapter are small excerpts from examples of both excerpts from Western Classical Music canon and traditional folk songs of various countries.
 Some excerpts from the literature have been slightly modified for singablilty.
 
 The information for each melody is recorded in the meta-data of the kern file.
@@ -2137,68 +2139,153 @@ In addition to having a key signature in each kern file, I have also added an ex
 Each section of the book contains melodies that would be considered tonal, except for melodies in the fifth section of the first chapter and intermittent melodies in the fourth section of the fifth chapter which contain atonal melodies.
 If a melody is decidedly atonal or modal, this is documented in the metadata.
 Atonal melodies are given the explicit key of C major so that they can be analyzed and parsed as if they were part of a fixed do system.
+This encoding decision is reflected in the Key Distribution panel of @ref(fig:melosol\_descriptive\_panel).
 
-Panel XXX shows basic descriptive statistcs of the corpus showing statistics including the variation of length of the melodies, the distribution of keys, the range of melodies found in the corpus.
-In comparison to other corpora, such as the canonical Essen folksong data base, the Berkowtiz has less melodies, but melodies are typically LONGER, reflects more diversity of keys, and does not reflect music of a particular national culture.
-Contrasting the XXXXX tokens in the corpus, the Essen folk song ha XXXXXXX tokens.
+\textbackslash{}begin\{figure\}
+
+\{\centering \includegraphics[width=1\linewidth]{img/melosol_descript_panel}
+
+\}
+
+\caption{Descriptive Statistics of MeloSol}
+
+(\#fig:melosol\_descriptive\_panel)
+\textbackslash{}end\{figure\}
+
+Figure @ref(fig:melosol\_descriptive\_panel) shows basic descriptive statistics of the \emph{MeloSol} corpus.
+The figure highlights general features of the corpus that might be of interest to future researchers.
+In sum, the corpus represents 783 unique melodies comprising 49,730 data tokens.
+Of these 49,730 tokens, 36,641 are currently kern interpretable using the humdrum toolbox.
+The dataset also exists in a MIDI, csv, and xml format for analysis with other tool sets.
+All data was manually created.
 
 \hypertarget{comparison-of-corpora}{%
 \section{Comparison of Corpora}\label{comparison-of-corpora}}
 
-In order to gives brief overview of the corpus and contextualize it in the context of other corpora, in the next section I compare the Berkowtiz corpus to that of the Essen Folk song collection \citep{schaffrathEssenFolkSong1995}.
-I compare the Berkowitz Corpus to the Essen Folk Song Collection because importantly close in being that they both were written for some sort of vocal performance.
-The Berkowitz corpus was specifically designed for pedagogical purposes whereas the Essen is more ecologically reflective of melodies originating from a diversity of sources.
-Though given that they are both generally vocal melodies and both come from Western sources, there presumably would be differences on between the two corpora on a large scale structure.
-A second, more important reason for comparing this corpus with the Essen is that the Essen is one of the more heavily cited corpora used in the field of computational musicology and often taken as a proxy to represent the underlying expectation structure of Western music.
-For example\ldots{}\ldots{}.
-Much of this work makes claims about general level musical features, referencing the Essen dataset as reference.
-In this context, the underlying assumption in this inference is that the Essen is a sample of the larger population of Western music borrowing underlying logic from frequentism as evident from the choice to examine these relationship like Huron did using frequentist statistics and the null hypothesis significance testing framework (Dienes chapter).
-While of course this might be true,in order to have more evidence for this, would need to build more evidence.
-This could come in the form of performing frequentist statistical tests on data to reject null looking at the probability of the data given the hypothesis, tho on large data sets that is a bad idea.
-Or could be talking about modeling these things in terms of Bayes, which would be modeling data looking at probability of the hypothesis given the data.
-Either way, providing more evidence for previous claims depends on, as noted above, finding new evidence for claims with new data.
+In order to gives brief overview of the corpus and contextualize it in the context of other corpora, in this next section I compare the \emph{MeloSol} corpus with the \emph{Essen Folk Song Collection} \citep{schaffrathEssenFolkSong1995}, as well as the \emph{Densmore} collection \citep{shanahanDENSMORECOLLECTIONNATIVE2014} with a brief corpus analysis.
+All three corpora here contain vocal melodies.
+The Berkowitz corpus was specifically designed for pedagogical purposes whereas the \emph{Essen} and \emph{Densmore} are more ecologically reflective of melodies originating from a diversity of sources.
+Given that these corpora consist of vocal melodies, there presumably would be differences on between the corpora on a large scale structure.
+I can then further investigate differences at the group level by investigating melodies of Asian origin from the \emph{Essen} collection and those of Native American from the \emph{Densmore}.
+These group level differences are chosen for their geographic location and are not taken to be reflective of a cultural aggregate.
 
-Below I do a corpus analysis of both the Berkowitz an Essen on a descriptive level, then take a case study example and look into it where MELODIES DESCEND to see.
+Another important reason for comparing these corpora is that the \emph{Essen} is one of the most heavily cited corpora in the field of computational musicology and often taken as a proxy to represent the underlying expectational structure of Western music.
+Much of the research that assumes this makes claims about general level musical features such as the melodic arch \citep{huronMelodicArchWestern1996, shanahanExaminingEffectOral2019} or that the implicitly learned patterns of a musical style can be represented using a corpus of digitized melodies \citep{demorestQuantifyingCulture2015, pearceStatisticalLearningProbabilistic2018a}.
+In this context, the underlying assumption in this inference is that a corpus-- in this case a folk song collection-- is a sample of the larger population of Western music.
+This assumption tacitly borrows the underlying logic from the Frequentist schools of thought \citep{dienesUnderstandingPsychologyScience2008}; the corpus is taken to be a sample of the population.
+This assumption is furthered when analyses are done using the null hypothesis significance testing framework.
 
-\begin{itemize}
-\tightlist
-\item
-  Distribution of Solfa
-\item
-  Distribution of Notes
-\item
-  Distribution of bi-gram probabilities of them
-\item
-  Then subtract the matrices to show where the differences in the bi-grams are
-\end{itemize}
+If researchers then adopt this underlying assumption, it should then follow that in order to continually find support for these theories and hypotheses, new evidence should be put forward that uses a similar population, yet different samples.
+Doing so would require the creation of new samples from a parent population, very much akin to the \emph{MeloSol} corpus.
+Like the \emph{Essen}, the \emph{MeloSol} corpus contains melodies in the Western, tonal tradition constrained by vocal performance.
+Alternatively, researchers could adopt different research epistemologies other than a general Frequentist approach, such as using Bayesian methods that do not assume a sample-population relationship, but rather take the data as the model itself.
+Regardless of what methodology is chosen, providing more evidence for previous claims depends on, as noted above, finding new evidence for claims with new data.
 
-So knowing that they are similar in some aspects, want to then ask if some of the assumptions hold.
-For example, THEY argued that there is a descent in vocal tract.
-Found evidence using corpus study.
-This was followed up and published by Shanahan.
-So if it is true, should see it again in this corpus.
+\hypertarget{corpus-analysis-1}{%
+\subsection{Corpus Analysis}\label{corpus-analysis-1}}
 
-In order to do that, ran THIS ANALYSIS over the humdrum data.
-And found that SENTENCE HERE.
-This is reflected in FIGURE HERE.
+In order to compare the \_Essen\_collection with the \emph{MeloSol} corpus, I first plot general level descriptive features of all corpora in @ref(fig:comp\_desc).
+Creating these visualizations demonstrates size differences between the corpora.
+As noted in the bottom right panel of @ref(fig:comp\_desc), then \emph{Essen} collection is much larger than that of the \emph{MeloSol} or the \emph{Densmore} collection.
 
-From this we can conclude that\ldots{}.
-And this is an example of using new data to test invariance of claims under different conditions.
-But to return to question of assumptions, what population is are both of these corpora assumed to originate from.
-And what, in fact are the assumptions of other types of corpus studies.
-As said above, assumption here is that often in many studies corpora share an assumed sample population relationship.
-This is OK from descriptive point of view, but becomes difficult to then apply any sort of inferential statistical tests.
-Requires answering a question of what are the bounds of the population?
-In historical studies, this is never possible.
-No more Clara Schumann.
-In studies that captured Essen over time, yes can be representative.
-But work in transmission of song reflects that just like culture evolves, so does music.
-This is discussed by Savage.
-So the more important question then becomes what does it mean to be able to replicate these findings and find what is invariant with another corpus.
-If this is not possible, epistemologically this prohibits from NHST.
-Frequentism is not the only way to conceptualize statistical relationship, could be Bayes.
-More often than not this also more reflects the intuition that people want of probability of hypothesis given data rather than what NHST gives of P data given hypothesis.
-Concrete answer to this question is beyond the scope of this chapter, important to end by saying that people who do use corpus methodologies need to be explicit about what they are assuming their corpora to represent.
+\textbackslash{}begin\{figure\}
+
+\{\centering \includegraphics[width=1\linewidth]{img/comparative_descritive_panel}
+
+\}
+
+\caption{Descriptive Features}
+
+(\#fig:comp\_desc)
+\textbackslash{}end\{figure\}
+
+From the above panels, it appears that there the \emph{MeloSol} corpus has much more variability in the range or tessitura of melodies.
+This difference is most likely reflective of nature of the \emph{MeloSol} melodies which were composed for didactic use, and thus were the product of composition with a notational system.
+Interestingly, both sets from the \_Essen\_Collection tend to have much more defined peaks.
+Though a post-hoc interpretation, these peaks might serve as the basis for a study on physical affordances drawing together work on melody transmission \citep{shanahanExaminingEffectOral2019} and the cognitive affordance provided via to notation \citep{lerdahlCognitiveConstraintsCompositional1992}.
+Melodies between the four data sets also tend to have overlapping density distributions in terms of both length and note density.
+
+Secondly, I then overlay emergent emergent properties from the corpora-- standardized for size-- using density plots.
+The underlying logic in the following exploratory analysis would be if the \emph{MeloSol} and European subsets of the \emph{Essen} are samples of large subset of properties found in Western music, there should be some degree of overlap between the emergent elements.
+From the panels below, the key comparisons will be to look between the blue and yellow distributions.
+Interestingly, looking at the panels plotting Tonalness as well as Tonal Spike, two measures of tonality derived from the FANTASTIC toolbox used to complete this analysis, the underlying distributions tend to follow a similar distributional pattern.
+Inspecting some of the features further, the Densmore collection shows a marked departure in interval entropy from the other three distributions and also shows more variability in terms of contour variation as calculated by the FANTASTIC stepwise.contour.global.variation metric \citep{mullensiefenFantasticFeatureANalysis2009}.
+
+\textbackslash{}begin\{figure\}
+
+\{\centering \includegraphics[width=1\linewidth]{img/corpora_emergent}
+
+\}
+
+\caption{Emergent Features}
+
+(\#fig:comp\_emergent)
+\textbackslash{}end\{figure\}
+
+The addition of the \emph{MeloSol} corpus also provides an opportunity to investigate and replicate other claims made in the musicological literature.
+For example, in Figure @ref(fig:comp\_huron), I have reproduced the first level analysis David Huron puts forward in \citep{huronMelodicArchWestern1996}.
+From the figure, there appears to be similar patterns between the European subset of the \emph{Essen} collection and that of the \emph{MeloSol} corpus.
+
+The most prominent phrase type in both corpora is the convex contour, followed secondly by the descending contour pattern.
+Future versions of the \emph{MeloSol} corpus could be used to add phrase marks and examine the extent to which Huron's claims hold in a categorically different, yet grammatically similar corpus.
+
+\textbackslash{}begin\{figure\}
+
+\{\centering \includegraphics[width=1\linewidth]{img/huron_recreation}
+
+\}
+
+\caption{Replication of Analysis 1, Huron 1994}
+
+(\#fig:comp\_huron)
+\textbackslash{}end\{figure\}
+
+Lastly, in \ref{fig:keyprofiles}, I plot standardized key profiles for the \emph{Essen} and \emph{MeloSol} corpora as presented in this chapter \citep{krumhanslCognitiveFoundationsMusical2001}.
+The \emph{Densmore} collection is not included here as it does not come with explicit key data.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/krum_panel} 
+
+}
+
+\caption{Tonal Hierarchy of Corpora}\label{fig:krum}
+\end{figure}
+
+On overall view shows that the three corpora exhibit relatively similar distribution profiles.
+As with previous research, the tonic and dominant scale degree occur most frequently.
+There appears to be a general lack of scale degree four and seven in the Asian subset of the \emph{Essen} and a large degree of the supertonic.
+There is also a large amount of the sixth scale degree here, a topic addressed by \citet{brinkmanLeadingSixthScale2018}, though in the context of European music.
+As a corpus, the \emph{MeloSol} corpus shows a high percentage of the leading tone, a musical feature synonymous with Western classical music.
+Inspecting the chromatic aggregate, the \emph{MeloSol} corpus also has the highest representation of all scale degree sevens.
+Overall, finding similar distributional patterns in scale degrees with a new corpus provides further support of the stability of the existence of tone distribution profiles.
+
+\hypertarget{discussion-1}{%
+\subsection{Discussion}\label{discussion-1}}
+
+Surveying how the \emph{MeloSol} corpus compares to that of the \emph{Essen} and \emph{Densmore} Folk song collections, I've demonstrated various ways to investigate what properties of music remain might remain invariant under different analyses.
+While the \emph{MeloSol} corpus does not exactly reflect the global level parameters of that of the European subset of the \emph{Essen} Collection, there appears to be evidence that some properties are the same.
+Thinking about this problem begs the question if the computational musicology community does assume a sample, population relationship between corpus and population.
+If this is true, considering how to reproduce findings in a meaningful way is important for the health of the field.
+If true, the community would be able to continue doing analyses such as that of \citet{huronMelodicArchWestern1996}, but then needs to consider such a bold claim might then replicate.
+Huron has addressed this issue \citep{huronVirtuousVexatiousAge2013} suggesting that the proliferation of ``Big Data'' will eventually lead computational musicology to an ``ironic'' state where statistical inference tools are no longer applicable because researchers will have access to an entire population.
+This assertion again implicitly assumes the Frequentist epistomological framework of samples and population, but Frequentism is not the only framework availible to the empirical research community \citep{dienesUnderstandingPsychologyScience2008}.
+It is my assertion that these assumptions have still yet to be made explicit in computational analyses.
+
+For example, studies such as that by \citet{frielerTellingStoryDramaturgy2016} fit a series of models on solos from a jazz corpus.
+The solos are taken to represent the larger population of Jazz and the authors further subdivide the Jazz into its various genre divisions such as post-bop, traditional, and cool.
+While Jazz might be the population and the genre divisions to be sub-populations, each solo is then further sampled from an individual.
+In this case, most of the invididuals represented in their corpus are deceased, thus theoretically making the population in which they would be able to generate exhaustive and theoretically accessible.
+At this point, practically replicating these results would either depend on finding undiscovered archive recordings or the generation of new material based on estimating parameter values of a style in order to recreate new stimuli following in the example of the music generation literature.
+For example, \citet{sturmTakingModelsBack2017} developed an artificial intelligence using deep learning to create folk songs based on 30,000 transcriptions.
+As discussed in follow up work \citep{sturmMachineLearningResearch2019}, this research brings with it implications and assumptions about the state of a musical style.
+If a population is limited by time, presumably all data will follow the path that Huron predicted and lead us to an ``ironic'' state of population hermenutics.
+If populations are not bound by time, the field of computational musicology needs to consider adopting other frameworks to situate itself.
+Regardless of the choice, future work from this should make this clear.
+
+In this chapter I presented the \emph{MeloSol} corpus, new database of monophonic singing melodies.
+Comparing the corpus to other used in the literature, I demonstrated how the \emph{MeloSol} corpus might be used for future research.
+Throughout the chapter I additionally described how the use of corpora in computational musicology often, though not directly adopts the assumptions of a sample, population relationship.
 
 \hypertarget{experiments}{%
 \chapter{Experiments}\label{experiments}}
@@ -2206,83 +2293,76 @@ Concrete answer to this question is beyond the scope of this chapter, important 
 \hypertarget{rationale-4}{%
 \section{Rationale}\label{rationale-4}}
 
-Using experiments in order to understand factors that contribute to an individual's ability to take melodic dictation are by no means new \citep{ortmannTonalDeterminantsMelodic1933}.
-This is not a simple problem as noted in CHAPTER 1, as both individual differences as well as musical features are difficult to quantify and subsequently model.
+Using experiments in order to understand factors that contribute to an individual's ability to remember melodic material are by no means new \citep{ortmannTonalDeterminantsMelodic1933}.
+This is not a simple problem as noted in the \protect\hyperlink{intro}{Theoretical Background and Rationale}, as both individual differences as well as musical features are difficult to quantify and subsequently model.
 Capturing variability at both the individual and item level not only is riddled with measurement problems, but this variability problem is only exacerbated when realizing many of the statistical ramifications of measuring so many variables in a single experiment.
-Many variables leads to many tests, which leads to inflated type I error rates as well as massive resources needed in order to detect even small effects.
-When viewed empirically from the perspective of experimental design, melodic dictation becomes gnarly.
+Many variables leads to many tests, which leads to inflated type I error rates, as well as massive resources needed in order to detect even small effects.
 
-Fortunately dealing with high levels of variability at both the individual and item level is not a problem exclusive to work on melodic dictation.
-Recently work from LINGUSITICS has developed more sophisticated methodologies that are able to accommodate the above challenges and provide a more elegant way of handling these types of problems.
-In this chapter, synthesize work from the previous chapters of this dissertation in in an experiment investigating melodic dictation.
-Unlike work in the past literature, I take advantage of statistical methodologies that are able to better accommodate problems in experimental design using these types of paradigms.
-By using hierarchical mixed linear modeling, I borrow methodologies from LINGUSITICS in order to put forward a more principled way of modeling data that more ecologically reflects melodic dictation.
-I show how it is possible ti combine both tests of individual ability and musical features to predict score.
-Discuss new intricacies of this kind of testing like scoring, relate back to classroom.
-And conclude with showing how if you combine aural skills, computational musicology, mixed effects, this is way forward.
+Fortunately, dealing with high levels of variability at both the individual and item level is not a problem exclusive to work on melodic dictation.
+Recently work from linguistics has developed more sophisticated methodologies that are able to accommodate the above challenges and provide a more elegant way of handling these types of problems \citep{baayenMixedeffectsModelingCrossed2008}.
+In this chapter, I synthesize work from the previous chapters of this dissertation in an experiment investigating melodic dictation.
+Unlike work in the past literature, I take advantage of statistical methodologies that are able to better accommodate problems in experimental design using paradigms that accommodate for both individual and item level differences.
+By using hierarchical mixed linear modeling, I put forward a more principled way of modeling data that more ecologically reflects melodic dictation.
+I show how it is possible to combine both tests of individual ability and as well as musical features in order to predict performance.
+Additionally, I discuss the intricacies associated with scoring and relate these practices back to the classroom.
 
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}
 
 Despite its near ubiquity in Conservatory and School of Music curricula, research surrounding topics concerning aural skills is not well understood.
 This is peculiar since almost any individual seeking to earn a degree in music usually must enroll in multiple aural skills classes which cover a wide array of topics from sight-singing melodies, to melodic and harmonic dictation-- all of which are presumed to be fundamental to any musician's formal training.
-Skills acquired in these classes are meant to hone the musician's ear and enable them not only to think about music, but, to borrow Gary Karpinski's phrase, to ``think in music'' (Karpinski, 2000, p.4).
+Skills acquired in these classes are meant to hone the musician's ear and enable them not only to think about music, but, to borrow Gary Karpinski's phrase, to ``think in music'' \citep[p.4]{karpinskiAuralSkillsAcquisition2000}.
 The tacit assumption behind these tasks is that once one learns to think in music, these abilities should transfer to other aspects of the musician's playing in a deep and profound way.
 The skills that make up an individual's aural skills encompass many abilities, though are thought to be reflective of some sort of core skill.
-This is evident in early attempts to model performance in aural skills classes where C. S. Harrison, Asmus, and Serpe (1994) created a latent variable model to predict an individual's success in aural skills classes based on musical aptitude, musical experience, motivation, and academic ability.
+This logic is evident in early attempts to model performance in aural skills classes where \citet{harrisonEffectsMusicalAptitude1994} created a latent variable model to predict an individual's success in aural skills classes based on musical aptitude, musical experience, motivation, and academic ability.
 While their model was able to predict a large amount of variance (73\%), modeling at this high, conceptual of a level does not provide any sort of specific insights into the mental processes that are required for completing aural skills related tasks.
 This trend can also be seen in more recent research that has explored the relationship between how well entrance exams at the university level are able to predict success later on in the degree program.
 
-Wolf and Kopiez (2014) noted a multiple confounds in their study attempting to asses ability level in university musicians such
-as inflated grading, which led to ceiling effects, as well as a broad lack of consistency in how schools are assessing success within their students.
-But even if the results at the larger level were to be clearer, again this says nothing about the processes that contribute to tasks like melodic dictation.
-Rather than taking a bird's eye view of the subject, this chapter will primarily focus on factors that might contribute to an individual's ability dictate a melody.
--- note here on not causal, still descriptive to foreshadow next chapter
+\citet{wolfGradesReflectDevelopment2014} noted a multiple confounds in their study attempting to asses ability level in university musicians such as inflated grading, which led to ceiling effects, as well as a broad lack of consistency in how schools are assessing success within their students.
+But even if the results at the larger level were to be clearer, this again says nothing about the processes that contribute to tasks like melodic dictation.
+Rather than taking a bird's eye view of the subject, this chapter will primarily focus on descriptive factors that might contribute to an individual's ability dictate a melody.
 
-Melodic dictation is one of the central activities in an aural
-skills class.
+Melodic dictation is one of the central activities in an aural skills class.
 The activity normally consists of the instructor of the class playing a monophonic melody a limited number of times and the students must use both their ears, as well as their understanding of Western Music theory and notation, in order to transcribe the melody without any sort of external reference.
-No definitive method is taught across universities, but many schools of thought exist on the topic and a wealth of resources and materials have been suggested that might help students better complete these tasks (Berkowitz, Frontier, \& Kraft, 1960; Cleland \& Dobrea-Grindahl, 2013; Karpinski, 2007; Ottman, 1996).
+No definitive method is taught across universities, but many schools of thought exist on the topic and a wealth of resources and materials have been suggested that might help students better complete these tasks \citep{berkowitzNewApproachSight2011, clelandDevelopingMusicianshipAural2010, karpinskiManualEarTraining2007, ottmanMusicSightSinging2014}
 The lack of consistency could be attributed to the fact that there are so many processes at play during this process.
 Prior to listening, the student needs to have an understanding of Western music notation at least to the degree of understanding of the melody being played.
-This understanding needs to be readily accessible, since as new musical information is heard, it is the student's responsibility to, in that moment, encode the melody into either hold a chunk of the melody in short term memory or pattern match to long term memory so that they can identify what they are hearing and transcribe it moments later into Western notation.
-So no matter what, performing some sort of aural skills task requires both long term memory and knowledge for comprehension, as well as the ability to actively manipulate differing degrees of complex musical information in real time while concurrently writing it down.
+This understanding needs to be readily accessible, since as new musical information is heard, it is the student's responsibility to, in that moment, to essentially follow the Karpinski model and encode the melody in short term memory or pattern match to long term memory \citep{ouraConstructingRepresentationMelody1991a} so that they can identify what they are hearing and transcribe it moments later into Western notation \citep{karpinskiAuralSkillsAcquisition2000, karpinskiModelMusicPerception1990}.
+Regardless, performing some sort of aural skills task requires both long term memory and knowledge for comprehension, as well as the ability to actively manipulate differing degrees of complex musical information in real time while concurrently writing it down.
 
 Given this complexity of the task, as well as the difficulty in quantifying attributes of melodies, it is then not surprising that scant research exists on describing these tasks.
 Fortunately, a fair amount of research exists in related literature which can generate theories and hypotheses explaining how individuals dictate melodies.
 Beginning first with factors that are less malleable from person to person would be individual differences in cognitive ability.
 While dictating melodies is something that is learned, a growing body of literature suggests that other factors can explain
 unique amounts of variance in performance via differences in cognitive ability.
-For example, Meinz and Hambrick (2010) found that measures of working memory capacity (WMC)
+For example, \citet{meinzDeliberatePracticeNecessary2010} found that measures of working memory capacity (WMC)
 were able to explain variance in an individual's ability to sight read above and beyond that of sight reading experience and
 musical training.
-Colley, Keller, and Halpern (2017) recently suggested an individual's WMC also could help explain
-differences beyond musical training in tasks related to tasks of
-tapping along to expressive timing in music.
-These issues become more confounded when considering other recent work by Swaminathan, Schellenberg, and Khalil (2017) that suggests factors such as musical aptitude, when considered in the modeling process, can better explain individual differences in intelligence between musicians and nonmusicians implying that within the musical population.
-They claim there is a selection bias that ``smarter'' people tend to gravitate towards studying music, which may explain some of the differences in memory thought to be caused by music study (Talamini, Altoè, Carretti, \& Grassi, 2017).
+\citep{colleyWorkingMemoryAuditory2017} recently suggested an individual's WMC also could help explain differences beyond musical training in tasks related to tasks of tapping along to expressive timing in music.
+These issues become more confounded when considering other recent work by \citet{swaminathanRevisitingAssociationMusic2017} that suggests factors such as musical aptitude, when considered in the modeling process, can better explain individual differences in intelligence between musicians and nonmusicians implying that within the musical population.
+They claim there is a selection bias that ``smarter'' people tend to gravitate towards studying music, which may explain some of the differences in memory thought to be caused by music study \citep{talaminiMusiciansHaveBetter2017}.
 Knowing that these cognitive factors can play a role warrants attention from future researchers on controlling for variables that might that might contribute to this process but are not directly intuitive and have not been considered in much of the past
 research.
-This is especially important given recent critique of models that purport to measure cognitive ability but are not grounded in an explanatory theoretical model (Kovacs \& Conway, 2016).
+This is especially important given recent critique of models that purport to measure cognitive ability but are not grounded in an explanatory theoretical model \citep{kovacsProcessOverlapTheory2016}.
 
-\begin{quote}
-Memory for Melodies
-\end{quote}
+\hypertarget{memory-for-melodies-1}{%
+\subsection{Memory for Melodies}\label{memory-for-melodies-1}}
 
 The ability to understand how individuals encode melodies is at the heart of much of the music perception literature.
-Largely stemming from the work of Bregman (1994), Deutsch and Feroe (1981), and Dowling (1978; 1971) work on memory for melodies has begun to lay the foundation for how people learn melodies.
+Largely stemming from the work of Bregman \citep{bregmanAuditorySceneAnalysis2006}, Deutsch and Feroe, \citep{deutschInternalRepresentationPitch1981}, and Dowling's \citep{bartlettRecognitionTransposedMelodies1980, dowlingExpectancyAttentionMelody1990, dowlingPerceptionInterleavedMelodies1973, dowlingScaleContourTwo1978} work on memory for melodies.
 Initial work by Dowling suggested that both key and contour information play a central role in the perception and memory of novel melodies.
-Interestingly enough, memory for melodies tends to be much worse than memory for other stimuli such as pictures or faces noting that the average area under the ROC curve tends to be at about .7 in many of the studies they reviewed, with .5 meaning chance and 1 being a perfect performance (Halpern and Bartlett, 2010).
-Halpern and Bartlett also note that much of the literature on memory for melodies primarily used same difference experimental paradigms to investigate individual's melodic perception ability similar to the paradigm used in Halpern and Mullensiefen (2008).
+Memory for melodies tends to be much worse than memory for other stimuli such as pictures or faces noting that the average area under the ROC curve tends to be at about .7 in many of the studies they reviewed, with .5 meaning chance and 1 being a perfect performance \citep{halpernMemoryMelodies2010}.
+Halpern and Bartlett also note that much of the literature on memory for melodies primarily used same difference experimental paradigms to investigate individual's melodic perception ability similar to the paradigm used in \citep{halpernEffectsTimbreTempo2008}.
 
-\begin{quote}
-Musical Factors
-\end{quote}
+\hypertarget{musical-factors-1}{%
+\subsection{Musical Factors}\label{musical-factors-1}}
 
 Not nearly as much is known about how an individual learns melodies, especially in dictation setting.
 The last, and possibly most obvious, variable that would contribute to an individual's ability to learn and dictate a melody would be the amount of exposure to the melody and the complexity of the melody itself.
-There is not much research on the first of these
-two points, other than an approximation of how many times the melody should be played in a dictation setting according to (Karpinski, 2007, p.100) that accounts for chunking as well as the idea that more exposure would lead to more complete encoding.
+A fair amount of research from the music education literatre examines melodic dictation in a more ecological setting \citep{buonviriEffectsMusicNotation2015, buonviriEffectsPreparatorySinging2015, buonviriEffectsSilenceSound2018, buonviriEffectsTwoListening2017, buonviriExplorationUndergraduateMusic2014, buonviriMelodicDictationInstruction2015, unsworthAutomatedVersionOperation2005}, but most take a descriptive approach to modeling the results using between subject manipulations.
+Some rules of thumb regarding how many times a melody should be played in a dictation setting have been proposed by Karpinski \citep[p.99]{karpinskiAuralSkillsAcquisition2000} that account for chunking as well as the idea that more exposure would lead to more complete encoding.
+For example, he suggests using the formula \(P = (Ch/L) + 1\) where \(P\) is the number of playings, \(Ch\) is the number of chunks in the dictation (with chunk defined as a single memorable unit), and \(L\) = the limit of a listener's short term memory in terms of chunks, a number between 6 and 10.
+This operant definition requires expert selection of what a chunk is and also does not take into account any of the Experimental factors put forward in the taxnomy presented in this dissertation's {[}Theoretical Backgorund and Rationale{]}.
 
 Recently tools have been developed in the field of computational musicology to help with operationalizing how
 complex melodies are.
@@ -2436,8 +2516,8 @@ Differences between melodies can be see below in Figure 5.
   FIGRE 5 BOX PLOT
 \end{itemize}
 
-\hypertarget{discussion-1}{%
-\section{Discussion}\label{discussion-1}}
+\hypertarget{discussion-2}{%
+\section{Discussion}\label{discussion-2}}
 
 Here, we have investigated the extent to which both individual differences and abstracted musical features could be used to model results in melodic dictations.
 In order to examine H1, we ran a repeated measures ANOVA in order discern any differences in melody difficulty.

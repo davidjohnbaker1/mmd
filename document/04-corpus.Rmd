@@ -1,22 +1,22 @@
-# Hello, Corpus{#chapterfour}
+# Hello, Corpus {#chapterfour}
 
 ## Rationale 
 
 One of the essential features of any scientific discovery is the ability to reproduce the finding.
-Given a new claim about reality, in order to be able to demonstrate that the claim is true, the new phenomena should remain invariant when reproduced.
-If the phenomena satisfies pre-established criteria for causality, this evidence can be used to corroborate its generating theories.
-This type of rationale is often associated with scientific methodologies, but music and science have a long, enjoyed history.
+Given a new claim about reality, in order to be able to demonstrate that the claim is true, the new phenomenon should remain invariant when reproduced.
+If the phenomenon satisfies pre-established criteria for causality, this evidence can be used to corroborate its generating theories.
+This type of rationale is often associated with scientific methodologies and needs to be adopted here as many questions in music research are better suited for these methods.
 As noted by scholars like Allen Forte, "In virtually any historic period one finds an interaction between music and science and mathematics" [@forteMusicComputingPresent1967].
 Music was one of the seven liberal arts during Roman times belonging to the quadrivium along with astronomy, geometry, and arithmetic.
 In fact, many disciplinary differences in musical study more likely to result from geopolitical divides as how scholars conceptualize the study of music based on their location, rather than the content and form of their research [@parncuttSystematicMusicologyHistory2007].
 It should then come as no surprise that studies in music will often interface with diverse methodologies. 
 
 Returning to a phenomenon's invariance under different conditions, one of the most effective ways to investigate claims about the state of reality is to reproduce previously made claims using new data.
-One of the most important contributions that a researcher can make towards either bolstering or refuting claims about the nature of music and its resulting theories would be to generate more materials in which to examine previous claims under new conditions.
+One contributions that a researcher can make towards either bolstering or refuting claims and their resulting theories would be to generate more materials in which to examine previous claims under new conditions.
 In order to accomplish this, in this chapter I introduce a new corpus of sight-singing melodies based on the pedagogical text "A New Approach to Sight Singing" [@berkowitzNewApproachSight2011].
-The corpus contains 783 monophonic melodies that have been digitally encoded in the kern format [@huronHumdrumToolkitReference1994] and contain both melodies specifically composed for use in the Aural Skills classroom and examples of melodies from outside musical literature.
-Due to the fact that the corpus contains melodic data from a sight-singing anthology, for easier reference I will refer to it as the _MeloSol_ corpus.
-After introducing the corpus, I compare the _Melosol_ corpus with the Essen Folk Song collection [@schaffrathEssenFolkSong1995]  in order to highlight variability between these musical corpora.
+The corpus contains 783 monophonic melodies that have been digitally encoded in the kern format [@huronHumdrumToolkitReference1994] and contain both melodies specifically composed for use in the Aural Skills classroom and examples of melodies from the Western canon.
+Due to the fact that the corpus contains melodic data from a sight-singing anthology first published by Sol Berkowitz, for ease of reference I will refer to this corpus as the _MeloSol_ corpus.
+After introducing the corpus, I compare the _Melosol_ corpus with the _Essen Folk Song Collection_ [@schaffrathEssenFolkSong1995] as well as a portion of the _Densmore_ collection [@shanahanDENSMORECOLLECTIONNATIVE2014] in order to highlight variability between these musical corpora.
 I end by highlighting important considerations in the underlying representations of what the data represent and what these assumptions entail for future work in computational musicology. 
 
 ## History
@@ -26,22 +26,24 @@ As reviewed by @hewlettComputingMusicology1991, early approaches to using music 
 The use of computers to study music at this time was not by any means a sparse area of study and throughout the second half of the 20th century, research in computational musicology grew in relation to the computing abilities afforded by the available technologies [@nettheimBibliographyStatisticalApplications1997].
 During this time, not only was there progress made on computing power, many forms of developing new encoding frameworks were developed. 
 As discussed by @wigginsFrameworkEvaluationMusic1993, the design and development of these encoding frameworks has impact on the degree that the systems can be assessed.
-According to Wiggins and colleagues a framework can be evaluated on the two orthogonal dimensions of expressive completeness and structural generality. 
-Considering what system is used to then encode musical information then becomes paramount given that the level of granularity that musical data is encoded will determine the types of questions that could eventually be asked in a computational analysis.
-For example, data encoded in a MIDI or CHARM format is able to store micro-time variations in performance practice, which might lend it to being able to do performance based analyses on this data.
+According to Wiggins and colleagues, a framework can be evaluated on the two orthogonal dimensions of expressive completeness and structural generality. 
+Considering how a system is developed in order to encode encode musical information then becomes paramount given that the level of granularity of encoding data will determine the types of questions that could eventually be asked in a computational analysis.
+For example, data encoded in MIDI or CHARM format is able to store micro-time variations in performance practice, which lends itself to the ability to do performance based analyses on this data.
 If this data were instead to have been encoded in just using a frequency spectrum as would be stored in an MP3 or WAV file, this type of analysis could not be carried out as accurately due to the task of automating the detection of pitch onsets.
 
 On a higher level of abstraction, this problem of how a melody is encoded becomes exacerbated when considering meta-research issues such as the the tools-to-theories heuristic put forward by Gigerenzer [@gigerenzerToolsTheoriesHeuristic1991].
-Gigerenzer claims that much of both the novelty and authority given to the trajectory of a research path is determined by the tools a group decided is valid, and not the generation of new data or theories.
+Gigerenzer claims that much of both the novelty and authority given to the trajectory of a research path is determined by the tools a group decided is valid and not the generation of new data or theories.
 Contextualizing this problem for digital music encoding, again choosing how to represent the data reflects ontological and epistemological assumptions about the data itself.
+Not only does committing to an encoding system come with the inevitable eliminating important musical features, but over time the establshing of canonical assumptions about the nature of methods might lead to researchers choosing questions and methods based on the convience of answering those questions, rather than committment to the question itself. 
+This type of problem would only be exacerbated in high pressure, performance based research environments. 
 Further, the technology used to be able to query or test this data would provide an additional constraint on the analysis.
 
 Currently there is a large amount of variability in types of encoding available as well as tools that can be used for computer based analysis. 
 Popular analysis software such as music21 [@cuthbertMusic21ToolkitComputerAided2010], David Huron's Humdrum [@huronHumdrumToolkitReference1994], as well as technologies being developed by the Single Interface for Music Score Searching and Analysis (SIMSSA) project based in McGill all exist as options for the musicologist to adopt.
-Despite differences the advantages between both types of encoding and tools use to analyze this data, parsers such as the MeloSpySuite are constantly being developed to serve as digital music's Rosetta stone resulting in a current eco-system that allows for moving between options granted a competent degree of computer programming experience [@frielerIntroducingJazzomatProject2013]. 
+Despite differences the advantages between both types of encoding and tools use to analyze this data, parsers such as the MeloSpySuite are constantly being developed to serve as digital music's Rosetta stone resulting in a current eco-system that allows for moving between encoding formats [@frielerIntroducingJazzomatProject2013]. 
 
 While many of the encoding formats throughout the past 50 years have fallen out of favor, the kern format of encoding data developed by David Huron has persisted as a choice for many computational musicologists since its initial development in 1994.
-The kern format (often stylized as ```**kern```) was developed in tandem with the Humdrum Toolbox for music analysis that according to Humdrum user guide is
+The kern format (often stylized as ```**kern```) was developed in tandem with the Humdrum Toolbox for music analysis that according to Humdrum user guide [@huronHumdrumToolkitReference1994] is
 
 > a set of command-line tools that facilitates musical analysis, as well as a generalized syntax for representing sequential streams of data. Because it’s a set of command-line tools, it’s program-language agnostic. Many have employed Humdrum tools in larger scripts that use PERL, Ruby, Python, Bash, LISP, and C++.
 
@@ -55,7 +57,7 @@ In this next section I introduce a new corpus of melodies encoded in the kern fo
 The melodies come from the 5th edition of "A New Approach to Sight Singing" written by Sol Berkowitz, Gabriel Fontrier, Leo Kraft, Perry Goldstein, and Edward Smaldone, [@berkowitzNewApproachSight2011]. 
 This corpus includes 783 melodies from the first and last chapters of the book.
 The first chapter contains melodies from five different sections and the fifth chapter contains "Melodies from the Literature" and is made up of four sections.
-Melodies from the first chapter have all been specifically composed for use in a sight-singing contexts.
+Melodies from the first chapter have all been specifically composed for use in sight-singing contexts.
 Melodies from the fifth chapter are small excerpts from examples of both excerpts from Western Classical Music canon and traditional folk songs of various countries.
 Some excerpts from the literature have been slightly modified for singablilty.
 
@@ -64,6 +66,7 @@ In addition to having a key signature in each kern file, I have also added an ex
 Each section of the book contains melodies that would be considered tonal, except for melodies in the fifth section of the first chapter and intermittent melodies in the fourth section of the fifth chapter which contain atonal melodies.
 If a melody is decidedly atonal or modal, this is documented in the metadata.
 Atonal melodies are given the explicit key of C major so that they can be analyzed and parsed as if they were part of a fixed do system.
+This encoding decision is reflected in the Key Distribution panel of \@ref(fig:melosol_descriptive_panel).
 
 ```{r melosol_descriptive_panel, echo=FALSE, fig.cap="Descriptive Statistics of MeloSol",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/melosol_descript_panel.png")
@@ -73,30 +76,35 @@ Figure \@ref(fig:melosol_descriptive_panel) shows basic descriptive statistics o
 The figure highlights general features of the corpus that might be of interest to future researchers.
 In sum, the corpus represents 783 unique melodies comprising 49,730 data tokens.
 Of these 49,730 tokens, 36,641 are currently kern interpretable using the humdrum toolbox.
-The dataset also exists in a MIDI, csv, and xml format for analysis with other tool sets
+The dataset also exists in a MIDI, csv, and xml format for analysis with other tool sets.
+All data was manually created.
 
 ## Comparison of Corpora 
 
-In order to gives brief overview of the corpus and contextualize it in the context of other corpora, in this next section I compare the _MeloSol_ corpus with the Essen Folk song collection [@schaffrathEssenFolkSong1995], as well as the Densmore collection [@shanahanDENSMORECOLLECTIONNATIVE2014]
-Both the Essen, Densmore, and _MeloSol_ were contain melodies vocal melodies.
-The Berkowitz corpus was specifically designed for pedagogical purposes whereas the Essen and Densmore are more ecologically reflective of melodies originating from a diversity of sources.
-Given that these corpora consist of vocal melodies, there presumably would be differences on between the two corpora on a large scale structure.
-I can then further investigate differences at the group level by investigating melodies of Asian origin from the Essen collection and those of Native American from the Densmore.
-Additionally, another important reason for comparing these corpora is that the Essen is one of the most heavily cited corpora in the field of computational musicology and often taken as a proxy to represent the underlying expectational structure of Western music.
+In order to gives brief overview of the corpus and contextualize it in the context of other corpora, in this next section I  compare the _MeloSol_ corpus with the _Essen Folk Song Collection_ [@schaffrathEssenFolkSong1995], as well as the _Densmore_ collection [@shanahanDENSMORECOLLECTIONNATIVE2014] with a brief corpus analysis.
+All three corpora here contain vocal melodies.
+The Berkowitz corpus was specifically designed for pedagogical purposes whereas the _Essen_ and _Densmore_ are more ecologically reflective of melodies originating from a diversity of sources.
+Given that these corpora consist of vocal melodies, there presumably would be differences on between the corpora on a large scale structure.
+I can then further investigate differences at the group level by investigating melodies of Asian origin from the _Essen_ collection and those of Native American from the _Densmore_.
+These group level differences are chosen for their geographic location and are not taken to be reflective of a cultural aggregate.
 
-Much of this work makes claims about general level musical features such as the melodic arch [@huronMelodicArchWestern1996; [@shanahanExaminingEffectOral2019] or that the implicitly learned patterns of a musical style can be represented using a corpus of digitized melodies [@demorestQuantifyingCulture2015; @pearceStatisticalLearningProbabilistic2018a].
+Another important reason for comparing these corpora is that the _Essen_ is one of the most heavily cited corpora in the field of computational musicology and often taken as a proxy to represent the underlying expectational structure of Western music.
+Much of the research that assumes this makes claims about general level musical features such as the melodic arch [@huronMelodicArchWestern1996; @shanahanExaminingEffectOral2019] or that the implicitly learned patterns of a musical style can be represented using a corpus of digitized melodies [@demorestQuantifyingCulture2015; @pearceStatisticalLearningProbabilistic2018a].
 In this context, the underlying assumption in this inference is that a corpus-- in this case a folk song collection-- is a sample of the larger population of Western music.
 This assumption tacitly borrows the underlying logic from the Frequentist schools of thought [@dienesUnderstandingPsychologyScience2008]; the corpus is taken to be a sample of the population. 
-This assumption is made even further when using the null hypothesis significance testing framework. 
+This assumption is furthered when analyses are done using the null hypothesis significance testing framework. 
 
-If researchers then adopt this underlying assumption, it should then follow that in order to continually find support for theories and hypotheses, new evidence should be put forward that uses a similar population, yet different samples.
+If researchers then adopt this underlying assumption, it should then follow that in order to continually find support for these theories and hypotheses, new evidence should be put forward that uses a similar population, yet different samples.
 Doing so would require the creation of new samples from a parent population, very much akin to the _MeloSol_ corpus.
+Like the _Essen_, the _MeloSol_ corpus contains melodies in the Western, tonal tradition constrained by vocal performance.
 Alternatively, researchers could adopt different research epistemologies other than a general Frequentist approach, such as using Bayesian methods that do not assume a sample-population relationship, but rather take the data as the model itself.
 Regardless of what methodology is chosen, providing more evidence for previous claims depends on, as noted above, finding new evidence for claims with new data. 
 
-In order to compare the Essen collection with the _MeloSol_ corpus, I first plot general level descriptive features of both corpora next to each other in \@ref(fig:comp_desc).
+### Corpus Analysis
+
+In order to compare the _Essen_collection with the _MeloSol_ corpus, I first plot general level descriptive features of all corpora in \@ref(fig:comp_desc).
 Creating these visualizations demonstrates size differences between the corpora.
-As noted in the bottom right panel of \@ref(fig:comp_desc), then Essen collection is much larger than that of the _MeloSol_ or the Densmore collection. 
+As noted in the bottom right panel of \@ref(fig:comp_desc), then _Essen_ collection is much larger than that of the _MeloSol_ or the _Densmore_ collection. 
 
 ```{r comp_desc, echo=FALSE, fig.cap="Descriptive Features",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/comparative_descritive_panel.png")
@@ -104,15 +112,15 @@ knitr::include_graphics("img/comparative_descritive_panel.png")
 
 From the above panels, it appears that there the _MeloSol_ corpus has much more variability in the range or tessitura of melodies.
 This difference is most likely reflective of nature of the _MeloSol_ melodies which were composed for didactic use, and thus were the product of composition with a notational system.
-Interestingly, both sets from the Essen Collection tend to have much more defined peaks.
+Interestingly, both sets from the _Essen_Collection tend to have much more defined peaks.
 Though a post-hoc interpretation, these peaks might serve as the basis for a study on physical affordances drawing together work on melody transmission [@shanahanExaminingEffectOral2019] and the cognitive affordance provided via to notation [@lerdahlCognitiveConstraintsCompositional1992].
 Melodies between the four data sets also tend to have overlapping density distributions in terms of both length and note density.
 
-Secondly, I then overlay emergent emergent properties from the corpora standardized for size again using density plots.
-The underlying logic in the following exploratory analysis would be if the _MeloSol_ and European subsets of the Essen are samples of large subset of properties found in Western music, there should be some degree of overlap between the emergent elements.
+Secondly, I then overlay emergent emergent properties from the corpora-- standardized for size-- using density plots.
+The underlying logic in the following exploratory analysis would be if the _MeloSol_ and European subsets of the _Essen_ are samples of large subset of properties found in Western music, there should be some degree of overlap between the emergent elements.
 From the panels below, the key comparisons will be to look between the blue and yellow distributions.
 Interestingly, looking at the panels plotting Tonalness as well as Tonal Spike, two measures of tonality derived from the FANTASTIC toolbox used to complete this analysis, the underlying distributions tend to follow a similar distributional pattern.
-Inspecting some of the features further, the Densmore collection shows a marked departure in interval entropy from the other three distributions and also shows more variability in terms of contour variation as calculated by the FANTASTIC stepwise.contour.global.variation metric. [@mullensiefenFantasticFeatureANalysis2009]
+Inspecting some of the features further, the Densmore collection shows a marked departure in interval entropy from the other three distributions and also shows more variability in terms of contour variation as calculated by the FANTASTIC stepwise.contour.global.variation metric [@mullensiefenFantasticFeatureANalysis2009].
 
 ```{r comp_emergent, echo=FALSE, fig.cap="Emergent Features",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/corpora_emergent.png")
@@ -120,7 +128,7 @@ knitr::include_graphics("img/corpora_emergent.png")
 
 The addition of the _MeloSol_ corpus also provides an opportunity to investigate and replicate other claims made in the musicological literature.
 For example, in Figure \@ref(fig:comp_huron), I have reproduced the first level analysis David Huron puts forward in [@huronMelodicArchWestern1996].
-From the figure, there appears to be similar patterns between the European subset of the Essen collection and that of the _MeloSol_ corpus.
+From the figure, there appears to be similar patterns between the European subset of the _Essen_ collection and that of the _MeloSol_ corpus.
 
 The most prominent phrase type in both corpora is the convex contour, followed secondly by the descending contour pattern.
 Future versions of the _MeloSol_ corpus could be used to add phrase marks and examine the extent to which Huron's claims hold in a categorically different, yet grammatically similar corpus. 
@@ -129,8 +137,8 @@ Future versions of the _MeloSol_ corpus could be used to add phrase marks and ex
 knitr::include_graphics("img/huron_recreation.png")
 ```
 
-Lastly, in \@ref(fig:keyprofiles), I plot standardized key profiles for the Essen and _MeloSol_ corpora as presented in this chapter [@krumhanslCognitiveFoundationsMusical2001].
-The Densmore collection is not included here as it does not come with explicit key data.
+Lastly, in \@ref(fig:keyprofiles), I plot standardized key profiles for the _Essen_ and _MeloSol_ corpora as presented in this chapter [@krumhanslCognitiveFoundationsMusical2001].
+The _Densmore_ collection is not included here as it does not come with explicit key data.
 
 ```{r krum, echo=FALSE, fig.cap="Tonal Hierarchy of Corpora",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/krum_panel.png")
@@ -138,22 +146,32 @@ knitr::include_graphics("img/krum_panel.png")
 
 On overall view shows that the three corpora exhibit relatively similar distribution profiles.
 As with previous research, the tonic and dominant scale degree occur most frequently.
-There appears to be a general lack of scale degree four and seven in the Asian subset of the Essen and interestingly a large amount of the supertonic.
+There appears to be a general lack of scale degree four and seven in the Asian subset of the _Essen_ and a large degree of the supertonic.
 There is also a large amount of the sixth scale degree here, a topic addressed by @brinkmanLeadingSixthScale2018, though in the context of European music.
 As a corpus, the _MeloSol_ corpus shows a high percentage of the leading tone, a musical feature synonymous with Western classical music.
 Inspecting the chromatic aggregate, the _MeloSol_ corpus also has the highest representation of all scale degree sevens.
 Overall, finding similar distributional patterns in scale degrees with a new corpus provides further support of the stability of the existence of tone distribution profiles.
 
-Surveying how the _MeloSol_ corpus compares to that of the Essen and Densmore Folk song collections, I've demonstrated various ways to investigate what properties of music remain might remain invariant under different analyses.
-While the _MeloSol_ corpus does not exactly reflect the global level parameters of that of the European subset of the Essen Collection, there appears to be evidence that some properties are the same.
-Thinking about this problem begs the question of if the computational musicology community does assume a sample, population relationship between corpus and population.
+### Discussion
+
+Surveying how the _MeloSol_ corpus compares to that of the _Essen_ and _Densmore_ Folk song collections, I've demonstrated various ways to investigate what properties of music remain might remain invariant under different analyses.
+While the _MeloSol_ corpus does not exactly reflect the global level parameters of that of the European subset of the _Essen_ Collection, there appears to be evidence that some properties are the same.
+Thinking about this problem begs the question if the computational musicology community does assume a sample, population relationship between corpus and population.
 If this is true, considering how to reproduce findings in a meaningful way is important for the health of the field.
-If true, the community would be able to continue doing analyses such as that of [@huronMelodicArchWestern1996], but then needs to consider such a bold claim might then replicate.
-Of all people, Huron has addressed this issue BIG DATA, but it is my assertion that these assumptions have still yet to be made explicit in most computational analyses.
-For example, studies like THIS presumably assume the sample-population framework, but replicating this finding would require either post-humerous score discovery or resurrection, two very unlikely events. 
-The other option might be to estimate parameter values based on a corpus, then use these in order to generate new stimuli following in the footsteps of GENERATION.
-Applying this model might be a way forward for synthesizing the corpus presented here with work from the previous chapter on determining difficulty levels in the classroom. 
-If this assumption regarding the sample-population relationship is not true, the field of computational musicology needs to consider adopting other frameworks to situate itself.
+If true, the community would be able to continue doing analyses such as that of @huronMelodicArchWestern1996, but then needs to consider such a bold claim might then replicate.
+Huron has addressed this issue [@huronVirtuousVexatiousAge2013] suggesting that the proliferation of "Big Data" will eventually lead computational musicology to an "ironic" state where statistical inference tools are no longer applicable because researchers will have access to an entire population.
+This assertion again implicitly assumes the Frequentist epistomological framework of samples and population, but Frequentism is not the only framework availible to the empirical research community [@dienesUnderstandingPsychologyScience2008].
+It is my assertion that these assumptions have still yet to be made explicit in computational analyses.
+
+For example, studies such as that by @frielerTellingStoryDramaturgy2016 fit a series of models on solos from a jazz corpus.
+The solos are taken to represent the larger population of Jazz and the authors further subdivide the Jazz into its various genre divisions such as post-bop, traditional, and cool.
+While Jazz might be the population and the genre divisions to be sub-populations, each solo is then further sampled from an individual.
+In this case, most of the invididuals represented in their corpus are deceased, thus theoretically making the population in which they would be able to generate exhaustive and theoretically accessible.
+At this point, practically replicating these results would either depend on finding undiscovered archive recordings or the generation of new material based on estimating parameter values of a style in order to recreate new stimuli following in the example of the music generation literature. 
+For example, @sturmTakingModelsBack2017 developed an artificial intelligence using deep learning to create folk songs based on 30,000 transcriptions.
+As discussed in follow up work [@sturmMachineLearningResearch2019], this research brings with it implications and assumptions about the state of a musical style.
+If a population is limited by time, presumably all data will follow the path that Huron predicted and lead us to an "ironic" state of population hermenutics.
+If populations are not bound by time, the field of computational musicology needs to consider adopting other frameworks to situate itself.
 Regardless of the choice, future work from this should make this clear. 
 
 In this chapter I presented the _MeloSol_ corpus, new database of monophonic singing melodies.
