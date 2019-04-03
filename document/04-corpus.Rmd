@@ -66,13 +66,13 @@ In addition to having a key signature in each kern file, I have also added an ex
 Each section of the book contains melodies that would be considered tonal, except for melodies in the fifth section of the first chapter and intermittent melodies in the fourth section of the fifth chapter which contain atonal melodies.
 If a melody is decidedly atonal or modal, this is documented in the metadata.
 Atonal melodies are given the explicit key of C major so that they can be analyzed and parsed as if they were part of a fixed do system.
-This encoding decision is reflected in the Key Distribution panel of \@ref(fig:melosol_descriptive_panel).
+This encoding decision is reflected in the Key Distribution panel of \@ref(fig:melosoldescriptivepanel).
 
-```{r melosol_descriptive_panel, echo=FALSE, fig.cap="Descriptive Statistics of MeloSol",fig.align='center', out.width="100%"}
+```{r melosoldescriptivepanel, echo=FALSE, fig.cap="Descriptive Statistics of MeloSol",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/melosol_descript_panel.png")
 ```
 
-Figure \@ref(fig:melosol_descriptive_panel) shows basic descriptive statistics of the _MeloSol_ corpus.
+Figure \@ref(fig:melosoldescriptivepanel) shows basic descriptive statistics of the _MeloSol_ corpus.
 The figure highlights general features of the corpus that might be of interest to future researchers.
 In sum, the corpus represents 783 unique melodies comprising 49,730 data tokens.
 Of these 49,730 tokens, 36,641 are currently kern interpretable using the humdrum toolbox.
@@ -102,17 +102,17 @@ Regardless of what methodology is chosen, providing more evidence for previous c
 
 ### Corpus Analysis
 
-In order to compare the _Essen_collection with the _MeloSol_ corpus, I first plot general level descriptive features of all corpora in \@ref(fig:comp_desc).
+In order to compare the _Essen_ collection with the _MeloSol_ corpus, I first plot general level descriptive features of all corpora in \@ref(fig:compdesc).
 Creating these visualizations demonstrates size differences between the corpora.
 As noted in the bottom right panel of \@ref(fig:comp_desc), then _Essen_ collection is much larger than that of the _MeloSol_ or the _Densmore_ collection. 
 
-```{r comp_desc, echo=FALSE, fig.cap="Descriptive Features",fig.align='center', out.width="100%"}
+```{r compdesc, echo=FALSE, fig.cap="Descriptive Features",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/comparative_descritive_panel.png")
 ```
 
 From the above panels, it appears that there the _MeloSol_ corpus has much more variability in the range or tessitura of melodies.
 This difference is most likely reflective of nature of the _MeloSol_ melodies which were composed for didactic use, and thus were the product of composition with a notational system.
-Interestingly, both sets from the _Essen_Collection tend to have much more defined peaks.
+Interestingly, both sets from the _Essen_ Collection tend to have much more defined peaks.
 Though a post-hoc interpretation, these peaks might serve as the basis for a study on physical affordances drawing together work on melody transmission [@shanahanExaminingEffectOral2019] and the cognitive affordance provided via to notation [@lerdahlCognitiveConstraintsCompositional1992].
 Melodies between the four data sets also tend to have overlapping density distributions in terms of both length and note density.
 

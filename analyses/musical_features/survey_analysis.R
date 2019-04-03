@@ -3,6 +3,7 @@
 #--------------------------------------------------
 library(tidyverse)
 library(irr)
+library(viridis)
 #--------------------------------------------------
 
 dictation_survey <- read_csv("aural_survey/Dictation_Survey_Responses.csv")
@@ -100,7 +101,8 @@ dictation_survey %>%
   labs(title = "Age and Educational Distribution of Sample",
        x = "Age",
        y = "Frequency Count", fill = "Educational Status") +
-  theme_minimal() -> age_ed_survey_distribution
+  theme_minimal() + 
+  scale_fill_viridis(discrete = TRUE) -> age_ed_survey_distribution
 
 age_ed_survey_distribution
 
@@ -315,6 +317,8 @@ dictation_survey %>%
        x = "Melody",
        y = "Pearson Correlation Coefficient") + 
   theme_minimal() -> grammar_difficulty_correlation_plot
+
+grammar_difficulty_correlation_plot
 
 ggsave(filename = "document/img/grammar_difficulty_correlation_plot.png",
        plot = grammar_difficulty_correlation_plot)

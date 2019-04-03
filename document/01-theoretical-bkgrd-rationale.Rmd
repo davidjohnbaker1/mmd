@@ -15,7 +15,7 @@ For example, Klonoski in writing about aural skills education aptly questions "W
 Earlier researchers like Potter, in their own publications, have noted how they have been baffled that many musicians do not actually keep up with their melodic dictation abilities after their formal education ends [@potterIdentifyingSucessfulDictation1990], but presumably go on to have successful and fulfilling musical lives. 
 Additionally, suggesting that people who can hear music and then are unable to write it down, thus are unable to think _in_ music [@karpinskiAuralSkillsAcquisition2000], seems somewhat exclusionary to musical cultures that do not depend on any sort of written notation.
 
-Though despite this skepticism towards the topic, melodic dictation remains at the forefront of many aural skills classrooms.
+Despite this skepticism towards the topic, melodic dictation remains at the forefront of many aural skills classrooms.
 The act of becoming better at this skill may or may not lead to large in increases in far transfer of ability, but used as a pedagogical tool, the practice of learning to take melodic dictation intersects with concepts deemed relevant to the core of undergraduate music training.
 While there has not been extensive research on melodic dictation research in recent years-- in fact @paneyEffectDirectingAttention2016 notes that since 2000, only four studies were published that directly examined melodic dictation-- this skill set sits on the border between literature on music learning, melodic perception, memory, and music theory pedagogy.
 Understanding and modeling the processes underlying melodic dictation remains as a untapped watershed of knowledge for the field of music theory, music education, and music perception and is deserving of more attention. 
@@ -27,7 +27,7 @@ It has been nearly two decades since _Aural Skills Acquisition_ was first publis
 
 ### Describing Melodic Dictation 
 
-The foundational pedagogical work on melodic dictation comes from the work of Gary Karpinski.
+The foundational pedagogical work on melodic dictation comes from the work of Karpinski.
 Summarized most recently in his _Aural Skills Acquisition_ [@karpinskiAuralSkillsAcquisition2000]-- though first presented in an earlier article [@karpinskiModelMusicPerception1990]-- Karpinski proposes a four-step model of melodic dictation.
 
 The four steps of Karpinski's model include
@@ -70,10 +70,10 @@ For Karpinski, the quicker what is represented in musical memory can be understo
 
 Notation, the final step of the dictation loop, requires that the individual taking the notation have sufficient knowledge of Western musical notation so that they are able to translate their musical understanding into written notation.
 This last step is ripe for errors and has proved problematic for researchers attempting to study dictation [@taylorStrategiesMemoryShort1983;@klonoskiImprovingDictationAuralSkills2006].
-It is also worth highlighting is that it is difficult to notate musical material if the individual who is dictating does not have the requisite musical category and knowledge for the sounds.
+It is also worth highlighting that it is difficult to notate musical material if the individual who is dictating does not have the requisite musical category and knowledge for the sounds.
 Lack of this knowledge will limit an individual's ability to translate what is in their short term melodic memory into notation, even if it is perfectly represented in memory.
 
-The final parts of the chapter, Karpinski notes that other factors like tempo, the length and number of playings, and the duration between playings will also play a role in determining how an individual will perform on a melodic dictation.
+In the final parts of the chapter, Karpinski notes that other factors like tempo, the length and number of playings, and the duration between playings also plays a role in determining how an individual will perform on a melodic dictation.
 While this framework can help illuminate this cognitive process and help pedagogues understand how to best help their students, presumably there are many more factors that contribute to this process.
 The model as it stands is not detailed enough for explanatory purposes and lacks in two areas that would need to be expanded if this model were to be explored experimentally and computationally.
 
@@ -84,12 +84,13 @@ The model does not have any flexibility in terms of individual differences.
 
 Second, the model presumes the same sequence of events for every melody.
 As a general heuristic for communicating the process, this model serves as an excellent didactic tool.
-Though when this model is applied to more diverse repertoire, this same set of strategies performed in this order might prove to be inefficient. 
-For example, on page 103 of his text, Karpinski suggest that two listenings should be adequate for a listener with few to no chunking skills to listen to be able to dictate a melody of twelve to twenty notes. 
+When this model is applied to more diverse repertoire, this same set of strategies performed in this order might prove to be inefficient. 
+For example, on page 103 of his text, Karpinski suggests that two listenings should be adequate for a listener with few to no chunking skills to be able to dictate a melody of twelve to twenty notes. 
 This process might generalize to many tonal melodies, but presumably different strategies in recognition would be involved in dictating the two melodies of equal length shown in Figure \@ref(fig:shortmelody1) and \@ref(fig:shortmelody2).
 If asked to dictate \@ref(fig:shortmelody1), long term memory processes might begin to play a role much sooner during this task. 
 If asked to dictate \@ref(fig:shortmelody2), establishing a tonal center to act as a perceptual scaffolding for relative relationships might prove to be more difficult. 
-Presumably different people with different levels of abilities will perform differently on different melodies and while helpful as a pedagogical tool, this generalized approach to melodic dictation could be more robust.
+Presumably different people with different levels of abilities will perform differently on different melodies.
+While helpful as a pedagogical tool, this generalized approach to melodic dictation could be more robust.
 
 ```{r shortmelody1, echo=FALSE, fig.cap="Tonal Melody",fig.align='center', out.width="80%"}
 knitr::include_graphics("img/musicalexamples/MMD_Figure2-1.png")
@@ -102,7 +103,8 @@ knitr::include_graphics("img/musicalexamples/MMD_Figure3-1.png")
 This agnosticism for both variability for melodic and individual differences serves as a stepping off point for this study.
 In order to have a more complete understanding of melodic dictation, there needs to be a model that is able to accommodate the exhaustive differences at both the individual and musical levels.
 Additionally, the model should be able to be operationalized so that it can be explored in both experimental and computational settings.
-By explicitly stating variables thought to contribute and understanding the underlying processes of melodic dictation, it will give aural skills pedagogues a better sense of the melodic dictation process, which will then enable a more complete understanding of melodic perception and subsequently allow for better teaching practices in aural skills classrooms.
+Explicitly stating variables thought to contribute the underlying processes of melodic dictation will give aural skills pedagogues a better sense of the melodic dictation process.
+In turn, this will enable a more complete understanding of melodic perception and subsequently allow for better teaching practices in aural skills classrooms.
 
 ### Taxonomizing
 
@@ -137,7 +139,7 @@ Again, this division is not an exhaustive, categorical divide.
 One could imagine exceptions to these rules where a melody is transformed to the minor key, ornamented, and then played with extensive rubato and experienced as a phenomenologically distinct, yet similar experience.
 This division of structural and experimental features is morphologically similar to Leonard Meyer's primary and secondary musical features [@meyerEmotionMeaningMusic1956].
 
-Given all of these parameters that could contribute to the melodic dictation process, the remainder of this chapter will exploring literature using this taxonomy as a guide.
+Given all of these parameters that could contribute to the melodic dictation process, the remainder of this chapter will explore literature using this taxonomy as a guide.
 The chapter concludes with a reflection on operationalizing each of these factors and problems that can arise in modeling and reminds the reader about the dangers of statistical reification.
 These are important to note since from an empirical standpoint, both the task as well as the process of melodic dictation as depicted by Karpinski resemble something that could be operationalized as both an experiment, as well as a computational model.
 
@@ -166,11 +168,11 @@ Even before concepts of intelligence were posited by Charles Spearman via his co
 While scholars like Gould have documented and critiqued much of the history of early psychometrics^[Gould puts forward a complete, yet very charged reading of the early history of cognitive testing and his writings on the subject have been accused of falling prey to the same logic he rails against [@warneStephenJayGould2019]], central to this study are two important schools of thought on intelligence testing commonly discussed in the current literature.
 
 The first ideology originates from Cyril Burt and Charles Spearman who, in developing the statistical tool of factor analysis, posited that a construct of general intelligence exists as a part of human cognition and can be quantified.
-Burt and Spearman claimed that a general intelligence factor existed in human cognition from evidence they found developing a batty of cognitive tests whose performance on one subtest could often reliably predict performance on another.
+Burt and Spearman claimed that a general intelligence factor existed in human cognition from evidence they found developing a battery of cognitive tests whose performance on one subtest could often reliably predict performance on another.
 This phenomena of multiple related tests predicting each other's performance is a manifestation referred to as the positive manifold.
 Spearman and Burt asserted that an individual's ability to solve problems without contextual background information could be understood as general intelligence or _g_. 
 
-Broadly speaking, the second ideology here stems from work by Alfred Binet who instead of conceptualizing intelligence as a monolithic whole, partitioned intelligence into what have today become understood to be defined as differences in general crystallized intelligence or ( _Gc_ ) and general fluid intelligence ( _Gf_ ).
+Broadly speaking, the second ideology here stems from work by Alfred Binet who instead of conceptualizing intelligence as a monolithic whole, partitioned intelligence into what today become understood to be defined as differences in general crystallized intelligence or ( _Gc_ ) and general fluid intelligence ( _Gf_ ).
 General crystallized intelligence is the ability to solve problems given prior contextual information;
 General fluid intelligence is the ability to solve problems in novel contexts [@cattellAbilitiesTheirGrowth1971; @jhornTheoryFluidCrystalized1994] . 
 Comparing _Gf_ and _Gc_ to _g_, the cognitive psychology literature has noted that _g_ often shares a statistically equivalent relationship to idea conceptualized as general fluid intelligence [@matzkeIssuePowerIdentification2010].
@@ -181,9 +183,7 @@ Regardless of their origin, neglecting the predictive power of these variables i
 
 #### Working Memory Capacity 
 
-Another second area in the field of cognitive psychology worthy of examination is working memory capacity.
 In addition to concepts of intelligence, be it _Gf_  or _Gc_, the working memory capacity literature directly relates to work on melodic dictation for reasons discussed below. 
-
 Working memory is one of the most investigated concepts in the cognitive psychology literature.
 According to Nelson Cowan, the term working memory generally refers to 
 
@@ -202,7 +202,7 @@ knitr::include_graphics("img/wm_models.png")
 Later revisions of their model also incorporated an episodic buffer [@baddeleyEpisodicBufferNew2000] where the modules were explicitly depicted as being able to interface with long term memory in the rehearsal processes.
 The model has even been expanded upon by other researchers throughout its lifetime.
 The most relevant to this study is by @berzWorkingMemoryMusic1995, who postulated the addition of a musical rehearsal loop to the already established phonological loop and visual spatial sketchpad.
-While Berz is most likely correct in asserting that the nature of storing and processing musical information is different to that of words or pictures and there has been experimental evidence to suggest this [@williamsonMusiciansNonmusiciansShortterm2010] that has been interpreted in favor of multiple loops [@wollnerAttentionalFlexibilityMemory2016], it does introduce the theoretical problem of determining how and why incoming sensory information is partitioned into the respective loops.
+While Berz is most likely correct in asserting that the nature of storing and processing musical information is different to that of words or pictures and there has been experimental evidence to suggest this [@williamsonMusiciansNonmusiciansShortterm2010] that has been interpreted in favor of multiple loops [@wollnerAttentionalFlexibilityMemory2016], the idea of multiple loops introduces the theoretical problem of determining how and why incoming sensory information is partitioned into their respective loops.
 Additionally, models that assert some sort of central executive component to attend to materials held in a sensory buffer also face the infinite regress homunculus problem.
 Stated more clearly, if the central executive system is what attends to information in the sensory buffers, what attends to the central executive?  
 
@@ -213,11 +213,12 @@ In Cowan's own words comparing his model from that of Baddeley and Hitch:
 > The aim was to see if the description of the processing structure could be exhaustive, even if not complete, in detail. By analogy, consider two descriptions of a house that has not been explored completely. Perhaps it has only been examined from the outside. Baddeley's (1986) approach to modeling can be compared with hypothesizing that there is a kitchen, a bathroom, two equal-size square bedrooms, and a living room. This is not a bad guess, but it does not rule out the possibility that there actually are extra bedrooms or bathroom, that the bedroom space is apportioned into two rooms very different in size, or that other rooms exist in the house. Cowan's (1988) approach, on the other hand, can be compared with hypothesizing that the house includes food preparation quarters, sleeping quarters, bathroom/toilet quarters, and other living quarters. It is meant to be exhaustive in that nothing was left out, even though it is noncommittal on the details of some of the rooms. (p.42) [@cowanWorkingMemoryCapacity2005]
 
 The system is depicted in the bottom tier of Figure \@ref(fig:wmmodels), and conceptualizes the limited amount of information that is readily available as being in the focus of attention.
-In this models, activated sensory and categorical features of the focus of attention are thus readily accessible.
+In this model, activated sensory and categorical features of the focus of attention are thus readily accessible.
 Moving further from the locus of attention is long term memory, whose content can be turned to by using the central executive to access non-immediately available information.
 The central executive system in this case acts as a spotlight on what is represented in long term memory, rather than a module used to direct attention to specific sensory information.
 This change in definition does not completely escape the homunculus problem, but does change the central executive's role in the memory process.
-In contrast to the modular approaches, Cowan's framework does not require the researchers to specify exactly how and where each the incoming information is being stored which makes it advantageous for studying complex stimuli such as music and melodies.
+In contrast to the modular approaches, Cowan's framework does not require researchers to specify exactly how and where incoming information is being stored.
+This makes it advantageous for studying complex stimuli such as music and melodies.
 Using this definition of working memory would require collapsing the first two steps of the Karpinski model of melodic dictation into one step. 
 
 In addition to having multiple frameworks for studying working memory capacity, there is also the problem of limits to the working memory system, often referred to as the working memory capacity. 
@@ -225,7 +226,7 @@ Most popularized by Miller in his famous [@millerMagicalNumberSeven1956] speech 
 It is worth nothing that Miller has since gone on record as noting that using 7 (plus or minus 2) was a rhetorical device used to string together his speech [@millerHistoryPsychologyAutobiography1989]. 
 Nevertheless, while the number seven is most likely a red herring, it did inspire a large amount of research on capacity limits.
 In the decades since the number 7 has been reduced to about 4 [@cowanMagicalMysteryFour2010] and research around capacity limits has been investigated using a variety of novel tasks, most notable the complex span task [@unsworthAutomatedVersionOperation2005; @unsworthComplexWorkingMemory2009].   
-When used as predictors in both higher and lower cognitive tasks, measures of working memory capacity predict performance well and additionally tend to be stable across a lifetime [@unsworthAutomatedVersionOperation2005].
+When complex span tasks are used as a measure of working memory capacity, they tend to be both valid and reliable psychometric tools that are stable across a lifetime [@unsworthAutomatedVersionOperation2005].
 
 #### Working Memory and Melodic Dictation
    
@@ -241,7 +242,7 @@ Of the problems with chunking, most are related to music and are related to melo
 Below I review the problems with chunking noted by @cowanWorkingMemoryCapacity2005, and how each confound would manifest itself in music related research. 
 
 1. _Chunks may have a hierarchical organization._ Tonal music has historically been understood to be hierarchical [@krumhanslCognitiveFoundationsMusical2001; @meyerEmotionMeaningMusic1956; @schenkerFreieSatz1935] with the study for memory for tones being confounded by some pitches being understood by their relation to structurally more stable tones. 
-2. _The working memory load may be reduced as working memory shifts between levels in hierarchy._ If an individual understands a chunk to be something such as a major triad, the load on working memory would be less since it that information could be understood as a singular chunk. 
+2. _The working memory load may be reduced as working memory shifts between levels in hierarchy._ If an individual understands a chunk to be something such as a major triad, the load on working memory would be less since that information could be understood as a singular chunk. 
 3. _Chunks may be the endpoints of a continuum of associations._ Given tonal music's sequential and statistical properties, two tones might be able to be loosely associated given a context which would make the tones fall between being identified as two tones and one distinct chunk. 
 4. _Chunks may include asymmetrical information._ More tonal possibilities are possible from a stable note like tonic or dominant, whereas in a tonal context, a raised scale degree #$\hat{4}$ when understood in a functional context would be taken as having stricter transitional probabilities (#$\hat{4} \rightarrow \hat{5}$). 
 5. _There may be a complex network of associations._ If a set of pitches sounds like a similar set of pitches from long term memory, the incoming information cannot be understood as being separate units of working memory.
@@ -272,7 +273,7 @@ Even if there is no selection bias in engaging with musical activity it also rem
 In terms of musical performance abilities, working memory capacity has also been shown to be a significant predictor.
 Kopiez and Lee suggested that working memory capacity should to contribute to sight reading tasks based on research where they found measures of working memory capacity, as measured by a matrix span task, to be significantly correlated with many of their measures hypothesized to be related to sight reading ability in pianists at lower difficulty grading [@kopiezDynamicModelSkills2006; @kopiezGeneralModelSkills2008]. 
 
-Following up on this work on sight reading, Meinz and Hambrick [@meinzDeliberatePracticeNecessary2010] found that working memory capacity, as measured by an operation span task, a reading span task, rotation span task, and a matrix span task was able to predict a small amount of variance $R^2=.074(0.067)$ above and beyond that of deliberate practice alone $R^2=.451(.441)$ in a sight-reading task.
+Following up on this work on sight reading, Meinz and Hambrick [@meinzDeliberatePracticeNecessary2010] found working memory capacity, as measured by an operation span task, a reading span task, rotation span task, and a matrix span task was able to predict a small amount of variance $R^2=.074(0.067)$ above and beyond that of deliberate practice alone $R^2=.451(.441)$ in a sight-reading task.
 More recently, two studies looking at specific sub-groups of musicians have shown working memory capacity to significantly contribute to models of performances on musical tasks related to novel stimuli.
 @wollnerAttentionalFlexibilityMemory2016 found that although no differences were found between pianists and conductors in measures of working memory capacity as measured via a set of span tasks, conductors showed superior performance in their attention flexibility. 
 Following up on this line of research @nicholsScoreOneJazz2018 used the same battery of working memory tasks and found that jazz musicians excelled over their classically trained counterparts in a task which required them to hear notes and reproduce them on the piano.
@@ -294,7 +295,7 @@ As reviewed in @schellenbergMusicNonmusicalAbilities2017, both children and adul
 Though many of these studies are correlational, they also have made attempts to control for confounding variables like socio-economic status and parental involvement in out of school activities [@corrigallAssociationsLengthMusic2011; @degeMusicLessonsIntelligence2011; @schellenbergExaminingAssociationMusic2011; @schellenbergMusicTrainingEmotion2012]
 Schellenberg notes the problem of smaller sample sizes in his review [@corrigallAssociationsLengthMusic2011; @parbery-clarkMusicalExperienceAging2011; @straitMusicalTrainingEarly2012] in that studies that are typically smaller do not reach statistical significance. 
 Schellenberg also references evidence that when professional musicians are matched with non-musicians from the general population there do not seem to be these associations [@schellenbergLongtermPositiveAssociations2006]. 
-His review suggests the current state of the literature points to support the hypothesis that higher functioning kids that take music lessons and they tend to stay in lessons longer. 
+His review suggests the current state of the literature might be interpreted as higher functioning kids tend to gravitate towards music lessons, then subsequently persist with the lessons. 
 Additionally, Schellenberg remains skeptical of any sorts of causal factors regarding increases in IQ [@francoisMusicTrainingDevelopment2013; @morenoMusicalTrainingInfluences2009] noting methodological problems like how short exposure times were in studies claiming increases in effects or researchers who not holding pre-existing cognitive abilities constant [@mehrTwoRandomizedTrials2013].
 Continued work by Swaminithan, Schellenberg, and Khalil continue to support evidence for this selection bias in training resulting in higher cognitive abilities among musicians [@swaminathanRevisitingAssociationMusic2017].
 

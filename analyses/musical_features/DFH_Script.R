@@ -31,7 +31,7 @@ berkowitz666 %>%
   mutate(zCumIC = scale(cumIC), quintile = as.factor(ntile(cumIC, 5))) -> fived
 
 fived %>%
-  ggplot(aes(x = reorder(melody.name, cumIC), y = cumIC, color = quintile)) +
+  ggplot(aes(x = reorder(melody.name, cumIC), y = cumIC, color = quintile, fill = quintile)) +
   geom_bar(stat = 'identity') + 
   coord_flip(ylim = c(12,30)) +
   labs(title = "Cumulative Information Content of First Five Notes of Berkowitz Corpus",
@@ -41,7 +41,12 @@ fived %>%
   theme(axis.title.y=element_blank(),
         axis.text.y=element_blank(),
         axis.ticks.y=element_blank()) +
-  scale_color_viridis(discrete = TRUE) 
+  scale_fill_viridis(discrete = TRUE) +
+  scale_color_viridis(discrete = TRUE) -> five_incipit_distribution
+
+five_incipit_distribution
+
+ggsave(filename = "document/img/five_incipit_distiribution.png", five_incipit_distribution)
 
 #--------------------------------------------------
 # Do Random Sampling from Top, Middle, Highest Bins 
@@ -50,7 +55,7 @@ set.seed(666)
 
 fived %>%
   filter(quintile == 1) %>%
-  sample_n(size = 5) 
+  sample_n(size = 5) -> sample_1
 
 # 38, 282, 49, 262, 34
 
@@ -101,6 +106,8 @@ grams %>%
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank()) -> bitriquint_gg
 
+bitriquint_gg
+
 ggsave(filename = "document/img/bitriquint.png",plot = bitriquint_gg)
 
 
@@ -115,6 +122,8 @@ grams %>%
   theme(axis.title.x=element_blank(),
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank()) -> tri_gg
+
+tri_gg
 
 ggsave(filename = "document/img/trigrams.png",plot = tri_gg)
 
@@ -159,11 +168,15 @@ rbind(top_2_grams, top_3_grams, top_5_grams, bottom_2_grams, bottom_3_grams, bot
   select(grams, gram, FreqCount) %>%
   kableExtra::kable(col.names = c( "Type", "m-gram","Frequency Count")) -> gram_table
 
+gram_table
+
 write_rds(gram_table, path = "document/figures/gramtable.rds")
 
 rbind(top_3_grams,bottom_3_grams) %>%
   select(grams, gram, FreqCount) %>%
   kableExtra::kable(col.names = c( "Type", "m-gram","Frequency Count")) -> gram3_table
+
+gram3_table
 
 write_rds(gram3_table, path = "document/figures/gramtable3.rds")
 
@@ -210,7 +223,7 @@ experiment_idyom_data %>%
 
 #--------------------------------------------------
 # Get Old Data  Data Import
-fantastic_computations <- read_csv("corpus/symbolic/CurrentBerkowitz.csv")
+fantastic_computations <- read_csv("corpus/symbolic/Melosol_Features.csv")
 #--------------------------------------------------
 # Change Fantastic Name for Merge 
 fantastic_computations %>%
@@ -232,6 +245,7 @@ target %>%
 
 View(melody_data)
 #--------------------------------------------------
+# Model Comparision Chart 
 # Humdrum Data
 
 humdrum_infot_data <- read.csv("corpus/symbolic/krn/berkowitz_meta/incipits/experimental_krns/humdruminfot/for_r.csv",header = FALSE)
@@ -278,17 +292,18 @@ model_data %>%
          zHumdrum = scale(infot_cumIC), zMeanHumdrum = scale(infot_mean),
          zMeanIdyom = scale(mean_idyom_ic)) %>%
   ggplot(aes(x = melody_rank, y = mean_diff)) + 
-  geom_point(aes(y = zDiff, col = "Expert Ratings")) +
   geom_point(aes(y = zIDYOM, col = "Cumulative IDyOM, r = .83")) + 
   geom_point(aes(y = zIDYOM, col = "Mean IDyOM, r = .79")) + 
-  geom_point(aes(y = zFantastic, col = "Mean Fantastic Interval Entropy, r = .85")) + 
-  geom_point(aes(y = zHumdrum, col = "Cumulative Humdrum infot , r = .70")) +
+  geom_point(aes(y = zFantastic, col = "Mean FANTASTIC Interval Entropy, r = .85")) + 
+  geom_point(aes(y = zHumdrum, col = "Cumulative Humdrum infot, r = .70")) +
   geom_point(aes(y = zMeanHumdrum, col = "Mean Humdrum infot ,r =.89")) +
+  geom_point(aes(y = zDiff, col = "Ratings -- Expert Ground Truth")) +
   scale_x_continuous(breaks = seq(1,20,1), limits = c(1, 20)) +
   labs(title = "Model Comparison:\nInformation Content Measures",
        x = "Melody Rank",
        y = "Standardized Information Content Measure",
        color = "Model") +
+  scale_color_viridis(discrete = T) +
   theme_minimal() -> model_comparison_gg
 
 model_comparison_gg

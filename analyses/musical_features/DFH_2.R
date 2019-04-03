@@ -35,6 +35,7 @@ berkowitz666 %>%
   select(quintile, mean_quint) %>%
   unique() -> mean_quint_ratings
 
+mean_quint_ratings
 
 berkowitz666 %>%
   select(melody.id, note.id, melody.name, berkNumber, information.content, entropy) %>%
@@ -49,10 +50,15 @@ berkowitz666 %>%
   geom_density(alpha = .75) +
   scale_x_continuous(breaks = seq(2,6.5,.5), limits = c(2,6.5)) +
   geom_vline(aes(xintercept=mean_quint, color=quintile), linetype="dashed") +
+  theme_minimal() +
+  scale_fill_viridis(discrete = TRUE) +
+  scale_color_viridis(discrete = TRUE) +
   labs(title = "Average Information Content of First Five Notes of Melodies",
       y = "Density",
       x = "Information Content Distribution",
       color = "3-tile") -> tri_distribution
+
+tri_distribution
 
 ggsave(filename = "document/img/tri_distribution.png", tri_distribution)
 

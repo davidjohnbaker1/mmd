@@ -10,10 +10,11 @@ library(tidyverse)
 library(GGally)
 library(psych)
 library(corrr)
+options(scipen = 999)
 #--------------------------------------------------
 # Data Import
 dictation_survey <- read_csv("aural_survey/Dictation_Survey_Responses.csv")
-fantastic_computations <- read_csv("corpus/symbolic/CurrentBerkowitz.csv")
+fantastic_computations <- read_csv("corpus/symbolic/Melosol_Features.csv")
 #--------------------------------------------------
 # Swap Out Transposed Melodies Names 
 
@@ -75,25 +76,30 @@ melody_data %>%
 #--------------------------------------------------
 # FILE FOF DISSERATION
 
-fix_gt <- function(x){
-  x <- x[x=="mean_diff"] <- "Mean Difficulty"
-  x <- x[x=="mean_gram"] <- "Mean Grammar"
-}
-
 melody_data %>%
   ungroup(stimulus) %>%
   select(mean_diff:step.cont.loc.var) %>%
   correlate() %>%
   shave() %>%
   select(rowname, mean_diff, mean_gram) %>%
-# mutate(strength = abs(mean_diff) + abs(mean_gram)) %>%
+  # mutate(strength = abs(mean_diff) + abs(mean_gram)) %>%
   gather(mean_diff, mean_gram, -rowname) %>%
   rename(Feature = rowname, GroundTruth = mean_diff, corr = mean_gram) %>%
-  mutate(GT = fix_gt(GroundTruth)) %>%
   filter(Feature != "mean_gram") %>%
-  filter(Feature != "mean_diff") %>%
+  filter(Feature != "mean_diff") -> fantplotdata
+
+fix_gt <- function(x){
+  x[x=="mean_diff"] <- "Mean Difficulty"
+  x[x=="mean_gram"] <- "Mean Grammar"
+  x
+  }
+
+fantplotdata$GroundTruth <- fix_gt(fantplotdata$GroundTruth)
+
+fantplotdata %>%
   ggplot(aes(x = reorder(Feature, corr), y = corr, group = GroundTruth)) +
   coord_flip() +
+  scale_fill_viridis(discrete = TRUE) +
   geom_bar(stat = "identity", aes(fill = GroundTruth)) +
   labs(title = "Correlations Between FANTASTIC Features and Expert Ratings",
        x = "FANTASTIC Features",
@@ -147,6 +153,8 @@ fantastic_computations %>%
   mutate(mode = as.factor(mode)) %>%
   ggpairs(title = "Feature Correlations") -> fantastic_collin
 
+fantastic_collin
+
 ggsave(filename = "document/img/FANTASTIC_collin.png", plot = fantastic_collin)
 
 #--------------------------------------------------
@@ -157,44 +165,86 @@ View(melody_data)
 ggplot(melody_data, aes(x = p.entropy, y = mean_diff)) +
   geom_point() + theme_minimal() +
   labs(title = "Pitch Entropy", x = "Pitch Entropy", y = "Mean Difficulty") +
-  theme_minimal()
+  geom_smooth(method = 'lm', se = FALSE) +
+  ylim(c(0,100)) +
+  stat_cor(method = "pearson") +
+  theme_minimal() -> cow_pentropy
 
 ggplot(melody_data, aes(x = tonalness, y = mean_diff)) +
   geom_point() + theme_minimal() +
-  labs(title = "Tonalness", x = "Tonalness", y = "Mean Difficulty") +
-  theme_minimal()
+  labs(title = "Tonalness", x = "Tonalness", y = "") +
+  ylim(c(0,100)) +
+  geom_smooth(method = 'lm', se = FALSE) +
+  stat_cor(method = "pearson") +
+  theme_minimal() -> cow_tonalness
 
 ggplot(melody_data, aes(x = step.cont.loc.var, y = mean_diff)) +
   geom_point() + theme_minimal() +
-  labs(title = "Stepwise Contour: Local Variation", x = "Stepwise Contour", y = "Mean Difficulty") +
-  theme_minimal()
+  labs(title = "Stepwise Contour: Local Variation", x = "Stepwise Contour", y = "") +
+  geom_smooth(method = 'lm', se = FALSE) +
+  stat_cor(method = "pearson") +
+  ylim(c(0,100)) +
+  theme_minimal() -> cow_stepcontlocalvar
 
 ggplot(melody_data, aes(x = len, y = mean_diff)) +
   geom_point() + theme_minimal() +
-  labs(title = "Melody Length", x = "Melody Length", y = "Mean Difficulty") +
-  theme_minimal() 
+  labs(title = "Melody Length", x = "Melody Length", y = "") +
+  geom_smooth(method = 'lm', se = FALSE) +
+  stat_cor(method = "pearson") +
+  ylim(c(0,100)) +
+  theme_minimal() -> cow_len
 
 # Bad Ones
 
 ggplot(melody_data, aes(x = tonal.spike, y = mean_diff)) +
   geom_point() + theme_minimal() +
   labs(title = "Tonal Spike", x = "Tonal Spike", y = "Mean Difficulty") +
-  theme_classic()
+  geom_smooth(method = 'lm', se = FALSE) +
+  ylim(c(0,100)) +
+  stat_cor(method = "pearson") +
+  theme_minimal() -> cow_tonalspike
 
 ggplot(melody_data, aes(x = step.cont.glob.dir	, y = mean_diff)) +
   geom_point() + theme_minimal() +
-  labs(title = "Stepwise Contour: Global Direction??", x = "Stepwise Contour: Global Direction??", y = "Mean Difficulty") +
-  theme_classic()
+  geom_smooth(method = 'lm', se = FALSE) +
+  stat_cor(method = "pearson") +
+  ylim(c(0,100)) +
+  labs(title = "Stepwise Contour: Global Direction", x = "Stepwise Contour: Global Direction", y = "") +
+  theme_minimal() -> cow_stpcontglobdir
 
 ggplot(melody_data, aes(x = mean.entropy, y = mean_diff)) +
   geom_point() + theme_minimal() +
-  labs(title = "Mean Pitch Entropy", x = "Mean Pitch Entropy", y = "Mean Difficulty") +
-  theme_classic()
+  geom_smooth(method = 'lm', se = FALSE) +
+  stat_cor(method = "pearson") +
+  ylim(c(0,100)) +
+  labs(title = "Mean Pitch Entropy", x = "Mean Pitch Entropy", y = "") +
+  theme_minimal() -> cow_meanentropy
 
 ggplot(melody_data, aes(x = d.range, y = mean_diff)) +
   geom_point() + theme_minimal() +
-  labs(title = "Durational Range", x = "Durational Range", y = "Mean Difficulty") +
-  theme_classic()
+  geom_smooth(method = 'lm', se = FALSE) +
+  ylim(c(0,100)) +
+  stat_cor(method = "pearson") +
+  labs(title = "Durational Range", x = "Durational Range", y = "") +
+  theme_minimal() -> cow_drange
+
+#--------------------------------------------------
+library(cowplot)
+
+plot_grid(cow_pentropy, cow_tonalness, cow_stepcontlocalvar, cow_len, 
+          cow_tonalspike, cow_stpcontglobdir, cow_meanentropy, cow_drange, nrow = 2, ncol = 4) -> univariate_features
+
+univariate_features
+
+ggsave(filename = "document/img/univariate_cow.png")
+
+#--------------------------------------------------
+# Regression
+
+model_feat1 <- lm(mean_diff ~ p.entropy + len + tonalness + step.cont.loc.var, data = melody_data)
+model_feat2 <-lm(mean_diff ~ p.entropy + len, data = melody_data)
+
+summary(model_dumb)
 
 #--------------------------------------------------  
 
@@ -202,5 +252,5 @@ melody_data %>%
   select(stimulus,mean_diff, mean_gram, p.range,p.entropy,len, note.dens,tonalness) %>%
   pairs.panels()
 
-model_dumb <- lm(mean_diff ~ p.entropy + len, data = melody_data)
+model_dumb <- lm(mean_diff ~ p.entropy + len + tonalness + step.cont.loc.var, data = melody_data)
 summary(model_dumb)
