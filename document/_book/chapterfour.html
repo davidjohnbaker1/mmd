@@ -14,7 +14,7 @@
   
   
   <meta property="og:description" content="This dissertation explores both individual and musical features that might contribute to processes involved in melodic dictation." />
-  <meta name="github-repo" content="rstudio/bookdown-demo" />
+  <meta name="github-repo" content="davidjohnbaker1/document" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Chapter 5 Hello, Corpus | MODELING MELODIC DICTATION" />
@@ -32,7 +32,7 @@
 <meta name="author" content="May 2019">
 
 
-<meta name="date" content="2019-04-03">
+<meta name="date" content="2019-04-06">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -330,14 +330,14 @@ In addition to having a key signature in each kern file, I have also added an ex
 Each section of the book contains melodies that would be considered tonal, except for melodies in the fifth section of the first chapter and intermittent melodies in the fourth section of the fifth chapter which contain atonal melodies.
 If a melody is decidedly atonal or modal, this is documented in the metadata.
 Atonal melodies are given the explicit key of C major so that they can be analyzed and parsed as if they were part of a fixed do system.
-This encoding decision is reflected in the Key Distribution panel of @ref(fig:melosol_descriptive_panel).</p>
-<div class="figure" style="text-align: center">
-<img src="img/melosol_descript_panel.png" alt="Descriptive Statistics of MeloSol" width="100%" />
+This encoding decision is reflected in the Key Distribution panel of <a href="#fig:melosoldescriptpanel"><strong>??</strong></a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:melosoldescriptivepanel"></span>
+<img src="img/melosoldescriptpanel.png" alt="Descriptive Statistics of MeloSol" width="100%" />
 <p class="caption">
-(#fig:melosol_descriptive_panel)Descriptive Statistics of MeloSol
+Figure 5.1: Descriptive Statistics of MeloSol
 </p>
 </div>
-<p>Figure @ref(fig:melosol_descriptive_panel) shows basic descriptive statistics of the <em>MeloSol</em> corpus.
+<p>Figure <a href="chapterfour.html#fig:melosoldescriptivepanel">5.1</a> shows basic descriptive statistics of the <em>MeloSol</em> corpus.
 The figure highlights general features of the corpus that might be of interest to future researchers.
 In sum, the corpus represents 783 unique melodies comprising 49,730 data tokens.
 Of these 49,730 tokens, 36,641 are currently kern interpretable using the humdrum toolbox.
@@ -364,18 +364,18 @@ Alternatively, researchers could adopt different research epistemologies other t
 Regardless of what methodology is chosen, providing more evidence for previous claims depends on, as noted above, finding new evidence for claims with new data.</p>
 <div id="corpus-analysis-1" class="section level3">
 <h3><span class="header-section-number">5.4.1</span> Corpus Analysis</h3>
-<p>In order to compare the _Essen_collection with the <em>MeloSol</em> corpus, I first plot general level descriptive features of all corpora in @ref(fig:comp_desc).
+<p>In order to compare the <em>Essen</em> collection with the <em>MeloSol</em> corpus, I first plot general level descriptive features of all corpora in <a href="chapterfour.html#fig:compdesc">5.2</a>.
 Creating these visualizations demonstrates size differences between the corpora.
-As noted in the bottom right panel of @ref(fig:comp_desc), then <em>Essen</em> collection is much larger than that of the <em>MeloSol</em> or the <em>Densmore</em> collection.</p>
-<div class="figure" style="text-align: center">
-<img src="img/comparative_descritive_panel.png" alt="Descriptive Features" width="100%" />
+As noted in the bottom right panel of <a href="chapterfour.html#fig:compdesc">5.2</a>, then <em>Essen</em> collection is much larger than that of the <em>MeloSol</em> or the <em>Densmore</em> collection.</p>
+<div class="figure" style="text-align: center"><span id="fig:compdesc"></span>
+<img src="img/comparative_descritivepanel.png" alt="Descriptive Features" width="100%" />
 <p class="caption">
-(#fig:comp_desc)Descriptive Features
+Figure 5.2: Descriptive Features
 </p>
 </div>
 <p>From the above panels, it appears that there the <em>MeloSol</em> corpus has much more variability in the range or tessitura of melodies.
 This difference is most likely reflective of nature of the <em>MeloSol</em> melodies which were composed for didactic use, and thus were the product of composition with a notational system.
-Interestingly, both sets from the _Essen_Collection tend to have much more defined peaks.
+Interestingly, both sets from the <em>Essen</em> Collection tend to have much more defined peaks.
 Though a post-hoc interpretation, these peaks might serve as the basis for a study on physical affordances drawing together work on melody transmission <span class="citation">(Shanahan and Albrecht <a href="#ref-shanahanExaminingEffectOral2019">2019</a>)</span> and the cognitive affordance provided via to notation <span class="citation">(Lerdahl <a href="#ref-lerdahlCognitiveConstraintsCompositional1992">1992</a>)</span>.
 Melodies between the four data sets also tend to have overlapping density distributions in terms of both length and note density.</p>
 <p>Secondly, I then overlay emergent emergent properties from the corpora– standardized for size– using density plots.
@@ -383,29 +383,29 @@ The underlying logic in the following exploratory analysis would be if the <em>M
 From the panels below, the key comparisons will be to look between the blue and yellow distributions.
 Interestingly, looking at the panels plotting Tonalness as well as Tonal Spike, two measures of tonality derived from the FANTASTIC toolbox used to complete this analysis, the underlying distributions tend to follow a similar distributional pattern.
 Inspecting some of the features further, the Densmore collection shows a marked departure in interval entropy from the other three distributions and also shows more variability in terms of contour variation as calculated by the FANTASTIC stepwise.contour.global.variation metric <span class="citation">(Mullensiefen <a href="#ref-mullensiefenFantasticFeatureANalysis2009">2009</a>)</span>.</p>
-<div class="figure" style="text-align: center">
-<img src="img/corpora_emergent.png" alt="Emergent Features" width="100%" />
+<div class="figure" style="text-align: center"><span id="fig:compemergent"></span>
+<img src="img/corporaemergent.png" alt="Emergent Features" width="100%" />
 <p class="caption">
-(#fig:comp_emergent)Emergent Features
+Figure 5.3: Emergent Features
 </p>
 </div>
 <p>The addition of the <em>MeloSol</em> corpus also provides an opportunity to investigate and replicate other claims made in the musicological literature.
-For example, in Figure @ref(fig:comp_huron), I have reproduced the first level analysis David Huron puts forward in <span class="citation">(Huron <a href="#ref-huronMelodicArchWestern1996">1996</a>)</span>.
+For example, in Figure <a href="chapterfour.html#fig:comphuron">5.4</a>, I have reproduced the first level analysis David Huron puts forward in <span class="citation">(Huron <a href="#ref-huronMelodicArchWestern1996">1996</a>)</span>.
 From the figure, there appears to be similar patterns between the European subset of the <em>Essen</em> collection and that of the <em>MeloSol</em> corpus.</p>
 <p>The most prominent phrase type in both corpora is the convex contour, followed secondly by the descending contour pattern.
 Future versions of the <em>MeloSol</em> corpus could be used to add phrase marks and examine the extent to which Huron’s claims hold in a categorically different, yet grammatically similar corpus.</p>
-<div class="figure" style="text-align: center">
-<img src="img/huron_recreation.png" alt="Replication of Analysis 1, Huron 1994" width="100%" />
+<div class="figure" style="text-align: center"><span id="fig:comphuron"></span>
+<img src="img/huronrecreation.png" alt="Replication of Analysis 1, Huron 1994" width="100%" />
 <p class="caption">
-(#fig:comp_huron)Replication of Analysis 1, Huron 1994
+Figure 5.4: Replication of Analysis 1, Huron 1994
 </p>
 </div>
-<p>Lastly, in <a href="#fig:keyprofiles"><strong>??</strong></a>, I plot standardized key profiles for the <em>Essen</em> and <em>MeloSol</em> corpora as presented in this chapter <span class="citation">(Krumhansl <a href="#ref-krumhanslCognitiveFoundationsMusical2001">2001</a>)</span>.
+<p>Lastly, in <a href="chapterfour.html#fig:krum">5.5</a>, I plot standardized key profiles for the <em>Essen</em> and <em>MeloSol</em> corpora as presented in this chapter <span class="citation">(Krumhansl <a href="#ref-krumhanslCognitiveFoundationsMusical2001">2001</a>)</span>.
 The <em>Densmore</em> collection is not included here as it does not come with explicit key data.</p>
 <div class="figure" style="text-align: center"><span id="fig:krum"></span>
-<img src="img/krum_panel.png" alt="Tonal Hierarchy of Corpora" width="100%" />
+<img src="img/krumpanel.png" alt="Tonal Hierarchy of Corpora" width="100%" />
 <p class="caption">
-Figure 5.1: Tonal Hierarchy of Corpora
+Figure 5.5: Tonal Hierarchy of Corpora
 </p>
 </div>
 <p>On overall view shows that the three corpora exhibit relatively similar distribution profiles.
@@ -570,7 +570,8 @@ gitbook.start({
 "download": ["mmd-draft-djb.pdf", "mmd-draft-djb.epub"],
 "toc": {
 "collapse": "subsection"
-}
+},
+"toc_depth": 3
 });
 });
 </script>

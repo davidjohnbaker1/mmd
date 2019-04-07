@@ -182,7 +182,7 @@ awarded.
 In cases where there were more serious errors, for example if the second half of the second bar was not notated, points would have been deducted in both the pitch and rhythm sub-scores. 
 Both the first and second author scored all melodies independently and then cross referenced for inter rater
 reliability. -- change wording
-Using a single score intraclass correlation coefficient calculation κ = .96 which suggests a high degree of inter-rater reliability [@kooGuidelineSelectingReporting2016].
+Using a single score intraclass correlation coefficient calculation $\kappa$ = .96 which suggests a high degree of inter-rater reliability [@kooGuidelineSelectingReporting2016].
 
 ##  Results
 
@@ -223,7 +223,7 @@ conditions.
 With Melody 9 there was a clear floor effect, which was also to be expected as when we chose the melodies, I had no previous experimental data explicitly looking at melodic dictation to rely on. 
 Future experiments shouldl use abstracted features from Melody 9 as a baseline in order to avoid floor effects.
 
-The main effect of note density was expected and exhibited a large effect size. (ηg = .46). 
+The main effect of note density was expected and exhibited a large effect size. ($\eta$ = .46). 
 While it would be tempting to attribute this finding exactly to the Note Density feature extracted by FANTASTIC, the high and low density conditions could also be operationalized as having compound versus simple meter. 
 Given the large effect of note density, I plan on taking more careful steps in the selection of our next melodies in order to control for any effects of meter and keep the effects limited to one meter if at all possible.
 

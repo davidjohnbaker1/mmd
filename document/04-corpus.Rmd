@@ -66,10 +66,10 @@ In addition to having a key signature in each kern file, I have also added an ex
 Each section of the book contains melodies that would be considered tonal, except for melodies in the fifth section of the first chapter and intermittent melodies in the fourth section of the fifth chapter which contain atonal melodies.
 If a melody is decidedly atonal or modal, this is documented in the metadata.
 Atonal melodies are given the explicit key of C major so that they can be analyzed and parsed as if they were part of a fixed do system.
-This encoding decision is reflected in the Key Distribution panel of \@ref(fig:melosoldescriptivepanel).
+This encoding decision is reflected in the Key Distribution panel of \@ref(fig:melosoldescriptpanel).
 
 ```{r melosoldescriptivepanel, echo=FALSE, fig.cap="Descriptive Statistics of MeloSol",fig.align='center', out.width="100%"}
-knitr::include_graphics("img/melosol_descript_panel.png")
+knitr::include_graphics("img/melosoldescriptpanel.png")
 ```
 
 Figure \@ref(fig:melosoldescriptivepanel) shows basic descriptive statistics of the _MeloSol_ corpus.
@@ -104,10 +104,10 @@ Regardless of what methodology is chosen, providing more evidence for previous c
 
 In order to compare the _Essen_ collection with the _MeloSol_ corpus, I first plot general level descriptive features of all corpora in \@ref(fig:compdesc).
 Creating these visualizations demonstrates size differences between the corpora.
-As noted in the bottom right panel of \@ref(fig:comp_desc), then _Essen_ collection is much larger than that of the _MeloSol_ or the _Densmore_ collection. 
+As noted in the bottom right panel of \@ref(fig:compdesc), then _Essen_ collection is much larger than that of the _MeloSol_ or the _Densmore_ collection. 
 
 ```{r compdesc, echo=FALSE, fig.cap="Descriptive Features",fig.align='center', out.width="100%"}
-knitr::include_graphics("img/comparative_descritive_panel.png")
+knitr::include_graphics("img/comparative_descritivepanel.png")
 ```
 
 From the above panels, it appears that there the _MeloSol_ corpus has much more variability in the range or tessitura of melodies.
@@ -122,26 +122,26 @@ From the panels below, the key comparisons will be to look between the blue and 
 Interestingly, looking at the panels plotting Tonalness as well as Tonal Spike, two measures of tonality derived from the FANTASTIC toolbox used to complete this analysis, the underlying distributions tend to follow a similar distributional pattern.
 Inspecting some of the features further, the Densmore collection shows a marked departure in interval entropy from the other three distributions and also shows more variability in terms of contour variation as calculated by the FANTASTIC stepwise.contour.global.variation metric [@mullensiefenFantasticFeatureANalysis2009].
 
-```{r comp_emergent, echo=FALSE, fig.cap="Emergent Features",fig.align='center', out.width="100%"}
-knitr::include_graphics("img/corpora_emergent.png")
+```{r compemergent, echo=FALSE, fig.cap="Emergent Features",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/corporaemergent.png")
 ```
 
 The addition of the _MeloSol_ corpus also provides an opportunity to investigate and replicate other claims made in the musicological literature.
-For example, in Figure \@ref(fig:comp_huron), I have reproduced the first level analysis David Huron puts forward in [@huronMelodicArchWestern1996].
+For example, in Figure \@ref(fig:comphuron), I have reproduced the first level analysis David Huron puts forward in [@huronMelodicArchWestern1996].
 From the figure, there appears to be similar patterns between the European subset of the _Essen_ collection and that of the _MeloSol_ corpus.
 
 The most prominent phrase type in both corpora is the convex contour, followed secondly by the descending contour pattern.
 Future versions of the _MeloSol_ corpus could be used to add phrase marks and examine the extent to which Huron's claims hold in a categorically different, yet grammatically similar corpus. 
 
-```{r comp_huron, echo=FALSE, fig.cap="Replication of Analysis 1, Huron 1994",fig.align='center', out.width="100%"}
-knitr::include_graphics("img/huron_recreation.png")
+```{r comphuron, echo=FALSE, fig.cap="Replication of Analysis 1, Huron 1994",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/huronrecreation.png")
 ```
 
-Lastly, in \@ref(fig:keyprofiles), I plot standardized key profiles for the _Essen_ and _MeloSol_ corpora as presented in this chapter [@krumhanslCognitiveFoundationsMusical2001].
+Lastly, in \@ref(fig:krum), I plot standardized key profiles for the _Essen_ and _MeloSol_ corpora as presented in this chapter [@krumhanslCognitiveFoundationsMusical2001].
 The _Densmore_ collection is not included here as it does not come with explicit key data.
 
 ```{r krum, echo=FALSE, fig.cap="Tonal Hierarchy of Corpora",fig.align='center', out.width="100%"}
-knitr::include_graphics("img/krum_panel.png")
+knitr::include_graphics("img/krumpanel.png")
 ```
 
 On overall view shows that the three corpora exhibit relatively similar distribution profiles.

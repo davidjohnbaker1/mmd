@@ -126,7 +126,7 @@
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2019-04-03}
+    \date{2019-04-06}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -1418,7 +1418,7 @@ The sample represented over 30 different institutions.
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{img/age_ed_survey_distribution} 
+{\centering \includegraphics[width=0.8\linewidth]{img/ageedsurveydistribution} 
 
 }
 
@@ -1933,7 +1933,7 @@ I plot the resulting distributions of the top 1000 patterns of each fixed order 
 \end{figure}
 
 From \ref{fig:bitriquint}, we see that when plotted in terms of their frequency distributions, a small amount of the patterns make up for a very large the distribution of the corpus.
-As evident from \ref{fig:bitriqueint}, we see that with the addition of more tokens added to the m-grams and also is a visual representation of why and how statistical predictions become more unreliable with higher order predictions.
+As evident from \ref{fig:bitriquint}, we see that with the addition of more tokens added to the m-grams and also is a visual representation of why and how statistical predictions become more unreliable with higher order predictions.
 Intuitively, melodic patterns from the high frequency distribution of the table would seemingly be easier to remember and then dictate than those from the tails of the distributions.
 
 Following up on this analysis, I then trained an IDyOM model on the same corpus of melodies and thus was able to calculate the average information content the opening bi, tri, and quint grams melodies in this corpus.
@@ -2102,11 +2102,11 @@ In addition to having a key signature in each kern file, I have also added an ex
 Each section of the book contains melodies that would be considered tonal, except for melodies in the fifth section of the first chapter and intermittent melodies in the fourth section of the fifth chapter which contain atonal melodies.
 If a melody is decidedly atonal or modal, this is documented in the metadata.
 Atonal melodies are given the explicit key of C major so that they can be analyzed and parsed as if they were part of a fixed do system.
-This encoding decision is reflected in the Key Distribution panel of \ref{fig:melosoldescriptivepanel}.
+This encoding decision is reflected in the Key Distribution panel of \ref{fig:melosoldescriptpanel}.
 
 \begin{figure}
 
-{\centering \includegraphics[width=1\linewidth]{img/melosol_descript_panel} 
+{\centering \includegraphics[width=1\linewidth]{img/melosoldescriptpanel} 
 
 }
 
@@ -2145,13 +2145,13 @@ Regardless of what methodology is chosen, providing more evidence for previous c
 \hypertarget{corpus-analysis-1}{%
 \subsection{Corpus Analysis}\label{corpus-analysis-1}}
 
-In order to compare the \_Essen\_collection with the \emph{MeloSol} corpus, I first plot general level descriptive features of all corpora in \ref{fig:compdesc}.
+In order to compare the \emph{Essen} collection with the \emph{MeloSol} corpus, I first plot general level descriptive features of all corpora in \ref{fig:compdesc}.
 Creating these visualizations demonstrates size differences between the corpora.
-As noted in the bottom right panel of @ref(fig:comp\_desc), then \emph{Essen} collection is much larger than that of the \emph{MeloSol} or the \emph{Densmore} collection.
+As noted in the bottom right panel of \ref{fig:compdesc}, then \emph{Essen} collection is much larger than that of the \emph{MeloSol} or the \emph{Densmore} collection.
 
 \begin{figure}
 
-{\centering \includegraphics[width=1\linewidth]{img/comparative_descritive_panel} 
+{\centering \includegraphics[width=1\linewidth]{img/comparative_descritivepanel} 
 
 }
 
@@ -2160,7 +2160,7 @@ As noted in the bottom right panel of @ref(fig:comp\_desc), then \emph{Essen} co
 
 From the above panels, it appears that there the \emph{MeloSol} corpus has much more variability in the range or tessitura of melodies.
 This difference is most likely reflective of nature of the \emph{MeloSol} melodies which were composed for didactic use, and thus were the product of composition with a notational system.
-Interestingly, both sets from the \_Essen\_Collection tend to have much more defined peaks.
+Interestingly, both sets from the \emph{Essen} Collection tend to have much more defined peaks.
 Though a post-hoc interpretation, these peaks might serve as the basis for a study on physical affordances drawing together work on melody transmission \citep{shanahanExaminingEffectOral2019} and the cognitive affordance provided via to notation \citep{lerdahlCognitiveConstraintsCompositional1992}.
 Melodies between the four data sets also tend to have overlapping density distributions in terms of both length and note density.
 
@@ -2170,41 +2170,37 @@ From the panels below, the key comparisons will be to look between the blue and 
 Interestingly, looking at the panels plotting Tonalness as well as Tonal Spike, two measures of tonality derived from the FANTASTIC toolbox used to complete this analysis, the underlying distributions tend to follow a similar distributional pattern.
 Inspecting some of the features further, the Densmore collection shows a marked departure in interval entropy from the other three distributions and also shows more variability in terms of contour variation as calculated by the FANTASTIC stepwise.contour.global.variation metric \citep{mullensiefenFantasticFeatureANalysis2009}.
 
-\textbackslash{}begin\{figure\}
+\begin{figure}
 
-\{\centering \includegraphics[width=1\linewidth]{img/corpora_emergent}
+{\centering \includegraphics[width=1\linewidth]{img/corporaemergent} 
 
-\}
+}
 
-\caption{Emergent Features}
-
-(\#fig:comp\_emergent)
-\textbackslash{}end\{figure\}
+\caption{Emergent Features}\label{fig:compemergent}
+\end{figure}
 
 The addition of the \emph{MeloSol} corpus also provides an opportunity to investigate and replicate other claims made in the musicological literature.
-For example, in Figure @ref(fig:comp\_huron), I have reproduced the first level analysis David Huron puts forward in \citep{huronMelodicArchWestern1996}.
+For example, in Figure \ref{fig:comphuron}, I have reproduced the first level analysis David Huron puts forward in \citep{huronMelodicArchWestern1996}.
 From the figure, there appears to be similar patterns between the European subset of the \emph{Essen} collection and that of the \emph{MeloSol} corpus.
 
 The most prominent phrase type in both corpora is the convex contour, followed secondly by the descending contour pattern.
 Future versions of the \emph{MeloSol} corpus could be used to add phrase marks and examine the extent to which Huron's claims hold in a categorically different, yet grammatically similar corpus.
 
-\textbackslash{}begin\{figure\}
+\begin{figure}
 
-\{\centering \includegraphics[width=1\linewidth]{img/huron_recreation}
+{\centering \includegraphics[width=1\linewidth]{img/huronrecreation} 
 
-\}
+}
 
-\caption{Replication of Analysis 1, Huron 1994}
+\caption{Replication of Analysis 1, Huron 1994}\label{fig:comphuron}
+\end{figure}
 
-(\#fig:comp\_huron)
-\textbackslash{}end\{figure\}
-
-Lastly, in \ref{fig:keyprofiles}, I plot standardized key profiles for the \emph{Essen} and \emph{MeloSol} corpora as presented in this chapter \citep{krumhanslCognitiveFoundationsMusical2001}.
+Lastly, in \ref{fig:krum}, I plot standardized key profiles for the \emph{Essen} and \emph{MeloSol} corpora as presented in this chapter \citep{krumhanslCognitiveFoundationsMusical2001}.
 The \emph{Densmore} collection is not included here as it does not come with explicit key data.
 
 \begin{figure}
 
-{\centering \includegraphics[width=1\linewidth]{img/krum_panel} 
+{\centering \includegraphics[width=1\linewidth]{img/krumpanel} 
 
 }
 
@@ -2469,7 +2465,7 @@ awarded.
 In cases where there were more serious errors, for example if the second half of the second bar was not notated, points would have been deducted in both the pitch and rhythm sub-scores.
 Both the first and second author scored all melodies independently and then cross referenced for inter rater
 reliability. -- change wording
-Using a single score intraclass correlation coefficient calculation κ = .96 which suggests a high degree of inter-rater reliability \citep{kooGuidelineSelectingReporting2016}.
+Using a single score intraclass correlation coefficient calculation \(\kappa\) = .96 which suggests a high degree of inter-rater reliability \citep{kooGuidelineSelectingReporting2016}.
 
 \hypertarget{results-1}{%
 \section{Results}\label{results-1}}
@@ -2527,7 +2523,7 @@ conditions.
 With Melody 9 there was a clear floor effect, which was also to be expected as when we chose the melodies, I had no previous experimental data explicitly looking at melodic dictation to rely on.
 Future experiments shouldl use abstracted features from Melody 9 as a baseline in order to avoid floor effects.
 
-The main effect of note density was expected and exhibited a large effect size. (ηg = .46).
+The main effect of note density was expected and exhibited a large effect size. (\(\eta\) = .46).
 While it would be tempting to attribute this finding exactly to the Note Density feature extracted by FANTASTIC, the high and low density conditions could also be operationalized as having compound versus simple meter.
 Given the large effect of note density, I plan on taking more careful steps in the selection of our next melodies in order to control for any effects of meter and keep the effects limited to one meter if at all possible.
 

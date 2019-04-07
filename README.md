@@ -4,7 +4,7 @@ Repo for my PhD Dissertation: Modeling Melodic Dictation
 
 ## COUNTDOWN
 
-* Incorporate Aubrey Hickman Edits for Chapter 6
+* Remove underscores for LaTEx Compile
 
 ## Tasks for David 
 
@@ -56,9 +56,8 @@ Repo for my PhD Dissertation: Modeling Melodic Dictation
 
 ### Comp Model 
 
-* [ ] Merge Aubrey Hickman Edits
-* [ ] Add Gifs
-* [ ] General Level Edits
+* [X] Merge Aubrey Hickman Edits
+* [X] General Level Edits
 
 ### Conference Papers
 

@@ -103,7 +103,7 @@ Of the 40 respondents, all reported used some sort of movable system other than 
 The sample represented over 30 different institutions.
 
 ```{r surveyageeducation, echo=FALSE, fig.cap="Demographic Breakdown of Sample",fig.align='center', out.width="80%"}
-knitr::include_graphics("img/age_ed_survey_distribution.png")
+knitr::include_graphics("img/ageedsurveydistribution.png")
 ```
 
 Overall, the sample seems to reflect a wide range of experience of teaching aural skills. 
@@ -442,7 +442,7 @@ knitr::include_graphics("img/bitriquint.png")
 
 
 From \@ref(fig:bitriquint), we see that when plotted in terms of their frequency distributions, a small amount of the patterns make up for a very large the distribution of the corpus.
-As evident from \@ref(fig:bitriqueint), we see that with the addition of more tokens added to the m-grams and also is a visual representation of why and how statistical predictions become more unreliable with higher order predictions. 
+As evident from \@ref(fig:bitriquint), we see that with the addition of more tokens added to the m-grams and also is a visual representation of why and how statistical predictions become more unreliable with higher order predictions. 
 Intuitively, melodic patterns from the high frequency distribution of the table would seemingly be easier to remember and then dictate than those from the tails of the distributions.
 
 Following up on this analysis, I then trained an IDyOM model on the same corpus of melodies and thus was able to calculate the average information content the opening bi, tri, and quint grams melodies in this corpus.

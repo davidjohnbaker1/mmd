@@ -1,6 +1,12 @@
 #--------------------------------------------------
 # DFH 2
 #--------------------------------------------------
+# In this script 
+# PLOT -- Informaiton Contente of Five Grams from Three Sections
+# STATIC Plots of IC Model with Schubert
+# STATIC PLots of Five Grams
+# GIFs of Five Grams 
+#--------------------------------------------------
 library(ggpubr)
 library(tidyverse)
 library(gganimate)
@@ -9,6 +15,7 @@ library(viridis)
 # Read in Data
 berkowitz666 <- read.delim("corpus/symbolic/idyom/berk666.dat")
 midi_convert <- read_csv("software/midi_convert.csv")
+deg_table <- read_csv("software/deg_table.csv")
 #--------------------------------------------------
 
 berkowitz666 <- berkowitz666 %>%
@@ -73,13 +80,73 @@ berkowitz666 %>%
 model_quintile <- aov(meanIC ~ as.factor(quintile), data = model_data_quintile)
 summary(model_quintile)
 TukeyHSD(model_quintile)
+#======================================================================================================
+# Make Scale Degree Calcualtions
+# Use Key Sig and Mode 
+# Cpitch - referent mod 12 
+
+create_referent <- function(keysig, modal){
+  x <- ifelse(test = keysig >= 0, 
+              yes = ((keysig * 7) + modal ) %% 12, 
+              no = ((keysig * -5) + modal) %% 12  )
+  x
+  }
+
+berkowitz666$referent <- create_referent(keysig = berkowitz666$keysig, modal = berkowitz666$mode)
+
+berkowitz666 %>%
+  select(melody.name, keysig, mode, referent) %>%
+  filter(melody.name == "Berkowitz1" | melody.name == "Berkowitz4" | melody.name == "Berkowitz39" | 
+           melody.name == "Berkowitz43" | melody.name == "Berkowitz92") 
+
+# Cpint - Referent 
+berkowitz666$scale_degree <- (berkowitz666$cpitch - berkowitz666$referent) %% 12
+
+berkowitz666 %>%
+  left_join(deg_table) -> berkowitz666
 
 #--------------------------------------------------
-# Plots 
-library(tidyverse)
+# Find most common patterns!!! 
+library(ngram)
 
+
+berkowitz666 %>%
+  select(melody.name, note.id, scale_degree, information.content) %>%
+  filter(scale_degree == 0) %>%
+  group_by(melody.name) %>%
+  mutate(sd_do_mean = mean(information.content)) %>%
+  ungroup(melody.name) %>%
+  mutate(newmean = mean(sd_do_mean))
+
+berkowitz666 %>%
+  select(melody.name, note.id, scale_degree, information.content) %>%
+  filter(scale_degree == 7) %>%
+  group_by(melody.name) %>%
+  mutate(sd_sol_mean = mean(information.content)) %>%
+  ungroup(melody.name) %>%
+  mutate(newmean = mean(sd_sol_mean))
+
+berkowitz666 %>%
+  select(melody.name, note.id, scale_degree, information.content) %>%
+  filter(scale_degree == 9) %>%
+  group_by(melody.name) %>%
+  mutate(sd_la_mean = mean(information.content)) %>%
+  ungroup(melody.name) %>%
+  mutate(newmean = mean(sd_la_mean))
+
+# First find context -n 3 of all the melodies, do grouping ideally
+
+# Count frequency of all 3-grams
+
+# Get cum IC of all 3 grams 
+
+# Show Higher frequency n-grams are lower IC than lower frequency n-grams 
+
+
+#======================================================================================================
 #--------------------------------------------------
-# Make Static Plots 
+# Make Static Plots
+#--------------------------------------------------
 
 make_static_ngram <- function(dataset,melody_name, note_index, wmc_limit){
   

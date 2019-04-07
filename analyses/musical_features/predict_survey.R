@@ -180,7 +180,7 @@ ggplot(melody_data, aes(x = tonalness, y = mean_diff)) +
 
 ggplot(melody_data, aes(x = step.cont.loc.var, y = mean_diff)) +
   geom_point() + theme_minimal() +
-  labs(title = "Stepwise Contour: Local Variation", x = "Stepwise Contour", y = "") +
+  labs(title = "Stepwise Contour\nLocal Variation", x = "Stepwise Contour", y = "") +
   geom_smooth(method = 'lm', se = FALSE) +
   stat_cor(method = "pearson") +
   ylim(c(0,100)) +
@@ -209,7 +209,7 @@ ggplot(melody_data, aes(x = step.cont.glob.dir	, y = mean_diff)) +
   geom_smooth(method = 'lm', se = FALSE) +
   stat_cor(method = "pearson") +
   ylim(c(0,100)) +
-  labs(title = "Stepwise Contour: Global Direction", x = "Stepwise Contour: Global Direction", y = "") +
+  labs(title = "Stepwise Contour\nGlobal Direction", x = "Stepwise Contour: Global Direction", y = "") +
   theme_minimal() -> cow_stpcontglobdir
 
 ggplot(melody_data, aes(x = mean.entropy, y = mean_diff)) +
@@ -243,8 +243,11 @@ ggsave(filename = "document/img/univariate_cow.png")
 
 model_feat1 <- lm(mean_diff ~ p.entropy + len + tonalness + step.cont.loc.var, data = melody_data)
 model_feat2 <-lm(mean_diff ~ p.entropy + len, data = melody_data)
+model_feat3 <- lm(mean_diff ~ p.entropy, data = melody_data)
 
-summary(model_dumb)
+summary(model_feat1)
+summary(model_feat2)
+summary(model_feat3)
 
 #--------------------------------------------------  
 
