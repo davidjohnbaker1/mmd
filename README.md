@@ -4,7 +4,19 @@ Repo for my PhD Dissertation: Modeling Melodic Dictation
 
 ## COUNTDOWN
 
-* Remove underscores for LaTEx Compile
+* [ ] Format TOC 
+* [ ] Write Thank You
+* [ ] Dedication
+* [ ] Add IDyOM Scale Degree
+* [ ] Add Abstract
+* [ ] Check all Figures for Sizing, decomment
+* [ ] Get Phil Melodies
+* [ ] Fantastic on Phil 
+* [ ] Section 441 Edits
+* [ ] 441 Edits to Again, Again abstract
+* [ ] Create Distribution Panel for Prior Knowledge
+* [ ] Add Threshold plot for distribution for Comp Model 
+* [ ] Experimental Analyses 
 
 ## Tasks for David 
 
