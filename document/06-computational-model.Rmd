@@ -14,7 +14,8 @@ The _how_ derives from the tracking of statistical regularities in musical infor
 
 Wiggins writes that although there can be both explanatory and descriptive theories, depending on the level of abstraction, a theory may be explanatory at one level, yet descriptive at another.
 Using the mind-brain dichotomy, he asserts that the example of a theory of musical expectation could be explanatory at the level of behavior as noted above, but says nothing about what is happening at the neural level.
-Both descriptive and explanatory theories are needed: descriptive theories are used to test explanatory theories and by stringing together different layers of abstraction, we can arrive at a better understanding of how the world works.
+Both descriptive and explanatory theories are needed: descriptive theories are used to test explanatory theories.
+By stringing together different layers of abstraction, we can arrive at a better understanding of how the world works.
 
 Returning to melodic dictation, under Wiggins' framework the Karpinski model of melodic dictation [@karpinskiAuralSkillsAcquisition2000; @karpinskiModelMusicPerception1990] qualifies as a descriptive model.
 The model says what happens over the time course of a melodic dictation-- specifying four discrete stages discussed in earlier chapters-- but does not explicitly state _how_ or _why_ this process happens. 
@@ -53,8 +54,9 @@ I discuss the issues of assumptions and representations as they arise in describ
 ### Model Representational Assumptions
 
 In order to write a computer program that mirrors the melodic dictation process, how the mind perceives and represents about musical information must be defined _a priori_.
-Before delving into questions of representation, this model assumes that the musical surface.^[As conceptualized as either a Schenkerian foreground [@schenkerFreieSatz1935] or defined by @lerdahlGenerativeTheoryTonal1986] as represented by the notes via Western musical notation are salient and can be perceived as distinct perceptual phenomena
-Although there is work that suggests that different cultures and levels of experience might not categorize melodic information universally [@mcdermottIndifferenceDissonanceNative2016], other work suggests that experiencing pitches as discrete, categorical phenomena is categorized as a statistical human universal [@savageStatisticalUniversalsReveal2015].
+Before delving into questions of representation, this model assumes that the musical surface as represented by the notes via Western musical notation are salient and can be perceived as distinct perceptual phenomena
+Although there is work that suggests that different cultures and levels of experience might not categorize musical information universally [@mcdermottIndifferenceDissonanceNative2016], other work suggests that experiencing pitches as discrete, categorical phenomena is categorized as a statistical human universal [@savageStatisticalUniversalsReveal2015].
+In either case, the most explanatory models of any account of music perception should incorporate many features [@harrisonInstantaneousConsonancePerception]. 
 For the purposes of this model I assume that individuals do in fact perceive the musical surface similarly to the written score. 
 
 Knowing that it is melodic information or melodic data that needs to be represented, the question then becomes what is the best way in which to represent it.
@@ -69,7 +71,7 @@ How the model represents musical information is the first important parameter va
 
 The Prior Knowledge consists of a corpus of digitally represented melodies taken to reflect the implicitly understood structural patterns in a musical style that the listener has been exposed to.
 The logic of representing an individual's prior knowledge follows the assumptions of both the Statistical Learning Hypothesis (SLH) and the Probabilistic Prediction Hypothesis (PPH), both core theoretical assumptions of the Information Dynamic of Music (IDyOM) model of Marcus Pearce [@pearceConstructionEvaluationStatistical2005; @pearceStatisticalLearningProbabilistic2018a].
-Using a corpus of melodies to represent an individual's prior knowledge relies on the Statistical Learning Hypothesis which states:
+Using a corpus of melodies to represent an individual's Prior Knowledge relies on the Statistical Learning Hypothesis which states:
 
 > musical enculturation is a process of implicit statistical learning in which listeners progressively acquire internal models of the statistical and structural regularities present in the musical styles to which they are exposed, over short (e.g., an individual piece of music) and long time scales (e.g., an entire lifetime of listening). p.2 (Pearce, 2018)
 
@@ -80,18 +82,18 @@ The logic here is that the more an individual is exposed musical material, the m
 Taken together and then quantified using Shannon information content [@shannonMathematicalTheoryCommunication1948], it then becomes possible using the IDyOM framework to have a quantifiable measure that reliably predicts the amount of perceived unexpectedness in a musical melody that can change pending on the musical corpus that the model is trained on.
 As a model, IDyOM has been successful mirroring human behavior in melodies in various styles [@pearceStatisticalLearningProbabilistic2018a], harmony-- outperforming [@harrisonDissociatingSensoryCognitive2018] sensory models of harmony [@bigandEmpiricalEvidenceMusical2014]--, and is also being developed to handle polyphonic materials [@sauvePredictionPolyphonyModelling2017]. 
 
-Stepping beyond the assumptions of IDyOM, the Prior Knowledge also needs to have a implicit/explicitly known parameter which indicates whether or not an pattern of music-- or n-gram^[n-grams refer to the amount of musical objects in a string. For example a bi-gram or 2-gram, would be an interval. Tri-grams or 3-grams would consist of two intervals and so on.] pattern-- is explicitly learned.
+Stepping beyond the assumptions of IDyOM, the Prior Knowledge also needs to have a implicit/explicitly known parameter which indicates whether or not an pattern of music-- or n-gram pattern-- is explicitly learned.
 This threshold can be set relative to the entire distribution of all n-grams in the corpus. 
 
 ### Modeling Information Content 
 
 Having established that the models' first parameters to be decided are the representation of strings and the implicit/explicit threshold, the next decision that has to be made is how the model decides segmentation for the second stage of Selective Attention.
-Although there has been a large amount of work on different ways to segment the musical surface using rule based methods [@lerdahlGenerativeTheoryTonal1986; @margulisModelMelodicExpectation2005; @narmourAnalysisCognitionBasic1990; @narmourAnalysisCognitionMelodic1992], which rely on matching a music theorist's intuition with a set of descriptive rules somewhat like the boundary formation rules put forward in _A Generative Theory of Tonal Music_, as noted by Pearce [@pearceStatisticalLearningProbabilistic2018a], rule based models often fail at when applied to music outside the Western art music canon.
+Although there has been a large amount of work on different ways to segment the musical surface using rule based methods [@lerdahlGenerativeTheoryTonal1986; @margulisModelMelodicExpectation2005; @narmourAnalysisCognitionBasic1990; @narmourAnalysisCognitionMelodic1992], which rely on matching a music theorist's intuition with a set of descriptive rules somewhat like the boundary formation rules put forward in _A Generative Theory of Tonal Music_, as noted by Pearce [@pearceStatisticalLearningProbabilistic2018a], rule based models often fail at when applied to music outside the Western classical tradition.
 Additionally, since melodic dictation is an active memory process, rather than a semi-passive process of listening, this model needs to be able to quantify musical information on two conditions.
 The first is that it must be dependent on prior musical experience.
 The second is that it should allow for a movable boundary for selective attention so that musical information that is in memory can be actively maintained while carrying out another cognitive process, that of notating the melody. 
 
-In order to create this metric, I rely on IDyOM's use of information content [@shannonMathematicalTheoryCommunication1948] which quantifies the information content of melodies based on corpus of materials.
+In order to create this metric, I rely on IDyOM's use of information content [@shannonMathematicalTheoryCommunication1948] which quantifies the information content of melodies based on corpus of materials based on a multiple viewpoints model [@conklinMultipleViewpointSystems1995].
 For example, when trained against a corpus of melodies, this excerpt in Figure \@ref(fig:schubertF) from the fourth movement of Schubert's _Octet in F Major_ (D.803) lists the information content of the excerpt calculated for each note atop the notation^[The following musical examples is taken from @pearceStatisticalLearningProbabilistic2018a reflects a model where IDyOM was configured to predict pitch with an attribute linking melodic pitch interval and chromatic scale degree (pitch and scale degree) using both the short-term and long-term models, the latter trained on 903 folk songs and chorales (data sets 1, 2, and 9 from table 4.1 in [@schaffrathEssenFolkSong1995] comprising 50,867 notes.]
 Appearing in Figure \@ref(fig:cumSchubert), I plot the cumulative information content of the melody, along with both an arbitrary threshold for the limits of working memory capacity and where the subsequent segmentation boundary for musical material to be put in the Selective Attention buffer would be.
 These values chosen show a small example of how the Selective Attention module works.
@@ -107,7 +109,7 @@ knitr::include_graphics("img/cumSchubert.jpeg")
 ```
 
 It is important to highlight that the notes above the melody here are dependent on what is current in the Prior Knowledge module.
-A corpus of Prior Knowledge with less melodies would lead to higher information content measures for each set of notes, while a Prior Knowledge that has extensive tracking of the patterns would lead to lower information content. 
+A corpus of Prior Knowledge with less musical events would lead to higher information content measures for each set of notes, while a Prior Knowledge that has extensive tracking of the patterns would lead to lower information content [@conklinMultipleViewpointSystems1995]. 
 This increase in predictive accuracy mathematically reflects the intuition that those with more listening experience can process greater chunks of musical information. 
 
 ### Setting Limits with Transcribe
@@ -127,16 +129,15 @@ With subset of notes of the melody represented in the attentional buffer, whethe
 Mirroring a search pattern akin to Cowan's Embedded Process model [@cowanEvolvingConceptionsMemory1988; @cowanMagicalMysteryFour2010], the individual would search across their long term memory, or Prior Knowledge, for anything close to or resembling the pattern in the Selective Attention buffer.
 Cowan's model differs from other more module based models of working memory like those of @baddeleyWorkingMemory1974 by positing that working memory should be conceptualized as a small window of conscious attention.
 As an individual directs their attention to concepts represented in their long term memory, they can only spotlight a finite amount of information where categorical information regarding what is in the window of attention not far from retrieval.
-Using this logic, longer pattern strings n-grams would be less likely to be recalled exactly since they occur less frequently in the prior knowledge.
+Using this logic, longer pattern strings n-grams would be less likely to be recalled exactly since they occur less frequently in the Prior Knowledge.
 
-When searching for a pattern match, the Transcription module is at work.
 If a pattern match that has been moved to Selective Attention is immediately found, the contents of Selective Attention would be considered to be notated.
 The model would register that a loop had taken place and document the n-gram match.
 Of course, finding an immediate pattern match each time is highly unlikely and the model needs to be able to compensate if that happens.
 
 If a pattern is not found in the initial search that is explicitly known, one token of the n-gram would be dropped off the string and the search would happen again.
 This recursive search would happen until an explicit long term memory match is made.
-Like humans taking melodic dictation, the computer would have the best luck finding patterns that fall within the largest density of a corpus of intervals distribution.
+Like humans taking melodic dictation, the computer would succeed more often finding patterns that fall within the largest density of a corpus of intervals distribution.
 Additionally, like students performing a dictation, if a student does not explicitly know an interval, or a 2-gram, the dictation would not be able to be completed. 
 If this happens, both the model and student would have to move on to the next segment via the Re-entry function.
 
@@ -164,16 +165,16 @@ Entering at the last note not transcribed is logical from a computational standp
 Entering at the note with the lowest information content seems to provide a intuitive point of re-entry in that it would then be easier to transcribe.
 Entering at the most represented n-gram seems to match the most with intuition in that people would want to tackle the easier tasks first, but this rests on the assumption that humans are able to reliably detect the sections of a melody that are easiest to transcribe based on implicitly learned statistical patterns.
 For example, some people might instead choose to go to the end of a melody after successful transcription of the start of the melody.
-This might be because this part of the melody is most active in memory due to a recency effect, or it could be that that cadential gestures are more common in being represented in the prior knowledge.
+This might be because this part of the melody is most active in memory due to a recency effect, or it could be that that cadential gestures are more common in being represented in the Prior Knowledge.
 
 ### Completion 
 
-Given the recursive nature of this process, if all 2-grams are explicitly represented in the Prior Knowledge then the target melody will be transcribed.
+Given the recursive nature of this process, if all 1-grams are explicitly represented in the Prior Knowledge then the target melody will be transcribed.
 If only represented using such a small chunk, the model will have to loop over the melody many times, thus indicating that the transcriber had a high degree of difficulty dictating the melody.
 If there is a gap in explicit knowledge in the prior knowledge, only patches of the melody will be recorded and the melody will not be recorded in its entirety.
 An easier transcription will result in less iterations of the model with larger chunks.
 Though the current instantiation of the model does not incorporate how multiple hearings might change how a melody is dictated, one could constrain the process to only allow a certain number of iterations to reflect this.
-Of course as a new melody is learned it is slowly being introduced into long term memory and could be completely be capable of being represented in long term memory without being explicitly notated at the end of a dictation with time running out and thus not possible to be completed.
+Of course as a new melody is learned, it is slowly being introduced into long term memory and could be completely be capable of being represented in long term memory without being explicitly notated at the end of a dictation with time running out and thus not possible to be completed.
 This of course then would be imposing some sort of experimental constraint on the process and since this is meant to be a cognitive computational model of melodic dictation this caveat would complicate the model.
 Future research could be done to optimize the choices that the model makes in order to satisfy whatever constraints are imposed and could be an interesting avenue of future research, but are beyond the initial goals of the model.
 
@@ -183,11 +184,13 @@ The model then outputs each n-gram transcribed and can be counted as a series wi
 This agrees with intuitions about the process of melodic dictation.
 It first creates a linear mapping of attempts to dictate with difficulty of the melody.
 It relies on a distinction between explicit and implicit statistical knowledge.
-It is based on the Embedded Process Model from working memory and attention, so is part of a larger generative model, giving more credibility that this could be how melodic dictation works. 
+It is based on the Embedded Process Model from working memory and attention, so is part of a larger generative model, giving more credibility to explaining the underlying processes of melodic dictation.
+The output of this model is inspired by work on mental rotation [@shepardMentalRotationThreeDimensional1971] which assumes that time to complete a task is directly proportional to cognitive effort required.
+More iterations of the model as reflected in more searches should reflect more mental effort and vice versa.
 
 ## Formal Model 
 
-Below I present the computational model in pseudocode as described in Figure \@ref(fig:mymodel).
+I present the computational model in pseudocode as described in Figure \@ref(fig:mymodel).
 First, listed are the defined inputs, the functions needed to run the algorithm, and then the sequence the model runs.
 To aid distinguishing between functions and objects, I put functions in italics and objects in bold.
 Below the model in Figure \@ref(fig:walkthru), I provide a brief walk through of one iteration of the model.
@@ -217,7 +220,7 @@ Using the model above, the following inputs were defined _a priori_:
 
 Figure \@ref(fig:walkthru) progresses from left to right over the course of time.
 The algorithm begins by first running the ```listen()``` function on the **Target Melody**.
-First the model checks that there are notes to transcribe; this being the first loop of the model, this is statement will be ```FALSE``` so the next step is taken.
+First, the model checks that there are notes to transcribe; this being the first loop of the model, this is statement will be ```FALSE``` so the next step is taken.
 Notes of the **Target Melody** are read in to the **Selective Attention** buffer until the information content of the melody exceeds that of the working memory threshold.
 This is depicted graphically in the leftmost panel of Figure \@ref(fig:walkthru).
 Each note unfolding over time fills up the **Selective Attention** working memory buffer.
@@ -233,10 +236,10 @@ In this case, this pattern has occurred over the threshold of 5 and thus a succe
 It is at this step that the search resembles that of Cowan's model of working memory as active attention.
 The pattern being searched for is compared against a vast amount of information, with cues from the contents of what is in **Selective Attention** grouping similar patterns together.
 At the neural level, this is most likely a much more complex process, but to show this grouping I note that this search is at least organized by the first pitch.
-I assume it would be reasonable that patterns starting on G as $\hat{5}$^[As determined by being calculated against the corpus with both pitch and scale degree information] might happen together.
+I assume it would be reasonable that patterns starting on G as $\hat{5}$ might happen together.
 Since this string does have a ```TRUE``` match with ```EXPLICIT```, the contents of **Selective Attention** are considered notated.
 At this point the model would record the 5-gram, along with the string that it was matched with.
-the function would then re-run the ```listen``` function via the ```notateReentry()``` function at the next point in the melody as tracked by the **String Position** object.
+The function would then re-run the ```listen``` function via the ```notateReentry()``` function at the next point in the melody as tracked by the **String Position** object.
 
 If there were not to have been an exact match, the model would remove one token from the melody and perform the search again on the knowledge of all 4-grams and add one to the **Difficulty** counter.
 This process would happen recursively until a match is found.
@@ -247,7 +250,7 @@ As notated in [Dictation Re-Entry], other modes of re-entry could be incorporate
 
 This looping process would occur again and again until the entire melody is notated.
 With each iteration of each n-gram notated, the difficulty counter would increase in relation to the representation of that string in the corpus. 
-This provides an algorithmic implementation of a theorist's intuition that less common n-grams or intervals (2-grams) are going to lead to higher difficulty in dictation.
+This provides an algorithmic implementation of the intuition that less common n-grams or intervals (2-grams) are going to lead to higher difficulty in dictation.
 Also worth noting is steps 3 and 4 in the ```transcribe()``` function are akin to Karpinski's proto-notation.
 Further research might consider advantages in the order of searching the **Prior Knowledge** corpora. 
 
@@ -260,7 +263,7 @@ Given the current state of the model, it makes predictions about the dictation p
 For example, the model predicts: 
 
 * Segments of melodies are likely successfully to be dictated relative to the frequency distribution of their prior knowledge.
-* Higher working memory span individuals will be able to dictate bigger chunks of melodies, and thus perform better at dictation
+* Higher working memory span individuals will be able to dictate larger chunks of melodies, and thus perform better at dictation
 * Using an _atomistic_ dictation will result not as effective dictations than attempting to identify larger patterns
 * Determining the difficulty of melodies of equal length is predictable from the frequency the melody's cumulative n-gram distribution.
 * Some _atonal_ melodies will be easier to dictate than tonal melodies if they consist of patterns that are more frequent in a listener's prior knowledge
