@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  6 APR 2019 08:58
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  7 APR 2019 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -697,69 +697,42 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip54
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count167
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: xetex.def on input line 147.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2016/07/11 v4.10 LaTeX color/graphics driver for XeTeX (L3/RRM/
-JK)
-)) (/usr/local/texlive/2017/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2008/02/07
-
-Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
-<2008/02/07> (tvz)
-\FV@CodeLineNo=\count168
-\FV@InFile=\read2
-\FV@TabBox=\box45
-\c@FancyVerbLine=\count169
-\FV@StepNumber=\count170
-\FV@OutFile=\write3
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/framed/framed.sty
-Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip55
-\fb@frw=\dimen159
-\fb@frh=\dimen160
-\FrameRule=\dimen161
-\FrameSep=\dimen162
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip56
-\LTright=\skip57
-\LTpre=\skip58
-\LTpost=\skip59
-\LTchunksize=\count171
-\LTcapwidth=\dimen163
-\LT@head=\box46
-\LT@firsthead=\box47
-\LT@foot=\box48
-\LT@lastfoot=\box49
-\LT@cols=\count172
-\LT@rows=\count173
-\c@LT@tables=\count174
-\c@LT@chunks=\count175
+\LTleft=\skip55
+\LTright=\skip56
+\LTpre=\skip57
+\LTpost=\skip58
+\LTchunksize=\count168
+\LTcapwidth=\dimen159
+\LT@head=\box45
+\LT@firsthead=\box46
+\LT@foot=\box47
+\LT@lastfoot=\box48
+\LT@cols=\count169
+\LT@rows=\count170
+\c@LT@tables=\count171
+\c@LT@chunks=\count172
 \LT@p@ftn=\toks24
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen164
-\lightrulewidth=\dimen165
-\cmidrulewidth=\dimen166
-\belowrulesep=\dimen167
-\belowbottomsep=\dimen168
-\aboverulesep=\dimen169
-\abovetopsep=\dimen170
-\cmidrulesep=\dimen171
-\cmidrulekern=\dimen172
-\defaultaddspace=\dimen173
-\@cmidla=\count176
-\@cmidlb=\count177
-\@aboverulesep=\dimen174
-\@belowrulesep=\dimen175
-\@thisruleclass=\count178
-\@lastruleclass=\count179
-\@thisrulewidth=\dimen176
+\heavyrulewidth=\dimen160
+\lightrulewidth=\dimen161
+\cmidrulewidth=\dimen162
+\belowrulesep=\dimen163
+\belowbottomsep=\dimen164
+\aboverulesep=\dimen165
+\abovetopsep=\dimen166
+\cmidrulesep=\dimen167
+\cmidrulekern=\dimen168
+\defaultaddspace=\dimen169
+\@cmidla=\count173
+\@cmidlb=\count174
+\@aboverulesep=\dimen170
+\@belowrulesep=\dimen171
+\@thisruleclass=\count175
+\@lastruleclass=\count176
+\@thisrulewidth=\dimen172
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
@@ -770,9 +743,12 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 99.
-)
-\Gin@req@height=\dimen177
-\Gin@req@width=\dimen178
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2016/07/11 v4.10 LaTeX color/graphics driver for XeTeX (L3/RRM/
+JK)
+))
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grffile.sty
 Package: grffile 2016/05/16 v1.17 Extended file name support for graphics (HO)
 Package grffile Info: \Gread@QTm patched on input line 253.
@@ -785,9 +761,9 @@ Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
 Package: parskip 2001/04/09 non-zero parskip adjustments
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip60
-\thanksmargin=\skip61
-\droptitle=\skip62
+\thanksmarkwidth=\skip59
+\thanksmargin=\skip60
+\droptitle=\skip61
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks25
@@ -795,39 +771,39 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headfont=\toks27
 \thm@notefont=\toks28
 \thm@headpunct=\toks29
-\thm@preskip=\skip63
-\thm@postskip=\skip64
-\thm@headsep=\skip65
+\thm@preskip=\skip62
+\thm@postskip=\skip63
+\thm@headsep=\skip64
 \dth@everypar=\toks30
 ) (./mmd-draft-djb.aux)
 \openout1 = `mmd-draft-djb.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 140.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 140.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 100.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Info: Redefining \microtypecontext on input line 140.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Info: Redefining \microtypecontext on input line 100.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -872,21 +848,21 @@ ern Roman (RS)
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring OFF on input line 140.
+\AtBeginShipoutBox=\box49
+Package hyperref Info: Link coloring OFF on input line 100.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count180
+\c@section@level=\count177
 )
-LaTeX Info: Redefining \ref on input line 140.
-LaTeX Info: Redefining \pageref on input line 140.
-LaTeX Info: Redefining \nameref on input line 140.
+LaTeX Info: Redefining \ref on input line 100.
+LaTeX Info: Redefining \pageref on input line 100.
+LaTeX Info: Redefining \nameref on input line 100.
 (./mmd-draft-djb.out) (./mmd-draft-djb.out)
-\@outlinefile=\write4
-\openout4 = `mmd-draft-djb.out'.
+\@outlinefile=\write3
+\openout3 = `mmd-draft-djb.out'.
 
 [1
 
@@ -931,1460 +907,1474 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-))
-\tf@toc=\write5
-\openout5 = `mmd-draft-djb.toc'.
+) [3])
+\tf@toc=\write4
+\openout4 = `mmd-draft-djb.toc'.
 
-[3]
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 149.
-[4]
+[4] [5] [6
+
+]
 Chapter 1.
 
-Package natbib Warning: Citation `NationalAssociationSchools2018' on page 5 und
-efined on input line 176.
+Package natbib Warning: Citation `NationalAssociationSchools2018' on page 7 und
+efined on input line 130.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 178.
+(Font)              <8> on input line 132.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 178.
+(Font)              <6> on input line 132.
 
-Package natbib Warning: Citation `bestMusicCurriculaFuture1992' on page 5 undef
-ined on input line 179.
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[][][][]$[][][][][] [] [] [] [][][][] [] [][][][][][][][][][][][][][] [] [][][]
+ [] [][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][
+][][][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][] [] [][][][][] [] 
+[][][][][][] []
+ []
+
+
+Package natbib Warning: Citation `bestMusicCurriculaFuture1992' on page 7 undef
+ined on input line 133.
 
 
 Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-5 undefined on input line 179.
+7 undefined on input line 133.
 
 
-Package natbib Warning: Citation `butlerBridgesUnbuiltComparing1993' on page 5 
-undefined on input line 183.
+Package natbib Warning: Citation `butlerBridgesUnbuiltComparing1993' on page 7 
+undefined on input line 137.
 
 
-Package natbib Warning: Citation `davidbutlerWhyGulfMusic1997a' on page 5 undef
-ined on input line 183.
+Package natbib Warning: Citation `davidbutlerWhyGulfMusic1997a' on page 7 undef
+ined on input line 137.
 
 
 Package natbib Warning: Citation `klonoskiImprovingDictationAuralSkills2006' on
- page 5 undefined on input line 183.
+ page 7 undefined on input line 137.
 
 
 Package natbib Warning: Citation `klonoskiPerceptualLearningHierarchy2000' on p
-age 5 undefined on input line 183.
+age 7 undefined on input line 137.
 
 
-Package natbib Warning: Citation `pembrookSendHelpAural1990' on page 5 undefine
-d on input line 183.
-
-
-Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-5 undefined on input line 183.
+Package natbib Warning: Citation `pembrookSendHelpAural1990' on page 7 undefine
+d on input line 137.
 
 
 Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-5 undefined on input line 184.
+7 undefined on input line 137.
+
+
+Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
+7 undefined on input line 138.
 
 
 Package natbib Warning: Citation `dowlingExpectancyAttentionMelody1990' on page
- 5 undefined on input line 184.
+ 7 undefined on input line 138.
 
 
-Package natbib Warning: Citation `dowlingScaleContourTwo1978' on page 5 undefin
-ed on input line 184.
+Package natbib Warning: Citation `dowlingScaleContourTwo1978' on page 7 undefin
+ed on input line 138.
 
 
-Package natbib Warning: Citation `dowlingTonalStrengthMelody1991' on page 5 und
-efined on input line 184.
+Package natbib Warning: Citation `dowlingTonalStrengthMelody1991' on page 7 und
+efined on input line 138.
 
 
-Package natbib Warning: Citation `halpernMemoryMelodies2010' on page 5 undefine
-d on input line 184.
+Package natbib Warning: Citation `halpernMemoryMelodies2010' on page 7 undefine
+d on input line 138.
 
 
-Package natbib Warning: Citation `buonviriEffectsTwoListening2017' on page 5 un
-defined on input line 184.
+Package natbib Warning: Citation `buonviriEffectsTwoListening2017' on page 7 un
+defined on input line 138.
 
 
 Package natbib Warning: Citation `buonviriMelodicDictationInstruction2015' on p
-age 5 undefined on input line 184.
-
-
-Package natbib Warning: Citation `paneyEffectDirectingAttention2016' on page 5 
-undefined on input line 184.
-
-
-Package natbib Warning: Citation `halpernMemoryMelodies2010' on page 5 undefine
-d on input line 186.
-
-
-Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-5 undefined on input line 200.
-
-
-Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 5 
-undefined on input line 200.
-
-
-Package natbib Warning: Citation `levitinWhatDoesIt2012' on page 5 undefined on
- input line 204.
-
-
-Package natbib Warning: Citation `peretzNatureMusicBiological2006' on page 5 un
-defined on input line 204.
-
-
-Package natbib Warning: Citation `bakerExaminingMusicalSophistication2018' on p
-age 5 undefined on input line 204.
-
-[5
-
-]
-
-Package natbib Warning: Citation `berzWorkingMemoryMusic1995' on page 6 undefin
-ed on input line 209.
-
-
-Package natbib Warning: Citation `huronHumdrumToolkitReference1994' on page 6 u
-ndefined on input line 218.
-
-
-Package natbib Warning: Citation `cowanMagicalMysteryFour2010' on page 6 undefi
-ned on input line 229.
-
-
-Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 6 undefined on input line 229.
-
-
-Package natbib Warning: Citation `chenetteReframingAuralSkills2019' on page 6 u
-ndefined on input line 229.
-
-
-Package natbib Warning: Citation `vanhandelRoleWorkingMemory2011' on page 6 und
-efined on input line 229.
-
-[6]
-Chapter 2.
-
-Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 7 
-undefined on input line 239.
-
-
-Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-7 undefined on input line 240.
-
-
-Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-7 undefined on input line 240.
-
-
-Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 7 
-undefined on input line 244.
-
-
-Package natbib Warning: Citation `klonoskiImprovingDictationAuralSkills2006' on
- page 7 undefined on input line 247.
-
-
-Package natbib Warning: Citation `potterIdentifyingSucessfulDictation1990' on p
-age 7 undefined on input line 248.
-
-
-Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-7 undefined on input line 249.
+age 7 undefined on input line 138.
 
 
 Package natbib Warning: Citation `paneyEffectDirectingAttention2016' on page 7 
-undefined on input line 253.
+undefined on input line 138.
 
-[7
 
-]
-
-Package natbib Warning: Citation `davidbutlerWhyGulfMusic1997a' on page 8 undef
-ined on input line 259.
+Package natbib Warning: Citation `halpernMemoryMelodies2010' on page 7 undefine
+d on input line 140.
 
 
 Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-8 undefined on input line 259.
+7 undefined on input line 154.
+
+
+Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 7 
+undefined on input line 154.
+
+
+Package natbib Warning: Citation `levitinWhatDoesIt2012' on page 7 undefined on
+ input line 158.
+
+
+Package natbib Warning: Citation `peretzNatureMusicBiological2006' on page 7 un
+defined on input line 158.
+
+
+Package natbib Warning: Citation `bakerExaminingMusicalSophistication2018' on p
+age 7 undefined on input line 158.
+
+[7]
+
+Package natbib Warning: Citation `berzWorkingMemoryMusic1995' on page 8 undefin
+ed on input line 163.
+
+
+Package natbib Warning: Citation `huronHumdrumToolkitReference1994' on page 8 u
+ndefined on input line 172.
+
+
+Package natbib Warning: Citation `cowanMagicalMysteryFour2010' on page 8 undefi
+ned on input line 183.
+
+
+Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
+on page 8 undefined on input line 183.
+
+
+Package natbib Warning: Citation `chenetteReframingAuralSkills2019' on page 8 u
+ndefined on input line 183.
+
+
+Package natbib Warning: Citation `vanhandelRoleWorkingMemory2011' on page 8 und
+efined on input line 183.
+
+[8]
+Chapter 2.
+
+Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 9 
+undefined on input line 193.
+
+
+Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
+9 undefined on input line 194.
+
+
+Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
+9 undefined on input line 194.
+
+
+Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 9 
+undefined on input line 198.
+
+
+Package natbib Warning: Citation `klonoskiImprovingDictationAuralSkills2006' on
+ page 9 undefined on input line 201.
+
+
+Package natbib Warning: Citation `potterIdentifyingSucessfulDictation1990' on p
+age 9 undefined on input line 202.
+
+
+Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
+9 undefined on input line 203.
+
+
+Package natbib Warning: Citation `paneyEffectDirectingAttention2016' on page 9 
+undefined on input line 207.
+
+
+Package natbib Warning: Citation `davidbutlerWhyGulfMusic1997a' on page 9 undef
+ined on input line 213.
+
+
+Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
+9 undefined on input line 213.
 
 
 Package natbib Warning: Citation `klonoskiPerceptualLearningHierarchy2000' on p
-age 8 undefined on input line 259.
+age 9 undefined on input line 213.
+
+[9
+
+]
+
+Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
+10 undefined on input line 219.
+
+
+Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 10
+ undefined on input line 219.
+
+
+Package natbib Warning: Citation `wrightInvestigatingAuralCase2016' on page 10 
+undefined on input line 237.
 
 
 Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-8 undefined on input line 265.
+10 undefined on input line 237.
 
 
-Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 8 
-undefined on input line 265.
-
-
-Package natbib Warning: Citation `wrightInvestigatingAuralCase2016' on page 8 u
-ndefined on input line 284.
+Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 10
+ undefined on input line 238.
 
 
 Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-8 undefined on input line 284.
-
-
-Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 8 
-undefined on input line 285.
-
-
-Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-8 undefined on input line 285.
+10 undefined on input line 238.
 
 File: img/karpinski31.png Graphic file (type QTm)
 <use  "img/karpinski31.png" >
 
 Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-8 undefined on input line 297.
+10 undefined on input line 250.
 
 
 Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-8 undefined on input line 298.
+10 undefined on input line 251.
 
 
-Package natbib Warning: Citation `baddeleyEpisodicBufferNew2000' on page 8 unde
-fined on input line 301.
+Package natbib Warning: Citation `baddeleyEpisodicBufferNew2000' on page 10 und
+efined on input line 254.
 
 
-Package natbib Warning: Citation `dowlingScaleContourTwo1978' on page 8 undefin
-ed on input line 303.
+Package natbib Warning: Citation `dowlingScaleContourTwo1978' on page 10 undefi
+ned on input line 256.
 
 
-Package natbib Warning: Citation `dewittRecognitionNovelMelodies1986' on page 8
- undefined on input line 303.
+Package natbib Warning: Citation `dewittRecognitionNovelMelodies1986' on page 1
+0 undefined on input line 256.
 
 
-Package natbib Warning: Citation `ouraMemoryMelodiesSubjects1988' on page 8 und
-efined on input line 303.
+Package natbib Warning: Citation `ouraMemoryMelodiesSubjects1988' on page 10 un
+defined on input line 256.
 
 
 Package natbib Warning: Citation `handelListeningIntroductionPerception1989' on
- page 8 undefined on input line 303.
+ page 10 undefined on input line 256.
 
 
 Package natbib Warning: Citation `dowlingExpectancyAttentionMelody1990' on page
- 8 undefined on input line 303.
+ 10 undefined on input line 256.
 
 
-Package natbib Warning: Citation `eerolaExpectancySamiYoiks2009' on page 8 unde
-fined on input line 304.
+Package natbib Warning: Citation `eerolaExpectancySamiYoiks2009' on page 10 und
+efined on input line 257.
 
 
 Package natbib Warning: Citation `stevensMusicPerceptionCognition2012' on page 
-8 undefined on input line 304.
+10 undefined on input line 257.
 
 
 Package natbib Warning: Citation `pearceAuditoryExpectationInformation2012' on 
-page 8 undefined on input line 304.
+page 10 undefined on input line 257.
 
 
 Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 8 undefined on input line 304.
+on page 10 undefined on input line 257.
 
 
-Package natbib Warning: Citation `millerMagicalNumberSeven1956' on page 8 undef
-ined on input line 307.
+Package natbib Warning: Citation `millerMagicalNumberSeven1956' on page 10 unde
+fined on input line 260.
 
-[8] [9]
 
 Package natbib Warning: Citation `arthurPerceptualStudyScaledegree2018' on page
- 10 undefined on input line 315.
+ 10 undefined on input line 268.
 
+[10] [11]
 
-Package natbib Warning: Citation `taylorStrategiesMemoryShort1983' on page 10 u
-ndefined on input line 319.
+Package natbib Warning: Citation `taylorStrategiesMemoryShort1983' on page 12 u
+ndefined on input line 272.
 
 
 Package natbib Warning: Citation `klonoskiImprovingDictationAuralSkills2006' on
- page 10 undefined on input line 319.
+ page 12 undefined on input line 272.
 
 
 Package natbib Warning: Citation `goldmanImprovisationExperiencePredicts2018a' 
-on page 10 undefined on input line 328.
+on page 12 undefined on input line 281.
 
 
-Package natbib Warning: Citation `laneChessKnowledgePredicts2018' on page 10 un
-defined on input line 328.
+Package natbib Warning: Citation `laneChessKnowledgePredicts2018' on page 12 un
+defined on input line 281.
 
 File: img/musicalexamples/MMD_Figure2-1.png Graphic file (type QTm)
 <use  "img/musicalexamples/MMD_Figure2-1.png" >
 File: img/musicalexamples/MMD_Figure3-1.png Graphic file (type QTm)
-<use  "img/musicalexamples/MMD_Figure3-1.png" > [10]
+<use  "img/musicalexamples/MMD_Figure3-1.png" > [12]
 File: img/taxonomy4.png Graphic file (type QTm)
-<use  "img/taxonomy4.png" > [11]
+<use  "img/taxonomy4.png" >
 
-Package natbib Warning: Citation `meyerEmotionMeaningMusic1956' on page 12 unde
-fined on input line 403.
-
-
-Package natbib Warning: Citation `ritchieIntelligenceAllThat2015' on page 12 un
-defined on input line 416.
-
-
-Package natbib Warning: Citation `unsworthAutomatedVersionOperation2005' on pag
-e 12 undefined on input line 416.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[12]
-
-Package natbib Warning: Citation `gouldMismeasureMan1996' on page 13 undefined 
-on input line 425.
-
-
-Package natbib Warning: Citation `darwinOriginSpecies1859' on page 13 undefined
- on input line 426.
-
-
-Package natbib Warning: Citation `spearmanGeneralIntelligenceObjectively1904' o
-n page 13 undefined on input line 433.
-
-
-Package natbib Warning: Citation `gouldMismeasureMan1996' on page 13 undefined 
-on input line 433.
-
-
-Package natbib Warning: Citation `warneStephenJayGould2019' on page 13 undefine
-d on input line 434.
-
-
-Package natbib Warning: Citation `cattellAbilitiesTheirGrowth1971' on page 13 u
-ndefined on input line 443.
-
-
-Package natbib Warning: Citation `jhornTheoryFluidCrystalized1994' on page 13 u
-ndefined on input line 443.
-
-
-Package natbib Warning: Citation `matzkeIssuePowerIdentification2010' on page 1
-3 undefined on input line 444.
-
-
-Package natbib Warning: Citation `kovacsProcessOverlapTheory2016' on page 13 un
-defined on input line 445.
-
-
-Package natbib Warning: Citation `borsboomTheoreticalStatusLatent2003' on page 
-13 undefined on input line 445.
+Package natbib Warning: Citation `meyerEmotionMeaningMusic1956' on page 13 unde
+fined on input line 356.
 
 [13]
 
 Package natbib Warning: Citation `ritchieIntelligenceAllThat2015' on page 14 un
-defined on input line 447.
+defined on input line 369.
 
 
-Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 14 un
-defined on input line 458.
+Package natbib Warning: Citation `unsworthAutomatedVersionOperation2005' on pag
+e 14 undefined on input line 369.
+
+[14]
+
+Package natbib Warning: Citation `gouldMismeasureMan1996' on page 15 undefined 
+on input line 377.
 
 
-Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 14 un
-defined on input line 463.
+Package natbib Warning: Citation `darwinOriginSpecies1859' on page 15 undefined
+ on input line 378.
+
+
+Package natbib Warning: Citation `spearmanGeneralIntelligenceObjectively1904' o
+n page 15 undefined on input line 384.
+
+
+Package natbib Warning: Citation `gouldMismeasureMan1996' on page 15 undefined 
+on input line 384.
+
+
+Package natbib Warning: Citation `warneStephenJayGould2019' on page 15 undefine
+d on input line 385.
+
+
+Package natbib Warning: Citation `spearmanGeneralIntelligenceObjectively1904' o
+n page 15 undefined on input line 390.
+
+
+Package natbib Warning: Citation `cattellAbilitiesTheirGrowth1971' on page 15 u
+ndefined on input line 394.
+
+
+Package natbib Warning: Citation `jhornTheoryFluidCrystalized1994' on page 15 u
+ndefined on input line 394.
+
+
+Package natbib Warning: Citation `matzkeIssuePowerIdentification2010' on page 1
+5 undefined on input line 395.
+
+
+Package natbib Warning: Citation `kovacsProcessOverlapTheory2016' on page 15 un
+defined on input line 396.
+
+
+Package natbib Warning: Citation `borsboomTheoreticalStatusLatent2003' on page 
+15 undefined on input line 396.
+
+
+Package natbib Warning: Citation `ritchieIntelligenceAllThat2015' on page 15 un
+defined on input line 398.
+
+[15]
+
+Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 16 un
+defined on input line 409.
+
+
+Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 16 un
+defined on input line 414.
 
 
 Package natbib Warning: Citation `broadbentPerceptionCommunication1958' on page
- 14 undefined on input line 463.
+ 16 undefined on input line 414.
 
 
-Package natbib Warning: Citation `atkinsonHUMANMEMORYPROPOSED1968' on page 14 u
-ndefined on input line 463.
+Package natbib Warning: Citation `atkinsonHUMANMEMORYPROPOSED1968' on page 16 u
+ndefined on input line 414.
 
 
-Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 14 un
-defined on input line 464.
+Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 16 un
+defined on input line 415.
 
 
-Package natbib Warning: Citation `baddeleyWorkingMemory1974' on page 14 undefin
-ed on input line 465.
+Package natbib Warning: Citation `baddeleyWorkingMemory1974' on page 16 undefin
+ed on input line 416.
 
 File: img/wm_models.png Graphic file (type QTm)
 <use  "img/wm_models.png" >
 
-Package natbib Warning: Citation `baddeleyEpisodicBufferNew2000' on page 14 und
-efined on input line 476.
+Package natbib Warning: Citation `baddeleyEpisodicBufferNew2000' on page 16 und
+efined on input line 427.
 
 
-Package natbib Warning: Citation `berzWorkingMemoryMusic1995' on page 14 undefi
-ned on input line 478.
+Package natbib Warning: Citation `berzWorkingMemoryMusic1995' on page 16 undefi
+ned on input line 429.
 
 
 Package natbib Warning: Citation `williamsonMusiciansNonmusiciansShortterm2010'
- on page 14 undefined on input line 479.
+ on page 16 undefined on input line 430.
 
 
 Package natbib Warning: Citation `wollnerAttentionalFlexibilityMemory2016' on p
-age 14 undefined on input line 479.
+age 16 undefined on input line 430.
 
 
 Package natbib Warning: Citation `cowanEvolvingConceptionsMemory1988' on page 1
-4 undefined on input line 483.
+6 undefined on input line 434.
 
-
-Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 14 un
-defined on input line 483.
-
-[14] [15]
 
 Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 16 un
-defined on input line 488.
+defined on input line 434.
 
 
-Package natbib Warning: Citation `millerMagicalNumberSeven1956' on page 16 unde
-fined on input line 501.
+Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 16 un
+defined on input line 439.
+
+[16] [17]
+
+Package natbib Warning: Citation `millerMagicalNumberSeven1956' on page 18 unde
+fined on input line 453.
 
 
 Package natbib Warning: Citation `millerHistoryPsychologyAutobiography1989' on 
-page 16 undefined on input line 502.
+page 18 undefined on input line 454.
 
 
-Package natbib Warning: Citation `cowanMagicalMysteryFour2010' on page 16 undef
-ined on input line 504.
-
-
-Package natbib Warning: Citation `unsworthAutomatedVersionOperation2005' on pag
-e 16 undefined on input line 504.
-
-
-Package natbib Warning: Citation `unsworthComplexWorkingMemory2009' on page 16 
-undefined on input line 504.
+Package natbib Warning: Citation `cowanMagicalMysteryFour2010' on page 18 undef
+ined on input line 456.
 
 
 Package natbib Warning: Citation `unsworthAutomatedVersionOperation2005' on pag
-e 16 undefined on input line 505.
+e 18 undefined on input line 456.
 
 
-Package natbib Warning: Citation `conwayWorkingMemorySpan2005' on page 16 undef
-ined on input line 516.
+Package natbib Warning: Citation `unsworthComplexWorkingMemory2009' on page 18 
+undefined on input line 456.
+
+
+Package natbib Warning: Citation `unsworthAutomatedVersionOperation2005' on pag
+e 18 undefined on input line 457.
+
+
+Package natbib Warning: Citation `conwayWorkingMemorySpan2005' on page 18 undef
+ined on input line 468.
 
 
 Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-16 undefined on input line 516.
+18 undefined on input line 468.
 
 
-Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 16 un
-defined on input line 519.
+Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 18 un
+defined on input line 471.
 
-[16]
 
 Package natbib Warning: Citation `krumhanslCognitiveFoundationsMusical2001' on 
-page 17 undefined on input line 525.
+page 18 undefined on input line 477.
 
 
-Package natbib Warning: Citation `meyerEmotionMeaningMusic1956' on page 17 unde
-fined on input line 525.
+Package natbib Warning: Citation `meyerEmotionMeaningMusic1956' on page 18 unde
+fined on input line 477.
 
 
-Package natbib Warning: Citation `schenkerFreieSatz1935' on page 17 undefined o
-n input line 525.
-
-
-Package natbib Warning: Citation `saffranStatisticalLearningTone1999' on page 1
-7 undefined on input line 541.
-
-
-Package natbib Warning: Citation `berzWorkingMemoryMusic1995' on page 17 undefi
-ned on input line 543.
-
-
-Package natbib Warning: Citation `talaminiMusiciansHaveBetter2017' on page 17 u
-ndefined on input line 558.
-
-[17]
-
-Package natbib Warning: Citation `kopiezDynamicModelSkills2006' on page 18 unde
-fined on input line 565.
-
-
-Package natbib Warning: Citation `kopiezGeneralModelSkills2008' on page 18 unde
-fined on input line 565.
-
-
-Package natbib Warning: Citation `meinzDeliberatePracticeNecessary2010' on page
- 18 undefined on input line 567.
-
-
-Package natbib Warning: Citation `wollnerAttentionalFlexibilityMemory2016' on p
-age 18 undefined on input line 569.
-
-
-Package natbib Warning: Citation `nicholsScoreOneJazz2018' on page 18 undefined
- on input line 570.
-
-
-Package natbib Warning: Citation `engleWorkingMemoryCapacity2002' on page 18 un
-defined on input line 571.
-
-
-Package natbib Warning: Citation `colleyWorkingMemoryAuditory2018' on page 18 u
-ndefined on input line 572.
-
-
-Package natbib Warning: Citation `mullensiefenInvestigatingImportanceSelftheori
-es2015' on page 18 undefined on input line 584.
-
-
-Package natbib Warning: Citation `schellenbergMusicNonmusicalAbilities2017' on 
-page 18 undefined on input line 586.
-
-
-Package natbib Warning: Citation `gibsonEnhancedDivergentThinking2009' on page 
-18 undefined on input line 586.
-
-
-Package natbib Warning: Citation `hilleAssociationsMusicEducation2011' on page 
-18 undefined on input line 586.
-
-
-Package natbib Warning: Citation `schellenbergExaminingAssociationMusic2011' on
- page 18 undefined on input line 586.
-
-
-Package natbib Warning: Citation `schellenbergMusicTrainingEmotion2012' on page
- 18 undefined on input line 586.
-
-
-Package natbib Warning: Citation `corrigallPredictingWhoTakes2015' on page 18 u
-ndefined on input line 586.
-
-
-Package natbib Warning: Citation `degeMusicLessonsIntelligence2011' on page 18 
-undefined on input line 586.
-
-
-Package natbib Warning: Citation `schellenbergLongtermPositiveAssociations2006'
- on page 18 undefined on input line 586.
-
-
-Package natbib Warning: Citation `corrigallAssociationsLengthMusic2011' on page
- 18 undefined on input line 587.
-
-
-Package natbib Warning: Citation `degeMusicLessonsIntelligence2011' on page 18 
-undefined on input line 587.
-
-
-Package natbib Warning: Citation `schellenbergExaminingAssociationMusic2011' on
- page 18 undefined on input line 587.
-
-
-Package natbib Warning: Citation `schellenbergMusicTrainingEmotion2012' on page
- 18 undefined on input line 587.
-
-
-Package natbib Warning: Citation `corrigallAssociationsLengthMusic2011' on page
- 18 undefined on input line 588.
-
-
-Package natbib Warning: Citation `parbery-clarkMusicalExperienceAging2011' on p
-age 18 undefined on input line 588.
-
-
-Package natbib Warning: Citation `straitMusicalTrainingEarly2012' on page 18 un
-defined on input line 588.
-
-
-Package natbib Warning: Citation `schellenbergLongtermPositiveAssociations2006'
- on page 18 undefined on input line 589.
-
-
-Package natbib Warning: Citation `francoisMusicTrainingDevelopment2013' on page
- 18 undefined on input line 591.
-
-
-Package natbib Warning: Citation `morenoMusicalTrainingInfluences2009' on page 
-18 undefined on input line 591.
-
-
-Package natbib Warning: Citation `mehrTwoRandomizedTrials2013' on page 18 undef
-ined on input line 591.
-
-
-Package natbib Warning: Citation `swaminathanRevisitingAssociationMusic2017' on
- page 18 undefined on input line 592.
+Package natbib Warning: Citation `schenkerFreieSatz1935' on page 18 undefined o
+n input line 477.
 
 [18]
 
-Package natbib Warning: Citation `ericssonRoleDeliberatePractice1993' on page 1
-9 undefined on input line 599.
+Package natbib Warning: Citation `saffranStatisticalLearningTone1999' on page 1
+9 undefined on input line 493.
 
 
-Package natbib Warning: Citation `meinzDeliberatePracticeNecessary2010' on page
- 19 undefined on input line 601.
-
-
-Package natbib Warning: Citation `dettermanMoreComprehensiveTheory1999' on page
- 19 undefined on input line 602.
-
-
-Package natbib Warning: Citation `ruthsatzBecomingExpertMusical2008' on page 19
- undefined on input line 604.
-
-
-Package natbib Warning: Citation `mosingPracticeDoesNot2014' on page 19 undefin
-ed on input line 605.
-
-
-Package natbib Warning: Citation `bakerExaminingMusicalSophistication2018a' on 
-page 19 undefined on input line 608.
+Package natbib Warning: Citation `berzWorkingMemoryMusic1995' on page 19 undefi
+ned on input line 495.
 
 
 Package natbib Warning: Citation `talaminiMusiciansHaveBetter2017' on page 19 u
-ndefined on input line 608.
+ndefined on input line 509.
 
 
-Package natbib Warning: Citation `blackingHowMusicalMan2000' on page 19 undefin
-ed on input line 610.
+Package natbib Warning: Citation `kopiezDynamicModelSkills2006' on page 19 unde
+fined on input line 516.
 
 
-Package natbib Warning: Citation `murphyHowFarTests1999' on page 19 undefined o
-n input line 610.
+Package natbib Warning: Citation `kopiezGeneralModelSkills2008' on page 19 unde
+fined on input line 516.
 
 
-Package natbib Warning: Citation `chenetteReframingAuralSkills2019' on page 19 
-undefined on input line 618.
+Package natbib Warning: Citation `meinzDeliberatePracticeNecessary2010' on page
+ 19 undefined on input line 518.
 
 
-Package natbib Warning: Citation `furbyEffectsPeerTutoring2016' on page 19 unde
-fined on input line 620.
+Package natbib Warning: Citation `wollnerAttentionalFlexibilityMemory2016' on p
+age 19 undefined on input line 520.
 
 
-Package natbib Warning: Citation `harrisonEffectsMusicalAptitude1994' on page 1
-9 undefined on input line 621.
+Package natbib Warning: Citation `nicholsScoreOneJazz2018' on page 19 undefined
+ on input line 521.
 
 
-Package natbib Warning: Citation `furbyEffectsPeerTutoring2016' on page 19 unde
-fined on input line 626.
+Package natbib Warning: Citation `engleWorkingMemoryCapacity2002' on page 19 un
+defined on input line 522.
 
 
-Package natbib Warning: Citation `bantonRoleVisualAuditory1995' on page 19 unde
-fined on input line 626.
-
-
-Package natbib Warning: Citation `blandSightSingingMelodic1984' on page 19 unde
-fined on input line 626.
-
-
-Package natbib Warning: Citation `rootMethodicalSightSingingLessons1931' on pag
-e 19 undefined on input line 626.
-
-
-Package natbib Warning: Citation `bantonRoleVisualAuditory1995' on page 19 unde
-fined on input line 626.
-
-
-Package natbib Warning: Citation `bantonRoleVisualAuditory1995' on page 19 unde
-fined on input line 626.
-
-
-Package natbib Warning: Citation `blandSightSingingMelodic1984' on page 19 unde
-fined on input line 626.
-
-
-Package natbib Warning: Citation `rootMethodicalSightSingingLessons1931' on pag
-e 19 undefined on input line 626.
-
-
-Package natbib Warning: Citation `klonoskiImprovingDictationAuralSkills2006' on
- page 19 undefined on input line 626.
+Package natbib Warning: Citation `colleyWorkingMemoryAuditory2018' on page 19 u
+ndefined on input line 523.
 
 [19]
 
-Package natbib Warning: Citation `fournierCognitiveStrategiesSightsinging2017a'
- on page 20 undefined on input line 630.
+Package natbib Warning: Citation `mullensiefenInvestigatingImportanceSelftheori
+es2015' on page 20 undefined on input line 535.
 
 
-Package natbib Warning: Citation `fournierCognitiveStrategiesSightsinging2017a'
- on page 20 undefined on input line 633.
+Package natbib Warning: Citation `schellenbergMusicNonmusicalAbilities2017' on 
+page 20 undefined on input line 537.
 
 
-Package natbib Warning: Citation `asmusMusicTeachingMusic2004' on page 20 undef
-ined on input line 633.
+Package natbib Warning: Citation `gibsonEnhancedDivergentThinking2009' on page 
+20 undefined on input line 537.
 
 
-Package natbib Warning: Citation `thompsonPitchInternalizationStrategies2003' o
-n page 20 undefined on input line 633.
+Package natbib Warning: Citation `hilleAssociationsMusicEducation2011' on page 
+20 undefined on input line 537.
 
 
-Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-20 undefined on input line 633.
+Package natbib Warning: Citation `schellenbergExaminingAssociationMusic2011' on
+ page 20 undefined on input line 537.
 
 
-Package natbib Warning: Citation `rogersTeachingApproachesMusic2004' on page 20
- undefined on input line 633.
+Package natbib Warning: Citation `schellenbergMusicTrainingEmotion2012' on page
+ 20 undefined on input line 537.
 
 
-Package natbib Warning: Citation `fournierCognitiveStrategiesSightsinging2017a'
- on page 20 undefined on input line 634.
+Package natbib Warning: Citation `corrigallPredictingWhoTakes2015' on page 20 u
+ndefined on input line 537.
 
 
-Package natbib Warning: Citation `harrisonValidityMusicalAptitude1987' on page 
-20 undefined on input line 634.
+Package natbib Warning: Citation `degeMusicLessonsIntelligence2011' on page 20 
+undefined on input line 537.
 
 
-Package natbib Warning: Citation `harrisonEffectsMusicalAptitude1994' on page 2
-0 undefined on input line 634.
+Package natbib Warning: Citation `schellenbergLongtermPositiveAssociations2006'
+ on page 20 undefined on input line 537.
 
 
-Package natbib Warning: Citation `cambouropoulosHowSimilarSimilar2009' on page 
-20 undefined on input line 645.
+Package natbib Warning: Citation `corrigallAssociationsLengthMusic2011' on page
+ 20 undefined on input line 538.
 
 
-Package natbib Warning: Citation `wigginsModelsMusicalSimilarity2007' on page 2
-0 undefined on input line 645.
+Package natbib Warning: Citation `degeMusicLessonsIntelligence2011' on page 20 
+undefined on input line 538.
 
 
-Package natbib Warning: Citation `clarkeWaysListeningEcological2005' on page 20
- undefined on input line 652.
+Package natbib Warning: Citation `schellenbergExaminingAssociationMusic2011' on
+ page 20 undefined on input line 538.
 
 
-Package natbib Warning: Citation `schenkerFreieSatz1935' on page 20 undefined o
-n input line 653.
+Package natbib Warning: Citation `schellenbergMusicTrainingEmotion2012' on page
+ 20 undefined on input line 538.
 
 
-Package natbib Warning: Citation `salzerStructuralHearingTonal1982' on page 20 
-undefined on input line 653.
+Package natbib Warning: Citation `corrigallAssociationsLengthMusic2011' on page
+ 20 undefined on input line 539.
 
 
-Package natbib Warning: Citation `schachterSchenkerStudies2006' on page 20 unde
-fined on input line 653.
+Package natbib Warning: Citation `parbery-clarkMusicalExperienceAging2011' on p
+age 20 undefined on input line 539.
 
 
-Package natbib Warning: Citation `schenkerSchenkerStudies1990' on page 20 undef
-ined on input line 653.
+Package natbib Warning: Citation `straitMusicalTrainingEarly2012' on page 20 un
+defined on input line 539.
 
 
-Package natbib Warning: Citation `agawuHowWeGot2004' on page 20 undefined on in
-put line 654.
+Package natbib Warning: Citation `schellenbergLongtermPositiveAssociations2006'
+ on page 20 undefined on input line 540.
 
 
-Package natbib Warning: Citation `kermanContemplatingMusicChallenges1986' on pa
-ge 20 undefined on input line 654.
+Package natbib Warning: Citation `francoisMusicTrainingDevelopment2013' on page
+ 20 undefined on input line 542.
 
 
-Package natbib Warning: Citation `meyerEmotionMeaningMusic1956' on page 20 unde
-fined on input line 654.
+Package natbib Warning: Citation `morenoMusicalTrainingInfluences2009' on page 
+20 undefined on input line 542.
 
 
-Package natbib Warning: Citation `narmourAnalysisCognitionBasic1990' on page 20
- undefined on input line 657.
+Package natbib Warning: Citation `mehrTwoRandomizedTrials2013' on page 20 undef
+ined on input line 542.
 
 
-Package natbib Warning: Citation `narmourAnalysisCognitionMelodic1992' on page 
-20 undefined on input line 657.
+Package natbib Warning: Citation `swaminathanRevisitingAssociationMusic2017' on
+ page 20 undefined on input line 543.
 
 
-Package natbib Warning: Citation `schellenbergSimplifyingImplicationRealization
-Model1997' on page 20 undefined on input line 657.
-
-
-Package natbib Warning: Citation `margulisModelMelodicExpectation2005' on page 
-20 undefined on input line 657.
-
-
-Package natbib Warning: Citation `huronSweetAnticipation2006' on page 20 undefi
-ned on input line 657.
-
-
-Package natbib Warning: Citation `pearceConstructionEvaluationStatistical2005' 
-on page 20 undefined on input line 658.
-
-
-Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 20 undefined on input line 658.
-
-
-Package natbib Warning: Citation `conklinMultipleViewpointSystems1995' on page 
-20 undefined on input line 658.
+Package natbib Warning: Citation `ericssonRoleDeliberatePractice1993' on page 2
+0 undefined on input line 552.
 
 [20]
 
-Package natbib Warning: Citation `ortmannTonalDeterminantsMelodic1933' on page 
-21 undefined on input line 661.
+Package natbib Warning: Citation `meinzDeliberatePracticeNecessary2010' on page
+ 21 undefined on input line 554.
 
 
-Package natbib Warning: Citation `taylorStrategiesMemoryShort1983' on page 21 u
-ndefined on input line 664.
+Package natbib Warning: Citation `dettermanMoreComprehensiveTheory1999' on page
+ 21 undefined on input line 555.
 
 
-Package natbib Warning: Citation `huronHumdrumToolkitReference1994' on page 21 
-undefined on input line 675.
+Package natbib Warning: Citation `ruthsatzBecomingExpertMusical2008' on page 21
+ undefined on input line 557.
 
 
-Package natbib Warning: Citation `cuthbertMusic21ToolkitComputerAided2010' on p
-age 21 undefined on input line 675.
-
-
-Package natbib Warning: Citation `ortmannTonalDeterminantsMelodic1933' on page 
-21 undefined on input line 676.
-
-
-Package natbib Warning: Citation `taylorStrategiesMemoryShort1983' on page 21 u
-ndefined on input line 676.
-
-
-Package natbib Warning: Citation `huronMelodicArchWestern1996' on page 21 undef
-ined on input line 686.
-
-
-Package natbib Warning: Citation `schaffrathEssenFolkSong1995' on page 21 undef
-ined on input line 686.
-
-
-Package natbib Warning: Citation `grabeDurationalVariabilitySpeech2002' on page
- 21 undefined on input line 687.
-
-
-Package natbib Warning: Citation `krumhanslCognitiveFoundationsMusical2001' on 
-page 21 undefined on input line 687.
-
-[21]
-
-Package natbib Warning: Citation `mullensiefenFantasticFeatureANalysis2009' on 
-page 22 undefined on input line 690.
-
-
-Package natbib Warning: Citation `manningFoundationsStatisticalNatural1999' on 
-page 22 undefined on input line 692.
-
-
-Package natbib Warning: Citation `mullensiefenCourtDecisionsMusic2009' on page 
-22 undefined on input line 694.
-
-
-Package natbib Warning: Citation `kopiezAufSucheNach2011' on page 22 undefined 
-on input line 694.
-
-
-Package natbib Warning: Citation `mullensiefenRoleFeaturesContext2014' on page 
-22 undefined on input line 694.
-
-
-Package natbib Warning: Citation `jakubowskiDissectingEarwormMelodic2017' on pa
-ge 22 undefined on input line 694.
-
-
-Package natbib Warning: Citation `williamsonEarwormsThreeAngles2012' on page 22
- undefined on input line 694.
-
-
-Package natbib Warning: Citation `balenCorpusAnalyisTools2015' on page 22 undef
-ined on input line 694.
-
-
-Package natbib Warning: Citation `bakerPerceptionLeitmotivesRichard2017' on pag
-e 22 undefined on input line 695.
-
-
-Package natbib Warning: Citation `harrisonModellingMelodicDiscrimination2016' o
-n page 22 undefined on input line 695.
-
-
-Package natbib Warning: Citation `rainsfordMUSOSMUsicSOftware2018' on page 22 u
-ndefined on input line 695.
-
-
-Package natbib Warning: Citation `conklinMultipleViewpointSystems1995' on page 
-22 undefined on input line 698.
-
-
-Package natbib Warning: Citation `shannonMathematicalTheoryCommunication1948' o
-n page 22 undefined on input line 698.
-
-
-Package natbib Warning: Citation `pearceConstructionEvaluationStatistical2005' 
-on page 22 undefined on input line 699.
-
-
-Package natbib Warning: Citation `pearceAuditoryExpectationInformation2012' on 
-page 22 undefined on input line 700.
-
-
-Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 22 undefined on input line 700.
-
-
-Package natbib Warning: Citation `sauvePredictionPolyphonyModelling2017' on pag
-e 22 undefined on input line 702.
-
-
-Package natbib Warning: Citation `harrisonDissociatingSensoryCognitive2018' on 
-page 22 undefined on input line 702.
-
-
-Package natbib Warning: Citation `perruchetImplicitLearningStatistical2006' on 
-page 22 undefined on input line 705.
-
-
-Package natbib Warning: Citation `jamiesonApplyingExemplarModel2009' on page 22
- undefined on input line 705.
-
-
-Package natbib Warning: Citation `longRelationshipsPitchMemory1977' on page 22 
-undefined on input line 711.
-
-
-Package natbib Warning: Citation `longRelationshipsPitchMemory1977' on page 22 
-undefined on input line 712.
-
-
-Package natbib Warning: Citation `norrisRelationshipSightSinging2003' on page 2
-2 undefined on input line 713.
-
-
-Package natbib Warning: Citation `pfordresherPoorPitchSingingAbsence2007' on pa
-ge 22 undefined on input line 714.
-
-
-Package natbib Warning: Citation `hofstetterComputerBaesedRecognitionPerceptual
-1981' on page 22 undefined on input line 716.
-
-
-Package natbib Warning: Citation `dowlingScaleContourTwo1978' on page 22 undefi
-ned on input line 716.
-
-
-Package natbib Warning: Citation `longRelationshipsPitchMemory1977' on page 22 
-undefined on input line 716.
-
-
-Package natbib Warning: Citation `pembrookInterferenceTranscriptionProcess1986'
- on page 22 undefined on input line 716.
-
-
-Package natbib Warning: Citation `ouraMemoryMelodiesSubjects1988' on page 22 un
-defined on input line 716.
-
-
-Package natbib Warning: Citation `ortmannTonalDeterminantsMelodic1933' on page 
-22 undefined on input line 716.
-
-
-Package natbib Warning: Citation `pembrookInterferenceTranscriptionProcess1986'
- on page 22 undefined on input line 716.
-
-
-Package natbib Warning: Citation `longRelationshipsPitchMemory1977' on page 22 
-undefined on input line 716.
-
-
-Package natbib Warning: Citation `pembrookInterferenceTranscriptionProcess1986'
- on page 22 undefined on input line 716.
-
-
-Package natbib Warning: Citation `hofstetterComputerBaesedRecognitionPerceptual
-1981' on page 22 undefined on input line 716.
-
-
-Package natbib Warning: Citation `pembrookInterferenceTranscriptionProcess1986'
- on page 22 undefined on input line 716.
-
-
-Package natbib Warning: Citation `schellenbergEffectTonalRhythmicContext1985' o
-n page 22 undefined on input line 717.
-
-
-Package natbib Warning: Citation `longRelationshipsPitchMemory1977' on page 22 
-undefined on input line 718.
-
-
-Package natbib Warning: Citation `ouraMemoryMelodiesSubjects1988' on page 22 un
-defined on input line 718.
-
-
-Package natbib Warning: Citation `schellenbergEffectTonalRhythmicContext1985' o
-n page 22 undefined on input line 718.
-
-
-Package natbib Warning: Citation `taylorStrategiesMemoryShort1983' on page 22 u
-ndefined on input line 718.
-
-
-Package natbib Warning: Citation `schellenbergEffectTonalRhythmicContext1985' o
-n page 22 undefined on input line 718.
-
-[22]
-
-Package natbib Warning: Citation `pembrookInterferenceTranscriptionProcess1986'
- on page 23 undefined on input line 721.
-
-
-Package natbib Warning: Citation `ouraConstructingRepresentationMelody1991a' on
- page 23 undefined on input line 727.
-
-
-Package natbib Warning: Citation `paneyTeachingMelodicDictation2014' on page 23
- undefined on input line 731.
-
-
-Package natbib Warning: Citation `gillespieMelodicDictationScoring2001' on page
- 23 undefined on input line 732.
-
-
-Package natbib Warning: Citation `pembrookSendHelpAural1990' on page 23 undefin
-ed on input line 733.
-
-
-Package natbib Warning: Citation `norrisRelationshipSightSinging2003' on page 2
-3 undefined on input line 734.
-
-
-Package natbib Warning: Citation `dooleyAbsolutePitchCorrelates2010' on page 23
- undefined on input line 735.
-
-
-Package natbib Warning: Citation `buonviriEffectsMusicNotation2015' on page 23 
-undefined on input line 738.
-
-
-Package natbib Warning: Citation `paneyEffectDirectingAttention2016' on page 23
- undefined on input line 739.
-
-
-Package natbib Warning: Citation `buonviriMelodicDictationInstruction2015' on p
-age 23 undefined on input line 740.
-
-
-Package natbib Warning: Citation `buonviriEffectsMusicNotation2015' on page 23 
-undefined on input line 741.
-
-
-Package natbib Warning: Citation `buonviriEffectsTwoListening2017' on page 23 u
-ndefined on input line 741.
-
-
-Package natbib Warning: Citation `weissRapidCommunicationPianists2015' on page 
-23 undefined on input line 744.
-
-
-Package natbib Warning: Citation `weissAbilityProcessMusical2019' on page 23 un
-defined on input line 744.
-
-
-Package natbib Warning: Citation `schellenbergMemorySurfaceFeatures2014' on pag
-e 23 undefined on input line 745.
-
-[23]
-
-Package natbib Warning: Citation `harrisonEffectsMusicalAptitude1994' on page 2
-4 undefined on input line 767.
-
-
-Package natbib Warning: Citation `borsboomTheoreticalStatusLatent2003' on page 
-24 undefined on input line 768.
-
-
-Package natbib Warning: Citation `gouldMismeasureMan1996' on page 24 undefined 
-on input line 769.
-
-
-Package natbib Warning: Citation `kovacsProcessOverlapTheory2016' on page 24 un
-defined on input line 769.
+Package natbib Warning: Citation `mosingPracticeDoesNot2014' on page 21 undefin
+ed on input line 558.
 
 
 Package natbib Warning: Citation `bakerExaminingMusicalSophistication2018a' on 
-page 24 undefined on input line 769.
+page 21 undefined on input line 561.
 
 
-Package natbib Warning: Citation `levitinWhatDoesIt2012' on page 24 undefined o
-n input line 773.
+Package natbib Warning: Citation `talaminiMusiciansHaveBetter2017' on page 21 u
+ndefined on input line 561.
 
 
-Package natbib Warning: Citation `peretzModularityMusicProcessing2003' on page 
-24 undefined on input line 773.
+Package natbib Warning: Citation `blackingHowMusicalMan2000' on page 21 undefin
+ed on input line 563.
 
-[24] [25] [26
 
-]
-Chapter 3.
+Package natbib Warning: Citation `murphyHowFarTests1999' on page 21 undefined o
+n input line 563.
+
+
+Package natbib Warning: Citation `chenetteReframingAuralSkills2019' on page 21 
+undefined on input line 571.
+
+
+Package natbib Warning: Citation `furbyEffectsPeerTutoring2016' on page 21 unde
+fined on input line 573.
+
+
+Package natbib Warning: Citation `harrisonEffectsMusicalAptitude1994' on page 2
+1 undefined on input line 574.
+
+
+Package natbib Warning: Citation `furbyEffectsPeerTutoring2016' on page 21 unde
+fined on input line 579.
+
+
+Package natbib Warning: Citation `bantonRoleVisualAuditory1995' on page 21 unde
+fined on input line 579.
+
+
+Package natbib Warning: Citation `blandSightSingingMelodic1984' on page 21 unde
+fined on input line 579.
+
+
+Package natbib Warning: Citation `rootMethodicalSightSingingLessons1931' on pag
+e 21 undefined on input line 579.
+
+
+Package natbib Warning: Citation `bantonRoleVisualAuditory1995' on page 21 unde
+fined on input line 579.
+
+
+Package natbib Warning: Citation `bantonRoleVisualAuditory1995' on page 21 unde
+fined on input line 579.
+
+
+Package natbib Warning: Citation `blandSightSingingMelodic1984' on page 21 unde
+fined on input line 579.
+
+
+Package natbib Warning: Citation `rootMethodicalSightSingingLessons1931' on pag
+e 21 undefined on input line 579.
+
+
+Package natbib Warning: Citation `klonoskiImprovingDictationAuralSkills2006' on
+ page 21 undefined on input line 579.
+
+
+Package natbib Warning: Citation `fournierCognitiveStrategiesSightsinging2017a'
+ on page 21 undefined on input line 583.
+
+[21]
+
+Package natbib Warning: Citation `fournierCognitiveStrategiesSightsinging2017a'
+ on page 22 undefined on input line 586.
+
+
+Package natbib Warning: Citation `asmusMusicTeachingMusic2004' on page 22 undef
+ined on input line 586.
+
+
+Package natbib Warning: Citation `thompsonPitchInternalizationStrategies2003' o
+n page 22 undefined on input line 586.
+
 
 Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-27 undefined on input line 794.
+22 undefined on input line 586.
 
 
-Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 27
- undefined on input line 794.
+Package natbib Warning: Citation `rogersTeachingApproachesMusic2004' on page 22
+ undefined on input line 586.
 
 
-Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 27 un
-defined on input line 801.
+Package natbib Warning: Citation `fournierCognitiveStrategiesSightsinging2017a'
+ on page 22 undefined on input line 587.
 
 
-Package natbib Warning: Citation `ritchieIntelligenceAllThat2015' on page 27 un
-defined on input line 801.
+Package natbib Warning: Citation `harrisonValidityMusicalAptitude1987' on page 
+22 undefined on input line 587.
 
 
-Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-27 undefined on input line 807.
+Package natbib Warning: Citation `harrisonEffectsMusicalAptitude1994' on page 2
+2 undefined on input line 587.
 
 
-Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 27
- undefined on input line 807.
+Package natbib Warning: Citation `cambouropoulosHowSimilarSimilar2009' on page 
+22 undefined on input line 598.
 
 
-Underfull \vbox (badness 6396) has occurred while \output is active []
-
-[27]
-
-Package natbib Warning: Citation `chenetteReframingAuralSkills2019' on page 28 
-undefined on input line 829.
+Package natbib Warning: Citation `wigginsModelsMusicalSimilarity2007' on page 2
+2 undefined on input line 598.
 
 
-Package natbib Warning: Citation `millerMagicalNumberSeven1956' on page 28 unde
-fined on input line 833.
+Package natbib Warning: Citation `clarkeWaysListeningEcological2005' on page 22
+ undefined on input line 605.
 
 
-Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 28 un
-defined on input line 836.
+Package natbib Warning: Citation `schenkerFreieSatz1935' on page 22 undefined o
+n input line 606.
 
 
-Package natbib Warning: Citation `halpernMemoryMelodies2010' on page 28 undefin
-ed on input line 844.
+Package natbib Warning: Citation `salzerStructuralHearingTonal1982' on page 22 
+undefined on input line 606.
 
 
-Package natbib Warning: Citation `mcauleyPlayItAgain2004' on page 28 undefined 
-on input line 845.
+Package natbib Warning: Citation `schachterSchenkerStudies2006' on page 22 unde
+fined on input line 606.
 
 
-Package natbib Warning: Citation `korenmanRoleFamiliarityEpisodic2004' on page 
-28 undefined on input line 846.
+Package natbib Warning: Citation `schenkerSchenkerStudies1990' on page 22 undef
+ined on input line 606.
 
 
-Package natbib Warning: Citation `munganLevelsofProcessingEffectsRemember2011' 
-on page 28 undefined on input line 847.
+Package natbib Warning: Citation `agawuHowWeGot2004' on page 22 undefined on in
+put line 607.
+
+
+Package natbib Warning: Citation `kermanContemplatingMusicChallenges1986' on pa
+ge 22 undefined on input line 607.
+
+
+Package natbib Warning: Citation `meyerEmotionMeaningMusic1956' on page 22 unde
+fined on input line 607.
+
+
+Package natbib Warning: Citation `narmourAnalysisCognitionBasic1990' on page 22
+ undefined on input line 610.
+
+
+Package natbib Warning: Citation `narmourAnalysisCognitionMelodic1992' on page 
+22 undefined on input line 610.
+
+
+Package natbib Warning: Citation `schellenbergSimplifyingImplicationRealization
+Model1997' on page 22 undefined on input line 610.
+
+
+Package natbib Warning: Citation `margulisModelMelodicExpectation2005' on page 
+22 undefined on input line 610.
+
+
+Package natbib Warning: Citation `huronSweetAnticipation2006' on page 22 undefi
+ned on input line 610.
+
+
+Package natbib Warning: Citation `pearceConstructionEvaluationStatistical2005' 
+on page 22 undefined on input line 611.
+
+
+Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
+on page 22 undefined on input line 611.
+
+
+Package natbib Warning: Citation `conklinMultipleViewpointSystems1995' on page 
+22 undefined on input line 611.
+
+
+Package natbib Warning: Citation `ortmannTonalDeterminantsMelodic1933' on page 
+22 undefined on input line 614.
+
+
+Package natbib Warning: Citation `taylorStrategiesMemoryShort1983' on page 22 u
+ndefined on input line 617.
+
+[22]
+
+Package natbib Warning: Citation `huronHumdrumToolkitReference1994' on page 23 
+undefined on input line 628.
+
+
+Package natbib Warning: Citation `cuthbertMusic21ToolkitComputerAided2010' on p
+age 23 undefined on input line 628.
+
+
+Package natbib Warning: Citation `ortmannTonalDeterminantsMelodic1933' on page 
+23 undefined on input line 629.
+
+
+Package natbib Warning: Citation `taylorStrategiesMemoryShort1983' on page 23 u
+ndefined on input line 629.
+
+
+Package natbib Warning: Citation `huronMelodicArchWestern1996' on page 23 undef
+ined on input line 639.
+
+
+Package natbib Warning: Citation `schaffrathEssenFolkSong1995' on page 23 undef
+ined on input line 639.
+
+
+Package natbib Warning: Citation `grabeDurationalVariabilitySpeech2002' on page
+ 23 undefined on input line 640.
+
+
+Package natbib Warning: Citation `krumhanslCognitiveFoundationsMusical2001' on 
+page 23 undefined on input line 640.
+
+
+Package natbib Warning: Citation `albrechtUseLargeCorpora2013' on page 23 undef
+ined on input line 640.
+
+
+Package natbib Warning: Citation `mullensiefenFantasticFeatureANalysis2009' on 
+page 23 undefined on input line 643.
+
+
+Package natbib Warning: Citation `manningFoundationsStatisticalNatural1999' on 
+page 23 undefined on input line 645.
+
+
+Package natbib Warning: Citation `mullensiefenCourtDecisionsMusic2009' on page 
+23 undefined on input line 647.
+
+
+Package natbib Warning: Citation `kopiezAufSucheNach2011' on page 23 undefined 
+on input line 647.
 
 
 Package natbib Warning: Citation `mullensiefenRoleFeaturesContext2014' on page 
-28 undefined on input line 848.
+23 undefined on input line 647.
+
+
+Package natbib Warning: Citation `jakubowskiDissectingEarwormMelodic2017' on pa
+ge 23 undefined on input line 647.
+
+
+Package natbib Warning: Citation `williamsonEarwormsThreeAngles2012' on page 23
+ undefined on input line 647.
+
+
+Package natbib Warning: Citation `balenCorpusAnalyisTools2015' on page 23 undef
+ined on input line 647.
+
+
+Package natbib Warning: Citation `bakerPerceptionLeitmotivesRichard2017' on pag
+e 23 undefined on input line 648.
+
+
+Package natbib Warning: Citation `harrisonModellingMelodicDiscrimination2016' o
+n page 23 undefined on input line 648.
+
+
+Package natbib Warning: Citation `rainsfordMUSOSMUsicSOftware2018' on page 23 u
+ndefined on input line 648.
+
+[23]
+
+Package natbib Warning: Citation `conklinMultipleViewpointSystems1995' on page 
+24 undefined on input line 651.
+
+
+Package natbib Warning: Citation `shannonMathematicalTheoryCommunication1948' o
+n page 24 undefined on input line 651.
+
+
+Package natbib Warning: Citation `pearceConstructionEvaluationStatistical2005' 
+on page 24 undefined on input line 652.
+
+
+Package natbib Warning: Citation `pearceAuditoryExpectationInformation2012' on 
+page 24 undefined on input line 653.
+
+
+Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
+on page 24 undefined on input line 653.
+
+
+Package natbib Warning: Citation `sauvePredictionPolyphonyModelling2017' on pag
+e 24 undefined on input line 655.
+
+
+Package natbib Warning: Citation `harrisonDissociatingSensoryCognitive2018' on 
+page 24 undefined on input line 655.
+
+
+Package natbib Warning: Citation `perruchetImplicitLearningStatistical2006' on 
+page 24 undefined on input line 659.
+
+
+Package natbib Warning: Citation `jamiesonApplyingExemplarModel2009' on page 24
+ undefined on input line 659.
+
+
+Package natbib Warning: Citation `longRelationshipsPitchMemory1977' on page 24 
+undefined on input line 665.
+
+
+Package natbib Warning: Citation `longRelationshipsPitchMemory1977' on page 24 
+undefined on input line 666.
+
+
+Package natbib Warning: Citation `norrisRelationshipSightSinging2003' on page 2
+4 undefined on input line 667.
+
+
+Package natbib Warning: Citation `pfordresherPoorPitchSingingAbsence2007' on pa
+ge 24 undefined on input line 668.
+
+
+Package natbib Warning: Citation `hofstetterComputerBaesedRecognitionPerceptual
+1981' on page 24 undefined on input line 670.
+
+
+Package natbib Warning: Citation `dowlingScaleContourTwo1978' on page 24 undefi
+ned on input line 670.
+
+
+Package natbib Warning: Citation `longRelationshipsPitchMemory1977' on page 24 
+undefined on input line 670.
+
+
+Package natbib Warning: Citation `pembrookInterferenceTranscriptionProcess1986'
+ on page 24 undefined on input line 670.
+
+
+Package natbib Warning: Citation `ouraMemoryMelodiesSubjects1988' on page 24 un
+defined on input line 670.
+
+
+Package natbib Warning: Citation `ortmannTonalDeterminantsMelodic1933' on page 
+24 undefined on input line 670.
+
+
+Package natbib Warning: Citation `pembrookInterferenceTranscriptionProcess1986'
+ on page 24 undefined on input line 670.
+
+
+Package natbib Warning: Citation `longRelationshipsPitchMemory1977' on page 24 
+undefined on input line 670.
+
+
+Package natbib Warning: Citation `pembrookInterferenceTranscriptionProcess1986'
+ on page 24 undefined on input line 670.
+
+
+Package natbib Warning: Citation `hofstetterComputerBaesedRecognitionPerceptual
+1981' on page 24 undefined on input line 670.
+
+
+Package natbib Warning: Citation `pembrookInterferenceTranscriptionProcess1986'
+ on page 24 undefined on input line 670.
+
+
+Package natbib Warning: Citation `schellenbergEffectTonalRhythmicContext1985' o
+n page 24 undefined on input line 671.
+
+
+Package natbib Warning: Citation `longRelationshipsPitchMemory1977' on page 24 
+undefined on input line 672.
+
+
+Package natbib Warning: Citation `ouraMemoryMelodiesSubjects1988' on page 24 un
+defined on input line 672.
+
+
+Package natbib Warning: Citation `schellenbergEffectTonalRhythmicContext1985' o
+n page 24 undefined on input line 672.
+
+
+Package natbib Warning: Citation `taylorStrategiesMemoryShort1983' on page 24 u
+ndefined on input line 672.
+
+
+Package natbib Warning: Citation `schellenbergEffectTonalRhythmicContext1985' o
+n page 24 undefined on input line 672.
+
+
+Package natbib Warning: Citation `pembrookInterferenceTranscriptionProcess1986'
+ on page 24 undefined on input line 675.
+
+
+Package natbib Warning: Citation `ouraConstructingRepresentationMelody1991a' on
+ page 24 undefined on input line 681.
+
+[24]
+
+Package natbib Warning: Citation `paneyTeachingMelodicDictation2014' on page 25
+ undefined on input line 685.
+
+
+Package natbib Warning: Citation `gillespieMelodicDictationScoring2001' on page
+ 25 undefined on input line 686.
+
+
+Package natbib Warning: Citation `pembrookSendHelpAural1990' on page 25 undefin
+ed on input line 687.
+
+
+Package natbib Warning: Citation `norrisRelationshipSightSinging2003' on page 2
+5 undefined on input line 688.
+
+
+Package natbib Warning: Citation `dooleyAbsolutePitchCorrelates2010' on page 25
+ undefined on input line 689.
+
+
+Package natbib Warning: Citation `buonviriEffectsMusicNotation2015' on page 25 
+undefined on input line 692.
+
+
+Package natbib Warning: Citation `buonviriMelodicDictationInstruction2015' on p
+age 25 undefined on input line 693.
+
+
+Package natbib Warning: Citation `buonviriEffectsMusicNotation2015' on page 25 
+undefined on input line 694.
+
+
+Package natbib Warning: Citation `buonviriEffectsTwoListening2017' on page 25 u
+ndefined on input line 694.
+
+
+Package natbib Warning: Citation `weissRapidCommunicationPianists2015' on page 
+25 undefined on input line 697.
+
+
+Package natbib Warning: Citation `weissAbilityProcessMusical2019' on page 25 un
+defined on input line 697.
+
+
+Package natbib Warning: Citation `schellenbergMemorySurfaceFeatures2014' on pag
+e 25 undefined on input line 698.
+
+[25]
+
+Package natbib Warning: Citation `harrisonEffectsMusicalAptitude1994' on page 2
+6 undefined on input line 720.
+
+
+Package natbib Warning: Citation `borsboomTheoreticalStatusLatent2003' on page 
+26 undefined on input line 721.
+
+
+Package natbib Warning: Citation `gouldMismeasureMan1996' on page 26 undefined 
+on input line 722.
+
+
+Package natbib Warning: Citation `kovacsProcessOverlapTheory2016' on page 26 un
+defined on input line 722.
+
+
+Package natbib Warning: Citation `bakerExaminingMusicalSophistication2018a' on 
+page 26 undefined on input line 722.
+
+
+Package natbib Warning: Citation `levitinWhatDoesIt2012' on page 26 undefined o
+n input line 726.
+
+
+Package natbib Warning: Citation `peretzModularityMusicProcessing2003' on page 
+26 undefined on input line 726.
+
+[26]
+Chapter 3.
+
+Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
+27 undefined on input line 747.
+
+
+Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 27
+ undefined on input line 747.
+
+
+Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 27 un
+defined on input line 754.
+
+
+Package natbib Warning: Citation `ritchieIntelligenceAllThat2015' on page 27 un
+defined on input line 754.
+
+
+Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
+27 undefined on input line 760.
+
+
+Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 27
+ undefined on input line 760.
+
+[27
+
+]
+
+Package natbib Warning: Citation `chenetteReframingAuralSkills2019' on page 28 
+undefined on input line 782.
+
+
+Package natbib Warning: Citation `millerMagicalNumberSeven1956' on page 28 unde
+fined on input line 786.
+
+
+Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 28 un
+defined on input line 789.
+
+
+Package natbib Warning: Citation `halpernMemoryMelodies2010' on page 28 undefin
+ed on input line 797.
+
+
+Package natbib Warning: Citation `mcauleyPlayItAgain2004' on page 28 undefined 
+on input line 798.
+
+
+Package natbib Warning: Citation `korenmanRoleFamiliarityEpisodic2004' on page 
+28 undefined on input line 799.
+
+
+Package natbib Warning: Citation `munganLevelsofProcessingEffectsRemember2011' 
+on page 28 undefined on input line 800.
+
+
+Package natbib Warning: Citation `mullensiefenRoleFeaturesContext2014' on page 
+28 undefined on input line 801.
 
 
 Package natbib Warning: Citation `demorestLostTranslationEnculturation2008' on 
-page 28 undefined on input line 850.
+page 28 undefined on input line 803.
 
 
 Package natbib Warning: Citation `halpernAgingExperienceRecognition1995' on pag
-e 28 undefined on input line 850.
+e 28 undefined on input line 803.
 
 
 Package natbib Warning: Citation `talaminiMusiciansHaveBetter2017' on page 28 u
-ndefined on input line 851.
+ndefined on input line 804.
 
 [28]
 
 Package natbib Warning: Citation `harrisonModellingMelodicDiscrimination2016' o
-n page 29 undefined on input line 855.
+n page 29 undefined on input line 808.
 
 
 Package natbib Warning: Citation `harrisonApplyingModernPsychometric2017a' on p
-age 29 undefined on input line 856.
+age 29 undefined on input line 809.
 
 
 Package natbib Warning: Citation `mullensiefenMusicalityNonMusiciansIndex2014' 
-on page 29 undefined on input line 856.
+on page 29 undefined on input line 809.
 
 
 Package natbib Warning: Citation `bakerPerceptionLeitmotivesRichard2017' on pag
-e 29 undefined on input line 857.
+e 29 undefined on input line 810.
 
 
 Package natbib Warning: Citation `schellenbergMusicNonmusicalAbilities2017' on 
-page 29 undefined on input line 868.
+page 29 undefined on input line 821.
 
 
 Package natbib Warning: Citation `gibsonEnhancedDivergentThinking2009' on page 
-29 undefined on input line 868.
+29 undefined on input line 821.
 
 
 Package natbib Warning: Citation `hilleAssociationsMusicEducation2011' on page 
-29 undefined on input line 868.
+29 undefined on input line 821.
 
 
 Package natbib Warning: Citation `schellenbergExaminingAssociationMusic2011' on
- page 29 undefined on input line 868.
+ page 29 undefined on input line 821.
 
 
 Package natbib Warning: Citation `schellenbergMusicTrainingEmotion2012' on page
- 29 undefined on input line 868.
+ 29 undefined on input line 821.
 
 
 Package natbib Warning: Citation `corrigallMusicTrainingCognition2013' on page 
-29 undefined on input line 869.
+29 undefined on input line 822.
 
 
 Package natbib Warning: Citation `corrigallPredictingWhoTakes2015' on page 29 u
-ndefined on input line 869.
+ndefined on input line 822.
 
 
 Package natbib Warning: Citation `degeMusicLessonsIntelligence2011' on page 29 
-undefined on input line 869.
+undefined on input line 822.
 
 
 Package natbib Warning: Citation `schellenbergLongtermPositiveAssociations2006'
- on page 29 undefined on input line 869.
+ on page 29 undefined on input line 822.
 
 
 Package natbib Warning: Citation `corrigallMusicTrainingCognition2013' on page 
-29 undefined on input line 870.
+29 undefined on input line 823.
 
 
 Package natbib Warning: Citation `degeMusicLessonsIntelligence2011' on page 29 
-undefined on input line 870.
+undefined on input line 823.
 
 
 Package natbib Warning: Citation `schellenbergExaminingAssociationMusic2011' on
- page 29 undefined on input line 870.
+ page 29 undefined on input line 823.
 
 
 Package natbib Warning: Citation `schellenbergLongtermPositiveAssociations2006'
- on page 29 undefined on input line 870.
+ on page 29 undefined on input line 823.
 
 
 Package natbib Warning: Citation `schellenbergMusicTrainingEmotion2012' on page
- 29 undefined on input line 870.
+ 29 undefined on input line 823.
 
 
 Package natbib Warning: Citation `schellenbergMusicNonmusicalAbilities2017' on 
-page 29 undefined on input line 872.
+page 29 undefined on input line 825.
 
 
 Package natbib Warning: Citation `corrigallAssociationsLengthMusic2011' on page
- 29 undefined on input line 872.
+ 29 undefined on input line 825.
 
 
 Package natbib Warning: Citation `parbery-clarkMusicalExperienceAging2011' on p
-age 29 undefined on input line 872.
+age 29 undefined on input line 825.
 
 
 Package natbib Warning: Citation `straitMusicalTrainingEarly2012' on page 29 un
-defined on input line 872.
+defined on input line 825.
 
 
 Package natbib Warning: Citation `schellenbergMusicTrainingSpeech2015' on page 
-29 undefined on input line 873.
+29 undefined on input line 826.
 
 
 Package natbib Warning: Citation `francoisMusicTrainingDevelopment2013' on page
- 29 undefined on input line 875.
+ 29 undefined on input line 828.
 
 
 Package natbib Warning: Citation `morenoMusicalTrainingInfluences2009' on page 
-29 undefined on input line 875.
+29 undefined on input line 828.
 
 
 Package natbib Warning: Citation `mehrTwoRandomizedTrials2013' on page 29 undef
-ined on input line 875.
+ined on input line 828.
 
 
 Package natbib Warning: Citation `talaminiMusiciansHaveBetter2017' on page 29 u
-ndefined on input line 878.
+ndefined on input line 831.
 
 
 Package natbib Warning: Citation `ettlingerImplicitMemoryMusic2011' on page 29 
-undefined on input line 879.
+undefined on input line 832.
 
 
 Package natbib Warning: Citation `rohrmeierImplicitLearningAcquisition2012' on 
-page 29 undefined on input line 879.
+page 29 undefined on input line 832.
 
-[29]
 
 Package natbib Warning: Citation `bakerExaminingMusicalSophistication2018' on p
-age 30 undefined on input line 883.
+age 29 undefined on input line 836.
 
 
 Package natbib Warning: Citation `hambrickDomainGeneralModelsExpertise2019' on 
-page 30 undefined on input line 891.
+page 29 undefined on input line 844.
 
+[29]
 
 Package natbib Warning: Citation `berzWorkingMemoryMusic1995' on page 30 undefi
-ned on input line 894.
+ned on input line 847.
 
 
 Package natbib Warning: Citation `meinzDeliberatePracticeNecessary2010' on page
- 30 undefined on input line 897.
+ 30 undefined on input line 850.
 
 
 Package natbib Warning: Citation `kopiezDynamicModelSkills2006' on page 30 unde
-fined on input line 898.
+fined on input line 851.
 
 
 Package natbib Warning: Citation `kopiezGeneralModelSkills2008' on page 30 unde
-fined on input line 898.
+fined on input line 851.
 
 
 Package natbib Warning: Citation `halpernEffectsTimbreTempo2008' on page 30 und
-efined on input line 899.
+efined on input line 852.
 
 
 Package natbib Warning: Citation `nicholsScoreOneJazz2018' on page 30 undefined
- on input line 899.
+ on input line 852.
 
 
 Package natbib Warning: Citation `harrisonModellingMelodicDiscrimination2016' o
-n page 30 undefined on input line 900.
+n page 30 undefined on input line 853.
 
 
 Package natbib Warning: Citation `okadaIndividualDifferencesMusical2018' on pag
-e 30 undefined on input line 905.
+e 30 undefined on input line 859.
 
 
 Package natbib Warning: Citation `miyakeNatureOrganizationIndividual2012' on pa
-ge 30 undefined on input line 906.
+ge 30 undefined on input line 860.
 
 
 Package natbib Warning: Citation `miyakeUnityDiversityExecutive2000' on page 30
- undefined on input line 906.
+ undefined on input line 860.
 
 
 Package natbib Warning: Citation `harrisonModellingMelodicDiscrimination2016' o
-n page 30 undefined on input line 914.
+n page 30 undefined on input line 868.
 
-[30]
 
 Package natbib Warning: Citation `mullensiefenMusicalityNonMusiciansIndex2014' 
-on page 31 undefined on input line 918.
+on page 30 undefined on input line 872.
 
 
 Package natbib Warning: Citation `harrisonApplyingModernPsychometric2017a' on p
-age 31 undefined on input line 922.
+age 30 undefined on input line 876.
 
+[30]
 
 Package natbib Warning: Citation `berzWorkingMemoryMusic1995' on page 31 undefi
-ned on input line 931.
+ned on input line 885.
 
 
 Package natbib Warning: Citation `cowanMagicalMysteryFour2010' on page 31 undef
-ined on input line 932.
+ined on input line 886.
 
 
 Package natbib Warning: Citation `unsworthAutomatedVersionOperation2005' on pag
-e 31 undefined on input line 933.
+e 31 undefined on input line 887.
 
 
 Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 31 un
-defined on input line 934.
+defined on input line 888.
 
 
 Package natbib Warning: Citation `ritchieIntelligenceAllThat2015' on page 31 un
-defined on input line 936.
+defined on input line 890.
 
 
 Package natbib Warning: Citation `kovacsProcessOverlapTheory2016' on page 31 un
-defined on input line 936.
+defined on input line 890.
 
 
 Package natbib Warning: Citation `ravenManualRavenProgressive1994' on page 31 u
-ndefined on input line 936.
+ndefined on input line 890.
 
 
 Package natbib Warning: Citation `thurstonePrimaryMentalAbilities1938' on page 
-31 undefined on input line 936.
+31 undefined on input line 890.
 
 
 Package natbib Warning: Citation `okadaIndividualDifferencesMusical2018' on pag
-e 31 undefined on input line 937.
+e 31 undefined on input line 891.
 
 
 Package natbib Warning: Citation `corrigallMusicTrainingCognition2013' on page 
-31 undefined on input line 937.
+31 undefined on input line 891.
 
 
 Package natbib Warning: Citation `swaminathanRevisitingAssociationMusic2017' on
- page 31 undefined on input line 937.
+ page 31 undefined on input line 891.
 
 
 Package natbib Warning: Citation `beaujeanLatentVariableModeling2014' on page 3
-1 undefined on input line 942.
+1 undefined on input line 896.
 
 
 Package natbib Warning: Citation `wrightMethodPathCoefficents1934' on page 31 u
-ndefined on input line 943.
+ndefined on input line 897.
 
 
 Package natbib Warning: Citation `pearlBookWhyNew2018' on page 31 undefined on 
-input line 944.
+input line 898.
 
 [31]
 
 Package natbib Warning: Citation `unsworthComplexWorkingMemory2009' on page 32 
-undefined on input line 978.
+undefined on input line 932.
 
 
 Package natbib Warning: Citation `unsworthComplexWorkingMemory2009' on page 32 
-undefined on input line 980.
+undefined on input line 934.
 
 
 Package natbib Warning: Citation `mullensiefenMusicalityNonMusiciansIndex2014' 
-on page 32 undefined on input line 989.
+on page 32 undefined on input line 943.
 
 
 Package natbib Warning: Citation `unsworthAutomatedVersionOperation2005' on pag
-e 32 undefined on input line 995.
+e 32 undefined on input line 949.
 
 
 Package natbib Warning: Citation `liEstimatingWorkingMemory2013' on page 32 und
-efined on input line 996.
+efined on input line 950.
+
+
+Package natbib Warning: Citation `unsworthAutomatedVersionOperation2005' on pag
+e 32 undefined on input line 962.
 
 [32]
 
 Package natbib Warning: Citation `unsworthAutomatedVersionOperation2005' on pag
-e 33 undefined on input line 1008.
-
-
-Package natbib Warning: Citation `unsworthAutomatedVersionOperation2005' on pag
-e 33 undefined on input line 1020.
+e 33 undefined on input line 974.
 
 
 Package natbib Warning: Citation `mullensiefenMusicalityNonMusiciansIndex2014' 
-on page 33 undefined on input line 1032.
+on page 33 undefined on input line 986.
 
 
 Package natbib Warning: Citation `mullensiefenMusicalityNonMusiciansIndex2014' 
-on page 33 undefined on input line 1043.
+on page 33 undefined on input line 997.
 
 
 Package natbib Warning: Citation `thurstonePrimaryMentalAbilities1938' on page 
-33 undefined on input line 1056.
+33 undefined on input line 1010.
 
 
 Package natbib Warning: Citation `ravenManualRavenProgressive1994' on page 33 u
-ndefined on input line 1061.
+ndefined on input line 1015.
+
+
+Package natbib Warning: Citation `rentfrowReMiEveryday2003' on page 33 undefine
+d on input line 1026.
 
 [33]
 
 Package natbib Warning: Citation `fieldDiscoveringStatisticsUsing2012' on page 
-34 undefined on input line 1092.
+34 undefined on input line 1046.
 
 
 Package natbib Warning: Citation `rosseelLavaanPackageStructural2012' on page 3
-4 undefined on input line 1100.
+4 undefined on input line 1054.
 
 
 Package natbib Warning: Citation `teamLanguageEnvironmentStatistical2015' on pa
-ge 34 undefined on input line 1100.
+ge 34 undefined on input line 1054.
+
+
+LaTeX Warning: Reference `exp2variable' on page 34 undefined on input line 1055
+.
 
 File: img/measurementModel.png Graphic file (type QTm)
 <use  "img/measurementModel.png" > [34]
 
 Package natbib Warning: Citation `beaujeanLatentVariableModeling2014' on page 3
-5 undefined on input line 1155.
+5 undefined on input line 1149.
 
 Missing character: There is no χ in font [lmroman10-regular]:mapping=tex-text;!
 
 Package natbib Warning: Citation `beaujeanLatentVariableModeling2014' on page 3
-5 undefined on input line 1162.
+5 undefined on input line 1156.
 
 
 Package natbib Warning: Citation `mullensiefenMusicalityNonMusiciansIndex2014' 
-on page 35 undefined on input line 1164.
+on page 35 undefined on input line 1158.
 
-[35] [36]
 File: img/sem1.png Graphic file (type QTm)
 <use  "img/sem1.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[35] [36]
 File: img/sem2.png Graphic file (type QTm)
 <use  "img/sem2.png" >
 File: img/sem3.png Graphic file (type QTm)
@@ -2394,130 +2384,133 @@ File: img/sem4.png Graphic file (type QTm)
 File: img/sem5.png Graphic file (type QTm)
 <use  "img/sem5.png" >
 
-Package natbib Warning: Citation `mullensiefenMusicalityNonMusiciansIndex2014' 
-on page 37 undefined on input line 1248.
+LaTeX Warning: Reference `ModelFits' on page 37 undefined on input line 1234.
 
-[37] [38] [39] [40] [41]
 
 Package natbib Warning: Citation `mullensiefenMusicalityNonMusiciansIndex2014' 
-on page 42 undefined on input line 1260.
+on page 37 undefined on input line 1242.
+
+[37] [38] [39] [40] [41] [42]
+
+Package natbib Warning: Citation `mullensiefenMusicalityNonMusiciansIndex2014' 
+on page 43 undefined on input line 1254.
 
 
-Package natbib Warning: Citation `berzWorkingMemoryMusic1995' on page 42 undefi
-ned on input line 1272.
+Package natbib Warning: Citation `berzWorkingMemoryMusic1995' on page 43 undefi
+ned on input line 1266.
 
 
-Package natbib Warning: Citation `ravenManualRavenProgressive1994' on page 42 u
-ndefined on input line 1280.
+Package natbib Warning: Citation `ravenManualRavenProgressive1994' on page 43 u
+ndefined on input line 1274.
 
 
 Package natbib Warning: Citation `thurstonePrimaryMentalAbilities1938' on page 
-42 undefined on input line 1280.
+43 undefined on input line 1274.
 
 
-Package natbib Warning: Citation `cattellAbilitiesTheirGrowth1971' on page 42 u
-ndefined on input line 1281.
+Package natbib Warning: Citation `cattellAbilitiesTheirGrowth1971' on page 43 u
+ndefined on input line 1275.
 
 
-Package natbib Warning: Citation `huronSweetAnticipation2006' on page 42 undefi
-ned on input line 1281.
+Package natbib Warning: Citation `huronSweetAnticipation2006' on page 43 undefi
+ned on input line 1275.
 
 
 Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 42 undefined on input line 1281.
+on page 43 undefined on input line 1275.
 
 
 Package natbib Warning: Citation `saffranStatisticalLearningTone1999' on page 4
-2 undefined on input line 1281.
+3 undefined on input line 1275.
 
 
 Package natbib Warning: Citation `demorestLostTranslationEnculturation2008' on 
-page 42 undefined on input line 1281.
+page 43 undefined on input line 1275.
 
 
-Package natbib Warning: Citation `eerolaExpectancySamiYoiks2009' on page 42 und
-efined on input line 1281.
+Package natbib Warning: Citation `eerolaExpectancySamiYoiks2009' on page 43 und
+efined on input line 1275.
 
 
-Package natbib Warning: Citation `meyerEmotionMeaningMusic1956' on page 42 unde
-fined on input line 1281.
+Package natbib Warning: Citation `meyerEmotionMeaningMusic1956' on page 43 unde
+fined on input line 1275.
 
-[42]
+[43]
 
-Package natbib Warning: Citation `chenetteReframingAuralSkills2019' on page 43 
-undefined on input line 1289.
+Package natbib Warning: Citation `chenetteReframingAuralSkills2019' on page 44 
+undefined on input line 1283.
 
-[43] [44
-
-]
+[44]
 Chapter 4.
 
 Package natbib Warning: Citation `ottmanMusicSightSinging2014' on page 45 undef
-ined on input line 1306.
+ined on input line 1300.
 
 
 Package natbib Warning: Citation `berkowitzNewApproachSight2011' on page 45 und
-efined on input line 1306.
+efined on input line 1300.
 
 
 Package natbib Warning: Citation `karpinskiManualEarTraining2007' on page 45 un
-defined on input line 1306.
+defined on input line 1300.
 
 
 Package natbib Warning: Citation `clelandDevelopingMusicianshipAural2010' on pa
-ge 45 undefined on input line 1306.
+ge 45 undefined on input line 1300.
 
 
 Package natbib Warning: Citation `cambouropoulosHowSimilarSimilar2009' on page 
-45 undefined on input line 1313.
+45 undefined on input line 1307.
 
 
 Package natbib Warning: Citation `kahnemanThinkingFastSlow2012' on page 45 unde
-fined on input line 1332.
+fined on input line 1326.
 
 
 Package natbib Warning: Citation `loggAlgorithmAppreciationPeople2019' on page 
-45 undefined on input line 1332.
+45 undefined on input line 1326.
 
 
 Package natbib Warning: Citation `meehlClinicalStatisticalPrediction1954' on pa
-ge 45 undefined on input line 1332.
+ge 45 undefined on input line 1326.
 
 
 Package natbib Warning: Citation `paneyTeachingMelodicDictation2014' on page 45
- undefined on input line 1334.
+ undefined on input line 1328.
 
-[45]
+[45
+
+]
+
+Package natbib Warning: Citation `berkowitzNewApproachSight2011' on page 46 und
+efined on input line 1349.
+
 
 Package natbib Warning: Citation `berkowitzNewApproachSight2011' on page 46 und
 efined on input line 1355.
 
 
-Package natbib Warning: Citation `berkowitzNewApproachSight2011' on page 46 und
-efined on input line 1361.
-
-
 LaTeX Warning: Reference `surveQuestions1' on page 46 undefined on input line 1
-366.
+360.
 
 
 LaTeX Warning: Reference `fig:surveQuestions2' on page 46 undefined on input li
-ne 1368.
+ne 1362.
 
 [46]
-Overfull \hbox (287.78502pt too wide) in paragraph at lines 1375--1394
+Overfull \hbox (287.78502pt too wide) in paragraph at lines 1369--1388
 [][] 
  []
 
 
-Overfull \hbox (534.035pt too wide) in paragraph at lines 1398--1413
+Overfull \hbox (534.035pt too wide) in paragraph at lines 1393--1408
 [][] 
  []
 
 File: img/ageedsurveydistribution.png Graphic file (type QTm)
-<use  "img/ageedsurveydistribution.png" >
+<use  "img/ageedsurveydistribution.png" > [47]
 File: img/survey_melodies/Berkowitz3.png Graphic file (type QTm)
-<use  "img/survey_melodies/Berkowitz3.png" > [47]
+<use  "img/survey_melodies/Berkowitz3.png" >
 File: img/survey_melodies/Berkowitz9.png Graphic file (type QTm)
 <use  "img/survey_melodies/Berkowitz9.png" >
 File: img/survey_melodies/Berkowitz26.png Graphic file (type QTm)
@@ -2560,230 +2553,230 @@ File: img/difficulty_plot.png Graphic file (type QTm)
 <use  "img/difficulty_plot.png" >
 
 Package natbib Warning: Citation `kooGuidelineSelectingReporting2016' on page 4
-8 undefined on input line 1631.
+8 undefined on input line 1626.
 
 File: img/grammar_plot.png Graphic file (type QTm)
 <use  "img/grammar_plot.png" >
 
 Package natbib Warning: Citation `kooGuidelineSelectingReporting2016' on page 4
-8 undefined on input line 1644.
+8 undefined on input line 1639.
 
 [48] [49] [50] [51] [52] [53] [54]
 File: img/grammar_difficulty_correlation_plot.png Graphic file (type QTm)
 <use  "img/grammar_difficulty_correlation_plot.png" >
 
 Package natbib Warning: Citation `batesFittingLinearMixedEffects2015' on page 5
-5 undefined on input line 1669.
+5 undefined on input line 1664.
 
 [55]
 
 Package natbib Warning: Citation `ortmannTonalDeterminantsMelodic1933' on page 
-56 undefined on input line 1686.
+56 undefined on input line 1681.
 
 
 Package natbib Warning: Citation `taylorStrategiesMemoryShort1983' on page 56 u
-ndefined on input line 1688.
+ndefined on input line 1683.
 
 
 Package natbib Warning: Citation `pembrookInterferenceTranscriptionProcess1986'
- on page 56 undefined on input line 1689.
+ on page 56 undefined on input line 1684.
 
 
 Package natbib Warning: Citation `akiva-kabiriMemoryTonalPitches2009' on page 5
-6 undefined on input line 1709.
+6 undefined on input line 1704.
 
 
 Package natbib Warning: Citation `dewittRecognitionNovelMelodies1986' on page 5
-6 undefined on input line 1709.
+6 undefined on input line 1704.
 
 
 Package natbib Warning: Citation `eerolaExpectancySamiYoiks2009' on page 56 und
-efined on input line 1709.
+efined on input line 1704.
 
 
 Package natbib Warning: Citation `schulzeWorkingMemorySpeech2012a' on page 56 u
-ndefined on input line 1709.
+ndefined on input line 1704.
 
 
 Package natbib Warning: Citation `harrisonModellingMelodicDiscrimination2016' o
-n page 56 undefined on input line 1710.
+n page 56 undefined on input line 1705.
 
 
 Package natbib Warning: Citation `mullensiefenFantasticFeatureANalysis2009' on 
-page 56 undefined on input line 1710.
+page 56 undefined on input line 1705.
 
 
 Package natbib Warning: Citation `bakerPerceptionLeitmotivesRichard2017' on pag
-e 56 undefined on input line 1711.
+e 56 undefined on input line 1706.
 
 
 Package natbib Warning: Citation `mullensiefenFantasticFeatureANalysis2009' on 
-page 56 undefined on input line 1714.
+page 56 undefined on input line 1709.
 
 [56]
 
 Package natbib Warning: Citation `grabeDurationalVariabilitySpeech2002' on page
- 57 undefined on input line 1725.
+ 57 undefined on input line 1720.
 
 
 Package natbib Warning: Citation `vanhandelRoleMeterCompositional2010' on page 
-57 undefined on input line 1731.
+57 undefined on input line 1726.
 
 
 Package natbib Warning: Citation `danieleINTERPLAYLINGUISTICHISTORICAL2004' on 
-page 57 undefined on input line 1734.
+page 57 undefined on input line 1729.
 
 
 Package natbib Warning: Citation `patelStressTimedVsSyllableTimed2003' on page 
-57 undefined on input line 1734.
+57 undefined on input line 1729.
 
 
 Package natbib Warning: Citation `vanhandelRoleMeterCompositional2010' on page 
-57 undefined on input line 1734.
+57 undefined on input line 1729.
 
 
 Package natbib Warning: Citation `condit-schultzDeconstructingNPVIMethodologica
-l2019' on page 57 undefined on input line 1735.
+l2019' on page 57 undefined on input line 1730.
 
 
 Package natbib Warning: Citation `mullensiefenFantasticFeatureANalysis2009' on 
-page 57 undefined on input line 1740.
+page 57 undefined on input line 1735.
 
 
 Package natbib Warning: Citation `lomaxCantometricsApproachAnthropology1977' on
- page 57 undefined on input line 1747.
+ page 57 undefined on input line 1742.
 
 
 Package natbib Warning: Citation `eerolaExpectancySamiYoiks2009' on page 57 und
-efined on input line 1747.
+efined on input line 1742.
 
 
 Package natbib Warning: Citation `huronHumdrumToolkitReference1994' on page 57 
-undefined on input line 1747.
+undefined on input line 1742.
 
 
 Package natbib Warning: Citation `lartillotMatlabToolboxMusical2007' on page 57
- undefined on input line 1747.
+ undefined on input line 1742.
 
 
 Package natbib Warning: Citation `lomaxCantometricsApproachAnthropology1977' on
- page 57 undefined on input line 1747.
+ page 57 undefined on input line 1742.
 
 
 Package natbib Warning: Citation `mcfeeLibrosaAudioMusic2015' on page 57 undefi
-ned on input line 1747.
+ned on input line 1742.
 
 
 Package natbib Warning: Citation `steinbeckStrukturUndAhnlichkeit1982' on page 
-57 undefined on input line 1747.
+57 undefined on input line 1742.
 
 
 LaTeX Warning: Reference `fig:corfeaturetable' on page 57 undefined on input li
-ne 1755.
+ne 1750.
 
 File: img/FantasticExpertPlot.png Graphic file (type QTm)
 <use  "img/FantasticExpertPlot.png" > [57] [58]
 
 LaTeX Warning: Reference `fig:corfeaturetable' on page 59 undefined on input li
-ne 1784.
+ne 1779.
 
 
 Package natbib Warning: Citation `krumhanslCognitiveFoundationsMusical2001' on 
-page 59 undefined on input line 1788.
+page 59 undefined on input line 1783.
 
 File: img/FANTASTIC_collin.png Graphic file (type QTm)
 <use  "img/FANTASTIC_collin.png" >
 
 Package natbib Warning: Citation `taylorStrategiesMemoryShort1983' on page 59 u
-ndefined on input line 1806.
+ndefined on input line 1801.
 
 
 Package natbib Warning: Citation `bakerPerceptionLeitmotivesRichard2017' on pag
-e 59 undefined on input line 1809.
+e 59 undefined on input line 1804.
 
 
 Package natbib Warning: Citation `harrisonModellingMelodicDiscrimination2016' o
-n page 59 undefined on input line 1809.
+n page 59 undefined on input line 1804.
 
 File: img/univariate_cow.png Graphic file (type QTm)
 <use  "img/univariate_cow.png" >
 
 Package natbib Warning: Citation `dowlingScaleContourTwo1978' on page 59 undefi
-ned on input line 1828.
+ned on input line 1823.
 
 [59] [60]
 
 Package natbib Warning: Citation `pearceConstructionEvaluationStatistical2005' 
-on page 61 undefined on input line 1842.
+on page 61 undefined on input line 1837.
 
 
 Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 61 undefined on input line 1842.
+on page 61 undefined on input line 1837.
 
 
 Package natbib Warning: Citation `conklinMultipleViewpointSystems1995' on page 
-61 undefined on input line 1842.
+61 undefined on input line 1837.
 
 
 Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 61 undefined on input line 1847.
+on page 61 undefined on input line 1842.
 
 
 Package natbib Warning: Citation `pearceAuditoryExpectationInformation2012' on 
-page 61 undefined on input line 1848.
+page 61 undefined on input line 1843.
 
 
 Package natbib Warning: Citation `pearceConstructionEvaluationStatistical2005' 
-on page 61 undefined on input line 1848.
+on page 61 undefined on input line 1843.
 
 
 Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 61 undefined on input line 1848.
+on page 61 undefined on input line 1843.
 
 
 Package natbib Warning: Citation `conklinMultipleViewpointSystems1995' on page 
-61 undefined on input line 1866.
+61 undefined on input line 1861.
 
 
 Package natbib Warning: Citation `shannonMathematicalTheoryCommunication1948' o
-n page 61 undefined on input line 1867.
+n page 61 undefined on input line 1862.
 
 [61]
 
 Package natbib Warning: Citation `bartlettRecognitionTransposedMelodies1980' on
- page 62 undefined on input line 1882.
+ page 62 undefined on input line 1877.
 
 
 Package natbib Warning: Citation `cohenRecognitionTransposedTone1977' on page 6
-2 undefined on input line 1882.
+2 undefined on input line 1877.
 
 
 Package natbib Warning: Citation `cuddyMusicalPatternRecognition1981' on page 6
-2 undefined on input line 1882.
+2 undefined on input line 1877.
 
 
 Package natbib Warning: Citation `halpernAgingExperienceRecognition1995' on pag
-e 62 undefined on input line 1882.
+e 62 undefined on input line 1877.
 
 
 Package natbib Warning: Citation `hickRateGainInformation1952' on page 62 undef
-ined on input line 1886.
+ined on input line 1881.
 
 
 Package natbib Warning: Citation `hymanStimulusInformationDeterminant1953' on p
-age 62 undefined on input line 1886.
+age 62 undefined on input line 1881.
 
 
 Package natbib Warning: Citation `huronSweetAnticipation2006' on page 62 undefi
-ned on input line 1886.
+ned on input line 1881.
 
 
 Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 62 undefined on input line 1899.
+on page 62 undefined on input line 1894.
 
 
 Package natbib Warning: Citation `berkowitzNewApproachSight2011' on page 62 und
-efined on input line 1912.
+efined on input line 1907.
 
 
 Underfull \vbox (badness 1924) has occurred while \output is active []
@@ -2801,35 +2794,35 @@ File: img/model_comparsion_gg.png Graphic file (type QTm)
 <use  "img/model_comparsion_gg.png" > [65] [66] [67]
 
 Package natbib Warning: Citation `harrisonApplyingModernPsychometric2017' on pa
-ge 68 undefined on input line 1997.
+ge 68 undefined on input line 1992.
 
 
 Package natbib Warning: Citation `wolfGradesReflectDevelopment2014' on page 68 
-undefined on input line 1997.
+undefined on input line 1992.
 
 
 Package natbib Warning: Citation `perruchetImplicitLearningStatistical2006' on 
-page 68 undefined on input line 2007.
+page 68 undefined on input line 2002.
 
 
 Package natbib Warning: Citation `cleeremansComputationalModelsImplicit2008' on
- page 68 undefined on input line 2008.
+ page 68 undefined on input line 2003.
 
 
 Package natbib Warning: Citation `remillardImplicitLearningFirst2001' on page 6
-8 undefined on input line 2008.
+8 undefined on input line 2003.
 
 
 Package natbib Warning: Citation `jamiesonApplyingExemplarModel2009' on page 68
- undefined on input line 2010.
+ undefined on input line 2005.
 
 
 Package natbib Warning: Citation `jamiesonApplyingExemplarModel2009' on page 68
- undefined on input line 2011.
+ undefined on input line 2006.
 
 
 Package natbib Warning: Citation `perruchetImplicitLearningStatistical2006' on 
-page 68 undefined on input line 2013.
+page 68 undefined on input line 2008.
 
 [68] [69] [70
 
@@ -2837,83 +2830,87 @@ page 68 undefined on input line 2013.
 Chapter 5.
 
 Package natbib Warning: Citation `forteMusicComputingPresent1967' on page 71 un
-defined on input line 2041.
+defined on input line 2036.
 
 
 Package natbib Warning: Citation `parncuttSystematicMusicologyHistory2007' on p
-age 71 undefined on input line 2043.
+age 71 undefined on input line 2038.
 
 
 Package natbib Warning: Citation `berkowitzNewApproachSight2011' on page 71 und
-efined on input line 2048.
+efined on input line 2043.
 
 
 Package natbib Warning: Citation `huronHumdrumToolkitReference1994' on page 71 
-undefined on input line 2049.
+undefined on input line 2044.
 
 
 Package natbib Warning: Citation `schaffrathEssenFolkSong1995' on page 71 undef
-ined on input line 2051.
+ined on input line 2046.
 
 
 Package natbib Warning: Citation `shanahanDENSMORECOLLECTIONNATIVE2014' on page
- 71 undefined on input line 2051.
+ 71 undefined on input line 2046.
 
 
 Package natbib Warning: Citation `hewlettComputingMusicology1991' on page 71 un
-defined on input line 2058.
+defined on input line 2053.
 
 
 Package natbib Warning: Citation `nettheimBibliographyStatisticalApplications19
-97' on page 71 undefined on input line 2059.
+97' on page 71 undefined on input line 2054.
 
 
 Package natbib Warning: Citation `wigginsFrameworkEvaluationMusic1993' on page 
-71 undefined on input line 2061.
+71 undefined on input line 2056.
 
 [71]
 
 Package natbib Warning: Citation `gigerenzerToolsTheoriesHeuristic1991' on page
- 72 undefined on input line 2067.
+ 72 undefined on input line 2062.
 
 
 Package natbib Warning: Citation `cuthbertMusic21ToolkitComputerAided2010' on p
-age 72 undefined on input line 2075.
+age 72 undefined on input line 2070.
 
 
 Package natbib Warning: Citation `huronHumdrumToolkitReference1994' on page 72 
-undefined on input line 2075.
+undefined on input line 2070.
 
 
 Package natbib Warning: Citation `frielerIntroducingJazzomatProject2013' on pag
-e 72 undefined on input line 2076.
+e 72 undefined on input line 2071.
 
 
 Package natbib Warning: Citation `huronHumdrumToolkitReference1994' on page 72 
-undefined on input line 2079.
+undefined on input line 2074.
 
 
 Package natbib Warning: Citation `sappHumdrumExtras2008' on page 72 undefined o
-n input line 2086.
+n input line 2081.
 
 
 Package natbib Warning: Citation `berkowitzNewApproachSight2011' on page 72 und
-efined on input line 2093.
+efined on input line 2088.
 
 [72]
-
-LaTeX Warning: Reference `fig:melosoldescriptpanel' on page 73 undefined on inp
-ut line 2105.
-
 File: img/melosoldescriptpanel.png Graphic file (type QTm)
 <use  "img/melosoldescriptpanel.png" >
 
+Package natbib Warning: Citation `sappHumdrumExtras2008' on page 73 undefined o
+n input line 2116.
+
+
+Package natbib Warning: Citation `wernerMuseScore2019' on page 73 undefined on 
+input line 2116.
+
+
 Package natbib Warning: Citation `schaffrathEssenFolkSong1995' on page 73 undef
-ined on input line 2126.
+ined on input line 2121.
 
 
 Package natbib Warning: Citation `shanahanDENSMORECOLLECTIONNATIVE2014' on page
- 73 undefined on input line 2126.
+ 73 undefined on input line 2121.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2921,81 +2918,84 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [73]
 
 Package natbib Warning: Citation `huronMelodicArchWestern1996' on page 74 undef
-ined on input line 2134.
+ined on input line 2129.
 
 
 Package natbib Warning: Citation `shanahanExaminingEffectOral2019' on page 74 u
-ndefined on input line 2134.
+ndefined on input line 2129.
 
 
 Package natbib Warning: Citation `demorestQuantifyingCulture2015' on page 74 un
-defined on input line 2134.
+defined on input line 2129.
 
 
 Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 74 undefined on input line 2134.
+on page 74 undefined on input line 2129.
 
 
 Package natbib Warning: Citation `dienesUnderstandingPsychologyScience2008' on 
-page 74 undefined on input line 2136.
+page 74 undefined on input line 2131.
 
 File: img/comparative_descritivepanel.png Graphic file (type QTm)
 <use  "img/comparative_descritivepanel.png" >
 
 Package natbib Warning: Citation `shanahanExaminingEffectOral2019' on page 74 u
-ndefined on input line 2164.
+ndefined on input line 2159.
 
 
 Package natbib Warning: Citation `lerdahlCognitiveConstraintsCompositional1992'
- on page 74 undefined on input line 2164.
+ on page 74 undefined on input line 2159.
 
 
 Package natbib Warning: Citation `mullensiefenFantasticFeatureANalysis2009' on 
-page 74 undefined on input line 2171.
+page 74 undefined on input line 2166.
 
 [74] [75]
 File: img/corporaemergent.png Graphic file (type QTm)
 <use  "img/corporaemergent.png" >
 
 Package natbib Warning: Citation `huronMelodicArchWestern1996' on page 76 undef
-ined on input line 2183.
+ined on input line 2178.
+
+
+Package natbib Warning: Citation `krumhanslCognitiveFoundationsMusical2001' on 
+page 76 undefined on input line 2182.
 
 File: img/huronrecreation.png Graphic file (type QTm)
 <use  "img/huronrecreation.png" >
-
-Package natbib Warning: Citation `krumhanslCognitiveFoundationsMusical2001' on 
-page 76 undefined on input line 2198.
-
 File: img/krumpanel.png Graphic file (type QTm)
 <use  "img/krumpanel.png" >
 
 Package natbib Warning: Citation `brinkmanLeadingSixthScale2018' on page 76 und
-efined on input line 2213.
+efined on input line 2206.
 
 
 Package natbib Warning: Citation `huronMelodicArchWestern1996' on page 76 undef
-ined on input line 2225.
+ined on input line 2218.
 
 
-Package natbib Warning: Citation `huronVirtuousVexatiousAge2013' on page 76 und
-efined on input line 2226.
-
-
-Package natbib Warning: Citation `dienesUnderstandingPsychologyScience2008' on 
-page 76 undefined on input line 2227.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [76] [77] [78]
 
+Package natbib Warning: Citation `huronVirtuousVexatiousAge2013' on page 79 und
+efined on input line 2220.
+
+
+Package natbib Warning: Citation `dienesUnderstandingPsychologyScience2008' on 
+page 79 undefined on input line 2221.
+
+
 Package natbib Warning: Citation `frielerTellingStoryDramaturgy2016' on page 79
- undefined on input line 2230.
+ undefined on input line 2224.
 
 
 Package natbib Warning: Citation `sturmTakingModelsBack2017' on page 79 undefin
-ed on input line 2235.
+ed on input line 2229.
 
 
 Package natbib Warning: Citation `sturmMachineLearningResearch2019' on page 79 
-undefined on input line 2236.
+undefined on input line 2230.
 
 [79] [80
 
@@ -3003,206 +3003,213 @@ undefined on input line 2236.
 Chapter 6.
 
 Package natbib Warning: Citation `ortmannTonalDeterminantsMelodic1933' on page 
-81 undefined on input line 2251.
+81 undefined on input line 2245.
 
 
 Package natbib Warning: Citation `baayenMixedeffectsModelingCrossed2008' on pag
-e 81 undefined on input line 2257.
+e 81 undefined on input line 2251.
 
 
 Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-81 undefined on input line 2269.
+81 undefined on input line 2263.
 
 
 Package natbib Warning: Citation `harrisonEffectsMusicalAptitude1994' on page 8
-1 undefined on input line 2272.
+1 undefined on input line 2266.
 
 [81]
 
 Package natbib Warning: Citation `wolfGradesReflectDevelopment2014' on page 82 
-undefined on input line 2276.
+undefined on input line 2270.
 
 
 Package natbib Warning: Citation `berkowitzNewApproachSight2011' on page 82 und
-efined on input line 2282.
+efined on input line 2276.
 
 
 Package natbib Warning: Citation `clelandDevelopingMusicianshipAural2010' on pa
-ge 82 undefined on input line 2282.
+ge 82 undefined on input line 2276.
 
 
 Package natbib Warning: Citation `karpinskiManualEarTraining2007' on page 82 un
-defined on input line 2282.
+defined on input line 2276.
 
 
 Package natbib Warning: Citation `ottmanMusicSightSinging2014' on page 82 undef
-ined on input line 2282.
+ined on input line 2276.
 
 
 Package natbib Warning: Citation `ouraConstructingRepresentationMelody1991a' on
- page 82 undefined on input line 2285.
+ page 82 undefined on input line 2279.
 
 
 Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-82 undefined on input line 2285.
+82 undefined on input line 2279.
 
 
 Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 82
- undefined on input line 2285.
+ undefined on input line 2279.
 
 
 Package natbib Warning: Citation `meinzDeliberatePracticeNecessary2010' on page
- 82 undefined on input line 2293.
+ 82 undefined on input line 2287.
 
 
 Package natbib Warning: Citation `colleyWorkingMemoryAuditory2017' on page 82 u
-ndefined on input line 2296.
+ndefined on input line 2290.
 
 
 Package natbib Warning: Citation `swaminathanRevisitingAssociationMusic2017' on
- page 82 undefined on input line 2297.
+ page 82 undefined on input line 2291.
 
 
 Package natbib Warning: Citation `talaminiMusiciansHaveBetter2017' on page 82 u
-ndefined on input line 2298.
+ndefined on input line 2292.
 
 
 Package natbib Warning: Citation `kovacsProcessOverlapTheory2016' on page 82 un
-defined on input line 2301.
+defined on input line 2295.
 
 
 Package natbib Warning: Citation `bregmanAuditorySceneAnalysis2006' on page 82 
-undefined on input line 2307.
+undefined on input line 2301.
 
 
 Package natbib Warning: Citation `deutschInternalRepresentationPitch1981' on pa
-ge 82 undefined on input line 2307.
+ge 82 undefined on input line 2301.
 
 
 Package natbib Warning: Citation `bartlettRecognitionTransposedMelodies1980' on
- page 82 undefined on input line 2307.
+ page 82 undefined on input line 2301.
 
 
 Package natbib Warning: Citation `dowlingExpectancyAttentionMelody1990' on page
- 82 undefined on input line 2307.
+ 82 undefined on input line 2301.
 
 
 Package natbib Warning: Citation `dowlingPerceptionInterleavedMelodies1973' on 
-page 82 undefined on input line 2307.
+page 82 undefined on input line 2301.
 
 
 Package natbib Warning: Citation `dowlingScaleContourTwo1978' on page 82 undefi
-ned on input line 2307.
+ned on input line 2301.
 
 
 Package natbib Warning: Citation `halpernMemoryMelodies2010' on page 82 undefin
-ed on input line 2309.
+ed on input line 2303.
 
 
 Package natbib Warning: Citation `halpernEffectsTimbreTempo2008' on page 82 und
-efined on input line 2310.
+efined on input line 2304.
 
 [82]
 
 Package natbib Warning: Citation `buonviriEffectsMusicNotation2015' on page 83 
-undefined on input line 2317.
+undefined on input line 2311.
 
 
 Package natbib Warning: Citation `buonviriEffectsPreparatorySinging2015' on pag
-e 83 undefined on input line 2317.
+e 83 undefined on input line 2311.
 
 
 Package natbib Warning: Citation `buonviriEffectsSilenceSound2018' on page 83 u
-ndefined on input line 2317.
+ndefined on input line 2311.
 
 
 Package natbib Warning: Citation `buonviriEffectsTwoListening2017' on page 83 u
-ndefined on input line 2317.
+ndefined on input line 2311.
 
 
 Package natbib Warning: Citation `buonviriExplorationUndergraduateMusic2014' on
- page 83 undefined on input line 2317.
+ page 83 undefined on input line 2311.
 
 
 Package natbib Warning: Citation `buonviriMelodicDictationInstruction2015' on p
-age 83 undefined on input line 2317.
+age 83 undefined on input line 2311.
 
 
 Package natbib Warning: Citation `unsworthAutomatedVersionOperation2005' on pag
-e 83 undefined on input line 2317.
+e 83 undefined on input line 2311.
 
 
 Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-83 undefined on input line 2318.
+83 undefined on input line 2312.
 
 
 Package natbib Warning: Citation `eerolaPerceivedComplexityWestern2006' on page
- 83 undefined on input line 2325.
+ 83 undefined on input line 2319.
 
 
 Package natbib Warning: Citation `harrisonModellingMelodicDiscrimination2016' o
-n page 83 undefined on input line 2326.
+n page 83 undefined on input line 2320.
 
 
 Package natbib Warning: Citation `bakerPerceptionLeitmotivesRichard2017' on pag
-e 83 undefined on input line 2326.
+e 83 undefined on input line 2320.
 
 
 Package natbib Warning: Citation `cowanWorkingMemoryCapacity2005' on page 83 un
-defined on input line 2329.
+defined on input line 2323.
 
 
 Package natbib Warning: Citation `millerInformationMemory1956' on page 83 undef
-ined on input line 2329.
+ined on input line 2323.
 
 
 Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 83 undefined on input line 2329.
+on page 83 undefined on input line 2323.
 
 
 Package natbib Warning: Citation `mullensiefenFantasticFeatureANalysis2009' on 
-page 83 undefined on input line 2330.
+page 83 undefined on input line 2324.
 
 
 Package natbib Warning: Citation `kopiezAufSucheNach2011' on page 83 undefined 
-on input line 2331.
+on input line 2325.
 
 
 Package natbib Warning: Citation `mullensiefenRoleFeaturesContext2014' on page 
-83 undefined on input line 2332.
+83 undefined on input line 2326.
 
 
 Package natbib Warning: Citation `jakubowskiDissectingEarwormMelodic2017' on pa
-ge 83 undefined on input line 2334.
+ge 83 undefined on input line 2327.
 
 
 Package natbib Warning: Citation `janssenPredictingVariationFolk2017' on page 8
-3 undefined on input line 2334.
+3 undefined on input line 2327.
 
 
 Package natbib Warning: Citation `rainsfordDistinctivenessEffectRecognition2019
-' on page 83 undefined on input line 2334.
+' on page 83 undefined on input line 2327.
 
 
 Package natbib Warning: Citation `rainsfordMUSOSMUsicSOftware2018' on page 83 u
-ndefined on input line 2334.
+ndefined on input line 2327.
 
 
 Package natbib Warning: Citation `taylorStrategiesMemoryShort1983' on page 83 u
-ndefined on input line 2340.
+ndefined on input line 2333.
 
 [83]
 
 Package natbib Warning: Citation `berkowitzNewApproachSight2011' on page 84 und
-efined on input line 2382.
+efined on input line 2375.
 
 
 Package natbib Warning: Citation `mullensiefenFantasticFeatureANalysis2009' on 
-page 84 undefined on input line 2383.
+page 84 undefined on input line 2376.
+
+
+LaTeX Warning: Reference `expfeaturetable' on page 84 undefined on input line 2
+378.
+
+
+LaTeX Warning: Reference `fig:112' on page 84 undefined on input line 2378.
 
 
 Package natbib Warning: Citation `deleeuwJsPsychJavaScriptLibrary2015' on page 
-84 undefined on input line 2387.
+84 undefined on input line 2380.
 
 File: img/Berkowitz34.png Graphic file (type QTm)
 <use  "img/Berkowitz34.png" >
@@ -3214,40 +3221,40 @@ File: img/BerkowitzNo9.png Graphic file (type QTm)
 <use  "img/BerkowitzNo9.png" >
 
 Package natbib Warning: Citation `paneyEffectDirectingAttention2016' on page 84
- undefined on input line 2448.
+ undefined on input line 2441.
 
 
 Package natbib Warning: Citation `halpernDifferencesAuditoryImagery2015' on pag
-e 84 undefined on input line 2449.
+e 84 undefined on input line 2442.
 
 
 Package natbib Warning: Citation `unsworthAutomatedVersionOperation2005' on pag
-e 84 undefined on input line 2450.
+e 84 undefined on input line 2443.
 
 
 Package natbib Warning: Citation `ravenManualRavenProgressive1994' on page 84 u
-ndefined on input line 2450.
+ndefined on input line 2443.
 
 
 Package natbib Warning: Citation `thurstonePrimaryMentalAbilities1938' on page 
-84 undefined on input line 2450.
+84 undefined on input line 2443.
 
 
 Package natbib Warning: Citation `mullensiefenMusicalityNonMusiciansIndex2014' 
-on page 84 undefined on input line 2451.
+on page 84 undefined on input line 2445.
 
 
 Package natbib Warning: Citation `rentfrowReMiEveryday2003' on page 84 undefine
-d on input line 2451.
+d on input line 2445.
 
 [84] [85]
 
 Package natbib Warning: Citation `kooGuidelineSelectingReporting2016' on page 8
-6 undefined on input line 2468.
+6 undefined on input line 2462.
 
 
 Package natbib Warning: Citation `batesFittingLinearMixedEffects2015' on page 8
-6 undefined on input line 2480.
+6 undefined on input line 2474.
 
 File: img/melody_difficulty.png Graphic file (type QTm)
 <use  "img/melody_difficulty.png" >
@@ -3255,11 +3262,11 @@ File: img/melody_differences.png Graphic file (type QTm)
 <use  "img/melody_differences.png" > [86] [87] [88]
 
 Package natbib Warning: Citation `schellenbergMusicCognitiveAbilities2013' on p
-age 89 undefined on input line 2532.
+age 89 undefined on input line 2526.
 
 
 Package natbib Warning: Citation `gillespieMelodicDictationScoring2001' on page
- 89 undefined on input line 2544.
+ 89 undefined on input line 2538.
 
 [89] [90
 
@@ -3267,207 +3274,220 @@ Package natbib Warning: Citation `gillespieMelodicDictationScoring2001' on page
 Chapter 7.
 
 Package natbib Warning: Citation `wigginsModelsMusicalSimilarity2007' on page 9
-1 undefined on input line 2557.
+1 undefined on input line 2551.
 
 
 Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 91 undefined on input line 2562.
+on page 91 undefined on input line 2556.
 
 
 Package natbib Warning: Citation `saffranStatisticalLearningTone1999' on page 9
-1 undefined on input line 2564.
+1 undefined on input line 2558.
 
 
 Package natbib Warning: Citation `margulisRepeatHowMusic2014' on page 91 undefi
-ned on input line 2564.
+ned on input line 2558.
 
 
 Package natbib Warning: Citation `huronSweetAnticipation2006' on page 91 undefi
-ned on input line 2565.
+ned on input line 2559.
 
 
 Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-91 undefined on input line 2571.
+91 undefined on input line 2566.
 
 
 Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 91
- undefined on input line 2571.
+ undefined on input line 2566.
 
 
 Package natbib Warning: Citation `pearceConstructionEvaluationStatistical2005' 
-on page 91 undefined on input line 2577.
+on page 91 undefined on input line 2572.
 
 
 Package natbib Warning: Citation `cowanEvolvingConceptionsMemory1988' on page 9
-1 undefined on input line 2577.
+1 undefined on input line 2572.
 
 
 Package natbib Warning: Citation `cowanMagicalMysteryFour2010' on page 91 undef
-ined on input line 2577.
+ined on input line 2572.
 
 
 Package natbib Warning: Citation `lerdahlGenerativeTheoryTonal1986' on page 91 
-undefined on input line 2579.
+undefined on input line 2574.
 
 
 Package natbib Warning: Citation `narmourAnalysisCognitionBasic1990' on page 91
- undefined on input line 2579.
+ undefined on input line 2574.
 
 
 Package natbib Warning: Citation `narmourAnalysisCognitionMelodic1992' on page 
-91 undefined on input line 2579.
+91 undefined on input line 2574.
 
 
 Package natbib Warning: Citation `temperleyCognitionBasicMusical2004' on page 9
-1 undefined on input line 2579.
+1 undefined on input line 2574.
 
 [91]
 
 Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-92 undefined on input line 2598.
+92 undefined on input line 2593.
 
 
 Package natbib Warning: Citation `karpinskiModelMusicPerception1990' on page 92
- undefined on input line 2598.
-
-
-Package natbib Warning: Citation `schenkerFreieSatz1935' on page 92 undefined o
-n input line 2618.
-
-
-Package natbib Warning: Citation `lerdahlGenerativeTheoryTonal1986' on page 92 
-undefined on input line 2618.
+ undefined on input line 2593.
 
 
 Package natbib Warning: Citation `mcdermottIndifferenceDissonanceNative2016' on
- page 92 undefined on input line 2619.
+ page 92 undefined on input line 2614.
 
 
 Package natbib Warning: Citation `savageStatisticalUniversalsReveal2015' on pag
-e 92 undefined on input line 2619.
+e 92 undefined on input line 2614.
+
+
+Package natbib Warning: Citation `harrisonInstantaneousConsonancePerception' on
+ page 92 undefined on input line 2615.
 
 
 Package natbib Warning: Citation `krumhanslCognitiveFoundationsMusical2001' on 
-page 92 undefined on input line 2623.
+page 92 undefined on input line 2619.
 
 
 Package natbib Warning: Citation `levitinCurrentAdvancesCognitive2009' on page 
-92 undefined on input line 2623.
+92 undefined on input line 2619.
 
 
 Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 92 undefined on input line 2624.
+on page 92 undefined on input line 2620.
 
 
 Package natbib Warning: Citation `conklinMultipleViewpointSystems1995' on page 
-92 undefined on input line 2625.
+92 undefined on input line 2621.
 
 [92]
 
 Package natbib Warning: Citation `pearceConstructionEvaluationStatistical2005' 
-on page 93 undefined on input line 2634.
+on page 93 undefined on input line 2630.
 
 
 Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 93 undefined on input line 2634.
+on page 93 undefined on input line 2630.
 
 
 Package natbib Warning: Citation `shannonMathematicalTheoryCommunication1948' o
-n page 93 undefined on input line 2647.
+n page 93 undefined on input line 2643.
 
 
 Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 93 undefined on input line 2648.
+on page 93 undefined on input line 2644.
 
 
 Package natbib Warning: Citation `harrisonDissociatingSensoryCognitive2018' on 
-page 93 undefined on input line 2648.
+page 93 undefined on input line 2644.
 
 
 Package natbib Warning: Citation `bigandEmpiricalEvidenceMusical2014' on page 9
-3 undefined on input line 2648.
+3 undefined on input line 2644.
 
 
 Package natbib Warning: Citation `sauvePredictionPolyphonyModelling2017' on pag
-e 93 undefined on input line 2648.
+e 93 undefined on input line 2644.
 
 
 Package natbib Warning: Citation `lerdahlGenerativeTheoryTonal1986' on page 93 
-undefined on input line 2657.
+undefined on input line 2653.
 
 
 Package natbib Warning: Citation `margulisModelMelodicExpectation2005' on page 
-93 undefined on input line 2657.
+93 undefined on input line 2653.
 
 
 Package natbib Warning: Citation `narmourAnalysisCognitionBasic1990' on page 93
- undefined on input line 2657.
+ undefined on input line 2653.
 
 
 Package natbib Warning: Citation `narmourAnalysisCognitionMelodic1992' on page 
-93 undefined on input line 2657.
+93 undefined on input line 2653.
 
 
 Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 93 undefined on input line 2657.
+on page 93 undefined on input line 2653.
 
 
 Package natbib Warning: Citation `shannonMathematicalTheoryCommunication1948' o
-n page 93 undefined on input line 2662.
+n page 93 undefined on input line 2658.
+
+
+Package natbib Warning: Citation `conklinMultipleViewpointSystems1995' on page 
+93 undefined on input line 2658.
 
 
 Package natbib Warning: Citation `pearceStatisticalLearningProbabilistic2018a' 
-on page 93 undefined on input line 2663.
+on page 93 undefined on input line 2659.
 
 
 Package natbib Warning: Citation `schaffrathEssenFolkSong1995' on page 93 undef
-ined on input line 2663.
+ined on input line 2659.
 
 [93]
 File: img/SchubertF.pdf Graphic file (type QTm)
 <use  "img/SchubertF.pdf" >
 File: img/cumSchubert.jpeg Graphic file (type QTm)
-<use  "img/cumSchubert.jpeg" > [94]
+<use  "img/cumSchubert.jpeg" >
 
-Package natbib Warning: Citation `cowanEvolvingConceptionsMemory1988' on page 9
-5 undefined on input line 2696.
-
-
-Package natbib Warning: Citation `cowanMagicalMysteryFour2010' on page 95 undef
-ined on input line 2696.
+Package natbib Warning: Citation `conklinMultipleViewpointSystems1995' on page 
+94 undefined on input line 2684.
 
 
 Package natbib Warning: Citation `cowanEvolvingConceptionsMemory1988' on page 9
-5 undefined on input line 2707.
+4 undefined on input line 2692.
+
+
+Package natbib Warning: Citation `cowanMagicalMysteryFour2010' on page 94 undef
+ined on input line 2692.
+
+
+Underfull \vbox (badness 3058) has occurred while \output is active []
+
+[94]
+
+Package natbib Warning: Citation `cowanEvolvingConceptionsMemory1988' on page 9
+5 undefined on input line 2703.
 
 
 Package natbib Warning: Citation `cowanMagicalMysteryFour2010' on page 95 undef
-ined on input line 2707.
+ined on input line 2703.
 
 
 Package natbib Warning: Citation `baddeleyWorkingMemory1974' on page 95 undefin
-ed on input line 2708.
+ed on input line 2704.
 
 
 Package natbib Warning: Citation `karpinskiAuralSkillsAcquisition2000' on page 
-95 undefined on input line 2732.
+95 undefined on input line 2727.
 
 [95]
-Underfull \vbox (badness 2762) has occurred while \output is active []
+
+Package natbib Warning: Citation `shepardMentalRotationThreeDimensional1971' on
+ page 96 undefined on input line 2765.
 
 [96]
 File: img/Model.pdf Graphic file (type QTm)
 <use  "img/Model.pdf" >
 File: img/Model Graphic.pdf Graphic file (type QTm)
-<use  "img/Model Graphic.pdf" > [97] [98] [99] (./mmd-draft-djb.bbl [100] [101
+<use  "img/Model Graphic.pdf" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112])
+[97] [98] (./mmd-draft-djb.bbl [99] [100
+
+] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2892.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2889.
 [113]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2892.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2889.
 (./mmd-draft-djb.aux
 
 Package natbib Warning: Citation(s) may have changed.
@@ -3483,15 +3503,15 @@ See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1044 ...nd\NAT@force@numbers{}\NAT@force@numbers
+l.1050 ...nd\NAT@force@numbers{}\NAT@force@numbers
                                                    
 Here is how much of TeX's memory you used:
- 22934 strings out of 493005
- 436571 string characters out of 6134596
- 535280 words of memory out of 5000000
- 26579 multiletter control sequences out of 15000+600000
- 24434 words of font info for 61 fonts, out of 8000000 for 9000
+ 22458 strings out of 493005
+ 429297 string characters out of 6134596
+ 529574 words of memory out of 5000000
+ 26117 multiletter control sequences out of 15000+600000
+ 24426 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 41i,8n,68p,10411b,1161s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,8n,68p,10411b,1160s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on mmd-draft-djb.pdf (113 pages).
