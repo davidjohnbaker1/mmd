@@ -9,13 +9,13 @@ Repo for my PhD Dissertation: Modeling Melodic Dictation
 * [ ] Dedication
 * [ ] Add IDyOM Scale Degree
 * [ ] Add Abstract
-* [ ] Check all Figures for Sizing, decomment
+* [X] Check all Figures for Sizing, decomment
 * [ ] Get Phil Melodies
 * [ ] Fantastic on Phil 
-* [ ] Section 441 Edits
-* [ ] 441 Edits to Again, Again abstract
-* [ ] Create Distribution Panel for Prior Knowledge
-* [ ] Add Threshold plot for distribution for Comp Model 
+* [X] Section 441 Edits
+* [X] 441 Edits to Again, Again abstract
+* [X] Create Distribution Panel for Prior Knowledge
+* [X] Add Threshold plot for distribution for Comp Model 
 * [ ] Experimental Analyses 
 
 ## Tasks for David 
@@ -26,9 +26,9 @@ Repo for my PhD Dissertation: Modeling Melodic Dictation
 
 ### Corpus
 
-* Clean All Data 
-* Create Visualzations
-* Document use of corpus 
+* [X] Clean All Data 
+* [X] Create Visualzations
+* [X] Document use of corpus 
 
 ### Introduction 
 
@@ -51,7 +51,7 @@ Repo for my PhD Dissertation: Modeling Melodic Dictation
 
 ### Computation Chapter
 
-* [ ] DFH In Humdrum Analysis 
+* [X] DFH In Humdrum Analysis 
 
 ### Corpus Chapter
 
