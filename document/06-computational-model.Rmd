@@ -193,7 +193,7 @@ This agrees with intuitions about the process of melodic dictation.
 It first creates a linear mapping of attempts to dictate with difficulty of the melody.
 It relies on a distinction between explicit and implicit statistical knowledge.
 It is based on the Embedded Process Model from working memory and attention, so is part of a larger generative model, giving more credibility to explaining the underlying processes of melodic dictation.
-The output of this model is inspired by work on mental rotation [@shepardMentalRotationThreeDimensional1971] which assumes that time to complete a task is directly proportional to cognitive effort required.
+The output of this model is inspired by work on mental rotation [@shepardMentalRotationThreeDimensional1971]   which assumes that time to complete a task is directly proportional to cognitive effort required.
 More iterations of the model as reflected in more searches should reflect more mental effort and vice versa.
 
 ## Formal Model 
