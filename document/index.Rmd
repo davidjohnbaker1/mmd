@@ -29,7 +29,7 @@ library(tidyverse)
 
 ## Rationale
 
-All students pursuing a Bachelor's degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation [@NationalAssociationSchools2018, §VIII.6.B.2.A].
+All students pursuing a Bachelor's degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation [@NationalAssociationSchools2019, §VIII.6.B.2.A].
 Melodic dictation is a cognitively demanding process that requires students to hear a melody, then without any access to an external reference, transcribe the melody within a limited time frame.
 As of 2019 there are 643 Schools of Music belonging to National Association of Schools of Music (NASM)^[https://nasm.arts-accredit.org/directory-lists/accredited-institutions/search/?institutionname=&city=&state=&country=&search=true], meaning that thousands of students every year will be expected to learn this challenging task as part of their aural skills education.
 The implicit logic is that as one improves in their ability to take melodic dictation, this practice of critical and active listening develops one's ability to "think in music" [@bestMusicCurriculaFuture1992; @karpinskiAuralSkillsAcquisition2000] and thus become a more competent musician.
