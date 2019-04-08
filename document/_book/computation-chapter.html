@@ -230,7 +230,7 @@ While of course with each student there are inevitably many variables at play in
 As students progress, they are expected to be able to dictate more difficult melodies, yet exactly what makes a melody complex and thus difficult to dictate is often left to the expertise and intuition of a pedagogue.
 Intuition is an important skill for teachers to cultivate, but when it comes to determining objective measures of judgment, research from decision making science tends to suggest that no matter the expertise, collective and objective knowledge tends to outperform a single person’s judgment <span class="citation">(Kahneman <a href="#ref-kahnemanThinkingFastSlow2012">2012</a>; Logg, Minson, and Moore <a href="#ref-loggAlgorithmAppreciationPeople2019">2019</a>; Meehl <a href="#ref-meehlClinicalStatisticalPrediction1954">1954</a>)</span>.
 Having more clearly defined performance benchmarks also helps remove biases in grading that teachers may or may not be explicitly aware of.
-Recent research has suggested that even aural skills pedagoges are open to the idea of looking for more standardization in aural skills assessments <span class="citation">(Paney and Buonviri <a href="#ref-paneyTeachingMelodicDictation2014">2014</a>)</span>.</p>
+Recent research has suggested that even aural skills pedagogues are open to the idea of looking for more standardization in aural skills assessments <span class="citation">(Paney and Buonviri <a href="#ref-paneyTeachingMelodicDictation2014">2014</a>)</span>.</p>
 <p>In this chapter I survey and examine how tools from computational musicology can be used to help model an aural skills pedagogue’s notion of complexity in melodies.
 First, I establish that theorists agree on the differences in melodic complexity using results from a survey of 40 aural skills pedagogues.
 Second, I explore how both static and dynamic computationally derived abstracted features of melodies can and cannot be used to approximate an aural skills pedagogue’s intuition.
@@ -256,9 +256,9 @@ I present the details of the survey below.</p>
 After piloting the randomly sampled melodies on a colleague, I again randomly sampled half of this sub-set and then added in five more melodies that were not in the new set from earlier sections of the book in order to be more representative of materials students might find in the first two semesters of their aural skills pedagogy.
 I ran the survey from January 31st of 2019 until March 7th, 2019.
 The survey comprised of two sets of questions.</p>
-<p>Six questions asked about the teaching background of respondents and can be found in <a href="#surveQuestions1"><strong>??</strong></a>.
+<p>Six questions asked about the teaching background of respondents and can be found in <a href="#surveyQuestions1"><strong>??</strong></a>.
 These questions were followed by asking participants to make five ratings over the 20 different melodies.
-The five questions can be found in <a href="#fig:surveQuestions2"><strong>??</strong></a>.
+The five questions can be found in <a href="#fig:surveyQuestions2"><strong>??</strong></a>.
 To encourage participation, two $30 cash prize was offered to two participants.
 The survey had questions that specifically were designed to gauge their appropriateness for use in a melodic dictation context.
 Participants were recruited exclusively online and all provided consent to partaking in the data collection as approved by the Louisiana State University Institutional Review Board.</p>
@@ -727,25 +727,25 @@ Combining the Hick-Hyman hypothesis together with the above statistical learning
 <div id="frequency-facilitation-hypothesis" class="section level2">
 <h2><span class="header-section-number">4.4</span> Frequency Facilitation Hypothesis</h2>
 <p>The frequency facilitation hypothesis (FFH) makes two important assumptions that rely on both the statistical learning hypothesis and the perceptual facilitation hypothesis.
-The first, as stated above, is that humans learn melodies via the means predicted by the statistical learning hypothesis.
-In line with Huron’s reading of the Hick-Hyman Law, melodic information that people are more familiar with will consequently be more expected.
-More expected notes will tax memory less than unexpected notes.
+The first, as stated above, is that humans learn melodies via the statistical learning hypothesis.
+In line with Huron’s reading of the Hick-Hyman Law, melodic information that listeners are more familiar with will consequently be processed more quickly.
+More expected notes will tax memory processing less than unexpected notes.
 This assertion would also be predicted by the probabilistic prediction hypothesis.
 Thus, given a sequence any set of notes, the frequency facilitation hypothesis posits that the efficiency in which a melody is processed in memory is proportionally related to its degree of expectedness when quantified in information content.
-Specifically, measures of expectation derived from computational models of auditory cognition like IDyOM should be able to serve as a proxy for melodic information.
+Specifically, measures of expectation derived from computational models of auditory cognition like IDyOM should be able to serve as a proxy for musical information.
 This falls within the bounds of Pearce’s assertion that using the expectancy measures from a melody could be used as a sort of memory proxy <span class="citation">(Pearce <a href="#ref-pearceStatisticalLearningProbabilistic2018a">2018</a>)</span>.</p>
 <p>This hypothesis generates testable predictions that can be investigated to verify its verisimilitude.
 Important to aural skills pedagogy, the primary prediction from this hypothesis would be that melodic patterns that occur more frequently in a corpus will be be easier to remember than those occurring less frequently.
 These frequency patterns should then directly relate to the amount of information content calculated by IDyOM.
-If this relationship does exist, then it can be used to create strategies that would then create a more linear path to success for students learning to take melodic dictation.</p>
-<p>In the final section of this chapter, I investigate this claim by conducting an analysis on a corpus of sight singing melodies to demonstrate this claim.
+If this relationship does exist, then it can be used to create strategies that would then create a more linear path to success for students learning to take melodic dictation.
+In the final section of this chapter, I investigate this claim by conducting an analysis on a corpus of sight singing melodies to demonstrate this claim.
 I then take the findings from this corpus analysis and how how it can be applied in the aural skills classroom.</p>
 <div id="corpus-analysis" class="section level3">
 <h3><span class="header-section-number">4.4.1</span> Corpus Analysis</h3>
-<p>In order to investigate frequency facilitation hypothesis, I conducted a corpus study using N = 622 melodies from the above used Fifth Edition of the Berkowitz “A New Approach to Sight Singing” <span class="citation">(Berkowitz <a href="#ref-berkowitzNewApproachSight2011">2011</a>)</span>.
-The FFH predicts that more frequently occurring patterns will result in lower information content– a general (tautological) byproduct of quantifying musical feature tokens and doing computations with IC– and that these lower information content measures, when quantified, will be able to predict load on memory.
-In order to examine this I first extracted a series of the most frequently occurring melodic tri grams from the Berkowitz corpus after transposing each melody to C major via the <code>solfa</code> tool in humdrum.
-I plot the resulting distributions of the top 1000 patterns of each fixed order predictions below in <a href="computation-chapter.html#fig:bitriquint">4.28</a> and <a href="computation-chapter.html#fig:bitriquint2">4.29</a>.</p>
+<p>In order to investigate frequency facilitation hypothesis, I conducted a corpus study using N = 622 melodies from the above using the Fifth Edition of the Berkowitz “A New Approach to Sight Singing” <span class="citation">(Berkowitz <a href="#ref-berkowitzNewApproachSight2011">2011</a>)</span>.
+The FFH predicts that more frequently occurring patterns will result in lower information content– a general byproduct of quantifying musical feature tokens with information content in a multiple viewpoints framework– and that these lower information content measures, when quantified, will be able to predict load on memory.</p>
+<p>In order to examine this I first extracted a series of the most frequently occurring melodic tri-grams from a subset of the <em>MeloSol</em> corpus after transposing each melody to C major via the <code>solfa</code> tool in humdrum.
+I plot the resulting distributions of the top 1,000 patterns of each fixed order predictions below in <a href="computation-chapter.html#fig:bitriquint">4.28</a> and <a href="computation-chapter.html#fig:bitriquint2">4.29</a>.</p>
 <div class="figure" style="text-align: center"><span id="fig:bitriquint"></span>
 <img src="img/trigrams.png" alt="Distribution of m-grams" width="100%" />
 <p class="caption">
@@ -759,38 +759,37 @@ Figure 4.29: Less Predictive Power
 </p>
 </div>
 <p>From <a href="computation-chapter.html#fig:bitriquint">4.28</a>, we see that when plotted in terms of their frequency distributions, a small amount of the patterns make up for a very large the distribution of the corpus.
-As evident from <a href="computation-chapter.html#fig:bitriquint">4.28</a>, we see that with the addition of more tokens added to the m-grams and also is a visual representation of why and how statistical predictions become more unreliable with higher order predictions.
+As evident from <a href="computation-chapter.html#fig:bitriquint">4.28</a>, we see that with the addition of more tokens added to the n-grams, this results in avisual representation of why and how statistical predictions become more unreliable with higher order predictions <span class="citation">(Conklin and Witten <a href="#ref-conklinMultipleViewpointSystems1995">1995</a>)</span>.
 Intuitively, melodic patterns from the high frequency distribution of the table would seemingly be easier to remember and then dictate than those from the tails of the distributions.</p>
-<p>Following up on this analysis, I then trained an IDyOM model on the same corpus of melodies and thus was able to calculate the average information content the opening quint grams melodies in this corpus.
+<p>Following up on this analysis, I then trained an IDyOM model on the same corpus of melodies and thus was able to calculate the average information content for the first five notes of each melody in the corpus.
 In this computation, I explicitly assume that the underlying corpus of data is representative of an individual’s personal expectations of musical material.
 In Figure <a href="#fig:quintdist"><strong>??</strong></a>, I visualize the cumulative information content that the first five notes of each of melodies that that the corpus was trained on.
-I chose to additionally split the corpus into quintiles to further highlight the progressive changes in information content when these incipits are sorted based on their cumulative informaiton content.</p>
+I chose to additionally split the corpus into quintiles to further highlight the progressive changes in information content when these incipits are sorted based on their cumulative information content.</p>
 <div class="figure" style="text-align: center">
 <img src="img/five_incipit_distiribution.png" alt=" " width="100%" />
 <p class="caption">
 </p>
 </div>
-<hr />
-<p>collapse across for distirbution</p>
-<p>From these computations, we can see that almost tautologically, that quint-grams with higher cumulative information content appear with lower frequency and m-grams with lower cumulative information content occur more frequently.</p>
-<p>This observation may seem tautological, as this relationship would result from how information content is calculated (more expected patterns have less information), but the novel assertion here is connecting the cumulative information content to ease of memory load.
-For example, in Figure <a href="computation-chapter.html#fig:tridensity">4.30</a>, we see that when split into three sections, random samples from the the corpus when partitioned into three sections, even just the opening of the first five notes of each melody increase per group.<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a></p>
+<p>This observation may seem tautological, as this relationship would result from how information content is calculated since more expected patterns have less information content.
+The novel assertion here is connecting the cumulative information content to memory load.
+For example, in Figure <a href="computation-chapter.html#fig:tridensity">4.30</a>, we see that when split into three sections, random samples from the the corpus when partitioned into three sections, even just the opening of the first five notes of each melody increase per group.</p>
 <div class="figure" style="text-align: center"><span id="fig:tridensity"></span>
 <img src="img/tri_distribution.png" alt="Average Information Content of First Five Notes of Melodies" width="100%" />
 <p class="caption">
 Figure 4.30: Average Information Content of First Five Notes of Melodies
 </p>
 </div>
-<p>To visualize what this might look like in a melodic dictation context, we could imagine randomly sampling melodies from even smaller sections (warranted by seeing the blip of data in the first quarterly).
-If quantified using information content measures, these five grams would then fill up the finite bin of memory than that were more unexpected, or had more information content associated with them.
-I visualize this difference in XXXX where I plot similar length five grams filling up the window of memory at different rates based on their cumulative information content.</p>
+<p>To visualize what this might look like in a melodic dictation context, we could imagine randomly sampling melodies from even smaller sections.
+If quantified using information content measures, these five grams would then fill up the finite bin of memory faster than that were more unexpected, or had more information content associated with them.
+I visualize this difference in Figure <a href="computation-chapter.html#fig:cumplot">4.31</a> where I plot similar length five grams filling up the window of memory at different rates based on their cumulative information content.</p>
 <div class="figure" style="text-align: center"><span id="fig:cumplot"></span>
 <img src="img/cum_grid_plot.png" alt="Cumlative Information Content in Melodic Incipts" width="100%" />
 <p class="caption">
 Figure 4.31: Cumlative Information Content in Melodic Incipts
 </p>
 </div>
-<p>Lastly, to further investigate this claim of cumulative information content, I calculated the average information content for each melody used the experiment above based on several measures then used data from the survey above and plotted it against the measures of expert ratings for difficulty for the classroom and found various measures of information content to be very good predictors of difficulty ratings.
+<p>Lastly, to further investigate this claim of cumulative information content, I calculated various information content measures for each melody used the survey above then used the resulting data to plot it against the measures of expert ratings for difficulty for the classroom.
+In Figure <a href="#fig:modelcomparison"><strong>??</strong></a>, the resulting visualization shows measures of information content to be very good predictors of difficulty ratings.
 I believe that this gives credence to thinking more about using computational measures in designing appropriate curricular measures.</p>
 <div class="figure" style="text-align: center"><span id="fig:modelcomparsion"></span>
 <img src="img/model_comparsion_gg.png" alt="Model Comparison" width="100%" />
@@ -997,12 +996,6 @@ I finish by discussing how this might be implemented in the classroom.</p>
 <div id="ref-jamiesonApplyingExemplarModel2009">
 <p>Jamieson, Randall K., and D. J. K. Mewhort. 2009. “Applying an Exemplar Model to the Serial Reaction-Time Task: Anticipating from Experience.” <em>Quarterly Journal of Experimental Psychology</em> 62 (9): 1757–83. <a href="https://doi.org/10.1080/17470210802557637" class="uri">https://doi.org/10.1080/17470210802557637</a>.</p>
 </div>
-</div>
-<div class="footnotes">
-<hr />
-<ol start="6">
-<li id="fn6"><p>This same trend is also apparent using a general linear model across the entire corpus. I chose to model it with three groups for more effective communication.<a href="computation-chapter.html#fnref6" class="footnote-back">↩</a></p></li>
-</ol>
 </div>
             </section>
 
