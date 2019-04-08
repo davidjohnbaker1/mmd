@@ -67,7 +67,7 @@ berkowitz666 %>%
 
 tri_distribution
 
-ggsave(filename = "document/img/tri_distribution.png", tri_distribution)
+# ggsave(filename = "document/img/tri_distribution.png", tri_distribution)
 
 berkowitz666 %>%
   select(melody.id, note.id, melody.name, berkNumber, information.content, entropy) %>%
@@ -199,7 +199,7 @@ annotate_figure(core_image, top = "Cumulative Information Content Over Melodies"
 
 cum_grid_plot
 
-ggsave(filename = "document/img/cum_grid_plot.png",plot = cum_grid_plot)
+# ggsave(filename = "document/img/cum_grid_plot.png",plot = cum_grid_plot)
 
 #======================================================================================================
 # MP Calculations
@@ -254,15 +254,15 @@ high_act_2 <- make_active_ngram(dataset = berkowitz666, melody_name = "Berkowitz
 high_act_3 <- make_active_ngram(dataset = berkowitz666, melody_name = "Berkowitz380", note_index = 5, wmc_limit = wmc_threshold)
 
 
-anim_save(filename = "document/img/animations/low_act_1.gif", low_act_1)
-anim_save(filename = "document/img/animations/low_act_2.gif", low_act_2)
-anim_save(filename = "document/img/animations/low_act_3.gif", low_act_3)
+#anim_save(filename = "document/img/animations/low_act_1.gif", low_act_1)
+#anim_save(filename = "document/img/animations/low_act_2.gif", low_act_2)
+#anim_save(filename = "document/img/animations/low_act_3.gif", low_act_3)
 
-anim_save(filename = "document/img/animations/mid_act_1.gif", mid_act_1)
-anim_save(filename = "document/img/animations/mid_act_2.gif", mid_act_2)
-anim_save(filename = "document/img/animations/mid_act_3.gif", mid_act_3)
+#anim_save(filename = "document/img/animations/mid_act_1.gif", mid_act_1)
+#anim_save(filename = "document/img/animations/mid_act_2.gif", mid_act_2)
+#anim_save(filename = "document/img/animations/mid_act_3.gif", mid_act_3)
 
-anim_save(filename = "document/img/animations/high_act_1.gif", high_act_1)
-anim_save(filename = "document/img/animations/high_act_2.gif", high_act_2)
-anim_save(filename = "document/img/animations/high_act_3.gif", high_act_3)
+#anim_save(filename = "document/img/animations/high_act_1.gif", high_act_1)
+#anim_save(filename = "document/img/animations/high_act_2.gif", high_act_2)
+#anim_save(filename = "document/img/animations/high_act_3.gif", high_act_3)
 

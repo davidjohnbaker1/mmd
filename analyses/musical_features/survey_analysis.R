@@ -1,9 +1,13 @@
 #======================================================================================================
 # Analyze and Clean Survey Data
 #--------------------------------------------------
+# Plots in this scripts
+# Aural Skills Agreement Plots
+# Correlations Between Difficulty and Melodic Common Practice
 library(tidyverse)
 library(irr)
 library(viridis)
+library(stringr)
 #--------------------------------------------------
 
 dictation_survey <- read_csv("aural_survey/Dictation_Survey_Responses.csv")
@@ -65,7 +69,6 @@ dictation_survey %>%
   ungroup() %>%
   mutate(mean_age = mean(age), sd_age = sd(age))
 
-library(stringr)
 
 fix_masters <- function(x){
   x <- ifelse(str_detect(string = x, pattern = "Mas") == TRUE, "Masters", x) 
@@ -197,7 +200,7 @@ ggplot(dictation_agreement_plot, aes(x = melody_rank, y = difficulty_mean)) +
 
 difficulty_plot
 
-ggsave(plot = difficulty_plot, filename = "document/img/difficulty_plot.png")
+# ggsave(plot = difficulty_plot, filename = "document/img/difficulty_plot.png")
 
 #--------------------------------------------------
 # Grammar Plots 
@@ -222,7 +225,7 @@ ggplot(dictation_agreement_plot_grammar, aes(x = melody_rank, y = grammar_mean))
 
 grammar_plot
 
-ggsave(plot = grammar_plot, filename = "document/img/grammar_plot.png")
+# ggsave(plot = grammar_plot, filename = "document/img/grammar_plot.png")
 
 #--------------------------------------------------
 # Calculate IRR + ICC 
@@ -286,6 +289,7 @@ index_model<- lmer(Difficulty_2nd_Year ~ melody_number + (1|subject) + (1|stimul
 summary(rank_model)
 summary(index_model)
 anova(rank_model, index_model)
+
 #--------------------------------------------------
 # Figure 2
 # Plot basic Correlations between grammatical coherence and difficulty
@@ -320,34 +324,4 @@ dictation_survey %>%
 
 grammar_difficulty_correlation_plot
 
-ggsave(filename = "document/img/grammar_difficulty_correlation_plot.png",
-       plot = grammar_difficulty_correlation_plot)
-
-#--------------------------------------------------
-# Introduce Fantastic
-# Merge on Dataset
-
-
-
-
-#--------------------------------------------------
-# Figure 3
-# Difficulty level for average year undergraduate as DV
-# Series of Linear Models
-# Number of Notes
-# FANTASTIC Features....
-
-#--------------------------------------------------
-# Extended Discussion on linear modeling
-# Collinearity
-
-#--------------------------------------------------
-# Figure 4
-# PCA of Features used BEFORE in complexity measures
-# Predict difficulty from PCA
-
-#--------------------------------------------------
-# Also explore with Cum Inf Content
-#
-
-
+# ggsave(filename = "document/img/grammar_difficulty_correlation_plot.png", plot = grammar_difficulty_correlation_plot)

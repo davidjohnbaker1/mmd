@@ -140,7 +140,7 @@ plot_grid(corpora_range_comparison,
 
 comparative_descriptive_panel
 
-ggsave(filename = "document/img/comparative_descritive_panel.png", plot = comparative_descriptive_panel)
+# ggsave(filename = "document/img/comparative_descritive_panel.png", plot = comparative_descriptive_panel)
 
 # Make Huron Panel Grid 
 
@@ -208,7 +208,7 @@ plot_grid(ncol =  2, corpora_ientropy_comparision, corpora_dentropy_comparision,
           corpora_tonalspike_comparision,
           corpora_scgv_comparision) -> corpora_emergent 
 
-ggsave(filename = "document/img/corpora_emergent.png", corpora_emergent)
+# ggsave(filename = "document/img/corpora_emergent.png", corpora_emergent)
 
 #--------------------------------------------------
 # Redo Huron 
@@ -231,7 +231,7 @@ melody_features %>%
 
 corpora_contour_distribution
 
-ggsave(filename = "document/img/huron_recreation.png", corpora_contour_distribution)
+# ggsave(filename = "document/img/huron_recreation.png", corpora_contour_distribution)
 #--------------------------------------------------
 # Tone Plots 
 cat(unique(krum_data$scaledegree),sep = ",")
@@ -271,11 +271,11 @@ krum_data %>%
 
 krum_plot_sub
 
-ggsave("document/img/krum-plot-all.png", krum_plot_all)
+#ggsave("document/img/krum-plot-all.png", krum_plot_all)
 
 plot_grid(krum_plot_sub, krum_plot_all, nrow = 2) -> krum_panel
 
-ggsave("document/img/krum_panel.png", krum_panel)
+#ggsave("document/img/krum_panel.png", krum_panel)
 
 #--------------------------------------------------
 # Plots this Scritp Makes

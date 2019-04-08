@@ -441,15 +441,24 @@ knitr::include_graphics("img/trigrams.png")
 knitr::include_graphics("img/bitriquint.png")
 ```
 
-
 From \@ref(fig:bitriquint), we see that when plotted in terms of their frequency distributions, a small amount of the patterns make up for a very large the distribution of the corpus.
 As evident from \@ref(fig:bitriquint), we see that with the addition of more tokens added to the m-grams and also is a visual representation of why and how statistical predictions become more unreliable with higher order predictions. 
 Intuitively, melodic patterns from the high frequency distribution of the table would seemingly be easier to remember and then dictate than those from the tails of the distributions.
 
-Following up on this analysis, I then trained an IDyOM model on the same corpus of melodies and thus was able to calculate the average information content the opening bi, tri, and quint grams melodies in this corpus.
+Following up on this analysis, I then trained an IDyOM model on the same corpus of melodies and thus was able to calculate the average information content the opening quint grams melodies in this corpus.
 In this computation, I explicitly assume that the underlying corpus of data is representative of an individual's personal expectations of musical material. 
+In Figure \@ref(fig:quintdist), I visualize the cumulative information content that the first five notes of each of melodies that that the corpus was trained on. 
+I chose to additionally split the corpus into quintiles to further highlight the progressive changes in information content when these incipits are sorted based on their cumulative informaiton content.
 
-From these computations, we can see that almost tautologically, that tri-grams with higher cumulative information content appear with lower frequency and m-grams with lower cumulative information content occur more frequently.
+```{r quintdist, echo=FALSE, fig.cap=" ",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/five_incipit_distiribution.png")
+```
+
+----------
+
+collapse across for distirbution 
+
+From these computations, we can see that almost tautologically, that quint-grams with higher cumulative information content appear with lower frequency and m-grams with lower cumulative information content occur more frequently.
 
 This observation may seem tautological, as this relationship would result from how information content is calculated (more expected patterns have less information), but the novel assertion here is connecting the cumulative information content to ease of memory load.
 For example, in Figure \@ref(fig:tridensity), we see that when split into three sections, random samples from the the corpus when partitioned into three sections, even just the opening of the first five notes of each melody increase per group.^[This same trend is also apparent using a general linear model across the entire corpus. I chose to model it with three groups for more effective communication.]

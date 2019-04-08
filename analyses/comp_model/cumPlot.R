@@ -6,7 +6,7 @@ library(tidyverse)
 library(gganimate)
 
 
-schubert <- read_csv("figures/schubertF.csv")
+schubert <- read_csv("analyses/comp_model//schubertF.csv")
 schubert
 schubert$CumIC <- cumsum(schubert$IC)
 
@@ -17,6 +17,8 @@ schubert$CumIC_unexpected <- schubert$CumIC * 1.60
 ggplot(schubert, aes(x=Position, y=CumIC, label = Pitch)) + 
   geom_line() +
   geom_point() +
+  theme_minimal() +
+  scale_x_continuous(limits = c(1,8), breaks = seq(1,8,1)) +
   geom_segment(x = 0, xend = 9, y = 17 , yend = 17, linetype = 2) +
   geom_segment(x = 5.5, xend = 5.5, y = 0, yend = 17) +
   labs(title = "Cumulative Information Content of Melody", x = "Position of Notes",
@@ -24,10 +26,130 @@ ggplot(schubert, aes(x=Position, y=CumIC, label = Pitch)) +
   geom_label() -> p
 
 p + annotate(geom = "text", x = 1.5, y = 18.6, label = "WMC Limit") +
-  annotate(geom = "text", x = 7, y = 2.5, label = "Segmentation Boundary \n for Selective Attention")
+  annotate(geom = "text", x = 7, y = 2.5, label = "Segmentation Boundary \n for Selective Attention") -> schubert_new
+
+ggsave(filename = "document/img/SchubertPlotNew.png", schubert_new)
+#======================================================================================================
+# Create Panel for LTM/Prior Knowledge 
+
+bi_grams <- read.delim("corpus/symbolic/krn/berkowitz_meta/bi_grams.tsv",header = FALSE, sep = "\t")
+tri_grams <- read.delim("corpus/symbolic/krn/berkowitz_meta/tri_grams.tsv",header = FALSE, sep = "\t")
+quint_grams <- read.delim("corpus/symbolic/krn/berkowitz_meta/quint_grams.tsv",header = FALSE, sep = "\t")
+
+bi_grams$grams <- "2-grams"
+tri_grams$grams <- "3-grams"
+quint_grams$grams <- "5-grams"
+
+grams <- as.tibble(rbind(bi_grams, tri_grams, quint_grams))
+
+
+
+# NEEDS TO BE JUST START OF MELODIES ! 
+
+uni_grams <-read.delim("corpus/symbolic/krn/berkowitz_meta/uni_grams.tsv",header = FALSE, sep = "\t")
+bi_grams <- read.delim("corpus/symbolic/krn/berkowitz_meta/bi_grams.tsv",header = FALSE, sep = "\t")
+tri_grams <- read.delim("corpus/symbolic/krn/berkowitz_meta/tri_grams.tsv",header = FALSE, sep = "\t")
+quint_grams <- read.delim("corpus/symbolic/krn/berkowitz_meta/quint_grams.tsv",header = FALSE, sep = "\t")
+
+uni_grams$grams <- "1-grams"
+bi_grams$grams <- "2-grams"
+tri_grams$grams <- "3-grams"
+quint_grams$grams <- "5-grams"
+
+grams <- as.tibble(rbind(uni_grams, bi_grams, tri_grams, quint_grams))
+
+grams %>%
+  rename(FreqCount = V1, gram = V2) -> grams
+
+# Bi with lower threshold
+# Tri with Less 
+# Quint with even less 
+
+# 1 Grams
+
+threshold <- 7.5
+implicit <- threshold + 1
+explicit <- threshold - 1
+depth <- 5000
+
+# make me!
+grams %>%
+  filter(grams == "1-grams") %>%
+  ggplot(aes(x = reorder(gram, -FreqCount), y = FreqCount)) +
+  theme_minimal() +
+  geom_histogram(stat = 'identity', position = position_dodge(width=0.5)) +
+  geom_vline(xintercept = threshold) + 
+  coord_flip() + 
+  annotate(geom = "text", x = implicit, y = depth, label = "Implicit") +
+  annotate(geom = "text", x = explicit, y = depth, label = "Explicit") +
+  labs(x = "Musical Pattern", y = "Frequency Count", title = "1-grams") -> pk_1
+
+pk_1
+
+# 2 Grams
+
+threshold <- 29.5
+implicit <- threshold + 1
+explicit <- threshold - 1
+depth <- 950
+
+grams %>%
+  filter(grams == "2-grams") %>%
+  filter(FreqCount > 200) %>%
+  ggplot(aes(x = reorder(gram, -FreqCount), y = FreqCount)) +
+  theme_minimal() +
+  geom_histogram(stat = 'identity', position = position_dodge(width=0.5)) +
+  geom_vline(xintercept = threshold) + 
+  coord_flip() + 
+  annotate(geom = "text", x = implicit, y = depth, label = "Implicit") +
+  annotate(geom = "text", x = explicit, y = depth, label = "Explicit") +
+  labs(x = "Musical Pattern", y = "Frequency Count", title = "2-grams") -> pk_2
+
+# 3 Grams
+  
+threshold <- 25
+implicit <- threshold + 1
+explicit <- threshold - 1
+depth <- 450
+
+grams %>%
+  filter(grams == "3-grams") %>%
+  filter(FreqCount > 135) %>%
+  ggplot(aes(x = reorder(gram, -FreqCount), y = FreqCount)) +
+  theme_minimal() +
+  geom_histogram(stat = 'identity', position = position_dodge(width=0.5)) +
+  geom_vline(xintercept = threshold) + 
+  coord_flip() + 
+  annotate(geom = "text", x = implicit, y = depth, label = "Implicit") +
+  annotate(geom = "text", x = explicit, y = depth, label = "Explicit") +
+  labs(x = "Musical Pattern", y = "Frequency Count", title = "3-grams") -> pk_3
+
+
+# 5 Grams 
+
+threshold <- 5.5
+implicit <- threshold + 1
+explicit <- threshold - 1
+depth <- 85
+
+grams %>%
+  filter(grams == "5-grams") %>%
+  filter(FreqCount > 35) %>%
+  ggplot(aes(x = reorder(gram, -FreqCount), y = FreqCount)) +
+  theme_minimal() +
+  geom_histogram(stat = 'identity', position = position_dodge(width=0.5)) +
+  geom_vline(xintercept = threshold) + 
+  coord_flip() + 
+  annotate(geom = "text", x = implicit, y = depth, label = "Implicit") +
+  annotate(geom = "text", x = explicit, y = depth, label = "Explicit") +
+  labs(x = "Musical Pattern", y = "Frequency Count", title = "5-grams") -> pk_5
+
+plot_grid(pk_1, pk_2, pk_3, pk_5) -> gram_panel
+
+ggsave(filename = "document/img/pk_grampanel.png")
 
 #======================================================================================================
-# MP Calculations
+# Make Many plots! 
 #--------------------------------------------------
 # 17 WMC
 

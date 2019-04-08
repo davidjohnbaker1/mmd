@@ -46,7 +46,7 @@ fived %>%
 
 five_incipit_distribution
 
-ggsave(filename = "document/img/five_incipit_distiribution.png", five_incipit_distribution)
+# ggsave(filename = "document/img/five_incipit_distiribution.png", five_incipit_distribution)
 
 #--------------------------------------------------
 # Do Random Sampling from Top, Middle, Highest Bins 
@@ -108,7 +108,7 @@ grams %>%
 
 bitriquint_gg
 
-ggsave(filename = "document/img/bitriquint.png",plot = bitriquint_gg)
+# ggsave(filename = "document/img/bitriquint.png",plot = bitriquint_gg)
 
 
 grams %>%
@@ -129,6 +129,7 @@ ggsave(filename = "document/img/trigrams.png",plot = tri_gg)
 
 
 #--------------------------------------------------
+# COUNTING HURON GRAMS FOR LATER
 
 grams %>%
   filter(grams == "2-grams") %>%
@@ -296,7 +297,7 @@ model_data %>%
   geom_point(aes(y = zIDYOM, col = "Mean IDyOM, r = .79")) + 
   geom_point(aes(y = zFantastic, col = "Mean FANTASTIC Interval Entropy, r = .85")) + 
   geom_point(aes(y = zHumdrum, col = "Cumulative Humdrum infot, r = .70")) +
-  geom_point(aes(y = zMeanHumdrum, col = "Mean Humdrum infot ,r =.89")) +
+  geom_point(aes(y = zMeanHumdrum, col = "Mean Humdrum infot, r =.89")) +
   geom_point(aes(y = zDiff, col = "Ratings -- Expert Ground Truth")) +
   scale_x_continuous(breaks = seq(1,20,1), limits = c(1, 20)) +
   labs(title = "Model Comparison:\nInformation Content Measures",
@@ -308,7 +309,7 @@ model_data %>%
 
 model_comparison_gg
 
-ggsave(filename = "document/img/model_comparsion_gg.png", model_comparison_gg)  
+# ggsave(filename = "document/img/model_comparsion_gg.png", model_comparison_gg)  
 
 #--------------------------------------------------
 # Get Solfa Data 

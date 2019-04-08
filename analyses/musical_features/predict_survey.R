@@ -10,6 +10,7 @@ library(tidyverse)
 library(GGally)
 library(psych)
 library(corrr)
+library(cowplot)
 options(scipen = 999)
 #--------------------------------------------------
 # Data Import
@@ -109,7 +110,7 @@ fantplotdata %>%
 
 fantastic_expert_plot 
 
-ggsave(filename = "document/img/FantasticExpertPlot.png", plot = fantastic_expert_plot)
+# ggsave(filename = "document/img/FantasticExpertPlot.png", plot = fantastic_expert_plot)
 
 melody_data %>%
   ungroup(stimulus) %>%
@@ -134,15 +135,12 @@ melody_data %>%
 rbind(feature_head, feature_tail) %>%
   mutate(Feature = rowname, Difficulty = mean_diff, Grammar = mean_gram) %>%
   select(Feature, Difficulty, Grammar) %>%
-  knitr::kable() -> strong_features
+  knitr::kable(digits = 2) -> strong_features
 
-write_rds(strong_features, path = "document/img/strongfeatures.rds")
+strong_features
 
-# %>%
-#   rename(`FANTASTIC Feature` = rowname, `Averaged Difficulty` = mean_diff, `Average Grammar` = mean_gram) %>%
-#   kableExtra::kable(digits = 2) -> difficulty_feature_data 
-# 
-# write_rds(difficulty_feature_data,path = "analyses/musical_features/difficulty_feature_data_feb6.rds")
+# write_rds(strong_features, path = "document/img/strongfeatures.rds")
+
 #======================================================================================================
 # Show Collinearity of Feature Items 
 
@@ -155,7 +153,7 @@ fantastic_computations %>%
 
 fantastic_collin
 
-ggsave(filename = "document/img/FANTASTIC_collin.png", plot = fantastic_collin)
+# ggsave(filename = "document/img/FANTASTIC_collin.png", plot = fantastic_collin)
 
 #--------------------------------------------------
 # Plot Melody Against Various Features
@@ -229,14 +227,14 @@ ggplot(melody_data, aes(x = d.range, y = mean_diff)) +
   theme_minimal() -> cow_drange
 
 #--------------------------------------------------
-library(cowplot)
+
 
 plot_grid(cow_pentropy, cow_tonalness, cow_stepcontlocalvar, cow_len, 
           cow_tonalspike, cow_stpcontglobdir, cow_meanentropy, cow_drange, nrow = 2, ncol = 4) -> univariate_features
 
 univariate_features
 
-ggsave(filename = "document/img/univariate_cow.png")
+# ggsave(filename = "document/img/univariate_cow.png")
 
 #--------------------------------------------------
 # Regression
@@ -257,3 +255,4 @@ melody_data %>%
 
 model_dumb <- lm(mean_diff ~ p.entropy + len + tonalness + step.cont.loc.var, data = melody_data)
 summary(model_dumb)
+

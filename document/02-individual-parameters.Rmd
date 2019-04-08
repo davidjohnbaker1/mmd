@@ -304,34 +304,6 @@ knitr::kable(
   caption = 'Variables Used In Modeling'
 )
 ```
-Variables are listed in the table below: 
-
-Abbreviation | Variable 
----|----------------------------------- 
-gen| General Self-Report Musical Sophistication 
-wmc| Working Memory Capacity 
-gf| General Fluid Intelligence 
-zIS| Identify What is Special 
-zHO| Hear Once Sing Back
-zSB| Sing Back After 2-3 
-zDS| Don’t Sing In Public
-zSH| Sing In Harmony 
-zJI| Join In 
-zNI| Number of Instruments 
-zRP| Regular Practice
-zNCS| Not Consider Self Musician 
-zNcV| Never Complimented 
-zST| Self Tonal 
-zCP| Compare Performances
-zAd| Addiction 
-zSI| Search Internet 
-zWr| Writing About Music 
-zFr| Free Time 
-zTP| Tone Span 
-zMS| Symmetry Span 
-zMO| Operation Span 
-zRA| Ravens
-zAN| Number Series
 
 #### Structural Equation Models
 

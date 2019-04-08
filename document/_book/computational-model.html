@@ -32,7 +32,7 @@
 <meta name="author" content="May 2019">
 
 
-<meta name="date" content="2019-04-07">
+<meta name="date" content="2019-04-08">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -302,14 +302,21 @@ Figure 7.1: Cadential Excerpt from Schubert’s Octet in F Major
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:cumSchubert"></span>
-<img src="img/cumSchubert.jpeg" alt="Cumulative Information in Schubert Octet Excerpt" width="75%" />
+<img src="img/SchubertPlotNew.png" alt="Cumulative Information in Schubert Octet Excerpt" width="100%" />
 <p class="caption">
 Figure 7.2: Cumulative Information in Schubert Octet Excerpt
 </p>
 </div>
 <p>It is important to highlight that the notes above the melody here are dependent on what is current in the Prior Knowledge module.
 A corpus of Prior Knowledge with less musical events would lead to higher information content measures for each set of notes, while a Prior Knowledge that has extensive tracking of the patterns would lead to lower information content <span class="citation">(Conklin and Witten <a href="#ref-conklinMultipleViewpointSystems1995">1995</a>)</span>.
-This increase in predictive accuracy mathematically reflects the intuition that those with more listening experience can process greater chunks of musical information.</p>
+This increase in predictive accuracy mathematically reflects the intuition that those with more listening experience can process greater chunks of musical information.
+I visualize what setting the explicit/implicit threshold on a set of various n-grams in Figure <a href="computational-model.html#fig:thresholds">7.3</a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:thresholds"></span>
+<img src="img/pk_grampanel.png" alt="Setting Prior Knowledge Limits" width="100%" />
+<p class="caption">
+Figure 7.3: Setting Prior Knowledge Limits
+</p>
+</div>
 </div>
 <div id="setting-limits-with-transcribe" class="section level3">
 <h3><span class="header-section-number">7.3.4</span> Setting Limits with Transcribe</h3>
@@ -385,16 +392,16 @@ More iterations of the model as reflected in more searches should reflect more m
 </div>
 <div id="formal-model" class="section level2">
 <h2><span class="header-section-number">7.4</span> Formal Model</h2>
-<p>I present the computational model in pseudocode as described in Figure <a href="computational-model.html#fig:mymodel">7.3</a>.
+<p>I present the computational model in pseudocode as described in Figure <a href="computational-model.html#fig:mymodel">7.4</a>.
 First, listed are the defined inputs, the functions needed to run the algorithm, and then the sequence the model runs.
 To aid distinguishing between functions and objects, I put functions in italics and objects in bold.
-Below the model in Figure <a href="computational-model.html#fig:walkthru">7.4</a>, I provide a brief walk through of one iteration of the model.</p>
+Below the model in Figure <a href="computational-model.html#fig:walkthru">7.5</a>, I provide a brief walk through of one iteration of the model.</p>
 <div id="computational-model-1" class="section level3">
 <h3><span class="header-section-number">7.4.1</span> Computational Model</h3>
 <div class="figure" style="text-align: center"><span id="fig:mymodel"></span>
 <img src="img/Model.png" alt="Formal Model" width="100%" />
 <p class="caption">
-Figure 7.3: Formal Model
+Figure 7.4: Formal Model
 </p>
 </div>
 </div>
@@ -403,7 +410,7 @@ Figure 7.3: Formal Model
 <div class="figure" style="text-align: center"><span id="fig:walkthru"></span>
 <img src="img/Model%20Graphic.png" alt="Model Example" width="100%" />
 <p class="caption">
-Figure 7.4: Model Example
+Figure 7.5: Model Example
 </p>
 </div>
 <p>The example above shows one iteration of the model run using the musical example from above using a hypothetical corpus for the pattern matching.
@@ -417,17 +424,17 @@ Using the model above, the following inputs were defined <em>a priori</em>:</p>
 <li>The <strong>Difficulty</strong> object starts at 0</li>
 <li>The <strong>Dictation</strong> object is <code>NULL</code> to begin, and each new n-gram successfully transcribed is annexed to it</li>
 </ul>
-<p>Figure <a href="computational-model.html#fig:walkthru">7.4</a> progresses from left to right over the course of time.
+<p>Figure <a href="computational-model.html#fig:walkthru">7.5</a> progresses from left to right over the course of time.
 The algorithm begins by first running the <code>listen()</code> function on the <strong>Target Melody</strong>.
 First, the model checks that there are notes to transcribe; this being the first loop of the model, this is statement will be <code>FALSE</code> so the next step is taken.
 Notes of the <strong>Target Melody</strong> are read in to the <strong>Selective Attention</strong> buffer until the information content of the melody exceeds that of the working memory threshold.
-This is depicted graphically in the leftmost panel of Figure <a href="computational-model.html#fig:walkthru">7.4</a>.
+This is depicted graphically in the leftmost panel of Figure <a href="computational-model.html#fig:walkthru">7.5</a>.
 Each note unfolding over time fills up the <strong>Selective Attention</strong> working memory buffer.
 When the amount of information reaches the perceptual bottleneck– as indicated by the dashed line– the <strong>Selective Attention</strong> buffer stops receiving information.
 At this point the model will mark where in the melody it stopped taking in new information for later.
 Here the contents in <strong>Selective Attention</strong> are moved to the <code>transcribe()</code> function.</p>
 <p>With the contents of <strong>Selective Attention</strong> passed to <code>transcribe()</code>, the model adds one to the counter indicating the first search is about to run.
-Moving to the middle panel of Figure <a href="computational-model.html#fig:walkthru">7.4</a>, the symbol string of notes in the first column are indexed against the <strong>Prior Knowledge</strong>.
+Moving to the middle panel of Figure <a href="computational-model.html#fig:walkthru">7.5</a>, the symbol string of notes in the first column are indexed against the <strong>Prior Knowledge</strong>.
 Only if a five note pattern has appeared more than or equal to five times, as determined by the <strong>Threshold</strong> input, the corresponding <code>EXPLICIT</code> column will be <code>TRUE</code>.
 In this case, this pattern has occurred over the threshold of 5 and thus a successful match is found.</p>
 <p>It is at this step that the search resembles that of Cowan’s model of working memory as active attention.

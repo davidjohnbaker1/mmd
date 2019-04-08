@@ -32,7 +32,7 @@
 <meta name="author" content="May 2019">
 
 
-<meta name="date" content="2019-04-07">
+<meta name="date" content="2019-04-08">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -589,53 +589,53 @@ Figure 4.25: FANTASTIC and Expert Ratings
 <tbody>
 <tr class="odd">
 <td align="left">i.abs.std</td>
-<td align="right">0.8858728</td>
-<td align="right">-0.8205238</td>
+<td align="right">0.89</td>
+<td align="right">-0.82</td>
 </tr>
 <tr class="even">
 <td align="left">i.abs.mean</td>
-<td align="right">0.8737730</td>
-<td align="right">-0.9077636</td>
+<td align="right">0.87</td>
+<td align="right">-0.91</td>
 </tr>
 <tr class="odd">
 <td align="left">step.cont.loc.var</td>
-<td align="right">0.8680327</td>
-<td align="right">-0.7364870</td>
+<td align="right">0.87</td>
+<td align="right">-0.74</td>
 </tr>
 <tr class="even">
 <td align="left">i.entropy</td>
-<td align="right">0.8516330</td>
-<td align="right">-0.7359731</td>
+<td align="right">0.85</td>
+<td align="right">-0.74</td>
 </tr>
 <tr class="odd">
 <td align="left">p.entropy</td>
-<td align="right">0.8397031</td>
-<td align="right">-0.7209406</td>
+<td align="right">0.84</td>
+<td align="right">-0.72</td>
 </tr>
 <tr class="even">
 <td align="left">d.median</td>
-<td align="right">-0.1919713</td>
-<td align="right">0.2224165</td>
+<td align="right">-0.19</td>
+<td align="right">0.22</td>
 </tr>
 <tr class="odd">
 <td align="left">d.eq.trans</td>
-<td align="right">-0.2000724</td>
-<td align="right">0.0391843</td>
+<td align="right">-0.20</td>
+<td align="right">0.04</td>
 </tr>
 <tr class="even">
 <td align="left">mean.Yules.K</td>
-<td align="right">-0.4341525</td>
-<td align="right">0.3988128</td>
+<td align="right">-0.43</td>
+<td align="right">0.40</td>
 </tr>
 <tr class="odd">
 <td align="left">tonalness</td>
-<td align="right">-0.4778019</td>
-<td align="right">0.4435525</td>
+<td align="right">-0.48</td>
+<td align="right">0.44</td>
 </tr>
 <tr class="even">
 <td align="left">mean.Simpsons.D</td>
-<td align="right">-0.5656707</td>
-<td align="right">0.5033565</td>
+<td align="right">-0.57</td>
+<td align="right">0.50</td>
 </tr>
 </tbody>
 </table>
@@ -761,9 +761,18 @@ Figure 4.29: Less Predictive Power
 <p>From <a href="computation-chapter.html#fig:bitriquint">4.28</a>, we see that when plotted in terms of their frequency distributions, a small amount of the patterns make up for a very large the distribution of the corpus.
 As evident from <a href="computation-chapter.html#fig:bitriquint">4.28</a>, we see that with the addition of more tokens added to the m-grams and also is a visual representation of why and how statistical predictions become more unreliable with higher order predictions.
 Intuitively, melodic patterns from the high frequency distribution of the table would seemingly be easier to remember and then dictate than those from the tails of the distributions.</p>
-<p>Following up on this analysis, I then trained an IDyOM model on the same corpus of melodies and thus was able to calculate the average information content the opening bi, tri, and quint grams melodies in this corpus.
-In this computation, I explicitly assume that the underlying corpus of data is representative of an individual’s personal expectations of musical material.</p>
-<p>From these computations, we can see that almost tautologically, that tri-grams with higher cumulative information content appear with lower frequency and m-grams with lower cumulative information content occur more frequently.</p>
+<p>Following up on this analysis, I then trained an IDyOM model on the same corpus of melodies and thus was able to calculate the average information content the opening quint grams melodies in this corpus.
+In this computation, I explicitly assume that the underlying corpus of data is representative of an individual’s personal expectations of musical material.
+In Figure <a href="#fig:quintdist"><strong>??</strong></a>, I visualize the cumulative information content that the first five notes of each of melodies that that the corpus was trained on.
+I chose to additionally split the corpus into quintiles to further highlight the progressive changes in information content when these incipits are sorted based on their cumulative informaiton content.</p>
+<div class="figure" style="text-align: center">
+<img src="img/five_incipit_distiribution.png" alt=" " width="100%" />
+<p class="caption">
+</p>
+</div>
+<hr />
+<p>collapse across for distirbution</p>
+<p>From these computations, we can see that almost tautologically, that quint-grams with higher cumulative information content appear with lower frequency and m-grams with lower cumulative information content occur more frequently.</p>
 <p>This observation may seem tautological, as this relationship would result from how information content is calculated (more expected patterns have less information), but the novel assertion here is connecting the cumulative information content to ease of memory load.
 For example, in Figure <a href="computation-chapter.html#fig:tridensity">4.30</a>, we see that when split into three sections, random samples from the the corpus when partitioned into three sections, even just the opening of the first five notes of each melody increase per group.<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a></p>
 <div class="figure" style="text-align: center"><span id="fig:tridensity"></span>

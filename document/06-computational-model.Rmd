@@ -104,13 +104,21 @@ Additionally, individuals with higher working memory capacity would be able to t
 knitr::include_graphics("img/SchubertF.png")
 ```
 
-```{r cumSchubert, echo=FALSE, fig.cap="Cumulative Information in Schubert Octet Excerpt",fig.align='center', out.width="75%"}
-knitr::include_graphics("img/cumSchubert.jpeg")
+```{r cumSchubert, echo=FALSE, fig.cap="Cumulative Information in Schubert Octet Excerpt",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/SchubertPlotNew.png")
 ```
 
 It is important to highlight that the notes above the melody here are dependent on what is current in the Prior Knowledge module.
 A corpus of Prior Knowledge with less musical events would lead to higher information content measures for each set of notes, while a Prior Knowledge that has extensive tracking of the patterns would lead to lower information content [@conklinMultipleViewpointSystems1995]. 
-This increase in predictive accuracy mathematically reflects the intuition that those with more listening experience can process greater chunks of musical information. 
+This increase in predictive accuracy mathematically reflects the intuition that those with more listening experience can process greater chunks of musical information.
+I visualize what setting the explicit/implicit threshold on a set of various n-grams in Figure \@ref(fig:thresholds).
+While I have arbitrarily set the thresholds here for illustrative purposes, in practice this could be done a number of different ways.
+For example, these thresholds could be set by based on frequency counts in the corpus, relative distributions, or the parameters might be computationally derived.
+
+```{r thresholds, echo=FALSE, fig.cap="Setting Prior Knowledge Limits",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/pk_grampanel.png")
+```
+
 
 ### Setting Limits with Transcribe
 

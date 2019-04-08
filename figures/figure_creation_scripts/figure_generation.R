@@ -21,8 +21,10 @@ grViz("
       Individual ; Musical ; Cognitive ; Environmental ; Structural ; Experimental
 
       # several 'edge' statements
-      Aural -> Individual
-      Aural -> Musical
+      edge [color = none]
+      Factors -> Individual
+      Factors -> Musical
+      edge [color = black]
       Individual -> Cognitive
       Individual -> Environmental
       Musical -> Structural

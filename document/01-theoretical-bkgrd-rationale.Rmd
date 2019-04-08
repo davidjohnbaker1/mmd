@@ -114,8 +114,8 @@ The taxonomy that I propose appears in Figure \@ref(fig:taxonomy) and bifurcates
 These categories are recursively partitioned into cognitive and environmental parameters as well as structural and experimental factors respectively.
 Below I expand on what these categories entail, then explore each in-depth.
 
-```{r taxonomy, echo=FALSE, fig.cap="Taxonomy of Factors Contributing to Aural Skills",fig.align='center', out.width="80%"}
-knitr::include_graphics("img/taxonomy4.png")
+```{r taxonomy, echo=FALSE, fig.cap="Taxonomy of Factors Contributing to Aural Skills",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/taxonomy.png")
 ```
 
 The individual parameters are split broadly into cognitive factors and environmental factors.
@@ -192,7 +192,7 @@ Summarized in @cowanWorkingMemoryCapacity2005, one of the first modal models of 
 As seen in Figure \@ref(fig:wmmodels) taken from @cowanWorkingMemoryCapacity2005, both models here posit incoming information that is then put into some sort of limited capacity store.
 These modal models were then expanded on by Baddeley and Hitch [@baddeleyWorkingMemory1974] in their 1974 chapter with the name _Working Memory_, where they proposed a system with an central executive module that was able to carry out active maintenance and rehearsal of information that could be stored in either a phonological store for sounds or a visual sketchpad for images.
 
-```{r wmmodels, echo=FALSE, fig.cap="Schematics of Models of Working Memory taken from Cowan, 2005", fig.align='center'}
+```{r wmmodels, echo=FALSE, fig.cap="Schematics of Models of Working Memory taken from Cowan, 2005", fig.align='center',out.width="100%" }
 knitr::include_graphics("img/wm_models.png")
 ```
 
