@@ -31,7 +31,7 @@ library(tidyverse)
 
 All students pursuing a Bachelor's degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation [@NationalAssociationSchools2019, §VIII.6.B.2.A].
 Melodic dictation is a cognitively demanding process that requires students to hear a melody, then without any access to an external reference, transcribe the melody within a limited time frame.
-As of 2019 there are 643 Schools of Music belonging to National Association of Schools of Music (NASM)^[https://nasm.arts-accredit.org/directory-lists/accredited-institutions/search/?institutionname=&city=&state=&country=&search=true], meaning that thousands of students every year will be expected to learn this challenging task as part of their aural skills education.
+As of 2019, there are 643 Schools of Music belonging to National Association of Schools of Music (NASM)^[https://nasm.arts-accredit.org/directory-lists/accredited-institutions/search/?institutionname=&city=&state=&country=&search=true], meaning that thousands of students every year will be expected to learn this challenging task as part of their aural skills education.
 The implicit logic is that as one improves in their ability to take melodic dictation, this practice of critical and active listening develops one's ability to "think in music" [@bestMusicCurriculaFuture1992; @karpinskiAuralSkillsAcquisition2000] and thus become a more competent musician.
 
 Despite its ubiquity in curricula within School of Music settings, research that explains how people learn to take melodic dictation is limited at best.
@@ -39,7 +39,7 @@ The fields of music theory and cognitive psychology are best positioned to make 
 This problem is not new and there have been repeated attempts to bridge the gap between practitioners of aural skills and researchers in cognitive psychology [@butlerBridgesUnbuiltComparing1993; @davidbutlerWhyGulfMusic1997a; @klonoskiImprovingDictationAuralSkills2006;@klonoskiPerceptualLearningHierarchy2000; @pembrookSendHelpAural1990;@karpinskiAuralSkillsAcquisition2000].
 Literature from music theory has established conceptual frameworks regarding aural skills [@karpinskiAuralSkillsAcquisition2000], cognitive psychology literature has explored factors that might contribute to melodic perception [@dowlingExpectancyAttentionMelody1990; @dowlingScaleContourTwo1978; @dowlingTonalStrengthMelody1991; @halpernMemoryMelodies2010], and applied literature from the field of music education [@buonviriEffectsTwoListening2017; @buonviriMelodicDictationInstruction2015; @paneyEffectDirectingAttention2016] has investigated how people learn melodies in more ecological settings.
 
-However, despite these isolated areas of research, we as music researchers, do not have an a clear understanding of exactly what contributes to the process of how individuals learn melodies [@halpernMemoryMelodies2010].
+However, despite these isolated areas of research, we as music researchers do not have a clear understanding of exactly what contributes to the process of how individuals learn melodies [@halpernMemoryMelodies2010].
 This is peculiar since "how does one learn a melody?" seems to be one of the fundamental questions to the fields of music theory, music psychology, as well as music education. 
 This chasm in the literature also raises a disconcerting question in music pedagogy: 
 
@@ -74,7 +74,7 @@ This dataset serves as a resource for future researchers in music, psychology, a
 
 In the fifth chapter, I synthesize the previous research in a melodic dictation experiment. 
 Stimuli for the experiments are selected based on the symbolic features of the melodies discussed in earlier chapters and are manipulated as the independent variables. 
-I then model responses from the experiments using both individual factors and musical features using mixed-effects modeling in order to predict how well an individual performs in a melodic dictation. 
+I then model responses from the experiments using both individual factors and musical features using mixed-effects modeling in order to predict how well an individual will perform in a melodic dictation. 
 In discussing the results, I also note important caveats in scoring melodic dictation and highlight how changes in scoring can lead to changes in the final modeling.
 Results from this chapter will be discussed with reference to how findings are applicable to pedagogues in aural skills settings. 
 
