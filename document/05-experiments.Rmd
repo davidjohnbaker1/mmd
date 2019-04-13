@@ -189,15 +189,66 @@ Before conducting any analyses, data was screened for quality.
 List-wise deletion was used to remove any participants where not all variables were present. 
 This process resulted in removing four participants: two did not complete any of the survey materials and two did not have any measures of working memory capacity due to computer error.
 After list-wise deletion, thirty-nine participants remained. 
-------In order to investigate H1, that melodies would differ in their degree of difficulty based on melodic features using linear mixed effects modeling [@batesFittingLinearMixedEffects2015]. 
-Relevant statistics from the model can be seen in Figure \@ref(fig:eboxplot).
 
-* Add Analsyes 
+### Modeling
 
-Subsequent models exploring possible exploratory covariance relationships using random slope models that used measures
-of working memory capacity, general fluid intelligence, and measures of musical training, none of which significantly improved the model.
-Differences between melodies can be see below in \@ref(fig:eboxplot).
-To better show the skew of items, I also plot the item level data in Figure \@ref(fig:edistribution).
+In order to model the data and investigate the  hypotheses, I fit a series of linear mixed effects models using the R programming langauge [@R-base] and the _lme4_ and _LMERTEST_ [@batesFittingLinearMixedEffects2015] packages to predict scores from the dictation exercise using both individual and musical variables.
+Variables are added at each step and tests of significant model improvement are presented in Table \@ref(modeltable).
+P-values were obtained by likelihood ratio tests between models.
+I also report AIC and BIC measures for each model ran. 
+Models were ran sequentially moving from a null model to a theoretical, statistical model predicted by variables discussed above. 
+
+After establishing a null model (Model 1, ```null_model```), I then added individual level predictors (```wmc_model``` (Model 2) and ```gf_model```, and ```cognitive_model```) carrying forward only measures of working memory capacity. 
+No cognitive variables resulted in a significant increase in model fit.
+Next, I modeled musical level features.
+Each musical model that I ran allowed musical features to have random slopes since presumably individuals would perform differently on each melody. 
+The first muscial model (Model 3) treated each melody as a categorical fixed effect.
+The second musical model (Model 4) used the categorical features as predictors, which included an interaction effect.
+The third musical model (Model 5) used the continous FANTASTIC measures as fixed effects, which included an interaction effect.
+In order to investigate claims put forward in the third chapter of this dissertation, I also ran a model (Model 6) using only interval entropy as calculated by FANTASTIC.
+Finally, I ran two models that accounted for both musical and indiviual level predictors.
+Model 7 exteneds Model 6, with the addition of working memory capacity as fixed effect, allowing for random slopes.
+Model 8 extends Model 5, with the addition of working memory capacity as a fixed effect, allowing for random slopes. 
+I depict the fixed effects for all models in \@ref(fig:megrid).
+Tables for each model are presented in Tables \@ref(fig:metable1), \@(ref:metable2), \@(ref:metable3), and \@ref(metable4).
+
+
+```{r modeltable, echo=FALSE}
+anova_model_table <- readRDS("img/anova_model_table.RDS")
+
+knitr::kable(
+  anova_model_table, booktabs = TRUE,
+  caption = 'Series of Model Fits'
+)
+```
+
+```{r metable1, echo=FALSE, fig.cap="",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/metable1.png")
+```
+
+```{r metable2, echo=FALSE, fig.cap="",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/metable2.png")
+```
+
+```{r metable3, echo=FALSE, fig.cap="",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/metable3.png")
+```
+
+```{r metable4, echo=FALSE, fig.cap="",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/metable4.png")
+```
+
+
+
+
+
+
+```{r megrid, echo=FALSE, fig.cap="Fixed Effects of Models",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/me_grid.png")
+```
+
+
+Distributions for average scores of the melodies are found in \@ref(fig:eboxplot) and density scores of these items are foudn in \@ref(fig:edistribution).
 
 ```{r eboxplot, echo=FALSE, fig.cap="Melody Difficulty",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/melody_difficulty.png")

@@ -14,11 +14,11 @@ Factors that might contribute to this complexity could range from the number of 
 Although given all these factors, there is no definitive combination of features that perfectly predicts the degree to which pedagogues will agree how complex a melody is.
 In many ways, questions of melodic complexity are very much like questions of melodic similarity: it depends on both who is asking the question and for what reasons [@cambouropoulosHowSimilarSimilar2009].
 
-Examining the melodies presented in Figures X and Y, most aural skills pedagogues will be able to successfully intuit which melody is more complex, and presumably, more difficult to dictate.
+Examining the melodies presented in Figures \@ref(fig:musicalpuzzle), most aural skills pedagogues will be able to successfully intuit which melody is more complex, and presumably, more difficult to dictate.
 
-* FIGURE 1 -- Melody with 8 Bars, functional accidentals (V/V, V/IV)
-
-* FIGURE 2 -- Same sets of notes rearranged 
+```{r musicalpuzzle, echo=FALSE, fig.cap="A Musical Puzzle",fig.align='center', out.width="80%"}
+knitr::include_graphics("img/musicalpuzzle.png")
+```
 
 While I reserve an extended discussion of what features might characterize why one melody is more difficult to dictate than the other  for this chapter, I assume that these melodies differ in their ability to be dictated in some fundamental way when performed in a similar fashion.
 Additionally, many readers of this dissertation can draw from anecdotal evidence of their own as to how students at various stages of their aural training might fair when asked to dictate both melodies.

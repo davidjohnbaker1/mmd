@@ -10,13 +10,13 @@ Repo for my PhD Dissertation: Modeling Melodic Dictation
 * [ ] Add IDyOM Scale Degree
 * [ ] Add Abstract
 * [X] Check all Figures for Sizing, decomment
-* [ ] Get Phil Melodies
+* [X] Get Phil Melodies
 * [ ] Fantastic on Phil 
 * [X] Section 441 Edits
 * [X] 441 Edits to Again, Again abstract
 * [X] Create Distribution Panel for Prior Knowledge
 * [X] Add Threshold plot for distribution for Comp Model 
-* [ ] Experimental Analyses 
+* [X] Experimental Analyses 
 
 ## Tasks for David 
 
