@@ -14,17 +14,21 @@ Factors that might contribute to this complexity could range from the number of 
 Although given all these factors, there is no definitive combination of features that perfectly predicts the degree to which pedagogues will agree how complex a melody is.
 In many ways, questions of melodic complexity are very much like questions of melodic similarity: it depends on both who is asking the question and for what reasons [@cambouropoulosHowSimilarSimilar2009].
 
-Examining the melodies presented in Figures \@ref(fig:musicalpuzzle), most aural skills pedagogues will be able to successfully intuit which melody is more complex, and presumably, more difficult to dictate.
+Examining the melodies presented in Figures \@ref(fig:musicalpuzzleA) and \@ref(fig:musicalpuzzleB), most aural skills pedagogues will be able to successfully intuit which melody is more complex, and presumably, more difficult to dictate.
 
-```{r musicalpuzzle, echo=FALSE, fig.cap="A Musical Puzzle",fig.align='center', out.width="80%"}
-knitr::include_graphics("img/musicalpuzzle.png")
+```{r musicalpuzzleA, echo=FALSE, fig.cap="A Musical Puzzle",fig.align='center', out.width="80%"}
+knitr::include_graphics("img/musicalpuzzle/MP2/MP_X-1.png")
+```
+
+```{r musicalpuzzleB, echo=FALSE, fig.cap="B Musical Puzzle",fig.align='center', out.width="80%"}
+knitr::include_graphics("img/musicalpuzzle/MP2/MP_Y-1.png")
 ```
 
 While I reserve an extended discussion of what features might characterize why one melody is more difficult to dictate than the other  for this chapter, I assume that these melodies differ in their ability to be dictated in some fundamental way when performed in a similar fashion.
 Additionally, many readers of this dissertation can draw from anecdotal evidence of their own as to how students at various stages of their aural training might fair when asked to dictate both melodies.
-For some, melody Y might be overwhelmingly difficult.
+For some, Melody \@ref(fig:musicalpuzzleB) might be overwhelmingly difficult.
 
-In fact, melody Y might be overwhelmingly difficult for the vast majority of musicians to dictate.
+In fact, Melody \@ref(fig:musicalpuzzleB) might be overwhelmingly difficult for the vast majority of musicians to dictate.
 From a pedagogical standpoint, educators need to be able to know how difficult melodies are to dictate in order to ensure a degree of fairness when assessing a student's performance.
 While of course with each student there are inevitably many variables at play in aural skills instruction ranging from personal abilities, to the goals of the instructor in the scope of their course, I find it fair to claim that pedagogues assume that students will be expected to pass pre-established benchmarks throughout their aural skills education.
 As students progress, they are expected to be able to dictate more difficult melodies, yet exactly what makes a melody complex and thus difficult to dictate is often left to the expertise and intuition of a pedagogue.
@@ -41,12 +45,12 @@ Using this logic, I then create a new compendium of melodic incipits, sorted by 
 
 ## Agreeing on Complexity
 
-Returning to melodies X and Y from above, an aural skills pedagogue most likely has an intuition to which of the two melodies X or Y would be easier to dictate.
-Melody X exhibits a predictable melodic syntax and phrase structure, the chromatic notes resolve within the conventions of the Common Practice period, and many of the melodic motives outline and imply a harmony based on tertian harmony.
-On the other hand, Melody Y's syntax does not conform to the conventions of the Common Practice period and does not imply any sort of underlying harmony.
+Returning to melodies \@ref(fig:musicalpuzzleA) and \@ref(fig:musicalpuzzleB) from above, an aural skills pedagogue most likely has an intuition to which of the two melodies X or Y would be easier to dictate.
+Melody \@ref(fig:musicalpuzzleA) exhibits a predictable melodic syntax and phrase structure, the chromatic notes resolve within the conventions of the Common Practice period, and the melody itself could be scored with tertian harmony.
+On the other hand, Melody \@ref(fig:musicalpuzzleB)'s syntax does not conform to the conventions of the Common Practice period and does not imply any sort of underlying harmony or predictiable phrase rhythm.
 The duration of the rhythms appear irregular and the melody implies an uneven phrase structure.
-Yet both melodies X and Y have the exact same set of notes and rhythms.
-Despite these content similarities, it would be safe to assume that melody X is probably much easier to dictate than melody Y assuming both were to be played in a similar fashion. 
+Yet both melodies \@ref(fig:musicalpuzzleA) and \@ref(fig:musicalpuzzleB) have the exact same set of notes and rhythms.
+Despite these content similarities, it would be safe to assume that melody \@ref(fig:musicalpuzzleA) is probably much easier to dictate than melody \@ref(fig:musicalpuzzleB) assuming both were to be played in a similar fashion. 
 
 In fact, aural skills pedagogues tend to agree for the most part on questions of difficulty of dictation.
 To demonstrate this, I surveyed 40 aural skills pedagogues who all have taught aural skills at the post-secondary  level.
@@ -364,7 +368,7 @@ Additionally, students could also work at slowly challenging themselves if this 
 
 Although this approach has been relatively successful at modeling expert ratings, using FANTASTIC's various linear combinations of these features does have important limitations.
 One of the most obvious limitations is that FANTASTIC's measures tacitly assume listeners recall melodies in some sort of perceptual suspended animation. 
-Illuminating this problem using a more tangible example, again returning to melody's X and Y, when the full set of FANTASTIC features are computed on both, THIS FACT HERE ABOUT WHAT IS SAME.
+Illuminating this problem using a more tangible example, again returning to melodies \@ref(fig:musicalpuzzleA) and \@ref(fig:musicalpuzzleB), when the full set of FANTASTIC features are computed on both, the both melodies are computational equivalent in their range, pitch entropy, durtational range, durational entropy, length, tonalness, tonal clarity, tonal spike and stepwise contour global variation.
 This computation arises from computing a summary measure over the melody and not modeling it in terms of real time perception. 
 In order to have a more phenomenologically appropriate model that incorporates computationally derived features, it is important to also consider dynamic models of music perception when modeling difficulty. 
 Following up on another finding from this section, it also is worthy of mention that the variables with the strongest predictive powers tend to be those associated with information content.
