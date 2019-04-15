@@ -64,7 +64,7 @@ Halpern and Bartlett also note that much of the literature on memory for melodie
 
 Not nearly as much is known about how an individual learns melodies, especially in dictation settings. 
 The last, and possibly most obvious, variable that would contribute to an individual’s ability to learn and dictate a melody would be the amount of previous exposure to the melody and the complexity of the melody itself. 
-A fair amount of research from the music education literature examines melodic dictation in a more ecological setting [@buonviriEffectsMusicNotation2015; @buonviriEffectsPreparatorySinging2015; @buonviriEffectsSilenceSound2018; @buonviriEffectsTwoListening2017; @buonviriExplorationUndergraduateMusic2014; @buonviriMelodicDictationInstruction2015; @unsworthAutomatedVersionOperation2005], but most take a descriptive approach to modeling the results using between-subject manipulations.
+A fair amount of research from the music education literature examines melodic dictation in a more ecological setting [@buonviriEffectsMusicNotation2015; @buonviriEffectsPreparatorySinging2015; @buonviriEffectsTwoListening2017; @buonviriExplorationUndergraduateMusic2014; @buonviriMelodicDictationInstruction2015; @unsworthAutomatedVersionOperation2005], but most take a descriptive approach to modeling the results using between-subject manipulations.
 Some rules of thumb regarding how many times a melody should be played in a dictation setting have been proposed by Karpinski [@karpinskiAuralSkillsAcquisition2000, p.99] that account for chunking as well as the idea that more exposure would lead to more complete encoding.
 For example, he suggests using the formula $P = (Ch/L) + 1$ where $P$ is the number of playings, $Ch$ is the number of chunks in the dictation (with chunk defined as a single memorable unit), and $L$ = the limit of a listener's short term memory in terms of chunks, a number between 6 and 10.
 This definition requires expert selection of what a chunk is, and does not take into account any of the Experimental factors put forward in the taxnomy presented in this dissertation's [Context, Literature, and Rationale].
@@ -125,6 +125,7 @@ Melodies and other sounds used were encoded using MuseScore 2 using the standard
 The experiment was then coded in jsPsych [@deleeuwJsPsychJavaScriptLibrary2015] and played through a browser offline with high quality headphones.
 
 ```{r expfeaturetable, echo=FALSE}
+
 Melodies <- c("34","112","9","95")
 Tonalness <- c(0.947,0.984,0.710,0.764)
 `Note Density` <- c(1.666,3.73,1.75,3.911)
@@ -132,7 +133,7 @@ Design <- c("High Tonal, Low Note Density", "High Tonal, High Note Density", "Lo
 
 featureDT <- data.frame(Melodies, Tonalness, `Note Density`, Design)
 
-knitr::kable(featureDT)
+knitr::kable(featureDT,booktabs = TRUE, caption = "Feature Table", digits = 2)
 ```
 
 ```{r b34, echo=FALSE, fig.cap="Melody 34",fig.align='center', out.width="100%"}
@@ -282,7 +283,7 @@ Hence, this chapter would not be able to reject H3’s null hypothesis.
 Considering that other researchers have found constructs like working memory capacity and general fluid intelligence to be important factors of tasks of musical perception, a more refined design might be considered in the future to find any sort of effects.
 Taken as a whole, these findings suggest that aural skills pedagogues should consider exploring the extent to which computationally extracted features can guide the difficulty expected of melodic dictation exercises.
 
-## Conculusions
+## Conclusions
 
 This chapter demonstrated that abstracted musical features such as tonalness and note density can play a role in predicting how well students do in tasks of melodic dictation. 
 While the experiment failed to yield any significant differences in cognitive ability predicting success at the task, future research plans should not fail to take these effects into consideration. 

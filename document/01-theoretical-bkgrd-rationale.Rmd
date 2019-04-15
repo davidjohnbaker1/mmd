@@ -17,7 +17,7 @@ Additionally, suggesting that people who are unable to hear and then dictate mus
 
 Despite this skepticism towards the topic, melodic dictation remains at the forefront of many aural skills classrooms.
 The act of becoming better at this skill may or may not lead to large increases in far transfer of ability, but when used as a pedagogical tool, the practice of learning to take melodic dictation intersects with current learning goals relevant to the core of undergraduate music training.
-While there has not been extensive research on melodic dictation research in recent years-- in fact @paneyEffectDirectingAttention2016 notes that since 2000, only four studies were published that directly examined melodic dictation-- this skill set sits on the border between literature on music learning, melodic perception, memory, and music theory pedagogy.
+While there has not been extensive research on melodic dictation research in recent years-- in fact,  @paneyEffectDirectingAttention2016 notes that since 2000, only four studies were published that directly examined melodic dictation-- this skill set sits on the border between literature on music learning, melodic perception, memory, and music theory pedagogy.
 Understanding and modeling the processes underlying melodic dictation remains as an untapped watershed of knowledge for the field of music theory, music education, and music perception and is deserving of more attention. 
 
 In this chapter, I examine literature both directly and indirectly related to melodic dictation by first reviewing the prominent four-step model put forth by Karpinski in order to establish and describe melodic dictation.
@@ -53,7 +53,7 @@ The short-term melodic memory stage in this process references the point in a me
 From Figure \@ref(fig:flowchart) and Karpinski's writing on the model, this stage is not explicitly declared as any sort of active process akin to a phonological loop [@baddeleyEpisodicBufferNew2000] where active rehearsal might occur, but describes where in the sequential order melodic information is represented.
 Though Karpinski does not posit any sort of active process in the short term melodic memory stage, he does suggest there are two separate memory encoding mechanisms, one for contour, and one for pitch.
 He arrives at these two mechanisms by using both empirical qualitative interview evidence, as well as noting literature from music perception that supports this claim for contour [@dowlingScaleContourTwo1978;@dewittRecognitionNovelMelodies1986] and literature suggesting that memory for melodic material is dependent on enculturation [@ouraMemoryMelodiesSubjects1988;@handelListeningIntroductionPerception1989; @dowlingExpectancyAttentionMelody1990]. 
-Since its publication in 2000, this area of research has expanded with other researchers also demonstrating the effects of musical enculturation via exposure [@eerolaExpectancySamiYoiks2009; @stevensMusicPerceptionCognition2012;@pearceAuditoryExpectationInformation2012;@pearceStatisticalLearningProbabilistic2018a].
+Since its publication in 2000, this area of research has expanded with other researchers also demonstrating the effects of musical enculturation via exposure [@eerolaExpectancySamiYoiks2009; @stevensMusicPerceptionCognition2012;@pearceAuditoryExpectationInformation2012;@pearceStatisticalLearningProbabilistic2018a]. 
 
 In describing the short term melodic memory stage, Karpinski also details two processes that he believes to be necessary for this part of melodic dictation: extractive listening and chunking.
 Noting that there is a capacity limit to the perception of musical material by citing Miller [-@millerMagicalNumberSeven1956], Karpinski explains how each strategy might be incorporated.
@@ -77,7 +77,7 @@ While this framework can help illuminate this cognitive process and help pedagog
 The model as it stands is not detailed enough for explanatory purposes and lacks in two areas that would need to be expanded if this model were to be explored experimentally and computationally.
 
 First, having a single model for melodic dictation assumes that all individuals are likely to engage in this sequential ordering of events.
-This could in fact be the case^[And in his Figure 3.1 he does caption it as an _idealized_ dictation process], but there is research from music perception [@goldmanImprovisationExperiencePredicts2018a] and other areas of memory psychology such as work on expert chess players [@laneChessKnowledgePredicts2018] that suggests that as individuals gain more expertise in a specific domain, their processing and categorization of information changes. 
+This could in fact be the case^[And in his Figure 3.1 he does caption it as an _idealized_ dictation process], but there is research from music perception [@goldmanImprovisationExperiencePredicts2018] and other areas of memory psychology such as work on expert chess players [@laneChessKnowledgePredicts2018] that suggests that as individuals gain more expertise in a specific domain, their processing and categorization of information changes. 
 Additionally, different individuals will most likely have different experiences dictating melodies based on their own past listening experience, an area that Karpinski refers to when citing literature on musical enculturation based on statistical exposure. 
 The model does not have any flexibility in terms of individual differences.
 
@@ -275,7 +275,7 @@ More recently, two studies looking at specific sub-groups of musicians have show
 @wollnerAttentionalFlexibilityMemory2016 found that although they did not observe differences between pianists and conductors in measures of working memory capacity as measured via a set of span tasks, conductors showed superior performance in their attention flexibility. 
 Continuing this line of research @nicholsScoreOneJazz2018, used the same battery of working memory tasks and found that jazz musicians excelled over their classically trained counterparts in a task which required them to hear notes and reproduce them on the piano.
 The authors also noted that of their working memory battery, based on standard operation span methods [@engleWorkingMemoryCapacity2002], that the auditory dictation condition scored surprisingly low, and further research might consider work on dictation abilities. 
-Additionally, @colleyWorkingMemoryAuditory2018 found working memory capacity, as measured by a backwards digit span and operation span, to be successful predictors in a tapping task requiring sensory motor prediction abilities.
+Additionally, @colleyWorkingMemoryAuditory2017 found working memory capacity, as measured by a backwards digit span and operation span, to be successful predictors in a tapping task requiring sensory motor prediction abilities.
 As mentioned above, each of these tasks where working memory was a significant predictor of performance occurred where the task involved active engagement with novel musical material.
 
 The growing evidence in this field suggests that having larger working memory capacity to be greatest in both musically trained people, and that these effects are the most pronouced dealing with novel, tonal information.
@@ -467,7 +467,7 @@ While abstract concepts like intelligence and musical training are helpful conce
 
 The most illustrative example of this comes from the above study by @harrisonEffectsMusicalAptitude1994 who created a latent variable model of aural skills that was able to predict 74% of the variance in aural skills performance.
 This latent trait that the authors created is helpful in explaining the patterns of covariance in data, but this would be to reify a statistical abstraction and assume a stance of ontological realsim as noted before [@borsboomTheoreticalStatusLatent2003]. 
-The idea of statistical reification has been critiqued outside of music [@gouldMismeasureMan1996; @kovacsProcessOverlapTheory2016] and additionally has served as the basis for an argument within music [@bakerExaminingMusicalSophistication2018a].
+The idea of statistical reification has been critiqued outside of music [@gouldMismeasureMan1996; @kovacsProcessOverlapTheory2016] and additionally has served as the basis for an argument within music [@bakerExaminingMusicalSophistication2018a] .
 
 The same arguments put forward in this literature are also relevant in research in aural skills.
 In order to have a complete, causal model of the processes underlying melodic dictation, it is important to understand melodic dictation as a set of musical abilities that are related to other musical abilities, though may not be unified as a monolithic whole form which individuals draw from in order to execute musical tasks such as melodic dictation.

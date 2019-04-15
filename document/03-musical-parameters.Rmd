@@ -16,11 +16,11 @@ In many ways, questions of melodic complexity are very much like questions of me
 
 Examining the melodies presented in Figures \@ref(fig:musicalpuzzleA) and \@ref(fig:musicalpuzzleB), most aural skills pedagogues will be able to successfully intuit which melody is more complex, and presumably, more difficult to dictate.
 
-```{r musicalpuzzleA, echo=FALSE, fig.cap="A Musical Puzzle",fig.align='center', out.width="80%"}
+```{r musicalpuzzleA, echo=FALSE, fig.cap="A Musical Puzzle",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/musicalpuzzle/MP2/MP_X-1.png")
 ```
 
-```{r musicalpuzzleB, echo=FALSE, fig.cap="B Musical Puzzle",fig.align='center', out.width="80%"}
+```{r musicalpuzzleB, echo=FALSE, fig.cap="B Musical Puzzle",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/musicalpuzzle/MP2/MP_Y-1.png")
 ```
 
@@ -72,23 +72,22 @@ The survey had questions that were specifically designed to gauge their appropri
 Participants were recruited exclusively online and all provided consent to partaking in the data collection as approved by the Louisiana State University Institutional Review Board. 
 
 The table below contains the questions used in the demographic questionnaire.
+Examples were given following each questions and can be found on the survey link. 
 
-
-```{r surveyQuestions1, echo=FALSE, fig.cap="Survey Questions",fig.align='center', out.width="100%"}
-`Demographic Questions` <- c("What is your age, in years?", "What is your educational status? (e.g. Master's Student, Doctoral Student, Completed Doctorate)", "How many years have you been teaching Aural Skills at the University level? Please do not include any Music Theory classes in your answer.", "Which type of syllable system do you prefer to use? (e.g. Movable-Do, Fixed-Do, La-Based Minor, Numbers)", "On which instrument have you gained the most amount of professional training? (e.g. Piano, Voice, Marimba, Flute)", "What is the title of the last degree you received? (e.g. DMA Piano Pedagogy, PhD Music Theory, BA Music)", "At what institution are you currently teaching? If you are not currently teaching, but have taught in the past, please list the most recent institution at which you taught.")
+```{r surveyQuestions1, echo=FALSE,fig.align='center', out.width="100%"}
+`Demographic Questions` <- c("What is your age, in years?", "What is your educational status?", "How many years have you been teaching Aural Skills at the University level?", "Which type of syllable system do you prefer to use?", "On which instrument have you gained the most amount of professional training?", "What is the title of the last degree you received?", "At what institution are you currently teaching? ")
 DT_survey1 <- data.frame(`Demographic Questions`)
 
 knitr::kable(
-DT_survey1
+DT_survey1, booktabs = TRUE, caption =  "Survey Questions"
   )
 ```
 
 The table below contains the questions regarding the ratings of the melodies. 
 Participants either responded using ordinal categories or moved a slider that sat atop a 100 point scale. 
-The surevey can be found at https://musiccog.lsu.edu/dictation_survey/aural_survey.html. 
+The survey can be found at https://musiccog.lsu.edu/dictation_survey/aural_survey.html. 
 
-
-```{r surveyQuestions2, echo=FALSE, fig.cap="Item Questions",fig.align='center', out.width="100%"}
+```{r surveyQuestions2, echo=FALSE,fig.align='center', out.width="100%"}
 `Item Questions` <- c("During which semester of Aural Skills would you think it is appropriate to give this melody as a melodic dictation?",
 "How many times do you think this melody should be played in a melodic dictation considering the difficulty you noted in your previous question? Assume a reasonable tempo choice from 70-100BPM.",
 "Please rate how difficult you believe this melody to be for the average second-year undergraduate student at your institution. The far left should indicate 'Extremely Easy' and the far right should indicate 'Extremely Difficult'.",
@@ -97,7 +96,7 @@ The surevey can be found at https://musiccog.lsu.edu/dictation_survey/aural_surv
 DT_survey2 <- data.frame(`Item Questions`)
 
 knitr::kable(
-DT_survey2
+DT_survey2, booktabs = TRUE, caption = "Item Questions"
   )
 ```
 
@@ -106,96 +105,97 @@ Of the respondents, the average amount of years teaching aural skills was 8.76 y
 I plotted the breakdown of the respondent's age and educational status below in Figure \@ref(fig:surveyageeducation).
 Of the 40 respondents, all reported used some sort of movable system other than 2 who used a fixed system.
 The sample represented over 30 different institutions.
+Overall, the sample reflects a wide range of experience of teaching aural skills. 
+The sample contains both younger and older individuals, as well as a range of experience.
+In the Figures \@ref(fig:berk3) through \@ref(fig629:berk) below, I list the 20 melodies sampled.
 
 ```{r surveyageeducation, echo=FALSE, fig.cap="Demographic Breakdown of Sample",fig.align='center', out.width="80%"}
 knitr::include_graphics("img/ageedsurveydistribution.png")
 ```
 
-Overall, the sample reflects a wide range of experience of teaching aural skills. 
-The sample contains both younger and older individuals, as well as a range of experience.
-In the figures below, I list the 20 melodies sampled.
 
-```{r berk3, echo=FALSE,fig.cap="Berkowitz 3 | Rank 1", fig.align='center', out.width="100%"}
+```{r berk3, echo=FALSE,fig.cap="Melody 3   | Rank 1", fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz3.png")
 ```
 
-```{r berk9, echo=FALSE,fig.cap="Berkowitz 9 | Rank 2",fig.align='center', out.width="100%"}
+```{r berk9, echo=FALSE,fig.cap="Melody  9  | Rank 2",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz9.png")
 ```
 
-```{r berk26, echo=FALSE,fig.cap="Berkowitz 26 | Rank 3",fig.align='center', out.width="100%"}
+```{r berk26, echo=FALSE,fig.cap="Melody 26 | Rank 3",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz26.png")
 ```
 
-```{r berk59, echo=FALSE,fig.cap="Berkowitz 59 | Rank 4",fig.align='center', out.width="100%"}
+```{r berk59, echo=FALSE,fig.cap="Melody 59 | Rank 4",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz59.png")
 ```
 
-```{r berk70, echo=FALSE, fig.cap="Berkowitz 70 | Rank 5", fig.align='center', out.width="100%"}
+```{r berk70, echo=FALSE, fig.cap="Melody 70 | Rank 5", fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz70.png")
 ```
 
-```{r berk74, echo=FALSE, fig.cap="Berkowitz 74 | Rank 6",fig.align='center', out.width="100%"}
+```{r berk74, echo=FALSE, fig.cap="Melody 74 | Rank 6",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz74.png")
 ```
 
-```{r berk75, echo=FALSE, fig.cap="Berkowitz 75 | Rank 7", fig.align='center', out.width="100%"}
+```{r berk75, echo=FALSE, fig.cap="Melody 75 | Rank 7", fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz75.png")
 ```
 
-```{r berk88, echo=FALSE,fig.cap="Berkowitz 88 | Rank 8",fig.align='center', out.width="100%"}
+```{r berk88, echo=FALSE,fig.cap="Melody 88 | Rank 8",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz88.png")
 ```
 
-```{r berk156, echo=FALSE,fig.cap="Berkowitz 156 | Rank 9",fig.align='center', out.width="100%"}
+```{r berk156, echo=FALSE,fig.cap="Melody 156 | Rank 9",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz156.png")
 ```
 
-```{r berk282, echo=FALSE,fig.cap="Berkowitz 282 | Rank 10",fig.align='center', out.width="100%"}
+```{r berk282, echo=FALSE,fig.cap="Melody 282 | Rank 10",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz282.png")
 ```
 
-```{r berk294, echo=FALSE, fig.cap="Berkowitz 294 | Rank 11",fig.align='center', out.width="100%"}
+```{r berk294, echo=FALSE, fig.cap="Melody 294 | Rank 11",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz294.png")
 ```
 
-```{r berk312, echo=FALSE,fig.align='center', fig.cap="Berkowitz 312 | Rank 12", out.width="100%"}
+```{r berk312, echo=FALSE, fig.align='center', fig.cap="Melody 312 | Rank 12", out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz312.png")
 ```
 
-```{r berk334t, echo=FALSE, fig.cap="Berkowitz 334 | Rank 13", fig.align='center', out.width="100%"}
+```{r berk334t, echo=FALSE, fig.cap="Melody 334 | Rank 13", fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz334t.png")
 ```
 
-```{r berk379, echo=FALSE,fig.align='center', fig.cap="Berkowitz 379 | Rank 14", out.width="100%"}
+```{r berk379, echo=FALSE,fig.align='center', fig.cap="Melody 379 | Rank 14", out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz379.png")
 ```
 
-```{r berk382, echo=FALSE, fig.cap="Berkowitz 382 | Rank 15", fig.align='center', out.width="100%"}
+```{r berk382, echo=FALSE, fig.cap="Melody 382 | Rank 15", fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz382t.png")
 ```
 
-```{r berk417tx, echo=FALSE,fig.cap="Berkowitz 417 | Rank 16",fig.align='center', out.width="100%"}
+```{r berk417tx, echo=FALSE,fig.cap="Melody 417 | Rank 16",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz417tx.png")
 ```
 
-```{r berk607tx, echo=FALSE,fig.cap="Berkowitz 607 | Rank 17",fig.align='center', out.width="100%"}
+```{r berk607tx, echo=FALSE,fig.cap="Melody 607 | Rank 17",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz607tx.png")
 ```
 
-```{r berk622, echo=FALSE,fig.cap="Berkowitz 622 | Rank 18",fig.align='center', out.width="100%"}
+```{r berk622, echo=FALSE,fig.cap="Melody 622 | Rank 18",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz622.png")
 ```
 
-```{r berk627, echo=FALSE,fig.cap="Berkowitz 627 | Rank 19", fig.align='center', out.width="100%"}
+```{r berk627, echo=FALSE,fig.cap="Melody 627 | Rank 19", fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz627.png")
 ```
 
-```{r berk629, echo=FALSE, fig.cap="Berkowitz 629 | Rank 20",fig.align='center', out.width="100%"}
+```{r berk629, echo=FALSE, fig.cap="Melody 629 | Rank 20",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/survey_melodies/Berkowitz629.png")
 ```
 
-### Agreement Among Peagogues 
+
+### Agreeing on Difficulty 
 
 In order to assess the degree to which pedagogues agreed on a melody for melodic dictation, I first plotted the mean ratings for each melody across the entire sample along with their standard error of the means in  Figure \@ref(fig:diffplot).
 The $x$ axis uses the rank of the melodies, not their index position in the Berkowitz textbook.
@@ -211,7 +211,7 @@ Using an intraclass coefficient calculation of agreement using a two-way model (
 According to @kooGuidelineSelectingReporting2016, this reflects a good degree of agreement between raters. 
 This trend across the sample appears in the opposite direction when plotting the mean values to the fourth question in Figure \@ref(fig:grammarplot) from the survey reflecting the melody's adherence to the melodic grammar of the Common Practice period. 
 
-```{r grammarplot, echo=FALSE, fig.cap="Average Grammar Ratings",fig.align='center', out.width="80%"}
+```{r grammarplot, echo=FALSE, fig.cap="Average Grammar Ratings",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/grammar_plot.png")
 ```
 
@@ -273,7 +273,7 @@ The authors later in the article go on to stress that future work should both re
 They call for a larger sample, a broader spectrum of musical experiences, and to investigate more musical features.
 
 Since then, some, but not many researchers, have employed using features of the melodies to predict a behavioral measure in experimental settings.
-Not using as extensive of a battery as Ortman, Taylor, or Pembrook, researchers in music psychology  such as as @akiva-kabiriMemoryTonalPitches2009,  @dewittRecognitionNovelMelodies1986, @eerolaExpectancySamiYoiks2009, @schulzeWorkingMemorySpeech2012a have used the number of notes in a melody as a successful predictor of difficulty in melodic perception and discrimination tasks. 
+Not using as extensive of a battery as Ortman, Taylor, or Pembrook, researchers in music psychology  such as as @akiva-kabiriMemoryTonalPitches2009,  @dewittRecognitionNovelMelodies1986, @eerolaExpectancySamiYoiks2009, @schulzeWorkingMemorySpeech2012 have used the number of notes in a melody as a successful predictor of difficulty in melodic perception and discrimination tasks. 
 Expanding on just using frequency of note counts, @harrisonModellingMelodicDiscrimination2016 instead of looking at single measures of melodic complexity, addressed the melodic collinearity issue noted by Taylor and Pembrook by using data reductive techniques to derive a single complexity measure found to be predictive in their statistical modeling deriving these measures from the FANASTIC toolbox [@mullensiefenFantasticFeatureANalysis2009]. 
 Following this research, @bakerPerceptionLeitmotivesRichard2017 also incorporated a similar measure of complexity in their model of leitmotiv recognition in which they predicted recall rates in a recognition paradigm.
 
@@ -454,7 +454,7 @@ In this computation, I explicitly assume that the underlying corpus of data is r
 In Figure \@ref(fig:quintdist), I visualize the cumulative information content of the first five notes of each of melodies that the corpus was trained on. 
 I chose to additionally split the corpus into quintiles to further highlight the progressive changes in information content when these incipits are sorted based on their cumulative information content.
 
-```{r quintdist, echo=FALSE, fig.cap=" ",fig.align='center', out.width="100%"}
+```{r quintdist, echo=FALSE, fig.cap="Distribution of Opening Five Grams",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/five_incipit_distiribution.png")
 ```
 
@@ -482,7 +482,6 @@ I believe that this gives credence to thinking more about using computational me
 knitr::include_graphics("img/model_comparsion_gg.png")
 ```
 
-
 ### Implications 
 
 If true, the frequency facilitation hypothesis would have direct implications for the aural skills classroom, specifically for melodic dictation.
@@ -498,10 +497,10 @@ If they learn the more frequent n-grams first, they will find them easier, but m
 Instead of picking melodies for practice one-by-one, pedagogues could instead give students a large compendium of small dictation exercises that were ordered to increase in their melodic information content over the course of instruction.
 In this type of application, students would not be learning to increase their melodic information capacity limit per se, but could provide a valuable means to give students multiple, smaller attempts to learn to take dictation, rather than being overwhelmed with longer melodies that are given to study on the premise of more ecological validity.
 This could be done from the level of scale degree identification to that of full melodies. 
-Future work should investigate this experimentally and look to model it using similar methodologies that have been employed in music psychology testing paradigms [@harrisonApplyingModernPsychometric2017; @wolfGradesReflectDevelopment2014].
+Future work should investigate this experimentally and look to model it using similar methodologies that have been employed in music psychology testing paradigms [@harrisonApplyingModernPsychometric2017a; @wolfGradesReflectDevelopment2014].
 Finally, if useful, this type of modeling could also be used in future computational models of melodic dictation as explored in the final chapter of this dissertation. 
 
-### Limitations of FFH 
+### Limitations of Frequency Facilitation Hypothesis 
 
 This conceptualization of calculating the information content of melodies is not without its limitations.
 One of the core assumptions to this approach is that statistical learning does in fact take place.

@@ -11,6 +11,10 @@ author:
 - 'MSc., Goldsmiths, University of London, 2015'
 - 'May 2019' 
 date: "`r Sys.Date()`"
+geometry: "left=1.5in, right=1in, top=2.5in, bottom=2.5in"
+fontsize: 12pt
+lof: true
+lot: true
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -18,18 +22,14 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: davidjohnbaker1/document
-description: "This dissertation explores both individual and musical features that might contribute to processes involved in melodic dictation."
+description: "This dissertation models both individual and musical features that contribute to processes involved in melodic dictation."
 ---
-
-```{r, echo=FALSE}
-library(tidyverse)
-```
 
 # Significance of the Study
 
 ## Rationale
 
-All students pursuing a Bachelor's degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation [@NationalAssociationSchools2019, §VIII.6.B.2.A].
+All students pursuing a Bachelor's degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation [@nasmNationalAssociationSchools2019, §VIII.6.B.2.A].
 Melodic dictation is a cognitively demanding process that requires students to hear a melody, then without any access to an external reference, transcribe the melody within a limited time frame.
 As of 2019, there are 643 Schools of Music belonging to National Association of Schools of Music (NASM)^[https://nasm.arts-accredit.org/directory-lists/accredited-institutions/search/?institutionname=&city=&state=&country=&search=true], meaning that thousands of students every year will be expected to learn this challenging task as part of their aural skills education.
 The implicit logic is that as one improves in their ability to take melodic dictation, this practice of critical and active listening develops one's ability to "think in music" [@bestMusicCurriculaFuture1992; @karpinskiAuralSkillsAcquisition2000] and thus become a more competent musician.
@@ -54,7 +54,7 @@ In the first chapter, I begin by extending the work of Gary Karpinski [@karpinsk
 The chapter introduces both a theoretical background and rationale for using methods from both computational musicology and cognitive psychology in order to answer questions about how individuals learn melodies.
 In order to organize the disparate literatures, I put forward a taxonomy of factors that are assumed to contribute to an individual's ability to take melodic dictation and discuss each in turn.
 This chapter outlines the factors hypothesized to contribute to an individual's ability to learn melodies, incorporating both individual and musical parameters.
-I conclude the chapter with a discussion of some philosophical and theoretical problems when attempting to measure issues concerning melodic dictation and argue for the advantages of answering this problem using a polymorphic view of musicianship [@levitinWhatDoesIt2012; @peretzNatureMusicBiological2006;@bakerExaminingMusicalSophistication2018].
+I conclude the chapter with a discussion of some philosophical and theoretical problems when attempting to measure issues concerning melodic dictation and argue for the advantages of answering this problem using a polymorphic view of musicianship [@levitinWhatDoesIt2012; @peretzNatureMusicBiological2006;@bakerExaminingMusicalSophistication2018a].
 
 The second chapter of the dissertation investigates individual factors that are theorized to contribute to melodic dictation.
 I argue that because the first two steps of Karpinski's model of melodic dictation do not require any musical training, teasing apart the individual factors that contribute to melodic dictation can be done using a memory for melodies paradigm. 

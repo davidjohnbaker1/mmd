@@ -87,7 +87,7 @@ This musician advantage could derive from a musician's ability to chunk informat
 This difference also might reflect the above mentioned self-selection of higher functioning individuals to partake in music, which then explains the differences in memory.
 
 As noted above, much of the research at this point still focuses on higher level relationships and is progressively being improved upon by agreeing on how to measure what is actually driving these effects.
-Until more concrete theories emerge that link specific musical traits to music ability, music psychology will not be able to put forward clearer models of causal effects [@bakerExaminingMusicalSophistication2018].
+Until more concrete theories emerge that link specific musical traits to music ability, music psychology will not be able to put forward clearer models of causal effects [@bakerExaminingMusicalSophistication2018a].
 
 ### Relationship Established
 
@@ -323,9 +323,10 @@ I modeled WMC as latent variable and Gf as a composite average of the two tasks 
 This model resulted in significant improvement to the model ($\chi^2$ (4)=14.37, p < . 001). 
 Finally I examined the change in test statistics between Model 2 and a model that removed the cognitive measures-- a model akin to one of the original models reported in [@mullensiefenMusicalityNonMusiciansIndex2014]-- for Model 5. 
 Testing between the two models resulted in a significant improvement in model fit ($\chi^2$ (78)=104.75, p < . 001). 
-Figure X displays Model 4, our nested model with the best fit indices.
+Figure \@ref(fig:model4) displays Model 4, our nested model with the best fit indices.
 
 ```{r ModelFits, echo=FALSE}
+
 Models <- c("CFA","Model 1","Model 2","Model 3", "Model 4","Model 5")
 df <- c(186,222,181,10,6,130)
 chi <- c(533.60,586.30,462.90,24.11,9.74,358.16)
@@ -336,7 +337,7 @@ TLI <- c(0.81,0.80,0.83,0.94,0.97,0.80)
 
 semDT <- data.frame(Models,df, chi,p, CFI, RMSEA, TLI)
 
-knitr::kable(semDT)
+knitr::kable(semDT, booktabs = TRUE, caption = "Model Fits")
 ```
 
 
