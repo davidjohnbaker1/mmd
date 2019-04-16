@@ -296,7 +296,7 @@ $$nPVI = 100 * [\sum_{k=1}^{m-1} | \frac{d_k - d_{k+1}}{(d_k + d_{k+1})/2}/(m-1)
 where $M$ is the number of vowels in an utterance and $d_k$ is th duration of the $k^{th}$ item and has been used in musical contexts [@vanhandelRoleMeterCompositional2010].
 
 In linguistics, the nPVI has been used to delineate quantitative differences between stress and syllable timed languages.
-Recently in the past decade, music science researchers have used the nPVI to attempt to investigate claims about the relationship between speech and music [@danieleINTERPLAYLINGUISTICHISTORICAL2004; @patelStressTimedVsSyllableTimed2003; @vanhandelRoleMeterCompositional2010].
+Recently in the past decade, music science researchers have used the nPVI to attempt to investigate claims about the relationship between speech and music [@danieleInterplayLinguisitcHistorical2004; @patelStressTimedVsSyllableTimed2003; @vanhandelRoleMeterCompositional2010].
 While results are mixed regarding the nPVI's predictive ability and there have been recent calls to limit the measure's use [@condit-schultzDeconstructingNPVIMethodological2019], it does serve as a very good example of a computational derived measure.
 Just like summarizing the range of a melody by subtracting the distance between the lowest and highest notes, the nPVI summarizes a phrase and importantly assumes that this measure is representative of the entire phrase the calculation was performed upon.
 
