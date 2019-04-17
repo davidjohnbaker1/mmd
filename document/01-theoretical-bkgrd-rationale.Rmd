@@ -37,12 +37,12 @@ The four steps of Karpinski's model include
 3. Musical Understanding 
 4. Notation
 
-and occur as a looping process, which I have reproduced and depicted in Figure \@ref(fig:flowchart).
+and occur as a looping process, which I have reproduced and depicted in Figure \@ref(fig:flowchart)^[Image reproduced with permission. Image taken from Aural Skills Acquisition, p. 102, Figure 1.].
 Previous attempts to distill melodic dictation into a series of discrete steps have ranged from Michael Roger's assertion of only needing two steps, to Ronald Thomas, who claimed as many as 15 steps, to similar models proposed by Colin Wright that model inner hearing as a five step model [@wrightInvestigatingAuralCase2016;@karpinskiAuralSkillsAcquisition2000].
 Karpinski's model is discussed extensively in both the original article [@karpinskiModelMusicPerception1990] and throughout the third chapter in his book [@karpinskiAuralSkillsAcquisition2000].
 
-```{r flowchart, echo=FALSE, fig.cap="Karpinski Idealized Flowchart of Melodic Dictation",fig.align='center', out.width="100%"}
-knitr::include_graphics("img/karpinski31.png")
+```{r flowchart, echo=FALSE, fig.cap="Karpinski Model of Melodic Dictation",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/karpinski31.png") 
 ```
 
 Karpinski's hearing stage involves the initial perceptions of the sound at the psychoacoustical level and the listener's attention to the incoming musical information.
@@ -152,8 +152,8 @@ Given the strength and generality of these predictors, it is worth investigating
 It is important to understand the degree to which these cognitive factors might influence aural skills abilities in order to ensure that the types of assessments that are given in music schools validly measure abilities that individuals have the ability to improve.
 If it is the case that much of the variance in a student's aural skills academic performance can be attributed to something the student has little control over, this would call for a serious upheaval of the current model of aural skills teaching and assessment.
 
-Recently there has been interest in work exploring how cognitive factors are related to abilities in music school^[HOW DO I CITE THIS BC ITS HAPPENING AT CONFERNCES BUT NOT PUBLISHED AND I DONT WANT THE TEXT DATED].
-This interest is probably best explained by the fact that educators are picking up on the fact that cognitive abilities are powerful predictors and need to be understood since they inevitably will play a role in pedagogical settings. 
+Recently there has been interest in work exploring how cognitive factors are related to abilities in music school.
+This interest is probably best explained by the fact that educators are aware of the fact that cognitive abilities are powerful predictors and need to be understood since they inevitably will play a role in pedagogical settings. 
 Before diving into a discussion regarding differences in cognitive ability, I should note that ideas regarding differences in cognitive ability have been negatively received and for good reasons.
 Research in individual differences in cognitive ability can and has been taken advantage to further specious ideologies, but often arguments that assert meaningful differences in cognitive abilities between groups are founded on statistical misunderstandings and have been addressed in other literature [@gouldMismeasureMan1996].
 These differences cannot be brushed aside because it is very difficult to maintain a scientific commitment to the theory of evolution [@darwinOriginSpecies1859] and not expect variation in all aspects of human behavior, with cognition falling under that umbrella.
@@ -188,11 +188,11 @@ According to Nelson Cowan, the term working memory generally refers to
 
 The term, like most concepts in science, does not have an exact definition, nor does it have a definitive method of measurement.
 While there is no universally recognized first use of the term, researchers began to postulate that there was some sort of system that mediated incoming sensory information from the external world with information in long term storage using modular models of memory in the mid-twentieth century. 
-Summarized in @cowanWorkingMemoryCapacity2005, one of the first modal models of memory was proposed by @broadbentPerceptionCommunication1958 and later expanded by @atkinsonHUMANMEMORYPROPOSED1968.
-As seen in Figure \@ref(fig:wmmodels) taken from @cowanWorkingMemoryCapacity2005, both models here posit incoming information that is then put into some sort of limited capacity store.
+Summarized in @cowanWorkingMemoryCapacity2005, one of the first modal models of memory was proposed by @broadbentPerceptionCommunication1958 and later expanded by @atkinsonHumanMemoryProposed1968.
+As seen in Figure \@ref(fig:wmmodels)^[Image reproduced with permission. Image taken from Working Memory (Cowan, 2005), p. 18, Figure 1.2] taken from @cowanWorkingMemoryCapacity2005, both models here posit incoming information that is then put into some sort of limited capacity store.
 These modal models were then expanded on by Baddeley and Hitch [@baddeleyWorkingMemory1974] in their 1974 chapter with the name _Working Memory_, where they proposed a system with an central executive module that was able to carry out active maintenance and rehearsal of information that could be stored in either a phonological store for sounds or a visual sketchpad for images.
 
-```{r wmmodels, echo=FALSE, fig.cap="Schematics of Models of Working Memory taken from Cowan, 2005", fig.align='center',out.width="100%" }
+```{r wmmodels, echo=FALSE, fig.cap="Models of Working Memory", fig.align='center',out.width="100%"}
 knitr::include_graphics("img/wm_models.png")
 ```
 
@@ -246,13 +246,14 @@ Below I review the problems with chunking noted by @cowanWorkingMemoryCapacity20
 5. _There may be a complex network of associations._ If a set of pitches sounds like a similar set of pitches from long term memory, the incoming information cannot be understood as being separate units of working memory.
 6. _Chunks may increase in size rapidly over time._ Three tones that are seemingly unrelated when played sequentially. E4, G5, C5 might enter sensory perception as three distinct tones, but then be fused together if understood as one chunk-- a first inversion major triad. 
 7. _Information in working memory may benefit from rapid storage in long term memory._ Given the amount of patterns that an individual learns and can understand, as soon as sensory information is fused, it could be encoded in long term memory. This is especially true if there is a salient feature in the incoming melodic information such as the immediate recognition of a mode or cadence.
+\newpage
 
 The points by Cowan are important to acknowledge in that it is not possible to directly lift work and paradigms from working memory capacity to work in music perception.
 That said, the enormous amount of theoretical frameworks put forward by the working memory literature when understood in conjunction with theories in music psychology, such as implicit statistical learning [@saffranStatisticalLearningTone1999], can provide for new, fruitful theories.
 Past researchers have noted the strength and predictive abilities from the working memory capacity literature as aiding research in music perception.
 In ending his article positing a musical memory loop to be annexed to the Baddley and Hitch modular model of working memory, @berzWorkingMemoryMusic1995 captures the power of this concept in the last sentence of his article and warns:
 
-> Individual differences portrayed in some music aptitude tests may [sic] represent not talent or musical intelligence but ability, reflecting differences in working memory capacity. p. 362
+> Individual differences portrayed in some music aptitude tests may [sic] represent not talent or musical intelligence but ability, reflecting differences in working memory capacity. (p. 362)
 
 Berz's assertion has not been exhaustively tested since first published in 1995, but the subject of music, memory, and cognitive abilities has been the focus of research for both both psychologists and musicologists alike.
 
@@ -296,7 +297,7 @@ His review suggests the current state of the literature might be interpreted as 
 Additionally, Schellenberg remains skeptical of any sort of causal factors regarding increases in IQ [@francoisMusicTrainingDevelopment2013; @morenoMusicalTrainingInfluences2009] noting methodological problems like how short exposure times were in studies claiming increases in effects, or researchers not holding pre-existing cognitive abilities constant [@mehrTwoRandomizedTrials2013].
 Continued work by Swaminithan, Schellenberg, and Khalil continue to support evidence for this selection bias in training resulting in higher cognitive abilities among musicians [@swaminathanRevisitingAssociationMusic2017].
 Under my taxonomy, the individual, cognitive traits such as general intelligence and working memory are presumed to be stable over a life time.
-I now turn to individual traits that are more malleable, those dubbed the Environmental traits. 
+I now turn to individual traits that are more malleable, those dubbed the environmental factors. 
 
 ### Environmental 
 
@@ -340,7 +341,7 @@ Similar to commentaries in literature on melodic dictation, @fournierCognitiveSt
 Performance on sight reading often predicts links between academic success in sight-singing and predictors such as entrance tests [@harrisonValidityMusicalAptitude1987], academic ability, and musical experience [@harrisonEffectsMusicalAptitude1994].
 
 Taken as a whole, the research tends to suggest that learning to be a fluid and competent sight reader helps musicians hone their skills by bootstrapping other musical skills since those needed for sight-reading touch on many of the skills used in musical performance such as pattern matching and listening for small changes in intonation.
-While the above literature suggests there are empirical grounds to consider these individual factors in predicting how well an individual will do in melodic dictation, these factors will invariably interact with the other half of the taxonomy: the musical parameters.
+While the above literature suggests there are empirical grounds to consider these individual factors in predicting how well an individual will do in melodic dictation, these factors will invariably interact with the other half of the taxonomy: the musical factors.
 
 ## Musical Factors
 
@@ -370,18 +371,18 @@ This work was extended by @taylorStrategiesMemoryShort1983 who additionally inco
 What Ortmann referred to as determinants are structural aspects of the melody that can then be mapped to some aspect of perception. 
 While Ortmann used the term determinants, for the rest of this study I instead adopt the term feature which better reflects current terminology used to talk about these aspects of a melody. 
 Given Ortmann's design of using isorhythmic five tone sequences, his detriments-- or features-- under my taxonomy from Figure \@ref(fig:taxonomy) would generally include only structural aspects.
-Were Ortmann to have increased the tempo of the tones he presented, change the timbre of their instrumentation, or maybe provide participants more attempts to give their responses, he would have then been adjusting what I am referring to as the experimental parameters.
+Were Ortmann to have increased the tempo of the tones he presented, change the timbre of their instrumentation, or maybe provide participants more attempts to give their responses, he would have then been adjusting what I am referring to as the experimental features.
 In the section below, I first explore literature that set out to understand certain structural aspects of the musical side of my taxonomy, then begin to introduce studies that incorporate more parameters.
 
 As with the above problems listed in attempting to measure latent psychological constructs, similar problems also arise in operationalizing many of the musical constructs in the experiments from above.
 Unlike individual features, since musical scores can be digitized, attempting to create more objective measurements for musical features is more straightforward than that of measuring latent psychological variables.
 One way to accomplish this is to use symbolic features of the melodies themselves as a variable to be measured.
 Unfortunately, much of the work from computational musicology such as David Huron's Humdrum toolbox [@huronHumdrumToolkitReference1994] or Michael Cutberth's Music21 [@cuthbertMusic21ToolkitComputerAided2010] pre-dates some of the earlier experimental work I will discuss below, but as these computations are more straightforward than considering larger experimental designs, I begin with them here. 
-While I reserve a longer discussion on the histories of computational musicology for Chapter Four, relevant to this review are the additional ways it is now possible to abstract features from symbolic melodies beyond what was capable in studies such as @ortmannTonalDeterminantsMelodic1933 and @taylorStrategiesMemoryShort1983.
+While I reserve a longer discussion on the histories of computational musicology for the computational chapter of this dissertation, relevant to this review are the additional ways it is now possible to abstract features from symbolic melodies beyond what was capable in studies such as @ortmannTonalDeterminantsMelodic1933 and @taylorStrategiesMemoryShort1983.
 
 ### Abstracted Features
 
-An abstracted symbolic features of a melody are emergent properties of the melody that result from performing a calculation on the melody when digitized into discrete, computer readable tokens.
+An abstracted symbolic feature of a melody are emergent properties of the melody that result from performing a calculation on the melody when digitized into discrete, computer readable tokens.
 Abstracted symbolic features of melodies can largely be conceptualized as being static or dynamic.
 Static features of melodies are obtained by summarizing some aspect of the melody as if it were to be experienced in suspended animation.
 For example, a static feature of a melody might be the melody's range as calculated by the number of half steps from the lowest to the highest note or the number of notes in a melody.
@@ -428,7 +429,7 @@ The paper also claimed that people on average can hear and remember 10-16 notes 
 
 Given the lack of consistent methodologies in administration and scoring of these experiments, it becomes difficult to find ways to generalize basic findings like expected effect sizes-- especially when the original materials and data have not been recorded-- but there are often interesting theoretical insights to be gleaned. 
 For example, @ouraConstructingRepresentationMelody1991a used a sample of eight people to suggest that when taking melodic dictation, individuals use a system of pattern matching that interfaces with their long term memory in order to complete dictation tasks. 
-While this paper does not bring with it exhaustive evidence supporting this claim, the idea is explored in detail in Chapter 7 when the idea of pattern matching is used in conjunction with Cowan's Embedded Process model of working memory [@cowanEvolvingConceptionsMemory1988].
+While this paper does not bring with it exhaustive evidence supporting this claim, the idea is explored in detail in final chapter when the idea of pattern matching is used in conjunction with Cowan's Embedded Process model of working memory [@cowanEvolvingConceptionsMemory1988].
 
 More recently, the music education community has also begun to do research around melodic dictation using both qualitative and quantitative methodologies.
 @paneyTeachingMelodicDictation2014 interviewed high school teachers on methods they used to teach melodic dictation and among more general findings on teaching methods reported a general awareness and concern among pedagogues regarding the "psychological barriers inherent in learning aural skills", as well as a general positive disposition to the use of standardized tests used in melodic dictation. 

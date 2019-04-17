@@ -1,0 +1,109 @@
+\contentsline {chapter}{\numberline {1}Significance of the Study}{11}{chapter.1}
+\contentsline {section}{\numberline {1.1}Rationale}{11}{section.1.1}
+\contentsline {section}{\numberline {1.2}Chapter Overview}{13}{section.1.2}
+\contentsline {chapter}{\numberline {2}Context, Literature, and Rationale}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}Melodic Dictation}{17}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Describing Melodic Dictation}{19}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Taxonomizing}{25}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Individual Factors}{28}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Cognitive}{28}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1.1}General Intelligence}{29}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\numberline {2.2.1.2}Working Memory Capacity}{30}{subsubsection.2.2.1.2}
+\contentsline {subsubsection}{\numberline {2.2.1.3}Working Memory and Melodic Dictation}{35}{subsubsection.2.2.1.3}
+\contentsline {subsubsection}{\numberline {2.2.1.4}Working Memory Capacity and Music}{37}{subsubsection.2.2.1.4}
+\contentsline {subsubsection}{\numberline {2.2.1.5}Intelligence and Music}{39}{subsubsection.2.2.1.5}
+\contentsline {subsection}{\numberline {2.2.2}Environmental}{40}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Aural Training}{41}{subsubsection.2.2.2.1}
+\contentsline {section}{\numberline {2.3}Musical Factors}{43}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}``The Notes''}{43}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Abstracted Features}{46}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Ecological Experiments}{48}{subsubsection.2.3.2.1}
+\contentsline {section}{\numberline {2.4}Polymorphism of Ability}{51}{section.2.4}
+\contentsline {section}{\numberline {2.5}Conclusions}{52}{section.2.5}
+\contentsline {chapter}{\numberline {3}Individual Differences}{55}{chapter.3}
+\contentsline {section}{\numberline {3.1}Rationale}{55}{section.3.1}
+\contentsline {section}{\numberline {3.2}Individual Differences}{56}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Improving Musical Memory}{56}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Memory for Melodies}{58}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Musician's Cognitive Advantage}{60}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Relationship Established}{61}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Dictation Without Dictation}{63}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Cognitive Measures of Interest}{64}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Structural Equation Modeling}{64}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}Hypotheses}{65}{subsection.3.2.8}
+\contentsline {section}{\numberline {3.3}Overview of Experiment}{66}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Participants}{66}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Materials}{66}{subsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2.1}Cognitive Measures}{66}{subsubsection.3.3.2.1}
+\contentsline {subsubsection}{\numberline {3.3.2.2}Measures}{67}{subsubsection.3.3.2.2}
+\contentsline {paragraph}{\numberline {3.3.2.2.1}Goldsmiths Musical Sophistication Index Self Report (Gold-MSI)}{67}{paragraph.3.3.2.2.1}
+\contentsline {paragraph}{\numberline {3.3.2.2.2}Tone Span (TSPAN)}{67}{paragraph.3.3.2.2.2}
+\contentsline {paragraph}{\numberline {3.3.2.2.3}Operation Span (OSPAN)}{67}{paragraph.3.3.2.2.3}
+\contentsline {paragraph}{\numberline {3.3.2.2.4}Symmetry Span (SSPAN)}{68}{paragraph.3.3.2.2.4}
+\contentsline {paragraph}{\numberline {3.3.2.2.5}Gold-MSI Beat Perception}{68}{paragraph.3.3.2.2.5}
+\contentsline {paragraph}{\numberline {3.3.2.2.6}Gold-MSI Melodic Memory Test}{69}{paragraph.3.3.2.2.6}
+\contentsline {paragraph}{\numberline {3.3.2.2.7}Number Series}{69}{paragraph.3.3.2.2.7}
+\contentsline {paragraph}{\numberline {3.3.2.2.8}Raven's Advanced Progressive Matrices}{69}{paragraph.3.3.2.2.8}
+\contentsline {subsection}{\numberline {3.3.3}Procedure}{69}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Results}{70}{subsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.4.1}Descriptive, Data Screening, Correlational}{70}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {3.3.4.2}Modeling}{71}{subsubsection.3.3.4.2}
+\contentsline {paragraph}{\numberline {3.3.4.2.1}Measurement Model}{71}{paragraph.3.3.4.2.1}
+\contentsline {subsubsection}{\numberline {3.3.4.3}Structural Equation Models}{71}{subsubsection.3.3.4.3}
+\contentsline {section}{\numberline {3.4}Discussion}{79}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Model Fits}{79}{subsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.1.1}Measurement Model}{79}{subsubsection.3.4.1.1}
+\contentsline {subsubsection}{\numberline {3.4.1.2}Structural Equation Model Fitting}{79}{subsubsection.3.4.1.2}
+\contentsline {subsection}{\numberline {3.4.2}Relating to Melodic Dictation}{80}{subsection.3.4.2}
+\contentsline {chapter}{\numberline {4}Computation Chapter}{85}{chapter.4}
+\contentsline {section}{\numberline {4.1}Rationale}{85}{section.4.1}
+\contentsline {section}{\numberline {4.2}Agreeing on Complexity}{88}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Methods}{89}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Agreeing on Difficulty}{91}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Modeling Complexity}{105}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}What Are Features?}{107}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Back to the Classroom}{108}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Dynamic}{114}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Frequency Facilitation Hypothesis}{116}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Corpus Analysis}{117}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Implications}{124}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Limitations of Frequency Facilitation Hypothesis}{126}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Conclusions}{127}{section.4.5}
+\contentsline {chapter}{\numberline {5}Hello, Corpus}{129}{chapter.5}
+\contentsline {section}{\numberline {5.1}Rationale}{129}{section.5.1}
+\contentsline {section}{\numberline {5.2}History}{130}{section.5.2}
+\contentsline {section}{\numberline {5.3}MeloSol Corpus}{133}{section.5.3}
+\contentsline {section}{\numberline {5.4}Comparison of Corpora}{135}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Corpus Analysis}{136}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Discussion}{142}{subsection.5.4.2}
+\contentsline {chapter}{\numberline {6}Experiment}{145}{chapter.6}
+\contentsline {section}{\numberline {6.1}Rationale}{145}{section.6.1}
+\contentsline {section}{\numberline {6.2}Introduction}{146}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Memory for Melodies}{149}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Musical Factors}{149}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Methods}{152}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Participants}{152}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Materials}{152}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Procedure}{153}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Scoring Melodies}{156}{subsection.6.3.4}
+\contentsline {section}{\numberline {6.4}Results}{156}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Data Screening}{156}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Modeling}{157}{subsection.6.4.2}
+\contentsline {section}{\numberline {6.5}Discussion}{158}{section.6.5}
+\contentsline {section}{\numberline {6.6}Conclusions}{166}{section.6.6}
+\contentsline {chapter}{\numberline {7}Computational Model}{169}{chapter.7}
+\contentsline {section}{\numberline {7.1}Levels of Abstraction}{169}{section.7.1}
+\contentsline {section}{\numberline {7.2}Model Overview}{171}{section.7.2}
+\contentsline {section}{\numberline {7.3}Verbal Model}{172}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Model Representational Assumptions}{172}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Contents of the Prior Knowledge}{173}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Modeling Information Content}{174}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Setting Limits with Transcribe}{178}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.5}Pattern Matching}{178}{subsection.7.3.5}
+\contentsline {subsection}{\numberline {7.3.6}Dictation Re-Entry}{180}{subsection.7.3.6}
+\contentsline {subsection}{\numberline {7.3.7}Completion}{181}{subsection.7.3.7}
+\contentsline {subsection}{\numberline {7.3.8}Model Output}{182}{subsection.7.3.8}
+\contentsline {section}{\numberline {7.4}Formal Model}{182}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Computational Model}{184}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Example}{184}{subsection.7.4.2}
+\contentsline {section}{\numberline {7.5}Conclusions}{187}{section.7.5}

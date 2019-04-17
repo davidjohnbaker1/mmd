@@ -16,7 +16,7 @@ One contribution that a researcher can make towards either bolstering or refutin
 In order to accomplish this, in this chapter I introduce a new corpus of sight-singing melodies based on the pedagogical text "A New Approach to Sight Singing" [@berkowitzNewApproachSight2011].
 The corpus contains 783 monophonic melodies that have been digitally encoded in the kern format [@huronHumdrumToolkitReference1994] and contain both melodies specifically composed for use in the Aural Skills classroom and examples of melodies from the Western canon.
 Due to the fact that the corpus contains melodic data from a sight-singing anthology first published by Sol Berkowitz, for ease of reference I will refer to this corpus as the _MeloSol_ corpus.
-After introducing the corpus, I compare the _Melosol_ corpus with the _Essen Folk Song Collection_ [@schaffrathEssenFolkSong1995] as well as a portion of the _Densmore_ collection [@shanahanDENSMORECOLLECTIONNATIVE2014] in order to highlight variability between these musical corpora.
+After introducing the corpus, I compare the _MeloSol_ corpus with the _Essen Folk Song Collection_ [@schaffrathEssenFolkSong1995] as well as a portion of the _Densmore_ collection [@shanahanDensmoreCollectionNative2014] in order to highlight variability between these musical corpora.
 I end by highlighting important considerations in the underlying representations of what the data represent and what these assumptions entail for future work in computational musicology. 
 
 ## History
@@ -65,9 +65,9 @@ In addition to having a key signature in each kern file, I have also added an ex
 Each section of the book contains melodies that would be considered tonal, except for melodies in the fifth section of the first chapter and intermittent melodies in the fourth section of the fifth chapter which contain atonal melodies.
 If a melody is decidedly atonal or modal, this is documented in the metadata.
 Atonal melodies are given the explicit key of C major so that they can be analyzed and parsed as if they were part of a _fixed-do_ system.
-This encoding decision is reflected in the Key Distribution panel of \@ref(fig:melosoldescriptivepanel).
+This encoding decision is reflected in the Key Distribution panel of Figure  \@ref(fig:melosoldescriptivepanel).
 
-```{r melosoldescriptivepanel, echo=FALSE, fig.cap="Descriptive Statistics of MeloSol",fig.align='center', out.width="100%"}
+```{r melosoldescriptivepanel, echo=FALSE, fig.cap="Descriptive Statistics of MeloSol Corpus",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/melosoldescriptpanel.png")
 ```
 
@@ -80,7 +80,7 @@ All data was manually encoded via MuseScore then converted and cleaned using the
 
 ## Comparison of Corpora 
 
-In order to give a brief overview of the corpus and contextualize it in the context of other corpora, in this next section I  compare the _MeloSol_ corpus with the _Essen Folk Song Collection_ [@schaffrathEssenFolkSong1995], as well as the _Densmore_ collection [@shanahanDENSMORECOLLECTIONNATIVE2014] and provide a brief corpus analysis.
+In order to give a brief overview of the corpus and contextualize it in the context of other corpora, in this next section I  compare the _MeloSol_ corpus with the _Essen Folk Song Collection_ [@schaffrathEssenFolkSong1995], as well as the _Densmore_ collection [@shanahanDensmoreCollectionNative2014] and provide a brief corpus analysis.
 All three corpora here contain vocal melodies.
 The Berkowitz corpus was specifically designed for pedagogical purposes, whereas the _Essen_ and _Densmore_ are more ecologically reflective of melodies originating from a diversity of sources.
 Given that these corpora consist of vocal melodies, there presumably would be differences between the corpora on a large scale structure.
@@ -105,7 +105,7 @@ In order to compare the _Essen_ collection with the _MeloSol_ corpus, I first pl
 Creating these visualizations demonstrates size differences between the corpora.
 As noted in the bottom right panel of \@ref(fig:compdesc), then _Essen_ collection is much larger than that of the _MeloSol_ or the _Densmore_ collection. 
 
-```{r compdesc, echo=FALSE, fig.cap="Descriptive Features",fig.align='center', out.width="100%"}
+```{r compdesc, echo=FALSE, fig.cap="Descriptive Features of MeloSol Corpus",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/comparative_descritivepanel.png")
 ```
 
@@ -130,7 +130,7 @@ For example, in Figure \@ref(fig:comphuron), I have reproduced the first level a
 From the figure, there appears to be similar patterns between the European subset of the _Essen_ collection and that of the _MeloSol_ corpus.
 The most prominent phrase type in both corpora is the convex contour, followed secondly by the descending contour pattern.
 Future versions of the _MeloSol_ corpus could be used to add phrase marks and examine the extent to which Huron's claims hold in a categorically different, yet grammatically similar corpus. 
-Lastly, in \@ref(fig:krum), I plot standardized key profiles for the _Essen_ and _MeloSol_ corpora as presented in this chapter [@krumhanslCognitiveFoundationsMusical2001].
+Lastly, in Figure \@ref(fig:krum), I plot standardized key profiles for the _Essen_ and _MeloSol_ corpora as presented in this chapter [@krumhanslCognitiveFoundationsMusical2001].
 The _Densmore_ collection is not included here as it does not come with explicit key data.
 
 
@@ -175,6 +175,8 @@ If populations are not bound by time, the field of computational musicology need
 Further, future work might consider if accessing the population parameters is the end research goal in quesiton.
 Questions of style analysis seek to generalize beyond a population so new works might created.
 Regardless of the choice, future work from this should make this clear. 
+
+## Conclusions
 
 In this, chapter I presented the _MeloSol_ corpus, new database of monophonic singing melodies.
 Comparing the corpus to others used in the literature, I demonstrated how the _MeloSol_ corpus might be used for future research.

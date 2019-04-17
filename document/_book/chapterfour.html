@@ -32,7 +32,7 @@
 <meta name="author" content="May 2019">
 
 
-<meta name="date" content="2019-04-16">
+<meta name="date" content="2019-04-17">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -55,6 +55,7 @@
 
 
 
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
 
 
 
@@ -143,6 +144,7 @@
 <li class="chapter" data-level="5.4.1" data-path="chapterfour.html"><a href="chapterfour.html#corpus-analysis-1"><i class="fa fa-check"></i><b>5.4.1</b> Corpus Analysis</a></li>
 <li class="chapter" data-level="5.4.2" data-path="chapterfour.html"><a href="chapterfour.html#discussion-1"><i class="fa fa-check"></i><b>5.4.2</b> Discussion</a></li>
 </ul></li>
+<li class="chapter" data-level="5.5" data-path="chapterfour.html"><a href="chapterfour.html#conclusions-2"><i class="fa fa-check"></i><b>5.5</b> Conclusions</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="experiment.html"><a href="experiment.html"><i class="fa fa-check"></i><b>6</b> Experiment</a><ul>
 <li class="chapter" data-level="6.1" data-path="experiment.html"><a href="experiment.html#rationale-4"><i class="fa fa-check"></i><b>6.1</b> Rationale</a></li>
@@ -161,7 +163,7 @@
 <li class="chapter" data-level="6.4.2" data-path="experiment.html"><a href="experiment.html#modeling-1"><i class="fa fa-check"></i><b>6.4.2</b> Modeling</a></li>
 </ul></li>
 <li class="chapter" data-level="6.5" data-path="experiment.html"><a href="experiment.html#discussion-2"><i class="fa fa-check"></i><b>6.5</b> Discussion</a></li>
-<li class="chapter" data-level="6.6" data-path="experiment.html"><a href="experiment.html#conclusions-2"><i class="fa fa-check"></i><b>6.6</b> Conclusions</a></li>
+<li class="chapter" data-level="6.6" data-path="experiment.html"><a href="experiment.html#conclusions-3"><i class="fa fa-check"></i><b>6.6</b> Conclusions</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="computational-model.html"><a href="computational-model.html"><i class="fa fa-check"></i><b>7</b> Computational Model</a><ul>
 <li class="chapter" data-level="7.1" data-path="computational-model.html"><a href="computational-model.html#levels-of-abstraction"><i class="fa fa-check"></i><b>7.1</b> Levels of Abstraction</a></li>
@@ -180,7 +182,7 @@
 <li class="chapter" data-level="7.4.1" data-path="computational-model.html"><a href="computational-model.html#computational-model-1"><i class="fa fa-check"></i><b>7.4.1</b> Computational Model</a></li>
 <li class="chapter" data-level="7.4.2" data-path="computational-model.html"><a href="computational-model.html#example"><i class="fa fa-check"></i><b>7.4.2</b> Example</a></li>
 </ul></li>
-<li class="chapter" data-level="7.5" data-path="computational-model.html"><a href="computational-model.html#conclusions-3"><i class="fa fa-check"></i><b>7.5</b> Conclusions</a></li>
+<li class="chapter" data-level="7.5" data-path="computational-model.html"><a href="computational-model.html#conclusions-4"><i class="fa fa-check"></i><b>7.5</b> Conclusions</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
@@ -220,7 +222,7 @@ One contribution that a researcher can make towards either bolstering or refutin
 In order to accomplish this, in this chapter I introduce a new corpus of sight-singing melodies based on the pedagogical text “A New Approach to Sight Singing” <span class="citation">(Berkowitz et al. <a href="#ref-berkowitzNewApproachSight2011">2011</a>)</span>.
 The corpus contains 783 monophonic melodies that have been digitally encoded in the kern format <span class="citation">(Huron <a href="#ref-huronHumdrumToolkitReference1994">1994</a>)</span> and contain both melodies specifically composed for use in the Aural Skills classroom and examples of melodies from the Western canon.
 Due to the fact that the corpus contains melodic data from a sight-singing anthology first published by Sol Berkowitz, for ease of reference I will refer to this corpus as the <em>MeloSol</em> corpus.
-After introducing the corpus, I compare the <em>Melosol</em> corpus with the <em>Essen Folk Song Collection</em> <span class="citation">(Schaffrath <a href="#ref-schaffrathEssenFolkSong1995">1995</a>)</span> as well as a portion of the <em>Densmore</em> collection <span class="citation">(Shanahan and Shanahan <a href="#ref-shanahanDENSMORECOLLECTIONNATIVE2014">2014</a>)</span> in order to highlight variability between these musical corpora.
+After introducing the corpus, I compare the <em>MeloSol</em> corpus with the <em>Essen Folk Song Collection</em> <span class="citation">(Schaffrath <a href="#ref-schaffrathEssenFolkSong1995">1995</a>)</span> as well as a portion of the <em>Densmore</em> collection <span class="citation">(Shanahan and Shanahan <a href="#ref-shanahanDensmoreCollectionNative2014">2014</a>)</span> in order to highlight variability between these musical corpora.
 I end by highlighting important considerations in the underlying representations of what the data represent and what these assumptions entail for future work in computational musicology.</p>
 </div>
 <div id="history" class="section level2">
@@ -265,7 +267,7 @@ In addition to having a key signature in each kern file, I have also added an ex
 Each section of the book contains melodies that would be considered tonal, except for melodies in the fifth section of the first chapter and intermittent melodies in the fourth section of the fifth chapter which contain atonal melodies.
 If a melody is decidedly atonal or modal, this is documented in the metadata.
 Atonal melodies are given the explicit key of C major so that they can be analyzed and parsed as if they were part of a <em>fixed-do</em> system.
-This encoding decision is reflected in the Key Distribution panel of <a href="chapterfour.html#fig:melosoldescriptivepanel">5.1</a>.</p>
+This encoding decision is reflected in the Key Distribution panel of Figure <a href="chapterfour.html#fig:melosoldescriptivepanel">5.1</a>.</p>
 <div class="figure" style="text-align: center"><span id="fig:melosoldescriptivepanel"></span>
 <img src="img/melosoldescriptpanel.png" alt="Descriptive Statistics of MeloSol" width="100%" />
 <p class="caption">
@@ -281,7 +283,7 @@ All data was manually encoded via MuseScore then converted and cleaned using the
 </div>
 <div id="comparison-of-corpora" class="section level2">
 <h2><span class="header-section-number">5.4</span> Comparison of Corpora</h2>
-<p>In order to give a brief overview of the corpus and contextualize it in the context of other corpora, in this next section I compare the <em>MeloSol</em> corpus with the <em>Essen Folk Song Collection</em> <span class="citation">(Schaffrath <a href="#ref-schaffrathEssenFolkSong1995">1995</a>)</span>, as well as the <em>Densmore</em> collection <span class="citation">(Shanahan and Shanahan <a href="#ref-shanahanDENSMORECOLLECTIONNATIVE2014">2014</a>)</span> and provide a brief corpus analysis.
+<p>In order to give a brief overview of the corpus and contextualize it in the context of other corpora, in this next section I compare the <em>MeloSol</em> corpus with the <em>Essen Folk Song Collection</em> <span class="citation">(Schaffrath <a href="#ref-schaffrathEssenFolkSong1995">1995</a>)</span>, as well as the <em>Densmore</em> collection <span class="citation">(Shanahan and Shanahan <a href="#ref-shanahanDensmoreCollectionNative2014">2014</a>)</span> and provide a brief corpus analysis.
 All three corpora here contain vocal melodies.
 The Berkowitz corpus was specifically designed for pedagogical purposes, whereas the <em>Essen</em> and <em>Densmore</em> are more ecologically reflective of melodies originating from a diversity of sources.
 Given that these corpora consist of vocal melodies, there presumably would be differences between the corpora on a large scale structure.
@@ -329,7 +331,7 @@ For example, in Figure <a href="chapterfour.html#fig:comphuron">5.4</a>, I have 
 From the figure, there appears to be similar patterns between the European subset of the <em>Essen</em> collection and that of the <em>MeloSol</em> corpus.
 The most prominent phrase type in both corpora is the convex contour, followed secondly by the descending contour pattern.
 Future versions of the <em>MeloSol</em> corpus could be used to add phrase marks and examine the extent to which Huron’s claims hold in a categorically different, yet grammatically similar corpus.
-Lastly, in <a href="chapterfour.html#fig:krum">5.5</a>, I plot standardized key profiles for the <em>Essen</em> and <em>MeloSol</em> corpora as presented in this chapter <span class="citation">(Krumhansl <a href="#ref-krumhanslCognitiveFoundationsMusical2001">2001</a>)</span>.
+Lastly, in Figure <a href="chapterfour.html#fig:krum">5.5</a>, I plot standardized key profiles for the <em>Essen</em> and <em>MeloSol</em> corpora as presented in this chapter <span class="citation">(Krumhansl <a href="#ref-krumhanslCognitiveFoundationsMusical2001">2001</a>)</span>.
 The <em>Densmore</em> collection is not included here as it does not come with explicit key data.</p>
 <div class="figure" style="text-align: center"><span id="fig:comphuron"></span>
 <img src="img/huronrecreation.png" alt="Replication of Analysis 1, Huron 1994" width="100%" />
@@ -373,11 +375,14 @@ If populations are not bound by time, the field of computational musicology need
 Further, future work might consider if accessing the population parameters is the end research goal in quesiton.
 Questions of style analysis seek to generalize beyond a population so new works might created.
 Regardless of the choice, future work from this should make this clear.</p>
+</div>
+</div>
+<div id="conclusions-2" class="section level2">
+<h2><span class="header-section-number">5.5</span> Conclusions</h2>
 <p>In this, chapter I presented the <em>MeloSol</em> corpus, new database of monophonic singing melodies.
 Comparing the corpus to others used in the literature, I demonstrated how the <em>MeloSol</em> corpus might be used for future research.
 Throughout the chapter, I additionally described how the use of corpora in computational musicology often, though not directly, adopts the assumptions of a sample, population relationship.</p>
 
-</div>
 </div>
 </div>
 <h3>References</h3>
@@ -397,8 +402,8 @@ Throughout the chapter, I additionally described how the use of corpora in compu
 <div id="ref-schaffrathEssenFolkSong1995">
 <p>Schaffrath, Helmuth. 1995. “The Essen Folk Song Collection, D. Huron.”</p>
 </div>
-<div id="ref-shanahanDENSMORECOLLECTIONNATIVE2014">
-<p>Shanahan, Daniel, and Eva Shanahan. 2014. “THE DENSMORE COLLECTION OF NATIVE AMERICAN SONGS: A NEW CORPUS FOR STUDIES OF EFFECTS OF GEOGRAPHY, LANGUAGE, AND SOCIAL FUNCTION ON FOLKSONG.” In <em>Proceedings of the Fourteenth Annual International Conference for Music Perception and Cognition</em>. San Francisco.</p>
+<div id="ref-shanahanDensmoreCollectionNative2014">
+<p>Shanahan, Daniel, and Eva Shanahan. 2014. “The Densmore Collection of Native American Songs: A New Corpus for Studies of Effects of Geography, Language, and Social Function on Folk Song.” In <em>Proceedings of the Fourteenth Annual International Conference for Music Perception and Cognition</em>. San Francisco.</p>
 </div>
 <div id="ref-hewlettComputingMusicology1991">
 <p>Hewlett, Walter B., and Eleanor Selfridge-Field. 1991. “Computing in Musicology.” <em>Computers and the Humanities</em> 25 (6): 381–92. <a href="https://doi.org/10.1007/BF00141188" class="uri">https://doi.org/10.1007/BF00141188</a>.</p>

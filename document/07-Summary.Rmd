@@ -1,0 +1,44 @@
+# Summary
+
+Melodic dictation is a cognitively demanding process that requires individuals to be able to hear a melody then write it down.
+Not only is understanding how this process works worthy of study from a pedagogical point of view, but being able to hear, understand, then notate a melody is a fascinating psychological ability.
+Figuring out exactly how this works is a messy problem, but messy problems are the life-blood of anyone who works with music.
+
+In this dissertation, I began by examining the Karpisnki model of melodic dication.
+While fantastic as a didiactic model, the model is not specific enough as is to be examined with experimental and computational methodologies.
+The model assumes similar proccess for different individuals, as well as different melodies.
+Using this as a point of departure, I put forward a taxonomy of features that might fill in the missing parts of the Karpinski.
+While I used this taxnomomy as a guide in my literature review, the taxonomy can also guide future thoughts when studying musical memory.
+With any study on musical memory, there will always be variation between individuals and variation between music.
+This taxonomy can help clarify and organize the factors thought to contribute to musical memory. 
+
+The subsequent chapters of this thesis explored factors in this taxonomy.
+In the third chapter, I demonstrated how differences in individual ability can be accounted for in melodic dication.
+I put forward evidence to corroborate claims by Berz and stressed the importance of considering cognitive abilitity when considering musical memory.
+Studying these factors is important because we as pedagogues need to be able to know how much of a student's ability to do a task is within their ability to change.
+
+In the fourth chapter, I posited that tools from computational musicology can help better understand melodic memory.
+I used a survey of 40 aural skills pedagogues to demonstrate that there is a degree of agreement between what makes a melody difficult.
+Using this survey data as a ground truth, I then showed how various computational measures can then map on to human judguments of difficulty.
+Surveying the application of these methods allowed me to highlight the benefits and pitfalls of using various types of computations.
+I also showed how tools from computational musicology can act as a bridge to synthsize ideas put forward by cognitive psychology and put forward a novel theory of musical memory: the Frequency Facilitation Hypothesis. 
+I showed how combining both computational measures with theories from cognitive psychology can help better understand the difficulty of the tasks we ask of students and also put forward meaningufl ways in which they might use this to create a more linear path to sucess in the classroom.
+
+In the fifth chapter, I put forward a new corpus of 783 monophonic vocal melodies.
+This new _MeloSol_ corpus is not only imporant from future reserach in music perception, music pedagogy, and computational musicology, but in performing a small corpus analysis, I was able to highlight assumptions yet to be explicitly addressed in computaitonal musicology. 
+
+In the sixth chapter, I modeled how melodic dictation could be operationlized using an experiment that takes full advantage of robust statistical modeling techiniques.
+When cast as an experiment, the amount of variables at play in melodic ditation is cumbersome from both an individual and musical point of view.
+By utalizing methods from computational linguistics that have already been developed to ameliorate these problems, I put forward a stable and robust framework that future experiemnts on melodic dication can use.
+Doing this will allow for more interpretablity across studies and bring more cohesion ot the literature.
+
+Laslty, I introduced a cognitve, computational model of melodic dication.
+This model allowed me to formalize all theoretical factors deemed relevant and put them into a complete computational model.
+Not only does puting forward a computational model declare all ontological assumptions, but introducing this closed system allows for future systematic investigations to the model's versimilitue.
+The model makes several falsifiable predicitons within its framework that can be investigated in future research.
+
+After all of this, the understanding the exact processes undelrying melodic dictation has not been exhaustivly solved.
+There is still much work to be done in terms of briding the gap between the world of aural skills pedagogy and music psychology, but within this chasm is much potential for knowledge.
+Understanding the building blocks of aural skills is understanding the building blocks of musical perception. 
+Not only is it important to understand how these processes are shaped with training and exposure.
+But insights from this research will not only inform how we teach, but also provide novel isnights into how cognition that can only be accessed because of the complexity that is music

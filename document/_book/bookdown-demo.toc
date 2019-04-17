@@ -1,0 +1,267 @@
+\contentsline {chapter}{\numberline {1}Significance of the Study}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}Claims about need to join the worlds of theory and pedagogy}{6}{section.1.1}
+\contentsline {section}{\numberline {1.2}Chapter Overview}{6}{section.1.2}
+\contentsline {chapter}{\numberline {2}Theoretical Background and Rationale}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}What is melodic dictation? and Why?}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Describe process}{10}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Karpinski schematic of it (as verbal model, problems)}{10}{subsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.2.1}Verbal model, has problems, OK for pedagogy}{11}{subsubsection.2.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.2.2}Verbal model, no individual differnces tho literture to suggest}{11}{subsubsection.2.1.2.2}
+\contentsline {subsubsection}{\numberline {2.1.2.3}Computational model to be introduced}{11}{subsubsection.2.1.2.3}
+\contentsline {subsection}{\numberline {2.1.3}Clearly this is psychological problem with different item level difficulty}{12}{subsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.3.1}Individual Factors to contribute}{12}{subsubsection.2.1.3.1}
+\contentsline {subsubsection}{\numberline {2.1.3.2}Musical factors to contribute}{12}{subsubsection.2.1.3.2}
+\contentsline {subsubsection}{\numberline {2.1.3.3}Make a Model of them}{13}{subsubsection.2.1.3.3}
+\contentsline {section}{\numberline {2.2}Individual Factors}{14}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Cognitive}{14}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Working Memory Capacity}{15}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Papers that suggest WMC plays a role}{16}{subsubsection.2.2.2.1}
+\contentsline {subsection}{\numberline {2.2.3}General Intelligence}{16}{subsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Papers that suggest GF plays a role}{16}{subsubsection.2.2.3.1}
+\contentsline {subsection}{\numberline {2.2.4}Environmental}{16}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Long term memory and corpus with implicit}{16}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Musical Training}{16}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}Aural Training}{16}{subsection.2.2.7}
+\contentsline {subsection}{\numberline {2.2.8}Sight Singing}{17}{subsection.2.2.8}
+\contentsline {subsection}{\numberline {2.2.9}To Sort}{17}{subsection.2.2.9}
+\contentsline {section}{\numberline {2.3}Musical Factors}{17}{section.2.3}
+\contentsline {section}{\numberline {2.4}Structural}{17}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Not first to model structure}{17}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Early papers of Ortmann}{17}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Papers from Mid 20th Century}{18}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Buonviri Papers}{18}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Caveat about dilberate practice and talent}{18}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.6}Recent Computational Musicology Work papers and findings}{19}{subsection.2.4.6}
+\contentsline {subsubsection}{\numberline {2.4.6.1}Static Views of Computational Features/ FANTASTIC}{19}{subsubsection.2.4.6.1}
+\contentsline {subsubsection}{\numberline {2.4.6.2}Dynamic}{21}{subsubsection.2.4.6.2}
+\contentsline {section}{\numberline {2.5}Experimental}{21}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Brief discussion on Individual and Envirnoment Interactions}{21}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.6}Modeling and Polymorphism of Ability}{21}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Polymophic, component process makes you think about things in models}{21}{subsection.2.6.1}
+\contentsline {section}{\numberline {2.7}Conclusions}{21}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Clearly we have factors that are thought to contribute, need to investigate them in full with each chapter}{22}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Not before first looking at why we are doing it in the first place (--transition to Chapter 2)}{22}{subsection.2.7.2}
+\contentsline {chapter}{\numberline {3}History of Aural Skills}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Thesis: Show that aural skills always has practical end, efficacy of representation of musical pitch}{24}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}for i in star aural people do}{24}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Who}{24}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Where}{24}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}When}{24}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}What}{24}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}How (approach and goals)}{24}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}Why}{24}{subsection.3.1.7}
+\contentsline {subsection}{\numberline {3.1.8}Guido d'Arezzo}{24}{subsection.3.1.8}
+\contentsline {subsection}{\numberline {3.1.9}Walerant (via Calvisius)}{24}{subsection.3.1.9}
+\contentsline {subsection}{\numberline {3.1.10}Banchieri}{24}{subsection.3.1.10}
+\contentsline {subsection}{\numberline {3.1.11}Cerratto}{24}{subsection.3.1.11}
+\contentsline {subsection}{\numberline {3.1.12}Penna}{24}{subsection.3.1.12}
+\contentsline {subsection}{\numberline {3.1.13}Zarlino}{24}{subsection.3.1.13}
+\contentsline {section}{\numberline {3.2}Quotes from Schumann}{24}{section.3.2}
+\contentsline {section}{\numberline {3.3}Carl Seashore thinking in music}{24}{section.3.3}
+\contentsline {section}{\numberline {3.4}Points from Karpinski on pedagogy}{24}{section.3.4}
+\contentsline {section}{\numberline {3.5}Points from Royal Paper on pedagogy}{24}{section.3.5}
+\contentsline {section}{\numberline {3.6}Solmization System}{24}{section.3.6}
+\contentsline {section}{\numberline {3.7}Really this is all question of efficacy of mental representation of musical pitch}{24}{section.3.7}
+\contentsline {chapter}{\numberline {4}Individual Differences}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Why care about cognitive abilities}{26}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}General intelligence and WMC}{26}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Defining of terms}{26}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Have established that cognitive abilities contribute to musical task (for journal article langauge repeat)}{26}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}General Fluid Intelligence, WMC, Training as uni of polymorphic}{26}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Remind the nature of a musical dictation type task (hear, loop, executive decision)}{26}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}This is WMC task, gf has problems (Although high level link with gf, problematic, WMC models at level of process of md)}{26}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Berz 1994 noticed it first}{26}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {4.3.1.2}Williamson Baddely Hitch suggest maybe musical loop}{26}{subsubsection.4.3.1.2}
+\contentsline {subsubsection}{\numberline {4.3.1.3}Even Cowan labs wonder how different (Li Cowan Saults )}{26}{subsubsection.4.3.1.3}
+\contentsline {section}{\numberline {4.4}WMC has been misused in music education, theory, pedagogy, aural literature and deserves attention}{26}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Problems with chunking}{26}{subsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.1.1}Mistake with Miller 1956, he did not mean 7 items}{26}{subsubsection.4.4.1.1}
+\contentsline {subsubsection}{\numberline {4.4.1.2}Broadbent 1956 more of why its more like 3-4}{26}{subsubsection.4.4.1.2}
+\contentsline {subsection}{\numberline {4.4.2}Problems with using capacity limit literature}{26}{subsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2.1}See Cowan 2005 page 80}{26}{subsubsection.4.4.2.1}
+\contentsline {subsubsection}{\numberline {4.4.2.2}Musical order is always serial effects}{26}{subsubsection.4.4.2.2}
+\contentsline {subsection}{\numberline {4.4.3}Should be using Cowan model because of these things (zooming) or discuss within Baddely Hitch/Atkinson Shriff}{26}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}One Note does not mean one unit in memory!}{26}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Confounded by corpus distributions}{26}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Lack of understanding (all aural skills are those that engage WMC, LVH says many students have WMC deficits, ``increase memory'')}{26}{subsection.4.4.6}
+\contentsline {subsection}{\numberline {4.4.7}Point I am making is that if you're going to do it, do it well.}{26}{subsection.4.4.7}
+\contentsline {section}{\numberline {4.5}Know WMC plays a role, sense, pertain, execute, should be able to pick up in experiment close to MD}{26}{section.4.5}
+\contentsline {section}{\numberline {4.6}Gold-MSI melodic Memory and beat perception test}{26}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}What is gold MSI}{26}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}What are issues I want to talk about with psychometrics}{26}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Describe test in detail and WHY it's what we're after here}{26}{subsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.3.1}not exactly mmd, but most people would say similar skill sets}{26}{subsubsection.4.6.3.1}
+\contentsline {subsubsection}{\numberline {4.6.3.2}also before getting dirty,need experimental desing with less response options (Cowan, Saults, Elliott, Moreano 2002)}{26}{subsubsection.4.6.3.2}
+\contentsline {section}{\numberline {4.7}IF we accept these DVs, THEN we should be able to predict them with self reports and measures of WMC and gf}{26}{section.4.7}
+\contentsline {section}{\numberline {4.8}Do this with hierarchical LVM ala Elliott paper}{26}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Versions of this paper at ICMPC}{26}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}Exploratory in that tried a few different models (high type I error but whatever)}{26}{subsection.4.8.2}
+\contentsline {section}{\numberline {4.9}Overview of Experiment (cross sectional design)}{26}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Participants}{26}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}Materials}{26}{subsection.4.9.2}
+\contentsline {subsection}{\numberline {4.9.3}Procedure}{26}{subsection.4.9.3}
+\contentsline {subsection}{\numberline {4.9.4}Results}{26}{subsection.4.9.4}
+\contentsline {subsubsection}{\numberline {4.9.4.1}Descriptive, Correlational}{26}{subsubsection.4.9.4.1}
+\contentsline {subsubsection}{\numberline {4.9.4.2}Modeling}{26}{subsubsection.4.9.4.2}
+\contentsline {subsection}{\numberline {4.9.5}Discussion}{26}{subsection.4.9.5}
+\contentsline {subsubsection}{\numberline {4.9.5.1}Review of the Goals}{26}{subsubsection.4.9.5.1}
+\contentsline {subsubsection}{\numberline {4.9.5.2}What were best model fits}{26}{subsubsection.4.9.5.2}
+\contentsline {subsubsection}{\numberline {4.9.5.3}Clear effect of WMC}{26}{subsubsection.4.9.5.3}
+\contentsline {subsubsection}{\numberline {4.9.5.4}What if we are just measuring WMC?}{26}{subsubsection.4.9.5.4}
+\contentsline {subsubsection}{\numberline {4.9.5.5}Obvs need this for futre studies}{26}{subsubsection.4.9.5.5}
+\contentsline {subsubsection}{\numberline {4.9.5.6}Need to use something to go above and beyond baseline (--transition to corpus as memory and n-gram)}{26}{subsubsection.4.9.5.6}
+\contentsline {subsubsection}{\numberline {4.9.5.7}Future verbal theoretical and computational models should involve capacity measures (limits)}{26}{subsubsection.4.9.5.7}
+\contentsline {chapter}{\numberline {5}Computation Chapter}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Humans like patterns and are very good at picking them up}{27}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}We learn things implicitly}{27}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}We can represent that implicit knowledge with a corpus}{27}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Pre-Musical Corpora}{27}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Information Theory}{27}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Computational Linguistics as front runner}{27}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Musical Corpora}{27}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}History of Musical Corpora}{27}{subsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.1.1}Fun old computational music papers}{27}{subsubsection.5.3.1.1}
+\contentsline {subsubsection}{\numberline {5.3.1.2}Corpora that are often used}{27}{subsubsection.5.3.1.2}
+\contentsline {subsubsection}{\numberline {5.3.1.3}Static vs Dynamic models of feature abstraction (daniel slides?)}{27}{subsubsection.5.3.1.3}
+\contentsline {subsection}{\numberline {5.3.2}FANTASTIC}{27}{subsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.2.1}static}{27}{subsubsection.5.3.2.1}
+\contentsline {subsubsection}{\numberline {5.3.2.2}ML approach gets it right}{27}{subsubsection.5.3.2.2}
+\contentsline {subsubsection}{\numberline {5.3.2.3}simple to understand}{27}{subsubsection.5.3.2.3}
+\contentsline {subsubsection}{\numberline {5.3.2.4}Can abstract features be percieved?}{27}{subsubsection.5.3.2.4}
+\contentsline {subparagraph}{\numberline {5.3.2.4.0.1}Note density}{27}{subparagraph.5.3.2.4.0.1}
+\contentsline {subparagraph}{\numberline {5.3.2.4.0.2}Contour variation}{28}{subparagraph.5.3.2.4.0.2}
+\contentsline {subparagraph}{\numberline {5.3.2.4.0.3}Tonalness}{28}{subparagraph.5.3.2.4.0.3}
+\contentsline {subparagraph}{\numberline {5.3.2.4.0.4}weird computational measures}{28}{subparagraph.5.3.2.4.0.4}
+\contentsline {subsection}{\numberline {5.3.3}IDyOM as representation of musical materials}{28}{subsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.3.1}n-gram models}{28}{subsubsection.5.3.3.1}
+\contentsline {subsubsection}{\numberline {5.3.3.2}mirrors human behavior}{28}{subsubsection.5.3.3.2}
+\contentsline {subparagraph}{\numberline {5.3.3.2.0.1}melody}{28}{subparagraph.5.3.3.2.0.1}
+\contentsline {subparagraph}{\numberline {5.3.3.2.0.2}harmony}{28}{subparagraph.5.3.3.2.0.2}
+\contentsline {section}{\numberline {5.4}So What?}{28}{section.5.4}
+\contentsline {subsubsection}{\numberline {5.4.0.1}Other research (Chapt 3) suggest need to move beyond cognitive measures}{28}{subsubsection.5.4.0.1}
+\contentsline {subsubsection}{\numberline {5.4.0.2}Can operationalize item level items contextually with a corpus}{28}{subsubsection.5.4.0.2}
+\contentsline {subsubsection}{\numberline {5.4.0.3}IF features are real, they should effect dictation (Chater 6)}{28}{subsubsection.5.4.0.3}
+\contentsline {subsubsection}{\numberline {5.4.0.4}Not only important for one off, but then would be incorporated into computational learning models (Chapter 6)}{28}{subsubsection.5.4.0.4}
+\contentsline {subsubsection}{\numberline {5.4.0.5}We need new materials}{28}{subsubsection.5.4.0.5}
+\contentsline {chapter}{\numberline {6}Hello, Corpus}{29}{chapter.6}
+\contentsline {section}{\numberline {6.1}Brief review of Chapter 4 on corpus (Language to reflect journal submission)}{30}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Corpus outside of music}{30}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Corpus in Music}{30}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}The point is that it implicitly represents humand knowledge}{30}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}IDyOM 1}{30}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.5}IDyOM 2}{30}{subsection.6.1.5}
+\contentsline {subsection}{\numberline {6.1.6}IDyOM 3}{30}{subsection.6.1.6}
+\contentsline {subsection}{\numberline {6.1.7}Huron suggestions that starts of melodies relate to mental rotaiton}{30}{subsection.6.1.7}
+\contentsline {subsection}{\numberline {6.1.8}Other Huron claims}{30}{subsection.6.1.8}
+\contentsline {section}{\numberline {6.2}Note problem with using corpus is making corpus}{30}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Many are used on Essen}{30}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Brinkman says Essen Sucks}{30}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}If going to make generlizable claims, need to always have new data}{30}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Solem duty to encode and report on corpus}{30}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Justin London Article on what makes it into a corpsu}{30}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Though I just encoded the whole thing because in my heart of hearts I'm a Bayesian}{30}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}The Corpus}{30}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}History of Sight Singign books}{30}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Assumed to be where long term store comes from (adumbrate computational model)}{30}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Lots of melodies in ascending order of difficulty, grouped appropriately though? Utah guy}{30}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}Why I encoded it in XML}{30}{subsection.6.4.4}
+\contentsline {subsection}{\numberline {6.4.5}Is it legal?}{30}{subsection.6.4.5}
+\contentsline {section}{\numberline {6.5}Descriptive Stats of Corpus}{30}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Why?}{30}{subsection.6.5.1}
+\contentsline {subsubsection}{\numberline {6.5.1.1}For pedagogical purposes}{30}{subsubsection.6.5.1.1}
+\contentsline {subsubsection}{\numberline {6.5.1.2}For experimental purposes}{30}{subsubsection.6.5.1.2}
+\contentsline {subsubsection}{\numberline {6.5.1.3}For computational idexing (get me melody with x tonal score)}{30}{subsubsection.6.5.1.3}
+\contentsline {subsubsection}{\numberline {6.5.1.4}Could serve as representation of implicitly learned expectations for future modeling}{30}{subsubsection.6.5.1.4}
+\contentsline {subsection}{\numberline {6.5.2}Feature Level}{30}{subsection.6.5.2}
+\contentsline {subsubsection}{\numberline {6.5.2.1}What features are normally distributed}{30}{subsubsection.6.5.2.1}
+\contentsline {subsubsection}{\numberline {6.5.2.2}Correlated feature problem}{30}{subsubsection.6.5.2.2}
+\contentsline {subsubsection}{\numberline {6.5.2.3}big \textasciitilde {}facet wrap of the whole thing}{30}{subsubsection.6.5.2.3}
+\contentsline {subsubsection}{\numberline {6.5.2.4}Could do dimensonality reduction (Baker, Harrison, others) but then loose understanding}{30}{subsubsection.6.5.2.4}
+\contentsline {subsection}{\numberline {6.5.3}n-gram}{30}{subsection.6.5.3}
+\contentsline {subsubsection}{\numberline {6.5.3.1}Big solfege n-gram table}{30}{subsubsection.6.5.3.1}
+\contentsline {subsubsection}{\numberline {6.5.3.2}Dependent on representation (notes, solfege, mint)}{30}{subsubsection.6.5.3.2}
+\contentsline {subsubsection}{\numberline {6.5.3.3}Shiny app of n-gram heatmap with Peter}{30}{subsubsection.6.5.3.3}
+\contentsline {subsubsection}{\numberline {6.5.3.4}Idea would be that hotter n-grams lend them selves to better chunking (but need better word than chunking)}{30}{subsubsection.6.5.3.4}
+\contentsline {chapter}{\numberline {7}Experiments}{31}{chapter.7}
+\contentsline {section}{\numberline {7.1}Rationale}{31}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Have done all this and have not actually talked about dictation yet}{31}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Clearly many factors contribte to this whole thing and need to be taken into a model}{31}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Dictation is basically a within subjects design Experiment}{31}{subsection.7.1.3}
+\contentsline {subsubsection}{\numberline {7.1.3.1}Get very ecological and dirty and run it}{31}{subsubsection.7.1.3.1}
+\contentsline {subsection}{\numberline {7.1.4}Factors}{31}{subsection.7.1.4}
+\contentsline {subsubsection}{\numberline {7.1.4.1}Cognitive}{31}{subsubsection.7.1.4.1}
+\contentsline {paragraph}{\numberline {7.1.4.1.1}WMC}{31}{paragraph.7.1.4.1.1}
+\contentsline {paragraph}{\numberline {7.1.4.1.2}GF}{31}{paragraph.7.1.4.1.2}
+\contentsline {subsubsection}{\numberline {7.1.4.2}Training}{31}{subsubsection.7.1.4.2}
+\contentsline {paragraph}{\numberline {7.1.4.2.1}Goldsmiths MSI}{31}{paragraph.7.1.4.2.1}
+\contentsline {subsubsection}{\numberline {7.1.4.3}Musical}{31}{subsubsection.7.1.4.3}
+\contentsline {paragraph}{\numberline {7.1.4.3.1}FANTASTIC}{31}{paragraph.7.1.4.3.1}
+\contentsline {paragraph}{\numberline {7.1.4.3.2}IDyOM}{31}{paragraph.7.1.4.3.2}
+\contentsline {subsubsection}{\numberline {7.1.4.4}Investigate melodies with this context and set scoring}{33}{subsubsection.7.1.4.4}
+\contentsline {subsubsection}{\numberline {7.1.4.5}Mirror design to see if effects of melody are there}{33}{subsubsection.7.1.4.5}
+\contentsline {section}{\numberline {7.2}Experiments}{33}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Experiment I}{33}{subsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.1.1}Participants}{33}{subsubsection.7.2.1.1}
+\contentsline {subsubsection}{\numberline {7.2.1.2}Procedure}{33}{subsubsection.7.2.1.2}
+\contentsline {subsubsection}{\numberline {7.2.1.3}Materials}{33}{subsubsection.7.2.1.3}
+\contentsline {subsubsection}{\numberline {7.2.1.4}Scoring}{33}{subsubsection.7.2.1.4}
+\contentsline {subsubsection}{\numberline {7.2.1.5}Results}{33}{subsubsection.7.2.1.5}
+\contentsline {subsubsection}{\numberline {7.2.1.6}Modeling}{33}{subsubsection.7.2.1.6}
+\contentsline {subsubsection}{\numberline {7.2.1.7}Discussion}{33}{subsubsection.7.2.1.7}
+\contentsline {subsection}{\numberline {7.2.2}Experiment II}{33}{subsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.1}Participants (New)}{33}{subsubsection.7.2.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2.2}Procedure (Same)}{33}{subsubsection.7.2.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.3}Materials (Swapped but controlled)}{33}{subsubsection.7.2.2.3}
+\contentsline {subsubsection}{\numberline {7.2.2.4}Scoring (Same)}{33}{subsubsection.7.2.2.4}
+\contentsline {subsubsection}{\numberline {7.2.2.5}Results}{33}{subsubsection.7.2.2.5}
+\contentsline {subsubsection}{\numberline {7.2.2.6}Modeling (same)}{33}{subsubsection.7.2.2.6}
+\contentsline {subsection}{\numberline {7.2.3}General Discussion}{33}{subsection.7.2.3}
+\contentsline {subsubsection}{\numberline {7.2.3.1}What happened}{33}{subsubsection.7.2.3.1}
+\contentsline {subsubsection}{\numberline {7.2.3.2}Assumption of all of this is that many things are happening linearly in combination with each other}{33}{subsubsection.7.2.3.2}
+\contentsline {subsubsection}{\numberline {7.2.3.3}Additionally the mixed effects framework works better with more data?}{33}{subsubsection.7.2.3.3}
+\contentsline {subsubsection}{\numberline {7.2.3.4}Also how we score it is going to mess wiht the DVs}{33}{subsubsection.7.2.3.4}
+\contentsline {subsection}{\numberline {7.2.4}Really what is needed is Computational Model}{33}{subsection.7.2.4}
+\contentsline {section}{\numberline {7.3}Computational Cognitive Model Model (If time permits) {[}Whole article in itself{]}}{33}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Why?}{33}{subsection.7.3.1}
+\contentsline {paragraph}{\numberline {7.3.1.0.1}Better than verbal models}{33}{paragraph.7.3.1.0.1}
+\contentsline {paragraph}{\numberline {7.3.1.0.2}Sometimes even mathematically infesable proposed theory}{34}{paragraph.7.3.1.0.2}
+\contentsline {paragraph}{\numberline {7.3.1.0.3}Beyond Karpinski in that it doesn't just schematize, says exactly when each thing is happening when}{34}{paragraph.7.3.1.0.3}
+\contentsline {paragraph}{\numberline {7.3.1.0.4}Lends itself to better discussions that don't just rely on personal anecdotes}{34}{paragraph.7.3.1.0.4}
+\contentsline {paragraph}{\numberline {7.3.1.0.5}Can tweak the parameters}{34}{paragraph.7.3.1.0.5}
+\contentsline {paragraph}{\numberline {7.3.1.0.6}Can collect different types of data (corpus or experimental) and use the model}{34}{paragraph.7.3.1.0.6}
+\contentsline {paragraph}{\numberline {7.3.1.0.7}This model suggests that atomism approach is actual just subprocess of larger pattern}{34}{paragraph.7.3.1.0.7}
+\contentsline {subsubsection}{\numberline {7.3.1.1}Theoretical Justification}{34}{subsubsection.7.3.1.1}
+\contentsline {paragraph}{\numberline {7.3.1.1.1}Marries literature on LTM and prior knowledge, information theory, WMC, computation, representation}{34}{paragraph.7.3.1.1.1}
+\contentsline {paragraph}{\numberline {7.3.1.1.2}Also can be implemented in computer}{34}{paragraph.7.3.1.1.2}
+\contentsline {paragraph}{\numberline {7.3.1.1.3}represntation of rhythm too?}{34}{paragraph.7.3.1.1.3}
+\contentsline {paragraph}{\numberline {7.3.1.1.4}inspired by people like margulis 2005, albrecht and shanahan key finding, want something to contribute}{34}{paragraph.7.3.1.1.4}
+\contentsline {paragraph}{\numberline {7.3.1.1.5}Really Made me think}{34}{paragraph.7.3.1.1.5}
+\contentsline {subsubsection}{\numberline {7.3.1.2}The Model (note many parameters can be changed in R package)}{34}{subsubsection.7.3.1.2}
+\contentsline {subsubsection}{\numberline {7.3.1.3}Prior}{34}{subsubsection.7.3.1.3}
+\contentsline {subparagraph}{\numberline {7.3.1.3.0.1}Corpus of music represented in form of n-grams}{34}{subparagraph.7.3.1.3.0.1}
+\contentsline {subparagraph}{\numberline {7.3.1.3.0.2}IDyOM extracts all possible n-gram permutations as learned corpus}{34}{subparagraph.7.3.1.3.0.2}
+\contentsline {paragraph}{\numberline {7.3.1.3.1}Music notation fed into processing window where incoming n-gram is matched based on WMC window OR IT maximum}{34}{paragraph.7.3.1.3.1}
+\contentsline {subparagraph}{\numberline {7.3.1.3.1.1}Information builds until approaches critical threhold}{34}{subparagraph.7.3.1.3.1.1}
+\contentsline {subparagraph}{\numberline {7.3.1.3.1.2}Upon maximum, model puts n-gram into focus of attention (Cowan 1988) and note why this is better than Baddely Hitch}{34}{subparagraph.7.3.1.3.1.2}
+\contentsline {subparagraph}{\numberline {7.3.1.3.1.3}Recursive transcribe function looks for LTM matches}{35}{subparagraph.7.3.1.3.1.3}
+\contentsline {subparagraph}{\numberline {7.3.1.3.1.4}Put time contraints on search features}{35}{subparagraph.7.3.1.3.1.4}
+\contentsline {subparagraph}{\numberline {7.3.1.3.1.5}Transcribe process resets with trace image of melody after each dictation}{35}{subparagraph.7.3.1.3.1.5}
+\contentsline {subparagraph}{\numberline {7.3.1.3.1.6}Transcribe process ends when all notes accounted for}{35}{subparagraph.7.3.1.3.1.6}
+\contentsline {subsubsection}{\numberline {7.3.1.4}Model Output}{35}{subsubsection.7.3.1.4}
+\contentsline {paragraph}{\numberline {7.3.1.4.1}Based on leanrning, times needed to hear it}{35}{paragraph.7.3.1.4.1}
+\contentsline {paragraph}{\numberline {7.3.1.4.2}Completion percentage}{35}{paragraph.7.3.1.4.2}
+\contentsline {paragraph}{\numberline {7.3.1.4.3}Rank order of easier to transcribe parts based on learning}{35}{paragraph.7.3.1.4.3}
+\contentsline {subsubsection}{\numberline {7.3.1.5}Model Compared to Data}{35}{subsubsection.7.3.1.5}
+\contentsline {paragraph}{\numberline {7.3.1.5.1}With Experimental Data}{35}{paragraph.7.3.1.5.1}
+\contentsline {subsection}{\numberline {7.3.2}Future Suggestions for Aural Skills Pedagoges and Research}{35}{subsection.7.3.2}
+\contentsline {subsubsection}{\numberline {7.3.2.1}Use model as teaching stepping off point}{35}{subsubsection.7.3.2.1}
+\contentsline {subsubsection}{\numberline {7.3.2.2}Should move towards LTM pattern matching}{35}{subsubsection.7.3.2.2}
+\contentsline {subsubsection}{\numberline {7.3.2.3}Reason that people learn how to sight sing is to INCREASE the learning of the implict corpus}{35}{subsubsection.7.3.2.3}
+\contentsline {subsubsection}{\numberline {7.3.2.4}Circular process here}{35}{subsubsection.7.3.2.4}
+\contentsline {subsubsection}{\numberline {7.3.2.5}Is this what it means to then think IN music}{35}{subsubsection.7.3.2.5}
+\contentsline {subsubsection}{\numberline {7.3.2.6}Really it's to just know the patterns maybe like model where Justin London suggests we get to know patterns and expect themn}{35}{subsubsection.7.3.2.6}
+\contentsline {subsubsection}{\numberline {7.3.2.7}Would also make sense in terms of Leonard Meyer 1956}{35}{subsubsection.7.3.2.7}
+\contentsline {subsubsection}{\numberline {7.3.2.8}Use WMC in music theory, cognition, education studies}{35}{subsubsection.7.3.2.8}
+\contentsline {chapter}{\numberline {8}Reference Log}{37}{chapter.8}
+\contentsline {section}{\numberline {8.1}To Incorporate}{37}{section.8.1}
+\contentsline {section}{\numberline {8.2}Chapter 3}{38}{section.8.2}

@@ -4,14 +4,16 @@ Repo for my PhD Dissertation: Modeling Melodic Dictation
 
 ## COUNTDOWN
 
-* [ ] Format TOC 
-* [ ] Write Thank You
-* [ ] Dedication
-* [ ] Add IDyOM Scale Degree
-* [ ] Add Abstract
+* [ ] Add Image Permission slips to appendix 
+
+* [X] Format TOC 
+* [X] Write Thank You
+* [X] Dedication
+* [X] Add IDyOM Scale Degree
+* [X] Add Abstract
 * [X] Check all Figures for Sizing, decomment
 * [X] Get Phil Melodies
-* [ ] Fantastic on Phil 
+* [X] Fantastic on Phil 
 * [X] Section 441 Edits
 * [X] 441 Edits to Again, Again abstract
 * [X] Create Distribution Panel for Prior Knowledge
@@ -63,7 +65,7 @@ Repo for my PhD Dissertation: Modeling Melodic Dictation
 
 * [X] General Level flow edits
 * [X] Discussion on grading
-* [ ] Reorganize analysis 
+* [X] Reorganize analysis 
 * [X] Extend discssion
 
 ### Comp Model 

@@ -32,7 +32,7 @@
 <meta name="author" content="May 2019">
 
 
-<meta name="date" content="2019-04-16">
+<meta name="date" content="2019-04-17">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -55,6 +55,7 @@
 
 
 
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
 
 
 
@@ -143,6 +144,7 @@
 <li class="chapter" data-level="5.4.1" data-path="chapterfour.html"><a href="chapterfour.html#corpus-analysis-1"><i class="fa fa-check"></i><b>5.4.1</b> Corpus Analysis</a></li>
 <li class="chapter" data-level="5.4.2" data-path="chapterfour.html"><a href="chapterfour.html#discussion-1"><i class="fa fa-check"></i><b>5.4.2</b> Discussion</a></li>
 </ul></li>
+<li class="chapter" data-level="5.5" data-path="chapterfour.html"><a href="chapterfour.html#conclusions-2"><i class="fa fa-check"></i><b>5.5</b> Conclusions</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="experiment.html"><a href="experiment.html"><i class="fa fa-check"></i><b>6</b> Experiment</a><ul>
 <li class="chapter" data-level="6.1" data-path="experiment.html"><a href="experiment.html#rationale-4"><i class="fa fa-check"></i><b>6.1</b> Rationale</a></li>
@@ -161,7 +163,7 @@
 <li class="chapter" data-level="6.4.2" data-path="experiment.html"><a href="experiment.html#modeling-1"><i class="fa fa-check"></i><b>6.4.2</b> Modeling</a></li>
 </ul></li>
 <li class="chapter" data-level="6.5" data-path="experiment.html"><a href="experiment.html#discussion-2"><i class="fa fa-check"></i><b>6.5</b> Discussion</a></li>
-<li class="chapter" data-level="6.6" data-path="experiment.html"><a href="experiment.html#conclusions-2"><i class="fa fa-check"></i><b>6.6</b> Conclusions</a></li>
+<li class="chapter" data-level="6.6" data-path="experiment.html"><a href="experiment.html#conclusions-3"><i class="fa fa-check"></i><b>6.6</b> Conclusions</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="computational-model.html"><a href="computational-model.html"><i class="fa fa-check"></i><b>7</b> Computational Model</a><ul>
 <li class="chapter" data-level="7.1" data-path="computational-model.html"><a href="computational-model.html#levels-of-abstraction"><i class="fa fa-check"></i><b>7.1</b> Levels of Abstraction</a></li>
@@ -180,7 +182,7 @@
 <li class="chapter" data-level="7.4.1" data-path="computational-model.html"><a href="computational-model.html#computational-model-1"><i class="fa fa-check"></i><b>7.4.1</b> Computational Model</a></li>
 <li class="chapter" data-level="7.4.2" data-path="computational-model.html"><a href="computational-model.html#example"><i class="fa fa-check"></i><b>7.4.2</b> Example</a></li>
 </ul></li>
-<li class="chapter" data-level="7.5" data-path="computational-model.html"><a href="computational-model.html#conclusions-3"><i class="fa fa-check"></i><b>7.5</b> Conclusions</a></li>
+<li class="chapter" data-level="7.5" data-path="computational-model.html"><a href="computational-model.html#conclusions-4"><i class="fa fa-check"></i><b>7.5</b> Conclusions</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
@@ -223,7 +225,7 @@ Additionally, I discuss the intricacies associated with scoring and relate these
 <h2><span class="header-section-number">6.2</span> Introduction</h2>
 <p>Despite its near ubiquity in Conservatory and School of Music curricula, research surrounding topics concerning aural skills is not well understood.
 This is peculiar since almost any individual seeking to earn a degree in music usually must enroll in multiple aural skills classes that cover a wide array of topics from sight-singing melodies, to melodic and harmonic dictation– all of which are presumed to be fundamental to any musician’s formal training.
-Skills acquired in these classes are meant to hone the musician’s ear and enable them not only to think about music, but to borrow Karpinski’s phrase, to “think in music” <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>, <a href="mailto:p.4;@bestMusicCurriculaFuture1992">p.4;@bestMusicCurriculaFuture1992</a>)</span>.
+Skills acquired in these classes are meant to hone the musician’s ear and enable them not only to think about music, but to borrow Karpinski’s phrase, to “think in music” <span class="citation">(Karpinski <a href="#ref-karpinskiAuralSkillsAcquisition2000">2000</a>, 4; Best <a href="#ref-bestMusicCurriculaFuture1992">1992</a>)</span>.
 The tacit assumption behind these tasks is that once one learns to think in music, these abilities should transfer to other aspects of the musician’s playing in a deep and profound way.
 The skills that make up an individual’s aural skills encompass many abilities, and are thought to be reflective of some sort of core skill.
 This logic is evident in early attempts to model performance in aural skills classes where <span class="citation">Harrison, Asmus, and Serpe (<a href="#ref-harrisonEffectsMusicalAptitude1994">1994</a>)</span> created a latent variable model to predict an individual’s success in aural skills classes based on musical aptitude, musical experience, motivation, and academic ability.
@@ -317,43 +319,85 @@ Participants volunteered, received course credit, or were paid $10.</p>
 <p>Four melodies for the dictation were selected from a corpus of N=115 melodies derived from the A New Approach to Sight Singing aural skills textbook <span class="citation">(Berkowitz et al. <a href="#ref-berkowitzNewApproachSight2011">2011</a>)</span>.
 Melodies were chosen based on their musical features as extracted via the FANTASTIC Toolbox <span class="citation">(Mullensiefen <a href="#ref-mullensiefenFantasticFeatureANalysis2009">2009</a>)</span>.
 After abstracting the full set of features of the melodies, possible melodies were first narrowed down by limiting the corpus to melodies lasting between 9 and 12 seconds and then indexed to select four melodies that were chosen as part of a 2 x 2 repeated measures design including a high and low tonalness and note density condition.
-Melodies, as well as a table of their abstracted features can be seen in <a href="#expfeaturetable"><strong>??</strong></a> and <a href="experiment.html#fig:b34">6.1</a>, <a href="experiment.html#fig:b95">6.2</a>,<a href="#fig:112"><strong>??</strong></a>, and <a href="experiment.html#fig:b9">6.4</a> .
+Melodies, as well as a table of their abstracted features can be seen in <a href="experiment.html#tab:expfeaturetable">6.1</a> and <a href="experiment.html#fig:b34">6.1</a>, <a href="experiment.html#fig:b95">6.2</a>,<a href="experiment.html#fig:b112">6.3</a>, and <a href="experiment.html#fig:b9">6.4</a> .
 Melodies and other sounds used were encoded using MuseScore 2 using the standard piano timbre and all set to a tempo of quarter = 120 beats per minute and adjusted accordingly based on time signature to ensure they all were same absolute time duration.
 The experiment was then coded in jsPsych <span class="citation">(de Leeuw <a href="#ref-deleeuwJsPsychJavaScriptLibrary2015">2015</a>)</span> and played through a browser offline with high quality headphones.</p>
 <table>
-<caption><span id="tab:expfeaturetable">Table 6.1: </span>Feature Table</caption>
+<caption>
+<span id="tab:expfeaturetable">Table 6.1: </span>Feature Table
+</caption>
 <thead>
-<tr class="header">
-<th align="left">Melodies</th>
-<th align="right">Tonalness</th>
-<th align="right">Note.Density</th>
-<th align="left">Design</th>
+<tr>
+<th style="text-align:left;">
+Melody Number
+</th>
+<th style="text-align:right;">
+Tonalness
+</th>
+<th style="text-align:right;">
+Note Density
+</th>
+<th style="text-align:left;">
+Feature Category
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td align="left">34</td>
-<td align="right">0.95</td>
-<td align="right">1.67</td>
-<td align="left">High Tonal, Low Note Density</td>
+<tr>
+<td style="text-align:left;">
+34
+</td>
+<td style="text-align:right;">
+0.95
+</td>
+<td style="text-align:right;">
+1.67
+</td>
+<td style="text-align:left;">
+High Tonal, Low Note Density
+</td>
 </tr>
-<tr class="even">
-<td align="left">112</td>
-<td align="right">0.98</td>
-<td align="right">3.73</td>
-<td align="left">High Tonal, High Note Density</td>
+<tr>
+<td style="text-align:left;">
+112
+</td>
+<td style="text-align:right;">
+0.98
+</td>
+<td style="text-align:right;">
+3.73
+</td>
+<td style="text-align:left;">
+High Tonal, High Note Density
+</td>
 </tr>
-<tr class="odd">
-<td align="left">9</td>
-<td align="right">0.71</td>
-<td align="right">1.75</td>
-<td align="left">Low Tonal, Low Note Density</td>
+<tr>
+<td style="text-align:left;">
+9
+</td>
+<td style="text-align:right;">
+0.71
+</td>
+<td style="text-align:right;">
+1.75
+</td>
+<td style="text-align:left;">
+Low Tonal, Low Note Density
+</td>
 </tr>
-<tr class="even">
-<td align="left">95</td>
-<td align="right">0.76</td>
-<td align="right">3.91</td>
-<td align="left">Low Tonal, High Note Density</td>
+<tr>
+<td style="text-align:left;">
+95
+</td>
+<td style="text-align:right;">
+0.76
+</td>
+<td style="text-align:right;">
+3.91
+</td>
+<td style="text-align:left;">
+Low Tonal, High Note Density
+</td>
 </tr>
 </tbody>
 </table>
@@ -422,10 +466,10 @@ After list-wise deletion, thirty-nine participants remained.</p>
 </div>
 <div id="modeling-1" class="section level3">
 <h3><span class="header-section-number">6.4.2</span> Modeling</h3>
-<p>In order to model the data and investigate the hypotheses, I fit a series of linear mixed effects models using the R programming langauge <span class="citation">(R Core Team <a href="#ref-R-base">2017</a>)</span> and the <em>lme4</em> and <em>LMERTEST</em> <span class="citation">(Bates et al. <a href="#ref-batesFittingLinearMixedEffects2015">2015</a>)</span> packages to predict scores from the dictation exercise using both individual and musical variables.
-Variables are added at each step and tests of significant model improvement are presented in Table <a href="#modeltable"><strong>??</strong></a>.
+<p>In order to model the data and investigate the hypotheses, I fit a series of linear mixed effects models using the R programming langauge <span class="citation">(R Core Team <a href="#ref-R-base">2017</a>)</span> and the <em>lme4</em> and <em>LmerTest</em> <span class="citation">(Bates et al. <a href="#ref-batesFittingLinearMixedEffects2015">2015</a>; Kuznetsova, Brockhoff, and Christensen <a href="#ref-lmerTest">2017</a>)</span> packages to predict scores from the dictation exercise using both individual and musical variables.
+Variables are added at each step and tests of significant model improvement are presented in Table <a href="experiment.html#tab:modeltable">6.2</a>.
 P-values were obtained by likelihood ratio tests between models.
-I also report AIC and BIC measures for each model ran.
+I report AIC and BIC measures for each model ran.
 Models were ran sequentially moving from a null model to a theoretical, statistical model predicted by variables discussed above.</p>
 <p>After establishing a null model (Model 1, <code>null_model</code>), I then added individual level predictors (<code>wmc_model</code> (Model 2) and <code>gf_model</code>, and <code>cognitive_model</code>) carrying forward only measures of working memory capacity.
 No cognitive variables resulted in a significant increase in model fit.
@@ -438,157 +482,376 @@ In order to investigate claims put forward in the third chapter of this disserta
 Finally, I ran two models that accounted for both musical and indiviual level predictors.
 Model 7 exteneds Model 6, with the addition of working memory capacity as fixed effect, allowing for random slopes.
 Model 8 extends Model 5, with the addition of working memory capacity as a fixed effect, allowing for random slopes.
-I depict the fixed effects for all models in <a href="experiment.html#fig:megrid">6.5</a>.
-Tables for each model are presented in Tables <a href="#fig:metable1"><strong>??</strong></a>, @(ref:metable2), @(ref:metable3), and <a href="#metable4"><strong>??</strong></a>.</p>
-<table>
-<caption><span id="tab:modeltable">Table 6.2: </span>Series of Model Fits</caption>
+I depict the fixed effects for all models in <a href="experiment.html#fig:megrid">6.9</a>.
+Tables for each model are presented in Figures <a href="experiment.html#fig:metable1">6.5</a>, <a href="experiment.html#fig:metable2">6.6</a>, <a href="experiment.html#fig:metable3">6.7</a>, and <a href="experiment.html#fig:metable4">6.8</a>.</p>
+<table class="table" style="margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:modeltable">Table 6.2: </span>Series of Model Fits
+</caption>
 <thead>
-<tr class="header">
-<th></th>
-<th align="right">Df</th>
-<th align="right">AIC</th>
-<th align="right">BIC</th>
-<th align="right">logLik</th>
-<th align="right">deviance</th>
-<th align="right">Chisq</th>
-<th align="right">Chi Df</th>
-<th align="right">Pr(&gt;Chisq)</th>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:right;">
+Df
+</th>
+<th style="text-align:right;">
+AIC
+</th>
+<th style="text-align:right;">
+BIC
+</th>
+<th style="text-align:right;">
+logLik
+</th>
+<th style="text-align:right;">
+deviance
+</th>
+<th style="text-align:right;">
+Chisq
+</th>
+<th style="text-align:right;">
+Chi Df
+</th>
+<th style="text-align:right;">
+Pr(&gt;Chisq)
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>null_model</td>
-<td align="right">3</td>
-<td align="right">62.73561</td>
-<td align="right">71.885181</td>
-<td align="right">-28.36781</td>
-<td align="right">56.73561</td>
-<td align="right">NA</td>
-<td align="right">NA</td>
-<td align="right">NA</td>
+<tr>
+<td style="text-align:left;">
+null_model
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+62.74
+</td>
+<td style="text-align:right;">
+71.89
+</td>
+<td style="text-align:right;">
+-28.37
+</td>
+<td style="text-align:right;">
+56.74
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+NA
+</td>
 </tr>
-<tr class="even">
-<td>wmc_model</td>
-<td align="right">4</td>
-<td align="right">63.44881</td>
-<td align="right">75.648235</td>
-<td align="right">-27.72441</td>
-<td align="right">55.44881</td>
-<td align="right">1.286802</td>
-<td align="right">1</td>
-<td align="right">0.2566381</td>
+<tr>
+<td style="text-align:left;">
+wmc_model
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+63.45
+</td>
+<td style="text-align:right;">
+75.65
+</td>
+<td style="text-align:right;">
+-27.72
+</td>
+<td style="text-align:right;">
+55.45
+</td>
+<td style="text-align:right;">
+1.29
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0.26
+</td>
 </tr>
-<tr class="odd">
-<td>gf_model</td>
-<td align="right">4</td>
-<td align="right">64.73129</td>
-<td align="right">76.930718</td>
-<td align="right">-28.36565</td>
-<td align="right">56.73129</td>
-<td align="right">0.000000</td>
-<td align="right">0</td>
-<td align="right">1.0000000</td>
+<tr>
+<td style="text-align:left;">
+gf_model
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+64.73
+</td>
+<td style="text-align:right;">
+76.93
+</td>
+<td style="text-align:right;">
+-28.37
+</td>
+<td style="text-align:right;">
+56.73
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1.00
+</td>
 </tr>
-<tr class="even">
-<td>cognitive_model</td>
-<td align="right">5</td>
-<td align="right">65.38048</td>
-<td align="right">80.629759</td>
-<td align="right">-27.69024</td>
-<td align="right">55.38048</td>
-<td align="right">1.350815</td>
-<td align="right">1</td>
-<td align="right">0.2451357</td>
+<tr>
+<td style="text-align:left;">
+cognitive_model
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+65.38
+</td>
+<td style="text-align:right;">
+80.63
+</td>
+<td style="text-align:right;">
+-27.69
+</td>
+<td style="text-align:right;">
+55.38
+</td>
+<td style="text-align:right;">
+1.35
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0.25
+</td>
 </tr>
-<tr class="odd">
-<td>melody_model</td>
-<td align="right">6</td>
-<td align="right">-59.76827</td>
-<td align="right">-41.469130</td>
-<td align="right">35.88413</td>
-<td align="right">-71.76827</td>
-<td align="right">127.148745</td>
-<td align="right">1</td>
-<td align="right">0.0000000</td>
+<tr>
+<td style="text-align:left;">
+melody_model
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+-59.77
+</td>
+<td style="text-align:right;">
+-41.47
+</td>
+<td style="text-align:right;">
+35.88
+</td>
+<td style="text-align:right;">
+-71.77
+</td>
+<td style="text-align:right;">
+127.15
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0.00
+</td>
 </tr>
-<tr class="even">
-<td>feature_category_model</td>
-<td align="right">6</td>
-<td align="right">-59.76827</td>
-<td align="right">-41.469130</td>
-<td align="right">35.88413</td>
-<td align="right">-71.76827</td>
-<td align="right">0.000000</td>
-<td align="right">0</td>
-<td align="right">1.0000000</td>
+<tr>
+<td style="text-align:left;">
+feature_category_model
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+-59.77
+</td>
+<td style="text-align:right;">
+-41.47
+</td>
+<td style="text-align:right;">
+35.88
+</td>
+<td style="text-align:right;">
+-71.77
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1.00
+</td>
 </tr>
-<tr class="odd">
-<td>feature_ientropy_model</td>
-<td align="right">6</td>
-<td align="right">-28.80330</td>
-<td align="right">-10.504165</td>
-<td align="right">20.40165</td>
-<td align="right">-40.80330</td>
-<td align="right">0.000000</td>
-<td align="right">0</td>
-<td align="right">1.0000000</td>
+<tr>
+<td style="text-align:left;">
+feature_ientropy_model
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+-28.80
+</td>
+<td style="text-align:right;">
+-10.50
+</td>
+<td style="text-align:right;">
+20.40
+</td>
+<td style="text-align:right;">
+-40.80
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1.00
+</td>
 </tr>
-<tr class="even">
-<td>total_model_ientropy</td>
-<td align="right">7</td>
-<td align="right">-22.83439</td>
-<td align="right">-1.485395</td>
-<td align="right">18.41719</td>
-<td align="right">-36.83439</td>
-<td align="right">0.000000</td>
-<td align="right">1</td>
-<td align="right">1.0000000</td>
+<tr>
+<td style="text-align:left;">
+total_model_ientropy
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+-22.83
+</td>
+<td style="text-align:right;">
+-1.49
+</td>
+<td style="text-align:right;">
+18.42
+</td>
+<td style="text-align:right;">
+-36.83
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+1.00
+</td>
 </tr>
-<tr class="odd">
-<td>feature_cont_model</td>
-<td align="right">8</td>
-<td align="right">-68.07246</td>
-<td align="right">-43.673611</td>
-<td align="right">42.03623</td>
-<td align="right">-84.07246</td>
-<td align="right">47.238072</td>
-<td align="right">1</td>
-<td align="right">0.0000000</td>
+<tr>
+<td style="text-align:left;">
+feature_cont_model
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+-68.07
+</td>
+<td style="text-align:right;">
+-43.67
+</td>
+<td style="text-align:right;">
+42.04
+</td>
+<td style="text-align:right;">
+-84.07
+</td>
+<td style="text-align:right;">
+47.24
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0.00
+</td>
 </tr>
-<tr class="even">
-<td>total_model_experimental</td>
-<td align="right">9</td>
-<td align="right">-56.97263</td>
-<td align="right">-29.523924</td>
-<td align="right">37.48631</td>
-<td align="right">-74.97263</td>
-<td align="right">0.000000</td>
-<td align="right">1</td>
-<td align="right">1.0000000</td>
+<tr>
+<td style="text-align:left;">
+total_model_experimental
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+-56.97
+</td>
+<td style="text-align:right;">
+-29.52
+</td>
+<td style="text-align:right;">
+37.49
+</td>
+<td style="text-align:right;">
+-74.97
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+1.00
+</td>
 </tr>
 </tbody>
 </table>
-<p><img src="img/metable1.png" width="100%" style="display: block; margin: auto;" /></p>
-<p><img src="img/metable2.png" width="100%" style="display: block; margin: auto;" /></p>
-<p><img src="img/metable3.png" width="100%" style="display: block; margin: auto;" /></p>
-<p><img src="img/metable4.png" width="100%" style="display: block; margin: auto;" /></p>
+<div class="figure" style="text-align: center"><span id="fig:metable1"></span>
+<img src="img/metable1.png" alt="Mixed Effects Models 1" width="100%" />
+<p class="caption">
+Figure 6.5: Mixed Effects Models 1
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:metable2"></span>
+<img src="img/metable2.png" alt="Mixed Effects Models 2" width="100%" />
+<p class="caption">
+Figure 6.6: Mixed Effects Models 2
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:metable3"></span>
+<img src="img/metable3.png" alt="Mixed Effects Models 3" width="100%" />
+<p class="caption">
+Figure 6.7: Mixed Effects Models 3
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:metable4"></span>
+<img src="img/metable4.png" alt="Mixed Effects Models 4" width="100%" />
+<p class="caption">
+Figure 6.8: Mixed Effects Models 4
+</p>
+</div>
 <div class="figure" style="text-align: center"><span id="fig:megrid"></span>
 <img src="img/me_grid.png" alt="Fixed Effects of Models" width="100%" />
 <p class="caption">
-Figure 6.5: Fixed Effects of Models
+Figure 6.9: Fixed Effects of Models
 </p>
 </div>
-<p>Distributions for average scores of the melodies are found in <a href="experiment.html#fig:eboxplot">6.6</a> and density scores of these items are foudn in <a href="experiment.html#fig:edistribution">6.7</a>.</p>
+<p>Distributions for average scores of the melodies are found in Figure <a href="experiment.html#fig:eboxplot">6.10</a> and density scores of these items are found in Figure <a href="experiment.html#fig:edistribution">6.11</a>.</p>
 <div class="figure" style="text-align: center"><span id="fig:eboxplot"></span>
-<img src="img/melody_difficulty.png" alt="Melody Difficulty" width="100%" />
+<img src="img/melody_difficulty.png" alt="Item Difficulty Distribution" width="100%" />
 <p class="caption">
-Figure 6.6: Melody Difficulty
+Figure 6.10: Item Difficulty Distribution
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:edistribution"></span>
-<img src="img/melody_differences.png" alt="Melodic Differences" width="100%" />
+<img src="img/melody_differences.png" alt="Between Melody Differences" width="100%" />
 <p class="caption">
-Figure 6.7: Melodic Differences
+Figure 6.11: Between Melody Differences
 </p>
 </div>
 </div>
@@ -597,34 +860,31 @@ Figure 6.7: Melodic Differences
 <h2><span class="header-section-number">6.5</span> Discussion</h2>
 <p>In this chapter, I investigated the extent to which both individual differences and abstracted musical features could be used to model results in melodic dictations.
 In order to examine <span class="math inline">\(H1\)</span>, I ran a linear mixed effects model in order discern any differences in melody difficulty.
-As noted in <a href="#HERE"><strong>??</strong></a>, both a significant main effect of Tonalness and Note Density was found, as well as a small interaction between the two variables suggesting evidence supporting rejecting <span class="math inline">\(H2\)</span>’s null hypothesis.
+As noted in Figure <a href="experiment.html#fig:metable2">6.6</a>, both a significant main effect of Tonalness and Note Density was found, as well as a small interaction between the two variables suggesting evidence supporting rejecting <span class="math inline">\(H2\)</span>’s null hypothesis.
 The interaction emerged from differences in melody means in the low density conditions with the melody with higher tonalness actually scoring higher in terms of number of errors.
 Subsequent adding of individual level predictors did result in a better fitting model.</p>
-<p>While I expected to find an interaction, this condition (Melody 34) was hypothesized to be the easiest of the four
-conditions.
-With Melody 9 there was a clear floor effect, which was also to be expected as when we chose the melodies, I had no previous experimental data explicitly looking at melodic dictation to rely on.
+<p>While I expected to find an interaction, Melody 34 was hypothesized to be the easiest of the four conditions.
+With Melody 9 there was a clear floor effect, which was also to be expected as when I chose the melodies, I had no previous experimental data explicitly looking at melodic dictation to rely on.
 Future experiments should use abstracted features from Melody 9 as a baseline in order to avoid floor effects.</p>
 <p>The main effect of note density was expected and exhibited a large effect size. (<span class="math inline">\(\eta\)</span> = .46).
 While it would be tempting to attribute this finding exactly to the Note Density feature extracted by FANTASTIC, the high and low density conditions could also be operationalized as having compound versus simple meter.
 Given the large effect of note density, I plan on taking more careful steps in the selection of our next melodies in order to control for any effects of meter and keep the effects limited to one meter if at all possible.</p>
-<p>Somewhat surprisingly, the analysis incorporating the cognitive measures of covariance did not yield any significant
-results.
+<p>Somewhat surprisingly, the analysis incorporating the cognitive measures of covariance did not yield any significant results.
 While other researchers and the third Chapter of this disseratation have noted the importance of baseline cognitive ability <span class="citation">(Schellenberg and W. Weiss <a href="#ref-schellenbergMusicCognitiveAbilities2013">2013</a>)</span>, the task specificity of doing melodic dictation as we designed the experiment might not be well suited to capture the variability needed for any effects.
-Hence, this chapter would not be able to reject H3’s null hypothesis.
+Hence, this chapter would not be able to reject <span class="math inline">\(H3\)</span>’s null hypothesis.
 Considering that other researchers have found constructs like working memory capacity and general fluid intelligence to be important factors of tasks of musical perception, a more refined design might be considered in the future to find any sort of effects.
 Taken as a whole, these findings suggest that aural skills pedagogues should consider exploring the extent to which computationally extracted features can guide the difficulty expected of melodic dictation exercises.</p>
 </div>
-<div id="conclusions-2" class="section level2">
+<div id="conclusions-3" class="section level2">
 <h2><span class="header-section-number">6.6</span> Conclusions</h2>
 <p>This chapter demonstrated that abstracted musical features such as tonalness and note density can play a role in predicting how well students do in tasks of melodic dictation.
-While the experiment failed to yield any significant differences in cognitive ability predicting success at the task, future research plans should not fail to take these effects into consideration.</p>
-<p>One important caveat in this modeling is that the models reported here are subject to change given other scoring procedures.
+While the experiment failed to yield any significant differences in cognitive ability predicting success at the task, future research plans should not fail to take these effects into consideration.
+One important caveat in this modeling is that the models reported here are subject to change given other scoring procedures.
 There is a high degree of variability in how melodic dictations are scored <span class="citation">(Gillespie <a href="#ref-gillespieMelodicDictationScoring2001">2001</a>)</span>, and modeling how different scoring procedures lead to differing results should be considered for future research.
 Importantly, if a researcher adopted this paradigm for investigating melodic dictation, what is most important is that there is some sort of external reference a single scorer can compare themselves to.
 Without having a pre-defined metric, scoring and thus grading will be subjected to the scorer’s explicit or implicit biases.
 Given all that has been put forward here, the research thus far still does not explain the underlying processes for melodic dictation.
-In this chapter, I have put forward two factors that help describe what contributes to this process using a principled experimental framework.
-– sentence on principle.</p>
+In this chapter, I have put forward two factors that help describe what contributes to this process using a principled experimental framework.</p>
 
 </div>
 </div>
@@ -638,6 +898,9 @@ In this chapter, I have put forward two factors that help describe what contribu
 </div>
 <div id="ref-karpinskiAuralSkillsAcquisition2000">
 <p>Karpinski, Gary Steven. 2000. <em>Aural Skills Acquisition: The Development of Listening, Reading, and Performing Skills in College-Level Musicians</em>. Oxford University Press.</p>
+</div>
+<div id="ref-bestMusicCurriculaFuture1992">
+<p>Best, Harold M. 1992. “Music Curricula in the Future.” <em>Arts Education Policy Review</em> 94 (2): 2–7. <a href="https://doi.org/10.1080/10632913.1992.9936901" class="uri">https://doi.org/10.1080/10632913.1992.9936901</a>.</p>
 </div>
 <div id="ref-harrisonEffectsMusicalAptitude1994">
 <p>Harrison, Carole S., Edward P. Asmus, and Richard T. Serpe. 1994. “Effects of Musical Aptitude, Academic Ability, Music Experience, and Motivation on Aural Skills.” <em>Journal of Research in Music Education</em> 42 (2): 131. <a href="https://doi.org/10.2307/3345497" class="uri">https://doi.org/10.2307/3345497</a>.</p>
@@ -791,6 +1054,9 @@ In this chapter, I have put forward two factors that help describe what contribu
 </div>
 <div id="ref-batesFittingLinearMixedEffects2015">
 <p>Bates, Douglas, Martin Mächler, Ben Bolker, and Steve Walker. 2015. “Fitting Linear Mixed-Effects Models Using Lme4.” <em>Journal of Statistical Software</em> 67 (1). <a href="https://doi.org/10.18637/jss.v067.i01" class="uri">https://doi.org/10.18637/jss.v067.i01</a>.</p>
+</div>
+<div id="ref-lmerTest">
+<p>Kuznetsova, Alexandra, Per B. Brockhoff, and Rune H. B. Christensen. 2017. “lmerTest Package: Tests in Linear Mixed Effects Models.” <em>Journal of Statistical Software</em> 82 (13): 1–26. <a href="https://doi.org/10.18637/jss.v082.i13" class="uri">https://doi.org/10.18637/jss.v082.i13</a>.</p>
 </div>
 <div id="ref-schellenbergMusicCognitiveAbilities2013">
 <p>Schellenberg, E. Glenn, and Michael W. Weiss. 2013. “Music and Cognitive Abilities.” In <em>The Psychology of Music</em>, 499–550. Elsevier. <a href="https://doi.org/10.1016/B978-0-12-381460-9.00012-2" class="uri">https://doi.org/10.1016/B978-0-12-381460-9.00012-2</a>.</p>

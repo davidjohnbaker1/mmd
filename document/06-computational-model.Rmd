@@ -2,7 +2,7 @@
 
 ## Levels of Abstraction
 
-In his 2007 article _Models of Music Similarity_, Geraint Wiggins distinguishes between _descriptive_ and _explanatory_ models in describing the modeling of human behavior [@wigginsModelsMusicalSimilarity2007]. 
+In his 2007 article _Models of Music Similarity_, Geraint Wiggins distinguishes between descriptive and explanatory models in describing the modeling of human behavior [@wigginsModelsMusicalSimilarity2007]. 
 Descriptive models assert what will happen in response to an event.
 For example, as discussed in the previous chapter, as the note density of a melody increases and the tonalness of a melody decreases, a melody becomes more difficult to dictate.
 While the increase in note density is assumed to drive the decrease in dictation scores, merely stating that there is an established relationship between one variable and the other says nothing about the inner workings of this process.
@@ -56,7 +56,7 @@ I discuss the issues of assumptions and representations as they arise in describ
 In order to write a computer program that mirrors the melodic dictation process, how the mind perceives and represents musical information must be defined _a priori_.
 Before delving into questions of representation, this model assumes that the musical surface as represented by the notes via Western musical notation are salient and can be perceived as distinct perceptual phenomena
 Although there is work that suggests that different cultures and levels of experience might not categorize musical information universally [@mcdermottIndifferenceDissonanceNative2016], other work suggests that experiencing pitches as discrete, categorical phenomena is categorized as a statistical human universal [@savageStatisticalUniversalsReveal2015].
-In either case, the most explanatory models of any account of music perception should incorporate many features [@harrisonInstantaneousConsonancePerception]. 
+In either case, the most explanatory models of any account of music perception should incorporate theoretically relevant features [@harrisonDissociatingSensoryCognitive2018]. 
 For the purposes of this model, I assume that individuals do in fact perceive the musical surface similarly to the written score. 
 
 Knowing that it is melodic information or melodic data that needs to be represented, the question then becomes what is the best way in which to represent it.
@@ -216,7 +216,7 @@ knitr::include_graphics("img/Model.png")
 knitr::include_graphics("img/Model Graphic.png")
 ```
 
-Figure \@ref(fig:walktru) depicts one iteration of the model run using the musical example from above using a hypothetical corpus for the pattern matching.
+Figure \@ref(fig:walkthru) depicts one iteration of the model run using the musical example from above using a hypothetical corpus for the pattern matching.
 Using the model above, the following inputs were defined _a priori_:
 
 * The **Prior Knowledge** is a hypothetical corpus of symbolic strings representing all n-grams of melodies

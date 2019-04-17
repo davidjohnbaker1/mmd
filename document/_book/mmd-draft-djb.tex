@@ -24,8 +24,6 @@
 \usepackage[left=1.5in, right=1in, top=2.5in, bottom=2.5in]{geometry}
 \usepackage{hyperref}
 \hypersetup{unicode=true,
-            pdftitle={MODELING MELODIC DICTATION},
-            pdfauthor={A Dissertation; Submitted to the Graduate Faculty of the Louisiana State University and Agricultural and Mechanical College in partial fulfillment of the requirements for the degree of Doctor of Philosophy; in; The School of Music; by David John Baker; B.M., Baldwin Wallace University, 2012; MSc., Goldsmiths, University of London, 2015; May 2019},
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
@@ -69,7 +67,7 @@
 \usepackage{titling}
 
 % Create subtitle command for use in maketitle
-\newcommand{\subtitle}[1]{
+\providecommand{\subtitle}[1]{
   \posttitle{
     \begin{center}\large#1\end{center}
     }
@@ -77,16 +75,14 @@
 
 \setlength{\droptitle}{-2em}
 
-  \title{MODELING MELODIC DICTATION}
-    \pretitle{\vspace{\droptitle}\centering\huge}
-  \posttitle{\par}
-  \subtitle{David John Baker}
-  \author{A Dissertation \\ Submitted to the Graduate Faculty of the Louisiana State University and Agricultural and Mechanical College in partial fulfillment of the requirements for the degree of Doctor of Philosophy \\ in \\ The School of Music \\ by David John Baker \\ B.M., Baldwin Wallace University, 2012 \\ MSc., Goldsmiths, University of London, 2015 \\ May 2019}
-    \preauthor{\centering\large\emph}
-  \postauthor{\par}
+  \title{}
+    \pretitle{\vspace{\droptitle}}
+  \posttitle{}
+    \author{}
+    \preauthor{}\postauthor{}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2019-04-15}
+    \date{2019-04-17}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -95,11 +91,110 @@
   \thm@preskip=8pt plus 2pt minus 4pt
   \thm@postskip=\thm@preskip
 }
+
+
 \makeatother % remove for lsu
 \raggedbottom % remove for LSu
 
+
+
+\frontmatter
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+
 \begin{document}
-\maketitle
+
+\newpage\thispagestyle{empty}
+\begin{center}
+MODELING MELODIC DICTATION
+\end{center}
+\vspace{1in}
+\begin{center}
+A Dissertation
+
+Submitted to the Graduate Faculty of the Louisiana State University and Agricultural and Mechanical College in partial fulfillment of the requirements for the degree of Doctor of Philosophy
+
+in
+
+The School of Music
+\end{center}
+\vspace{1in}
+\begin{center}
+by\\
+David John Baker\\
+B.M., Baldwin Wallace University, 2012\\
+MSc., Goldsmiths, University of London, 2015\\
+May 2019
+\end{center}
+
+
+\setlength{\abovedisplayskip}{-5pt}
+\setlength{\abovedisplayshortskip}{-5pt}
+
+
+
+\cleardoublepage\newpage\thispagestyle{empty}\null
+\cleardoublepage\newpage\thispagestyle{empty}\null
+
+% Copyright
+\thispagestyle{empty}
+
+© 2019 copyright
+
+David John Baker
+
+All rights reserved
+
+\cleardoublepage\newpage
+
+% Dedication
+\thispagestyle{empty}
+\chapter{Dedication}
+
+This dissertation is dedicated to my parents.
+Thank you for valuing education.
+Thank you for fostering my growth in every way possible.
+As a result, you've opened my eyes to the world.
+
+\setlength{\abovedisplayskip}{-5pt}
+\setlength{\abovedisplayshortskip}{-5pt}
+
+% Acknowledgements
+\chapter{Acknowledgements}
+
+This dissertation would not have been possible without the support of a large community people over the past four years.
+First and foremost, I would like to acknowledge and thank my dissertation committee.
+Daniel Shanahan, my main supervisor throughout my doctoral work, who provided countless office conversations and cups of coffee at Highland-- but more importantly-- encouraged me to pursue my reserach interests at the intersection of music theory and music perception; Emily Elliott, for the unmatched support and guidence; and Robert Peck, for the constant reminder and inspiration that research with music and math can always go together.
+
+Secondly, I want to thank the entire Louisiana State University community for always making me feel welcomed, supported.
+The people make the place and everyone I met during my time in Baton Rouge existed as a constant source of knowledge and inspiration throughout my time as a student.
+This includes the Music Cognition and Computation Lab at LSU, the weekly Tin Roof Trivia group, and professors like Jason Harman who opened the door for me every time I knocked.
+
+Thirdly, I want to especially thank those who either went out of their way to help me learn the more technical aspects of research who often go unacknowledged.
+Craig Sapp, for dealing with me as I learned about Humdrum, Yihui Xie writing the bookdown software I used to write this dissertation, the \#rstats community, specifically Hadely Wickahm, for creating the tidyverse, and Daniel Müllensiefen for starting me on my journey into programming.
+Without a committment to free and open source software, this research and dissertation would not have been possible.
+
+Fourthly, I want to thank for all the social support from people I befriended the past few years.
+This includes everyone I met through the Music, Mind and Brain group in London, particularly Peter Harrison for always offering help with software and being sounding board for ideas, as well as Marus Pearce and the rest of the Queen Mary Music Cognition group for letting me sit in on lab meetings while a writing up my PhD in London.
+
+Fifth, I want to thank everyone I have known from Ohio.
+Without getting too teleological, I don't know if I would have ended up on this path without support of friends and professors who listened to what I wanted to do.
+A special thank you goes to Christine Dorey, who suggested I email David Huron to learn what music psychology was all about, which resulted in a 90 minute phone call that carved out the career plan I've been following the past six years.
+
+Lastly, I want to thank all of my friends and family.
+Thank you to Will, Rory, Kevin, Amanda, Ryan, Chris, Kris, Sarah, Phil (also for the melodies!), Owen, Jacob, Michael, Adam, Mark, Sasha, Connor, Elizabeth, Tony, Andrew, Savanna, Jared, Matt, Lauryn, Erin, Lizbeth, Greg, my parents John and Mary, and Evelyn for your support, companionship, love, and always keeping me sane.
 
 {
 \setcounter{tocdepth}{1}
@@ -107,6 +202,25 @@
 }
 \listoftables
 \listoffigures
+\cleardoublepage\newpage
+\chapter{Abstract}
+
+Melodic dictation is a cognitively demanding process that requires students to hear a melody, then without any access to an external reference, transcribe the melody within a limited time frame.
+Despite its ubiquity in curricula within School of Music settings, exactly how an individual learns a melody is not well understood.
+This dissertation aims to fill the gap in the literature between aural skills practitioners and music psychologists in order to reach conclusions that can be applied systematically in pedagogical contexts.
+I accomplish this by synthesizing literature from music theory, music psychology, and music education in order to demonstrate how tools from both cognitive psychology as well as computational musicology can be used to help inform pedagogical practices.
+
+In the first chapter, I discuss factors that might play a role in a student's ability to take melodic dictation and put forward a taxonomy of factors that are assumed to contribute to an individual's ability to take melodic dictation.
+The second chapter of the dissertation investigates individual factors that are theorized to contribute to melodic dictation using a cross-sectional experimental design.
+The chapter corroborates claims on the importance of understanding individual differences in working memory capacity in research on melodic dictation.
+The third chapter discusses how aural skills pedagogy can incorporate methodologies from computational musicology in order to inform teaching practice.
+In my fourth chapter, I introduce the MeloSol corpus, a new collection of 783 digitized melodies encoded in the **kern format.
+In the fifth chapter, I synthesize the previous research in a melodic dictation experiment to show how using robust statistical methods can be used model melodic dictation.
+Finally, in my sixth chapter, I introduce a computational, cognitive model of melodic dictation with the goal of helping explain how students improve at melodic dictation.
+I demonstrate how modeling the cognitive decision process during melodic dictation helps provide a precise framework for pedagogues to understand student's inner cognition during melodic dictation and can help inform teaching practice.
+
+\mainmatter
+
 \hypertarget{significance-of-the-study}{%
 \chapter{Significance of the Study}\label{significance-of-the-study}}
 
@@ -119,7 +233,7 @@ As of 2019, there are 643 Schools of Music belonging to National Association of 
 The implicit logic is that as one improves in their ability to take melodic dictation, this practice of critical and active listening develops one's ability to ``think in music'' \citep{bestMusicCurriculaFuture1992, karpinskiAuralSkillsAcquisition2000} and thus become a more competent musician.
 
 Despite its ubiquity in curricula within School of Music settings, research that explains how people learn to take melodic dictation is limited at best.
-The fields of music theory and cognitive psychology are best positioned to make progress on this question, but often the skills required to be well versed in these subjects do not overlap in formal training, findings related to this question are published in separate journals, and thus the overlapping research is scarce.
+The fields of music theory and cognitive psychology are best positioned to make progress on this question, but often the skills required to be well versed in these subjects do not overlap in formal training, findings related to this question are published in separate journals, and thus research that joins these two fields is scarce.
 This problem is not new and there have been repeated attempts to bridge the gap between practitioners of aural skills and researchers in cognitive psychology \citep{butlerBridgesUnbuiltComparing1993, davidbutlerWhyGulfMusic1997a, klonoskiImprovingDictationAuralSkills2006, klonoskiPerceptualLearningHierarchy2000, pembrookSendHelpAural1990, karpinskiAuralSkillsAcquisition2000}.
 Literature from music theory has established conceptual frameworks regarding aural skills \citep{karpinskiAuralSkillsAcquisition2000}, cognitive psychology literature has explored factors that might contribute to melodic perception \citep{dowlingExpectancyAttentionMelody1990, dowlingScaleContourTwo1978, dowlingTonalStrengthMelody1991, halpernMemoryMelodies2010}, and applied literature from the field of music education \citep{buonviriEffectsTwoListening2017, buonviriMelodicDictationInstruction2015, paneyEffectDirectingAttention2016} has investigated how people learn melodies in more ecological settings.
 
@@ -156,7 +270,7 @@ I show how this hypothesis can be applied in pedagogical settings to create a mo
 
 In my fourth chapter, I introduce a novel corpus of 783 digitized melodies encoded in the \texttt{**kern}
 format \citep{huronHumdrumToolkitReference1994}.
-This chapter provides a rationale for the introduction of a new corpus in the broader context of computational musicology, contains a small corpus analysis in order to contextualize the new \emph{MeloSol} corpus, and ends with a brief commentary regarding ontological and epistomological assumptions in music corpus research.
+This chapter provides a rationale for the introduction of a new corpus in the broader context of computational musicology, contains a small corpus analysis in order to contextualize the new \emph{MeloSol} corpus, and ends with a brief commentary regarding ontological and epistemological assumptions in music corpus research.
 This dataset serves as a resource for future researchers in music, psychology, and the digital humanities.
 
 In the fifth chapter, I synthesize the previous research in a melodic dictation experiment.
@@ -219,7 +333,7 @@ The four steps of Karpinski's model include
   Notation
 \end{enumerate}
 
-and occur as a looping process, which I have reproduced and depicted in Figure \ref{fig:flowchart}.
+and occur as a looping process, which I have reproduced and depicted in Figure \ref{fig:flowchart}\footnote{Image reproduced with permission. Image taken from Aural Skills Acquisition, p.~102, Figure 1.}.
 Previous attempts to distill melodic dictation into a series of discrete steps have ranged from Michael Roger's assertion of only needing two steps, to Ronald Thomas, who claimed as many as 15 steps, to similar models proposed by Colin Wright that model inner hearing as a five step model \citep{wrightInvestigatingAuralCase2016, karpinskiAuralSkillsAcquisition2000}.
 Karpinski's model is discussed extensively in both the original article \citep{karpinskiModelMusicPerception1990} and throughout the third chapter in his book \citep{karpinskiAuralSkillsAcquisition2000}.
 
@@ -229,7 +343,7 @@ Karpinski's model is discussed extensively in both the original article \citep{k
 
 }
 
-\caption{Karpinski Idealized Flowchart of Melodic Dictation}\label{fig:flowchart}
+\caption{Karpinski Model of Melodic Dictation}\label{fig:flowchart}
 \end{figure}
 
 Karpinski's hearing stage involves the initial perceptions of the sound at the psychoacoustical level and the listener's attention to the incoming musical information.
@@ -357,8 +471,8 @@ Given the strength and generality of these predictors, it is worth investigating
 It is important to understand the degree to which these cognitive factors might influence aural skills abilities in order to ensure that the types of assessments that are given in music schools validly measure abilities that individuals have the ability to improve.
 If it is the case that much of the variance in a student's aural skills academic performance can be attributed to something the student has little control over, this would call for a serious upheaval of the current model of aural skills teaching and assessment.
 
-Recently there has been interest in work exploring how cognitive factors are related to abilities in music school\footnote{HOW DO I CITE THIS BC ITS HAPPENING AT CONFERNCES BUT NOT PUBLISHED AND I DONT WANT THE TEXT DATED}.
-This interest is probably best explained by the fact that educators are picking up on the fact that cognitive abilities are powerful predictors and need to be understood since they inevitably will play a role in pedagogical settings.
+Recently there has been interest in work exploring how cognitive factors are related to abilities in music school.
+This interest is probably best explained by the fact that educators are aware of the fact that cognitive abilities are powerful predictors and need to be understood since they inevitably will play a role in pedagogical settings.
 Before diving into a discussion regarding differences in cognitive ability, I should note that ideas regarding differences in cognitive ability have been negatively received and for good reasons.
 Research in individual differences in cognitive ability can and has been taken advantage to further specious ideologies, but often arguments that assert meaningful differences in cognitive abilities between groups are founded on statistical misunderstandings and have been addressed in other literature \citep{gouldMismeasureMan1996}.
 These differences cannot be brushed aside because it is very difficult to maintain a scientific commitment to the theory of evolution \citep{darwinOriginSpecies1859} and not expect variation in all aspects of human behavior, with cognition falling under that umbrella.
@@ -397,8 +511,8 @@ the relatively small amount of information that one can hold in mind, attend to,
 
 The term, like most concepts in science, does not have an exact definition, nor does it have a definitive method of measurement.
 While there is no universally recognized first use of the term, researchers began to postulate that there was some sort of system that mediated incoming sensory information from the external world with information in long term storage using modular models of memory in the mid-twentieth century.
-Summarized in \citet{cowanWorkingMemoryCapacity2005}, one of the first modal models of memory was proposed by \citet{broadbentPerceptionCommunication1958} and later expanded by \citet{atkinsonHUMANMEMORYPROPOSED1968}.
-As seen in Figure \ref{fig:wmmodels} taken from \citet{cowanWorkingMemoryCapacity2005}, both models here posit incoming information that is then put into some sort of limited capacity store.
+Summarized in \citet{cowanWorkingMemoryCapacity2005}, one of the first modal models of memory was proposed by \citet{broadbentPerceptionCommunication1958} and later expanded by \citet{atkinsonHumanMemoryProposed1968}.
+As seen in Figure \ref{fig:wmmodels}\footnote{Image reproduced with permission. Image taken from Working Memory (Cowan, 2005), p.~18, Figure 1.2} taken from \citet{cowanWorkingMemoryCapacity2005}, both models here posit incoming information that is then put into some sort of limited capacity store.
 These modal models were then expanded on by Baddeley and Hitch \citep{baddeleyWorkingMemory1974} in their 1974 chapter with the name \emph{Working Memory}, where they proposed a system with an central executive module that was able to carry out active maintenance and rehearsal of information that could be stored in either a phonological store for sounds or a visual sketchpad for images.
 
 \begin{figure}
@@ -407,7 +521,7 @@ These modal models were then expanded on by Baddeley and Hitch \citep{baddeleyWo
 
 }
 
-\caption{Schematics of Models of Working Memory taken from Cowan, 2005}\label{fig:wmmodels}
+\caption{Models of Working Memory}\label{fig:wmmodels}
 \end{figure}
 
 Later revisions of their model also incorporated an episodic buffer \citep{baddeleyEpisodicBufferNew2000} where the modules were explicitly depicted as being able to interface with long term memory in the rehearsal processes.
@@ -473,6 +587,7 @@ Below I review the problems with chunking noted by \citet{cowanWorkingMemoryCapa
   \emph{Chunks may increase in size rapidly over time.} Three tones that are seemingly unrelated when played sequentially. E4, G5, C5 might enter sensory perception as three distinct tones, but then be fused together if understood as one chunk-- a first inversion major triad.
 \item
   \emph{Information in working memory may benefit from rapid storage in long term memory.} Given the amount of patterns that an individual learns and can understand, as soon as sensory information is fused, it could be encoded in long term memory. This is especially true if there is a salient feature in the incoming melodic information such as the immediate recognition of a mode or cadence.
+  \newpage
 \end{enumerate}
 
 The points by Cowan are important to acknowledge in that it is not possible to directly lift work and paradigms from working memory capacity to work in music perception.
@@ -481,7 +596,7 @@ Past researchers have noted the strength and predictive abilities from the worki
 In ending his article positing a musical memory loop to be annexed to the Baddley and Hitch modular model of working memory, \citet{berzWorkingMemoryMusic1995} captures the power of this concept in the last sentence of his article and warns:
 
 \begin{quote}
-Individual differences portrayed in some music aptitude tests may {[}sic{]} represent not talent or musical intelligence but ability, reflecting differences in working memory capacity. p.~362
+Individual differences portrayed in some music aptitude tests may {[}sic{]} represent not talent or musical intelligence but ability, reflecting differences in working memory capacity. (p.~362)
 \end{quote}
 
 Berz's assertion has not been exhaustively tested since first published in 1995, but the subject of music, memory, and cognitive abilities has been the focus of research for both both psychologists and musicologists alike.
@@ -528,7 +643,7 @@ His review suggests the current state of the literature might be interpreted as 
 Additionally, Schellenberg remains skeptical of any sort of causal factors regarding increases in IQ \citep{francoisMusicTrainingDevelopment2013, morenoMusicalTrainingInfluences2009} noting methodological problems like how short exposure times were in studies claiming increases in effects, or researchers not holding pre-existing cognitive abilities constant \citep{mehrTwoRandomizedTrials2013}.
 Continued work by Swaminithan, Schellenberg, and Khalil continue to support evidence for this selection bias in training resulting in higher cognitive abilities among musicians \citep{swaminathanRevisitingAssociationMusic2017}.
 Under my taxonomy, the individual, cognitive traits such as general intelligence and working memory are presumed to be stable over a life time.
-I now turn to individual traits that are more malleable, those dubbed the Environmental traits.
+I now turn to individual traits that are more malleable, those dubbed the environmental factors.
 
 \hypertarget{environmental}{%
 \subsection{Environmental}\label{environmental}}
@@ -574,7 +689,7 @@ Similar to commentaries in literature on melodic dictation, \citet{fournierCogni
 Performance on sight reading often predicts links between academic success in sight-singing and predictors such as entrance tests \citep{harrisonValidityMusicalAptitude1987}, academic ability, and musical experience \citep{harrisonEffectsMusicalAptitude1994}.
 
 Taken as a whole, the research tends to suggest that learning to be a fluid and competent sight reader helps musicians hone their skills by bootstrapping other musical skills since those needed for sight-reading touch on many of the skills used in musical performance such as pattern matching and listening for small changes in intonation.
-While the above literature suggests there are empirical grounds to consider these individual factors in predicting how well an individual will do in melodic dictation, these factors will invariably interact with the other half of the taxonomy: the musical parameters.
+While the above literature suggests there are empirical grounds to consider these individual factors in predicting how well an individual will do in melodic dictation, these factors will invariably interact with the other half of the taxonomy: the musical factors.
 
 \hypertarget{musical-factors}{%
 \section{Musical Factors}\label{musical-factors}}
@@ -606,19 +721,19 @@ This work was extended by \citet{taylorStrategiesMemoryShort1983} who additional
 What Ortmann referred to as determinants are structural aspects of the melody that can then be mapped to some aspect of perception.
 While Ortmann used the term determinants, for the rest of this study I instead adopt the term feature which better reflects current terminology used to talk about these aspects of a melody.
 Given Ortmann's design of using isorhythmic five tone sequences, his detriments-- or features-- under my taxonomy from Figure \ref{fig:taxonomy} would generally include only structural aspects.
-Were Ortmann to have increased the tempo of the tones he presented, change the timbre of their instrumentation, or maybe provide participants more attempts to give their responses, he would have then been adjusting what I am referring to as the experimental parameters.
+Were Ortmann to have increased the tempo of the tones he presented, change the timbre of their instrumentation, or maybe provide participants more attempts to give their responses, he would have then been adjusting what I am referring to as the experimental features.
 In the section below, I first explore literature that set out to understand certain structural aspects of the musical side of my taxonomy, then begin to introduce studies that incorporate more parameters.
 
 As with the above problems listed in attempting to measure latent psychological constructs, similar problems also arise in operationalizing many of the musical constructs in the experiments from above.
 Unlike individual features, since musical scores can be digitized, attempting to create more objective measurements for musical features is more straightforward than that of measuring latent psychological variables.
 One way to accomplish this is to use symbolic features of the melodies themselves as a variable to be measured.
 Unfortunately, much of the work from computational musicology such as David Huron's Humdrum toolbox \citep{huronHumdrumToolkitReference1994} or Michael Cutberth's Music21 \citep{cuthbertMusic21ToolkitComputerAided2010} pre-dates some of the earlier experimental work I will discuss below, but as these computations are more straightforward than considering larger experimental designs, I begin with them here.
-While I reserve a longer discussion on the histories of computational musicology for Chapter Four, relevant to this review are the additional ways it is now possible to abstract features from symbolic melodies beyond what was capable in studies such as \citet{ortmannTonalDeterminantsMelodic1933} and \citet{taylorStrategiesMemoryShort1983}.
+While I reserve a longer discussion on the histories of computational musicology for the computational chapter of this dissertation, relevant to this review are the additional ways it is now possible to abstract features from symbolic melodies beyond what was capable in studies such as \citet{ortmannTonalDeterminantsMelodic1933} and \citet{taylorStrategiesMemoryShort1983}.
 
 \hypertarget{abstracted-features}{%
 \subsection{Abstracted Features}\label{abstracted-features}}
 
-An abstracted symbolic features of a melody are emergent properties of the melody that result from performing a calculation on the melody when digitized into discrete, computer readable tokens.
+An abstracted symbolic feature of a melody are emergent properties of the melody that result from performing a calculation on the melody when digitized into discrete, computer readable tokens.
 Abstracted symbolic features of melodies can largely be conceptualized as being static or dynamic.
 Static features of melodies are obtained by summarizing some aspect of the melody as if it were to be experienced in suspended animation.
 For example, a static feature of a melody might be the melody's range as calculated by the number of half steps from the lowest to the highest note or the number of notes in a melody.
@@ -666,7 +781,7 @@ The paper also claimed that people on average can hear and remember 10-16 notes 
 
 Given the lack of consistent methodologies in administration and scoring of these experiments, it becomes difficult to find ways to generalize basic findings like expected effect sizes-- especially when the original materials and data have not been recorded-- but there are often interesting theoretical insights to be gleaned.
 For example, \citet{ouraConstructingRepresentationMelody1991a} used a sample of eight people to suggest that when taking melodic dictation, individuals use a system of pattern matching that interfaces with their long term memory in order to complete dictation tasks.
-While this paper does not bring with it exhaustive evidence supporting this claim, the idea is explored in detail in Chapter 7 when the idea of pattern matching is used in conjunction with Cowan's Embedded Process model of working memory \citep{cowanEvolvingConceptionsMemory1988}.
+While this paper does not bring with it exhaustive evidence supporting this claim, the idea is explored in detail in final chapter when the idea of pattern matching is used in conjunction with Cowan's Embedded Process model of working memory \citep{cowanEvolvingConceptionsMemory1988}.
 
 More recently, the music education community has also begun to do research around melodic dictation using both qualitative and quantitative methodologies.
 \citet{paneyTeachingMelodicDictation2014} interviewed high school teachers on methods they used to teach melodic dictation and among more general findings on teaching methods reported a general awareness and concern among pedagogues regarding the ``psychological barriers inherent in learning aural skills'', as well as a general positive disposition to the use of standardized tests used in melodic dictation.
@@ -733,7 +848,7 @@ The rest of this dissertation will synthesize these areas and put forth novel re
 
 The first two steps of Gary Karpinski's model of melodic dictation \citep{karpinskiAuralSkillsAcquisition2000, karpinskiModelMusicPerception1990} rely exclusively on the mental representation of melodic information.
 Karpinski conceptualizes the first stage of hearing as involving the physical motions of the tympanic membrane, as well as the listener's attention to the musical stimulus.
-This stage is distinguished from that of short-term melodic memory that refers to the amount of melodic information that can be represented in conscious awareness.
+This stage is distinguished from that of short-term melodic memory, which refers to the amount of melodic information that can be represented in conscious awareness.
 Given that neither stage of the first two steps of Karpinski's model requires any sort of musical expertise, every individual with normal hearing and cognition should be able to partake in the first two steps of melodic dictation.
 The ability to hear, then remember musical information is where all students of melodic dictation are presumed to begin their aural skills education.
 From this baseline, students receive explicit education in music theory and aural skills to develop the ability to link what they hear to what can then be musically understood and consequently notated.
@@ -759,9 +874,9 @@ This assumption of similar baseline of abilities is implicit in the Karpinski mo
 The model provides a framework of mental choreography students are encouraged to build upon that is agnostic to individual differences; Karpinski's model assumes that all individuals, regardless of their background, will engage in the same process.
 As students gain more knowledge in music theory, they build their musical understanding which in turn enables them to recognize more of the auditory scene they are focusing on.
 In addition to learning explicit knowledge that facilitates their musical understanding, Karpinski suggests there are two other skills that students can develop in order to improve their short-term musical memory: extractive listening and chunking.
-In Karpinski's own words: ``Only one or both strategies can extend the capacity of short-term musical memory: (1) extractive listening and (2) chunking. (pp.~71)''
+In Karpinski's own words: ``Only one or both strategies can extend the capacity of short-term musical memory: (1) extractive listening and (2) chunking. (p.~71)''
 
-Karpinski defines extractive listening as ``a combination of focused attention and selective memorization (p.70)''.
+Karpinski defines extractive listening as ``a combination of focused attention and selective memorization (p.~70)''.
 Extractive listening requires students to be able to focus on the material they will be mentally representing and tune out other sources of stimulation that might distract the student.
 In order to improve this ability, Karpinski suggests practicing listening to melodies and having students practice directing their attention to pre-determined set sequences of notes.
 Students should slowly work towards being able to auralize the melody with other musical information still sounding.
@@ -1029,8 +1144,7 @@ The goal of the analyses was to examine the relationships among the measures and
 Before running any sort of modeling, data was inspected to ensure that in addition to outlier issues as mentioned above, the data exhibited normal distributions.
 
 Before running any modeling, I checked our data for assumptions of normality since violations of normality can strongly affect the covariances between items.
-While some items in Figure 1 displayed a negative skew, many of the individual level items from the self report scale exhibited high
-levels of Skew and Kurtosis beyond the generally accepted ± 2 \citep{fieldDiscoveringStatisticsUsing2012}, but none of the items with the unsatisfactory measures are used in the general factor.
+While some items in Figure 1 displayed a negative skew, many of the individual level items from the self report scale exhibited high levels of Skew and Kurtosis beyond the generally accepted ± 2 \citep{fieldDiscoveringStatisticsUsing2012}, but none of the items with the unsatisfactory measures are used in the general factor.
 
 \hypertarget{modeling}{%
 \subsubsection{Modeling}\label{modeling}}
@@ -1039,7 +1153,7 @@ levels of Skew and Kurtosis beyond the generally accepted ± 2 \citep{fieldDisco
 \paragraph{Measurement Model}\label{measurement-model}}
 
 I then fit a measurement model to examine the underlying structure of the variables of interest used to assess the latent constructs (general musical sophistication, WMC, general fluid intelligence) by performing a confirmatory factor analysis (CFA) using the lavaan package \citep{rosseelLavaanPackageStructural2012} using R \citep{teamLanguageEnvironmentStatistical2015}.
-Model fits can be found in table \ref{exp2variables}.
+Model fits can be found in table \ref{tab:exp2variables}.
 For each model, latent factors were constrained to have a mean of 0 and variance of 1 in order to allow the latent covariances to be interpreted as correlations.
 Since the objective measures were on different scales, all variables were converted to z scores before running any modeling.
 
@@ -1054,7 +1168,7 @@ Since the objective measures were on different scales, all variables were conver
 
 \begin{table}[t]
 
-\caption{\label{tab:exp2variables}Variables Used In Modeling}
+\caption{\label{tab:exp2variables}Variables Used In Structural Equation Modeling}
 \centering
 \begin{tabular}{ll}
 \toprule
@@ -1115,7 +1229,7 @@ Figure \ref{fig:model4} displays Model 4, our nested model with the best fit ind
 
 \begin{table}[t]
 
-\caption{\label{tab:ModelFits}Model Fits}
+\caption{\label{tab:ModelFits}Structural Equation Model Fits}
 \centering
 \begin{tabular}{lrrlrrr}
 \toprule
@@ -1138,7 +1252,7 @@ Model 5 & 130 & 358.16 & > .001 & 0.83 & 0.10 & 0.80\\
 
 }
 
-\caption{Full Model, All Variables Included}\label{fig:model1}
+\caption{Model 1 | Full Model, All Variables Included}\label{fig:model1}
 \end{figure}
 
 \begin{figure}
@@ -1147,7 +1261,7 @@ Model 5 & 130 & 358.16 & > .001 & 0.83 & 0.10 & 0.80\\
 
 }
 
-\caption{Full Model, Highly Correlated Residual Items}\label{fig:model2}
+\caption{Model 2 | Full Model, Highly Correlated Residual Items}\label{fig:model2}
 \end{figure}
 
 \begin{figure}
@@ -1156,7 +1270,7 @@ Model 5 & 130 & 358.16 & > .001 & 0.83 & 0.10 & 0.80\\
 
 }
 
-\caption{Self Report Removed, Only Cognitive Measures}\label{fig:model3}
+\caption{Model 3 | Self Report Removed, Only Cognitive Measures}\label{fig:model3}
 \end{figure}
 
 \begin{figure}
@@ -1165,7 +1279,7 @@ Model 5 & 130 & 358.16 & > .001 & 0.83 & 0.10 & 0.80\\
 
 }
 
-\caption{Cognitive Measures, Gf as Observed}\label{fig:model4}
+\caption{Model 4 | Cognitive Measures, Gf as Observed}\label{fig:model4}
 \end{figure}
 
 \begin{figure}
@@ -1174,7 +1288,7 @@ Model 5 & 130 & 358.16 & > .001 & 0.83 & 0.10 & 0.80\\
 
 }
 
-\caption{General Self Report Only}\label{fig:model5}
+\caption{Model 5 | General Self Report Only}\label{fig:model5}
 \end{figure}
 
 \hypertarget{discussion}{%
@@ -1186,7 +1300,7 @@ Model 5 & 130 & 358.16 & > .001 & 0.83 & 0.10 & 0.80\\
 \hypertarget{measurement-model-1}{%
 \subsubsection{Measurement Model}\label{measurement-model-1}}
 
-After running a confirmatory factor analysis on the variables of interest, the model fit was below the threshold of what is considered a ``good model fit'' as shown in \ref{ModelFits} with references to above model fits.
+After running a confirmatory factor analysis on the variables of interest, the model fit was below the threshold of what is considered a ``good model fit'' as shown in \ref{tab:ModelFits} with references to above model fits.
 This finding is to be expected since no clear theoretical model has been put forward that would suggest that the general musical sophistication score, when modeled with two cognitive measures should have a ``good'' model fit.
 This model was run to create a baseline measurement.
 
@@ -1195,7 +1309,7 @@ This model was run to create a baseline measurement.
 
 Following a series of nested model fits, I was able to improve model fits on a series of structural equation models that incorporated both measures of working memory capacity and measures of general fluid intelligence.
 Before commenting on new models, it is worth noting that Model 5 does not seem to align with the findings from the original 2014 paper by \citep{mullensiefenMusicalityNonMusiciansIndex2014}.
-While the correlation between the objective tasks is the same (r = .16), the factor loadings from this analysis suggest lower values for both Beat Perception (.37 original, .27 this paper) as well as Melodic Memory (.28 original, .18 this paper).
+While the correlation between the objective tasks is the same (\(r\) = .16), the factor loadings from this analysis suggest lower values for both Beat Perception (\(r\) = .37 original, \(r\) = .27 this chapter) as well as Melodic Memory (\(r\) = .28 original, \(r\) = .18 this chapter).
 Note that two items were removed dealing with melody for memory for this model; when those items were re-run with the data, the factor loadings did not deviate from these numbers.
 
 The first two models I ran resulted in minor improvements to model fit.
@@ -1238,7 +1352,7 @@ As attention is limited, not listening to more than you can hold will free up co
 Further students could take up recommendations like that of \citet{chenetteReframingAuralSkills2019} and focus on activities that might help them increase their ability to focus, knowing that this practice will most likely not increase their working memory.
 
 Not only will these findings have relevance in the classroom, but they suggest that future work looking to do more robust modeling of melodic dictation must take into account the window of attention.
-In chapter 7, I incorporate this finding into a computational model of melodic dictation and use the finite window of working memory as a perceptual bottleneck to constrain incoming musical information.
+In the final chapter, I incorporate this finding into a computational model of melodic dictation and use the finite window of working memory as a perceptual bottleneck to constrain incoming musical information.
 
 In this chapter, I fit a series of structural equation models in order to investigate the degree to which baseline cognitive ability was able to predict performance on a musical perception task.
 My findings suggest that measures of working memory capacity are able to account for a large amount of variance beyond that of self report in tasks of musical perception.
@@ -1303,7 +1417,7 @@ Using this logic, I then create a new compendium of melodic incipits, sorted by 
 \hypertarget{agreeing-on-complexity}{%
 \section{Agreeing on Complexity}\label{agreeing-on-complexity}}
 
-Returning to melodies \ref{fig:musicalpuzzleA} and \ref{fig:musicalpuzzleB} from above, an aural skills pedagogue most likely has an intuition to which of the two melodies X or Y would be easier to dictate.
+Returning to melodies from Figures \ref{fig:musicalpuzzleA} and \ref{fig:musicalpuzzleB} from above, an aural skills pedagogue most likely has an intuition to which of the two melodies would be easier to dictate.
 Melody \ref{fig:musicalpuzzleA} exhibits a predictable melodic syntax and phrase structure, the chromatic notes resolve within the conventions of the Common Practice period, and the melody itself could be scored with tertian harmony.
 On the other hand, Melody \ref{fig:musicalpuzzleB}'s syntax does not conform to the conventions of the Common Practice period and does not imply any sort of underlying harmony or predictiable phrase rhythm.
 The duration of the rhythms appear irregular and the melody implies an uneven phrase structure.
@@ -1312,7 +1426,7 @@ Despite these content similarities, it would be safe to assume that melody \ref{
 
 In fact, aural skills pedagogues tend to agree for the most part on questions of difficulty of dictation.
 To demonstrate this, I surveyed 40 aural skills pedagogues who all have taught aural skills at the post-secondary level.
-In this survey, participants were asked the questions presented in Table \ref{surveyQuestions1} and Table \ref{surveyQuestions2} using a sample of 20 melodies found in the a commonly used sight-singing text book \citep{berkowitzNewApproachSight2011}.
+In this survey, participants were asked the questions presented in Table \ref{tab:surveyQuestions1} and Table \ref{tab:surveyQuestions2} using a sample of 20 melodies found in the a commonly used sight-singing text book \citep{berkowitzNewApproachSight2011}.
 I present the details of the survey below.
 
 \hypertarget{methods}{%
@@ -1323,9 +1437,9 @@ After piloting the randomly sampled melodies on a colleague, I again randomly sa
 I ran the survey from January 31st of 2019 until March 7th, 2019.
 The survey comprised of two sets of questions.
 
-Six questions asked about the teaching background of respondents and can be found in \ref{surveyQuestions1}.
+Six questions asked about the teaching background of respondents and can be found in Table \ref{tab:surveyQuestions1}.
 These questions were followed by asking participants to make five ratings over the 20 different melodies.
-The five questions can be found in \ref{fig:surveyQuestions2}.
+The five questions can be found in \ref{tab:surveyQuestions2}.
 To encourage participation, two \$30 cash prize were offered to two participants.
 The survey had questions that were specifically designed to gauge their appropriateness for use in a melodic dictation context.
 Participants were recruited exclusively online and all provided consent to partaking in the data collection as approved by the Louisiana State University Institutional Review Board.
@@ -1333,25 +1447,20 @@ Participants were recruited exclusively online and all provided consent to parta
 The table below contains the questions used in the demographic questionnaire.
 Examples were given following each questions and can be found on the survey link.
 
-\begin{table}[t]
-
-\caption{\label{tab:surveyQuestions1}Survey Questions}
-\centering
-\begin{tabular}{l}
+\begin{longtable}{l}
+\caption{\label{tab:surveyQuestions1}Survey Questions}\\
 \toprule
-Demographic.Questions\\
+Demographic Questions\\
 \midrule
 What is your age, in years?\\
 What is your educational status?\\
 How many years have you been teaching Aural Skills at the University level?\\
 Which type of syllable system do you prefer to use?\\
 On which instrument have you gained the most amount of professional training?\\
-\addlinespace
 What is the title of the last degree you received?\\
 At what institution are you currently teaching?\\
 \bottomrule
-\end{tabular}
-\end{table}
+\end{longtable}
 
 The table below contains the questions regarding the ratings of the melodies.
 Participants either responded using ordinal categories or moved a slider that sat atop a 100 point scale.
@@ -1361,17 +1470,22 @@ The survey can be found at \url{https://musiccog.lsu.edu/dictation_survey/aural_
 
 \caption{\label{tab:surveyQuestions2}Item Questions}
 \centering
+\resizebox{\linewidth}{!}{
 \begin{tabular}{l}
 \toprule
-Item.Questions\\
+Item Questions\\
 \midrule
 During which semester of Aural Skills would you think it is appropriate to give this melody as a melodic dictation?\\
-How many times do you think this melody should be played in a melodic dictation considering the difficulty you noted in your previous question? Assume a reasonable tempo choice from 70-100BPM.\\
-Please rate how difficult you believe this melody to be for the average second-year undergraduate student at your institution. The far left should indicate 'Extremely Easy' and the far right should indicate 'Extremely Difficult'.\\
-Please rate this melody's adherence to the melodic grammar of the Common Practice Period. The far left should indicate 'Not Well Formed' and the far right should indicate 'Very Well Formed'.\\
+How many times do you think this melody should be played in a melodic dictation\\
+considering the difficulty you noted in your previous question?\\
+Assume a reasonable tempo choice from 70-100BPM.\\
+Please rate how difficult you believe this melody to be for the average second-year  undergraduate student at your institution.\\
+The far left should indicate 'Extremely Easy' and the far right should indicate 'Extremely Difficult'.\\
+Please rate this melody's adherence to the melodic grammar of the Common Practice  Period.\\
+The far left should indicate 'Not Well Formed' and the far right should indicate 'Very Well Formed'.\\
 Is this melody familiar to you?\\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \end{table}
 
 Of the respondents, the average amount of years teaching aural skills was 8.76 years (\(SD = 7.60, R: 21-29\)).
@@ -1380,7 +1494,7 @@ Of the 40 respondents, all reported used some sort of movable system other than 
 The sample represented over 30 different institutions.
 Overall, the sample reflects a wide range of experience of teaching aural skills.
 The sample contains both younger and older individuals, as well as a range of experience.
-In the Figures \ref{fig:berk3} through \ref{fig629:berk} below, I list the 20 melodies sampled.
+In the Figures \ref{fig:berk3} through \ref{fig:berk629} below, I list the 20 melodies sampled.
 
 \begin{figure}
 
@@ -1388,7 +1502,7 @@ In the Figures \ref{fig:berk3} through \ref{fig629:berk} below, I list the 20 me
 
 }
 
-\caption{Demographic Breakdown of Sample}\label{fig:surveyageeducation}
+\caption{Demographic Breakdown of Survey Sample}\label{fig:surveyageeducation}
 \end{figure}
 
 \begin{figure}
@@ -1585,7 +1699,7 @@ For example, it would be correct to assume that Melody 200 is more difficult tha
 
 }
 
-\caption{Average Difficulty}\label{fig:diffplot}
+\caption{Difficulty Ratings from Survey}\label{fig:diffplot}
 \end{figure}
 
 From Figure \ref{fig:diffplot}, there is an increasing linear trend from ratings of melodies being less difficult to more difficult across the sample.
@@ -1599,7 +1713,7 @@ This trend across the sample appears in the opposite direction when plotting the
 
 }
 
-\caption{Average Grammar Ratings}\label{fig:grammarplot}
+\caption{Grammar Ratings from Survey}\label{fig:grammarplot}
 \end{figure}
 
 While similar trends appear here, yet in the opposite direction as expected, there is a clear breaking of linear trend in the far right potion of the graph that shows melodies that were sampled from the chapter of the corpus that contains atonal melodies.
@@ -1620,7 +1734,7 @@ From this chart, we see this trend is not uniform across all melodies.
 
 }
 
-\caption{Strength of Relationship Between Difficulty and Subjective Tonal Grammar}\label{fig:gramcor}
+\caption{Correlation Between Difficulty and Subjective Ratings of Tonal Grammar}\label{fig:gramcor}
 \end{figure}
 
 Overall, the sample exhibited an acceptable degree of inter-rater reliability as measured by the interclass correlation coefficient.
@@ -1640,7 +1754,7 @@ In order to provide a sense of validity to the measure, I carry forward ratings 
 \section{Modeling Complexity}\label{modeling-complexity}}
 
 The ability to quantify what theorists generally agree to be melodic complexity depends on distilling complexity into its component parts.
-Earlier, when comparing melodies X and Y, some of the features put forward that might contribute to complexity were features such as note density, the melody's rhythm, what scale the melody draws its notes from, and how tonal the melody might be perceived.
+Earlier, when comparing melodies \ref{fig:musicalpuzzleA} and \ref{fig:musicalpuzzleB}, some of the features put forward that might contribute to complexity were features such as note density, the melody's rhythm, what scale the melody draws its notes from, and how tonal the melody might be perceived.
 Some combination of these component features presumably make up the construct of complexity.
 
 Attempting to use features of a melody to to predict how well a melody is remembered has a long history.
@@ -1692,7 +1806,7 @@ It works by comparing the variability of vowel length compared to syllable lengt
 where \(M\) is the number of vowels in an utterance and \(d_k\) is th duration of the \(k^{th}\) item and has been used in musical contexts \citep{vanhandelRoleMeterCompositional2010}.
 
 In linguistics, the nPVI has been used to delineate quantitative differences between stress and syllable timed languages.
-Recently in the past decade, music science researchers have used the nPVI to attempt to investigate claims about the relationship between speech and music \citep{danieleINTERPLAYLINGUISTICHISTORICAL2004, patelStressTimedVsSyllableTimed2003, vanhandelRoleMeterCompositional2010}.
+Recently in the past decade, music science researchers have used the nPVI to attempt to investigate claims about the relationship between speech and music \citep{danieleInterplayLinguisitcHistorical2004, patelStressTimedVsSyllableTimed2003, vanhandelRoleMeterCompositional2010}.
 While results are mixed regarding the nPVI's predictive ability and there have been recent calls to limit the measure's use \citep{condit-schultzDeconstructingNPVIMethodological2019}, it does serve as a very good example of a computational derived measure.
 Just like summarizing the range of a melody by subtracting the distance between the lowest and highest notes, the nPVI summarizes a phrase and importantly assumes that this measure is representative of the entire phrase the calculation was performed upon.
 
@@ -1713,7 +1827,7 @@ Additionally, FANTASATIC also provides a framework for comparing the features of
 
 Returning to the Aural Skills classroom, many of these features can be used to approximate the previously established intuitions of complexity as agreed upon by theorists.
 Below in Figure \ref{fig:corfeature}, I plot the the mean difficulty and grammar ratings given by experts for each melody in the experimental sample against each of the output of FANTASTIC's features by correlating the two measures.
-Additionally, \ref{fig:corfeaturetable} displays the five strongest positive and negatively correlated features of FANTASTIC's output with the ground truth, expert ratings.
+Additionally, \ref{tab:corfeaturetable} displays the five strongest positive and negatively correlated features of FANTASTIC's output with the ground truth, expert ratings.
 
 \begin{figure}
 
@@ -1721,7 +1835,7 @@ Additionally, \ref{fig:corfeaturetable} displays the five strongest positive and
 
 }
 
-\caption{FANTASTIC and Expert Ratings}\label{fig:corfeature}
+\caption{FANTASTIC Computations Correlated with Expert Ratings}\label{fig:corfeature}
 \end{figure}
 
 \begin{longtable}[]{@{}lrr@{}}
@@ -1757,7 +1871,7 @@ In order to demonstrate this, in Figure \ref{fig:featurecorrelations} I visualiz
 
 }
 
-\caption{Problems of Melodic Collinearity}\label{fig:featurecorrelations}
+\caption{Visualization of the Problem of Melodic Feature Collinearity}\label{fig:featurecorrelations}
 \end{figure}
 
 Among these variables, we see that there is a very high degree of correlation between many of the variables.
@@ -1844,7 +1958,7 @@ Peace notes four studies \citep{bartlettRecognitionTransposedMelodies1980, cohen
 This theoretical assertion and select empirical findings have important ramifications for the aural skills classroom.
 In a dictation setting, melodies that are more expected should tax memory less, thus making them easier to remember and dictate.
 If I assume that more expected melodies are easier to remember, then it follows that the information content measures of expectedness can then be used as a stand in measure of melodic memory.
-This notion is not new to music psychology and was discussed by David Huron relating exposure to musical material as following similar laws to the the Hick-Hyman hypothesis \citep{hickRateGainInformation1952, hymanStimulusInformationDeterminant1953}, which Huron paraphrases as ``processing of familiar stimuli is faster than processing of unfamiliar stimuli'' \citep[pp.~63]{huronSweetAnticipation2006}".
+This notion is not new to music psychology and was discussed by David Huron relating exposure to musical material as following similar laws to the the Hick-Hyman hypothesis \citep{hickRateGainInformation1952, hymanStimulusInformationDeterminant1953}, which Huron paraphrases as ``processing of familiar stimuli is faster than processing of unfamiliar stimuli'' \citep[p.~63]{huronSweetAnticipation2006}.
 Now a decade later, this assertion can be further investigated using tools from computational musicology.
 Combining the Hick-Hyman hypothesis together with the above statistical learning hypothesis and probabilistic prediction hypothesis, I then put forward a new hypothesis: the frequency facilitation hypothesis.
 
@@ -1882,7 +1996,7 @@ I plot the resulting distributions of the top 1,000 patterns of each fixed order
 
 }
 
-\caption{Distribution of m-grams}\label{fig:bitriquint}
+\caption{Distribution of n-grams}\label{fig:bitriquint}
 \end{figure}
 
 \begin{figure}
@@ -1891,11 +2005,11 @@ I plot the resulting distributions of the top 1,000 patterns of each fixed order
 
 }
 
-\caption{Less Predictive Power}\label{fig:bitriquint2}
+\caption{Distribution of Bi- Tri- and Quint- grams}\label{fig:bitriquint2}
 \end{figure}
 
-From \ref{fig:bitriquint}, we see that when plotted in terms of their frequency distributions, a small amount of the patterns make up for a very large the distribution of the corpus.
-As evident from \ref{fig:bitriquint}, we see that with the addition of more tokens added to the n-grams, this results in a visual representation of why and how statistical predictions become more unreliable with higher order predictions \citep{conklinMultipleViewpointSystems1995}.
+From Figure \ref{fig:bitriquint}, we see that when plotted in terms of their frequency distributions, a small amount of the patterns make up for a very large the distribution of the corpus.
+As evident from Figure \ref{fig:bitriquint}, we see that with the addition of more tokens added to the n-grams, this results in a visual representation of why and how statistical predictions become more unreliable with higher order predictions \citep{conklinMultipleViewpointSystems1995}.
 Intuitively, melodic patterns from the high frequency distribution of the table would seemingly be easier to remember and then dictate than those from the tails of the distributions.
 
 Following up on this analysis, I then trained an IDyOM model on the same corpus of melodies and was able to calculate the average information content for the first five notes of each melody in the corpus.
@@ -1909,7 +2023,7 @@ I chose to additionally split the corpus into quintiles to further highlight the
 
 }
 
-\caption{Distribution of Opening Five Grams}\label{fig:quintdist}
+\caption{Distribution of Opening Quint grams}\label{fig:quintdist}
 \end{figure}
 
 This observation may seem tautological, as this relationship would result from how information content is calculated since more expected patterns have less information content.
@@ -1922,7 +2036,7 @@ For example, in Figure \ref{fig:tridensity}, we see that when split into three s
 
 }
 
-\caption{Average Information Content of First Five Notes of Melodies}\label{fig:tridensity}
+\caption{Average Information Content of Opening Quint-grams of Melodies}\label{fig:tridensity}
 \end{figure}
 
 To visualize what this might look like in a melodic dictation context, we could imagine randomly sampling melodies from even smaller sections.
@@ -1948,7 +2062,7 @@ I believe that this gives credence to thinking more about using computational me
 
 }
 
-\caption{Model Comparison}\label{fig:modelcomparsion}
+\caption{Model Comparison}\label{fig:modelcomparison}
 \end{figure}
 
 \hypertarget{implications}{%
@@ -2018,7 +2132,7 @@ One contribution that a researcher can make towards either bolstering or refutin
 In order to accomplish this, in this chapter I introduce a new corpus of sight-singing melodies based on the pedagogical text ``A New Approach to Sight Singing'' \citep{berkowitzNewApproachSight2011}.
 The corpus contains 783 monophonic melodies that have been digitally encoded in the kern format \citep{huronHumdrumToolkitReference1994} and contain both melodies specifically composed for use in the Aural Skills classroom and examples of melodies from the Western canon.
 Due to the fact that the corpus contains melodic data from a sight-singing anthology first published by Sol Berkowitz, for ease of reference I will refer to this corpus as the \emph{MeloSol} corpus.
-After introducing the corpus, I compare the \emph{Melosol} corpus with the \emph{Essen Folk Song Collection} \citep{schaffrathEssenFolkSong1995} as well as a portion of the \emph{Densmore} collection \citep{shanahanDENSMORECOLLECTIONNATIVE2014} in order to highlight variability between these musical corpora.
+After introducing the corpus, I compare the \emph{MeloSol} corpus with the \emph{Essen Folk Song Collection} \citep{schaffrathEssenFolkSong1995} as well as a portion of the \emph{Densmore} collection \citep{shanahanDensmoreCollectionNative2014} in order to highlight variability between these musical corpora.
 I end by highlighting important considerations in the underlying representations of what the data represent and what these assumptions entail for future work in computational musicology.
 
 \hypertarget{history}{%
@@ -2071,7 +2185,7 @@ In addition to having a key signature in each kern file, I have also added an ex
 Each section of the book contains melodies that would be considered tonal, except for melodies in the fifth section of the first chapter and intermittent melodies in the fourth section of the fifth chapter which contain atonal melodies.
 If a melody is decidedly atonal or modal, this is documented in the metadata.
 Atonal melodies are given the explicit key of C major so that they can be analyzed and parsed as if they were part of a \emph{fixed-do} system.
-This encoding decision is reflected in the Key Distribution panel of \ref{fig:melosoldescriptivepanel}.
+This encoding decision is reflected in the Key Distribution panel of Figure \ref{fig:melosoldescriptivepanel}.
 
 \begin{figure}
 
@@ -2079,7 +2193,7 @@ This encoding decision is reflected in the Key Distribution panel of \ref{fig:me
 
 }
 
-\caption{Descriptive Statistics of MeloSol}\label{fig:melosoldescriptivepanel}
+\caption{Descriptive Statistics of MeloSol Corpus}\label{fig:melosoldescriptivepanel}
 \end{figure}
 
 Figure \ref{fig:melosoldescriptivepanel} shows basic descriptive statistics of the \emph{MeloSol} corpus.
@@ -2092,7 +2206,7 @@ All data was manually encoded via MuseScore then converted and cleaned using the
 \hypertarget{comparison-of-corpora}{%
 \section{Comparison of Corpora}\label{comparison-of-corpora}}
 
-In order to give a brief overview of the corpus and contextualize it in the context of other corpora, in this next section I compare the \emph{MeloSol} corpus with the \emph{Essen Folk Song Collection} \citep{schaffrathEssenFolkSong1995}, as well as the \emph{Densmore} collection \citep{shanahanDENSMORECOLLECTIONNATIVE2014} and provide a brief corpus analysis.
+In order to give a brief overview of the corpus and contextualize it in the context of other corpora, in this next section I compare the \emph{MeloSol} corpus with the \emph{Essen Folk Song Collection} \citep{schaffrathEssenFolkSong1995}, as well as the \emph{Densmore} collection \citep{shanahanDensmoreCollectionNative2014} and provide a brief corpus analysis.
 All three corpora here contain vocal melodies.
 The Berkowitz corpus was specifically designed for pedagogical purposes, whereas the \emph{Essen} and \emph{Densmore} are more ecologically reflective of melodies originating from a diversity of sources.
 Given that these corpora consist of vocal melodies, there presumably would be differences between the corpora on a large scale structure.
@@ -2124,7 +2238,7 @@ As noted in the bottom right panel of \ref{fig:compdesc}, then \emph{Essen} coll
 
 }
 
-\caption{Descriptive Features}\label{fig:compdesc}
+\caption{Descriptive Features of MeloSol Corpus}\label{fig:compdesc}
 \end{figure}
 
 From the above panels, it appears that the \emph{MeloSol} corpus has much more variability in the range or tessitura of melodies.
@@ -2153,7 +2267,7 @@ For example, in Figure \ref{fig:comphuron}, I have reproduced the first level an
 From the figure, there appears to be similar patterns between the European subset of the \emph{Essen} collection and that of the \emph{MeloSol} corpus.
 The most prominent phrase type in both corpora is the convex contour, followed secondly by the descending contour pattern.
 Future versions of the \emph{MeloSol} corpus could be used to add phrase marks and examine the extent to which Huron's claims hold in a categorically different, yet grammatically similar corpus.
-Lastly, in \ref{fig:krum}, I plot standardized key profiles for the \emph{Essen} and \emph{MeloSol} corpora as presented in this chapter \citep{krumhanslCognitiveFoundationsMusical2001}.
+Lastly, in Figure \ref{fig:krum}, I plot standardized key profiles for the \emph{Essen} and \emph{MeloSol} corpora as presented in this chapter \citep{krumhanslCognitiveFoundationsMusical2001}.
 The \emph{Densmore} collection is not included here as it does not come with explicit key data.
 
 \begin{figure}
@@ -2208,6 +2322,9 @@ Further, future work might consider if accessing the population parameters is th
 Questions of style analysis seek to generalize beyond a population so new works might created.
 Regardless of the choice, future work from this should make this clear.
 
+\hypertarget{conclusions-2}{%
+\section{Conclusions}\label{conclusions-2}}
+
 In this, chapter I presented the \emph{MeloSol} corpus, new database of monophonic singing melodies.
 Comparing the corpus to others used in the literature, I demonstrated how the \emph{MeloSol} corpus might be used for future research.
 Throughout the chapter, I additionally described how the use of corpora in computational musicology often, though not directly, adopts the assumptions of a sample, population relationship.
@@ -2236,7 +2353,7 @@ Additionally, I discuss the intricacies associated with scoring and relate these
 
 Despite its near ubiquity in Conservatory and School of Music curricula, research surrounding topics concerning aural skills is not well understood.
 This is peculiar since almost any individual seeking to earn a degree in music usually must enroll in multiple aural skills classes that cover a wide array of topics from sight-singing melodies, to melodic and harmonic dictation-- all of which are presumed to be fundamental to any musician's formal training.
-Skills acquired in these classes are meant to hone the musician's ear and enable them not only to think about music, but to borrow Karpinski's phrase, to ``think in music'' \citep[\href{mailto:p.4;@bestMusicCurriculaFuture1992}{\nolinkurl{p.4;@bestMusicCurriculaFuture1992}}]{karpinskiAuralSkillsAcquisition2000}.
+Skills acquired in these classes are meant to hone the musician's ear and enable them not only to think about music, but to borrow Karpinski's phrase, to ``think in music'' \citetext{\citealp[p.4]{karpinskiAuralSkillsAcquisition2000}; \citealp{bestMusicCurriculaFuture1992}}.
 The tacit assumption behind these tasks is that once one learns to think in music, these abilities should transfer to other aspects of the musician's playing in a deep and profound way.
 The skills that make up an individual's aural skills encompass many abilities, and are thought to be reflective of some sort of core skill.
 This logic is evident in early attempts to model performance in aural skills classes where \citet{harrisonEffectsMusicalAptitude1994} created a latent variable model to predict an individual's success in aural skills classes based on musical aptitude, musical experience, motivation, and academic ability.
@@ -2349,17 +2466,17 @@ Participants volunteered, received course credit, or were paid \$10.
 Four melodies for the dictation were selected from a corpus of N=115 melodies derived from the A New Approach to Sight Singing aural skills textbook \citep{berkowitzNewApproachSight2011}.
 Melodies were chosen based on their musical features as extracted via the FANTASTIC Toolbox \citep{mullensiefenFantasticFeatureANalysis2009}.
 After abstracting the full set of features of the melodies, possible melodies were first narrowed down by limiting the corpus to melodies lasting between 9 and 12 seconds and then indexed to select four melodies that were chosen as part of a 2 x 2 repeated measures design including a high and low tonalness and note density condition.
-Melodies, as well as a table of their abstracted features can be seen in \ref{expfeaturetable} and \ref{fig:b34}, \ref{fig:b95},\ref{fig:112}, and \ref{fig:b9} .
+Melodies, as well as a table of their abstracted features can be seen in \ref{tab:expfeaturetable} and \ref{fig:b34}, \ref{fig:b95},\ref{fig:b112}, and \ref{fig:b9} .
 Melodies and other sounds used were encoded using MuseScore 2 using the standard piano timbre and all set to a tempo of quarter = 120 beats per minute and adjusted accordingly based on time signature to ensure they all were same absolute time duration.
 The experiment was then coded in jsPsych \citep{deleeuwJsPsychJavaScriptLibrary2015} and played through a browser offline with high quality headphones.
 
 \begin{table}[t]
 
-\caption{\label{tab:expfeaturetable}Feature Table}
+\caption{\label{tab:expfeaturetable}Melodic Features for Experimental Melodies}
 \centering
 \begin{tabular}{lrrl}
 \toprule
-Melodies & Tonalness & Note.Density & Design\\
+Melody Number & Tonalness & Note Density & Feature Category\\
 \midrule
 34 & 0.95 & 1.67 & High Tonal, Low Note Density\\
 112 & 0.98 & 3.73 & High Tonal, High Note Density\\
@@ -2450,10 +2567,10 @@ After list-wise deletion, thirty-nine participants remained.
 \hypertarget{modeling-1}{%
 \subsection{Modeling}\label{modeling-1}}
 
-In order to model the data and investigate the hypotheses, I fit a series of linear mixed effects models using the R programming langauge \citep{R-base} and the \emph{lme4} and \emph{LMERTEST} \citep{batesFittingLinearMixedEffects2015} packages to predict scores from the dictation exercise using both individual and musical variables.
-Variables are added at each step and tests of significant model improvement are presented in Table \ref{modeltable}.
+In order to model the data and investigate the hypotheses, I fit a series of linear mixed effects models using the R programming langauge \citep{R-base} and the \emph{lme4} and \emph{LmerTest} \citep{batesFittingLinearMixedEffects2015, lmerTest} packages to predict scores from the dictation exercise using both individual and musical variables.
+Variables are added at each step and tests of significant model improvement are presented in Table \ref{tab:modeltable}.
 P-values were obtained by likelihood ratio tests between models.
-I also report AIC and BIC measures for each model ran.
+I report AIC and BIC measures for each model ran.
 Models were ran sequentially moving from a null model to a theoretical, statistical model predicted by variables discussed above.
 
 After establishing a null model (Model 1, \texttt{null\_model}), I then added individual level predictors (\texttt{wmc\_model} (Model 2) and \texttt{gf\_model}, and \texttt{cognitive\_model}) carrying forward only measures of working memory capacity.
@@ -2468,29 +2585,29 @@ Finally, I ran two models that accounted for both musical and indiviual level pr
 Model 7 exteneds Model 6, with the addition of working memory capacity as fixed effect, allowing for random slopes.
 Model 8 extends Model 5, with the addition of working memory capacity as a fixed effect, allowing for random slopes.
 I depict the fixed effects for all models in \ref{fig:megrid}.
-Tables for each model are presented in Tables \ref{fig:metable1}, @(ref:metable2), @(ref:metable3), and \ref{metable4}.
+Tables for each model are presented in Figures \ref{fig:metable1}, \ref{fig:metable2}, \ref{fig:metable3}, and \ref{fig:metable4}.
 
 \begin{table}[t]
 
-\caption{\label{tab:modeltable}Series of Model Fits}
+\caption{\label{tab:modeltable}Linear Mixed Effects Model Fits}
 \centering
+\resizebox{\linewidth}{!}{
 \begin{tabular}{lrrrrrrrr}
 \toprule
   & Df & AIC & BIC & logLik & deviance & Chisq & Chi Df & Pr(>Chisq)\\
 \midrule
-null\_model & 3 & 62.73561 & 71.885181 & -28.36781 & 56.73561 & NA & NA & NA\\
-wmc\_model & 4 & 63.44881 & 75.648235 & -27.72441 & 55.44881 & 1.286802 & 1 & 0.2566381\\
-gf\_model & 4 & 64.73129 & 76.930718 & -28.36565 & 56.73129 & 0.000000 & 0 & 1.0000000\\
-cognitive\_model & 5 & 65.38048 & 80.629759 & -27.69024 & 55.38048 & 1.350815 & 1 & 0.2451357\\
-melody\_model & 6 & -59.76827 & -41.469130 & 35.88413 & -71.76827 & 127.148745 & 1 & 0.0000000\\
-\addlinespace
-feature\_category\_model & 6 & -59.76827 & -41.469130 & 35.88413 & -71.76827 & 0.000000 & 0 & 1.0000000\\
-feature\_ientropy\_model & 6 & -28.80330 & -10.504165 & 20.40165 & -40.80330 & 0.000000 & 0 & 1.0000000\\
-total\_model\_ientropy & 7 & -22.83439 & -1.485395 & 18.41719 & -36.83439 & 0.000000 & 1 & 1.0000000\\
-feature\_cont\_model & 8 & -68.07246 & -43.673611 & 42.03623 & -84.07246 & 47.238072 & 1 & 0.0000000\\
-total\_model\_experimental & 9 & -56.97263 & -29.523924 & 37.48631 & -74.97263 & 0.000000 & 1 & 1.0000000\\
+null\_model & 3 & 62.74 & 71.89 & -28.37 & 56.74 & NA & NA & NA\\
+wmc\_model & 4 & 63.45 & 75.65 & -27.72 & 55.45 & 1.29 & 1 & 0.26\\
+gf\_model & 4 & 64.73 & 76.93 & -28.37 & 56.73 & 0.00 & 0 & 1.00\\
+cognitive\_model & 5 & 65.38 & 80.63 & -27.69 & 55.38 & 1.35 & 1 & 0.25\\
+melody\_model & 6 & -59.77 & -41.47 & 35.88 & -71.77 & 127.15 & 1 & 0.00\\
+feature\_category\_model & 6 & -59.77 & -41.47 & 35.88 & -71.77 & 0.00 & 0 & 1.00\\
+feature\_ientropy\_model & 6 & -28.80 & -10.50 & 20.40 & -40.80 & 0.00 & 0 & 1.00\\
+total\_model\_ientropy & 7 & -22.83 & -1.49 & 18.42 & -36.83 & 0.00 & 1 & 1.00\\
+feature\_cont\_model & 8 & -68.07 & -43.67 & 42.04 & -84.07 & 47.24 & 1 & 0.00\\
+total\_model\_experimental & 9 & -56.97 & -29.52 & 37.49 & -74.97 & 0.00 & 1 & 1.00\\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \end{table}
 
 \begin{figure}
@@ -2499,6 +2616,7 @@ total\_model\_experimental & 9 & -56.97263 & -29.523924 & 37.48631 & -74.97263 &
 
 }
 
+\caption{Mixed Effects Models 1}\label{fig:metable1}
 \end{figure}
 
 \begin{figure}
@@ -2507,6 +2625,7 @@ total\_model\_experimental & 9 & -56.97263 & -29.523924 & 37.48631 & -74.97263 &
 
 }
 
+\caption{Mixed Effects Models 2}\label{fig:metable2}
 \end{figure}
 
 \begin{figure}
@@ -2515,6 +2634,7 @@ total\_model\_experimental & 9 & -56.97263 & -29.523924 & 37.48631 & -74.97263 &
 
 }
 
+\caption{Mixed Effects Models 3}\label{fig:metable3}
 \end{figure}
 
 \begin{figure}
@@ -2523,6 +2643,7 @@ total\_model\_experimental & 9 & -56.97263 & -29.523924 & 37.48631 & -74.97263 &
 
 }
 
+\caption{Mixed Effects Models 4}\label{fig:metable4}
 \end{figure}
 
 \begin{figure}
@@ -2534,7 +2655,7 @@ total\_model\_experimental & 9 & -56.97263 & -29.523924 & 37.48631 & -74.97263 &
 \caption{Fixed Effects of Models}\label{fig:megrid}
 \end{figure}
 
-Distributions for average scores of the melodies are found in \ref{fig:eboxplot} and density scores of these items are foudn in \ref{fig:edistribution}.
+Distributions for average scores of the melodies are found in Figure \ref{fig:eboxplot} and density scores of these items are found in Figure \ref{fig:edistribution}.
 
 \begin{figure}
 
@@ -2542,7 +2663,7 @@ Distributions for average scores of the melodies are found in \ref{fig:eboxplot}
 
 }
 
-\caption{Melody Difficulty}\label{fig:eboxplot}
+\caption{Item Difficulty Distribution}\label{fig:eboxplot}
 \end{figure}
 
 \begin{figure}
@@ -2551,7 +2672,7 @@ Distributions for average scores of the melodies are found in \ref{fig:eboxplot}
 
 }
 
-\caption{Melodic Differences}\label{fig:edistribution}
+\caption{Between Melody Differences}\label{fig:edistribution}
 \end{figure}
 
 \hypertarget{discussion-2}{%
@@ -2559,39 +2680,35 @@ Distributions for average scores of the melodies are found in \ref{fig:eboxplot}
 
 In this chapter, I investigated the extent to which both individual differences and abstracted musical features could be used to model results in melodic dictations.
 In order to examine \(H1\), I ran a linear mixed effects model in order discern any differences in melody difficulty.
-As noted in \ref{HERE}, both a significant main effect of Tonalness and Note Density was found, as well as a small interaction between the two variables suggesting evidence supporting rejecting \(H2\)'s null hypothesis.
+As noted in Figure \ref{fig:metable2}, both a significant main effect of Tonalness and Note Density was found, as well as a small interaction between the two variables suggesting evidence supporting rejecting \(H2\)'s null hypothesis.
 The interaction emerged from differences in melody means in the low density conditions with the melody with higher tonalness actually scoring higher in terms of number of errors.
 Subsequent adding of individual level predictors did result in a better fitting model.
 
-While I expected to find an interaction, this condition (Melody 34) was hypothesized to be the easiest of the four
-conditions.
-With Melody 9 there was a clear floor effect, which was also to be expected as when we chose the melodies, I had no previous experimental data explicitly looking at melodic dictation to rely on.
+While I expected to find an interaction, Melody 34 was hypothesized to be the easiest of the four conditions.
+With Melody 9 there was a clear floor effect, which was also to be expected as when I chose the melodies, I had no previous experimental data explicitly looking at melodic dictation to rely on.
 Future experiments should use abstracted features from Melody 9 as a baseline in order to avoid floor effects.
 
 The main effect of note density was expected and exhibited a large effect size. (\(\eta\) = .46).
 While it would be tempting to attribute this finding exactly to the Note Density feature extracted by FANTASTIC, the high and low density conditions could also be operationalized as having compound versus simple meter.
 Given the large effect of note density, I plan on taking more careful steps in the selection of our next melodies in order to control for any effects of meter and keep the effects limited to one meter if at all possible.
 
-Somewhat surprisingly, the analysis incorporating the cognitive measures of covariance did not yield any significant
-results.
+Somewhat surprisingly, the analysis incorporating the cognitive measures of covariance did not yield any significant results.
 While other researchers and the third Chapter of this disseratation have noted the importance of baseline cognitive ability \citep{schellenbergMusicCognitiveAbilities2013}, the task specificity of doing melodic dictation as we designed the experiment might not be well suited to capture the variability needed for any effects.
-Hence, this chapter would not be able to reject H3's null hypothesis.
+Hence, this chapter would not be able to reject \(H3\)'s null hypothesis.
 Considering that other researchers have found constructs like working memory capacity and general fluid intelligence to be important factors of tasks of musical perception, a more refined design might be considered in the future to find any sort of effects.
 Taken as a whole, these findings suggest that aural skills pedagogues should consider exploring the extent to which computationally extracted features can guide the difficulty expected of melodic dictation exercises.
 
-\hypertarget{conclusions-2}{%
-\section{Conclusions}\label{conclusions-2}}
+\hypertarget{conclusions-3}{%
+\section{Conclusions}\label{conclusions-3}}
 
 This chapter demonstrated that abstracted musical features such as tonalness and note density can play a role in predicting how well students do in tasks of melodic dictation.
 While the experiment failed to yield any significant differences in cognitive ability predicting success at the task, future research plans should not fail to take these effects into consideration.
-
 One important caveat in this modeling is that the models reported here are subject to change given other scoring procedures.
 There is a high degree of variability in how melodic dictations are scored \citep{gillespieMelodicDictationScoring2001}, and modeling how different scoring procedures lead to differing results should be considered for future research.
 Importantly, if a researcher adopted this paradigm for investigating melodic dictation, what is most important is that there is some sort of external reference a single scorer can compare themselves to.
 Without having a pre-defined metric, scoring and thus grading will be subjected to the scorer's explicit or implicit biases.
 Given all that has been put forward here, the research thus far still does not explain the underlying processes for melodic dictation.
 In this chapter, I have put forward two factors that help describe what contributes to this process using a principled experimental framework.
--- sentence on principle.
 
 \hypertarget{computational-model}{%
 \chapter{Computational Model}\label{computational-model}}
@@ -2599,7 +2716,7 @@ In this chapter, I have put forward two factors that help describe what contribu
 \hypertarget{levels-of-abstraction}{%
 \section{Levels of Abstraction}\label{levels-of-abstraction}}
 
-In his 2007 article \emph{Models of Music Similarity}, Geraint Wiggins distinguishes between \emph{descriptive} and \emph{explanatory} models in describing the modeling of human behavior \citep{wigginsModelsMusicalSimilarity2007}.
+In his 2007 article \emph{Models of Music Similarity}, Geraint Wiggins distinguishes between descriptive and explanatory models in describing the modeling of human behavior \citep{wigginsModelsMusicalSimilarity2007}.
 Descriptive models assert what will happen in response to an event.
 For example, as discussed in the previous chapter, as the note density of a melody increases and the tonalness of a melody decreases, a melody becomes more difficult to dictate.
 While the increase in note density is assumed to drive the decrease in dictation scores, merely stating that there is an established relationship between one variable and the other says nothing about the inner workings of this process.
@@ -2663,7 +2780,7 @@ I discuss the issues of assumptions and representations as they arise in describ
 In order to write a computer program that mirrors the melodic dictation process, how the mind perceives and represents musical information must be defined \emph{a priori}.
 Before delving into questions of representation, this model assumes that the musical surface as represented by the notes via Western musical notation are salient and can be perceived as distinct perceptual phenomena
 Although there is work that suggests that different cultures and levels of experience might not categorize musical information universally \citep{mcdermottIndifferenceDissonanceNative2016}, other work suggests that experiencing pitches as discrete, categorical phenomena is categorized as a statistical human universal \citep{savageStatisticalUniversalsReveal2015}.
-In either case, the most explanatory models of any account of music perception should incorporate many features \citep{harrisonInstantaneousConsonancePerception}.
+In either case, the most explanatory models of any account of music perception should incorporate theoretically relevant features \citep{harrisonDissociatingSensoryCognitive2018}.
 For the purposes of this model, I assume that individuals do in fact perceive the musical surface similarly to the written score.
 
 Knowing that it is melodic information or melodic data that needs to be represented, the question then becomes what is the best way in which to represent it.
@@ -2861,7 +2978,7 @@ Below the model in Figure \ref{fig:walkthru} I provide a brief walk through of o
 \caption{Model Example}\label{fig:walkthru}
 \end{figure}
 
-Figure \ref{fig:walktru} depicts one iteration of the model run using the musical example from above using a hypothetical corpus for the pattern matching.
+Figure \ref{fig:walkthru} depicts one iteration of the model run using the musical example from above using a hypothetical corpus for the pattern matching.
 Using the model above, the following inputs were defined \emph{a priori}:
 
 \begin{itemize}
@@ -2918,8 +3035,8 @@ This provides an algorithmic implementation of the intuition that less common n-
 Also worth noting is steps 3 and 4 in the \texttt{transcribe()} function are akin to Karpinski's proto-notation.
 Further research might consider advantages in the order of searching the \textbf{Prior Knowledge} corpora.
 
-\hypertarget{conclusions-3}{%
-\section{Conclusions}\label{conclusions-3}}
+\hypertarget{conclusions-4}{%
+\section{Conclusions}\label{conclusions-4}}
 
 In this chapter, I presented an explanatory, computational model of melodic dictation.
 The model combines work from computational musicology and work from cognitive psychology.
@@ -2947,7 +3064,63 @@ Although many of these hypotheses might seem intuitive to any instructor who has
 Future research beyond this dissertation will explore predictions as a result of this work in more detail.
 Most importantly from a pedagogical standpoint, the model and underlying theory gives exact language to discuss the underlying processes of melodic dictation, which can serve as a valuable pedagogical and research contribution.
 
-\bibliography{book.bib,packages.bib}
+\hypertarget{summary}{%
+\chapter{Summary}\label{summary}}
+
+Melodic dictation is a cognitively demanding process that requires individuals to be able to hear a melody then write it down.
+Not only is understanding how this process works worthy of study from a pedagogical point of view, but being able to hear, understand, then notate a melody is a fascinating psychological ability.
+Figuring out exactly how this works is a messy problem, but messy problems are the life-blood of anyone who works with music.
+
+In this dissertation, I began by examining the Karpisnki model of melodic dication.
+While fantastic as a didiactic model, the model is not specific enough as is to be examined with experimental and computational methodologies.
+The model assumes similar proccess for different individuals, as well as different melodies.
+Using this as a point of departure, I put forward a taxonomy of features that might fill in the missing parts of the Karpinski.
+While I used this taxnomomy as a guide in my literature review, the taxonomy can also guide future thoughts when studying musical memory.
+With any study on musical memory, there will always be variation between individuals and variation between music.
+This taxonomy can help clarify and organize the factors thought to contribute to musical memory.
+
+The subsequent chapters of this thesis explored factors in this taxonomy.
+In the third chapter, I demonstrated how differences in individual ability can be accounted for in melodic dication.
+I put forward evidence to corroborate claims by Berz and stressed the importance of considering cognitive abilitity when considering musical memory.
+Studying these factors is important because we as pedagogues need to be able to know how much of a student's ability to do a task is within their ability to change.
+
+In the fourth chapter, I posited that tools from computational musicology can help better understand melodic memory.
+I used a survey of 40 aural skills pedagogues to demonstrate that there is a degree of agreement between what makes a melody difficult.
+Using this survey data as a ground truth, I then showed how various computational measures can then map on to human judguments of difficulty.
+Surveying the application of these methods allowed me to highlight the benefits and pitfalls of using various types of computations.
+I also showed how tools from computational musicology can act as a bridge to synthsize ideas put forward by cognitive psychology and put forward a novel theory of musical memory: the Frequency Facilitation Hypothesis.
+I showed how combining both computational measures with theories from cognitive psychology can help better understand the difficulty of the tasks we ask of students and also put forward meaningufl ways in which they might use this to create a more linear path to sucess in the classroom.
+
+In the fifth chapter, I put forward a new corpus of 783 monophonic vocal melodies.
+This new \emph{MeloSol} corpus is not only imporant from future reserach in music perception, music pedagogy, and computational musicology, but in performing a small corpus analysis, I was able to highlight assumptions yet to be explicitly addressed in computaitonal musicology.
+
+In the sixth chapter, I modeled how melodic dictation could be operationlized using an experiment that takes full advantage of robust statistical modeling techiniques.
+When cast as an experiment, the amount of variables at play in melodic ditation is cumbersome from both an individual and musical point of view.
+By utalizing methods from computational linguistics that have already been developed to ameliorate these problems, I put forward a stable and robust framework that future experiemnts on melodic dication can use.
+Doing this will allow for more interpretablity across studies and bring more cohesion ot the literature.
+
+Laslty, I introduced a cognitve, computational model of melodic dication.
+This model allowed me to formalize all theoretical factors deemed relevant and put them into a complete computational model.
+Not only does puting forward a computational model declare all ontological assumptions, but introducing this closed system allows for future systematic investigations to the model's versimilitue.
+The model makes several falsifiable predicitons within its framework that can be investigated in future research.
+
+After all of this, the understanding the exact processes undelrying melodic dictation has not been exhaustivly solved.
+There is still much work to be done in terms of briding the gap between the world of aural skills pedagogy and music psychology, but within this chasm is much potential for knowledge.
+Understanding the building blocks of aural skills is understanding the building blocks of musical perception.
+Not only is it important to understand how these processes are shaped with training and exposure.
+But insights from this research will not only inform how we teach, but also provide novel isnights into how cognition that can only be accessed because of the complexity that is music
+
+\bibliography{book.bib,packages.bib,pkg-refs.bib}
+
+\backmatter
+\chapter{Vita}
+
+David John Baker is a music researcher and educator passionate about questions at the intersection of music theory and music science.
+His research looks to understand how the people learn melodies in order to improve pedagogical practices in aural skills education.
+Initially trained as a conservatory musician-- studying under members of The Cleveland Orchestra at Baldwin Wallace University-- David has since completed an MSc in Music, Mind and Brain in London, England, and received his PhD in Music Theory at Louisiana State University where he completed his graduate minor in Cognitive and Brain Sciences.
+Using his background in the humanities and training in psychological sciences, David builds testable models of how people hear music.
+His overlapping quantitative skill set with the world of data science has also led him to both music industry projects and work in the non-profit/charity sector.
+By combining knowledge at both the humanities and sciences, David believes that knowledge gained at this intersection will lead to world peace.
 
 
 \end{document}

@@ -45,7 +45,7 @@ Using this logic, I then create a new compendium of melodic incipits, sorted by 
 
 ## Agreeing on Complexity
 
-Returning to melodies \@ref(fig:musicalpuzzleA) and \@ref(fig:musicalpuzzleB) from above, an aural skills pedagogue most likely has an intuition to which of the two melodies X or Y would be easier to dictate.
+Returning to melodies from Figures \@ref(fig:musicalpuzzleA) and \@ref(fig:musicalpuzzleB) from above, an aural skills pedagogue most likely has an intuition to which of the two melodies would be easier to dictate.
 Melody \@ref(fig:musicalpuzzleA) exhibits a predictable melodic syntax and phrase structure, the chromatic notes resolve within the conventions of the Common Practice period, and the melody itself could be scored with tertian harmony.
 On the other hand, Melody \@ref(fig:musicalpuzzleB)'s syntax does not conform to the conventions of the Common Practice period and does not imply any sort of underlying harmony or predictiable phrase rhythm.
 The duration of the rhythms appear irregular and the melody implies an uneven phrase structure.
@@ -54,7 +54,7 @@ Despite these content similarities, it would be safe to assume that melody \@ref
 
 In fact, aural skills pedagogues tend to agree for the most part on questions of difficulty of dictation.
 To demonstrate this, I surveyed 40 aural skills pedagogues who all have taught aural skills at the post-secondary  level.
-In this survey, participants were asked the questions presented in Table \@ref(surveyQuestions1) and Table \@ref(surveyQuestions2) using a sample of 20 melodies found in the a commonly used sight-singing text book [@berkowitzNewApproachSight2011].
+In this survey, participants were asked the questions presented in Table \@ref(tab:surveyQuestions1) and Table \@ref(tab:surveyQuestions2) using a sample of 20 melodies found in the a commonly used sight-singing text book [@berkowitzNewApproachSight2011].
 I present the details of the survey below.
 
 ### Methods
@@ -64,9 +64,9 @@ After piloting the randomly sampled melodies on a colleague, I again randomly sa
 I ran the survey from January 31st of 2019 until March 7th, 2019.
 The survey comprised of two sets of questions.
 
-Six questions asked about the teaching background of respondents and can be found in \@ref(surveyQuestions1).
+Six questions asked about the teaching background of respondents and can be found in Table \@ref(tab:surveyQuestions1).
 These questions were followed by asking participants to make five ratings over the 20 different melodies.
-The five questions can be found in \@ref(fig:surveyQuestions2). 
+The five questions can be found in \@ref(tab:surveyQuestions2). 
 To encourage participation, two $30 cash prize were offered to two participants. 
 The survey had questions that were specifically designed to gauge their appropriateness for use in a melodic dictation context.
 Participants were recruited exclusively online and all provided consent to partaking in the data collection as approved by the Louisiana State University Institutional Review Board. 
@@ -75,11 +75,11 @@ The table below contains the questions used in the demographic questionnaire.
 Examples were given following each questions and can be found on the survey link. 
 
 ```{r surveyQuestions1, echo=FALSE,fig.align='center', out.width="100%"}
-`Demographic Questions` <- c("What is your age, in years?", "What is your educational status?", "How many years have you been teaching Aural Skills at the University level?", "Which type of syllable system do you prefer to use?", "On which instrument have you gained the most amount of professional training?", "What is the title of the last degree you received?", "At what institution are you currently teaching? ")
+`Demographic Questions` <- c("What is your age, in years?", "What is your educational status?", "How many years have you been teaching Aural Skills at the University level?", "Which type of syllable system do you prefer to use?", "On which instrument have you gained the most amount of professional training?", "What is the title of the last degree you received?", "At what institution are you currently teaching?")
 DT_survey1 <- data.frame(`Demographic Questions`)
 
 knitr::kable(
-DT_survey1, booktabs = TRUE, caption =  "Survey Questions"
+DT_survey1, booktabs = TRUE, caption =  "Survey Questions", col.names = "Demographic Questions", longtable = TRUE, linesep = ""
   )
 ```
 
@@ -88,16 +88,19 @@ Participants either responded using ordinal categories or moved a slider that sa
 The survey can be found at https://musiccog.lsu.edu/dictation_survey/aural_survey.html. 
 
 ```{r surveyQuestions2, echo=FALSE,fig.align='center', out.width="100%"}
+library(magrittr)
+library(kableExtra)
 `Item Questions` <- c("During which semester of Aural Skills would you think it is appropriate to give this melody as a melodic dictation?",
-"How many times do you think this melody should be played in a melodic dictation considering the difficulty you noted in your previous question? Assume a reasonable tempo choice from 70-100BPM.",
-"Please rate how difficult you believe this melody to be for the average second-year undergraduate student at your institution. The far left should indicate 'Extremely Easy' and the far right should indicate 'Extremely Difficult'.",
-"Please rate this melody's adherence to the melodic grammar of the Common Practice Period. The far left should indicate 'Not Well Formed' and the far right should indicate 'Very Well Formed'.",
+"How many times do you think this melody should be played in a melodic dictation"," considering the difficulty you noted in your previous question?","Assume a reasonable tempo choice from 70-100BPM.",
+"Please rate how difficult you believe this melody to be for the average second-year  undergraduate student at your institution.","The far left should indicate 'Extremely Easy' and the far right should indicate 'Extremely Difficult'.",
+"Please rate this melody's adherence to the melodic grammar of the Common Practice  Period.","The far left should indicate 'Not Well Formed' and the far right should indicate 'Very Well Formed'.",
 "Is this melody familiar to you?")
 DT_survey2 <- data.frame(`Item Questions`)
 
 knitr::kable(
-DT_survey2, booktabs = TRUE, caption = "Item Questions"
-  )
+DT_survey2, booktabs = TRUE, caption = "Item Questions",col.names = "Item Questions", linesep = "") %>%
+  kable_styling(latex_options = c("scale_down"))
+
 ```
 
 
@@ -107,9 +110,9 @@ Of the 40 respondents, all reported used some sort of movable system other than 
 The sample represented over 30 different institutions.
 Overall, the sample reflects a wide range of experience of teaching aural skills. 
 The sample contains both younger and older individuals, as well as a range of experience.
-In the Figures \@ref(fig:berk3) through \@ref(fig629:berk) below, I list the 20 melodies sampled.
+In the Figures \@ref(fig:berk3) through \@ref(fig:berk629) below, I list the 20 melodies sampled.
 
-```{r surveyageeducation, echo=FALSE, fig.cap="Demographic Breakdown of Sample",fig.align='center', out.width="80%"}
+```{r surveyageeducation, echo=FALSE, fig.cap="Demographic Breakdown of Survey Sample",fig.align='center', out.width="80%"}
 knitr::include_graphics("img/ageedsurveydistribution.png")
 ```
 
@@ -202,7 +205,7 @@ The $x$ axis uses the rank of the melodies, not their index position in the Berk
 I chose to use this rank order metric as the number of a melody in a textbook is presumed to be best conceptualized as an ordinal variable.
 For example, it would be correct to assume that Melody 200 is more difficult than melody 2, but not by a factor of 100.
 
-```{r diffplot, echo=FALSE, fig.cap="Average Difficulty",fig.align='center', out.width="100%"}
+```{r diffplot, echo=FALSE, fig.cap="Difficulty Ratings from Survey",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/difficulty_plot.png")
 ```
 
@@ -211,7 +214,7 @@ Using an intraclass coefficient calculation of agreement using a two-way model (
 According to @kooGuidelineSelectingReporting2016, this reflects a good degree of agreement between raters. 
 This trend across the sample appears in the opposite direction when plotting the mean values to the fourth question in Figure \@ref(fig:grammarplot) from the survey reflecting the melody's adherence to the melodic grammar of the Common Practice period. 
 
-```{r grammarplot, echo=FALSE, fig.cap="Average Grammar Ratings",fig.align='center', out.width="100%"}
+```{r grammarplot, echo=FALSE, fig.cap="Grammar Ratings from Survey",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/grammar_plot.png")
 ```
 
@@ -227,7 +230,7 @@ Taken together, I ran a correlation on every one of the twenty melodies between 
 The correlations for all 20 melodies are plotted here in Figure \@ref(fig:gramcor).
 From this chart, we see this trend is not uniform across all melodies.
 
-```{r gramcor, echo=FALSE, fig.cap="Strength of Relationship Between Difficulty and Subjective Tonal Grammar",fig.align='center', out.width="100%"}
+```{r gramcor, echo=FALSE, fig.cap="Correlation Between Difficulty and Subjective Ratings of Tonal Grammar",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/grammar_difficulty_correlation_plot.png")
 ```
 
@@ -247,7 +250,7 @@ In order to provide a sense of validity to the measure, I carry forward ratings 
 ## Modeling Complexity
 
 The ability to quantify what theorists generally agree to be melodic complexity depends on distilling complexity into its component parts.
-Earlier, when comparing melodies X and Y, some of the features put forward that might contribute to complexity were features such as note density, the melody's rhythm, what scale the melody draws its notes from, and how tonal the melody might be perceived. 
+Earlier, when comparing melodies \@ref(fig:musicalpuzzleA) and \@ref(fig:musicalpuzzleB), some of the features put forward that might contribute to complexity were features such as note density, the melody's rhythm, what scale the melody draws its notes from, and how tonal the melody might be perceived. 
 Some combination of these component features presumably make up the construct of complexity.
 
 Attempting to use features of a melody to to predict how well a melody is remembered has a long history.
@@ -314,13 +317,13 @@ Additionally, FANTASATIC also provides a framework for comparing the features of
 
 Returning to the Aural Skills classroom, many of these features can be used to approximate the previously established intuitions of complexity as agreed upon by theorists.
 Below in Figure \@ref(fig:corfeature), I plot the the mean difficulty and grammar ratings given by experts for each melody in the experimental sample against each of the output of FANTASTIC's features by correlating the two measures.
-Additionally, \@ref(fig:corfeaturetable) displays the five strongest positive and negatively correlated features of FANTASTIC's output with the ground truth, expert ratings. 
+Additionally, \@ref(tab:corfeaturetable) displays the five strongest positive and negatively correlated features of FANTASTIC's output with the ground truth, expert ratings. 
 
-```{r corfeature, echo=FALSE, fig.cap="FANTASTIC and Expert Ratings",fig.align='center', out.width="100%"}
+```{r corfeature, echo=FALSE, fig.cap="FANTASTIC Computations Correlated with Expert Ratings",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/FantasticExpertPlot.png")
 ```
 
-```{r corfeaturetable, echo=FALSE, fig.cap="Strongest Correlated Features"}
+```{r corfeaturetable, echo=FALSE, fig.cap="Strongest Correlated FANTASTIC Features with Expert Ratings"}
 readr::read_rds("img/strongfeatures.rds")
 ```
 
@@ -333,7 +336,7 @@ Of the negatively correlated features, two linguistically derived measures ```me
 One problem in tackling this problem is that although many of these variables correlate strongly with our target variables-- both grammar and difficulty ratings-- one aspect not apparent in this analysis is the correlation between each of the features. 
 In order to demonstrate this, in Figure \@ref(fig:featurecorrelations) I visualize how a sample of features from the FANTASTIC toolbox correlate with one another with mode additionally included to highlight the breakdown of the corpus. 
 
-```{r featurecorrelations, echo=FALSE, fig.cap="Problems of Melodic Collinearity",fig.align='center', out.width="100%"}
+```{r featurecorrelations, echo=FALSE, fig.cap="Visualization of the Problem of Melodic Feature Collinearity",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/FANTASTIC_collin.png")
 ```
 
@@ -407,7 +410,7 @@ Peace notes four studies [@bartlettRecognitionTransposedMelodies1980; @cohenReco
 This theoretical assertion and select empirical findings have important ramifications for the aural skills classroom. 
 In a dictation setting, melodies that are more expected should tax memory less, thus making them easier to remember and dictate. 
 If I assume that more expected melodies are easier to remember, then it follows that the information content measures of expectedness can then be used as a stand in measure of melodic memory.
-This notion is not new to music psychology and was discussed by David Huron relating exposure to musical material as following similar laws to the the Hick-Hyman hypothesis [@hickRateGainInformation1952; @hymanStimulusInformationDeterminant1953], which Huron paraphrases as "processing of familiar stimuli is faster than processing of unfamiliar stimuli” [@huronSweetAnticipation2006, pp. 63]".
+This notion is not new to music psychology and was discussed by David Huron relating exposure to musical material as following similar laws to the the Hick-Hyman hypothesis [@hickRateGainInformation1952; @hymanStimulusInformationDeterminant1953], which Huron paraphrases as "processing of familiar stimuli is faster than processing of unfamiliar stimuli” [@huronSweetAnticipation2006, p. 63].
 Now a decade later, this assertion can be further investigated using tools from computational musicology. 
 Combining the Hick-Hyman hypothesis together with the above statistical learning hypothesis and probabilistic prediction hypothesis, I then put forward a new hypothesis: the frequency facilitation hypothesis. 
 
@@ -437,16 +440,16 @@ The FFH predicts that more frequently occurring patterns will result in lower in
 In order to examine this, I first extracted a series of the most frequently occurring melodic tri-grams from a subset of the _MeloSol_ corpus after transposing each melody to C major via the ```solfa``` tool in humdrum.
 I plot the resulting distributions of the top 1,000 patterns of each fixed order predictions below in \@ref(fig:bitriquint) and \@ref(fig:bitriquint2).
 
-```{r bitriquint, echo=FALSE, fig.cap="Distribution of m-grams",fig.align='center', out.width="100%"}
+```{r bitriquint, echo=FALSE, fig.cap="Distribution of n-grams",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/trigrams.png")
 ```
 
-```{r bitriquint2, echo=FALSE, fig.cap="Less Predictive Power",fig.align='center', out.width="100%"}
+```{r bitriquint2, echo=FALSE, fig.cap="Distribution of Bi- Tri- and Quint- grams",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/bitriquint.png")
 ```
 
-From \@ref(fig:bitriquint), we see that when plotted in terms of their frequency distributions, a small amount of the patterns make up for a very large the distribution of the corpus.
-As evident from \@ref(fig:bitriquint), we see that with the addition of more tokens added to the n-grams, this results in a visual representation of why and how statistical predictions become more unreliable with higher order predictions [@conklinMultipleViewpointSystems1995]. 
+From Figure \@ref(fig:bitriquint), we see that when plotted in terms of their frequency distributions, a small amount of the patterns make up for a very large the distribution of the corpus.
+As evident from Figure \@ref(fig:bitriquint), we see that with the addition of more tokens added to the n-grams, this results in a visual representation of why and how statistical predictions become more unreliable with higher order predictions [@conklinMultipleViewpointSystems1995]. 
 Intuitively, melodic patterns from the high frequency distribution of the table would seemingly be easier to remember and then dictate than those from the tails of the distributions.
 
 Following up on this analysis, I then trained an IDyOM model on the same corpus of melodies and was able to calculate the average information content for the first five notes of each melody in the corpus.
@@ -454,7 +457,7 @@ In this computation, I explicitly assume that the underlying corpus of data is r
 In Figure \@ref(fig:quintdist), I visualize the cumulative information content of the first five notes of each of melodies that the corpus was trained on. 
 I chose to additionally split the corpus into quintiles to further highlight the progressive changes in information content when these incipits are sorted based on their cumulative information content.
 
-```{r quintdist, echo=FALSE, fig.cap="Distribution of Opening Five Grams",fig.align='center', out.width="100%"}
+```{r quintdist, echo=FALSE, fig.cap="Distribution of Opening Quint grams",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/five_incipit_distiribution.png")
 ```
 
@@ -462,7 +465,7 @@ This observation may seem tautological, as this relationship would result from h
 The novel assertion here is connecting the cumulative information content to memory load.
 For example, in Figure \@ref(fig:tridensity), we see that when split into three sections, even just the opening of the first five notes of each melody increase per group.
 
-```{r tridensity, echo=FALSE, fig.cap="Average Information Content of First Five Notes of Melodies",fig.align='center', out.width="100%"}
+```{r tridensity, echo=FALSE, fig.cap="Average Information Content of Opening Quint-grams of Melodies",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/tri_distribution.png")
 ```
 
@@ -478,7 +481,7 @@ Lastly, to further investigate this claim of cumulative information content, I c
 In Figure \@ref(fig:modelcomparison), the resulting visualization shows measures of information content to be very good predictors of difficulty ratings.
 I believe that this gives credence to thinking more about using computational measures in designing appropriate curricular measures.
 
-```{r modelcomparsion, echo=FALSE, fig.cap="Model Comparison",fig.align='center', out.width="100%"}
+```{r modelcomparison, echo=FALSE, fig.cap="Model Comparison",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/model_comparsion_gg.png")
 ```
 

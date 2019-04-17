@@ -4,7 +4,7 @@
 
 The first two steps of Gary Karpinski's model of melodic dictation [@karpinskiAuralSkillsAcquisition2000; @karpinskiModelMusicPerception1990] rely exclusively on the mental representation of melodic information.
 Karpinski conceptualizes the first stage of hearing as involving the physical motions of the tympanic membrane, as well as the listener's attention to the musical stimulus.
-This stage is distinguished from that of short-term melodic memory that refers to the amount of melodic information that can be represented in conscious awareness.
+This stage is distinguished from that of short-term melodic memory, which refers to the amount of melodic information that can be represented in conscious awareness.
 Given that neither stage of the first two steps of Karpinski's model requires any sort of musical expertise, every individual with normal hearing and cognition should be able to partake in the first two steps of melodic dictation.
 The ability to hear, then remember musical information is where all students of melodic dictation are presumed to begin their aural skills education.
 From this baseline, students receive explicit education in music theory and aural skills to develop the ability to link what they hear to what can then be musically understood and consequently notated.
@@ -28,9 +28,9 @@ This assumption of similar baseline of abilities is implicit in the Karpinski mo
 The model provides a framework of mental choreography students are encouraged to build upon that is agnostic to individual differences; Karpinski's model assumes that all individuals, regardless of their background, will engage in the same process.
 As students gain more knowledge in music theory, they build their musical understanding which in turn enables them to recognize more of the auditory scene they are focusing on.
 In addition to learning explicit knowledge that facilitates their musical understanding, Karpinski suggests there are two other skills that students can develop in order to improve their short-term musical memory: extractive listening and chunking.
-In Karpinski's own words: "Only one or both strategies can extend the capacity of short-term musical memory: (1) extractive listening and (2) chunking. (pp. 71)"
+In Karpinski's own words: "Only one or both strategies can extend the capacity of short-term musical memory: (1) extractive listening and (2) chunking. (p. 71)"
 
-Karpinski defines extractive listening as "a combination of focused attention and selective memorization (p.70)".
+Karpinski defines extractive listening as "a combination of focused attention and selective memorization (p. 70)".
 Extractive listening requires students to be able to focus on the material they will be mentally representing and tune out other sources of stimulation that might distract the student.
 In order to improve this ability, Karpinski suggests practicing listening to melodies and having students practice directing their attention to pre-determined set sequences of notes.
 Students should slowly work towards being able to auralize the melody with other musical information still sounding. 
@@ -275,15 +275,14 @@ The goal of the analyses was to examine the relationships among the measures and
 Before running any sort of modeling, data was inspected to ensure that in addition to outlier issues as mentioned above, the data exhibited normal distributions. 
 
 Before running any modeling, I checked our data for assumptions of normality since violations of normality can strongly affect the covariances between items. 
-While some items in Figure 1 displayed a negative skew, many of the individual level items from the self report scale exhibited high
-levels of Skew and Kurtosis beyond the generally accepted ± 2 [@fieldDiscoveringStatisticsUsing2012], but none of the items with the unsatisfactory measures are used in the general factor.
+While some items in Figure 1 displayed a negative skew, many of the individual level items from the self report scale exhibited high levels of Skew and Kurtosis beyond the generally accepted ± 2 [@fieldDiscoveringStatisticsUsing2012], but none of the items with the unsatisfactory measures are used in the general factor.
 
 #### Modeling
 
 ##### Measurement Model
 
 I then fit a measurement model to examine the underlying structure of the variables of interest used to assess the latent constructs (general musical sophistication, WMC, general fluid intelligence) by performing a confirmatory factor analysis (CFA) using the lavaan package [@rosseelLavaanPackageStructural2012] using R [@teamLanguageEnvironmentStatistical2015]. 
-Model fits can be found in table \@ref(exp2variables). 
+Model fits can be found in table \@ref(tab:exp2variables). 
 For each model, latent factors were constrained to have a mean of 0 and variance of 1 in order to allow the latent covariances to be interpreted as correlations. 
 Since the objective measures were on different scales, all variables were converted to z scores before running any modeling.
 
@@ -298,10 +297,9 @@ Variable <- c("General Self-Report Musical Sophistication" ,"Working Memory Capa
 
 `Variable Table` <- data.frame(Abbreviation, Variable)
 
-
 knitr::kable(
   `Variable Table`, booktabs = TRUE,
-  caption = 'Variables Used In Modeling'
+  caption = 'Variables Used In Structural Equation Modeling'
 )
 ```
 
@@ -337,27 +335,27 @@ TLI <- c(0.81,0.80,0.83,0.94,0.97,0.80)
 
 semDT <- data.frame(Models,df, chi,p, CFI, RMSEA, TLI)
 
-knitr::kable(semDT, booktabs = TRUE, caption = "Model Fits")
+knitr::kable(semDT, booktabs = TRUE, caption = "Structural Equation Model Fits")
 ```
 
 
-```{r model1, echo=FALSE, fig.cap="Full Model, All Variables Included",fig.align='center', out.width="100%"}
+```{r model1, echo=FALSE, fig.cap="Model 1 | Full Model, All Variables Included",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/sem1.png")
 ```
 
-```{r model2, echo=FALSE, fig.cap="Full Model, Highly Correlated Residual Items",fig.align='center', out.width="100%"}
+```{r model2, echo=FALSE, fig.cap="Model 2 | Full Model, Highly Correlated Residual Items",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/sem2.png")
 ```
 
-```{r model3, echo=FALSE, fig.cap="Self Report Removed, Only Cognitive Measures",fig.align='center', out.width="100%"}
+```{r model3, echo=FALSE, fig.cap="Model 3 | Self Report Removed, Only Cognitive Measures",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/sem3.png")
 ```
 
-```{r model4, echo=FALSE, fig.cap="Cognitive Measures, Gf as Observed",fig.align='center', out.width="100%"}
+```{r model4, echo=FALSE, fig.cap="Model 4 | Cognitive Measures, Gf as Observed",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/sem4.png")
 ```
 
-```{r model5, echo=FALSE, fig.cap="General Self Report Only",fig.align='center', out.width="100%"}
+```{r model5, echo=FALSE, fig.cap="Model 5 | General Self Report Only",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/sem5.png")
 ```
 
@@ -368,7 +366,7 @@ knitr::include_graphics("img/sem5.png")
 
 #### Measurement Model 
 
-After running a confirmatory factor analysis on the variables of interest, the model fit was below the threshold of what is considered a “good model fit” as shown in \@ref(ModelFits) with references to above model fits. 
+After running a confirmatory factor analysis on the variables of interest, the model fit was below the threshold of what is considered a “good model fit” as shown in \@ref(tab:ModelFits) with references to above model fits. 
 This finding is to be expected since no clear theoretical model has been put forward that would suggest that the general musical sophistication score, when modeled with two cognitive measures should have a "good" model fit. 
 This model was run to create a baseline measurement.
 
@@ -376,7 +374,7 @@ This model was run to create a baseline measurement.
 
 Following a series of nested model fits, I was able to improve model fits on a series of structural equation models that incorporated both measures of working memory capacity and measures of general fluid intelligence.
 Before commenting on new models, it is worth noting that Model 5 does not seem to align with the findings from the original 2014 paper by [@mullensiefenMusicalityNonMusiciansIndex2014]. 
-While the correlation between the objective tasks is the same (r = .16), the factor loadings from this analysis suggest lower values for both Beat Perception (.37 original, .27 this paper) as well as Melodic Memory (.28 original, .18 this paper). 
+While the correlation between the objective tasks is the same ($r$ = .16), the factor loadings from this analysis suggest lower values for both Beat Perception ($r$ = .37 original, $r$ = .27 this chapter) as well as Melodic Memory ($r$ = .28 original, $r$  = .18 this chapter). 
 Note that two items were removed dealing with melody for memory for this model; when those items were re-run with the data, the factor loadings did not deviate from these numbers.
 
 The first two models I ran resulted in minor improvements to model fit. 
@@ -418,7 +416,7 @@ As attention is limited, not listening to more than you can hold will free up co
 Further students could take up recommendations like that of @chenetteReframingAuralSkills2019 and focus on activities that might help them increase their ability to focus, knowing that this practice will most likely not increase their working memory.
 
 Not only will these findings have relevance in the classroom, but they suggest that future work looking to do more robust modeling of melodic dictation must take into account the window of attention.
-In chapter 7, I incorporate this finding into a computational model of melodic dictation and use the finite window of working memory as a perceptual bottleneck to constrain incoming musical information. 
+In the final chapter, I incorporate this finding into a computational model of melodic dictation and use the finite window of working memory as a perceptual bottleneck to constrain incoming musical information. 
 
 In this chapter, I fit a series of structural equation models in order to investigate the degree to which baseline cognitive ability was able to predict performance on a musical perception task. 
 My findings suggest that measures of working memory capacity are able to account for a large amount of variance beyond that of self report in tasks of musical perception.

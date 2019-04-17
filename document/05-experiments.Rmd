@@ -19,7 +19,7 @@ Additionally, I discuss the intricacies associated with scoring and relate these
 
 Despite its near ubiquity in Conservatory and School of Music curricula, research surrounding topics concerning aural skills is not well understood. 
 This is peculiar since almost any individual seeking to earn a degree in music usually must enroll in multiple aural skills classes that cover a wide array of topics from sight-singing melodies, to melodic and harmonic dictation– all of which are presumed to be fundamental to any musician’s formal training. 
-Skills acquired in these classes are meant to hone the musician’s ear and enable them not only to think about music, but to borrow Karpinski’s phrase, to “think in music” [@karpinskiAuralSkillsAcquisition2000, p.4;@bestMusicCurriculaFuture1992]. 
+Skills acquired in these classes are meant to hone the musician’s ear and enable them not only to think about music, but to borrow Karpinski’s phrase, to “think in music” [@karpinskiAuralSkillsAcquisition2000, p.4; @bestMusicCurriculaFuture1992]. 
 The tacit assumption behind these tasks is that once one learns to think in music, these abilities should transfer to other aspects of the musician’s playing in a deep and profound way. 
 The skills that make up an individual’s aural skills encompass many abilities, and are thought to be reflective of some sort of core skill. 
 This logic is evident in early attempts to model performance in aural skills classes where @harrisonEffectsMusicalAptitude1994 created a latent variable model to predict an individual’s success in aural skills classes based on musical aptitude, musical experience, motivation, and academic ability. 
@@ -120,7 +120,7 @@ Participants volunteered, received course credit, or were paid $10.
 Four melodies for the dictation were selected from a corpus of N=115 melodies derived from the A New Approach to Sight Singing aural skills textbook [@berkowitzNewApproachSight2011]. 
 Melodies were chosen based on their musical features as extracted via the FANTASTIC Toolbox [@mullensiefenFantasticFeatureANalysis2009]. 
 After abstracting the full set of features of the melodies, possible melodies were first narrowed down by limiting the corpus to melodies lasting between 9 and 12 seconds and then indexed to select four melodies that were chosen as part of a 2 x 2 repeated measures design including a high and low tonalness and note density condition. 
-Melodies, as well as a table of their abstracted features can be seen in \@ref(expfeaturetable) and \@ref(fig:b34), \@ref(fig:b95),\@ref(fig:112), and \@ref(fig:b9) . 
+Melodies, as well as a table of their abstracted features can be seen in \@ref(tab:expfeaturetable) and \@ref(fig:b34), \@ref(fig:b95),\@ref(fig:b112), and \@ref(fig:b9) . 
 Melodies and other sounds used were encoded using MuseScore 2 using the standard piano timbre and all set to a tempo of quarter = 120 beats per minute and adjusted accordingly based on time signature to ensure they all were same absolute time duration. 
 The experiment was then coded in jsPsych [@deleeuwJsPsychJavaScriptLibrary2015] and played through a browser offline with high quality headphones.
 
@@ -133,7 +133,8 @@ Design <- c("High Tonal, Low Note Density", "High Tonal, High Note Density", "Lo
 
 featureDT <- data.frame(Melodies, Tonalness, `Note Density`, Design)
 
-knitr::kable(featureDT,booktabs = TRUE, caption = "Feature Table", digits = 2)
+knitr::kable(featureDT,booktabs = TRUE, caption = "Melodic Features for Experimental Melodies", digits = 2,
+             col.names = c("Melody Number", "Tonalness", "Note Density", "Feature Category"))
 ```
 
 ```{r b34, echo=FALSE, fig.cap="Melody 34",fig.align='center', out.width="100%"}
@@ -193,10 +194,10 @@ After list-wise deletion, thirty-nine participants remained.
 
 ### Modeling
 
-In order to model the data and investigate the  hypotheses, I fit a series of linear mixed effects models using the R programming langauge [@R-base] and the _lme4_ and _LMERTEST_ [@batesFittingLinearMixedEffects2015] packages to predict scores from the dictation exercise using both individual and musical variables.
-Variables are added at each step and tests of significant model improvement are presented in Table \@ref(modeltable).
+In order to model the data and investigate the  hypotheses, I fit a series of linear mixed effects models using the R programming langauge [@R-base] and the _lme4_ and _LmerTest_ [@batesFittingLinearMixedEffects2015;@lmerTest] packages to predict scores from the dictation exercise using both individual and musical variables.
+Variables are added at each step and tests of significant model improvement are presented in Table \@ref(tab:modeltable).
 P-values were obtained by likelihood ratio tests between models.
-I also report AIC and BIC measures for each model ran. 
+I report AIC and BIC measures for each model ran. 
 Models were ran sequentially moving from a null model to a theoretical, statistical model predicted by variables discussed above. 
 
 After establishing a null model (Model 1, ```null_model```), I then added individual level predictors (```wmc_model``` (Model 2) and ```gf_model```, and ```cognitive_model```) carrying forward only measures of working memory capacity. 
@@ -211,7 +212,7 @@ Finally, I ran two models that accounted for both musical and indiviual level pr
 Model 7 exteneds Model 6, with the addition of working memory capacity as fixed effect, allowing for random slopes.
 Model 8 extends Model 5, with the addition of working memory capacity as a fixed effect, allowing for random slopes. 
 I depict the fixed effects for all models in \@ref(fig:megrid).
-Tables for each model are presented in Tables \@ref(fig:metable1), \@(ref:metable2), \@(ref:metable3), and \@ref(metable4).
+Tables for each model are presented in Figures \@ref(fig:metable1), \@ref(fig:metable2), \@ref(fig:metable3), and \@ref(fig:metable4).
 
 
 ```{r modeltable, echo=FALSE}
@@ -219,43 +220,39 @@ anova_model_table <- readRDS("img/anova_model_table.RDS")
 
 knitr::kable(
   anova_model_table, booktabs = TRUE,
-  caption = 'Series of Model Fits'
-)
+  caption = 'Linear Mixed Effects Model Fits', digits = 2, linesep = ""
+) %>%  kable_styling(latex_options = c("scale_down"))
+
 ```
 
-```{r metable1, echo=FALSE, fig.cap="",fig.align='center', out.width="100%"}
+```{r metable1, echo=FALSE, fig.cap="Mixed Effects Models 1",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/metable1.png")
 ```
 
-```{r metable2, echo=FALSE, fig.cap="",fig.align='center', out.width="100%"}
+```{r metable2, echo=FALSE, fig.cap="Mixed Effects Models 2",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/metable2.png")
 ```
 
-```{r metable3, echo=FALSE, fig.cap="",fig.align='center', out.width="100%"}
+```{r metable3, echo=FALSE, fig.cap="Mixed Effects Models 3",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/metable3.png")
 ```
 
-```{r metable4, echo=FALSE, fig.cap="",fig.align='center', out.width="100%"}
+```{r metable4, echo=FALSE, fig.cap="Mixed Effects Models 4",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/metable4.png")
 ```
-
-
-
-
-
 
 ```{r megrid, echo=FALSE, fig.cap="Fixed Effects of Models",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/me_grid.png")
 ```
 
 
-Distributions for average scores of the melodies are found in \@ref(fig:eboxplot) and density scores of these items are foudn in \@ref(fig:edistribution).
+Distributions for average scores of the melodies are found in Figure \@ref(fig:eboxplot) and density scores of these items are found in Figure \@ref(fig:edistribution).
 
-```{r eboxplot, echo=FALSE, fig.cap="Melody Difficulty",fig.align='center', out.width="100%"}
+```{r eboxplot, echo=FALSE, fig.cap="Item Difficulty Distribution",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/melody_difficulty.png")
 ```
 
-```{r edistribution, echo=FALSE, fig.cap="Melodic Differences",fig.align='center', out.width="100%"}
+```{r edistribution, echo=FALSE, fig.cap="Between Melody Differences",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/melody_differences.png")
 ```
 
@@ -263,23 +260,21 @@ knitr::include_graphics("img/melody_differences.png")
 
 In this chapter, I investigated the extent to which both individual differences and abstracted musical features could be used to model results in melodic dictations. 
 In order to examine $H1$, I ran a linear mixed effects model in order discern any differences in melody difficulty. 
-As noted in \@ref(HERE), both a significant main effect of Tonalness and Note Density was found, as well as a small interaction between the two variables suggesting evidence supporting rejecting $H2$’s null hypothesis.
+As noted in Figure \@ref(fig:metable2), both a significant main effect of Tonalness and Note Density was found, as well as a small interaction between the two variables suggesting evidence supporting rejecting $H2$’s null hypothesis.
 The interaction emerged from differences in melody means in the low density conditions with the melody with higher tonalness actually scoring higher in terms of number of errors.
 Subsequent adding of individual level predictors did result in a better fitting model. 
 
-While I expected to find an interaction, this condition (Melody 34) was hypothesized to be the easiest of the four
-conditions. 
-With Melody 9 there was a clear floor effect, which was also to be expected as when we chose the melodies, I had no previous experimental data explicitly looking at melodic dictation to rely on. 
+While I expected to find an interaction, Melody 34 was hypothesized to be the easiest of the four conditions. 
+With Melody 9 there was a clear floor effect, which was also to be expected as when I chose the melodies, I had no previous experimental data explicitly looking at melodic dictation to rely on. 
 Future experiments should use abstracted features from Melody 9 as a baseline in order to avoid floor effects.
 
 The main effect of note density was expected and exhibited a large effect size. ($\eta$ = .46). 
 While it would be tempting to attribute this finding exactly to the Note Density feature extracted by FANTASTIC, the high and low density conditions could also be operationalized as having compound versus simple meter. 
 Given the large effect of note density, I plan on taking more careful steps in the selection of our next melodies in order to control for any effects of meter and keep the effects limited to one meter if at all possible.
 
-Somewhat surprisingly, the analysis incorporating the cognitive measures of covariance did not yield any significant
-results. 
+Somewhat surprisingly, the analysis incorporating the cognitive measures of covariance did not yield any significant results. 
 While other researchers and the third Chapter of this disseratation have noted the importance of baseline cognitive ability [@schellenbergMusicCognitiveAbilities2013], the task specificity of doing melodic dictation as we designed the experiment might not be well suited to capture the variability needed for any effects. 
-Hence, this chapter would not be able to reject H3’s null hypothesis. 
+Hence, this chapter would not be able to reject $H3$’s null hypothesis. 
 Considering that other researchers have found constructs like working memory capacity and general fluid intelligence to be important factors of tasks of musical perception, a more refined design might be considered in the future to find any sort of effects.
 Taken as a whole, these findings suggest that aural skills pedagogues should consider exploring the extent to which computationally extracted features can guide the difficulty expected of melodic dictation exercises.
 
@@ -287,11 +282,9 @@ Taken as a whole, these findings suggest that aural skills pedagogues should con
 
 This chapter demonstrated that abstracted musical features such as tonalness and note density can play a role in predicting how well students do in tasks of melodic dictation. 
 While the experiment failed to yield any significant differences in cognitive ability predicting success at the task, future research plans should not fail to take these effects into consideration. 
-
 One important caveat in this modeling is that the models reported here are subject to change given other scoring procedures.
 There is a high degree of variability in how melodic dictations are scored [@gillespieMelodicDictationScoring2001], and modeling how different scoring procedures lead to differing results should be considered for future research.
 Importantly, if a researcher adopted this paradigm for investigating melodic dictation, what is most important is that there is some sort of external reference a single scorer can compare themselves to.
 Without having a pre-defined metric, scoring and thus grading will be subjected to the scorer's explicit or implicit biases.
 Given all that has been put forward here, the research thus far still does not explain the underlying processes for melodic dictation.
 In this chapter, I have put forward two factors that help describe what contributes to this process using a principled experimental framework.
--- sentence on principle. 

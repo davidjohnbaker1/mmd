@@ -15,27 +15,32 @@ Chapter 7 - Computational Model | Incorporating AH Edits | SEMPRE Journal ?
 
 ## Formatting Checklist 
 
-* [ ] Consistent Margins Throughout 
-* [ ] 1.5 Inch left for binding, 1 inch top bottom and side 
-* [ ] Center or left justifed unless it's insane 
-* [ ] Single space table of contents
-* [ ] Single space block qutotations, aka more than four lines
-* [ ] SS Long chapter titles and subheadings, figure captions, table captions, footnotes, endnotes, bibliographic entries that are longer than one line of text.
-* [ ] Above each main heading listed in the Table of Contents (do not double space subheadings)
-* [ ] Above each table and figure title in the List of Tables and List of Figures
-* [ ] Above each entry in your bibliography and endnotes
-* [ ] Above and below each table or figure if the table or figure is placed between text on a page
-* [ ] Above a table or figure if the table or figure appears at the bottom of a page
-* [ ] Below a table or figure if the table or figure appears at the top of a page 
+* Spaces on Main Page
+* Schematics of WM for Cowan figure label
+* Number Models Figures Individual 
+* Average EXPert difficutly ratings
+* Less Predictive Power 
+* Problems of Collinarity -- Taylor Pembrook 
+* Model Comparison Color Range 
+* Change "Chapter" ordering of lit review 
 
-* [ ] Each chapter/main heading must start on a new page. 
-* [ ]  Do not use italics for the title, main headings, subheadings, captions for tables, figures, formulas,
+* [X] Consistent Margins Throughout 
+* [X] 1.5 Inch left for binding, 1 inch top bottom and side 
+* [X] Center or left justifed unless it's insane 
+* [X] Single space table of contents
+* [X] Single space block qutotations, aka more than four lines
+* [ ] SS Long chapter titles and subheadings, figure captions, table captions, footnotes, endnotes, bibliographic entries that are longer than one line of text.
+* [X] Above each main heading listed in the Table of Contents (do not double space subheadings)
+* [X] Above each table and figure title in the List of Tables and List of Figures
+* [X] Above each entry in your bibliography and endnotes
+* [X] Above and below each table or figure if the table or figure is placed between text on a page
+* [X] Above a table or figure if the table or figure appears at the bottom of a page
+* [X] Below a table or figure if the table or figure appears at the top of a page 
+
+* [X] Each chapter/main heading must start on a new page. 
+* [X]  Do not use italics for the title, main headings, subheadings, captions for tables, figures, formulas,
 quotations, page numbers, etc.
-* [ ]Use italics for these specific purposes only:
-* [ ]titles of journals and books
-* [ ]titles of musical or artistic works
-* [ ]scientific terms
-* [ ]foreign words
-* [ ]for one- or two-word emphasis 
-* [ ] Number all pages except the title page 
+* [X]Use italics for these specific purposes only:
+* [X]for one- or two-word emphasis 
+* [X] Number all pages except the title page 
 
