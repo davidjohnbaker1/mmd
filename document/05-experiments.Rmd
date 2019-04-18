@@ -26,7 +26,7 @@ This logic is evident in early attempts to model performance in aural skills cla
 While their model was able to predict a large amount of variance (73%), modeling at this high, conceptual level does not provide any sort of specific insights into the mental processes that are required for completing aural skills related tasks. 
 This trend can also be seen in more recent research that has explored the relationship between how well entrance exams at the university level are able to predict success later on in the degree program. 
 
-@wolfGradesReflectDevelopment2014 noted multiple confounds in their study attempting to asses ability level in university musicians such as inflated grading, which led to ceiling effects, as well as a broad lack of consistency in how schools are assessing the success of their students. 
+@wolfGradesReflectDevelopment2014 noted multiple confounds in their study attempting to assess ability level in university musicians such as inflated grading, which led to ceiling effects, as well as a broad lack of consistency in how schools are assessing the success of their students. 
 But even if the results at the larger level were to be clearer, this again says nothing about the processes that contribute to tasks like melodic dictation.
 Rather than taking a bird’s eye view of the subject, this chapter will primarily focus on descriptive factors that might contribute to an individual’s ability dictate a melody.
 
@@ -56,7 +56,7 @@ This is especially important given recent critique of models that purport to mea
 ### Memory for Melodies
 
 The ability to understand how individuals encode melodies is at the heart of much of the music perception literature.
-Largely stemming from the work of Bregman [@bregmanAuditorySceneAnalysis2006], Deutsch and Feroe, [@deutschInternalRepresentationPitch1981], and Dowling's [@bartlettRecognitionTransposedMelodies1980; @dowlingExpectancyAttentionMelody1990; @dowlingPerceptionInterleavedMelodies1973; @dowlingScaleContourTwo1978] work on memory for melodies has sugested that both key and contour information play a central role in the perception and memory of novel melodies. 
+Largely stemming from the work of Bregman [@bregmanAuditorySceneAnalysis2006], Deutsch and Feroe, [@deutschInternalRepresentationPitch1981], and Dowling's [@bartlettRecognitionTransposedMelodies1980; @dowlingExpectancyAttentionMelody1990; @dowlingPerceptionInterleavedMelodies1973; @dowlingScaleContourTwo1978] work on memory for melodies has suggested that both key and contour information play a central role in the perception and memory of novel melodies. 
 Memory for melodies tends to be much worse than memory for other stimuli, such as pictures or faces, noting that the average area under the ROC curve tends to be at about .7 in many of the studies they reviewed, with .5 meaning chance and 1 being a perfect performance [@halpernMemoryMelodies2010]. 
 Halpern and Bartlett also note that much of the literature on memory for melodies primarily used same-different experimental paradigms to investigate individuals’  melodic perception ability similar to the paradigm used in [@halpernEffectsTimbreTempo2008].
 
@@ -67,12 +67,12 @@ The last, and possibly most obvious, variable that would contribute to an indivi
 A fair amount of research from the music education literature examines melodic dictation in a more ecological setting [@buonviriEffectsMusicNotation2015; @buonviriEffectsPreparatorySinging2015; @buonviriEffectsTwoListening2017; @buonviriExplorationUndergraduateMusic2014; @buonviriMelodicDictationInstruction2015; @unsworthAutomatedVersionOperation2005], but most take a descriptive approach to modeling the results using between-subject manipulations.
 Some rules of thumb regarding how many times a melody should be played in a dictation setting have been proposed by Karpinski [@karpinskiAuralSkillsAcquisition2000, p.99] that account for chunking as well as the idea that more exposure would lead to more complete encoding.
 For example, he suggests using the formula $P = (Ch/L) + 1$ where $P$ is the number of playings, $Ch$ is the number of chunks in the dictation (with chunk defined as a single memorable unit), and $L$ = the limit of a listener's short term memory in terms of chunks, a number between 6 and 10.
-This definition requires expert selection of what a chunk is, and does not take into account any of the Experimental factors put forward in the taxnomy presented in this dissertation's [Context, Literature, and Rationale].
+This definition requires expert selection of what a chunk is, and does not take into account any of the Experimental factors put forward in the taxonomy presented in this dissertation's [Context, Literature, and Rationale].
 
 Recently, tools have been developed in the field of computational musicology to help with operationalizing the complexity of melodies. 
 Both simple and more complex features have been used to model performance in behavioral tasks. 
 For example @eerolaPerceivedComplexityWestern2006 found that note density, though not consciously apparent to the participants, predicted judgments of human similarity between melodies not familiar to the participants. 
-Both @harrisonModellingMelodicDiscrimination2016 and @bakerPerceptionLeitmotivesRichard2017 used measures of melodic complexity created from data reductive techniques to sucessfuly predict difficulty on melodic memory tasks.
+Both @harrisonModellingMelodicDiscrimination2016 and @bakerPerceptionLeitmotivesRichard2017 used measures of melodic complexity created from data reductive techniques to successfully predict difficulty on melodic memory tasks.
 
 Note density would be an ideal candidate to investigate because it is both easily measured and the amount of information that can be currently held in memory as measured by bits of information has a long history in cognitive psychology [@cowanWorkingMemoryCapacity2005; @millerInformationMemory1956; @pearceStatisticalLearningProbabilistic2018a].
 In terms of more complex features, much of this work largely stems from the work of Müllensiefen and his development of the FANTASTIC Toolbox -@mullensiefenFantasticFeatureANalysis2009, and a few papers have claimed to be able to predict various behavioral outcomes based on the structural characteristics of melodies.
@@ -181,7 +181,7 @@ If a participant was to have put a quarter note on the second beat of the third 
 Only if the correct rhythms of the measures were accurate could pitch points be
 awarded. 
 In cases where there were more serious errors, for example if the second half of the second bar was not notated, points would have been deducted in both the pitch and rhythm sub-scores. 
-Dictations were scored all melodies independently by two raters and then cross referenced for inter rater reliability ($\kappa$ = .96) whic suggests a high degree of inter-rater reliability [@kooGuidelineSelectingReporting2016].
+Dictations were scored all melodies independently by two raters and then cross referenced for inter rater reliability ($\kappa$ = .96) which suggests a high degree of inter-rater reliability [@kooGuidelineSelectingReporting2016].
 
 ##  Results
 
@@ -194,7 +194,7 @@ After list-wise deletion, thirty-nine participants remained.
 
 ### Modeling
 
-In order to model the data and investigate the  hypotheses, I fit a series of linear mixed effects models using the R programming langauge [@R-base] and the _lme4_ and _LmerTest_ [@batesFittingLinearMixedEffects2015;@lmerTest] packages to predict scores from the dictation exercise using both individual and musical variables.
+In order to model the data and investigate the  hypotheses, I fit a series of linear mixed effects models using the R programming language [@R-base] and the _lme4_ and _LmerTest_ [@batesFittingLinearMixedEffects2015;@lmerTest] packages to predict scores from the dictation exercise using both individual and musical variables.
 Variables are added at each step and tests of significant model improvement are presented in Table \@ref(tab:modeltable).
 P-values were obtained by likelihood ratio tests between models.
 I report AIC and BIC measures for each model ran. 
@@ -204,12 +204,12 @@ After establishing a null model (Model 1, ```null_model```), I then added indivi
 No cognitive variables resulted in a significant increase in model fit.
 Next, I modeled musical level features.
 Each musical model that I ran allowed musical features to have random slopes since presumably individuals would perform differently on each melody. 
-The first muscial model (Model 3) treated each melody as a categorical fixed effect.
+The first musical model (Model 3) treated each melody as a categorical fixed effect.
 The second musical model (Model 4) used the categorical features as predictors, which included an interaction effect.
-The third musical model (Model 5) used the continous FANTASTIC measures as fixed effects, which included an interaction effect.
+The third musical model (Model 5) used the continuous FANTASTIC measures as fixed effects, which included an interaction effect.
 In order to investigate claims put forward in the third chapter of this dissertation, I also ran a model (Model 6) using only interval entropy as calculated by FANTASTIC.
-Finally, I ran two models that accounted for both musical and indiviual level predictors.
-Model 7 exteneds Model 6, with the addition of working memory capacity as fixed effect, allowing for random slopes.
+Finally, I ran two models that accounted for both musical and individual level predictors.
+Model 7 extends Model 6, with the addition of working memory capacity as fixed effect, allowing for random slopes.
 Model 8 extends Model 5, with the addition of working memory capacity as a fixed effect, allowing for random slopes. 
 I depict the fixed effects for all models in \@ref(fig:megrid).
 Tables for each model are presented in Figures \@ref(fig:metable1), \@ref(fig:metable2), \@ref(fig:metable3), and \@ref(fig:metable4).
@@ -273,7 +273,7 @@ While it would be tempting to attribute this finding exactly to the Note Density
 Given the large effect of note density, I plan on taking more careful steps in the selection of our next melodies in order to control for any effects of meter and keep the effects limited to one meter if at all possible.
 
 Somewhat surprisingly, the analysis incorporating the cognitive measures of covariance did not yield any significant results. 
-While other researchers and the third Chapter of this disseratation have noted the importance of baseline cognitive ability [@schellenbergMusicCognitiveAbilities2013], the task specificity of doing melodic dictation as we designed the experiment might not be well suited to capture the variability needed for any effects. 
+While other researchers and the third Chapter of this dissertation have noted the importance of baseline cognitive ability [@schellenbergMusicCognitiveAbilities2013], the task specificity of doing melodic dictation as we designed the experiment might not be well suited to capture the variability needed for any effects. 
 Hence, this chapter would not be able to reject $H3$’s null hypothesis. 
 Considering that other researchers have found constructs like working memory capacity and general fluid intelligence to be important factors of tasks of musical perception, a more refined design might be considered in the future to find any sort of effects.
 Taken as a whole, these findings suggest that aural skills pedagogues should consider exploring the extent to which computationally extracted features can guide the difficulty expected of melodic dictation exercises.

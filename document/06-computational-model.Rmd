@@ -230,7 +230,7 @@ Using the model above, the following inputs were defined _a priori_:
 Figure \@ref(fig:walkthru) progresses from left to right over the course of time.
 The algorithm begins by first running the ```listen()``` function on the **Target Melody**.
 First, the model checks that there are notes to transcribe; this being the first loop of the model, this is statement will be ```FALSE``` so the next step is taken.
-Notes of the **Target Melody** are read in to the **Selective Attention** buffer until the information content of the melody exceeds that of the working memory threshold.
+Notes of the **Target Melody** are read into the **Selective Attention** buffer until the information content of the melody exceeds that of the working memory threshold.
 This is depicted graphically in the leftmost panel of Figure \@ref(fig:walkthru).
 Each note unfolding over time fills up the **Selective Attention** working memory buffer.
 When the amount of information reaches the perceptual bottleneck-- as indicated by the dashed line-- the **Selective Attention** buffer stops receiving information.

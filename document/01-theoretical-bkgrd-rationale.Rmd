@@ -221,7 +221,7 @@ In this case, attention is the window of active memory.
 
 In addition to having multiple frameworks for studying working memory capacity, there is also the problem of limits to the working memory system, often referred to as the working memory capacity. 
 Most popularized by Miller in his famous [@millerMagicalNumberSeven1956] speech turned article, Miller suggests out of jest that the number 7 might be worthy of investigating in terms of how many items can be remembered, which has been used as a point of reference for many researchers since then. 
-It is worth nothing that Miller has gone on record as noting that using 7 (plus or minus 2) was a rhetorical device inteneded to string together his speech and not a claim to pursue the number seven as the limit for memory [@millerHistoryPsychologyAutobiography1989]. 
+It is worth nothing that Miller has gone on record as noting that using 7 (plus or minus 2) was a rhetorical device intended to string together his speech and not a claim to pursue the number seven as the limit for memory [@millerHistoryPsychologyAutobiography1989]. 
 Nevertheless, while the number seven is most likely a red herring, it did inspire a large amount of research on capacity limits.
 In the decades since, the number 7 has been reduced to about 4 [@cowanMagicalMysteryFour2010] and research around capacity limits has been investigated using a variety of novel tasks, most notably the complex span task [@unsworthAutomatedVersionOperation2005; @unsworthComplexWorkingMemory2009].
 When complex span tasks are used as a measure of working memory capacity, they tend to be both valid and reliable psychometric tools that are stable across a lifetime [@unsworthAutomatedVersionOperation2005].
@@ -279,7 +279,7 @@ The authors also noted that of their working memory battery, based on standard o
 Additionally, @colleyWorkingMemoryAuditory2017 found working memory capacity, as measured by a backwards digit span and operation span, to be successful predictors in a tapping task requiring sensory motor prediction abilities.
 As mentioned above, each of these tasks where working memory was a significant predictor of performance occurred where the task involved active engagement with novel musical material.
 
-The growing evidence in this field suggests that having larger working memory capacity to be greatest in both musically trained people, and that these effects are the most pronouced dealing with novel, tonal information.
+The growing evidence in this field suggests that having larger working memory capacity to be greatest in both musically trained people, and that these effects are the most pronounced dealing with novel, tonal information.
 Since all three of these factors are related to melodic dictation, it would seem sensible to continue to include these measures in tasks of musical perception and continue Berz's assertion that research in music perception could inadvertently be picking up on individual differences in working memory abilities.
 
 #### Intelligence and Music
@@ -296,7 +296,7 @@ Schellenberg also references evidence that when professional musicians are match
 His review suggests the current state of the literature might be interpreted as higher functioning kids tend to gravitate towards music lessons, then subsequently persist with the lessons. 
 Additionally, Schellenberg remains skeptical of any sort of causal factors regarding increases in IQ [@francoisMusicTrainingDevelopment2013; @morenoMusicalTrainingInfluences2009] noting methodological problems like how short exposure times were in studies claiming increases in effects, or researchers not holding pre-existing cognitive abilities constant [@mehrTwoRandomizedTrials2013].
 Continued work by Swaminithan, Schellenberg, and Khalil continue to support evidence for this selection bias in training resulting in higher cognitive abilities among musicians [@swaminathanRevisitingAssociationMusic2017].
-Under my taxonomy, the individual, cognitive traits such as general intelligence and working memory are presumed to be stable over a life time.
+Under my taxonomy, the individual, cognitive traits such as general intelligence and working memory are presumed to be stable over a lifetime.
 I now turn to individual traits that are more malleable, those dubbed the environmental factors. 
 
 ### Environmental 
@@ -321,7 +321,7 @@ Investigating musical talent as if it were a universal is a problem well documen
 In addition to individuals differing in their general musical abilities-- however they are defined-- individuals also differ in their abilities at the level of their aural skills.
 The same problems that arise in operationalizing musicianship are apparent in defining aural skills.
 Reviewing the literature, I operationalize aural skills to encompass the many skills often taught in music school, not restricting those skills to any particular sets of exercises.
-Some researchers like Chenttee [@chenetteReframingAuralSkills2019] have taken stricter definitions attempting to state only skills that engage working memory capacity as those that are truly aural, but this operationalization would limit this review's scope. 
+Some researchers like Chenette [@chenetteReframingAuralSkills2019] have taken stricter definitions attempting to state only skills that engage working memory capacity as those that are truly aural, but this operationalization would limit this review's scope. 
 
 Though not as heavily researched in the past few decades [@furbyEffectsPeerTutoring2016], there has been specific research looking at modeling how individuals perform in aural skills examinations. 
 @harrisonEffectsMusicalAptitude1994 examined the effect of aural skills training on undergraduate students by creating a latent variable model investigating musical aptitude, academic ability, musical expertise, and motivation to study music in a sample of 142 undergraduate students and claimed to be able to explain 73% of the variance in aural skills abilities using the variables measured. 
@@ -360,7 +360,7 @@ While issues surrounding "the notes" as they pertain to discourse have been cent
 In his text, Meyer posits that much of a listener's experience in music can be understood by considering a listener's expectations which are generated from the statistical properties of the music.
 
 Research in Meyer's tradition inspired work investigating the perception of melodic structures via the work of Eugene Narmour [@narmourAnalysisCognitionBasic1990; @narmourAnalysisCognitionMelodic1992], Glenn Schellenberg [@schellenbergSimplifyingImplicationRealizationModel1997], Elizabeth Hellmuth Margulis [@margulisModelMelodicExpectation2005], and David Huron [@huronSweetAnticipation2006].
-Meyer has also been the cited source of inspiration for recent, successful implementations of models of human auditory cognition like that of Marcus Pearce's Information Dynamics of Music [@pearceConstructionEvaluationStatistical2005;@pearceStatisticalLearningProbabilistic2018a], which derives from information theoretic models of musical perception put forward by Ian Witten and Darrel Conklin [@conklinMultipleViewpointSystems1995].
+Meyer has also been the cited source of inspiration for recent, successful implementations of models of human auditory cognition like that of Marcus Pearce's Information Dynamics of Music [@pearceConstructionEvaluationStatistical2005;@pearceStatisticalLearningProbabilistic2018a], which derives from information theoretic models of musical perception put forward by Ian Witten and Darrell Conklin [@conklinMultipleViewpointSystems1995].
 
 Though even prior to Meyer and Schenker, one of the earliest researchers that sought to make an explicit link between "the notes" and perception comes from outside the dominant academic musicological discourse.
 The first study to examine the link between what might be understood as "the notes" and explicit memory was Otto Ortmann in 1933 [@ortmannTonalDeterminantsMelodic1933]. 
@@ -467,7 +467,7 @@ One of the most important changes to future studies on melodic dictation need av
 While abstract concepts like intelligence and musical training are helpful concepts for explaining the variance in responses in aural skills settings, using such abstracted variables describe, but do not explain the causal mechanisms underlying this process.
 
 The most illustrative example of this comes from the above study by @harrisonEffectsMusicalAptitude1994 who created a latent variable model of aural skills that was able to predict 74% of the variance in aural skills performance.
-This latent trait that the authors created is helpful in explaining the patterns of covariance in data, but this would be to reify a statistical abstraction and assume a stance of ontological realsim as noted before [@borsboomTheoreticalStatusLatent2003]. 
+This latent trait that the authors created is helpful in explaining the patterns of covariance in data, but this would be to reify a statistical abstraction and assume a stance of ontological realism as noted before [@borsboomTheoreticalStatusLatent2003]. 
 The idea of statistical reification has been critiqued outside of music [@gouldMismeasureMan1996; @kovacsProcessOverlapTheory2016] and additionally has served as the basis for an argument within music [@bakerExaminingMusicalSophistication2018a] .
 
 The same arguments put forward in this literature are also relevant in research in aural skills.

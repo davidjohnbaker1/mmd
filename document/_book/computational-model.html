@@ -5,11 +5,11 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Chapter 7 Computational Model | MODELING MELODIC DICTATION</title>
+  <title>Chapter 7 Computational Model | mmd-draft-djb.utf8.md</title>
   <meta name="description" content="This dissertation models both individual and musical features that contribute to processes involved in melodic dictation.">
   <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
-  <meta property="og:title" content="Chapter 7 Computational Model | MODELING MELODIC DICTATION" />
+  <meta property="og:title" content="Chapter 7 Computational Model | mmd-draft-djb.utf8.md" />
   <meta property="og:type" content="book" />
   
   
@@ -17,22 +17,14 @@
   <meta name="github-repo" content="davidjohnbaker1/document" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 7 Computational Model | MODELING MELODIC DICTATION" />
+  <meta name="twitter:title" content="Chapter 7 Computational Model | mmd-draft-djb.utf8.md" />
   
   <meta name="twitter:description" content="This dissertation models both individual and musical features that contribute to processes involved in melodic dictation." />
   
 
-<meta name="author" content="A Dissertation">
-<meta name="author" content="Submitted to the Graduate Faculty of the Louisiana State University and Agricultural and Mechanical College in partial fulfillment of the requirements for the degree of Doctor of Philosophy">
-<meta name="author" content="in">
-<meta name="author" content="The School of Music">
-<meta name="author" content="by David John Baker">
-<meta name="author" content="B.M., Baldwin Wallace University, 2012">
-<meta name="author" content="MSc., Goldsmiths, University of London, 2015">
-<meta name="author" content="May 2019">
 
 
-<meta name="date" content="2019-04-17">
+<meta name="date" content="2019-04-18">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -40,7 +32,7 @@
   
   
 <link rel="prev" href="experiment.html">
-<link rel="next" href="references.html">
+<link rel="next" href="summary.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -184,6 +176,7 @@
 </ul></li>
 <li class="chapter" data-level="7.5" data-path="computational-model.html"><a href="computational-model.html#conclusions-4"><i class="fa fa-check"></i><b>7.5</b> Conclusions</a></li>
 </ul></li>
+<li class="chapter" data-level="8" data-path="summary.html"><a href="summary.html"><i class="fa fa-check"></i><b>8</b> Summary</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/davidjohnbaker1/document" target="blank">Modeling Melodic Dictation</a></li>
@@ -197,7 +190,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">MODELING MELODIC DICTATION</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"></a>
           </h1>
         </div>
 
@@ -293,7 +286,7 @@ Additionally, since melodic dictation is an active memory process, rather than a
 The first is that it must be dependent on prior musical experience.
 The second is that it should allow for a movable boundary for selective attention so that musical information that is in memory can be actively maintained while carrying out another cognitive process, that of notating the melody.</p>
 <p>In order to create this metric, I rely on IDyOM’s use of information content <span class="citation">(Shannon <a href="#ref-shannonMathematicalTheoryCommunication1948">1948</a>)</span>, which quantifies the information content of melodies based on a corpus of materials utilizing a multiple viewpoints framework <span class="citation">(Conklin and Witten <a href="#ref-conklinMultipleViewpointSystems1995">1995</a>)</span>.</p>
-<p>For example, when trained against a corpus of melodies, this excerpt in Figure <a href="computational-model.html#fig:schubertF">7.1</a> from the fourth movement of Schubert’s <em>Octet in F Major</em> (D.803) lists the information content of the excerpt calculated for each note atop the notation<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.
+<p>For example, when trained against a corpus of melodies, this excerpt in Figure <a href="computational-model.html#fig:schubertF">7.1</a> from the fourth movement of Schubert’s <em>Octet in F Major</em> (D.803) lists the information content of the excerpt calculated for each note atop the notation<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a>.
 Appearing in Figure <a href="computational-model.html#fig:cumSchubert">7.2</a>, I plot the cumulative information content of the melody, along with both an arbitrary threshold for the limits of working memory capacity, and where the subsequent segmentation boundary for musical material to be put in the Selective Attention buffer would be.
 These values chosen show a small example of how the Selective Attention module works.
 The advantage of operationalizing how an individual hears a melody like this is that melodies with lower information content, derived from an understanding of having more predictable patterns from the corpus, will allow for larger chunks to be put inside of the selective attention buffer.
@@ -566,8 +559,8 @@ Most importantly from a pedagogical standpoint, the model and underlying theory 
 </div>
 <div class="footnotes">
 <hr />
-<ol start="5">
-<li id="fn5"><p>The following musical examples is taken from <span class="citation">Pearce (<a href="#ref-pearceStatisticalLearningProbabilistic2018a">2018</a>)</span> reflects a model where IDyOM was configured to predict pitch with an attribute linking melodic pitch interval and chromatic scale degree (pitch and scale degree) using both the short-term and long-term models, the latter trained on 903 folk songs and chorales (data sets 1, 2, and 9 from table 4.1 in <span class="citation">(Schaffrath <a href="#ref-schaffrathEssenFolkSong1995">1995</a>)</span> comprising 50,867 notes.<a href="computational-model.html#fnref5" class="footnote-back">↩</a></p></li>
+<ol start="7">
+<li id="fn7"><p>The following musical examples is taken from <span class="citation">Pearce (<a href="#ref-pearceStatisticalLearningProbabilistic2018a">2018</a>)</span> reflects a model where IDyOM was configured to predict pitch with an attribute linking melodic pitch interval and chromatic scale degree (pitch and scale degree) using both the short-term and long-term models, the latter trained on 903 folk songs and chorales (data sets 1, 2, and 9 from table 4.1 in <span class="citation">(Schaffrath <a href="#ref-schaffrathEssenFolkSong1995">1995</a>)</span> comprising 50,867 notes.<a href="computational-model.html#fnref7" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
             </section>
@@ -576,7 +569,7 @@ Most importantly from a pedagogical standpoint, the model and underlying theory 
         </div>
       </div>
 <a href="experiment.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="summary.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
