@@ -203,7 +203,8 @@ Models were ran sequentially moving from a null model to a theoretical, statisti
 After establishing a null model (Model 1, ```null_model```), I then added individual level predictors (```wmc_model``` (Model 2) and ```gf_model```, and ```cognitive_model```) carrying forward only measures of working memory capacity. 
 No cognitive variables resulted in a significant increase in model fit.
 Next, I modeled musical level features.
-Each musical model that I ran allowed musical features to have random slopes since presumably individuals would perform differently on each melody. 
+Ideally each musical model that I ran would have allowed musical features to have random slopes since presumably individuals would perform differently on each melody.
+This was not possible due to the size of the dataset, though future experiments should incorporate this parameter.
 The first musical model (Model 3) treated each melody as a categorical fixed effect.
 The second musical model (Model 4) used the categorical features as predictors, which included an interaction effect.
 The third musical model (Model 5) used the continuous FANTASTIC measures as fixed effects, which included an interaction effect.
@@ -212,8 +213,118 @@ Finally, I ran two models that accounted for both musical and individual level p
 Model 7 extends Model 6, with the addition of working memory capacity as fixed effect, allowing for random slopes.
 Model 8 extends Model 5, with the addition of working memory capacity as a fixed effect, allowing for random slopes. 
 I depict the fixed effects for all models in \@ref(fig:megrid).
-Tables for each model are presented in Figures \@ref(fig:metable1), \@ref(fig:metable2), \@ref(fig:metable3), and \@ref(fig:metable4).
+Tables for each model are presented in Tables \@ref(tab:memodeltable1) through \@ref(tab:memodeltable8).
+Distributions for average scores of the melodies are found in Figure \@ref(fig:eboxplot) and density scores of these items are found in Figure \@ref(fig:edistribution).
 
+```{r eboxplot, echo=FALSE, fig.cap="Item Difficulty Distribution",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/melody_difficulty.png")
+```
+
+```{r edistribution, echo=FALSE, fig.cap="Between Melody Differences",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/melody_differences.png")
+```
+
+```{r megrid, echo=FALSE, fig.cap="Fixed Effects of Models",fig.align='center', out.width="100%"}
+knitr::include_graphics("img/me_grid.png")
+```
+
+
+
+```{r memodeltable1, echo=FALSE}
+#--------------------------------------------------
+me_model_table1 <- readRDS("img/metable1.RDS")
+
+knitr::kable(
+  me_model_table1, booktabs = TRUE,
+  caption = 'Model 1 | Null Model', digits = 2, linesep = "",
+  col.names = c("Predictors","Estimates", "CI", "p")
+) %>% kable_styling(full_width = T, latex_options = "hold") 
+
+```
+
+```{r memodeltable2, echo=FALSE}
+#--------------------------------------------------
+me_model_table2 <- readRDS("img/metable2.RDS")
+
+knitr::kable(
+  me_model_table2, booktabs = TRUE,
+  caption = 'Model 2 | WMC Model', digits = 2, linesep = "",
+  col.names = c("Predictors","Estimates", "CI", "p")
+) %>% kable_styling(full_width = T, latex_options = "hold")
+
+```
+
+```{r memodeltable3, echo=FALSE}
+#--------------------------------------------------
+me_model_table3 <- readRDS("img/metable3.RDS")
+
+knitr::kable(
+  me_model_table3, booktabs = TRUE,
+  caption = 'Model 3 | Melody Model', digits = 2, linesep = "",
+  col.names = c("Predictors","Estimates", "CI", "p")
+) %>% kable_styling(full_width = T, latex_options = "hold")
+
+```
+
+```{r memodeltable4, echo=FALSE}
+#--------------------------------------------------
+me_model_table4 <- readRDS("img/metable4.RDS")
+
+knitr::kable(
+  me_model_table2, booktabs = TRUE,
+  caption = 'Model 4 | Feature Category Model', digits = 2, linesep = "",
+  col.names = c("Predictors","Estimates", "CI", "p")
+) %>% kable_styling(full_width = T, latex_options = "hold")
+
+```
+
+```{r memodeltable5, echo=FALSE}
+#--------------------------------------------------
+me_model_table5 <- readRDS("img/metable5.RDS")
+
+knitr::kable(
+  me_model_table5, booktabs = TRUE,
+  caption = 'Model 5 | Feature Continuous Model', digits = 2, linesep = "",
+  col.names = c("Predictors","Estimates", "CI", "p")
+) %>% kable_styling(full_width = T, latex_options = "hold")
+
+```
+
+```{r memodeltable6, echo=FALSE}
+#--------------------------------------------------
+me_model_table6 <- readRDS("img/metable6.RDS")
+
+knitr::kable(
+  me_model_table6, booktabs = TRUE,
+  caption = 'Model 6 | Interval Entropy Model', digits = 2, linesep = "",
+  col.names = c("Predictors","Estimates", "CI", "p")
+) %>% kable_styling(full_width = T, latex_options = "hold")
+
+```
+
+```{r memodeltable7, echo=FALSE}
+#--------------------------------------------------
+me_model_table7 <- readRDS("img/metable7.RDS")
+
+knitr::kable(
+  me_model_table7, booktabs = TRUE,
+  caption = 'Model 7 | Inteval Entropy Experimental Model', digits = 2, linesep = "",
+  col.names = c("Predictors","Estimates", "CI", "p")
+) %>% kable_styling(full_width = T, latex_options = "hold")
+
+```
+
+```{r memodeltable8, echo=FALSE}
+#--------------------------------------------------
+me_model_table8 <- readRDS("img/metable8.RDS")
+
+knitr::kable(
+  me_model_table8, booktabs = TRUE,
+  caption = 'Model 8 | Feature Continuous Experimental Model', digits = 2, linesep = "",
+  col.names = c("Predictors","Estimates", "CI", "p")
+) %>% kable_styling(full_width = T, latex_options = "hold")
+
+```
 
 ```{r modeltable, echo=FALSE}
 anova_model_table <- readRDS("img/anova_model_table.RDS")
@@ -223,37 +334,6 @@ knitr::kable(
   caption = 'Linear Mixed Effects Model Fits', digits = 2, linesep = ""
 ) %>%  kable_styling(latex_options = c("scale_down"))
 
-```
-
-```{r metable1, echo=FALSE, fig.cap="Mixed Effects Models 1",fig.align='center', out.width="100%"}
-knitr::include_graphics("img/metable1.png")
-```
-
-```{r metable2, echo=FALSE, fig.cap="Mixed Effects Models 2",fig.align='center', out.width="100%"}
-knitr::include_graphics("img/metable2.png")
-```
-
-```{r metable3, echo=FALSE, fig.cap="Mixed Effects Models 3",fig.align='center', out.width="100%"}
-knitr::include_graphics("img/metable3.png")
-```
-
-```{r metable4, echo=FALSE, fig.cap="Mixed Effects Models 4",fig.align='center', out.width="100%"}
-knitr::include_graphics("img/metable4.png")
-```
-
-```{r megrid, echo=FALSE, fig.cap="Fixed Effects of Models",fig.align='center', out.width="100%"}
-knitr::include_graphics("img/me_grid.png")
-```
-
-
-Distributions for average scores of the melodies are found in Figure \@ref(fig:eboxplot) and density scores of these items are found in Figure \@ref(fig:edistribution).
-
-```{r eboxplot, echo=FALSE, fig.cap="Item Difficulty Distribution",fig.align='center', out.width="100%"}
-knitr::include_graphics("img/melody_difficulty.png")
-```
-
-```{r edistribution, echo=FALSE, fig.cap="Between Melody Differences",fig.align='center', out.width="100%"}
-knitr::include_graphics("img/melody_differences.png")
 ```
 
 ## Discussion
@@ -268,7 +348,7 @@ While I expected to find an interaction, Melody 34 was hypothesized to be the ea
 With Melody 9 there was a clear floor effect, which was also to be expected as when I chose the melodies, I had no previous experimental data explicitly looking at melodic dictation to rely on. 
 Future experiments should use abstracted features from Melody 9 as a baseline in order to avoid floor effects.
 
-The main effect of note density was expected and exhibited a large effect size. ($\eta$ = .46). 
+The main effect of note density was expected and exhibited a large effect size. 
 While it would be tempting to attribute this finding exactly to the Note Density feature extracted by FANTASTIC, the high and low density conditions could also be operationalized as having compound versus simple meter. 
 Given the large effect of note density, I plan on taking more careful steps in the selection of our next melodies in order to control for any effects of meter and keep the effects limited to one meter if at all possible.
 

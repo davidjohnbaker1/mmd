@@ -37,7 +37,7 @@ The four steps of Karpinski's model include
 3. Musical Understanding 
 4. Notation
 
-and occur as a looping process, which I have reproduced and depicted in Figure \@ref(fig:flowchart)^[Image reproduced with permission. Image taken from Aural Skills Acquisition, p. 102, Figure 1.].
+and occur as a looping process, which I have reproduced and depicted in Figure \@ref(fig:flowchart)^[Image reproduced with permission. Image taken from Aural Skills Acquisition, p. 102, Figure 1.2].
 Previous attempts to distill melodic dictation into a series of discrete steps have ranged from Michael Roger's assertion of only needing two steps, to Ronald Thomas, who claimed as many as 15 steps, to similar models proposed by Colin Wright that model inner hearing as a five step model [@wrightInvestigatingAuralCase2016;@karpinskiAuralSkillsAcquisition2000].
 Karpinski's model is discussed extensively in both the original article [@karpinskiModelMusicPerception1990] and throughout the third chapter in his book [@karpinskiAuralSkillsAcquisition2000].
 

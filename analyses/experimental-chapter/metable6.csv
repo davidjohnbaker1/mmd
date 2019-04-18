@@ -1,0 +1,6 @@
+Predictors,Estimates,CI,p
+(Intercept),-0.41,-0.53 – -0.28,<0.001
+i.entropy,1.34,1.11 – 1.56,<0.001
+Observations,156,,
+Marginal R2,0.378,,
+Conditional R2,0.604,,

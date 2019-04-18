@@ -22,13 +22,13 @@ Despite its ubiquity in curricula within School of Music settings, exactly how a
 This dissertation aims to fill the gap in the literature between aural skills practitioners and music psychologists in order to reach conclusions that can be applied systematically in pedagogical contexts. 
 I accomplish this by synthesizing literature from music theory, music psychology, and music education in order to demonstrate how tools from both cognitive psychology as well as computational musicology can be used to help inform pedagogical practices.
 
-In the first chapter, I discuss factors that  might play a role in a student's ability to take melodic dictation and put forward a taxonomy of factors that are assumed to contribute to an individual’s ability to take melodic dictation. 
-The second chapter of the dissertation investigates individual factors that are theorized to contribute to melodic dictation using a cross-sectional experimental design. 
+In the second chapter, I discuss factors that  might play a role in a student's ability to take melodic dictation and put forward a taxonomy of factors that are assumed to contribute to an individual’s ability to take melodic dictation. 
+The third chapter of the dissertation investigates individual factors that are theorized to contribute to melodic dictation using a cross-sectional experimental design. 
 The chapter corroborates claims on the importance of understanding individual differences in working memory capacity in research on melodic dictation. 
-The third chapter discusses how aural skills pedagogy can incorporate methodologies from computational musicology in order to inform teaching practice. 
-In my fourth chapter, I introduce the MeloSol corpus, a new collection of 783 digitized melodies encoded in the **kern format. 
-In the fifth chapter, I synthesize the previous research in a melodic dictation experiment to show how using robust statistical methods can be used model melodic dictation. 
-Finally, in my sixth chapter, I introduce a computational, cognitive model of melodic dictation with the goal of helping explain how students improve at melodic dictation. 
+The fourth chapter discusses how aural skills pedagogy can incorporate methodologies from computational musicology in order to inform teaching practice. 
+In my fifth chapter, I introduce the MeloSol corpus, a new collection of 783 digitized melodies encoded in the **kern format. 
+In the sixth chapter, I synthesize the previous research in a melodic dictation experiment to show how using robust statistical methods can be used model melodic dictation. 
+Finally, in my seventh chapter, I introduce a computational, cognitive model of melodic dictation with the goal of helping explain how students improve at melodic dictation. 
 I demonstrate how modeling the cognitive decision process during melodic dictation helps provide a precise framework for pedagogues to understand student’s inner cognition during melodic dictation and can help inform teaching practice. 
 
 \mainmatter 
@@ -39,7 +39,7 @@ I demonstrate how modeling the cognitive decision process during melodic dictati
 
 All students pursuing a Bachelor's degree in Music from universities accredited by the National Association of Schools of Music must learn to take melodic dictation [@nasmNationalAssociationSchools2019, §VIII.6.B.2.A].
 Melodic dictation is a cognitively demanding process that requires students to hear a melody, then without any access to an external reference, transcribe the melody within a limited time frame.
-As of 2019, there are 643 Schools of Music belonging to National Association of Schools of Music (NASM)^[https://nasm.arts-accredit.org/directory-lists/accredited-institutions/search/?institutionname=&city=&state=&country=&search=true], meaning that thousands of students every year will be expected to learn this challenging task as part of their aural skills education.
+As of 2019, there are 643 Schools of Music belonging to National Association of Schools of Music, meaning that thousands of students every year will be expected to learn this challenging task as part of their aural skills education.
 The implicit logic is that as one improves in their ability to take melodic dictation, this practice of critical and active listening develops one's ability to "think in music" [@bestMusicCurriculaFuture1992; @karpinskiAuralSkillsAcquisition2000] and thus become a more competent musician. 
 
 Despite its ubiquity in curricula within School of Music settings, research that explains how people learn to take melodic dictation is limited at best.
@@ -58,34 +58,34 @@ I accomplish this by synthesizing literature from music theory, music psychology
 
 ## Chapter Overview 
 
-In the first chapter, I begin by extending the work of Gary Karpinski [@karpinskiAuralSkillsAcquisition2000; @karpinskiModelMusicPerception1990] in order to introduce the process of melodic dictation and discuss factors that  might play a role in a student's ability to take melodic dictation.
+In the second chapter, I begin by extending the work of Gary Karpinski [@karpinskiAuralSkillsAcquisition2000; @karpinskiModelMusicPerception1990] in order to introduce the process of melodic dictation and discuss factors that  might play a role in a student's ability to take melodic dictation.
 The chapter introduces both a theoretical background and rationale for using methods from both computational musicology and cognitive psychology in order to answer questions about how individuals learn melodies.
 In order to organize the disparate literatures, I put forward a taxonomy of factors that are assumed to contribute to an individual's ability to take melodic dictation and discuss each in turn.
 This chapter outlines the factors hypothesized to contribute to an individual's ability to learn melodies, incorporating both individual and musical parameters.
 I conclude the chapter with a discussion of some philosophical and theoretical problems when attempting to measure issues concerning melodic dictation and argue for the advantages of answering this problem using a polymorphic view of musicianship [@levitinWhatDoesIt2012; @peretzNatureMusicBiological2006;@bakerExaminingMusicalSophistication2018a].
 
-The second chapter of the dissertation investigates individual factors that are theorized to contribute to melodic dictation.
+The third chapter of the dissertation investigates individual factors that are theorized to contribute to melodic dictation.
 I argue that because the first two steps of Karpinski's model of melodic dictation do not require any musical training, teasing apart the individual factors that contribute to melodic dictation can be done using a memory for melodies paradigm. 
 I interpret the results of an experiment to highlight the importance of working memory processes in melodic dictation.
 The chapter corroborates claims by @berzWorkingMemoryMusic1995 on the importance of understanding individual differences in working memory capacity and establishes rationale for including differences in cognitive ability as a variable of interest in future research on melodic dictation.
 
-The third chapter of the dissertation discusses how aural skills pedagogy could incorporate methodologies from computational musicology in order to inform teaching practice.
+The fourth chapter of the dissertation discusses how aural skills pedagogy could incorporate methodologies from computational musicology in order to inform teaching practice.
 The chapter begins by establishing the degree to which aural skills pedagogues agree on the difficulty of melodies for melodic dictation using a survey representing 40 aural skills pedagogues.
 I then show how different sets of tools from computational musicology can approximate the intuitions of aural skills pedagogues using the survey data as a ground truth.
 The chapter concludes by putting forward a novel theory of musical memory-- The Frequency Facilitation Hypothesis-- which combines theoretical work from cognitive psychology and computational musicology.
 I show how this hypothesis can be applied in pedagogical settings to create a more linear path to success in the aural skills classroom for students.
 
-In my fourth chapter, I introduce a novel corpus of 783 digitized melodies encoded in the ```**kern```
+In my fifth chapter, I introduce a novel corpus of 783 digitized melodies encoded in the ```**kern```
 format [@huronHumdrumToolkitReference1994].
 This chapter provides a rationale for the introduction of a new corpus in the broader context of computational musicology, contains a small corpus analysis in order to contextualize the new _MeloSol_ corpus, and ends with a brief commentary regarding ontological and epistemological assumptions in music corpus research.
 This dataset serves as a resource for future researchers in music, psychology, and the digital humanities. 
 
-In the fifth chapter, I synthesize the previous research in a melodic dictation experiment. 
+In the sixth chapter, I synthesize the previous research in a melodic dictation experiment. 
 Stimuli for the experiments are selected based on the symbolic features of the melodies discussed in earlier chapters and are manipulated as the independent variables. 
 I then model responses from the experiments using both individual factors and musical features using mixed-effects modeling in order to predict how well an individual will perform in a melodic dictation. 
 In discussing the results, I also note important caveats in scoring melodic dictation and highlight how changes in scoring can lead to changes in the final modeling.
 Results from this chapter will be discussed with reference to how findings are applicable to pedagogues in aural skills settings. 
 
-Finally, in my sixth chapter, I introduce a computational, cognitive model of melodic dictation with the goal of helping explain how students improve at melodic dictation. 
+Finally, in my seventh chapter, I introduce a computational, cognitive model of melodic dictation with the goal of helping explain how students improve at melodic dictation. 
 The model is based in research from both cognitive psychology [@cowanMagicalMysteryFour2010] and computational musicology [@pearceStatisticalLearningProbabilistic2018a] and incorporates relevant theoretical aspects such as working memory [@chenetteReframingAuralSkills2019; @vanhandelRoleWorkingMemory2011] as well as the structure of the melody itself. 
 In this chapter, I demonstrate how modeling the cognitive decision process during melodic dictation helps provide a precise framework for pedagogues to understand student’s inner cognition during melodic dictation and can help inform teaching practice. 

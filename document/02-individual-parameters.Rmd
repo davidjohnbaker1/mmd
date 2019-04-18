@@ -267,7 +267,7 @@ Sounds were presented at a comfortable listening level for the tasks that requir
 All participants provided informed consent and were debriefed.
 Only measures used in modeling are reported below.
 
-### Results
+## Results
 
 #### Descriptive, Data Screening, Correlational
 
@@ -335,7 +335,7 @@ TLI <- c(0.81,0.80,0.83,0.94,0.97,0.80)
 
 semDT <- data.frame(Models,df, chi,p, CFI, RMSEA, TLI)
 
-knitr::kable(semDT, booktabs = TRUE, caption = "Structural Equation Model Fits")
+knitr::kable(semDT, booktabs = TRUE, caption = "Structural Equation Model Fits", linesep = "")
 ```
 
 

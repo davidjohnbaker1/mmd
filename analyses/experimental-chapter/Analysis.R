@@ -37,8 +37,8 @@ melody.long %>%
 
 melody.long
 
-melody.long$Tonalness <- recode(melody.long$Tonalness,"HIGH" = "High Tonal Category", "LOW" = "Low Tonal Category")
-melody.long$NoteDensity <- recode(melody.long$NoteDensity,"HIGH" = "High Density Category", "LOW" = "Low Density Category")
+melody.long$Tonalness <- recode(melody.long$Tonalness,"HIGH" = "HTC", "LOW" = "LTC")
+melody.long$NoteDensity <- recode(melody.long$NoteDensity,"HIGH" = "HDC", "LOW" = "LDC")
 
 
 melody.long %>%
@@ -135,7 +135,7 @@ anova(null_model, gf_model, wmc_model, cognitive_model)
 # Fixed Effect of Melody bc it'll always be played that way, dummy coded
 # Also random effect of melody on subject, people will perform differently w different melodies 
 
-melody_model <- lmer(score ~ melody + (1+melody|subjectNo), data = melody.long)
+melody_model <- lmer(score ~ melody + (1|subjectNo), data = melody.long)
 
 summary(melody_model)
 
@@ -147,13 +147,13 @@ anova(wmc_model, melody_model)
 # Still conceptualized as fixed effect of Category Features
 # Random Slopes of Category Features having different effects on Subjects 
 
-feature_category_model <- lmer(score ~ Tonalness*NoteDensity  + (1+Tonalness*NoteDensity|subjectNo) , data = melody.long)
+feature_category_model <- lmer(score ~ Tonalness*NoteDensity  + (1|subjectNo) , data = melody.long)
 
 summary(feature_category_model)
 
 # score ~ melody as 4 continous features 
 # Not categorical, use FANTASTIC Measures as fixed
-feature_cont_model <- lmer(score ~ tonalness*note.dens + (1+tonalness*note.dens|subjectNo) , data = melody.long)
+feature_cont_model <- lmer(score ~ tonalness*note.dens + (1|subjectNo) , data = melody.long)
 
 summary(feature_cont_model)
 # Results still consistent 
@@ -186,7 +186,7 @@ total_model_ientropy <- lmer(score ~ i.entropy + wmc + (1+wmc|subjectNo), data =
 summary(total_model_ientropy)
 
 total_model_experimental <- lmer(score ~ tonalness*note.dens + wmc + (1+wmc|subjectNo) , data = melody.long)
-summary(total_model_experimental_test)
+summary(total_model_experimental)
 
 #======================================================================================================
 # Final Reporting 
@@ -225,6 +225,12 @@ null_model %>%
 
 null_plot
 
+null_plot + theme(
+  axis.text.x = element_blank(),
+  axis.text.y = element_blank(),
+  axis.ticks = element_blank()) -> null_plot
+
+null_plot
 #--------------------------------------------------
 # Model 2 - WMC Model 
 
@@ -237,12 +243,12 @@ wmc_plot
 
 #--------------------------------------------------
 # Model 3 - Melody Model 
-melody_model <- lmer(score ~ melody + (1+melody|subjectNo), data = melody.long)
+melody_model <- lmer(score ~ melody + (1|subjectNo), data = melody.long)
 
 melody_model %>%
   plot_model(sort.est = TRUE, show.intercept = TRUE) +
   theme_minimal() +
-  labs(title = "Model 3", subtitle = "score ~ melody + (1+melody|subjectNo)") -> melody_plot
+  labs(title = "Model 3", subtitle = "score ~ melody + (1|subjectNo)") -> melody_plot
 
 melody_plot
 
@@ -252,7 +258,9 @@ feature_category_model %>%
   plot_model(sort.est = TRUE, show.intercept = TRUE) +
   theme_minimal() +
   labs(title = "Model 4", 
-       subtitle = "score ~ Tonalness*NoteDensity  + (1+Tonalness*NoteDensity|subjectNo)") -> feat_cateogory_plot
+       subtitle = "score ~ Tonalness*NoteDensity  + (1|subjectNo)") -> feat_cateogory_plot
+
+summary(feature_category_model)
 
 feat_cateogory_plot # Recode 
 
@@ -262,7 +270,7 @@ feat_cateogory_plot # Recode
 feature_cont_model %>%
   plot_model(sort.est = TRUE) +
   theme_minimal() +
-  labs(title = "Model 5", subtitle = "score ~ tonalness*note.dens +\n (1+tonalness*note.dens|subjectNo)") -> feat_cont_plot
+  labs(title = "Model 5", subtitle = "score ~ tonalness*note.dens + (1|subjectNo)") -> feat_cont_plot
 
 feat_cont_plot
 
@@ -289,7 +297,7 @@ entropy_experiemntal_plot
 total_model_experimental %>%
   plot_model(sort.est = TRUE) +
   theme_minimal() +
-  labs(title = "Model 8", subtitle = "score ~ tonalness*note.dens\n + wmc + (1+wmc|subjectNo)") -> total_model_experimental_plot
+  labs(title = "Model 8", subtitle = "score ~ tonalness*note.dens + wmc + (1+wmc|subjectNo)") -> total_model_experimental_plot
 
 total_model_experimental_plot
 
@@ -308,7 +316,26 @@ me_grid
 # p value?
 # SD Random Effects and correlations 
 #--------------------------------------------------
-tab_model(null_model, wmc_model,title = "Null Model and WMC Model")
+tab_model(null_model)
+
+tab_model(wmc_model)
+
+tab_model(melody_model)
+
+tab_model(feature_category_model)
+
+tab_model(feature_cont_model)
+
+tab_model(feature_ientropy_model)
+
+tab_model(total_model_ientropy)
+
+tab_model(total_model_experimental)
+
+
+
+#--------------------------------------------------
+tab_model(null_model,title = "Null Model and WMC Model")
 
 tab_model(melody_model, feature_category_model, title = "Melody and Feature Category")
 
@@ -316,5 +343,73 @@ tab_model(feature_cont_model, title = "Feature Continuous Model")
 
 tab_model(total_model_ientropy, total_model_experimental, title = "Combined Models")
 
-
+library(sjPlot)
+#--------------------------------------------------
+# Me Tables 
+# Dont' juduge-- I did this day of submisison
+#--------------------------------------------------
+# 1 
+metable1 <- read_csv("analyses/experimental-chapter/metable1.csv")
+metable1[is.na(metable1)] <- " "
+metable1
+metable1 <- metable1 %>% filter(Predictors != "Observations") 
+metable1RDS <- data.frame(x = metable1)
+saveRDS(object = metable1RDS, file = "document/img/metable1.RDS")
+#--------------------------------------------------
+# 2 
+metable2 <- read_csv("analyses/experimental-chapter/metable2.csv")
+metable2[is.na(metable2)] <- " "
+metable2
+metable2 <- metable2 %>% filter(Predictors != "Observations") 
+metable2RDS <- data.frame(x = metable2)
+saveRDS(object = metable2RDS, file = "document/img/metable2.RDS")
+#--------------------------------------------------
+# 3 
+metable3 <- read_csv("analyses/experimental-chapter/metable3.csv")
+metable3[is.na(metable3)] <- " "
+metable3
+metable3 <- metable3 %>% filter(Predictors != "Observations") 
+metable3RDS <- data.frame(x = metable3)
+saveRDS(object = metable3RDS, file = "document/img/metable3.RDS")
+#--------------------------------------------------
+# 4 
+metable4 <- read_csv("analyses/experimental-chapter/metable4.csv")
+metable4[is.na(metable4)] <- " "
+metable4
+metable4 <- metable4 %>% filter(Predictors != "Observations") 
+metable4RDS <- data.frame(x = metable4)
+saveRDS(object = metable4RDS, file = "document/img/metable4.RDS")
+#--------------------------------------------------
+# 5 
+metable5 <- read_csv("analyses/experimental-chapter/metable5.csv")
+metable5[is.na(metable5)] <- " "
+metable5
+metable5 <- metable5 %>% filter(Predictors != "Observations") 
+metable5RDS <- data.frame(x = metable5)
+saveRDS(object = metable5RDS, file = "document/img/metable5.RDS")
+#--------------------------------------------------
+# 6 
+metable6 <- read_csv("analyses/experimental-chapter/metable6.csv")
+metable6[is.na(metable6)] <- " "
+metable6
+metable6 <- metable6 %>% filter(Predictors != "Observations") 
+metable6RDS <- data.frame(x = metable6)
+saveRDS(object = metable6RDS, file = "document/img/metable6.RDS")
+#--------------------------------------------------
+# 7 
+metable7 <- read_csv("analyses/experimental-chapter/metable7.csv")
+metable7[is.na(metable7)] <- " "
+metable7
+metable7 <- metable7 %>% filter(Predictors != "Observations") 
+metable7RDS <- data.frame(x = metable7)
+saveRDS(object = metable7RDS, file = "document/img/metable7.RDS")
+#--------------------------------------------------
+# 8 
+metable8 <- read_csv("analyses/experimental-chapter/metable8.csv")
+metable8[is.na(metable8)] <- " "
+metable8
+metable8 <- metable8 %>% filter(Predictors != "Observations") 
+metable8RDS <- data.frame(x = metable8)
+saveRDS(object = metable8RDS, file = "document/img/metable8.RDS")
+#--------------------------------------------------
 

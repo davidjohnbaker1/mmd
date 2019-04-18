@@ -1,0 +1,5 @@
+Predictors,Estimates,CI,p
+(Intercept),0.35,0.30 – 0.40,<0.001
+Observations,156,,
+Marginal R2,0,,
+Conditional R2,0.063,,
