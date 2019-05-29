@@ -4,6 +4,12 @@ Repo for my PhD Dissertation: Modeling Melodic Dictation
 
 ## COUNTDOWN
 
+* Check tables
+* One last read thru
+* Marcus references
+* Redo cover page 
+* Dissertation office edits 
+
 * [ ] Add Image Permission slips to appendix 
 
 * [X] Format TOC 
