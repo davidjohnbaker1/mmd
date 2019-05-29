@@ -10,7 +10,7 @@ An explanatory model on the other hand, not only describes what will happen, but
 For example, much of the work from musical expectation demonstrates that as an individual's exposure to a musical style increases, so does their ability to predict specific events within a given musical texture [@pearceStatisticalLearningProbabilistic2018a].
 
 Not only does more exposure predict more accurate responses, but many of these models of musical expectation derive their underlying predictive power from the brain's ability to implicitly track statistical regularities in an auditory scene [@saffranStatisticalLearningTone1999;@margulisRepeatHowMusic2014].
-The _how_ derives from the tracking of statistical regularities in musical information and the _why_ derives from evolutionary demands; Organisms that are able to make more accurate predictions about their environment are more likely to survive and pass on their genes [@huronSweetAnticipation2006]. 
+The _how_ derives from the tracking of statistical regularities in musical information and the _why_ derives from evolutionary demands; organisms that are able to make more accurate predictions about their environment are more likely to survive and pass on their genes [@huronSweetAnticipation2006]. 
 
 Wiggins writes that although there can be both explanatory and descriptive theories, depending on the level of abstraction, a theory may be explanatory at one level, yet descriptive at another.
 Using the mind-brain dichotomy, he asserts that the example of a theory of musical expectation could be explanatory at the level of behavior as noted above, but says nothing about what is happening at the neural level.
@@ -40,7 +40,7 @@ The Selective Attention module-- somewhat akin to Karpinski's extractive listeni
 Once musical material is in the focus of attention, the Transcription function pattern matches against the Prior Knowledge's corpus of information in order to find a match of explicitly known musical information.
 The Transcription function will recursively truncate what musical information is in Selective Attention if no match is found. 
 In addition to Transcription, there is also a Re-entry function that will restart the entire loop.
-This process reflects, but is not intended to mirror the cognitive process used in melodic dictation.
+This process reflects, but is not intended to mirror, the cognitive process used in melodic dictation.
 Rather it attempts to be phenomenologically similar to the decision making process used when attempting to notate novel melodies.
 Based on both the prior knowledge and individual differences of the individual, the model will scale in ability, with the general retrieval mechanisms in place.
 The exact details of the assumptions, parameters, and complete formula of the model are discussed below.
@@ -95,7 +95,7 @@ The second is that it should allow for a movable boundary for selective attentio
 
 In order to create this metric, I rely on IDyOM's use of information content [@shannonMathematicalTheoryCommunication1948], which quantifies the information content of melodies based on a corpus of materials utilizing a multiple viewpoints framework [@conklinMultipleViewpointSystems1995].
 
-For example, when trained against a corpus of melodies, this excerpt in Figure \@ref(fig:schubertF) from the fourth movement of Schubert's _Octet in F Major_ (D.803) lists the information content of the excerpt calculated for each note atop the notation^[The following musical examples is taken from @pearceStatisticalLearningProbabilistic2018a reflects a model where IDyOM was configured to predict pitch with an attribute linking melodic pitch interval and chromatic scale degree (pitch and scale degree) using both the short-term and long-term models, the latter trained on 903 folk songs and chorales (data sets 1, 2, and 9 from table 4.1 in [@schaffrathEssenFolkSong1995] comprising 50,867 notes.].
+For example, when trained against a corpus of melodies, this excerpt in Figure \@ref(fig:schubertF) from the fourth movement of Schubert's _Octet in F Major_ (D.803) lists the information content of the excerpt calculated for each note atop the notation.^[The following musical examples is taken from @pearceStatisticalLearningProbabilistic2018a reflects a model where IDyOM was configured to predict pitch with an attribute linking melodic pitch interval and chromatic scale degree (pitch and scale degree) using both the short-term and long-term models, the latter trained on 903 folk songs and chorales (data sets 1, 2, and 9 from table 4.1 in [@schaffrathEssenFolkSong1995] comprising 50,867 notes.]
 Appearing in Figure \@ref(fig:cumSchubert), I plot the cumulative information content of the melody, along with both an arbitrary threshold for the limits of working memory capacity, and where the subsequent segmentation boundary for musical material to be put in the Selective Attention buffer would be.
 These values chosen show a small example of how the Selective Attention module works.
 The advantage of operationalizing how an individual hears a melody like this is that melodies with lower information content, derived from an understanding of having more predictable patterns from the corpus, will allow for larger chunks to be put inside of the selective attention buffer. 
@@ -123,7 +123,7 @@ knitr::include_graphics("img/pk_grampanel.png")
 
 ### Setting Limits with Transcribe
 
-With each note then quantified with a measure of information content, it then becomes possible to set a limit on the maximum amount of information that the individual would be able to hold in memory as defined by the Selective Attention module.
+With each note quantified with a measure of information content, it becomes possible to set a limit on the maximum amount of information that the individual would be able to hold in memory as defined by the Selective Attention module.
 A higher threshold would allow for more musical material to be put in the attentional buffer, and a lower threshold would restrict the amount of information held in an attentional buffer.
 By putting a threshold on this value, this serves as something akin to a perceptual bottleneck based on the assumption that there is a capacity limit to that of working memory [@cowanEvolvingConceptionsMemory1988; @cowanMagicalMysteryFour2010].
 Modulating this boundary will help provide insights into the degree to which melodic material can be retained between high and low working memory span individuals.

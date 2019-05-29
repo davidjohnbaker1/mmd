@@ -1,5 +1,11 @@
 This is David's PhD Dissertation! 
 
+## Edits
+
+* Move top and bottom of cover page 
+* Remove Dedication 
+
+
 Current Writing Status
 
 Chapter | Status | Publication Goal 

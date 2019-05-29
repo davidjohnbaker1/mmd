@@ -1,6 +1,6 @@
 --- 
 date: "`r Sys.Date()`"
-geometry: "left=1.5in, right=1in, top=2.5in, bottom=2.5in"
+geometry: "left=1.5in, right=1.5in, top=2.5in, bottom=2.5in" # Change Right to 1 in for print
 fontsize: 12pt
 lof: true
 lot: true
@@ -20,7 +20,7 @@ description: "This dissertation models both individual and musical features that
 Melodic dictation is a cognitively demanding process that requires students to hear a melody, then without any access to an external reference, transcribe the melody within a limited time frame. 
 Despite its ubiquity in curricula within School of Music settings, exactly how an individual learns a melody is not well understood. 
 This dissertation aims to fill the gap in the literature between aural skills practitioners and music psychologists in order to reach conclusions that can be applied systematically in pedagogical contexts. 
-I accomplish this by synthesizing literature from music theory, music psychology, and music education in order to demonstrate how tools from both cognitive psychology as well as computational musicology can be used to help inform pedagogical practices.
+In order to do this, I synthesize literature from music theory, music psychology, and music education in order to demonstrate how tools from both cognitive psychology as well as computational musicology can be used to help inform pedagogical practices.
 
 In the second chapter, I discuss factors that  might play a role in a student's ability to take melodic dictation and put forward a taxonomy of factors that are assumed to contribute to an individual’s ability to take melodic dictation. 
 The third chapter of the dissertation investigates individual factors that are theorized to contribute to melodic dictation using a cross-sectional experimental design. 
@@ -51,10 +51,10 @@ However, despite these isolated areas of research, we as music researchers do no
 This is peculiar since "how does one learn a melody?" seems to be one of the fundamental questions to the fields of music theory, music psychology, as well as music education. 
 This chasm in the literature also raises a disconcerting question in music pedagogy: 
 
-> If we as pedagogues do not have a in-depth understanding of how people learn melodies, how can we fairly assess what students can be expected to accomplish in the classroom and then fairly grade them on their attempts?
+> If we as pedagogues do not have an in-depth understanding of how people learn melodies, how can we fairly assess what students can be expected to accomplish in the classroom and then fairly grade them on their attempts?
 
 This dissertation aims to fill the gap in the literature between aural skills practitioners and music psychologists in order to reach conclusions that can be applied systematically in pedagogical contexts.
-I accomplish this by synthesizing literature from music theory, music psychology, and music education in order to demonstrate how tools from both cognitive psychology as well as computational musicology can be used to help inform pedagogical practices.
+In order to do this, I synthesize literature from music theory, music psychology, and music education in order to demonstrate how tools from both cognitive psychology as well as computational musicology can be used to help inform pedagogical practices.
 
 ## Chapter Overview 
 
@@ -67,7 +67,7 @@ I conclude the chapter with a discussion of some philosophical and theoretical p
 The third chapter of the dissertation investigates individual factors that are theorized to contribute to melodic dictation.
 I argue that because the first two steps of Karpinski's model of melodic dictation do not require any musical training, teasing apart the individual factors that contribute to melodic dictation can be done using a memory for melodies paradigm. 
 I interpret the results of an experiment to highlight the importance of working memory processes in melodic dictation.
-The chapter corroborates claims by @berzWorkingMemoryMusic1995 on the importance of understanding individual differences in working memory capacity and establishes rationale for including differences in cognitive ability as a variable of interest in future research on melodic dictation.
+The chapter corroborates claims by @berzWorkingMemoryMusic1995 on the importance of understanding individual differences in working memory capacity and establishes the rationale for including differences in cognitive ability as a variable of interest in future research on melodic dictation.
 
 The fourth chapter of the dissertation discusses how aural skills pedagogy could incorporate methodologies from computational musicology in order to inform teaching practice.
 The chapter begins by establishing the degree to which aural skills pedagogues agree on the difficulty of melodies for melodic dictation using a survey representing 40 aural skills pedagogues.

@@ -18,7 +18,7 @@ While I used this taxonomy as a guide in my literature review, the taxonomy can 
 The subsequent chapters of this dissertation explored the factors of this taxonomy.
 
 In the third chapter, I demonstrated how differences in individual ability can be accounted for in melodic dictation in both musically trained and untrained individuals.
-I put forward evidence to corroborate claims by Berz @berzWorkingMemoryMusic1995 and stressed the importance of including cognitive ability as a measure of interest when considering musical memory.
+I put forward evidence to corroborate claims by @berzWorkingMemoryMusic1995 and stressed the importance of including cognitive ability as a measure of interest when considering musical memory.
 Understanding these factors is important because we as aural skills practitioners and pedagogues need to be able to know if the degree of a student's ability to complete a task is within their ability to change it.
 If this skill is malleable, we need to understand how to best cultivate it.
 If a skill is not malleable, we need to take caution not to design assessments that measure something beyond the student's control.

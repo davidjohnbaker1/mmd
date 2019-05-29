@@ -28,9 +28,9 @@ This assumption of similar baseline of abilities is implicit in the Karpinski mo
 The model provides a framework of mental choreography students are encouraged to build upon that is agnostic to individual differences; Karpinski's model assumes that all individuals, regardless of their background, will engage in the same process.
 As students gain more knowledge in music theory, they build their musical understanding which in turn enables them to recognize more of the auditory scene they are focusing on.
 In addition to learning explicit knowledge that facilitates their musical understanding, Karpinski suggests there are two other skills that students can develop in order to improve their short-term musical memory: extractive listening and chunking.
-In Karpinski's own words: "Only one or both strategies can extend the capacity of short-term musical memory: (1) extractive listening and (2) chunking. (p. 71)"
+In Karpinski's own words: "Only one or both strategies can extend the capacity of short-term musical memory: (1) extractive listening and (2) chunking (p. 71)".
 
-Karpinski defines extractive listening as "a combination of focused attention and selective memorization (p. 70)".
+Karpinski defines extractive listening as "a combination of focused attention and selective memorization" (p. 70).
 Extractive listening requires students to be able to focus on the material they will be mentally representing and tune out other sources of stimulation that might distract the student.
 In order to improve this ability, Karpinski suggests practicing listening to melodies and having students practice directing their attention to pre-determined set sequences of notes.
 Students should slowly work towards being able to auralize the melody with other musical information still sounding. 
@@ -95,10 +95,10 @@ Regardless of the direction of causality, the evidence discussed suggests that t
 Clearly cognitive ability is at play in many tasks of perception and production.
 Presumably these abilities will interact with other variables of interest such as musical training as theorized by the researchers previously mentioned.
 Even in studies outside of music, domain general cognitive abilities have been shown to be predictive above and beyond domain specific expertise.
-In reviewing the current literature, [@hambrickDomainGeneralModelsExpertise2019] reiterate that while there is some evidence  of the time in many domain specific areas like chess, games, and music, the current state of the literature is not definitive enough to explain exactly how this phenomena works on a global level.
+In reviewing the current literature, @hambrickDomainGeneralModelsExpertise2019 reiterate that while there is some evidence  of the time in many domain specific areas like chess, games, and music, the current state of the literature is not definitive enough to explain exactly how this phenomena works on a global level.
 
 Though of all the studies mentioned thus far, one cognitive ability deserving of special attention is that of working memory.
-As noted by [@berzWorkingMemoryMusic1995], many tests of memory-- such as the aforementioned tests--require the encoding and active manipulation of musical material.
+As noted by @berzWorkingMemoryMusic1995, many tests of memory-- such as the aforementioned tests--require the encoding and active manipulation of musical material.
 In his 1995 article, Berz draws important parallels between working memory systems and music tests and postulated new loop specifically for musical information.
 
 For example, @meinzDeliberatePracticeNecessary2010 found working memory to be predictive of performance in a sight reading task above and beyond that of deliberate practice.
@@ -129,7 +129,7 @@ Since both measures mirror tasks used in the aural skills classroom and the two 
 Since its initial publication, adaptive short forms of the tests have been developed using item response theory [@harrisonApplyingModernPsychometric2017a].
 These tests were not available for use at the time of this study's data collection. 
 
-Assuming that a melodic discrimination task can then stand in for the first two steps of the Karpinski model, I can then model the relationships between performance on this musical memory task with individual level variables using structural equation modeling.
+Assuming that a melodic discrimination task can stand in for the first two steps of the Karpinski model, I can model the relationships between performance on this musical memory task with individual level variables using structural equation modeling.
 By doing this I can examine the extent to which factors contribute to the first two steps of melodic dictation.
     
 ### Cognitive Measures of Interest
@@ -228,7 +228,7 @@ Each excerpt was presented for 10 to 16s through headphones and had a tempo rang
 minute. 
 A metronome beep was played over each excerpt either on or off the beat. 
 Half of the excerpts had a beep on the beat, and the other half had a beep off the beat. 
-After each excerpt was played, participants answered if the metronome beep was on or off the beat and provided their confidence: “I am sure”, “I am somewhat sure”, or “I am guessing”. 
+After each excerpt was played, participants answered if the metronome beep was on or off the beat and provided their confidence: “I am sure,” “I am somewhat sure,” or “I am guessing.” 
 The final score was the proportion of correct responses on the beat judgment.
 
 ##### Gold-MSI Melodic Memory Test
@@ -315,7 +315,7 @@ After running the first model (Model 1), I then examined the residuals between t
 While some variables scored near .1, two items dealing with being able to sing (“I can hear a melody once and sing it back after hearing it 2 – 3 times” and “I can hear a melody once and sing it back”) exhibited a high level of correlation amongst the residuals (.41) and were removed for  Model 2 and model fit improved significantly ($\chi^2$ (41)=123.39, p < . 001). 
 
 After removing the poorly fitting items, I then proceeded to examine if removing the general musical sophistication self-report measures would significantly improve model fit for Model 3. 
-Fit measures for Model 3 can be seen in Table \@ref(ModelFits) and removing the self-report items resulted in a significantly better model fit (χ2 (171)=438.8, p < . 001). 
+Fit measures for Model 3 can be seen in Table \@ref(tab:ModelFits) and removing the self-report items resulted in a significantly better model fit (χ2 (171)=438.8, p < . 001). 
 Following the rule of thumb that at least 3 variables should be used to define any latent-variable [@beaujeanLatentVariableModeling2014].
 I modeled WMC as latent variable and Gf as a composite average of the two tasks administered in order to improve model fit. 
 This model resulted in significant improvement to the model ($\chi^2$ (4)=14.37, p < . 001). 
@@ -394,11 +394,11 @@ Given the results here that suggest that measures of cognitive ability play a si
 This study sought to investigate the extent to which individual factors contributed to an individual's ability to perform the first two steps of melodic dictation.
 In order to do this, I assumed that the first two steps of the Karpinski model-- hearing and short term melodic memory-- could be investigated by using a same-different melodic memory paradigm.
 Both tasks require the dual activation of representing information in conscious awareness and completing a cognitive task.
-Using this paradigm also allowed me to investigate the first to steps of Karpinski's model using both individuals with and without musical training. 
+Using this paradigm also allowed me to investigate the first two steps of Karpinski's model using both individuals with and without musical training. 
 
 Overall, when interpreting the results I found evidence to corroborate claims made by @berzWorkingMemoryMusic1995 positing the importance of working memory in both tests of musical aptitude, and consequently the first two steps of melodic dictation as described by Karpinski.
 Relatively, working memory seemed to dominate as the variable with the most explanatory power as derived from both the best overall model fits and highest path coefficients in the latent variable modeling.
-This is not a surprising finding given the context, yet has major implications for future research in music perception.
+This is not a surprising finding given the context, yet it has major implications for future research in music perception.
 If a domain general process is able to predict performance on a domain specific task (melodic memory) better than measures of self report and training, future studies in music perception will need to be able to demonstrate how the process they purport to be the driving factor behind their models explains their findings above and beyond working memory capacity.
 
 Also worth discussing is why general fluid intelligence did not fare as well in the models above.
@@ -409,7 +409,7 @@ The second is that general fluid intelligence is designed to measure abilities o
 General fluid intelligence might be helpful at later stages of cognitive processing such as the musical understanding and notation phases of the Karpinski model, but their effect does not seem to be present here. 
 
 From a pedagogical standpoint, this is important in that many teachers are aware that students will vary in terms of their working memory ability.
-While it might be tempting to pathologize cognitive predictors deemed relevant in these contexts, further work specifically looking the load on memory is needed before claims are made about incorporating this as a way to diagnose problems with student performance.
+While it might be tempting to pathologize cognitive predictors deemed relevant in these contexts, further work specifically looking at the load on memory is needed before claims are made about incorporating this as a way to diagnose problems with student performance.
 One practical consideration for the classroom within the Karpinski framework that could be put forward would be to encourage students to listen for smaller chunks when using extractive listening.
 Using a Cowan's model of working memory, students should extract smaller chunks so that they still have cognitive resources available in order to focus on the later stages of the Karpinski model (musical understanding and notation).
 As attention is limited, not listening to more than you can hold will free up cognitive resources that might later be used in melodic dictation.

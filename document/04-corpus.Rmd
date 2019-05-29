@@ -7,13 +7,13 @@ Given a new claim about reality, in order to be able to demonstrate that the cla
 If the phenomenon satisfies pre-established criteria for causality, this evidence can be used to corroborate its generating theories.
 This type of rationale is often associated with scientific methodologies and needs to be adopted here as many questions in music research are better suited for these methods.
 As noted by scholars like Allen Forte, "In virtually any historic period one finds an interaction between music and science and mathematics" [@forteMusicComputingPresent1967].
-Music was one of the seven liberal arts during Roman times belonging to the quadrivium along with astronomy, geometry, and arithmetic.
+Music was one of the seven liberal arts belonging to the quadrivium along with astronomy, geometry, and arithmetic.
 In fact, many disciplinary differences in musical study more likely to result from geopolitical divides as to how scholars conceptualize the study of music based on their location, rather than the content and form of their research [@parncuttSystematicMusicologyHistory2007].
 It should then come as no surprise that studies in music will often interface with diverse methodologies. 
 
 Returning to a phenomenon's invariance under different conditions, one of the most effective ways to investigate claims about the state of reality is to reproduce previously made claims using new data.
 One contribution that a researcher can make towards either bolstering or refuting claims and their resulting theories would be to generate more materials in which to examine previous claims under new conditions.
-In order to accomplish this, in this chapter I introduce a new corpus of sight-singing melodies based on the pedagogical text "A New Approach to Sight Singing" [@berkowitzNewApproachSight2011].
+In order to accomplish this, in this chapter I introduce a new corpus of sight-singing melodies based on the pedagogical text _A New Approach to Sight Singing_ [@berkowitzNewApproachSight2011].
 The corpus contains 783 monophonic melodies that have been digitally encoded in the kern format [@huronHumdrumToolkitReference1994] and contain both melodies specifically composed for use in the Aural Skills classroom and examples of melodies from the Western canon.
 Due to the fact that the corpus contains melodic data from a sight-singing anthology first published by Sol Berkowitz, for ease of reference I will refer to this corpus as the _MeloSol_ corpus.
 After introducing the corpus, I compare the _MeloSol_ corpus with the _Essen Folk Song Collection_ [@schaffrathEssenFolkSong1995] as well as a portion of the _Densmore_ collection [@shanahanDensmoreCollectionNative2014] in order to highlight variability between these musical corpora.
@@ -23,7 +23,7 @@ I end by highlighting important considerations in the underlying representations
 
 The use of computers to study music has been been ongoing for over the past fifty years.
 As reviewed by @hewlettComputingMusicology1991, early approaches to using computers in music research began in the mid 1960s and due to the high effort and cost of computation, projects pursued by researchers at this time tended to focus on questions that might have global relevance.
-The use of computers to study music at this time was not by any means a sparse area of study and throughout the second half of the 20th century, research in computational musicology grew in relation to the computing abilities afforded by the available technologies [@nettheimBibliographyStatisticalApplications1997].
+The use of computers to study music at this time was not by any means an uncommon area of study and throughout the second half of the 20th century, research in computational musicology grew in relation to the computing abilities afforded by the available technologies [@nettheimBibliographyStatisticalApplications1997].
 During this time, not only was there progress made on computing power, but during this time many new digital music encoding frameworks were created.
 As discussed by @wigginsFrameworkEvaluationMusic1993, the design and development of these encoding frameworks has impact on the degree that the systems can be assessed.
 According to Wiggins and colleagues, a musical, digital encoding framework can be evaluated on the two orthogonal dimensions of expressive completeness and structural generality. 
@@ -53,7 +53,7 @@ Since moving between digitally encoded ecosystems is not nearly as difficult and
 ## MeloSol Corpus
 
 In this next section, I introduce a new corpus of melodies encoded in the kern format.
-The melodies come from the 5th edition of "A New Approach to Sight Singing" written by Sol Berkowitz, Gabriel Fontrier, Leo Kraft, Perry Goldstein, and Edward Smaldone, [@berkowitzNewApproachSight2011]. 
+The melodies come from the 5th edition of _A New Approach to Sight Singing_ written by Sol Berkowitz, Gabriel Fontrier, Leo Kraft, Perry Goldstein, and Edward Smaldone, [@berkowitzNewApproachSight2011]. 
 This corpus includes 783 melodies from the first and last chapters of the book.
 The first chapter contains melodies from five different sections and the fifth chapter contains "Melodies from the Literature" and is made up of four sections.
 Melodies from the first chapter have all been specifically composed for use in sight-singing contexts.
@@ -93,7 +93,7 @@ In this context, the underlying assumption in this inference is that a corpus-- 
 This assumption tacitly borrows the underlying logic from the Frequentist schools of statistical thought [@dienesUnderstandingPsychologyScience2008]; the corpus is taken to be a sample of the population. 
 This assumption is furthered when analyses are done using the null hypothesis significance testing framework. 
 
-If researchers then adopt this underlying assumption, it should then follow that in order to continually find support for these theories and hypotheses, new evidence should be put forward that uses a similar population, but with different samples.
+If researchers adopt this underlying assumption, it should follow that in order to continually find support for these theories and hypotheses, new evidence should be put forward that uses a similar population, but with different samples.
 Doing so would require the creation of new samples from a parent population, very much akin to the _MeloSol_ corpus.
 Like the _Essen_, the _MeloSol_ corpus contains melodies in the Western, tonal tradition constrained by vocal performance.
 Alternatively, researchers could adopt different research epistemologies other than a general Frequentist approach, such as using Bayesian or Likelihood methods that do not assume a sample-population relationship, but rather take the data as the model itself.
@@ -115,7 +115,7 @@ Interestingly, both sets from the _Essen_ Collection tend to have much more defi
 Though a post-hoc interpretation, these peaks might serve as the basis for a study on physical affordances drawing together work on melody transmission [@shanahanExaminingEffectOral2019] and the cognitive affordance provided via notation [@lerdahlCognitiveConstraintsCompositional1992].
 Melodies between the four data sets also tend to have overlapping density distributions in terms of both length and note density.
 
-Secondly, I then overlay emergent emergent properties from the corpora-- standardized for size-- using density plots.
+Secondly, I then overlay emergent properties from the corpora-- standardized for size-- using density plots.
 The underlying logic in the following exploratory analysis would be if the _MeloSol_ and European subsets of the _Essen_ are samples of large subset of properties found in Western music, there should be some degree of overlap between the emergent elements.
 From the panels below, the key comparisons will be to look between the blue and yellow distributions.
 Interestingly, looking at the panels plotting Tonalness as well as Tonal Spike, two measures of tonality derived from the FANTASTIC toolbox used to complete this analysis, the underlying distributions tend to follow a similar distribution
@@ -164,8 +164,8 @@ This assertion again implicitly assumes the Frequentist epistemological framewor
 It is my assertion that these assumptions are yet to be made explicit in computational music analyses.
 
 For example, studies such as @frielerTellingStoryDramaturgy2016 fit a series of models on solos from a jazz corpus.
-The solos are taken to represent the larger population of Jazz and the authors further subdivide the Jazz into its various genre divisions such as post-bop, traditional, and cool.
-While Jazz might be the population and the genre divisions to be sub-populations, each solo is then further sampled from an individual.
+The solos are taken to represent the larger population of jazz and the authors further subdivide the jazz into its various genre divisions such as post-bop, traditional, and cool.
+While jazz might be the population and the genre divisions to be sub-populations, each solo is then further sampled from an individual.
 In this case, many of the individuals represented in their corpus are deceased, thus theoretically making the population exhaustive and theoretically accessible.
 At this point, practically replicating these results would either depend on finding undiscovered archive recordings or the generation of new material based on estimating parameter values of a style in order to recreate new stimuli following in the example of the music generation literature. 
 For example, @sturmTakingModelsBack2017 developed an artificial intelligence using deep learning to create folk songs based on 30,000 transcriptions.

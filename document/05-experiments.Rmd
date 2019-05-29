@@ -3,12 +3,12 @@
 ## Rationale 
 
 Using experiments to understand factors that contribute to an individual's ability to remember melodic material are by no means new [@ortmannTonalDeterminantsMelodic1933].
-This is not a simple problem as noted in the [Context, Literature, and Rationale], as both individual differences as well as musical features are difficult to quantify and subsequently model.
+This is not a simple problem as noted in the section [Context, Literature, and Rationale], as both individual differences as well as musical features are difficult to quantify and subsequently model.
 Capturing variability at both the individual and item level is not only riddled with measurement problems, but this variability problem is exacerbated when realizing many of the statistical ramifications of measuring so many variables in a single experiment.
 Many variables leads to many tests, which leads to inflated type I error rates, as well as massive resources needed in order to detect even small effects. 
 
 Fortunately, dealing with high levels of variability at both the individual and item level is not a problem exclusive to work on melodic dictation.
-Work from from the field of linguistics has developed more sophisticated methodologies that are able to accommodate the above challenges and provide a more elegant way of handling these types of problems [@baayenMixedeffectsModelingCrossed2008].
+Work from field of linguistics has developed more sophisticated methodologies that are able to accommodate the above challenges and provide a more elegant way of handling these types of problems [@baayenMixedeffectsModelingCrossed2008].
 In this chapter, I synthesize work from the previous chapters of this dissertation in an experiment investigating melodic dictation.
 Unlike work in the past literature, I take advantage of statistical methodologies that are able to better accommodate problems in experimental design using paradigms that accommodate for both individual and item level differences.
 By using mixed effects modeling, I put forward a more principled way of modeling data that more ecologically reflects melodic dictation. 
@@ -76,8 +76,8 @@ Both @harrisonModellingMelodicDiscrimination2016 and @bakerPerceptionLeitmotives
 
 Note density would be an ideal candidate to investigate because it is both easily measured and the amount of information that can be currently held in memory as measured by bits of information has a long history in cognitive psychology [@cowanWorkingMemoryCapacity2005; @millerInformationMemory1956; @pearceStatisticalLearningProbabilistic2018a].
 In terms of more complex features, much of this work largely stems from the work of Müllensiefen and his development of the FANTASTIC Toolbox -@mullensiefenFantasticFeatureANalysis2009, and a few papers have claimed to be able to predict various behavioral outcomes based on the structural characteristics of melodies.
-For example, [@kopiezAufSucheNach2011] claimed to have been able to predict how well songs from The Beatles’ album Revolver did on popularity charts based on structural characteristic of the melodies using a data driven approach.
-Expanding on an earlier study, [@mullensiefenRoleFeaturesContext2014] found that the degree of distinctiveness of a melody when compared to its parent corpus could be used to predict how participants in an old/new memory paradigm were able to recognize melodies.
+For example, [@kopiezAufSucheNach2011] claimed to have been able to predict how well songs from The Beatles’ album _Revolver_ did on popularity charts based on structural characteristic of the melodies using a data driven approach.
+Expanding on an earlier study, @mullensiefenRoleFeaturesContext2014 found that the degree of distinctiveness of a melody when compared to its parent corpus could be used to predict how participants in an old/new memory paradigm were able to recognize melodies.
 These abstracted features also have been used in various corpus studies [@jakubowskiDissectingEarwormMelodic2017; @janssenPredictingVariationFolk2017; @rainsfordDistinctivenessEffectRecognition2019; @rainsfordMUSOSMUsicSOftware2018]
  that again use data driven approaches in order to explain which of the 38 features that FANTASTIC calculates can predict real-world behavior. 
 
@@ -167,7 +167,7 @@ After the dictation portion of the experiment, participants completed a small su
 After completing the Aural Skills portion of the experiment, participants completed one block of two different tests of working memory capacity [@unsworthAutomatedVersionOperation2005] and Raven’s Advanced Progressive Matrices, and a Number Series task as two tests of general fluid intelligence (Gf) [@ravenManualRavenProgressive1994; @thurstonePrimaryMentalAbilities1938] resulting in four total scores.
 
 Exact details of the design can be found in Chapter 3.
-After completing the cognitive battery, participants finished the experiment by compiling the self-report version of the Goldsmiths Musical Sophistication Index [@mullensiefenMusicalityNonMusiciansIndex2014], the Short Test of Musical Preferences [@rentfrowReMiEveryday2003], as well as questions pertaining to the participant's socio-economic status, and any other information we needed to control for (Hearing Loss, Medication). Exact materials for the experiment can be found at https://github.com/davidjohnbaker1/modelingMelodicDictation).
+After completing the cognitive battery, participants finished the experiment by compiling the self-report version of the Goldsmiths Musical Sophistication Index [@mullensiefenMusicalityNonMusiciansIndex2014], the Short Test of Musical Preferences [@rentfrowReMiEveryday2003], as well as questions pertaining to the participant's socio-economic status, and any other information needed to control for such as hearing loss and use of medication that might affect performance. 
 
 ### Scoring Melodies
 
@@ -340,7 +340,7 @@ knitr::kable(
 
 In this chapter, I investigated the extent to which both individual differences and abstracted musical features could be used to model results in melodic dictations. 
 In order to examine $H1$, I ran a linear mixed effects model in order discern any differences in melody difficulty. 
-As noted in Figure \@ref(fig:metable2), both a significant main effect of Tonalness and Note Density was found, as well as a small interaction between the two variables suggesting evidence supporting rejecting $H2$’s null hypothesis.
+As noted in Figure \@ref(fig:memodeltable2), both a significant main effect of Tonalness and Note Density was found, as well as a small interaction between the two variables suggesting evidence supporting rejecting $H2$’s null hypothesis.
 The interaction emerged from differences in melody means in the low density conditions with the melody with higher tonalness actually scoring higher in terms of number of errors.
 Subsequent adding of individual level predictors did result in a better fitting model. 
 
@@ -353,7 +353,7 @@ While it would be tempting to attribute this finding exactly to the Note Density
 Given the large effect of note density, I plan on taking more careful steps in the selection of our next melodies in order to control for any effects of meter and keep the effects limited to one meter if at all possible.
 
 Somewhat surprisingly, the analysis incorporating the cognitive measures of covariance did not yield any significant results. 
-While other researchers and the third Chapter of this dissertation have noted the importance of baseline cognitive ability [@schellenbergMusicCognitiveAbilities2013], the task specificity of doing melodic dictation as we designed the experiment might not be well suited to capture the variability needed for any effects. 
+While other researchers and the third Chapter of this dissertation have noted the importance of baseline cognitive ability [@schellenbergMusicCognitiveAbilities2013], the task specificity of doing melodic dictation as I designed the experiment might not be well suited to capture the variability needed for any effects. 
 Hence, this chapter would not be able to reject $H3$’s null hypothesis. 
 Considering that other researchers have found constructs like working memory capacity and general fluid intelligence to be important factors of tasks of musical perception, a more refined design might be considered in the future to find any sort of effects.
 Taken as a whole, these findings suggest that aural skills pedagogues should consider exploring the extent to which computationally extracted features can guide the difficulty expected of melodic dictation exercises.

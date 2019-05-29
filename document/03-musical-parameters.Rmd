@@ -25,7 +25,7 @@ knitr::include_graphics("img/musicalpuzzle/MP2/MP_Y-1.png")
 ```
 
 While I reserve an extended discussion of what features might characterize why one melody is more difficult to dictate than the other  for this chapter, I assume that these melodies differ in their ability to be dictated in some fundamental way when performed in a similar fashion.
-Additionally, many readers of this dissertation can draw from anecdotal evidence of their own as to how students at various stages of their aural training might fair when asked to dictate both melodies.
+Additionally, many readers of this dissertation can draw from anecdotal evidence of their own as to how students at various stages of their aural training might fare when asked to dictate both melodies.
 For some, Melody \@ref(fig:musicalpuzzleB) might be overwhelmingly difficult.
 
 In fact, Melody \@ref(fig:musicalpuzzleB) might be overwhelmingly difficult for the vast majority of musicians to dictate.
@@ -54,22 +54,22 @@ Despite these content similarities, it would be safe to assume that melody \@ref
 
 In fact, aural skills pedagogues tend to agree for the most part on questions of difficulty of dictation.
 To demonstrate this, I surveyed 40 aural skills pedagogues who all have taught aural skills at the post-secondary  level.
-In this survey, participants were asked the questions presented in Table \@ref(tab:surveyQuestions1) and Table \@ref(tab:surveyQuestions2) using a sample of 20 melodies found in the a commonly used sight-singing text book [@berkowitzNewApproachSight2011].
+In this survey, participants were asked the questions presented in Table \@ref(tab:surveyQuestions1) and Table \@ref(tab:surveyQuestions2) using a sample of 20 melodies found in the a commonly used sight-singing textbook [@berkowitzNewApproachSight2011].
 I present the details of the survey below.
 
 ### Methods
 
-To select the melodies used in this survey, I randomly sampled 30 melodies from a corpus of melodies (N = 481) from a subset of the Fifth Edition of the Berkowitz "A New Approach to Sight Singing" [@berkowitzNewApproachSight2011] in order to ensure a representative sampling of melodies that might be used in a pedagogical setting.
+To select the melodies used in this survey, I randomly sampled 30 melodies from a corpus of melodies (N = 481) from a subset of the Fifth Edition of the Berkowitz _A New Approach to Sight Singing_ [@berkowitzNewApproachSight2011] in order to ensure a representative sampling of melodies that might be used in a pedagogical setting.
 After piloting the randomly sampled melodies on a colleague, I again randomly sampled half of this sub-set and then added in five more melodies that were not in the new set from earlier sections of the book in order to be more representative of materials students might find in the first two semesters of their aural skills pedagogy. 
 I ran the survey from January 31st of 2019 until March 7th, 2019.
 The survey comprised of two sets of questions.
 
-Six questions asked about the teaching background of respondents and can be found in Table \@ref(tab:surveyQuestions1).
+Six questions asked about the teaching background of respondents and these questions can be found in Table \@ref(tab:surveyQuestions1).
 These questions were followed by asking participants to make five ratings over the 20 different melodies.
 The five questions can be found in \@ref(tab:surveyQuestions2). 
-To encourage participation, two $30 cash prize were offered to two participants. 
+To encourage participation, two $30 cash prizes were offered to two participants. 
 The survey had questions that were specifically designed to gauge their appropriateness for use in a melodic dictation context.
-Participants were recruited exclusively online and all provided consent to partaking in the data collection as approved by the Louisiana State University Institutional Review Board. 
+Participants were recruited exclusively online, and all provided consent to partaking in the data collection as approved by the Louisiana State University Institutional Review Board. 
 
 The table below contains the questions used in the demographic questionnaire.
 Examples were given following each questions and can be found on the survey link. 
@@ -85,7 +85,6 @@ DT_survey1, booktabs = TRUE, caption =  "Survey Questions", col.names = "Demogra
 
 The table below contains the questions regarding the ratings of the melodies. 
 Participants either responded using ordinal categories or moved a slider that sat atop a 100 point scale. 
-The survey can be found at https://musiccog.lsu.edu/dictation_survey/aural_survey.html. 
 
 ```{r surveyQuestions2, echo=FALSE,fig.align='center', out.width="100%"}
 library(magrittr)
@@ -275,18 +274,18 @@ in turn can have significant effects on music discrimination and memory. (p. 33)
 The authors later in the article go on to stress that future work should both replicate their findings as well as expand their modeling parameters.
 They call for a larger sample, a broader spectrum of musical experiences, and to investigate more musical features.
 
-Since then, some, but not many researchers, have employed using features of the melodies to predict a behavioral measure in experimental settings.
-Not using as extensive of a battery as Ortman, Taylor, or Pembrook, researchers in music psychology  such as as @akiva-kabiriMemoryTonalPitches2009,  @dewittRecognitionNovelMelodies1986, @eerolaExpectancySamiYoiks2009, @schulzeWorkingMemorySpeech2012 have used the number of notes in a melody as a successful predictor of difficulty in melodic perception and discrimination tasks. 
+Since then some researchers have employed using features of the melodies to predict a behavioral measure in experimental settings.
+Not using as extensive of a battery as Ortmann, Taylor, or Pembrook, researchers in music psychology  such as as @akiva-kabiriMemoryTonalPitches2009,  @dewittRecognitionNovelMelodies1986, @eerolaExpectancySamiYoiks2009, @schulzeWorkingMemorySpeech2012 have used the number of notes in a melody as a successful predictor of difficulty in melodic perception and discrimination tasks. 
 Expanding on just using frequency of note counts, @harrisonModellingMelodicDiscrimination2016 instead of looking at single measures of melodic complexity, addressed the melodic collinearity issue noted by Taylor and Pembrook by using data reductive techniques to derive a single complexity measure found to be predictive in their statistical modeling deriving these measures from the FANASTIC toolbox [@mullensiefenFantasticFeatureANalysis2009]. 
 Following this research, @bakerPerceptionLeitmotivesRichard2017 also incorporated a similar measure of complexity in their model of leitmotiv recognition in which they predicted recall rates in a recognition paradigm.
 
 Each of these examples operationalizes some feature of the melody with a quantitative, numerical proxy that is assumed to be able to be mapped to perception.
-Ortman referred to these as determinants, while others such as Müllensiefen refer to them as features [@mullensiefenFantasticFeatureANalysis2009].
+Ortmann referred to these as determinants, while others such as Müllensiefen refer to them as features [@mullensiefenFantasticFeatureANalysis2009].
 Since the word feature refers to a 'distinctive attribute', I will use this terminology throughout the rest of the chapter, though note that other terms have been used. 
 
 ### What Are Features?
 
-A feature can be either a quantitative or qualitative observable feature of a melody that is assumed to be perceptually salient to the listener.
+A feature can be either a quantitatively or qualitatively observable feature of a melody that is assumed to be perceptually salient to the listener.
 Features are often difficult to quantify with the traditional tools of music analysis.
 Often, these features come inspired from other domains like computational linguistics.
 
@@ -307,7 +306,7 @@ In computational musicology, features of melodies can generally be classified in
 Static features compute a summary measure over the entire melody while dynamic features calculate values for each event onset in a melody.
 One of the most complete set of static computational measures as applied to music perception come from Daniel Müllensiefen's' Feature ANalysis Technology Accessing STatistics (In a Corpus) or FANTASTIC toolbox [@mullensiefenFantasticFeatureANalysis2009].
 
-> "FANTASTIC is a program...that analyzes melodies by computing features. The aim is to characterise a melody or a melodic phrase by a set of numerical or categorical values reflecting different aspects of musical structure. This feature representation of melodies can then be applied in Music Information Retrieval algorithms or computational models of melody cognition." (pp. 4)
+> FANTASTIC is a program...that analyzes melodies by computing features. The aim is to characterise a melody or a melodic phrase by a set of numerical or categorical values reflecting different aspects of musical structure. This feature representation of melodies can then be applied in Music Information Retrieval algorithms or computational models of melody cognition. (p. 4)
 
 Drawing from fields both central and peripheral to music science, FANTASTIC computes a collection of 38 features to analyze features of melodies and joined a large and continuing tradition of analyzing music computationally [@lomaxCantometricsApproachAnthropology1977 ;@eerolaExpectancySamiYoiks2009; @huronHumdrumToolkitReference1994; @lartillotMatlabToolboxMusical2007; @lomaxCantometricsApproachAnthropology1977; @mcfeeLibrosaAudioMusic2015; @steinbeckStrukturUndAhnlichkeit1982].
 Additionally, FANTASTIC also provides a framework for comparing the features of a melody with a parent corpus from which the melody is assumed to belong similar to a sample-population relationship.
@@ -326,7 +325,7 @@ knitr::include_graphics("img/FantasticExpertPlot.png")
 readr::read_rds("img/strongfeatures.rds")
 ```
 
-From Figure \@ref(fig:corfeature) and Table \@ref(fig:corfeaturetable), there are some features that share a strong relationship with the ground truth of the expert intuitions.
+From Figure \@ref(fig:corfeature) and Table \@ref(tab:corfeaturetable), there are some features that share a strong relationship with the ground truth of the expert intuitions.
 The top five features that correlate most strongly with the expert ground truths are related to the intervallic content of a melody.
 The first two features, ```i.abs.std``` and ```i.abs.mean``` are derived measures using absolute interval distance computations.
 The other top three features, ```step.cont.loc.var```, ```i.entropy```, and ```p.entroy``` are related to entropy measures. 
@@ -343,7 +342,7 @@ Among these variables, we see that there is a very high degree of correlation be
 For example, the two features inspired from linguistics-- ```mean.Yules.K``` and ```mean.Simpsons.D``` -- exhibit an alarming degree of correlation.
 We also see in this dataset evidence of the inappropriateness of including some variables such as ```d.median```, a measure relating rhythm.
 
-Here in \@ref(fig:featurecorrelations) we see computational evidence of claims made by @taylorStrategiesMemoryShort1983 when reviewing exactly what features might contribute to the degree of difficulty from a melodic dictation.
+In \@ref(fig:featurecorrelations) we see computational evidence of claims made by @taylorStrategiesMemoryShort1983 when reviewing exactly what features might contribute to the degree of difficulty from a melodic dictation.
 Given this collinearlity problem, it becomes very difficult to be able to isolate the effect of one feature of the melody. 
 One way to begin to understand these relationships would be to be to build statistical models that are able to partition covariance structures such as the general linear model when used in the context of multiple regression.
 Another method, as mentioned above, could instead take a more exhaustive, but less explanatory approach forward and follow past research [@bakerPerceptionLeitmotivesRichard2017; @harrisonModellingMelodicDiscrimination2016], that uses data reductive techniques such as principal components analysis to obtain more accurate predictive measures of complexity. 
@@ -415,7 +414,7 @@ Combining the Hick-Hyman hypothesis together with the above statistical learning
 
 ## Frequency Facilitation Hypothesis
 
-The frequency facilitation hypothesis (FFH) makes two important assumptions that rely on both the statistical learning hypothesis and the perceptual facilitation hypothesis.
+The Frequency Facilitation Hypothesis (FFH) makes two important assumptions that rely on both the statistical learning hypothesis and the perceptual facilitation hypothesis.
 The first, as stated above, is that humans learn melodies via the statistical learning hypothesis.
 In line with Huron's reading of the Hick-Hyman Law, melodic information that listeners are more familiar with will consequently be processed more quickly.
 More expected notes will tax memory processing less than unexpected notes.
@@ -424,7 +423,7 @@ Thus, given a sequence any set of notes, the frequency facilitation hypothesis p
 Specifically, measures of expectation derived from computational models of auditory cognition like IDyOM should be able to serve as a proxy for musical information.
 This falls within the bounds of Pearce's assertion that using the expectancy measures from a melody could be used as a sort of memory proxy [@pearceStatisticalLearningProbabilistic2018a].
 
-This hypothesis generates testable predictions that can be investigated to verify its verisimilitude. 
+The Frequency Facilitation Hypothesis generates testable predictions that can be investigated to verify its verisimilitude. 
 Important to aural skills pedagogy, the primary prediction from this hypothesis would be that melodic patterns that occur more frequently in a corpus will be be easier to remember than those occurring less frequently.
 These frequency patterns should then directly relate to the amount of information content calculated by IDyOM.
 If this relationship does exist, then it can be used to develop strategies that would then create a more linear path to success for students learning to take melodic dictation.
@@ -433,7 +432,7 @@ I then take the findings from this corpus analysis and how it can be applied in 
 
 ### Corpus Analysis
 
-In order to investigate the frequency facilitation hypothesis, I conducted a corpus study using N = 622 melodies from the above using the Fifth Edition of the Berkowitz "A New Approach to Sight Singing" [@berkowitzNewApproachSight2011].
+In order to investigate the Frequency Facilitation Hypothesis, I conducted a corpus study using N = 622 melodies from the above using the Fifth Edition of the Berkowitz _A New Approach to Sight Singing_ [@berkowitzNewApproachSight2011].
 The FFH predicts that more frequently occurring patterns will result in lower information content-- a general by-product of quantifying musical feature tokens with information content in a multiple viewpoints framework-- and that these lower information content measures, when quantified, will be able to predict load on memory. 
 
 In order to examine this, I first extracted a series of the most frequently occurring melodic tri-grams from a subset of the _MeloSol_ corpus after transposing each melody to C major via the ```solfa``` tool in humdrum.
@@ -478,7 +477,7 @@ knitr::include_graphics("img/cum_grid_plot.png")
 
 Lastly, to further investigate this claim of cumulative information content, I calculated various information content measures for each melody used the survey above then using the resulting data to plot it against the measures of expert ratings of  difficulty for the classroom.
 In Figure \@ref(fig:modelcomparison), the resulting visualization shows measures of information content to be very good predictors of difficulty ratings.
-I believe that this gives credence to thinking more about using computational measures in designing appropriate curricular measures.
+I believe that this provides evidence for using computational measures in designing appropriate curricular measures.
 
 ```{r modelcomparison, echo=FALSE, fig.cap="Model Comparison",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/model_comparsion_gg.png")
@@ -486,10 +485,10 @@ knitr::include_graphics("img/model_comparsion_gg.png")
 
 ### Implications 
 
-If true, the frequency facilitation hypothesis would have direct implications for the aural skills classroom, specifically for melodic dictation.
+If true, the Frequency Facilitation Hypothesis would have direct implications for the aural skills classroom, specifically for melodic dictation.
 If measures of information content could be used as a more reliable proxy for load on memory, then a more linear path to learning patterns could result in better strategies for learning to take dictation.
 For example, the first practical application of this could be that information content could be a more accurate proxy for the limits of musical memory as opposed to using older measures asserted by the literature that follow in the George Miller 7 $\pm$ 2 tradition, which attempts to logically substitute items in memory for musical notes.
-As discussed in [Working Memory and Melodic Dictation], using measures of information content could provide an ecologically acceptable solution to the problems of chunking within music.
+As discussed in the previous section [Working Memory and Melodic Dictation], using measures of information content could provide an ecologically acceptable solution to the problems of chunking within music.
 For example, if this measure proved to be useful in pedagogical applications, pedagogues would have a very powerful tool to create curricula that was designed in a much more linear path to help students learn.
 
 One of the major challenges in both teaching and learning aural skills beyond the identification of scale degrees is  identifying them in a more ecological, melodic context.
@@ -509,7 +508,8 @@ One of the core assumptions to this approach is that statistical learning does i
 While this assumption is ubiquitous in much of the music psychology literature, statistical learning as a concept has been critiqued in other related fields and deserves mentioning.
 Statistical learning rests on the premise that organisms are able to implicitly learn and track the statistical regularities in their environments.
 In the case of auditory learning, there is research to assert this claim from both the field of implicit learning and statistical learning as discussed by @perruchetImplicitLearningStatistical2006.
-For example, extensive evidence as reviewed by @cleeremansComputationalModelsImplicit2008 provides many examples of this, and especially worth highlighting is that people have been show to learn variable order n-gram patterns [@remillardImplicitLearningFirst2001].
+For example, extensive evidence as reviewed by @cleeremansComputationalModelsImplicit2008 provides many examples of implicit learning.
+One point especially worth highlighting is that people have been shown to learn variable order n-gram patterns [@remillardImplicitLearningFirst2001].
 
 This assertion is importantly contrasted by work such as @jamiesonApplyingExemplarModel2009 who claim that explaining these phenomena as resulting in statistical learning is not necessary.
 Rather, @jamiesonApplyingExemplarModel2009 assert that employing memory models like that of Minerva 2 can accurately model behavioral patterns in individual responses without the theoretical framework of statistical learning.
@@ -520,7 +520,7 @@ Another important caveat in the corpus analysis above is it was done using fixed
 ## Conclusions
 
 In this chapter, I demonstrated how tools from computational musicology can be used as an aide in aural skills pedagogy.
-After first establishing the extent to which aural skills pedagogues agree on various melody parameters, I then show how two types of computationally derived features can stand in for a pedagogues intuition.
+After first establishing the extent to which aural skills pedagogues agree on various melody parameters, I then show how two types of computationally derived features can stand in for a pedagogue's intuition.
 First, using the FANTASTIC toolbox, I show how static abstracted features can help explain how theorists conceptualize complexity.
 This first will help with selection of melodies and also provides insights as to which features of the melodies contribute most to perceived difficulty.
 Second, I demonstrated how assumptions derived from the IDyOM framework can serve as a basis for the intuitions of why smaller sequences of notes within melodies are more or less difficult to dictate.

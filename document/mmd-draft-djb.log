@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  18 APR 2019 16:05
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  28 MAY 2019 18:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -771,6 +771,8 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@postskip=\skip63
 \thm@headsep=\skip64
 \dth@everypar=\toks30
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen175
@@ -889,32 +891,32 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 ) (./mmd-draft-djb.aux)
 \openout1 = `mmd-draft-djb.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 118.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 119.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 119.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Info: Redefining \microtypecontext on input line 118.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Info: Redefining \microtypecontext on input line 119.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -933,14 +935,14 @@ ern Roman (RS)
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
+* h-part:(L,W,R)=(108.405pt, 397.485pt, 108.405pt)
 * v-part:(T,H,B)=(180.67499pt, 433.62001pt, 180.67499pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=433.62001pt
+* \textwidth=397.485pt
 * \textheight=433.62001pt
 * \oddsidemargin=36.13501pt
-* \evensidemargin=0.0pt
+* \evensidemargin=36.13501pt
 * \topmargin=76.5312pt
 * \headheight=12.0pt
 * \headsep=19.8738pt
@@ -960,7 +962,7 @@ ern Roman (RS)
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 118.
+Package hyperref Info: Link coloring OFF on input line 119.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -968,9 +970,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count190
 )
-LaTeX Info: Redefining \ref on input line 118.
-LaTeX Info: Redefining \pageref on input line 118.
-LaTeX Info: Redefining \nameref on input line 118.
+LaTeX Info: Redefining \ref on input line 119.
+LaTeX Info: Redefining \pageref on input line 119.
+LaTeX Info: Redefining \nameref on input line 119.
 (./mmd-draft-djb.out) (./mmd-draft-djb.out)
 \@outlinefile=\write3
 \openout3 = `mmd-draft-djb.out'.
@@ -981,17 +983,11 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 ) [1
 
 
-] [2
+] [2] [3
 
-] [3] [4
+] [4
 
-] [5] [6
-
-] [7
-
-] [8
-
-] [9] [10] (./mmd-draft-djb.toc
+] [5] [6] (./mmd-draft-djb.toc
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1029,29 +1025,32 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 5.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [11
+) [7
 
-] [12])
+] [8])
 \tf@toc=\write4
 \openout4 = `mmd-draft-djb.toc'.
 
-[13] [14
+[9] [10
 
 ] (./mmd-draft-djb.lot)
 \tf@lot=\write5
 \openout5 = `mmd-draft-djb.lot'.
 
-[15] [16
+[11] [12
 
-] (./mmd-draft-djb.lof [17] [18])
+] (./mmd-draft-djb.lof [13]
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+[14])
 \tf@lof=\write6
 \openout6 = `mmd-draft-djb.lof'.
 
-[19] [20
+[15] [16
 
-] [21
+] [17
 
-] [22]
+] [18]
 Chapter 1.
 [1
 
@@ -1061,11 +1060,11 @@ Chapter 1.
 ]
 Chapter 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 285.
+(Font)              <10> on input line 292.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 285.
+(Font)              <7> on input line 292.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 285.
+(Font)              <5> on input line 292.
 [7] [8] [9]
 File: img/karpinski31.png Graphic file (type QTm)
 <use  "img/karpinski31.png" > [10] [11] [12] [13]
@@ -1074,25 +1073,48 @@ File: img/musicalexamples/MMD_Figure2-1.png Graphic file (type QTm)
 File: img/musicalexamples/MMD_Figure3-1.png Graphic file (type QTm)
 <use  "img/musicalexamples/MMD_Figure3-1.png" > [14] [15]
 File: img/taxonomy.png Graphic file (type QTm)
-<use  "img/taxonomy.png" > [16] [17] [18] [19] [20]
+<use  "img/taxonomy.png" > [16] [17] [18] [19] [20] [21] [22]
 File: img/wm_models.png Graphic file (type QTm)
 <use  "img/wm_models.png" >
 
-LaTeX Warning: Float too large for page by 10.93315pt on input line 516.
+LaTeX Warning: Float too large for page by 10.93315pt on input line 524.
 
-[21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36]
-[37] [38] [39] [40] [41] [42] [43] [44]
+[23] [24] [25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[26] [27] [28] [29] [30] [31]
+Underfull \vbox (badness 7308) has occurred while \output is active []
+
+[32] [33] [34] [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[47] [48]
 Chapter 3.
-[45
+[49
 
-] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [6
-1]
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[50] [51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[52] [53] [54]
+Underfull \vbox (badness 7308) has occurred while \output is active []
+
+[55] [56] [57] [58] [59] [60]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[61] [62] [63] [64] [65]
+Underfull \vbox (badness 8075) has occurred while \output is active []
+
+[66]
 File: img/measurementModel.png Graphic file (type QTm)
-<use  "img/measurementModel.png" > [62] [63]
-
-LaTeX Warning: Reference `ModelFits' on page 64 undefined on input line 1213.
-
+<use  "img/measurementModel.png" > [67]
 Missing character: There is no χ in font [lmroman12-regular]:mapping=tex-text;!
+[68] [69]
 File: img/sem1.png Graphic file (type QTm)
 <use  "img/sem1.png" >
 File: img/sem2.png Graphic file (type QTm)
@@ -1102,16 +1124,24 @@ File: img/sem3.png Graphic file (type QTm)
 File: img/sem4.png Graphic file (type QTm)
 <use  "img/sem4.png" >
 File: img/sem5.png Graphic file (type QTm)
-<use  "img/sem5.png" > [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [
-75] [76
+<use  "img/sem5.png" > [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [
+81] [82
 
 ]
 Chapter 4.
-[77]
+[83]
 File: img/musicalpuzzle/MP2/MP_X-1.png Graphic file (type QTm)
 <use  "img/musicalpuzzle/MP2/MP_X-1.png" >
 File: img/musicalpuzzle/MP2/MP_Y-1.png Graphic file (type QTm)
-<use  "img/musicalpuzzle/MP2/MP_Y-1.png" > [78] [79] [80] [81] [82]
+<use  "img/musicalpuzzle/MP2/MP_Y-1.png" > [84] [85]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[86] [87]
+Overfull \hbox (28.99504pt too wide) in alignment at lines 1448--1461
+ [] 
+ []
+
+[88]
 File: img/ageedsurveydistribution.png Graphic file (type QTm)
 <use  "img/ageedsurveydistribution.png" >
 File: img/survey_melodies/Berkowitz3.png Graphic file (type QTm)
@@ -1153,59 +1183,84 @@ File: img/survey_melodies/Berkowitz622.png Graphic file (type QTm)
 File: img/survey_melodies/Berkowitz627.png Graphic file (type QTm)
 <use  "img/survey_melodies/Berkowitz627.png" >
 File: img/survey_melodies/Berkowitz629.png Graphic file (type QTm)
-<use  "img/survey_melodies/Berkowitz629.png" >
+<use  "img/survey_melodies/Berkowitz629.png" > [89] [90] [91] [92] [93] [94] [9
+5] [96] [97]
 File: img/difficulty_plot.png Graphic file (type QTm)
-<use  "img/difficulty_plot.png" > [83] [84] [85] [86] [87] [88] [89] [90] [91]
+<use  "img/difficulty_plot.png" >
 File: img/grammar_plot.png Graphic file (type QTm)
-<use  "img/grammar_plot.png" > [92] [93] [94]
+<use  "img/grammar_plot.png" > [98] [99] [100]
 File: img/grammar_difficulty_correlation_plot.png Graphic file (type QTm)
-<use  "img/grammar_difficulty_correlation_plot.png" > [95] [96] [97] [98] [99]
+<use  "img/grammar_difficulty_correlation_plot.png" > [101] [102] [103] [104]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `tab:corfeaturetable' on page 100 undefined on input l
-ine 1819.
+[105] [106]
 
-[100]
+LaTeX Warning: Reference `tab:corfeaturetable' on page 107 undefined on input l
+ine 1826.
+
+[107]
 File: img/FantasticExpertPlot.png Graphic file (type QTm)
-<use  "img/FantasticExpertPlot.png" >
+<use  "img/FantasticExpertPlot.png" > [108]
 
-LaTeX Warning: Reference `fig:corfeaturetable' on page 101 undefined on input l
-ine 1848.
+LaTeX Warning: Reference `tab:corfeaturetable' on page 109 undefined on input l
+ine 1855.
 
-[101] [102]
 File: img/FANTASTIC_collin.png Graphic file (type QTm)
-<use  "img/FANTASTIC_collin.png" > [103]
+<use  "img/FANTASTIC_collin.png" > [109] [110]
 File: img/univariate_cow.png Graphic file (type QTm)
-<use  "img/univariate_cow.png" > [104] [105] [106] [107] [108] [109] [110]
+<use  "img/univariate_cow.png" > [111] [112] [113] [114] [115] [116] [117]
 File: img/trigrams.png Graphic file (type QTm)
 <use  "img/trigrams.png" >
 File: img/bitriquint.png Graphic file (type QTm)
-<use  "img/bitriquint.png" >
+<use  "img/bitriquint.png" > [118] [119] [120]
 File: img/five_incipit_distiribution.png Graphic file (type QTm)
 <use  "img/five_incipit_distiribution.png" >
 File: img/tri_distribution.png Graphic file (type QTm)
-<use  "img/tri_distribution.png" > [111] [112] [113] [114] [115]
+<use  "img/tri_distribution.png" > [121] [122]
 File: img/cum_grid_plot.png Graphic file (type QTm)
-<use  "img/cum_grid_plot.png" >
+<use  "img/cum_grid_plot.png" > [123]
 File: img/model_comparsion_gg.png Graphic file (type QTm)
-<use  "img/model_comparsion_gg.png" > [116] [117] [118] [119] [120]
+<use  "img/model_comparsion_gg.png" > [124] [125]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[126] [127] [128
+
+]
 Chapter 5.
-[121
+[129] [130]
+Underfull \vbox (badness 7308) has occurred while \output is active []
 
-] [122] [123] [124]
+[131] [132] [133]
 File: img/melosoldescriptpanel.png Graphic file (type QTm)
-<use  "img/melosoldescriptpanel.png" > [125] [126] [127]
-File: img/comparative_descritivepanel.png Graphic file (type QTm)
-<use  "img/comparative_descritivepanel.png" > [128] [129]
-File: img/corporaemergent.png Graphic file (type QTm)
-<use  "img/corporaemergent.png" >
-File: img/huronrecreation.png Graphic file (type QTm)
-<use  "img/huronrecreation.png" > [130] [131]
-File: img/krumpanel.png Graphic file (type QTm)
-<use  "img/krumpanel.png" > [132] [133] [134] [135] [136]
-Chapter 6.
-[137
+<use  "img/melosoldescriptpanel.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [138] [139] [140] [141] [142] [143] [144]
+[134] [135] [136]
+File: img/comparative_descritivepanel.png Graphic file (type QTm)
+<use  "img/comparative_descritivepanel.png" > [137]
+File: img/corporaemergent.png Graphic file (type QTm)
+<use  "img/corporaemergent.png" > [138] [139]
+File: img/huronrecreation.png Graphic file (type QTm)
+<use  "img/huronrecreation.png" >
+File: img/krumpanel.png Graphic file (type QTm)
+<use  "img/krumpanel.png" > [140] [141] [142]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[143] [144]
+Chapter 6.
+[145
+
+] [146] [147]
+Underfull \vbox (badness 7308) has occurred while \output is active []
+
+[148]
+Underfull \vbox (badness 2809) has occurred while \output is active []
+
+[149] [150] [151] [152]
+Overfull \hbox (12.06302pt too wide) in paragraph at lines 2474--2484
+ [][] 
+ []
+
 File: img/Berkowitz34.png Graphic file (type QTm)
 <use  "img/Berkowitz34.png" >
 File: img/Berkowitz95.png Graphic file (type QTm)
@@ -1213,7 +1268,13 @@ File: img/Berkowitz95.png Graphic file (type QTm)
 File: img/Berkowitz112.png Graphic file (type QTm)
 <use  "img/Berkowitz112.png" >
 File: img/BerkowitzNo9.png Graphic file (type QTm)
-<use  "img/BerkowitzNo9.png" > [145] [146] [147] [148] [149]
+<use  "img/BerkowitzNo9.png" > [153] [154] [155]
+Underfull \vbox (badness 2197) has occurred while \output is active []
+
+[156]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[157] [158]
 File: img/melody_difficulty.png Graphic file (type QTm)
 <use  "img/melody_difficulty.png" >
 File: img/melody_differences.png Graphic file (type QTm)
@@ -1227,7 +1288,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (2.367pt too wide) in paragraph at lines 2688--2688
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (11.40076pt too wide) in paragraph at lines 2696--2696
 []\TU/lmr/m/n/12 tonalness:note.dens|  
  []
 
@@ -1241,7 +1305,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (2.367pt too wide) in paragraph at lines 2740--2740
+Overfull \hbox (11.40076pt too wide) in paragraph at lines 2748--2748
 []\TU/lmr/m/n/12 tonalness:note.dens|  
  []
 
@@ -1249,80 +1313,92 @@ Overfull \hbox (2.367pt too wide) in paragraph at lines 2740--2740
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `fig:metable2' on page 150 undefined on input line 277
-1.
+LaTeX Warning: Reference `fig:memodeltable2' on page 159 undefined on input lin
+e 2779.
 
-[150] [151] [152] [153]
+[159] [160] [161] [162] [163]
 
-LaTeX Warning: Text page 154 contains only floats.
+LaTeX Warning: Text page 164 contains only floats.
 
-[154]
+[164] [165]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Text page 155 contains only floats.
+[166] [167] [168
 
-[155] [156] [157] [158]
+]
 Chapter 7.
-[159
-
-] [160] [161] [162] [163] [164] [165]
+[169] [170] [171] [172] [173] [174] [175]
 File: img/SchubertF.pdf Graphic file (type QTm)
 <use  "img/SchubertF.pdf" >
 File: img/SchubertPlotNew.png Graphic file (type QTm)
-<use  "img/SchubertPlotNew.png" >
+<use  "img/SchubertPlotNew.png" > [176] [177]
 File: img/pk_grampanel.png Graphic file (type QTm)
-<use  "img/pk_grampanel.png" > [166] [167] [168] [169] [170] [171] [172]
+<use  "img/pk_grampanel.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[178] [179] [180] [181] [182]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[183]
 File: img/Model.pdf Graphic file (type QTm)
 <use  "img/Model.pdf" >
 File: img/Model Graphic.pdf Graphic file (type QTm)
-<use  "img/Model Graphic.pdf" > [173] [174] [175] [176] [177] [178] [179] [180
+<use  "img/Model Graphic.pdf" > [184] [185] [186] [187] [188] [189] [190
 
 ]
 Chapter 8.
-[181] [182] [183] (./mmd-draft-djb.bbl [184] [185
+[191] [192] [193] (./mmd-draft-djb.bbl [194] [195
 
-] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198]
-[199] [200] [201] [202] [203] [204] [205] [206]
-Underfull \hbox (badness 1226) in paragraph at lines 1311--1315
-[]\TU/lmr/m/n/12 Steinbeck, W. (1982).  \TU/lmr/m/it/12 Struktur Und Ähnlichkei
-t: Methoden Automatiserter
+] [196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208]
+[209] [210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220]
+Underfull \hbox (badness 1158) in paragraph at lines 1418--1422
+\TU/lmr/m/n/12 Rapid Communication: Pianists exhibit enhanced memory for vocal
  []
 
-[207] [208] [209]
-Underfull \hbox (badness 1577) in paragraph at lines 1434--1437
-[]\TU/lmr/m/n/12 Wiggins, G. A. (2007).  Models of musical similarity.  \TU/lmr
-/m/it/12 Musicae Scientiae\TU/lmr/m/n/12 ,
- []
-
-) [210]
+[221]) [222]
 File: karpinskipermission.png Graphic file (type QTm)
-<use  "karpinskipermission.png" > [211
+<use  "karpinskipermission.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[223
 
 
 ]
 Overfull \vbox (152.33278pt too high) has occurred while \output is active []
 
-[212]
+[224]
 File: cownpermission.png Graphic file (type QTm)
-<use  "cownpermission.png" > [213] [214
+<use  "cownpermission.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[225
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3236.
-[215]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3236.
+Overfull \vbox (94.4683pt too high) has occurred while \output is active []
+
+[226]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[227
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3248.
+[228]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3248.
 (./mmd-draft-djb.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3236.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3236.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3248.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3248.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 24259 strings out of 493005
- 453270 string characters out of 6134596
- 587813 words of memory out of 5000000
- 27852 multiletter control sequences out of 15000+600000
+ 24290 strings out of 493005
+ 453839 string characters out of 6134596
+ 589217 words of memory out of 5000000
+ 27879 multiletter control sequences out of 15000+600000
  28517 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 41i,16n,54p,10411b,909s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,16n,54p,10411b,917s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on mmd-draft-djb.pdf (237 pages).
+Output written on mmd-draft-djb.pdf (246 pages).
