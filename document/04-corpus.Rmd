@@ -89,7 +89,7 @@ These groupings reflect differences in geographic location and are not taken to 
 
 Another important reason for comparing these corpora is that the _Essen_ is one of the most heavily cited corpora in the field of computational musicology and is often taken as a proxy to represent the underlying expectational structure of Western music.
 Much of the research that assumes this makes claims about general level musical features such as the melodic arch [@huronMelodicArchWestern1996; @shanahanExaminingEffectOral2019] or that the implicitly learned patterns of a musical style can be represented using a corpus of digitized melodies [@demorestQuantifyingCulture2015; @pearceStatisticalLearningProbabilistic2018a].
-In this context, the underlying assumption in this inference is that a corpus-- in this case a folk song collection-- is a sample of the larger population of Western music.
+In this context, the underlying assumption in this inference is that a corpus--- in this case a folk song collection--- is a sample of the larger population of Western music.
 This assumption tacitly borrows the underlying logic from the Frequentist schools of statistical thought [@dienesUnderstandingPsychologyScience2008]; the corpus is taken to be a sample of the population. 
 This assumption is furthered when analyses are done using the null hypothesis significance testing framework. 
 
@@ -115,7 +115,7 @@ Interestingly, both sets from the _Essen_ Collection tend to have much more defi
 Though a post-hoc interpretation, these peaks might serve as the basis for a study on physical affordances drawing together work on melody transmission [@shanahanExaminingEffectOral2019] and the cognitive affordance provided via notation [@lerdahlCognitiveConstraintsCompositional1992].
 Melodies between the four data sets also tend to have overlapping density distributions in terms of both length and note density.
 
-Secondly, I then overlay emergent properties from the corpora-- standardized for size-- using density plots.
+Secondly, I then overlay emergent properties from the corpora--- standardized for size--- using density plots.
 The underlying logic in the following exploratory analysis would be if the _MeloSol_ and European subsets of the _Essen_ are samples of large subset of properties found in Western music, there should be some degree of overlap between the emergent elements.
 From the panels below, the key comparisons will be to look between the blue and yellow distributions.
 Interestingly, looking at the panels plotting Tonalness as well as Tonal Spike, two measures of tonality derived from the FANTASTIC toolbox used to complete this analysis, the underlying distributions tend to follow a similar distribution

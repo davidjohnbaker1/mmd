@@ -40,7 +40,7 @@ Further, Timothy Chenette has since proposed similar types of progressive loadin
 After students master the ability to selectively hear and retain a portion of a melody, the other way in which they can improve their dictation abilities is via chunking.
 Chunking is a listener's ability to group smaller units of musical material into a larger group.
 The idea of chunking derives from earlier work from Gestalt psychologists and was one of the initial mechanisms proposed by @millerMagicalNumberSeven1956 able to extend the finite window of memory.
-The general idea is that if a collection of notes can be identified as its own discrete entity-- such as a descending major triad in first inversion-- the listener will only have to remember that one structure, rather than its component parts.
+The general idea is that if a collection of notes can be identified as its own discrete entity--- such as a descending major triad in first inversion--- the listener will only have to remember that one structure, rather than its component parts.
 As discussed in the previous chapter in [Working Memory and Melodic Dictation], music's inherently sequential nature affords it many opportunities to find repeated patterns which can be labeled, musically understood, and thus chunked.
 While stimuli that are inherently sequential are problematic for psychologists investigating capacity limits of working memory capacity [@cowanWorkingMemoryCapacity2005], students are expected to use chunking to their advantage in order to become more adept listeners.
 As students learn to chunk more efficiently, they are able to process more musical information in their short-term musical memory.
@@ -98,14 +98,14 @@ Even in studies outside of music, domain general cognitive abilities have been s
 In reviewing the current literature, @hambrickDomainGeneralModelsExpertise2019 reiterate that while there is some evidence  of the time in many domain specific areas like chess, games, and music, the current state of the literature is not definitive enough to explain exactly how this phenomena works on a global level.
 
 Though of all the studies mentioned thus far, one cognitive ability deserving of special attention is that of working memory.
-As noted by @berzWorkingMemoryMusic1995, many tests of memory-- such as the aforementioned tests--require the encoding and active manipulation of musical material.
+As noted by @berzWorkingMemoryMusic1995, many tests of memory--- such as the aforementioned tests---require the encoding and active manipulation of musical material.
 In his 1995 article, Berz draws important parallels between working memory systems and music tests and postulated new loop specifically for musical information.
 
 For example, @meinzDeliberatePracticeNecessary2010 found working memory to be predictive of performance in a sight reading task above and beyond that of deliberate practice.
 Work by Kopiez [@kopiezDynamicModelSkills2006; @kopiezGeneralModelSkills2008] has additionally linked the importance of working memory to performance on sight reading tasks.
 In multiple studies, Andrea Halpern and colleagues have also shown measures of working memory to be linked to performance in musical production tasks [@halpernEffectsTimbreTempo2008; @nicholsScoreOneJazz2018] and have even interpreted these findings in terms of Berz's memory loop. 
 Other work by @harrisonModellingMelodicDiscrimination2016 has also made important links to an individual's ability to remember and recall musical information and working memory.
-Harrison and colleagues put forward a cognitive model based on research in working memory that predicted which features of a melody-- based on theoretical considerations from working memory-- would be best at predicting behavioral performance.
+Harrison and colleagues put forward a cognitive model based on research in working memory that predicted which features of a melody--- based on theoretical considerations from working memory--- would be best at predicting behavioral performance.
 They proposed that perceptual encoding, memory retention, similarity comparison, and decision-making could be used to contextualize differences in their memory recognition paradigm.
 While they did find evidence to support this framework, they did not take any domain general measures of working memory capacity and thus were unable to conclude if domain general processes were able to better explain their data than using individual level musical, domain specific predictors.
 Presumably any measure of musical perception ability should be able to explain above and beyond that of baseline cognitive abilities with a more established theoretical framework.
@@ -120,7 +120,7 @@ Given the complex network of variables at play, in order to understand how these
 In order to investigate the effects of individual factors on baseline, I must first assume that using a melodic discrimination paradigm can be used as a proxy for the first two steps of the Karpinski model of melodic dictation.
 I argue that because melodic discrimination paradigms require perceptual encoding, memory retention, and two other cognitive manipulations of similarity comparison and decision making as argued by @harrisonModellingMelodicDiscrimination2016, this paradigms does in fact resemble the first two steps of the Karpinski model.
 Karpinski's hearing and short-term musical memory could just as easily be described as perceptual encoding and memory retention.
-Additionally, the requirement to execute a decision while representing musical information in memory-- Harrison and Müllensiefen's similarity comparison and decision making-- can be mapped on to later stages of Karpinski's model of musical understanding, and subsequently notation.
+Additionally, the requirement to execute a decision while representing musical information in memory--- Harrison and Müllensiefen's similarity comparison and decision making--- can be mapped on to later stages of Karpinski's model of musical understanding, and subsequently notation.
 
 One of the most complete suites of measuring traits associated with musical behavior that additionally employs both objective and subjective measures of musical sophistication is the Goldsmiths Musical Sophistication Index [@mullensiefenMusicalityNonMusiciansIndex2014].
 The Gold-MSI has a self-report questionnaire as well as two tests of objective ability and a timbre identification task.
@@ -145,7 +145,7 @@ Finally, in response to claims made by  @okadaIndividualDifferencesMusical2018, 
 ### Structural Equation Modeling
 
 Given the complex nature being investigated and the theoretical concepts at play such as working memory, general fluid intelligence, and musical sophistication conceptualized as a latent variable, it follows that the most appropriate method of parsing out the variance in this covariance structure would be to use some form of structural equation modeling [@beaujeanLatentVariableModeling2014].
-Structural equation modeling uses latent variables-- theoretical constructs thought to exist, yet are not possible to measure directly-- by taking advantages of algebraic systems originally developed by Sewall Wright [@wrightMethodPathCoefficents1934].
+Structural equation modeling uses latent variables--- theoretical constructs thought to exist, yet are not possible to measure directly--- by taking advantages of algebraic systems originally developed by Sewall Wright [@wrightMethodPathCoefficents1934].
 When used under the right conditions, the technique is powerful enough to determine causal mechanisms in closed systems [@pearlBookWhyNew2018], but this is not the case in this analysis. 
 
 ### Hypotheses
@@ -319,7 +319,7 @@ Fit measures for Model 3 can be seen in Table \@ref(tab:ModelFits) and removing 
 Following the rule of thumb that at least 3 variables should be used to define any latent-variable [@beaujeanLatentVariableModeling2014].
 I modeled WMC as latent variable and Gf as a composite average of the two tasks administered in order to improve model fit. 
 This model resulted in significant improvement to the model ($\chi^2$ (4)=14.37, p < . 001). 
-Finally I examined the change in test statistics between Model 2 and a model that removed the cognitive measures-- a model akin to one of the original models reported in [@mullensiefenMusicalityNonMusiciansIndex2014]-- for Model 5. 
+Finally I examined the change in test statistics between Model 2 and a model that removed the cognitive measures--- a model akin to one of the original models reported in [@mullensiefenMusicalityNonMusiciansIndex2014]--- for Model 5. 
 Testing between the two models resulted in a significant improvement in model fit ($\chi^2$ (78)=104.75, p < . 001). 
 Figure \@ref(fig:model4) displays Model 4, our nested model with the best fit indices.
 
@@ -392,7 +392,7 @@ Given the results here that suggest that measures of cognitive ability play a si
 ### Relating to Melodic Dictation
 
 This study sought to investigate the extent to which individual factors contributed to an individual's ability to perform the first two steps of melodic dictation.
-In order to do this, I assumed that the first two steps of the Karpinski model-- hearing and short term melodic memory-- could be investigated by using a same-different melodic memory paradigm.
+In order to do this, I assumed that the first two steps of the Karpinski model--- hearing and short term melodic memory--- could be investigated by using a same-different melodic memory paradigm.
 Both tasks require the dual activation of representing information in conscious awareness and completing a cognitive task.
 Using this paradigm also allowed me to investigate the first two steps of Karpinski's model using both individuals with and without musical training. 
 

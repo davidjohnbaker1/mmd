@@ -2,16 +2,22 @@
 \usepackage{amsthm}
 \usepackage{setspace}
 \usepackage{graphicx}
+\usepackage{etoolbox}
 \makeatletter
-\def\thm@space@setup{%
-  \thm@preskip=8pt plus 2pt minus 4pt
-  \thm@postskip=\thm@preskip
-}
-
-
+%\def\thm@space@setup{%
+%  \thm@preskip=8pt plus 2pt minus 4pt
+%  \thm@postskip=\thm@preskip
+%}
+%% Supposed to remove Space at top of Chapters
+% https://tex.stackexchange.com/questions/309920/how-to-move-the-chapter-title-upwards-on-page
+\patchcmd{\@makechapterhead}{\vspace*{10\p@}}{}{}{}% Removes space above \chapter head
+\patchcmd{\@makeschapterhead}{\vspace*{10\p@}}{}{}{}% Removes space above \chapter* head
+%% Supposed to fix LoT and LoF
+% https://latex.org/forum/viewtopic.php?t=32162
+\patchcmd{\@chapter}{\addtocontents{lof}{\protect\addvspace{10\p@}}}{}{}{}% LoF
+\patchcmd{\@chapter}{\addtocontents{lot}{\protect\addvspace{10\p@}}}{}{}{}% LoT
+%% Remove headers?
+\pagestyle{empty} % Only some page numbers?!
 \makeatother % remove for lsu
 %\raggedbottom % remove for LSu
-
-
-
 \frontmatter

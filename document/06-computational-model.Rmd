@@ -18,7 +18,7 @@ Both descriptive and explanatory theories are needed: descriptive theories are u
 By stringing together different layers of abstraction, we can arrive at a better understanding of how the world works.
 
 Returning to melodic dictation, under Wiggins' framework the Karpinski model of melodic dictation [@karpinskiAuralSkillsAcquisition2000; @karpinskiModelMusicPerception1990] qualifies as a descriptive model.
-The model explains what happens over the time course of a melodic dictation-- specifying four discrete stages discussed in earlier chapters-- but does not explicitly state _how_ or _why_ this process happens. 
+The model explains what happens over the time course of a melodic dictation--- specifying four discrete stages discussed in earlier chapters--- but does not explicitly state _how_ or _why_ this process happens. 
 In order to have a more complete understanding of melodic dictation, an explanatory model is needed. 
 
 In this chapter, I introduce an explanatory model of melodic dictation. 
@@ -36,7 +36,7 @@ The model consists of three main modules, each with its own set of parameters:
 3. Transcription and Re-entry
 
 The Prior Knowledge module reflects the previous knowledge an individual brings to the melodic dictation.
-The Selective Attention module-- somewhat akin to Karpinski's extractive listening [@karpinskiAuralSkillsAcquisition2000; @karpinskiModelMusicPerception1990]-- segments incoming musical information by using the window of attention as conceptualized as the limits of working memory capacity as a sensory bottleneck to constrict the size of musical chunk that an individual could transcribe.
+The Selective Attention module--- somewhat akin to Karpinski's extractive listening [@karpinskiAuralSkillsAcquisition2000; @karpinskiModelMusicPerception1990]--- segments incoming musical information by using the window of attention as conceptualized as the limits of working memory capacity as a sensory bottleneck to constrict the size of musical chunk that an individual could transcribe.
 Once musical material is in the focus of attention, the Transcription function pattern matches against the Prior Knowledge's corpus of information in order to find a match of explicitly known musical information.
 The Transcription function will recursively truncate what musical information is in Selective Attention if no match is found. 
 In addition to Transcription, there is also a Re-entry function that will restart the entire loop.
@@ -80,9 +80,9 @@ The logic here is that the more an individual is exposed musical material, the m
 > while listening to new music, an enculturated listener applies models learned via the SLH to generate probabilistic predictions that enable them to organize and process their mental representations of the music and generate culturally appropriate responses. p.2 (Pearce, 2018).
 
 Taken together and then quantified using Shannon information content [@shannonMathematicalTheoryCommunication1948], it then becomes possible using the IDyOM framework to have a quantifiable measure that reliably predicts the amount of perceived unexpectedness in a musical melody that can change pending on the musical corpus that the model is trained on.
-As a model, IDyOM has been successful mirroring human behavior in melodies in various styles [@pearceStatisticalLearningProbabilistic2018a], harmony-- outperforming [@harrisonDissociatingSensoryCognitive2018] sensory models of harmony [@bigandEmpiricalEvidenceMusical2014]--, and is also being developed to handle polyphonic materials [@sauvePredictionPolyphonyModelling2017]. 
+As a model, IDyOM has been successful mirroring human behavior in melodies in various styles [@pearceStatisticalLearningProbabilistic2018a], harmony--- outperforming [@harrisonDissociatingSensoryCognitive2018] sensory models of harmony [@bigandEmpiricalEvidenceMusical2014]---, and is also being developed to handle polyphonic materials [@sauvePredictionPolyphonyModelling2017]. 
 
-Stepping beyond the assumptions of IDyOM, the Prior Knowledge also needs to have a implicit/explicitly known parameter which indicates whether or not a pattern of music-- or n-gram pattern-- is explicitly learned.
+Stepping beyond the assumptions of IDyOM, the Prior Knowledge also needs to have a implicit/explicitly known parameter which indicates whether or not a pattern of music--- or n-gram pattern--- is explicitly learned.
 This threshold can be set relative to the entire distribution of all n-grams in the corpus. 
 
 ### Modeling Information Content 
@@ -233,7 +233,7 @@ First, the model checks that there are notes to transcribe; this being the first
 Notes of the **Target Melody** are read into the **Selective Attention** buffer until the information content of the melody exceeds that of the working memory threshold.
 This is depicted graphically in the leftmost panel of Figure \@ref(fig:walkthru).
 Each note unfolding over time fills up the **Selective Attention** working memory buffer.
-When the amount of information reaches the perceptual bottleneck-- as indicated by the dashed line-- the **Selective Attention** buffer stops receiving information.
+When the amount of information reaches the perceptual bottleneck--- as indicated by the dashed line--- the **Selective Attention** buffer stops receiving information.
 At this point the model will mark where in the melody it stopped taking in new information for later.
 Here the contents in **Selective Attention** are moved to the ```transcribe()``` function.
 

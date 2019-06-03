@@ -1,5 +1,6 @@
 # Context, Literature, and Rationale {#intro}
 
+<!-- ## Melodic Dictation --> 
 ## Melodic Dictation
 
 Melodic dictation is the process in which an individual hears a melody, retains it in memory, and then uses their knowledge of Western musical notation to recreate the mental image of the melody on paper in a limited time frame.
@@ -17,7 +18,7 @@ Additionally, suggesting that people who are unable to hear and then dictate mus
 
 Despite this skepticism towards the topic, melodic dictation remains at the forefront of many aural skills curricula.
 The act of becoming better at this skill may or may not lead to large increases in far transfer of ability, but when used as a pedagogical tool, the practice of learning to take melodic dictation intersects with current learning goals relevant to the core of undergraduate music training.
-While there has not been extensive research on melodic dictation research in recent years-- in fact,  @paneyEffectDirectingAttention2016 notes that since 2000, only four studies were published that directly examined melodic dictation-- this skill set sits on the border between literature on music learning, melodic perception, memory, and music theory pedagogy.
+While there has not been extensive research on melodic dictation research in recent years--- in fact,  @paneyEffectDirectingAttention2016 notes that since 2000, only four studies were published that directly examined melodic dictation--- this skill set sits on the border between literature on music learning, melodic perception, memory, and music theory pedagogy.
 Understanding and modeling the processes underlying melodic dictation remains as an untapped watershed of knowledge for the field of music theory, music education, and music perception, and is deserving of more attention. 
 
 In this chapter, I examine literature both directly and indirectly related to melodic dictation by first reviewing the prominent four-step model put forth by Karpinski in order to establish and describe melodic dictation.
@@ -28,7 +29,7 @@ This research aims to continue to fill the long called for bridging between the 
 ### Describing Melodic Dictation 
 
 The foundational pedagogical work on melodic dictation comes from the work of Karpinski.
-Summarized most recently in his _Aural Skills Acquisition_ [@karpinskiAuralSkillsAcquisition2000]-- though first presented in an earlier article [@karpinskiModelMusicPerception1990]-- Karpinski proposes a four-step model of melodic dictation.
+Summarized most recently in his _Aural Skills Acquisition_ [@karpinskiAuralSkillsAcquisition2000]--- though first presented in an earlier article [@karpinskiModelMusicPerception1990]--- Karpinski proposes a four-step model of melodic dictation.
 
 The four steps of Karpinski's model include
 
@@ -148,7 +149,7 @@ These are important to note since from an empirical standpoint, both the task as
 ### Cognitive
 
 Research from cognitive psychology suggests that individuals differ in their perceptual and cognitive abilities in ways that are both stable throughout a lifetime and are not easily influenced by short term training.
-When investigated on a large scale, these abilities-- such as general intelligence or working memory capacity-- predict a wealth of human behavior on a large scale ranging from longevity, annual income, ability to deal with stressful life events, and even the onset of Alzheimer's disease [@ritchieIntelligenceAllThat2015; @unsworthAutomatedVersionOperation2005]. 
+When investigated on a large scale, these abilities--- such as general intelligence or working memory capacity--- predict a wealth of human behavior on a large scale ranging from longevity, annual income, ability to deal with stressful life events, and even the onset of Alzheimer's disease [@ritchieIntelligenceAllThat2015; @unsworthAutomatedVersionOperation2005]. 
 Given the strength and generality of these predictors, it is worth investigating the extent that these abilities might contribute when investigating any modeling of melodic dictation, since melodic dictation depends on perceptual abilities.
 It is important to understand the degree to which these cognitive factors might influence aural skills abilities in order to ensure that the types of assessments that are given in music schools validly measure abilities that individuals have the ability to improve.
 If it is the case that much of the variance in a student's aural skills academic performance can be attributed to something the student has little control over, this would call for a serious upheaval of the current model of aural skills teaching and assessment.
@@ -162,7 +163,7 @@ These differences cannot be brushed aside because it is very difficult to mainta
 #### General Intelligence
 
 Attempting to measure and quantify aspects of cognition date back over a century.
-Even before concepts of intelligence were posited by Charles Spearman via his conception of _g_ [@spearmanGeneralIntelligenceObjectively1904], scientists were interested in establishing links between latent constructs they presumed to exist in the real world-- yet were impossible to measure directly like intelligence-- and physical manifestations that could be measured such as body morphology [@gouldMismeasureMan1996].
+Even before concepts of intelligence were posited by Charles Spearman via his conception of _g_ [@spearmanGeneralIntelligenceObjectively1904], scientists were interested in establishing links between latent constructs they presumed to exist in the real world--- yet were impossible to measure directly like intelligence--- and physical manifestations that could be measured such as body morphology [@gouldMismeasureMan1996].
 While scholars like Gould have documented and critiqued much of the history of early psychometrics^[Gould puts forward a complete, yet very charged reading of the early history of cognitive testing and his writings on the subject have been accused of falling prey to the same logic he rails against [@warneStephenJayGould2019]], central to this study are two important schools of thought on intelligence testing commonly discussed in the current literature.
 
 The first ideology originates from Cyril Burt and Charles Spearman who, in developing the statistical tool of factor analysis, posited that a construct of general intelligence exists as a part of human cognition and can be quantified.
@@ -322,12 +323,12 @@ Investigating musical talent as if it were a universal is a problem well documen
 In addition to individuals differing in their general musical abilities, individuals also differ in their abilities at the level of their aural skills.
 The same problems that arise in operationalizing musicianship are apparent in defining aural skills.
 Reviewing the literature, I operationalize aural skills to encompass the many skills often taught in music school, not restricting those skills to any particular sets of exercises.
-Some researchers like Chenette [@chenetteReframingAuralSkills2019] have taken stricter definitions attempting to state only skills that engage working memory capacity as those that are truly aural, but this operationalization would limit this review's scope. 
+Some researchers like @chenetteReframingAuralSkills2019 have taken stricter definitions attempting to state only skills that engage working memory capacity as those that are truly aural, but this operationalization would limit this review's scope. 
 
 Though not as heavily researched in the past few decades [@furbyEffectsPeerTutoring2016], there has been specific research looking at modeling how individuals perform in aural skills examinations. 
 @harrisonEffectsMusicalAptitude1994 examined the effect of aural skills training on undergraduate students by creating a latent variable model investigating musical aptitude, academic ability, musical expertise, and motivation to study music in a sample of 142 undergraduate students and claimed to be able to explain 73% of the variance in aural skills abilities using the variables measured. 
 Work from Colin Wright's dissertation incorporated a mixed methods approach investigating correlations between aural ability and their degree success as well as interviewing university students regarding the importance of aural skills education.
-In his work he found a general positive correlation between aural ability and measures of degree success.
+In his work he found a general positive correlation between aural ability and measures of degree success [@wrightInvestigatingAuralCase2016].
 
 While results are still mixed regarding how best to measure and assess this ability, the near ubiquity of aural skills education has resulted in many investigations of how people might improve their ability.
 As noted in @furbyEffectsPeerTutoring2016, researchers in the past have suggested a variety of techniques for improving abilities in melodic dictation by isolating rhythm and melody [@bantonRoleVisualAuditory1995; @blandSightSingingMelodic1984; @rootMethodicalSightSingingLessons1931], listening attentively to the melody before writing [@bantonRoleVisualAuditory1995], recognizing patterns [@bantonRoleVisualAuditory1995; @blandSightSingingMelodic1984; @rootMethodicalSightSingingLessons1931] and silently vocalizing while dictating [@klonoskiImprovingDictationAuralSkills2006].
@@ -371,7 +372,7 @@ This work was extended by @taylorStrategiesMemoryShort1983 who additionally inco
 
 What Ortmann referred to as determinants are structural aspects of the melody that can then be mapped to some aspect of perception. 
 While Ortmann used the term determinants, for the rest of this study I instead adopt the term feature which better reflects current terminology used to talk about these aspects of a melody. 
-Given Ortmann's design of using isorhythmic five tone sequences, his detriments-- or features-- under my taxonomy from Figure \@ref(fig:taxonomy) would generally include only structural aspects.
+Given Ortmann's design of using isorhythmic five tone sequences, his detriments--- or features--- under my taxonomy from Figure \@ref(fig:taxonomy) would generally include only structural aspects.
 Were Ortmann to have increased the tempo of the tones he presented, change the timbre of their instrumentation, or maybe provide participants more attempts to give their responses, he would have then been adjusting what I am referring to as the experimental features.
 In the section below, I first explore literature that set out to understand certain structural aspects of the musical side of my taxonomy, then begin to introduce studies that incorporate more parameters.
 
@@ -428,7 +429,7 @@ They additionally restricted their experimental melodies to those that were sing
 The authors found all three variables to be significant predictors with tonality explaining 13% of the variance, length explaining 3% of the variance and type of motion explaining 1% of the variance.
 The paper also claimed that people on average can hear and remember 10-16 notes with the quarter note set to 90 beats per minute. 
 
-Given the lack of consistent methodologies in administration and scoring of these experiments, it becomes difficult to find ways to generalize basic findings like expected effect sizes-- especially when the original materials and data have not been recorded-- but there are often interesting theoretical insights to be gleaned. 
+Given the lack of consistent methodologies in administration and scoring of these experiments, it becomes difficult to find ways to generalize basic findings like expected effect sizes--- especially when the original materials and data have not been recorded--- but there are often interesting theoretical insights to be gleaned. 
 For example, @ouraConstructingRepresentationMelody1991a used a sample of eight people to suggest that when taking melodic dictation, individuals use a system of pattern matching that interfaces with their long term memory in order to complete dictation tasks. 
 While this paper does not bring with it exhaustive evidence supporting this claim, the idea is explored in detail in final chapter when the idea of pattern matching is used in conjunction with Cowan's Embedded Process model of working memory [@cowanEvolvingConceptionsMemory1988].
 
@@ -469,7 +470,7 @@ While abstract concepts like intelligence and musical training are helpful conce
 
 The most illustrative example of this comes from the above study by @harrisonEffectsMusicalAptitude1994 who created a latent variable model of aural skills that was able to predict 74% of the variance in aural skills performance.
 This latent trait that the authors created is helpful in explaining the patterns of covariance in data, but this would be to reify a statistical abstraction and assume a stance of ontological realism as noted before [@borsboomTheoreticalStatusLatent2003]. 
-The idea of statistical reification has been critiqued outside of music [@gouldMismeasureMan1996; @kovacsProcessOverlapTheory2016] and additionally has served as the basis for an argument within music [@bakerExaminingMusicalSophistication2018a] .
+The idea of statistical reification has been critiqued outside of music [@gouldMismeasureMan1996; @kovacsProcessOverlapTheory2016] and additionally has served as the basis for an argument within music [@bakerExaminingMusicalSophistication2018a].
 
 The same arguments put forward in this literature are also relevant in research in aural skills.
 In order to have a complete, causal model of the processes underlying melodic dictation, it is important to understand melodic dictation as a set of musical abilities that are related to other musical abilities, though may not be unified as a monolithic whole form which individuals draw from in order to execute musical tasks such as melodic dictation.

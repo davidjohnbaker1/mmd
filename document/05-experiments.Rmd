@@ -340,7 +340,7 @@ knitr::kable(
 
 In this chapter, I investigated the extent to which both individual differences and abstracted musical features could be used to model results in melodic dictations. 
 In order to examine $H1$, I ran a linear mixed effects model in order discern any differences in melody difficulty. 
-As noted in Figure \@ref(fig:memodeltable2), both a significant main effect of Tonalness and Note Density was found, as well as a small interaction between the two variables suggesting evidence supporting rejecting $H2$’s null hypothesis.
+As noted in Figure \@ref(fig:megrid), both a significant main effect of Tonalness and Note Density was found, as well as a small interaction between the two variables suggesting evidence supporting rejecting $H2$’s null hypothesis.
 The interaction emerged from differences in melody means in the low density conditions with the melody with higher tonalness actually scoring higher in terms of number of errors.
 Subsequent adding of individual level predictors did result in a better fitting model. 
 

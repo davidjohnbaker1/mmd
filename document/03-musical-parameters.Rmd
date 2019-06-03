@@ -315,14 +315,24 @@ Additionally, FANTASTIC also provides a framework for comparing the features of 
 
 Returning to the Aural Skills classroom, many of these features can be used to approximate the previously established intuitions of complexity as agreed upon by theorists.
 Below in Figure \@ref(fig:corfeature), I plot the the mean difficulty and grammar ratings given by experts for each melody in the experimental sample against each of the output of FANTASTIC's features by correlating the two measures.
-Additionally, \@ref(tab:corfeaturetable) displays the five strongest positive and negatively correlated features of FANTASTIC's output with the ground truth, expert ratings. 
+Additionally, Table \@ref(tab:corfeaturetable) displays the five strongest positive and negatively correlated features of FANTASTIC's output with the ground truth, expert ratings. 
 
 ```{r corfeature, echo=FALSE, fig.cap="FANTASTIC Computations Correlated with Expert Ratings",fig.align='center', out.width="100%"}
 knitr::include_graphics("img/FantasticExpertPlot.png")
 ```
-
+\newpage
 ```{r corfeaturetable, echo=FALSE, fig.cap="Strongest Correlated FANTASTIC Features with Expert Ratings"}
-readr::read_rds("img/strongfeatures.rds")
+Feature <- c("i.abs.std","i.abs.mean","setp.cont.loc.var","i.entropy","p.entropy","d.median","d.eq.trans","mean.Yules.K","tonalness","mean.Simpsons.D")
+Difficulty <- c("0.89","0.87","0.97","0.85","0.84","-0.19","-0.20","-0.43","-0.48","-0.57")
+Grammar <- c("-0.82","-0.91","-0.74","-0.74","-0.72","0.22","0.04","0.40","0.44","0.50")
+
+cfeatable <- data.frame(Feature,Difficulty,Grammar)
+
+knitr::kable(
+cfeatable, booktabs = TRUE, caption =  "Strong Features", col.names = c("Feature","Difficulty","Grammar"), longtable = TRUE, linesep = ""
+  )
+
+#readr::read_rds("img/strongfeatures.rds")
 ```
 
 From Figure \@ref(fig:corfeature) and Table \@ref(tab:corfeaturetable), there are some features that share a strong relationship with the ground truth of the expert intuitions.
@@ -331,7 +341,7 @@ The first two features, ```i.abs.std``` and ```i.abs.mean``` are derived measure
 The other top three features, ```step.cont.loc.var```, ```i.entropy```, and ```p.entroy``` are related to entropy measures. 
 Of the negatively correlated features, two linguistically derived measures ```mean.Yules.K``` and ```mean.Simpsons.D``` both correlate with perceived difficulty, as does a measure of ```tonalness``` which in FANTASTIC is based on the Krumhansl key profiles [@krumhanslCognitiveFoundationsMusical2001].
 
-One problem in tackling this problem is that although many of these variables correlate strongly with our target variables-- both grammar and difficulty ratings-- one aspect not apparent in this analysis is the correlation between each of the features. 
+One problem in tackling this problem is that although many of these variables correlate strongly with our target variables--- both grammar and difficulty ratings--- one aspect not apparent in this analysis is the correlation between each of the features. 
 In order to demonstrate this, in Figure \@ref(fig:featurecorrelations) I visualize how a sample of features from the FANTASTIC toolbox correlate with one another with mode additionally included to highlight the breakdown of the corpus. 
 
 ```{r featurecorrelations, echo=FALSE, fig.cap="Visualization of the Problem of Melodic Feature Collinearity",fig.align='center', out.width="100%"}
@@ -339,7 +349,7 @@ knitr::include_graphics("img/FANTASTIC_collin.png")
 ```
 
 Among these variables, we see that there is a very high degree of correlation between many of the variables.
-For example, the two features inspired from linguistics-- ```mean.Yules.K``` and ```mean.Simpsons.D``` -- exhibit an alarming degree of correlation.
+For example, the two features inspired from linguistics--- ```mean.Yules.K``` and ```mean.Simpsons.D``` --- exhibit an alarming degree of correlation.
 We also see in this dataset evidence of the inappropriateness of including some variables such as ```d.median```, a measure relating rhythm.
 
 In \@ref(fig:featurecorrelations) we see computational evidence of claims made by @taylorStrategiesMemoryShort1983 when reviewing exactly what features might contribute to the degree of difficulty from a melodic dictation.
@@ -383,12 +393,12 @@ Unlike measures from FANTASTIC, which calculate summary statistics based on melo
 As mentioned in Chapter 2, the IDyOM model relies on two important theoretical assumptions based on two neural mechanisms involved in musical enculturation: the statistical learning hypothesis and probabilistic prediction hypothesis.
 According to Pearce, the Statistical Learning Hypothesis (SLH) states that:
 
-> musical enculturation is a process of implicit statistical learning in which listeners progressively acquire internal models of the statistical and structural regularities present in the musical styles to which they are exposed, over short (e.g., an individual piece of music) and long time scales (e.g., an entire lifetime of listening). p.2 (Pearce, 2018)
+> musical enculturation is a process of implicit statistical learning in which listeners progressively acquire internal models of the statistical and structural regularities present in the musical styles to which they are exposed, over short (e.g., an individual piece of music) and long time scales (e.g., an entire lifetime of listening). (Pearce, 2018)
 
 The logic here is that the more an individual is exposed to a musical style, the more they will implicitly understand its internal syntax and rules.
 The SLH leads the corroborating probabilistic prediction hypothesis which Pearce states as: 
 
-> while listening to new music, an enculturated listener applies models learned via the SLH to generate probabilistic predictions that enable them to organize and process their mental representations of the music and generate culturally appropriate responses. p.2 (Pearce, 2018).
+> while listening to new music, an enculturated listener applies models learned via the SLH to generate probabilistic predictions that enable them to organize and process their mental representations of the music and generate culturally appropriate responses. (Pearce, 2018).
 
 IDyOM works by providing the model with a musical corpus that it assumes is representative of a genre or musical style.
 This musical corpus then serves as training data to approximate either a listener's ground truth or musical style.
@@ -433,7 +443,7 @@ I then take the findings from this corpus analysis and how it can be applied in 
 ### Corpus Analysis
 
 In order to investigate the Frequency Facilitation Hypothesis, I conducted a corpus study using N = 622 melodies from the above using the Fifth Edition of the Berkowitz _A New Approach to Sight Singing_ [@berkowitzNewApproachSight2011].
-The FFH predicts that more frequently occurring patterns will result in lower information content-- a general by-product of quantifying musical feature tokens with information content in a multiple viewpoints framework-- and that these lower information content measures, when quantified, will be able to predict load on memory. 
+The FFH predicts that more frequently occurring patterns will result in lower information content--- a general by-product of quantifying musical feature tokens with information content in a multiple viewpoints framework--- and that these lower information content measures, when quantified, will be able to predict load on memory. 
 
 In order to examine this, I first extracted a series of the most frequently occurring melodic tri-grams from a subset of the _MeloSol_ corpus after transposing each melody to C major via the ```solfa``` tool in humdrum.
 I plot the resulting distributions of the top 1,000 patterns of each fixed order predictions below in \@ref(fig:bitriquint) and \@ref(fig:bitriquint2).
