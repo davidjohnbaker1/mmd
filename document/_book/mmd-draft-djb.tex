@@ -21,7 +21,7 @@
 \usepackage{microtype}
 \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\usepackage[left=1.5in, right=1.5in, top=2.5in, bottom=2.5in]{geometry}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
 \usepackage{hyperref}
 \hypersetup{unicode=true,
             pdfborder={0 0 0},
@@ -82,31 +82,60 @@
     \preauthor{}\postauthor{}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2019-06-03}
+    \date{2019-06-05}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
 \usepackage{setspace}
+\usepackage{xpatch}
+\usepackage{sectsty}
 \usepackage{graphicx}
 \usepackage{etoolbox}
 \makeatletter
-%\def\thm@space@setup{%
-%  \thm@preskip=8pt plus 2pt minus 4pt
-%  \thm@postskip=\thm@preskip
-%}
+
+%% Does something
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+
+
+% Works by
+% \xpatchcmd{\foo}{<search>}{<replace>}{<true>}{<false>}
+
 %% Supposed to remove Space at top of Chapters
 % https://tex.stackexchange.com/questions/309920/how-to-move-the-chapter-title-upwards-on-page
-\patchcmd{\@makechapterhead}{\vspace*{10\p@}}{}{}{}% Removes space above \chapter head
-\patchcmd{\@makeschapterhead}{\vspace*{10\p@}}{}{}{}% Removes space above \chapter* head
-%% Supposed to fix LoT and LoF
-% https://latex.org/forum/viewtopic.php?t=32162
-\patchcmd{\@chapter}{\addtocontents{lof}{\protect\addvspace{10\p@}}}{}{}{}% LoF
-\patchcmd{\@chapter}{\addtocontents{lot}{\protect\addvspace{10\p@}}}{}{}{}% LoT
-%% Remove headers?
-\pagestyle{empty} % Only some page numbers?!
+\xpatchcmd{\@makechapterhead}{\vspace*{50\p@}}{}{}{}% Removes space above \chapter head
+\xpatchcmd{\@makeschapterhead}{\vspace*{50\p@}}{}{}{}% Removes space above \chapter* head
+
+% Between Chapter and Chapter Title
+\xpatchcmd{\@makechapterhead}{\vspace*{20\p@}}{}{}{}% Removes space above \chapter head
+\xpatchcmd{\@makeschapterhead}{\vspace*{20\p@}}{}{}{}% Removes space above \chapter* head
+
+% Between Chapter Title and Text
+\xpatchcmd{\@makechapterhead}{\vspace*{40\p@}}{}{}{}% Removes space above \chapter head
+\xpatchcmd{\@makeschapterhead}{\vspace*{40\p@}}{}{}{}% Removes space above \chapter* head
+
+
+%\renewcommand{\@makechapterhead}[1]{%
+%  {\noindent\raggedright\normalfont% Alignment and font reset
+%   \huge\bfseries \@chapapp\space\thechapter~~#1\par\nobreak}% Formatting
+%  \vspace{\baselineskip}% ...just a little space
+%}
+
+
+%\renewcommand{\@makeschapterhead}[1]{%
+%  {\noindent\raggedright\normalfont% Alignment and font reset
+%   \huge\bfseries \@chapapp\space\thechapter~~#1\par\nobreak}% Formatting
+%  \vspace{\baselineskip}% ...just a little space
+%}
+
 \makeatother % remove for lsu
-%\raggedbottom % remove for LSu
+\raggedbottom % remove for LSu
 \frontmatter
+
+\chaptertitlefont{\large}
+\allsectionsfont{\normalsize}
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage{array}
@@ -124,9 +153,10 @@
 
 \begin{document}
 
-%\newpage\thispagestyle{empty}
+%\newpage
+\thispagestyle{empty}
 \begin{center}
-  MODELING MELODIC DICTATION\\
+MODELING MELODIC DICTATION\\
 \end{center}
 
 \begin{center}
@@ -162,7 +192,7 @@ August 2019\\
 % Copyright
 \newpage
 
-\thispagestyle{empty}
+\thispagestyle{plain}
 
 © 2019 copyright
 
@@ -170,23 +200,26 @@ David John Baker
 
 All rights reserved
 
-\cleardoublepage\newpage %%% KILL
-\newpage
+%\cleardoublepage\newpage %%% KILL
+%\newpage
 
+\let\cleardoublepage\clearpage
 % Dedication
 %% REMOVE DOUBLE COMMENTS FOR PRINTING
-%%\thispagestyle{empty}
-%%\chapter{Dedication}
+\pagestyle{empty}
+\chapter{Dedication}
 
-%%This dissertation is dedicated to my parents.
-%%Thank you for valuing education.
-%%Thank you for fostering my growth in every way possible.
-%%As a result, you've opened my eyes to the world.
+This dissertation is dedicated to my parents.
+Thank you for valuing education.
+Thank you for fostering my growth in every way possible.
+As a result, you've opened my eyes to the world.
 
+\let\cleardoublepage\clearpage
 %\setlength{\abovedisplayskip}{-5pt}
 %\setlength{\abovedisplayshortskip}{-5pt}
 
 % Acknowledgements
+\pagestyle{plain}
 \chapter{Acknowledgements}
 
 This dissertation would not have been possible without the support of a large community people over the past four years.
@@ -204,12 +237,20 @@ Without a commitment to free and open source software, this research and dissert
 Lastly, I want to thank all of my friends and family.
 Thank you to Will, Rory, Kevin, Amanda, Ryan, Chris, Peter, Jono, Kris, Sarah, Phil (also for the melodies!), Owen, Jacob, Michael, Adam, Mark, Sasha, Lauryn, Connor, Elizabeth, Tanush, Tony, Andrew, Anthony, Savanna, Jared, Matt, Andrew, Erin, Lizbeth, Greg, my parents John and Mary, and especially Evelyn for all your support and love.
 
+\let\cleardoublepage\clearpage
+
 {
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\listoftables
+\begin{doublespacing}
 \listoffigures
+\end{doublespacing}
+
+\begin{doublespacing}
+\listoftables
+\end{doublespacing}
+
 \cleardoublepage\newpage
 \chapter{Abstract}
 
@@ -596,7 +637,6 @@ Below I review the problems with chunking noted by \citet{cowanWorkingMemoryCapa
   \emph{Chunks may increase in size rapidly over time.} Three tones that are seemingly unrelated when played sequentially. E4, G5, C5 might enter sensory perception as three distinct tones, but then be fused together if understood as one chunk, a first inversion major triad.
 \item
   \emph{Information in working memory may benefit from rapid storage in long term memory.} Given the number of patterns that an individual learns and can understand, as soon as sensory information is fused, it could be encoded in long term memory. This is especially true if there is a salient feature in the incoming melodic information such as the immediate recognition of a mode or cadence.
-  \newpage
 \end{enumerate}
 
 The points by Cowan are important to acknowledge in that it is not possible to directly lift work and paradigms from working memory capacity to work in music perception.
@@ -848,6 +888,8 @@ This taxonomy does not consist of exclusive categories and certainly permits int
 Using this taxonomy as a guide, I then surveyed relevant literature in order to discuss how research might effectively quantify each parameter of relevance.
 Finally, I asserted that in order to provide a more cohesive research program going forward, research on melodic dictation should adopt a polymorphic view of musicianship in line with calls in the past to move away from high level modeling and focus as much as possible on the processes deemed relevant in melodic dictation.
 The rest of this dissertation will synthesize these areas and put forth novel research contributing to the modeling and subsequent understanding of melodic dictation.
+
+\let\cleardoublepage\clearpage
 
 \hypertarget{individual-differences}{%
 \chapter{Individual Differences}\label{individual-differences}}
@@ -1365,6 +1407,8 @@ In the final chapter, I incorporate this finding into a computational model of m
 In this chapter, I fit a series of structural equation models in order to investigate the degree to which baseline cognitive ability was able to predict performance on a musical perception task.
 My findings suggest that measures of working memory capacity are able to account for a large amount of variance beyond that of self report in tasks of musical perception.
 
+\clearpage
+
 \hypertarget{musical-differences}{%
 \chapter{Musical Differences}\label{musical-differences}}
 
@@ -1843,7 +1887,6 @@ Additionally, Table \ref{tab:corfeaturetable} displays the five strongest positi
 
 \caption{FANTASTIC Computations Correlated with Expert Ratings}\label{fig:corfeature}
 \end{figure}
-\newpage
 
 \begin{longtable}{lll}
 \caption{\label{tab:corfeaturetable}Strong Features}\\
@@ -2120,6 +2163,8 @@ Using the logic that sequences that are easier to process are more expected and 
 I relate this to the classroom by asserting that students could then take a melodic incipt approach to learning to dictate.
 I argued that using this smaller incipit based approach will allow students to not be overwhelmed in their learning by taking a more linear path to dictation, before moving on to more more ecologically valid melodies.
 
+\clearpage
+
 \hypertarget{chapterfour}{%
 \chapter{Hello, Corpus}\label{chapterfour}}
 
@@ -2336,6 +2381,8 @@ Regardless of the choice, future work from this should make this clear.
 In this, chapter I presented the \emph{MeloSol} corpus, new database of monophonic singing melodies.
 Comparing the corpus to others used in the literature, I demonstrated how the \emph{MeloSol} corpus might be used for future research.
 Throughout the chapter, I additionally described how the use of corpora in computational musicology often, though not directly, adopts the assumptions of a sample, population relationship.
+
+\clearpage
 
 \hypertarget{experiment}{%
 \chapter{Experiment}\label{experiment}}
@@ -2817,6 +2864,8 @@ Without having a pre-defined metric, scoring and thus grading will be subjected 
 Given all that has been put forward here, the research thus far still does not explain the underlying processes for melodic dictation.
 In this chapter, I have put forward two factors that help describe what contributes to this process using a principled experimental framework.
 
+\clearpage
+
 \hypertarget{computational-model}{%
 \chapter{Computational Model}\label{computational-model}}
 
@@ -3171,6 +3220,8 @@ Although many of these hypotheses might seem intuitive to any instructor who has
 Future research beyond this dissertation will explore predictions as a result of this work in more detail.
 Most importantly from a pedagogical standpoint, the model and underlying theory gives exact language to discuss the underlying processes of melodic dictation, which can serve as a valuable pedagogical and research contribution.
 
+\clearpage
+
 \hypertarget{summary}{%
 \chapter{Summary}\label{summary}}
 
@@ -3226,6 +3277,10 @@ Research at this intersection is important for aural skills pedagogues, as it he
 Research at this intersection is important for music psychologists, as questions of music perception are able to provide novel insights into cognition that might only be accessible through the complex phenomena which is music.
 Understanding the building blocks of aural skills is understanding the building blocks of musical perception.
 The two go hand in hand.
+
+\clearpage
+
+\clearpage
 
 \bibliography{book.bib,packages.bib,pkg-refs.bib}
 

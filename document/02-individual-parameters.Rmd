@@ -420,3 +420,6 @@ In the final chapter, I incorporate this finding into a computational model of m
 
 In this chapter, I fit a series of structural equation models in order to investigate the degree to which baseline cognitive ability was able to predict performance on a musical perception task. 
 My findings suggest that measures of working memory capacity are able to account for a large amount of variance beyond that of self report in tasks of musical perception.
+
+\cleardoublepage
+

@@ -1,6 +1,5 @@
 # Context, Literature, and Rationale {#intro}
 
-<!-- ## Melodic Dictation --> 
 ## Melodic Dictation
 
 Melodic dictation is the process in which an individual hears a melody, retains it in memory, and then uses their knowledge of Western musical notation to recreate the mental image of the melody on paper in a limited time frame.
@@ -248,7 +247,6 @@ Below I review the problems with chunking noted by @cowanWorkingMemoryCapacity20
 5. _There may be a complex network of associations._ If a set of pitches sounds like a similar set of pitches from long term memory, the incoming information cannot be understood as being separate units of working memory.
 6. _Chunks may increase in size rapidly over time._ Three tones that are seemingly unrelated when played sequentially. E4, G5, C5 might enter sensory perception as three distinct tones, but then be fused together if understood as one chunk, a first inversion major triad. 
 7. _Information in working memory may benefit from rapid storage in long term memory._ Given the number of patterns that an individual learns and can understand, as soon as sensory information is fused, it could be encoded in long term memory. This is especially true if there is a salient feature in the incoming melodic information such as the immediate recognition of a mode or cadence.
-\newpage
 
 The points by Cowan are important to acknowledge in that it is not possible to directly lift work and paradigms from working memory capacity to work in music perception.
 That said, the enormous number of theoretical frameworks put forward by the working memory literature when understood in conjunction with theories in music psychology, such as implicit statistical learning [@saffranStatisticalLearningTone1999], can provide for new, fruitful theories.
@@ -487,3 +485,5 @@ This taxonomy does not consist of exclusive categories and certainly permits int
 Using this taxonomy as a guide, I then surveyed relevant literature in order to discuss how research might effectively quantify each parameter of relevance.
 Finally, I asserted that in order to provide a more cohesive research program going forward, research on melodic dictation should adopt a polymorphic view of musicianship in line with calls in the past to move away from high level modeling and focus as much as possible on the processes deemed relevant in melodic dictation. 
 The rest of this dissertation will synthesize these areas and put forth novel research contributing to the modeling and subsequent understanding of melodic dictation.
+
+\let\cleardoublepage\clearpage

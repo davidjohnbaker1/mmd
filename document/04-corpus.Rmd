@@ -181,3 +181,6 @@ Regardless of the choice, future work from this should make this clear.
 In this, chapter I presented the _MeloSol_ corpus, new database of monophonic singing melodies.
 Comparing the corpus to others used in the literature, I demonstrated how the _MeloSol_ corpus might be used for future research.
 Throughout the chapter, I additionally described how the use of corpora in computational musicology often, though not directly, adopts the assumptions of a sample, population relationship.
+
+\cleardoublepage
+

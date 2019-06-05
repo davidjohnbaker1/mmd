@@ -52,3 +52,5 @@ Research at this intersection is important for aural skills pedagogues, as it he
 Research at this intersection is important for music psychologists, as questions of music perception are able to provide novel insights into cognition that might only be accessible through the complex phenomena which is music.
 Understanding the building blocks of aural skills is understanding the building blocks of musical perception. 
 The two go hand in hand.
+
+\cleardoublepage

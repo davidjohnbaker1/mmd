@@ -281,3 +281,6 @@ For example, the model predicts:
 Although many of these hypotheses might seem intuitive to any instructor who has taught aural skills before, work from this dissertation provides a theory as to why each appears to be true.
 Future research beyond this dissertation will explore predictions as a result of this work in more detail. 
 Most importantly from a pedagogical standpoint, the model and underlying theory gives exact language to discuss the underlying processes of melodic dictation, which can serve as a valuable pedagogical and research contribution. 
+
+\cleardoublepage
+

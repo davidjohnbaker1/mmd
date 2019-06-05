@@ -368,3 +368,5 @@ Importantly, if a researcher adopted this paradigm for investigating melodic dic
 Without having a pre-defined metric, scoring and thus grading will be subjected to the scorer's explicit or implicit biases.
 Given all that has been put forward here, the research thus far still does not explain the underlying processes for melodic dictation.
 In this chapter, I have put forward two factors that help describe what contributes to this process using a principled experimental framework.
+
+\cleardoublepage
