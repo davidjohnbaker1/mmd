@@ -51,17 +51,20 @@ All rights reserved
 \let\cleardoublepage\clearpage
 % Dedication
 %% REMOVE DOUBLE COMMENTS FOR PRINTING
-\pagestyle{empty}
-\chapter{Dedication}
+%\pagestyle{empty}
+%\chapter{Dedication}
 
-This dissertation is dedicated to my parents.
-Thank you for valuing education.
-Thank you for fostering my growth in every way possible.
-As a result, you've opened my eyes to the world.
+%This dissertation is dedicated to my parents.
+%Thank you for valuing education.
+%Thank you for fostering my growth in every way possible.
+%As a result, you've opened my eyes to the world.
 
 \let\cleardoublepage\clearpage
 %\setlength{\abovedisplayskip}{-5pt}
 %\setlength{\abovedisplayshortskip}{-5pt}
+
+\let\bforigdefault\bfdefault
+\addtocontents{toc}{\let\string\bfdefault\string\mddefault}
 
 % Acknowledgements
 \pagestyle{plain}

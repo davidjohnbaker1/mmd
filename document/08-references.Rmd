@@ -1,4 +1,7 @@
+\addcontentsline{toc}{chapter}{List of References}
+
 `r if (knitr:::is_html_output()) '
-# References {-}
+# List of References 
 '`
 \cleardoublepage
+

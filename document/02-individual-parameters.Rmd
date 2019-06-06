@@ -179,15 +179,13 @@ Processing errors for each task were positively skewed for the complex span task
 Positive and significant correlations were found between recall scores on the three tasks measuring working memory capacity (WMC) and the two measuring general fluid intelligence (Gf). 
 The WMC recall scores negatively correlated with the reported number of errors in each task, suggesting that rehearsal processes were effectively limited by the processing tasks [@unsworthComplexWorkingMemory2009].
 
-#### Measures
-
-##### Goldsmiths Musical Sophistication Index Self Report (Gold-MSI)
+#### Goldsmiths Musical Sophistication Index Self Report (Gold-MSI)
 
 Participants completed a 38-item self-report inventory and questions consisted of free response answers or choosing a
 selection on a likert scale that ranged from 1-7. [@mullensiefenMusicalityNonMusiciansIndex2014]. 
 The complete survey with all questions used can be found at goo.gl/dqtSaB.
 
-##### Tone Span (TSPAN)
+#### Tone Span (TSPAN)
 
 Participants completed a two-step math operation and then tried to remember three different tones in an alternating sequence (based upon @unsworthAutomatedVersionOperation2005). 
 The three tones were modeled after @liEstimatingWorkingMemory2013 using frequencies outside of the equal tempered system (200Hz, 375Hz, 702Hz). 
@@ -198,7 +196,7 @@ Tones were recalled in serial order by clicking on each tone’s box in the appr
 Tone recall was untimed.
 Participants were provided practice trials and similar to OSPAN, the test procedure included three trials of each list length (3-7 tones), totaling 75 letters and 75 math operations.
 
-##### Operation Span (OSPAN)
+#### Operation Span (OSPAN)
 
 Participants completed a two-step math operation and then tried to remember a letter (F, H, J, K, L, N, P, Q, R, S, T, or
 Y) in an alternating sequence [@unsworthAutomatedVersionOperation2005]. 
@@ -210,7 +208,7 @@ Letters were recalled in serial order by clicking on each letter’s box in the 
 Letter recall was untimed. 
 Participants were provided practice trials and similar to TSPAN, the test procedure included three trials of each list length (3-7 letters), totalling 75 letters and 75 math operations.
 
-##### Symmetry Span (SSPAN)
+#### Symmetry Span (SSPAN)
 
 Participants completed a two-step symmetry judgment and were prompted to recall a visually-presented red square on a 4 X 4 matrix [@unsworthAutomatedVersionOperation2005]. 
 In the symmetry judgment, participants were shown an 8 x 8 matrix with random squares filled in blank. 
@@ -221,7 +219,7 @@ During square recall, participants recalled the location of each red square by c
 Participants were provided practice trials to become familiar with the procedure. 
 The test procedure included three trials of each list length (2-5 red squares), totalling 42 squares and 42 symmetry judgments.
 
-##### Gold-MSI Beat Perception
+#### Gold-MSI Beat Perception
 
 Participants were presented 18 excerpts of instrumental music from rock, jazz, and classical genres [@mullensiefenMusicalityNonMusiciansIndex2014]. 
 Each excerpt was presented for 10 to 16s through headphones and had a tempo ranging from 86 to 165 beats per
@@ -231,7 +229,7 @@ Half of the excerpts had a beep on the beat, and the other half had a beep off t
 After each excerpt was played, participants answered if the metronome beep was on or off the beat and provided their confidence: “I am sure,” “I am somewhat sure,” or “I am guessing.” 
 The final score was the proportion of correct responses on the beat judgment.
 
-##### Gold-MSI Melodic Memory Test
+#### Gold-MSI Melodic Memory Test
 
 Participants were presented melodies between 10 to 17 notes long through headphones [@mullensiefenMusicalityNonMusiciansIndex2014].
 There were 12 trials, half with the same melody and half with different melodies. 
@@ -240,14 +238,14 @@ The second version was transposed to a different key.
 In half of the second version melodies, a note was changed a step up or down from its original position in the structure of the melody. 
 After each trial, participants answered if the two melodies had identical pitch interval structures.
 
-##### Number Series
+#### Number Series
 
 Participants were presented with a series of numbers with
 an underlying pattern. 
 After being given two example problems to solve, participants had 4.5 minutes in order to solve 15 different problems. 
 Each trial had 5 different options as possible answers [@thurstonePrimaryMentalAbilities1938].
 
-##### Raven’s Advanced Progressive Matrices
+#### Raven’s Advanced Progressive Matrices
 
 Participants were presented a 3 x 3 matrix of geometric patterns with one pattern missing [@ravenManualRavenProgressive1994]. Up to eight pattern choices were given at the bottom of the screen. 
 Participants had to click the choice that correctly fit the pattern above. 

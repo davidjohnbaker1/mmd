@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  5 JUN 2019 15:03
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  6 JUN 2019 08:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -958,19 +958,33 @@ Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box49
+\beforetitleunit=\skip65
+\aftertitleunit=\skip66
+\ttl@plus=\dimen175
+\ttl@minus=\dimen176
+\ttl@toksa=\toks31
+\titlewidth=\dimen177
+\titlewidthlast=\dimen178
+\titlewidthfirst=\dimen179
+)
+\chaptertopskip=\skip67
+\chapterbottomskip=\skip68
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen175
-\extrarowheight=\dimen176
-\NC@list=\toks31
-\extratabsurround=\skip65
-\backup@length=\skip66
+\col@sep=\dimen180
+\extrarowheight=\dimen181
+\NC@list=\toks32
+\extratabsurround=\skip69
+\backup@length=\skip70
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip67
+\multirow@colwidth=\skip71
 \multirow@cntb=\count177
-\multirow@dima=\skip68
-\bigstrutjot=\dimen177
+\multirow@dima=\skip72
+\bigstrutjot=\dimen182
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -979,8 +993,8 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Driver file: xetex.def on input line 225.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-\everycr=\toks32
-\minrowclearance=\skip69
+\everycr=\toks33
+\minrowclearance=\skip73
 )
 \rownum=\count178
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -992,19 +1006,19 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen178
-\WF@size=\dimen179
+\wrapoverhang=\dimen183
+\WF@size=\dimen184
 \c@WF@wrappedlines=\count179
-\WF@box=\box49
-\WF@everypar=\toks33
+\WF@box=\box50
+\WF@everypar=\toks34
 Package: wrapfig 2003/01/31  v 3.6
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count180
-\float@exts=\toks34
-\float@box=\box50
-\@float@everytoks=\toks35
-\@floatcapt=\box51
+\float@exts=\toks35
+\float@box=\box51
+\@float@everytoks=\toks36
+\@floatcapt=\box52
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
@@ -1016,10 +1030,10 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
 Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box52
+\@vwid@box=\box53
 \sift@deathcycles=\count181
-\@vwid@loff=\dimen180
-\@vwid@roff=\dimen181
+\@vwid@loff=\dimen185
+\@vwid@roff=\dimen186
 )
 \c@taburow=\count182
 \tabu@nbcols=\count183
@@ -1027,26 +1041,26 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@Xcol=\count185
 \tabu@alloc=\count186
 \tabu@nested=\count187
-\tabu@target=\dimen182
-\tabu@spreadtarget=\dimen183
-\tabu@naturalX=\dimen184
-\tabucolX=\dimen185
-\tabu@Xsum=\dimen186
-\extrarowdepth=\dimen187
-\abovetabulinesep=\dimen188
-\belowtabulinesep=\dimen189
-\tabustrutrule=\dimen190
-\tabu@thebody=\toks36
-\tabu@footnotes=\toks37
-\tabu@box=\box53
-\tabu@arstrutbox=\box54
-\tabu@hleads=\box55
-\tabu@vleads=\box56
-\tabu@cellskip=\skip70
+\tabu@target=\dimen187
+\tabu@spreadtarget=\dimen188
+\tabu@naturalX=\dimen189
+\tabucolX=\dimen190
+\tabu@Xsum=\dimen191
+\extrarowdepth=\dimen192
+\abovetabulinesep=\dimen193
+\belowtabulinesep=\dimen194
+\tabustrutrule=\dimen195
+\tabu@thebody=\toks37
+\tabu@footnotes=\toks38
+\tabu@box=\box54
+\tabu@arstrutbox=\box55
+\tabu@hleads=\box56
+\tabu@vleads=\box57
+\tabu@cellskip=\skip74
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box57
+\@tempboxb=\box58
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/threeparttablex/threeparttablex.s
 ty
@@ -1056,52 +1070,52 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (/usr/local/texlive/2017/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\TPTL@width=\skip71
+\TPTL@width=\skip75
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box58
-\UL@hyphenbox=\box59
-\UL@skip=\skip72
-\UL@hook=\toks38
-\UL@height=\dimen191
+\UL@box=\box59
+\UL@hyphenbox=\box60
+\UL@skip=\skip76
+\UL@hook=\toks39
+\UL@height=\dimen196
 \UL@pe=\count188
-\UL@pixel=\dimen192
-\ULC@box=\box60
+\UL@pixel=\dimen197
+\ULC@box=\box61
 Package: ulem 2012/05/18
-\ULdepth=\dimen193
+\ULdepth=\dimen198
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen194
+\rotheadsize=\dimen199
 \c@nlinenum=\count189
-\TeXr@lab=\toks39
+\TeXr@lab=\toks40
 ) (./mmd-draft-djb.aux)
 \openout1 = `mmd-draft-djb.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 154.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 154.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 238.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 238.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Info: Redefining \microtypecontext on input line 154.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Info: Redefining \microtypecontext on input line 238.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1146,8 +1160,8 @@ ern Roman (RS)
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 154.
+\AtBeginShipoutBox=\box62
+Package hyperref Info: Link coloring OFF on input line 238.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1155,9 +1169,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count190
 )
-LaTeX Info: Redefining \ref on input line 154.
-LaTeX Info: Redefining \pageref on input line 154.
-LaTeX Info: Redefining \nameref on input line 154.
+LaTeX Info: Redefining \ref on input line 238.
+LaTeX Info: Redefining \pageref on input line 238.
+LaTeX Info: Redefining \nameref on input line 238.
 (./mmd-draft-djb.out) (./mmd-draft-djb.out)
 \@outlinefile=\write3
 \openout3 = `mmd-draft-djb.out'.
@@ -1170,10 +1184,8 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 ] [2] [3
 
-] [4
-
 ] (./mmd-draft-djb.toc
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 2.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1181,54 +1193,54 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 5.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 2.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 5.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 2.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 5.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 2.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 5.
+(Font)              <12> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 5.
+(Font)              <8> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5.
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+(Font)              <6> on input line 2.
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [5
+) [4
 
 ])
 \tf@toc=\write4
 \openout4 = `mmd-draft-djb.toc'.
 
-[6] (./mmd-draft-djb.lof [7
+[5] (./mmd-draft-djb.lot)
+\tf@lot=\write5
+\openout5 = `mmd-draft-djb.lot'.
+
+[6
+
+] (./mmd-draft-djb.lof [7
 
 ] [8])
-\tf@lof=\write5
-\openout5 = `mmd-draft-djb.lof'.
+\tf@lof=\write6
+\openout6 = `mmd-draft-djb.lof'.
 
-[9] (./mmd-draft-djb.lot)
-\tf@lot=\write6
-\openout6 = `mmd-draft-djb.lot'.
-
-[10
-
-] [11
+[9] [10
 
 
 ]
@@ -1239,11 +1251,11 @@ Chapter 1.
 ] [2] [3]
 Chapter 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 343.
+(Font)              <10> on input line 437.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 343.
+(Font)              <7> on input line 437.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 343.
+(Font)              <5> on input line 437.
 [4
 
 ]
@@ -1261,11 +1273,15 @@ File: img/wm_models.png Graphic file (type QTm)
 Chapter 3.
 [29
 
-] [30] [31] [32] [33] [34] [35] [36] [37] [38]
+] [30] [31] [32] [33] [34] [35]
+Underfull \hbox (badness 1270) in paragraph at lines 1185--1185
+|[]\TU/lmr/bx/n/14.4 Goldsmiths Musical Sophistication Index Self Report
+ []
+
+[36] [37] [38]
 File: img/measurementModel.png Graphic file (type QTm)
-<use  "img/measurementModel.png" > [39] [40]
+<use  "img/measurementModel.png" > [39] [40] [41]
 Missing character: There is no χ in font [lmroman12-regular]:mapping=tex-text;!
-[41]
 File: img/sem1.png Graphic file (type QTm)
 <use  "img/sem1.png" >
 File: img/sem2.png Graphic file (type QTm)
@@ -1275,15 +1291,15 @@ File: img/sem3.png Graphic file (type QTm)
 File: img/sem4.png Graphic file (type QTm)
 <use  "img/sem4.png" >
 File: img/sem5.png Graphic file (type QTm)
-<use  "img/sem5.png" > [42] [43] [44] [45] [46] [47] [48] [49]
+<use  "img/sem5.png" > [42] [43] [44] [45] [46] [47] [48] [49] [50]
 Chapter 4.
 File: img/musicalpuzzle/MP2/MP_X-1.png Graphic file (type QTm)
 <use  "img/musicalpuzzle/MP2/MP_X-1.png" >
 File: img/musicalpuzzle/MP2/MP_Y-1.png Graphic file (type QTm)
-<use  "img/musicalpuzzle/MP2/MP_Y-1.png" > [50
+<use  "img/musicalpuzzle/MP2/MP_Y-1.png" > [51
 
 
-] [51] [52] [53]
+] [52] [53]
 File: img/ageedsurveydistribution.png Graphic file (type QTm)
 <use  "img/ageedsurveydistribution.png" >
 File: img/survey_melodies/Berkowitz3.png Graphic file (type QTm)
@@ -1325,55 +1341,52 @@ File: img/survey_melodies/Berkowitz622.png Graphic file (type QTm)
 File: img/survey_melodies/Berkowitz627.png Graphic file (type QTm)
 <use  "img/survey_melodies/Berkowitz627.png" >
 File: img/survey_melodies/Berkowitz629.png Graphic file (type QTm)
-<use  "img/survey_melodies/Berkowitz629.png" > [54] [55] [56] [57] [58] [59]
+<use  "img/survey_melodies/Berkowitz629.png" > [54] [55] [56] [57] [58] [59] [6
+0]
 File: img/difficulty_plot.png Graphic file (type QTm)
 <use  "img/difficulty_plot.png" >
 File: img/grammar_plot.png Graphic file (type QTm)
-<use  "img/grammar_plot.png" >
+<use  "img/grammar_plot.png" > [61] [62]
 File: img/grammar_difficulty_correlation_plot.png Graphic file (type QTm)
-<use  "img/grammar_difficulty_correlation_plot.png" > [60] [61] [62] [63] [64] 
-[65] [66]
+<use  "img/grammar_difficulty_correlation_plot.png" > [63] [64] [65] [66]
 File: img/FantasticExpertPlot.png Graphic file (type QTm)
-<use  "img/FantasticExpertPlot.png" >
+<use  "img/FantasticExpertPlot.png" > [67]
 File: img/FANTASTIC_collin.png Graphic file (type QTm)
 <use  "img/FANTASTIC_collin.png" >
-Overfull \vbox (356.78226pt too high) has occurred while \output is active []
-
-[67]
 File: img/univariate_cow.png Graphic file (type QTm)
-<use  "img/univariate_cow.png" > [68] [69] [70] [71]
+<use  "img/univariate_cow.png" > [68] [69] [70] [71] [72]
 File: img/trigrams.png Graphic file (type QTm)
 <use  "img/trigrams.png" >
 File: img/bitriquint.png Graphic file (type QTm)
-<use  "img/bitriquint.png" >
+<use  "img/bitriquint.png" > [73] [74]
 File: img/five_incipit_distiribution.png Graphic file (type QTm)
 <use  "img/five_incipit_distiribution.png" >
 File: img/tri_distribution.png Graphic file (type QTm)
-<use  "img/tri_distribution.png" > [72] [73] [74]
+<use  "img/tri_distribution.png" >
 File: img/cum_grid_plot.png Graphic file (type QTm)
-<use  "img/cum_grid_plot.png" >
+<use  "img/cum_grid_plot.png" > [75] [76]
 File: img/model_comparsion_gg.png Graphic file (type QTm)
-<use  "img/model_comparsion_gg.png" > [75] [76] [77] [78]
+<use  "img/model_comparsion_gg.png" > [77] [78] [79]
 Chapter 5.
-[79
+[80
 
 
-] [80]
+] [81]
 File: img/melosoldescriptpanel.png Graphic file (type QTm)
-<use  "img/melosoldescriptpanel.png" > [81] [82] [83]
+<use  "img/melosoldescriptpanel.png" > [82] [83]
 File: img/comparative_descritivepanel.png Graphic file (type QTm)
-<use  "img/comparative_descritivepanel.png" > [84]
+<use  "img/comparative_descritivepanel.png" > [84] [85]
 File: img/corporaemergent.png Graphic file (type QTm)
-<use  "img/corporaemergent.png" > [85]
+<use  "img/corporaemergent.png" >
 File: img/huronrecreation.png Graphic file (type QTm)
 <use  "img/huronrecreation.png" >
 File: img/krumpanel.png Graphic file (type QTm)
-<use  "img/krumpanel.png" > [86] [87] [88]
+<use  "img/krumpanel.png" > [86] [87] [88] [89] [90] [91]
 Chapter 6.
-[89
+[92
 
 
-] [90] [91] [92]
+] [93] [94] [95]
 File: img/Berkowitz34.png Graphic file (type QTm)
 <use  "img/Berkowitz34.png" >
 File: img/Berkowitz95.png Graphic file (type QTm)
@@ -1381,7 +1394,7 @@ File: img/Berkowitz95.png Graphic file (type QTm)
 File: img/Berkowitz112.png Graphic file (type QTm)
 <use  "img/Berkowitz112.png" >
 File: img/BerkowitzNo9.png Graphic file (type QTm)
-<use  "img/BerkowitzNo9.png" > [93] [94] [95] [96]
+<use  "img/BerkowitzNo9.png" > [96] [97] [98] [99]
 File: img/melody_difficulty.png Graphic file (type QTm)
 <use  "img/melody_difficulty.png" >
 File: img/melody_differences.png Graphic file (type QTm)
@@ -1412,57 +1425,57 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[97] [98] [99] [100] [101] [102] [103]
+[100] [101] [102] [103] [104] [105] [106]
 Chapter 7.
-[104
+[107
 
 
-] [105] [106] [107]
+] [108] [109] [110]
 File: img/SchubertF.pdf Graphic file (type QTm)
 <use  "img/SchubertF.pdf" >
 File: img/SchubertPlotNew.png Graphic file (type QTm)
-<use  "img/SchubertPlotNew.png" > [108]
+<use  "img/SchubertPlotNew.png" > [111]
 File: img/pk_grampanel.png Graphic file (type QTm)
-<use  "img/pk_grampanel.png" > [109] [110] [111]
+<use  "img/pk_grampanel.png" > [112] [113] [114]
 File: img/Model.pdf Graphic file (type QTm)
 <use  "img/Model.pdf" >
 File: img/Model Graphic.pdf Graphic file (type QTm)
-<use  "img/Model Graphic.pdf" > [112] [113] [114] [115] [116]
+<use  "img/Model Graphic.pdf" > [115] [116] [117] [118] [119]
 Chapter 8.
-[117
+[120
 
 
-] [118] (./mmd-draft-djb.bbl [119
+] [121] (./mmd-draft-djb.bbl [122
 
 
 
-] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130] [131] [132]
-[133] [134]) [135]
+] [123] [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135]
+[136] [137]) [138]
 File: img/karpinskipermission.png Graphic file (type QTm)
-<use  "img/karpinskipermission.png" > [136
+<use  "img/karpinskipermission.png" > [139
 
 
 ]
 File: img/cownpermission.png Graphic file (type QTm)
-<use  "img/cownpermission.png" > [137
+<use  "img/cownpermission.png" > [140
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3314.
-[138
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3407.
+[141
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3314.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3407.
 (./mmd-draft-djb.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3314.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3314.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3407.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3407.
  ) 
 Here is how much of TeX's memory you used:
- 24499 strings out of 493005
- 457432 string characters out of 6134596
- 592692 words of memory out of 5000000
- 28082 multiletter control sequences out of 15000+600000
- 28509 words of font info for 61 fonts, out of 8000000 for 9000
+ 24769 strings out of 493005
+ 460882 string characters out of 6134596
+ 597827 words of memory out of 5000000
+ 28350 multiletter control sequences out of 15000+600000
+ 28493 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 41i,16n,54p,10411b,917s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,16n,54p,10411b,912s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on mmd-draft-djb.pdf (149 pages).
+Output written on mmd-draft-djb.pdf (151 pages).

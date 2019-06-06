@@ -5,7 +5,49 @@
 \usepackage{sectsty}
 \usepackage{graphicx}
 \usepackage{etoolbox}
+\usepackage{titlesec}
 \makeatletter
+
+%-------------------------------------------------------------------------
+% Makes all titles size 14
+%-----------------------------------------------------------------------
+
+\titleformat*{\section}{\large\bfseries}
+\titleformat*{\subsection}{\large\bfseries}
+\titleformat*{\subsubsection}{\large\bfseries}
+\titleformat*{\paragraph}{\large\bfseries}
+\titleformat*{\subparagraph}{\large\bfseries}
+
+
+\chaptertitlefont{\large}
+%-------------------------------------------------------------------------
+% Makes List of Figures and Tables size 14
+%-----------------------------------------------------------------------
+
+%\renewcommand\cftloftitlefont{\large}
+%\renewcommand\cftlottitlefont{\large}
+
+%------------------------------------------------------------------------
+%% ---- Adds ...s to everything
+%------------------------------------------------------------------------
+
+\renewcommand*\l@chapter[2]{%
+   \ifnum \c@tocdepth >\m@ne
+     \addpenalty{-\@highpenalty}%
+     \vskip 1.0em \@plus\p@
+     \setlength\@tempdima{1.5em}%
+     \begingroup
+       \parindent \z@ \rightskip \@pnumwidth
+       \parfillskip -\@pnumwidth
+       \leavevmode \bfseries
+       \advance\leftskip\@tempdima
+       \hskip -\leftskip
+       #1\nobreak\normalfont\leaders\hbox{$\m@th
+         \mkern \@dotsep mu\hbox{.}\mkern \@dotsep
+         mu$}\hfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+       \penalty\@highpenalty
+     \endgroup
+   \fi}
 
 %% Does something
 \def\thm@space@setup{%
@@ -13,23 +55,66 @@
   \thm@postskip=\thm@preskip
 }
 
+\newlength{\chaptertopskip}
+\newlength{\chapterbottomskip}
+\setlength{\chaptertopskip}{10pt}
+\setlength{\chapterbottomskip}{10pt}
+
+% Level 1 Headings
+\def\@makechapterhead#1{%
+  \vspace*{\chaptertopskip}%
+  {\parindent \z@ \raggedright \large %normalfont
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+        \large\bfseries \@chapapp\space \thechapter\
+%        \par\nobreak
+%        \vskip 20\p@
+      \fi
+    \fi
+    \interlinepenalty\@M
+    \large \bfseries #1\par\nobreak
+    \vskip \chapterbottomskip
+  }}
+
+% Level 2 Headings
+\def\@makesectionhead#1{%
+  \vspace*{\chaptertopskip}%
+  {\parindent \z@ \raggedright \large %normalfont
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+        \large\bfseries \@chapapp\space \thechapter\
+%        \par\nobreak
+%        \vskip 20\p@
+      \fi
+    \fi
+    \interlinepenalty\@M
+    \large \bfseries #1\par\nobreak
+    \vskip \chapterbottomskip
+  }}
+
+
 
 % Works by
 % \xpatchcmd{\foo}{<search>}{<replace>}{<true>}{<false>}
 
 %% Supposed to remove Space at top of Chapters
+
 % https://tex.stackexchange.com/questions/309920/how-to-move-the-chapter-title-upwards-on-page
-\xpatchcmd{\@makechapterhead}{\vspace*{50\p@}}{}{}{}% Removes space above \chapter head
-\xpatchcmd{\@makeschapterhead}{\vspace*{50\p@}}{}{}{}% Removes space above \chapter* head
+%\xpatchcmd{\@makechapterhead}{\vspace*{50\p@}}{}{}{}% Removes space above \chapter head
+%\xpatchcmd{\@makeschapterhead}{\vspace*{50\p@}}{}{}{}% Removes space above \chapter* head
 
 % Between Chapter and Chapter Title
-\xpatchcmd{\@makechapterhead}{\vspace*{20\p@}}{}{}{}% Removes space above \chapter head
-\xpatchcmd{\@makeschapterhead}{\vspace*{20\p@}}{}{}{}% Removes space above \chapter* head
+%\xpatchcmd{\@makechapterhead}{\vspace*{20\p@}}{}{}{}% Removes space above \chapter head
+%\xpatchcmd{\@makeschapterhead}{\vspace*{20\p@}}{}{}{}% Removes space above \chapter* head
 
 % Between Chapter Title and Text
-\xpatchcmd{\@makechapterhead}{\vspace*{40\p@}}{}{}{}% Removes space above \chapter head
-\xpatchcmd{\@makeschapterhead}{\vspace*{40\p@}}{}{}{}% Removes space above \chapter* head
+%\xpatchcmd{\@makechapterhead}{\vspace*{40\p@}}{}{}{}% Removes space above \chapter head
+%\xpatchcmd{\@makeschapterhead}{\vspace*{40\p@}}{}{}{}% Removes space above \chapter* head
 
+
+
+%\renewcommand{\cftsecfont}{}% Remove \bfseries from section titles in ToC
+%\renewcommand{\cftsecpagefont}{}% Remove \bfseries from section titles' page in ToC
 
 %\renewcommand{\@makechapterhead}[1]{%
 %  {\noindent\raggedright\normalfont% Alignment and font reset
@@ -48,5 +133,4 @@
 \raggedbottom % remove for LSu
 \frontmatter
 
-\chaptertitlefont{\large}
-\allsectionsfont{\normalsize}
+\renewcommand\bibname{List of References}
