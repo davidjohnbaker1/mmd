@@ -6,6 +6,7 @@
 \usepackage{graphicx}
 \usepackage{etoolbox}
 \usepackage{titlesec}
+\usepackage{tocloft}    % tocloft for table of contents style
 \makeatletter
 
 %-------------------------------------------------------------------------
@@ -23,6 +24,18 @@
 %-------------------------------------------------------------------------
 % Makes List of Figures and Tables size 14
 %-----------------------------------------------------------------------
+\setlength{\cftbeforetoctitleskip}{-1cm}
+\setlength{\cftbeforeloftitleskip}{-1cm}
+\setlength{\cftbeforelottitleskip}{-1cm}
+
+\setlength{\cftaftertoctitleskip}{-0.1cm} % .25 is ok
+\setlength{\cftafterloftitleskip}{-0.1cm}
+\setlength{\cftafterlottitleskip}{-0.1cm}
+
+\renewcommand{\cfttoctitlefont}{\large\bfseries}
+\renewcommand{\cftloftitlefont}{\large\bfseries}
+\renewcommand{\cftlottitlefont}{\large\bfseries}
+
 
 %\renewcommand\cftloftitlefont{\large}
 %\renewcommand\cftlottitlefont{\large}
@@ -57,8 +70,8 @@
 
 \newlength{\chaptertopskip}
 \newlength{\chapterbottomskip}
-\setlength{\chaptertopskip}{10pt}
-\setlength{\chapterbottomskip}{10pt}
+\setlength{\chaptertopskip}{-1.5cm} % 1cm close
+\setlength{\chapterbottomskip}{5pt}
 
 % Level 1 Headings
 \def\@makechapterhead#1{%
@@ -67,8 +80,8 @@
     \ifnum \c@secnumdepth >\m@ne
       \if@mainmatter
         \large\bfseries \@chapapp\space \thechapter\
-%        \par\nobreak
-%        \vskip 20\p@
+   %     \par\nobreak % here
+   %    \vskip 20\p@ % here
       \fi
     \fi
     \interlinepenalty\@M
@@ -91,7 +104,6 @@
     \large \bfseries #1\par\nobreak
     \vskip \chapterbottomskip
   }}
-
 
 
 % Works by

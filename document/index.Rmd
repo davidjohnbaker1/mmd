@@ -21,10 +21,11 @@ description: "This dissertation models both individual and musical features that
 \addcontentsline{toc}{chapter}{\listtablename}
 \addcontentsline{toc}{chapter}{\listfigurename}
 
+\newpage
 \begin{doublespacing}
 \listoftables
 \end{doublespacing}
-
+\newpage
 \begin{doublespacing}
 \listoffigures
 \end{doublespacing}
@@ -46,7 +47,6 @@ In my fifth chapter, I introduce the MeloSol corpus, a new collection of 783 dig
 In the sixth chapter, I synthesize the previous research in a melodic dictation experiment to show how using robust statistical methods can be used model melodic dictation. 
 Finally, in my seventh chapter, I introduce a computational, cognitive model of melodic dictation with the goal of helping explain how students improve at melodic dictation. 
 I demonstrate how modeling the cognitive decision process during melodic dictation helps provide a precise framework for pedagogues to understand student’s inner cognition during melodic dictation and can help inform teaching practice. 
-
 \mainmatter 
 \addtocontents{toc}{\let\string\bfdefault\string\bforigdefault}
 

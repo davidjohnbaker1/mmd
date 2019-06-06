@@ -92,6 +92,7 @@
 \usepackage{graphicx}
 \usepackage{etoolbox}
 \usepackage{titlesec}
+\usepackage{tocloft}    % tocloft for table of contents style
 \makeatletter
 
 %-------------------------------------------------------------------------
@@ -109,6 +110,18 @@
 %-------------------------------------------------------------------------
 % Makes List of Figures and Tables size 14
 %-----------------------------------------------------------------------
+\setlength{\cftbeforetoctitleskip}{-1cm}
+\setlength{\cftbeforeloftitleskip}{-1cm}
+\setlength{\cftbeforelottitleskip}{-1cm}
+
+\setlength{\cftaftertoctitleskip}{-0.1cm} % .25 is ok
+\setlength{\cftafterloftitleskip}{-0.1cm}
+\setlength{\cftafterlottitleskip}{-0.1cm}
+
+\renewcommand{\cfttoctitlefont}{\large\bfseries}
+\renewcommand{\cftloftitlefont}{\large\bfseries}
+\renewcommand{\cftlottitlefont}{\large\bfseries}
+
 
 %\renewcommand\cftloftitlefont{\large}
 %\renewcommand\cftlottitlefont{\large}
@@ -143,8 +156,8 @@
 
 \newlength{\chaptertopskip}
 \newlength{\chapterbottomskip}
-\setlength{\chaptertopskip}{10pt}
-\setlength{\chapterbottomskip}{10pt}
+\setlength{\chaptertopskip}{-1.5cm} % 1cm close
+\setlength{\chapterbottomskip}{5pt}
 
 % Level 1 Headings
 \def\@makechapterhead#1{%
@@ -153,8 +166,8 @@
     \ifnum \c@secnumdepth >\m@ne
       \if@mainmatter
         \large\bfseries \@chapapp\space \thechapter\
-%        \par\nobreak
-%        \vskip 20\p@
+   %     \par\nobreak % here
+   %    \vskip 20\p@ % here
       \fi
     \fi
     \interlinepenalty\@M
@@ -177,7 +190,6 @@
     \large \bfseries #1\par\nobreak
     \vskip \chapterbottomskip
   }}
-
 
 
 % Works by
@@ -315,7 +327,7 @@ Daniel Shanahan, my main supervisor throughout my doctoral work, who provided co
 
 Secondly, I want to thank the entire Louisiana State University community for making me feel welcomed and supported.
 The people make the place and everyone I met during my time in Baton Rouge existed as a constant source of knowledge and inspiration throughout my time as a student.
-This includes the Music Cognition and Computation Lab at LSU, the weekly Tin Roof Trivia group, and professors like Jason Harman  who opened the door for me every time I knocked.
+This includes the Music Cognition and Computation Lab at LSU, the weekly Tin Roof Trivia group, and professors like Jeffrey Perry and Jason Harman who opened the door for me every time I knocked.
 
 Thirdly, I want to especially thank those who either went out of their way to help me learn the more technical aspects of research who often go unacknowledged.
 Craig Sapp, for dealing with me as I learned about Humdrum, Yihui Xie for writing the bookdown software I used to write this dissertation, the \#rstats community, specifically Hadley Wickham, for making R so accessible, and Daniel Müllensiefen for starting me on my journey into programming.
@@ -323,8 +335,8 @@ Without a commitment to free and open source software, this research and dissert
 
 Lastly, I want to thank all of my friends and family.
 Thank you to Will, Rory, Kevin, Amanda, Ryan, Chris, Peter, Jono, Kris, Sarah, Phil (also for the melodies!), Owen, Jacob, Michael, Adam, Mark, Sasha, Lauryn, Connor, Elizabeth, Tanush, Tony, Andrew, Anthony, Savanna, Jared, Matt, Andrew, Erin, Lizbeth, Greg, my parents John and Mary, and especially Evelyn for all your support and love.
-
 \let\cleardoublepage\clearpage
+\newpage
 
 {
 \setcounter{tocdepth}{1}
@@ -336,10 +348,11 @@ Thank you to Will, Rory, Kevin, Amanda, Ryan, Chris, Peter, Jono, Kris, Sarah, P
 \addcontentsline{toc}{chapter}{\listtablename}
 \addcontentsline{toc}{chapter}{\listfigurename}
 
+\newpage
 \begin{doublespacing}
 \listoftables
 \end{doublespacing}
-
+\newpage
 \begin{doublespacing}
 \listoffigures
 \end{doublespacing}
@@ -360,8 +373,8 @@ In my fifth chapter, I introduce the MeloSol corpus, a new collection of 783 dig
 In the sixth chapter, I synthesize the previous research in a melodic dictation experiment to show how using robust statistical methods can be used model melodic dictation.
 Finally, in my seventh chapter, I introduce a computational, cognitive model of melodic dictation with the goal of helping explain how students improve at melodic dictation.
 I demonstrate how modeling the cognitive decision process during melodic dictation helps provide a precise framework for pedagogues to understand student's inner cognition during melodic dictation and can help inform teaching practice.
-
 \mainmatter 
+
 \addtocontents{toc}{\let\string\bfdefault\string\bfdefault}
 
 \hypertarget{significance-of-the-study}{%
